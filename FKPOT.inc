@@ -1,0 +1,67 @@
+* -----------------------------------------------------
+* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
+* Erwin Kalvelagen, GAMS Development Corp.
+* -----------------------------------------------------
+* Application: Microsoft Excel
+* Version:     15.0
+* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
+* Sheet:       26(Sheet33)
+* Range:       $A$1:$G$56
+* -----------------------------------------------------
+* Fuel potentials specified at geographical level.                                                                                           
+* The fuel potential is specified as an upper limit on the countries'installed                                                               
+* generation capacity relative to the individual fuel type.                                                                                  
+* For now no limitations on fuel potential                                                                                                   
+                                                                                                                                             
+* Note: The value 0 or white space implies no restriction. The value 'eps' implies zero MW.                                                  
+                                                                                                                                             
+TABLE FKPOT(CCCRRRAAA,FFF)       'Fuel potential restriction by geography (MW)'                                                              
+                                                                                            NUCLEAR   LIGNITE ORIMULSION SHALE PEAT          
+DENMARK                                                                                     0         0       0          0     0             
+FINLAND                                                                                     0         0       0          0     0             
+GERMANY                                                                                     0         0       0          0     0             
+NETHERLANDS                                                                                 0         0       0          0     0             
+NORWAY                                                                                      0         0       0          0     0             
+SWEDEN                                                                                      0         0       0          0     0             
+ESTONIA                                                                                     0         0       0          0     0             
+LATVIA                                                                                      0         0       0          0     0             
+LITHUANIA                                                                                   0         0       0          0     0             
+POLAND                                                                                      0         0       0          0     0             
+                                                                                                                                             
++                                                                                           WIND      WATER   SUN        STRAW WOOD WOODWASTE
+DENMARK                                                                                     0         0       0          0     0    0        
+FINLAND                                                                                     0         0       0          0     0    0        
+GERMANY                                                                                     0         0       0          0     0    0        
+NETHERLANDS                                                                                 0         0       0          0     0    0        
+NORWAY                                                                                      0         0       0          0     0    0        
+SWEDEN                                                                                      0         0       0          0     0    0        
+ESTONIA                                                                                     0         0       0          0     0    0        
+LATVIA                                                                                      0         0       0          0     0    0        
+LITHUANIA                                                                                   0         0       0          0     0    0        
+POLAND                                                                                      0         0       0          0     0    0        
+                                                                                                                                             
++                                                                                           MUNIWASTE                                        
+DENMARK                                                                                     0                                                
+FINLAND                                                                                     0                                                
+GERMANY                                                                                     0                                                
+NETHERLANDS                                                                                 0                                                
+NORWAY                                                                                      0                                                
+SWEDEN                                                                                      0                                                
+ESTONIA                                                                                     0                                                
+LATVIA                                                                                      0                                                
+LITHUANIA                                                                                   0                                                
+POLAND                                                                                      0                                                
+;                                                                                                                                            
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+* -----------------------------------------------------

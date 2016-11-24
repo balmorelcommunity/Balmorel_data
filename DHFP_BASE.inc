@@ -1,0 +1,52 @@
+* -----------------------------------------------------
+* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
+* Erwin Kalvelagen, GAMS Development Corp.
+* -----------------------------------------------------
+* Application: Microsoft Excel
+* Version:     15.0
+* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
+* Sheet:       32(Sheet45)
+* Range:       $A$31:$N$71
+* -----------------------------------------------------
+PARAMETER DHFP_BASE(AAA)  'Nominal annual average consumer heat price (including taxes) in the base year (Money/MWh)'                                                                                                                 
+/                                                                                                                                                                                                                                     
+DK2_Large                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK2_Medium                                                                                                            12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK2_MedSmall                                                                                                          12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK2_Rural                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK2_Small                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK1_Large                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK1_Medium                                                                                                            12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK1_MedSmall                                                                                                          12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK1_Rural                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK1_Small                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK2_IndETOH                                                                                                           12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK1_IndETOH                                                                                                           12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK2_Offshore10                                                                                                        12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+DK1_Offshore10                                                                                                        12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
+                                                                                                                                                                                                                                      
+FinA                                                                                                                  13.43                                                                                                           
+GerA                                                                                                                  9.17                                                                                                            
+NeA                                                                                                                   13.43                                                                                                           
+NO1_A1                                                                                                                8.82                                                                                                            
+NO1_A2                                                                                                                8.82                                                                                                            
+NO2_A1                                                                                                                8.82                                                                                                            
+NO3_A1                                                                                                                8.82                                                                                                            
+NO3_A2                                                                                                                8.82                                                                                                            
+NO4_A1                                                                                                                8.82                                                                                                            
+NO5_A1                                                                                                                8.82                                                                                                            
+SE1A                                                                                                                  6.82                                                                                                            
+SE2A                                                                                                                  6.82                                                                                                            
+SE3A                                                                                                                  6.82                                                                                                            
+SE4A                                                                                                                  6.82                                                                                                            
+UKA                                                                                                                   6.82                                                                                                            
+*Sample data                                                                                                                                                                                                                          
+EE_A                                                                                                                  6.82                                                                                                            
+LV_A                                                                                                                  6.82                                                                                                            
+LT_A                                                                                                                  6.82                                                                                                            
+PL_A                                                                                                                  6.82                                                                                                            
+/;                                                                                                                                                                                                                                    
+* not sure is this is needed:                                                                                                                                                                                                         
+DHFP_BASE(AAA)$(DHFP_BASE(AAA) EQ 0)= DHFP_BASE('DK1_Large');                                                                                                                                                                         
+                                                                                                                                                                                                                                      
+* -----------------------------------------------------
