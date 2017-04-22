@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       32(Sheet45)
-* Range:       $A$5:$F$26
-* -----------------------------------------------------
 PARAMETER DEFP_BASE(RRR)  'Nominal annual average consumer electricity price (including taxes) in the base year (Money/MWh)'         
 /                                                                                                                                    
 DK1                                                                                                                          40      
@@ -30,4 +20,3 @@ LV                                                                              
 LT                                                                                                                           40      
 PL                                                                                                                           40      
 /;                                                                                                                                   
-* -----------------------------------------------------

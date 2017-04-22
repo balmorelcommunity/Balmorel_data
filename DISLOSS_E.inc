@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       24(Sheet31)
-* Range:       $A$24:$B$46
-* -----------------------------------------------------
 PARAMETER DISLOSS_E(RRR)  'Loss in electricity distribution'                   
 /                                                                              
 DK1                                                          0.0410545023696682
@@ -31,4 +21,3 @@ LT                                                           0.05
 PL                                                           0.05              
 /;                                                                             
                                                                                
-* -----------------------------------------------------

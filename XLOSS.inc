@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       38(Sheet51)
-* Range:       $A$1:$U$51
-* -----------------------------------------------------
 * PARAMETER XLOSS contains the loss in transmission is expressed as a fraction                                                                                                                              
 * of the power entering the transmission line.                                                                                                                                                              
 * Units: (none)                                                                                                                                                                                             
@@ -59,4 +49,3 @@ PL                                                                              
                                                                                                                                                                                                             
 * Then fill in the values not entered in the table assuming symmetry:                                                                                                                                       
 LOOP( (IRRRE,IRRRI)$(ORD(IRRRE) GT ORD(IRRRI)),  XLOSS(IRRRE,IRRRI)=XLOSS(IRRRI,IRRRE););                                                                                                                   
-* -----------------------------------------------------

@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data_T.xls
-* Sheet:       43(Sheet4)
-* Range:       $A$5:$J$8751
-* -----------------------------------------------------
 TABLE SOLE_VAR_T1(SSS,TTT,AAA)               "Variation of the solar generation"                                                                                                                           
 * contains the description of seasonal and daily variation of the solar power production.                                                                                                                  
 * This parameter defines the variation of the solar generation, and does not influence the total produced amount.                                                                                          
@@ -8755,4 +8745,6 @@ S52.T168                                                                        
 ;                                                                                                                                                                                                          
                                                                                                                                                                                                            
 SOLE_VAR_T(AAA,SSS,TTT)= SOLE_VAR_T1(SSS,TTT,AAA);                                                                                                                                                         
-* -----------------------------------------------------
+SOLE_VAR_T(IA,SSS,TTT)$((SOLEFLH(IA)) AND (NOT SOLE_VAR_T(IA,SSS,TTT)))=SOLE_VAR_T('GERA',SSS,TTT);                                                                                                        
+SOLE_VAR_T('LV_A',SSS,TTT)= SOLE_VAR_T('EE_A',SSS,TTT);                                                                                                                                                    
+SOLE_VAR_T('LT_A',SSS,TTT)= SOLE_VAR_T('EE_A',SSS,TTT);                                                                                                                                                    

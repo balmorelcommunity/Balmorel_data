@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.7.1 r56632 Released Mar 14, 2016 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       36(Sheet49)
-* Range:       $A$42:$N$96
-* -----------------------------------------------------
 PARAMETER XMAXINV(IRRRE,IRRRI)   'Max investment in transmission capacity between two regions for each simulated year(each 5th year)'                           
                                                                                                                                                                 
 /                                                                                                                                                               
@@ -63,4 +53,3 @@ SE_S                                                                            
 $offtext                                                                                                                                                        
 /;                                                                                                                                                              
                                                                                                                                                                 
-* -----------------------------------------------------

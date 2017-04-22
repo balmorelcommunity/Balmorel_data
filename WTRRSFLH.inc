@@ -1,18 +1,8 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       28(Sheet36)
-* Range:       $A$5:$B$26
-* -----------------------------------------------------
 PARAMETER WTRRSFLH(AAA) 'Full load hours for hydro reservoir plants (hours)'                 
 * This parameter should be phased out. For now set equal to ROR                              
 /                                                                                            
 * Average year 2002-2011                                                                     
-FinA                                                                         4200            
+FinA                                                                         5345            
 GerA                                                                         4819.86064070176
 NeA                                                                          4200            
 NO1_A1                                                                       4959.64280807429
@@ -30,4 +20,3 @@ LV_A                                                                         186
 LT_A                                                                         0               
 PL_A                                                                         0               
 /;                                                                                           
-* -----------------------------------------------------

@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data_T.xls
-* Sheet:       43(Sheet4)
-* Range:       $A$8755:$F$17498
-* -----------------------------------------------------
 TABLE SOLH_VAR_T1(SSS,TTT,AAA)               "Variation of the solar generation"                      
 * contains the description of seasonal and daily variation of the solar heat production.              
                                                                                                       
@@ -8752,4 +8742,3 @@ S52.T168                                                                        
                                                                                                       
                                                                                                       
 SOLH_VAR_T(AAA,SSS,TTT)= SOLH_VAR_T1(SSS,TTT,AAA);                                                    
-* -----------------------------------------------------

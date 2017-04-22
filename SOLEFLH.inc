@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       28(Sheet36)
-* Range:       $A$285:$B$313
-* -----------------------------------------------------
 PARAMETER SOLEFLH(AAA)  'Full load hours for solar power'     
 * Same data used for all regions as for Germany               
 /                                                             
@@ -37,4 +27,3 @@ EE_A                                                      900
 LV_A                                                      900 
 LT_A                                                      900 
 /;                                                            
-* -----------------------------------------------------

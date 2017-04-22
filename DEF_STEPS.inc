@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       46(Sheet56)
-* Range:       $A$1:$A$59
-* -----------------------------------------------------
 * File for generating a CES function for electricity demand, to be specified in DEF_STEPS.                                                            
 * One can here choose between constant elasticity of substitution, or a linear function of the elasticity                                             
                                                                                                                                                       
@@ -19,8 +9,8 @@
 * Iscalar2 is the steplength (0<Iscalar2<1) in price, where e.g. 0.05 means that each step is 5% of the price.                                        
                                                                                                                                                       
 SET IANYSET / IANYSET001 * IANYSET100 /;                                                                                                              
-SCALAR ISCALAR1 /-0.15 /;                                                                                                                             
-SCALAR ISCALAR2 / 0.1 /;                                                                                                                              
+ISCALAR1 = -0.15;                                                                                                                                     
+ISCALAR2 = 0.1;                                                                                                                                       
                                                                                                                                                       
 LOOP(DEF_D1$(ORD(DEF_D1) EQ CARD(DEF_D1)),                                                                                                            
 DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_D1)=1+ISCALAR2/2;                                                                                                    
@@ -67,4 +57,3 @@ DEF_STEPS(IR,S,T,'DF_QUANT',DEF_U1)=1+ISCALAR2;
 LOOP(DEF_U1$(ORD(DEF_U1) GE 2), DEF_STEPS(IR,S,T,'DF_PRICE',DEF_U1)=DEF_STEPS(IR,S,T,'DF_PRICE',DEF_U1-1)+ISCALAR1);                                  
 LOOP(DEF_U1$(ORD(DEF_U1) GE 2), DEF_STEPS(IR,S,T,'DF_QUANT',DEF_U1)=DEF_STEPS(IR,S,T,'DF_QUANT',DEF_U1-1)+ISCALAR2);                                  
 $OFFTEXT                                                                                                                                              
-* -----------------------------------------------------

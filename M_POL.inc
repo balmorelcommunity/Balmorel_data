@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       40(Sheet53)
-* Range:       $A$24:$K$422
-* -----------------------------------------------------
 TABLE M_POL(YYY,MPOLSET,CCC)  'Emission policy data'                                                                                                                                  
                                                                                                                                                                                       
                                                      LIM_CO2.DENMARK        LIM_SO2.DENMARK        LIM_NOX.DENMARK                                                                    
@@ -407,4 +397,3 @@ TABLE M_POL(YYY,MPOLSET,CCC)  'Emission policy data'
 2025                                                 INF                    INF                    INF                                                                                
 2026                                                 INF                    INF                    INF                                                                                
 2027                                                 INF                    INF                    INF                                                                                
-* -----------------------------------------------------
