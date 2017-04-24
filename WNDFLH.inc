@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       28(Sheet36)
-* Range:       $A$51:$B$281
-* -----------------------------------------------------
 PARAMETER WNDFLH(AAA)  'Full load hours for wind power (hours)'                 
 /                                                                               
 DK2_Large                                                       1563            
@@ -239,4 +229,3 @@ LT_A                                                            2169
 PL_A                                                            2169            
                                                                                 
 /;                                                                              
-* -----------------------------------------------------

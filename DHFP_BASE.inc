@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       32(Sheet45)
-* Range:       $A$31:$N$71
-* -----------------------------------------------------
 PARAMETER DHFP_BASE(AAA)  'Nominal annual average consumer heat price (including taxes) in the base year (Money/MWh)'                                                                                                                 
 /                                                                                                                                                                                                                                     
 DK2_Large                                                                                                             12.93  /* NB! Flexelterm data used, because no data was provided in TopWaste dataset for these areas*/          
@@ -49,4 +39,3 @@ PL_A                                                                            
 * not sure is this is needed:                                                                                                                                                                                                         
 DHFP_BASE(AAA)$(DHFP_BASE(AAA) EQ 0)= DHFP_BASE('DK1_Large');                                                                                                                                                                         
                                                                                                                                                                                                                                       
-* -----------------------------------------------------

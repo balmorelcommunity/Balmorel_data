@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       26(Sheet33)
-* Range:       $A$1:$G$56
-* -----------------------------------------------------
 * Fuel potentials specified at geographical level.                                                                                           
 * The fuel potential is specified as an upper limit on the countries'installed                                                               
 * generation capacity relative to the individual fuel type.                                                                                  
@@ -64,4 +54,3 @@ POLAND                                                                          
                                                                                                                                              
                                                                                                                                              
                                                                                                                                              
-* -----------------------------------------------------

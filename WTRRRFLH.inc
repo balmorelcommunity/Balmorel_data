@@ -1,18 +1,8 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.4.6 r52609 Released Jun 26, 2015 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       28(Sheet36)
-* Range:       $A$28:$B$49
-* -----------------------------------------------------
 PARAMETER WTRRRFLH(AAA) 'Full load hours for hydro run-of-river plants (hours)'                                              
 * Includes the three options "dry", "wet" and "normal" according to which hydrological conditions to analyze                 
 /                                                                                                                            
 * Average year 2002-2011                                                                                                     
-FinA                                                                                                         4200            
+FinA                                                                                                         5345            
 GerA                                                                                                         4819.86064070176
 NeA                                                                                                          4200            
 NO1_A1                                                                                                       4959.64280807429
@@ -30,4 +20,3 @@ LV_A                                                                            
 LT_A                                                                                                         4800            
 PL_A                                                                                                         2425            
 /;                                                                                                                           
-* -----------------------------------------------------

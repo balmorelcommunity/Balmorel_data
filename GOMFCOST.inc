@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS 2.8      24.7.1 r56632 Released Mar 14, 2016 VS8 x86 32bit/MS Windows 
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     15.0
-* Workbook:    C:\Balmorel_git\Flex4RES_BalModel\base\data\Data.xls
-* Sheet:       30(Sheet42)
-* Range:       $A$19:$D$498
-* -----------------------------------------------------
 TABLE GOMFCOST(AAA,GGG)  'Annual fixed operating and maintenance costs (kEUR90/MW)'                                                                                
 * Default values given by GDATA(TG,'GOMFCOST0')                                                                                                                    
 *                                                                                   DK_E_Rural_WI                                                                  
@@ -488,4 +478,3 @@ RU_KOM_3                                                                        
 $offtext                                                                                                                                                           
                                                                                                                                                                    
                                                                                                                                                                    
-* -----------------------------------------------------
