@@ -9,8 +9,12 @@
 * Iscalar2 is the steplength (0<Iscalar2<1) in price, where e.g. 0.05 means that each step is 5% of the price.                                        
                                                                                                                                                       
 SET IANYSET / IANYSET001 * IANYSET100 /;                                                                                                              
-ISCALAR1 = -0.15;                                                                                                                                     
-ISCALAR2 = 0.1;                                                                                                                                       
+ISCALAR1=-0.15;                                                                                                                                       
+ISCALAR2= 0.1;                                                                                                                                        
+*SCALAR ISCALAR1 /-0.15 /;                                                                                                                            
+*SCALAR ISCALAR2 / 0.1 /;                                                                                                                             
+                                                                                                                                                      
+                                                                                                                                                      
                                                                                                                                                       
 LOOP(DEF_D1$(ORD(DEF_D1) EQ CARD(DEF_D1)),                                                                                                            
 DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_D1)=1+ISCALAR2/2;                                                                                                    
