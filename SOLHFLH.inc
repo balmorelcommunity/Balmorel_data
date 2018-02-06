@@ -1,10 +1,8 @@
 PARAMETER SOLHFLH(AAA)  'Full load hours for solar heat (hours)'                       
 * NOT REAL DATA, DEMONSTRATION ONLY. Same data used for all regions as for Germany     
 /                                                                                      
-DK2_Medium                                                                         816 
-DK2_Rural                                                                          816 
-DK1_MedSmall                                                                       816 
-DK1_Rural                                                                          816 
+DK2_NoDH                                                                           816 
+DK1_NoDH                                                                           816 
                                                                                        
 FinA                                                                               1040
 GerA                                                                               1040

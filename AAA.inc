@@ -1,19 +1,19 @@
 SET AAA(CCCRRRAAA)  'All areas'
 /                              
+DK1_Large                      
+DK1_Rural                      
+DK1_Medium                     
 DK2_Large                      
+DK2_Rural                      
 DK2_Medium                     
 DK2_MedSmall                   
-DK2_Rural                      
-DK2_Small                      
-DK1_Large                      
-DK1_Medium                     
-DK1_MedSmall                   
-DK1_Rural                      
 DK1_Small                      
-DK2_IndETOH                    
-DK1_IndETOH                    
-DK2_Offshore10                 
-DK1_Offshore10                 
+DK1_MedSmall                   
+DK2_Small                      
+DK2_NoDH                       
+DK1_NoDH                       
+DK2_Offshore                   
+DK1_Offshore                   
                                
 FinA                           
 GerA                           

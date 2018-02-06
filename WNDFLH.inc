@@ -1,15 +1,9 @@
 PARAMETER WNDFLH(AAA)  'Full load hours for wind power (hours)'                 
 /                                                                               
-DK2_Large                                                       1563            
-DK2_Medium                                                      1864            
-DK2_MedSmall                                                    1864            
-DK2_Small                                                       2255            
-DK1_Large                                                       1915            
-DK1_Medium                                                      2174            
-DK1_MedSmall                                                    2084            
-DK1_Small                                                       2188            
-DK2_Offshore10                                                  3712.19         
-DK1_Offshore10                                                  4250.54         
+DK2_NoDH                                                        1886.5          
+DK1_NoDH                                                        2090.25         
+DK2_Offshore                                                    3712.19         
+DK1_Offshore                                                    4250.54         
                                                                                 
 $ontext                                                                         
 * Wind regions to be included later                                             

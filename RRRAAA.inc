@@ -1,19 +1,21 @@
 SET RRRAAA(RRR,AAA) "Areas in regions"                                                    
 /                                                                                         
+DK1                                                                 .    DK1_Large        
+DK1                                                                 .    DK1_Rural        
+DK1                                                                 .    DK1_Medium       
 DK2                                                                 .    DK2_Large        
+DK2                                                                 .    DK2_Rural        
 DK2                                                                 .    DK2_Medium       
 DK2                                                                 .    DK2_MedSmall     
-DK2                                                                 .    DK2_Rural        
-DK2                                                                 .    DK2_Small        
-DK1                                                                 .    DK1_Large        
-DK1                                                                 .    DK1_Medium       
-DK1                                                                 .    DK1_MedSmall     
-DK1                                                                 .    DK1_Rural        
 DK1                                                                 .    DK1_Small        
-DK2                                                                 .    DK2_IndETOH      
-DK1                                                                 .    DK1_IndETOH      
-DK2                                                                 .    DK2_Offshore10   
-DK1                                                                 .    DK1_Offshore10   
+DK1                                                                 .    DK1_MedSmall     
+DK2                                                                 .    DK2_Small        
+DK2                                                                 .    DK2_NoDH         
+DK1                                                                 .    DK1_NoDH         
+DK1                                                                 .    DK2_Rural        
+DK2                                                                 .    DK2_Offshore     
+DK1                                                                 .    DK1_Offshore     
+                                                                                          
                                                                                           
 FIN                                                                 .    FinA             
 Ger                                                                 .    GerA             

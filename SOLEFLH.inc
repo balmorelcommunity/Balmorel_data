@@ -1,14 +1,8 @@
 PARAMETER SOLEFLH(AAA)  'Full load hours for solar power'     
 * Same data used for all regions as for Germany               
 /                                                             
-DK2_Large                                                 850 
-DK2_Medium                                                850 
-DK2_MedSmall                                              850 
-DK2_Small                                                 850 
-DK1_Large                                                 850 
-DK1_Medium                                                850 
-DK1_MedSmall                                              850 
-DK1_Small                                                 850 
+DK2_NoDH                                                  850 
+DK1_NoDH                                                  850 
                                                               
 FinA                                                      900 
 GerA                                                      993 

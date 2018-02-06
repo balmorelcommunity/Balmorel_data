@@ -5,7 +5,7 @@ TABLE SOLE_VAR_T1(SSS,TTT,AAA)               "Variation of the solar generation"
 * German data used for all countries (set equal for rest of the countries underneath)!                                                                                                                     
 * AGT: For now, wind profiles for Denmark are not included, since we have to make sure that we use profiles for the same year (i.e. 2012)                                                                  
                                                                                                                                                                                                            
-                                                                                                                                          DK1_large DK2_large GerA     UKA               NeA      EE_A     
+                                                                                                                                          DK1_Large DK2_Large GerA     UKA               NeA      EE_A     
 S01.T001                                                                                                                                  0         0         0        0                 0        0        
 S01.T002                                                                                                                                  0         0         0        0                 0        0        
 S01.T003                                                                                                                                  0         0         0        0                 0        0        

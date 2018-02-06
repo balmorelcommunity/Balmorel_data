@@ -1,7 +1,7 @@
 TABLE SOLH_VAR_T1(SSS,TTT,AAA)               "Variation of the solar generation"                      
 * contains the description of seasonal and daily variation of the solar heat production.              
                                                                                                       
-                                                                                         DK2_large    
+                                                                                         DK2_Large    
 S01.T001                                                                                 0            
 S01.T002                                                                                 0            
 S01.T003                                                                                 0            
