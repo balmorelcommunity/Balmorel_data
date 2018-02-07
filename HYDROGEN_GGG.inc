@@ -1,5 +1,18 @@
-SET HYDROGEN_GGG(GGG)  'All hydrogen technologies'                                                                                                                                        
-/                                                                                                                                                                             
-ElectrolyserAEC                                                                                                                                                               
-H2_storage                                                                                                                                                                    
-/;                                                                                                                                                                            
+SET HYDROGEN_GGG(GGG)  'All hydrogen technologies'
+/
+*HYDROGEN Add-on
+GNR_ELE_ELEC_AEC_Y-15-19
+GNR_ELE_ELEC_AEC_Y-20-29
+GNR_ELE_ELEC_AEC_Y-30
+GNR_ELE_ELEC_SOEC_Y-20
+GNR_ELE_ELEC_PEMEC_Y-15-19
+GNR_ELE_ELEC_PEMEC_Y-20-29
+GNR_ELE_ELEC_PEMEC_Y-30
+GNR_H2S_H2
+GNR_FC_H2_SOFC-C_Y-15-19
+GNR_FC_H2_SOFC-C_Y-20-29
+GNR_FC_H2_SOFC-C_Y-30-49
+GNR_FC_H2_SOFC-C_Y-50
+DK_MAM_Thisted_DEC_Engine_BG_H2
+*OFF hydrogen add-on
+/;
