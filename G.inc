@@ -1367,7 +1367,7 @@ HP_ELEC_COP-500
 BO_LIGHTOIL_E-79                                              
 BO_WOODWST_E-82                                               
 BO_BIOIL_E-92                                                 
-GEO_HEAT_COP-160                                              
+GEO_HEAT_HO                                                   
 BO_BGAS_E-91                                                  
 BO_NGAS_E-105                                                 
 BO_WOODCHI_E-105                                              

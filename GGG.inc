@@ -1381,7 +1381,7 @@ ENG_NGAS_BP_E-45
 ENG_NGAS_BP_E-46                                                                                                                                                              
 ENG_NGAS_BP_E-47                                                                                                                                                              
 ENG_NGAS_CND_E-46                                                                                                                                                             
-GEO_HEAT_COP-160                                                                                                                                                              
+GEO_HEAT_HO                                                                                                                                                                   
 GT_LIGHTOIL_CND_E-26                                                                                                                                                          
 GT_LIGHTOIL_CND_E-27                                                                                                                                                          
 GT_NGAS_BP_E-27                                                                                                                                                               
