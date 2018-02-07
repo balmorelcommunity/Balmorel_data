@@ -16,10 +16,13 @@ DK2_Offshore
 DK1_Offshore                   
                                
 FinA                           
-GerA                           
-DE_CS                          
-DE_NE                          
-DE_NW                          
+DE4-E_A                        
+DE4-E_Offshore_A               
+DE4-N_A                        
+DE4-N_Offshore_A               
+DE4-S_A                        
+DE4-W_A                        
+DE4-W_Offshore_A               
 NeA                            
 NO1_A1                         
 NO1_A2                         
@@ -51,7 +54,7 @@ LT_A1
 PL_A                           
 PL_A1                          
                                
-GER_OFFSHORE                   
+                               
 NE_OFFSHORE                    
 UK_OFFSHORE                    
 FIN_ESPOO                      

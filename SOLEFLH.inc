@@ -5,7 +5,10 @@ DK2_NoDH                                                  850
 DK1_NoDH                                                  850 
                                                               
 FinA                                                      900 
-GerA                                                      993 
+DE4-E_A                                                   993 
+DE4-N_A                                                   993 
+DE4-S_A                                                   993 
+DE4-W_A                                                   993 
 NeA                                                       993 
 NO1_A1                                                    900 
 NO2_A1                                                    900 

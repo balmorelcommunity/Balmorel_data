@@ -5,7 +5,10 @@ DK1                            "DK_W"
 DK2                            "DK_E"
                                      
 FIN                                  
-GER                                  
+DE4-E                                
+DE4-N                                
+DE4-S                                
+DE4-W                                
 NE                                   
 NO1                                  
 NO2                                  

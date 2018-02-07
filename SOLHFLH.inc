@@ -5,7 +5,10 @@ DK2_NoDH                                                                        
 DK1_NoDH                                                                           816 
                                                                                        
 FinA                                                                               1040
-GerA                                                                               1040
+DE4-E_A                                                                            1040
+DE4-N_A                                                                            1040
+DE4-S_A                                                                            1040
+DE4-W_A                                                                            1040
 NeA                                                                                1040
 NO1_A1                                                                             1040
 NO2_A1                                                                             1040

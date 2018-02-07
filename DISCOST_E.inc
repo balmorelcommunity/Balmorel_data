@@ -3,7 +3,10 @@ PARAMETER DISCOST_E(RRR)  'Cost of electricity distribution (Money/MWh)'
 DK1                                                                      5   
 DK2                                                                      5   
 FIN                                                                      5   
-GER                                                                      5   
+DE4-E                                                                    5   
+DE4-N                                                                    5   
+DE4-S                                                                    5   
+DE4-W                                                                    5   
 NE                                                                       5   
 NO1                                                                      5   
 NO2                                                                      5   

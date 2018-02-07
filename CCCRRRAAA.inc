@@ -23,7 +23,10 @@ DK1                            "DK_W"
 DK2                            "DK_E"                      
                                                            
 FIN                                                        
-GER                                                        
+DE4-E                                                      
+DE4-N                                                      
+DE4-S                                                      
+DE4-W                                                      
 NE                                                         
 NO1                                                        
 NO2                                                        
@@ -49,7 +52,13 @@ PL
                                                            
 * Areas:                                                   
 FinA                                                       
-GerA                                                       
+DE4-E_A                                                    
+DE4-E_Offshore_A                                           
+DE4-N_A                                                    
+DE4-N_Offshore_A                                           
+DE4-S_A                                                    
+DE4-W_A                                                    
+DE4-W_Offshore_A                                           
 NeA                                                        
 SE1A                                                       
 SE2A                                                       
@@ -78,7 +87,7 @@ PL_A1
                                                            
                                                            
                                                            
-GER_OFFSHORE                                               
+                                                           
 NE_OFFSHORE                                                
 UK_OFFSHORE                                                
 DE_CS                                                      

@@ -203,8 +203,13 @@ SE4_Onshore50_LCI                                               4252.48
 $offtext                                                                        
                                                                                 
 FinA                                                            1715            
-GerA                                                            2209            
-Ger_OFFSHORE                                                    3468            
+DE4-E_A                                                         2209            
+DE4-E_Offshore_A                                                3468            
+DE4-N_A                                                         2209            
+DE4-N_Offshore_A                                                3468            
+DE4-S_A                                                         2209            
+DE4-W_A                                                         2209            
+DE4-W_Offshore_A                                                3468            
 NeA                                                             2000            
 NE_OFFSHORE                                                     3410            
 NO1_A1                                                          2556.7540132861 
