@@ -1345,6 +1345,8 @@ BO_WOODWST_E-89
 BO_WOODWST_E-90                                                                                                                                                               
 BO_WOODWST_E-91                                                                                                                                                               
 BO_WOODWST_E-94                                                                                                                                                               
+CC_COAL_BP_E-47                                                                                                                                                               
+CC_COAL_BP_E-49                                                                                                                                                               
 CC_FUELOIL_BP_E-38                                                                                                                                                            
 CC_FUELOIL_CND_E-38                                                                                                                                                           
 CC_NGAS_BP_E-18                                                                                                                                                               
@@ -1501,6 +1503,7 @@ ST_LIGN_BP_E-28
 ST_LIGN_BP_E-31                                                                                                                                                               
 ST_LIGN_BP_E-33                                                                                                                                                               
 ST_LIGN_BP_E-35                                                                                                                                                               
+ST_LIGN_BP_E-37                                                                                                                                                               
 ST_LIGN_BP_E-38                                                                                                                                                               
 ST_LIGN_BP_E-39                                                                                                                                                               
 ST_LIGN_CND_E-32                                                                                                                                                              
