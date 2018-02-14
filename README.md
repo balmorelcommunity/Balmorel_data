@@ -6,6 +6,7 @@ The master branch of this repository holds the main dataset for Flex4RES. The co
 * Store the Flex4Res dataset in any convenient directory
 * In the same diretory/On the same level create a new folder for the .inc files (e.g. data)
 * Open the sheet 'Settings' of the dataset
+* Enable Editing
 * Edit the GAMS path e.g. like: C:\Users\some_user\games_folder\
 * Edit the Export diretory - only the name of the folder created in step 2: data\
 * Press the 'Export All' button
