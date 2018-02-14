@@ -1,4 +1,4 @@
-TABLE HYDROGEN_GDATA(HYDROGEN_GGG,GDATASET)  'Hydrogen technologies characteristics'
+TABLE GDATA(GGG,GDATASET)  'Hydrogen technologies characteristics'
 * GDCB-values: Electricity = Heat * GDCB, also for SOEC which requires heat. It is a positive value
 * Data from Technology Catalogue file j and g
 * currency original Euro2015 - should be converted to EURO2012

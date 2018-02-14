@@ -1,4 +1,4 @@
-SET GGG 'Hydrogen technologies'
+SET G 'Hydrogen technologies'
 /
 GNR_ELYS_ELEC_AEC_Y-15
 GNR_ELYS_ELEC_AEC_Y-20
