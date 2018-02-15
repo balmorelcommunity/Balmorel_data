@@ -2,6 +2,15 @@
 
 The master branch of this repository holds the main dataset for Flex4RES. The corresponding xlsm file (generating the all the .inc files in the repository) can be found [here][xlsm]. For trying out changes on datasets please use branches and follow the following instructions for changes on the master branch.
 
+## Generating .inc files
+* Store the Flex4Res dataset in any convenient directory
+* In the same diretory/On the same level create a new folder for the .inc files (e.g. data)
+* Open the sheet 'Settings' of the dataset
+* Enable Editing
+* Edit the GAMS path e.g. like: C:\Users\some_user\games_folder\
+* Edit the Export diretory - only the name of the folder created in step 2: data\
+* Press the 'Export All' button
+
 ## Making changes to the master branch
 * Changes to the master branch are only possible through a pull request.
 * A pull request must only be approved if the resulting dataset corresponds to the latest major version of the xlsm file.
