@@ -3,7 +3,10 @@ PARAMETER DEFP_BASE(RRR)  'Nominal annual average consumer electricity price (in
 DK1                                                                                                                          40      
 DK2                                                                                                                          40      
 FIN                                                                                                                          40      
-GER                                                                                                                          50.2    
+DE4-E                                                                                                                        50.2    
+DE4-N                                                                                                                        50.2    
+DE4-S                                                                                                                        50.2    
+DE4-W                                                                                                                        50.2    
 NE                                                                                                                           50.2    
 NO1                                                                                                                          40      
 NO2                                                                                                                          40      

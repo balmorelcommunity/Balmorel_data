@@ -23,7 +23,10 @@ DK1                            "DK_W"
 DK2                            "DK_E"                      
                                                            
 FIN                                                        
-GER                                                        
+DE4-E                                                      
+DE4-N                                                      
+DE4-S                                                      
+DE4-W                                                      
 NE                                                         
 NO1                                                        
 NO2                                                        
@@ -49,7 +52,13 @@ PL
                                                            
 * Areas:                                                   
 FinA                                                       
-GerA                                                       
+DE4-E_A                                                    
+DE4-E_Offshore_A                                           
+DE4-N_A                                                    
+DE4-N_Offshore_A                                           
+DE4-S_A                                                    
+DE4-W_A                                                    
+DE4-W_Offshore_A                                           
 NeA                                                        
 SE1A                                                       
 SE2A                                                       
@@ -78,7 +87,7 @@ PL_A1
                                                            
                                                            
                                                            
-GER_OFFSHORE                                               
+                                                           
 NE_OFFSHORE                                                
 UK_OFFSHORE                                                
 DE_CS                                                      
@@ -112,20 +121,20 @@ SE4_EL
 SE4_HP                                                     
 SE4_OTHER                                                  
                                                            
+DK1_Large                                                  
+DK1_Rural                                                  
+DK1_Medium                                                 
 DK2_Large                                                  
+DK2_Rural                                                  
 DK2_Medium                                                 
 DK2_MedSmall                                               
-DK2_Rural                                                  
-DK2_Small                                                  
-DK1_Large                                                  
-DK1_Medium                                                 
-DK1_MedSmall                                               
-DK1_Rural                                                  
 DK1_Small                                                  
-DK2_IndETOH                                                
-DK1_IndETOH                                                
-DK1_Offshore10                                             
-DK2_Offshore10                                             
+DK1_MedSmall                                               
+DK2_Small                                                  
+DK2_NoDH                                                   
+DK1_NoDH                                                   
+DK2_Offshore                                               
+DK1_Offshore                                               
                                                            
 $ontext                                                    
 * Wind areas                                               

@@ -3,7 +3,10 @@ PARAMETER WTRRSFLH(AAA) 'Full load hours for hydro reservoir plants (hours)'
 /                                                                                            
 * Average year 2002-2011                                                                     
 FinA                                                                         5345            
-GerA                                                                         4819.86064070176
+DE4-E_A                                                                      4819.86064070176
+DE4-N_A                                                                      4819.86064070176
+DE4-S_A                                                                      4819.86064070176
+DE4-W_A                                                                      4819.86064070176
 NeA                                                                          4200            
 NO1_A1                                                                       4959.64280807429
 NO2_A1                                                                       4024.96054108283

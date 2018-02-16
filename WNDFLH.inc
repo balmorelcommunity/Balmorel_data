@@ -1,233 +1,232 @@
-PARAMETER WNDFLH(AAA)  'Full load hours for wind power (hours)'                 
-/                                                                               
-DK2_Large                                                       1563            
-DK2_Medium                                                      1864            
-DK2_MedSmall                                                    1864            
-DK2_Small                                                       2255            
-DK1_Large                                                       1915            
-DK1_Medium                                                      2174            
-DK1_MedSmall                                                    2084            
-DK1_Small                                                       2188            
-DK2_Offshore10                                                  3712.19         
-DK1_Offshore10                                                  4250.54         
-                                                                                
-$ontext                                                                         
-* Wind regions to be included later                                             
-DK2_Onshore20                                                   3493.94         
-DK1_Onshore20                                                   3758.75         
-DK2_Onshore35                                                   3493.94         
-DK1_Onshore35                                                   3758.75         
-DK2_Onshore50                                                   3493.94         
-DK1_Onshore50                                                   3758.75         
-DK2_Onshore20_LCI                                               4252.48         
-DK1_Onshore20_LCI                                               4534.75         
-DK2_Onshore35_LCI                                               4252.48         
-DK1_Onshore35_LCI                                               4534.75         
-DK2_Onshore50_LCI                                               4252.48         
-DK1_Onshore50_LCI                                               4534.75         
-DK2_Offshore10                                                  3712.19         
-DK1_Offshore10                                                  4250.54         
-DK2_Offshore20                                                  3835.38         
-DK1_Offshore20                                                  4384.4          
-DK2_Offshore35                                                  4023.56         
-DK1_Offshore35                                                  4578.4          
-DK2_Offshore50                                                  3884.85         
-DK1_Offshore50                                                  4431.93         
-DK2_nearOffshore20                                              3835.38         
-DK1_nearOffshore20                                              4384.4          
-DK2_nearOffshore35                                              4023.56         
-DK1_nearOffshore35                                              4578.4          
-DK2_nearOffshore50                                              3884.85         
-DK1_nearOffshore50                                              4431.93         
-DK2_farOffshore20                                               3835.38         
-DK1_farOffshore20                                               4384.4          
-DK2_farOffshore35                                               4023.56         
-DK1_farOffshore35                                               4578.4          
-DK2_farOffshore50                                               3884.85         
-DK1_farOffshore50                                               4431.93         
-                                                                                
-FI_R_farOffshore20                                              3835.38         
-FI_R_farOffshore35                                              4023.56         
-FI_R_farOffshore50                                              3884.85         
-FI_R_nearOffshore20                                             3835.38         
-FI_R_nearOffshore35                                             4023.56         
-FI_R_nearOffshore50                                             3884.85         
-FI_R_Offshore10                                                 3712.19         
-FI_R_Offshore20                                                 3835.38         
-FI_R_Offshore35                                                 4023.56         
-FI_R_Offshore50                                                 3884.85         
-FI_R_Onshore20                                                  3493.94         
-FI_R_Onshore20_LCI                                              4252.48         
-FI_R_Onshore35                                                  3493.94         
-FI_R_Onshore35_LCI                                              4252.48         
-FI_R_Onshore50                                                  3493.94         
-FI_R_Onshore50_LCI                                              4252.48         
-NO1_A1_farOffshore20                                            4384.4          
-NO1_A1_farOffshore35                                            4578.4          
-NO1_A1_farOffshore50                                            4431.93         
-NO1_A1_nearOffshore20                                           4384.4          
-NO1_A1_nearOffshore35                                           4578.4          
-NO1_A1_nearOffshore50                                           4431.93         
-NO1_A1_Offshore10                                               4250.54         
-NO1_A1_Offshore20                                               4384.4          
-NO1_A1_Offshore35                                               4578.4          
-NO1_A1_Offshore50                                               4431.93         
-NO1_A1_Onshore20                                                3758.75         
-NO1_A1_Onshore20_LCI                                            4534.75         
-NO1_A1_Onshore35                                                3758.75         
-NO1_A1_Onshore35_LCI                                            4534.75         
-NO1_A1_Onshore50                                                3758.75         
-NO1_A1_Onshore50_LCI                                            4534.75         
-NO1_A2_farOffshore20                                            4384.4          
-NO1_A2_farOffshore35                                            4578.4          
-NO1_A2_farOffshore50                                            4431.93         
-NO1_A2_nearOffshore20                                           4384.4          
-NO1_A2_nearOffshore35                                           4578.4          
-NO1_A2_nearOffshore50                                           4431.93         
-NO1_A2_Offshore10                                               4250.54         
-NO1_A2_Offshore20                                               4384.4          
-NO1_A2_Offshore35                                               4578.4          
-NO1_A2_Offshore50                                               4431.93         
-NO1_A2_Onshore20                                                3758.75         
-NO1_A2_Onshore20_LCI                                            4534.75         
-NO1_A2_Onshore35                                                3758.75         
-NO1_A2_Onshore35_LCI                                            4534.75         
-NO1_A2_Onshore50                                                3758.75         
-NO1_A2_Onshore50_LCI                                            4534.75         
-NO1_A3_farOffshore20                                            4384.4          
-NO1_A3_farOffshore35                                            4578.4          
-NO1_A3_farOffshore50                                            4431.93         
-NO1_A3_nearOffshore20                                           4384.4          
-NO1_A3_nearOffshore35                                           4578.4          
-NO1_A3_nearOffshore50                                           4431.93         
-NO1_A3_Offshore10                                               4250.54         
-NO1_A3_Offshore20                                               4384.4          
-NO1_A3_Offshore35                                               4578.4          
-NO1_A3_Offshore50                                               4431.93         
-NO1_A3_Onshore20                                                3758.75         
-NO1_A3_Onshore20_LCI                                            4534.75         
-NO1_A3_Onshore35                                                3758.75         
-NO1_A3_Onshore35_LCI                                            4534.75         
-NO1_A3_Onshore50                                                3758.75         
-NO1_A3_Onshore50_LCI                                            4534.75         
-NO1_A4_farOffshore20                                            4384.4          
-NO1_A4_farOffshore35                                            4578.4          
-NO1_A4_farOffshore50                                            4431.93         
-NO1_A4_nearOffshore20                                           4384.4          
-NO1_A4_nearOffshore35                                           4578.4          
-NO1_A4_nearOffshore50                                           4431.93         
-NO1_A4_Offshore10                                               4250.54         
-NO1_A4_Offshore20                                               4384.4          
-NO1_A4_Offshore35                                               4578.4          
-NO1_A4_Offshore50                                               4431.93         
-NO1_A4_Onshore20                                                3758.75         
-NO1_A4_Onshore20_LCI                                            4534.75         
-NO1_A4_Onshore35                                                3758.75         
-NO1_A4_Onshore35_LCI                                            4534.75         
-NO1_A4_Onshore50                                                3758.75         
-NO1_A4_Onshore50_LCI                                            4534.75         
-NO1_A5_farOffshore20                                            4384.4          
-NO1_A5_farOffshore35                                            4578.4          
-NO1_A5_farOffshore50                                            4431.93         
-NO1_A5_nearOffshore20                                           4384.4          
-NO1_A5_nearOffshore35                                           4578.4          
-NO1_A5_nearOffshore50                                           4431.93         
-NO1_A5_Offshore10                                               4250.54         
-NO1_A5_Offshore20                                               4384.4          
-NO1_A5_Offshore35                                               4578.4          
-NO1_A5_Offshore50                                               4431.93         
-NO1_A5_Onshore20                                                3758.75         
-NO1_A5_Onshore20_LCI                                            4534.75         
-NO1_A5_Onshore35                                                3758.75         
-NO1_A5_Onshore35_LCI                                            4534.75         
-NO1_A5_Onshore50                                                3758.75         
-NO1_A5_Onshore50_LCI                                            4534.75         
-SE1_farOffshore20                                               3835.38         
-SE1_farOffshore35                                               4023.56         
-SE1_farOffshore50                                               3884.85         
-SE1_nearOffshore20                                              3835.38         
-SE1_nearOffshore35                                              4023.56         
-SE1_nearOffshore50                                              3884.85         
-SE1_Offshore10                                                  3712.19         
-SE1_Offshore20                                                  3835.38         
-SE1_Offshore35                                                  4023.56         
-SE1_Offshore50                                                  3884.85         
-SE1_Onshore20                                                   3493.94         
-SE1_Onshore20_LCI                                               4252.48         
-SE1_Onshore35                                                   3493.94         
-SE1_Onshore35_LCI                                               4252.48         
-SE1_Onshore50                                                   3493.94         
-SE1_Onshore50_LCI                                               4252.48         
-SE2_farOffshore20                                               3835.38         
-SE2_farOffshore35                                               4023.56         
-SE2_farOffshore50                                               3884.85         
-SE2_nearOffshore20                                              3835.38         
-SE2_nearOffshore35                                              4023.56         
-SE2_nearOffshore50                                              3884.85         
-SE2_Offshore10                                                  3712.19         
-SE2_Offshore20                                                  3835.38         
-SE2_Offshore35                                                  4023.56         
-SE2_Offshore50                                                  3884.85         
-SE2_Onshore20                                                   3493.94         
-SE2_Onshore20_LCI                                               4252.48         
-SE2_Onshore35                                                   3493.94         
-SE2_Onshore35_LCI                                               4252.48         
-SE2_Onshore50                                                   3493.94         
-SE2_Onshore50_LCI                                               4252.48         
-SE3_farOffshore20                                               3835.38         
-SE3_farOffshore35                                               4023.56         
-SE3_farOffshore50                                               3884.85         
-SE3_nearOffshore20                                              3835.38         
-SE3_nearOffshore35                                              4023.56         
-SE3_nearOffshore50                                              3884.85         
-SE3_Offshore10                                                  3712.19         
-SE3_Offshore20                                                  3835.38         
-SE3_Offshore35                                                  4023.56         
-SE3_Offshore50                                                  3884.85         
-SE3_Onshore20                                                   3493.94         
-SE3_Onshore20_LCI                                               4252.48         
-SE3_Onshore35                                                   3493.94         
-SE3_Onshore35_LCI                                               4252.48         
-SE3_Onshore50                                                   3493.94         
-SE3_Onshore50_LCI                                               4252.48         
-SE4_farOffshore20                                               3835.38         
-SE4_farOffshore35                                               4023.56         
-SE4_farOffshore50                                               3884.85         
-SE4_nearOffshore20                                              3835.38         
-SE4_nearOffshore35                                              4023.56         
-SE4_nearOffshore50                                              3884.85         
-SE4_Offshore10                                                  3712.19         
-SE4_Offshore20                                                  3835.38         
-SE4_Offshore35                                                  4023.56         
-SE4_Offshore50                                                  3884.85         
-SE4_Onshore20                                                   3493.94         
-SE4_Onshore20_LCI                                               4252.48         
-SE4_Onshore35                                                   3493.94         
-SE4_Onshore35_LCI                                               4252.48         
-SE4_Onshore50                                                   3493.94         
-SE4_Onshore50_LCI                                               4252.48         
-$offtext                                                                        
-                                                                                
-FinA                                                            1715            
-GerA                                                            2209            
-Ger_OFFSHORE                                                    3468            
-NeA                                                             2000            
-NE_OFFSHORE                                                     3410            
-NO1_A1                                                          2556.7540132861 
-NO2_A1                                                          2845.23970845654
-NO3_A1                                                          2788.73565662452
-NO4_A1                                                          2749.48229372793
-NO5_A1                                                          2800.41349710378
-SE1A                                                            2110            
-SE2A                                                            2110            
-SE3A                                                            2110            
-SE4A                                                            2110            
-UKA                                                             2374            
-UK_OFFSHORE                                                     3324            
-                                                                                
-EE_A                                                            2560            
-LV_A                                                            2013            
-LT_A                                                            2169            
-PL_A                                                            2169            
-                                                                                
-/;                                                                              
+PARAMETER WNDFLH(AAA)  'Full load hours for wind power (hours)'                        
+/                                                                                      
+DK2_NoDH                                                                           2959
+DK1_NoDH                                                                           3199
+FinA                                                                               1937
+DE4-E_A                                                                            2263
+DE4-N_A                                                                            2467
+DE4-S_A                                                                            1887
+DE4-W_A                                                                            2177
+NO1_A1                                                                             2798
+NO2_A1                                                                             2798
+NO3_A1                                                                             2782
+NO4_A1                                                                             3120
+NO5_A1                                                                             2798
+SE1A                                                                               2533
+SE2A                                                                               2533
+SE3A                                                                               2212
+SE4A                                                                               2012
+UKA                                                                                3176
+                                                                                       
+EE_A                                                                               2020
+LV_A                                                                               2019
+LT_A                                                                               1932
+PL_A                                                                               2286
+NeA                                                                                2860
+                                                                                       
+                                                                                       
+DK2_Offshore                                                                       4380
+DK1_Offshore                                                                       4466
+DE4-E_Offshore_A                                                                   4380
+DE4-N_Offshore_A                                                                   4477
+DE4-W_Offshore_A                                                                   4477
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+NE_OFFSHORE                                                                        3964
+UK_OFFSHORE                                                                        3324
+                                                                                       
+                                                                                       
+/;                                                                                     
+                                                                                       
+PARAMETER SOLEFLH(AAA)  'Full load hours for solar power'                              
+* Same data used for all regions as for Germany                                        
+/                                                                                      
+DK2_NoDH                                                                           850 
+DK1_NoDH                                                                           850 
+                                                                                       
+FinA                                                                               900 
+DE4-E_A                                                                            993 
+DE4-N_A                                                                            993 
+DE4-S_A                                                                            993 
+DE4-W_A                                                                            993 
+NeA                                                                                993 
+NO1_A1                                                                             900 
+NO2_A1                                                                             900 
+NO3_A1                                                                             900 
+NO4_A1                                                                             900 
+NO5_A1                                                                             900 
+SE1A                                                                               900 
+SE2A                                                                               900 
+SE3A                                                                               900 
+SE4A                                                                               900 
+UKA                                                                                958 
+EE_A                                                                               900 
+LV_A                                                                               900 
+LT_A                                                                               900 
+/;                                                                                     
+                                                                                       
+PARAMETER SOLHFLH(AAA)  'Full load hours for solar heat (hours)'                       
+* NOT REAL DATA, DEMONSTRATION ONLY. Same data used for all regions as for Germany     
+/                                                                                      
+DK2_NoDH                                                                           816 
+DK1_NoDH                                                                           816 
+                                                                                       
+FinA                                                                               1040
+DE4-E_A                                                                            1040
+DE4-N_A                                                                            1040
+DE4-S_A                                                                            1040
+DE4-W_A                                                                            1040
+NeA                                                                                1040
+NO1_A1                                                                             1040
+NO2_A1                                                                             1040
+NO3_A1                                                                             1040
+NO4_A1                                                                             1040
+NO5_A1                                                                             1040
+SE1A                                                                               1040
+SE2A                                                                               1040
+SE3A                                                                               1040
+SE4A                                                                               1040
+UKA                                                                                1040
+EE_A                                                                               1040
+LV_A                                                                               1040
+LT_A                                                                               1040
+/;                                                                                     
+                                                                                       
+                                                                                       
+                                                                                       
+PARAMETER WAVEFLH(AAA)  'Full load hours for wave power (hours)'                       
+* NOT REAL DATA, DEMONSTRATION ONLY.                                                   
+/                                                                                      
+DK2_Medium                                                                         816 
+DK2_Rural                                                                          816 
+DK1_MedSmall                                                                       816 
+DK1_Rural                                                                          816 
+                                                                                       
+FinA                                                                               1040
+DE4-E_A                                                                            1040
+DE4-N_A                                                                            1040
+DE4-S_A                                                                            1040
+DE4-W_A                                                                            1040
+NeA                                                                                1040
+NO1_A1                                                                             1040
+NO2_A1                                                                             1040
+NO3_A1                                                                             1040
+NO4_A1                                                                             1040
+NO5_A1                                                                             1040
+SE1A                                                                               1040
+SE2A                                                                               1040
+SE3A                                                                               1040
+SE4A                                                                               1040
+UKA                                                                                1040
+EE_A                                                                               1040
+LV_A                                                                               1040
+LT_A                                                                               1040
+/;                                                                                     
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
