@@ -1,4 +1,4 @@
-SET GGG  'All combination technologies'
+SET G(GGG)  'Combination technologies in simulation'
 /
 GCND_NATGAS1_BUP
 GCND_NATGAS2_BUP
