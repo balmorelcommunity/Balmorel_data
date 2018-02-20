@@ -18,9 +18,17 @@ GDKVARIABL                                'Capacity is a variable to be found fo
 GDSTOHLOAD                                'Hours to load storage'
 GDSTOHUNLD                                'Hours to unload storage'
 GDCOMB                                    'Combination technology, primal (1) or secondary (2)'
-GDCOMBSK                                  'Combination technology, maximum share of capacity'
-GDCOMBSLO                                 'Combination technology, minimum share of production'
-GDCOMBSUP                                 'Combination technology, maximum share of production'
+GDCOMBGUP                                 'Combination technology groups sum-of-generations (MW) maximum share of primal rated capacity (default 1) ([0;1])'
+GDCOMBGSHAREK1                            'Combination technology, maximum generation (MW) share of primal rated capacity (default 1) ([0;1])'
+GDCOMBFUP                                 'Combination technology groups sum-of-fuel-uses (GJ) maximum share of primal rated capacity ([0;1])'
+GDCOMBFSHAREK1                            'Combination technology, maximum fuel (GJ) share of primal rated capacity ([0;1])'
+GDCOMBGSHARELO                            'Combination technology, minimum generation (MW) share of total generation ([0;1])'
+GDCOMBGSHAREUP                            'Combination technology, maximum generation (MW) share of total generation ([0;1])'
+GDCOMBFSHARELO                            'Combination technology, minimum fuel (GJ) share of total fuel use ([0;1])'
+GDCOMBFSHAREUP                            'Combination technology, maximum fuel (GJ) share of total fuel use ([0;1])'
+*GDCOMBSK                                  'Combination technology, maximum share of capacity'
+*GDCOMBSLO                                 'Combination technology, minimum share of production'
+*GDCOMBSUP                                 'Combination technology, maximum share of production'
 GDLOADLOSS                                'Loss when loading a storage (MWh loss/MWh loading input)'
 GDSTOLOSS                                 'Stationary loss from storage (MWh loss per time period/MWh energy content in storage)'
 GDRAMPUP                                  'Ramp-up limit (% of capacity/h)'
@@ -44,15 +52,4 @@ GDUCRAMPU                                 'Unit commitment: ramp-up limit (% of 
 GDUCRAMPD                                 'Unit commitment: ramp-down limit (% of capacity/h)'
 GDSTOINTERS
 GDBYPASSC
-GDCOMBGUP                                 'Combination technology groups sum-of-generations (MW) maximum share of primal rated capacity (default 1) ([0;1])'
-GDCOMBGSHAREK1                            'Combination technology, maximum generation (MW) share of primal rated capacity (default 1) ([0;1])'
-GDCOMBFUP                                 'Combination technology groups sum-of-fuel-uses (GJ) maximum share of primal rated capacity ([0;1])'
-GDCOMBFSHAREK1                            'Combination technology, maximum fuel (GJ) share of primal rated capacity ([0;1])'
-GDCOMBGSHARELO                            'Combination technology, minimum generation (MW) share of total generation ([0;1])'
-GDCOMBGSHAREUP                            'Combination technology, maximum generation (MW) share of total generation ([0;1])'
-GDCOMBFSHARELO                            'Combination technology, minimum fuel (GJ) share of total fuel use ([0;1])'
-GDCOMBFSHAREUP                            'Combination technology, maximum fuel (GJ) share of total fuel use ([0;1])'
-
-
-
 /;
