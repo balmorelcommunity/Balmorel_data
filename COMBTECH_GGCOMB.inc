@@ -1,5 +1,5 @@
 SET GGCOMB(GGG,IGGGALIAS) 'Pair of combination technologies'                                       
-                                                                                                   
+/                                                                                                  
 GCND_NATGAS1                                                 .    GCND_NATGAS1_BUP                 
 GCND_NATGAS2                                                 .    GCND_NATGAS2_BUP                 
 GCND_NATGAS3                                                 .    GCND_NATGAS3_BUP                 
@@ -996,7 +996,7 @@ ENG_EXT_NG_2030                                              .    ENG_EXT_NG_203
 BO_NG_2020                                                   .    BO_NG_2020_TH2                   
 BO_NG_2025                                                   .    BO_NG_2025_TH2                   
 BO_NG_2030                                                   .    BO_NG_2030_TH2                   
-                                                                                                   
+/;                                                                                                 
                                                                                                    
                                                                                                    
                                                                                                    

@@ -1,7 +1,5 @@
-PARAMETER HYDROGEN_DH2_VAR_T(CCCRRRAAA,SSS,TTT)                                   
-* No variation                                                                    
-                                                                                  
-HYDROGEN_DH2_VAR_T(AAA,SSS,TTT)=1;                                                
-HYDROGEN_DH2_VAR_T(RRR,SSS,TTT)=1;                                                
-                                                                                  
-*HYDROGEN_DH2_VAR_T(CCCRRRAAA,SSS,TTT)$(NOT (SUM(Y,HYDROGEN_DH2(Y,CCCRRRAAA))))=0;
+PARAMETER HYDROGEN_DH2_VAR_T(CCCRRRAAA,SSS,TTT) 
+* No variation                                  
+;                                               
+HYDROGEN_DH2_VAR_T(AAA,SSS,TTT)=1;              
+HYDROGEN_DH2_VAR_T(RRR,SSS,TTT)=1;              
