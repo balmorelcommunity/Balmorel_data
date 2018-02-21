@@ -3,7 +3,7 @@
 * Unit: (none).                                                                                                                         
 * Find out what happens here!                                                                                                           
                                                                                                                                         
-PARAMETER DHF_STEPS(AAA,SSS,TTT,DF_QP,DHF)  'Elastic heat demands'                                                                      
+PARAMETER DHF_STEPS(AAA,DHUSER,SSS,TTT,DF_QP,DHF)  'Elastic heat demands'                                                               
 ;                                                                                                                                       
                                                                                                                                         
                                                                                                                                         

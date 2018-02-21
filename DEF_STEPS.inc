@@ -17,20 +17,20 @@ ISCALAR2= 0.1;
                                                                                                                                                       
                                                                                                                                                       
 LOOP(DEF_D1$(ORD(DEF_D1) EQ CARD(DEF_D1)),                                                                                                            
-DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_D1)=1+ISCALAR2/2;                                                                                                    
-DEF_STEPS(RRR,S,T,'DF_QUANT',DEF_D1)=1+ISCALAR1*ISCALAR2/2;                                                                                           
+DEF_STEPS(RRR,DEUSER,S,T,'DF_PRICE',DEF_D1)=1+ISCALAR2/2;                                                                                             
+DEF_STEPS(RRR,DEUSER,S,T,'DF_QUANT',DEF_D1)=1+ISCALAR1*ISCALAR2/2;                                                                                    
 );                                                                                                                                                    
 LOOP(IANYSET$((2 LE ORD(IANYSET)) AND (ORD(IANYSET) LE CARD(DEF_D1))),                                                                                
 LOOP(DEF_D1$(ORD(DEF_D1) EQ (CARD(DEF_D1)-ORD(IANYSET)+1)),                                                                                           
-DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_D1)=DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_D1+1)*(1+ISCALAR2);                                                             
-DEF_STEPS(RRR,S,T,'DF_QUANT',DEF_D1)=DEF_STEPS(RRR,S,T,'DF_QUANT',DEF_D1+1)*(1+ISCALAR1*ISCALAR2);                                                    
+DEF_STEPS(RRR,DEUSER,S,T,'DF_PRICE',DEF_D1)=DEF_STEPS(RRR,DEUSER,S,T,'DF_PRICE',DEF_D1+1)*(1+ISCALAR2);                                               
+DEF_STEPS(RRR,DEUSER,S,T,'DF_QUANT',DEF_D1)=DEF_STEPS(RRR,DEUSER,S,T,'DF_QUANT',DEF_D1+1)*(1+ISCALAR1*ISCALAR2);                                      
 ));                                                                                                                                                   
 LOOP(DEF_U1$(ORD(DEF_U1) EQ 1),                                                                                                                       
-DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_U1)=1-ISCALAR2/2;                                                                                                    
-DEF_STEPS(RRR,S,T,'DF_QUANT',DEF_U1)=1-ISCALAR1*ISCALAR2/2;                                                                                           
+DEF_STEPS(RRR,DEUSER,S,T,'DF_PRICE',DEF_U1)=1-ISCALAR2/2;                                                                                             
+DEF_STEPS(RRR,DEUSER,S,T,'DF_QUANT',DEF_U1)=1-ISCALAR1*ISCALAR2/2;                                                                                    
 );                                                                                                                                                    
-LOOP(DEF_U1$(ORD(DEF_U1) GE 2), DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_U1)=DEF_STEPS(RRR,S,T,'DF_PRICE',DEF_U1-1)*(1-ISCALAR2));                            
-LOOP(DEF_U1$(ORD(DEF_U1) GE 2), DEF_STEPS(RRR,S,T,'DF_QUANT',DEF_U1)=DEF_STEPS(RRR,S,T,'DF_QUANT',DEF_U1-1)*(1-ISCALAR1*ISCALAR2));                   
+LOOP(DEF_U1$(ORD(DEF_U1) GE 2), DEF_STEPS(RRR,DEUSER,S,T,'DF_PRICE',DEF_U1)=DEF_STEPS(RRR,DEUSER,S,T,'DF_PRICE',DEF_U1-1)*(1-ISCALAR2));              
+LOOP(DEF_U1$(ORD(DEF_U1) GE 2), DEF_STEPS(RRR,DEUSER,S,T,'DF_QUANT',DEF_U1)=DEF_STEPS(RRR,DEUSER,S,T,'DF_QUANT',DEF_U1-1)*(1-ISCALAR1*ISCALAR2));     
 * $OFFTEXT                                                                                                                                            
                                                                                                                                                       
 $ONTEXT                                                                                                                                               
