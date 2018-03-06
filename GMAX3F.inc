@@ -1,0 +1,5 @@
+Parameter GMAX3F(CCCRRRAAA,FFF,IFFFALIAS,IFFFALIAS2) Maximum fuel use (GJ) per year for combination of 3 fuels in a country
+/
+*DENMARK.BIOGAS.BIOGAS_UP.BIOGAS_H2   10E+06
+*DENMARK.THERMGAS.THERMGAS_UP.THERMGAS_H2   10E+06
+/;
