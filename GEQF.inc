@@ -1,4 +1,64 @@
-TABLE GEQF(YYY,CCCRRRAAA,FFF)  'Required fuel use (GJ) per year'       
-*                                                                NATGAS
-* DK_E_Urban                                                     0     
-;                                                                      
+TABLE GEQF(YYY,CCCRRRAAA,FFF)  'Required fuel use (GJ) per year'                             
+                                                                                       NATGAS
+*Available Municipal Solid Waste for Incineration - data from FRIDA (TopWaste project)       
+2016.DK2                                                                                     
+2020.DK2                                                                                     
+2025.DK2                                                                                     
+2030.DK2                                                                                     
+2035.DK2                                                                                     
+2040.DK2                                                                                     
+2045.DK2                                                                                     
+2050.DK2                                                                                     
+2016.DK1                                                                                     
+2020.DK1                                                                                     
+2025.DK1                                                                                     
+2030.DK1                                                                                     
+2035.DK1                                                                                     
+2040.DK1                                                                                     
+2045.DK1                                                                                     
+2050.DK1                                                                                     
+*Municipal Solid Waste for Incineration in the rest of Europe (TopWaste Project)             
+2016.FINLAND                                                                                 
+2016.SWEDEN                                                                                  
+2020.FINLAND                                                                                 
+2020.GERMANY                                                                                 
+2020.NORWAY                                                                                  
+2020.SWEDEN                                                                                  
+2025.FINLAND                                                                                 
+2025.GERMANY                                                                                 
+2025.NORWAY                                                                                  
+2025.SWEDEN                                                                                  
+2030.FINLAND                                                                                 
+2030.GERMANY                                                                                 
+2030.NORWAY                                                                                  
+2030.SWEDEN                                                                                  
+2035.FINLAND                                                                                 
+2035.GERMANY                                                                                 
+2035.NORWAY                                                                                  
+2035.SWEDEN                                                                                  
+2040.FINLAND                                                                                 
+2040.GERMANY                                                                                 
+2040.NORWAY                                                                                  
+2040.SWEDEN                                                                                  
+2045.FINLAND                                                                                 
+2045.GERMANY                                                                                 
+2045.NORWAY                                                                                  
+2045.SWEDEN                                                                                  
+2050.FINLAND                                                                                 
+2050.GERMANY                                                                                 
+2050.NORWAY                                                                                  
+2050.SWEDEN                                                                                  
+*                                                                                            
+$ontext                                                                                      
+*Data TopWaste Project - HAZARDOUSWASTE                                                      
+2016.DENMARK                                                                                 
+2020.DENMARK                                                                                 
+2025.DENMARK                                                                                 
+2030.DENMARK                                                                                 
+2035.DENMARK                                                                                 
+2040.DENMARK                                                                                 
+2045.DENMARK                                                                                 
+2050.DENMARK                                                                                 
+$offtext                                                                                     
+                                                                                             
+;                                                                                            
