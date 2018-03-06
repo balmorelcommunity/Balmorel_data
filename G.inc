@@ -1445,6 +1445,7 @@ GNR_ENG_NGAS_BP_E-47
 GNR_ENG_NGAS_BP_E-47_Y-2020                                   
 GNR_ENG_NGAS_BP_E-48_Y-2030                                   
 GNR_ENG_NGAS_BP_E-50_Y-2050                                   
+GNR_ENG_NGAS_CND_E-41                                         
 GNR_ENG_NGAS_CND_E-44                                         
 GNR_ENG_NGAS_CND_E-46                                         
 GNR_GEO_HEAT_EO                                               
@@ -1501,6 +1502,10 @@ GNR_HP_ELEC_COP-600_Y-2030
 GNR_HP_ELEC_COP-600_Y-2050                                    
 GNR_HP_ELEC_COP-740_Y-2050                                    
 GNR_HP_ELEC_COP-900_Y-2020                                    
+GNR_HS_HEAT-E-100                                             
+GNR_HS_HEAT-E-100_Y-2020                                      
+GNR_HS_HEAT-E-100_Y-2030                                      
+GNR_HS_HEAT-E-100_Y-2050                                      
 GNR_PV_SUN                                                    
 GNR_PV_SUN_LS-4-MW_Y-2020                                     
 GNR_PV_SUN_LS-4-MW_Y-2030                                     
@@ -1550,6 +1555,8 @@ GNR_ST_COAL_EXT_E-47
 GNR_ST_COAL_EXT_E-49_LS-400-MW_Y-2020                         
 GNR_ST_COAL_EXT_E-52_LS-400-MW_Y-2030                         
 GNR_ST_COAL_EXT_E-54_LS-400-MW_Y-2050                         
+GNR_ST_FUELOIL_BP_E-27                                        
+GNR_ST_FUELOIL_BP_E-34                                        
 GNR_ST_FUELOIL_BP_E-35                                        
 GNR_ST_FUELOIL_BP_E-36                                        
 GNR_ST_FUELOIL_BP_E-37                                        
@@ -1642,6 +1649,7 @@ GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2020
 GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2030                   
 GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2050                   
 GNR_ST_WOODCHI_BP_E-30                                        
+GNR_ST_WOODCHI_EXT_E-30                                       
 GNR_ST_WOODPEL_BP_E-15                                        
 GNR_ST_WOODPEL_BP_E-17_LS-200-MW-FEED_Y-2020                  
 GNR_ST_WOODPEL_BP_E-17_LS-200-MW-FEED_Y-2030                  
@@ -1666,12 +1674,12 @@ GNR_WT_WIND_OFF_L-FS_Y-2050
 GNR_WT_WIND_OFF_L-NS_Y-2020                                   
 GNR_WT_WIND_OFF_L-NS_Y-2030                                   
 GNR_WT_WIND_OFF_L-NS_Y-2050                                   
-GNR_WT_WIND_ON-LS_Y-2020                                      
-GNR_WT_WIND_ON-LS_Y-2030                                      
-GNR_WT_WIND_ON-LS_Y-2050                                      
+GNR_WT_WIND_ON_LS_Y-2020                                      
+GNR_WT_WIND_ON_LS_Y-2030                                      
+GNR_WT_WIND_ON_LS_Y-2050                                      
 GNR_WT_WIND_ONS                                               
-GNR_WT_WIND_ON-SS-25-KW_Y-2020                                
-GNR_WT_WIND_ON-SS-25-KW_Y-2030                                
-GNR_WT_WIND_ON-SS-25-KW_Y-2050                                
+GNR_WT_WIND_ON_SS-25-KW_Y-2020                                
+GNR_WT_WIND_ON_SS-25-KW_Y-2030                                
+GNR_WT_WIND_ON_SS-25-KW_Y-2050                                
 /                                                             
 ;                                                             

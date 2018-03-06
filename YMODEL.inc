@@ -1,9 +1,9 @@
 SET YMODEL                  
                             
 /                           
-ONEYEAR                     
+*ONEYEAR                    
 *ONEYEAR,TWOYEAR,THREEYEAR  
-*ONEYEAR,TWOYEAR            
+ONEYEAR,TWOYEAR             
 /;                          
                             
                             
