@@ -27,7 +27,7 @@ GBPR_NATGAS_SUOMENOJA_CT-BGAS-UP
 GBPR_NATGAS_MARTINLAAKSOGT_CT-BGAS-UP           
 GBPR_NATGAS_CT-BGAS-UP                          
 GHOB_NATGAS_CT-BGAS-UP                          
-GBPR_NATGAS_IND _CT-BGAS-UP                     
+GBPR_NATGAS_IND_CT-BGAS-UP                      
 GBPR_NATGAS1_CT-BGAS-UP                         
 GBPR_NATGAS2_CT-BGAS-UP                         
 GBPR_NATGAS3_CT-BGAS-UP                         
@@ -45,8 +45,8 @@ GCND_NATGAS4_2_CT-BGAS-UP
 GCND_NATGAS4_3_CT-BGAS-UP                       
 ST-BP-Iru-2-OG_CT-BGAS-UP                       
 ST-Ext-Iru-1-OG_CT-BGAS-UP                      
-DH-Old-G-EE   _CT-BGAS-UP                       
-DH-Old-O-EE   _CT-BGAS-UP                       
+DH-Old-G-EE_CT-BGAS-UP                          
+DH-Old-O-EE_CT-BGAS-UP                          
 GEXT_NATGAS_IRU1_CT-BGAS-UP                     
 GBPR_NATGAS_IRU2_CT-BGAS-UP                     
 GEXT_NATGAS_EE_SMALL_CT-BGAS-UP                 
