@@ -25,16 +25,6 @@ GCND_PEAT
 GCND_WOODCHIPS                                                                                                                                                                   
 GHYRR_WATER                                                                                                                                                                      
 GHYRS_WATER                                                                                                                                                                      
-GHYRS_WATER1                                                                                                                                                                     
-GHYRS_WATER2                                                                                                                                                                     
-GHYRS_WATER3                                                                                                                                                                     
-GHYRS_WATER4                                                                                                                                                                     
-GHYRS_WATER5                                                                                                                                                                     
-GHYRS_WATER6                                                                                                                                                                     
-GHYRS_WATER7                                                                                                                                                                     
-GHYRS_WATER8                                                                                                                                                                     
-GHYRS_WATER9                                                                                                                                                                     
-GHYRS_WATER10                                                                                                                                                                    
 GSOLE_SUN                                                                                                                                                                        
 GWND_WIND                                                                                                                                                                        
 Back-up-power                                                                                                                                                                    
@@ -326,48 +316,48 @@ GBPR-STRAW
 GEXT-CO-025                                                                                                                                                                      
 GEXT-CO-04                                                                                                                                                                       
 GEXT-LIGNITE-036                                                                                                                                                                 
-GEXT-STRAW                                                                                                                                                                       
-GEXT-WW-018                                                                                                                                                                      
-SteamTur-CON-CO-10_19                          'Steam turbine; condensing technology; burning coal; available for investments years 2010-2019'                                   
-SteamTur-CON-CO-20_29                          'Steam turbine; condensing technology; burning coal; available for investments years 2020-2029'                                   
-SteamTur-CON-CO-30_49                          'Steam turbine; condensing technology; burning coal; available for investments years 2030-2049'                                   
-SteamTur-CON-CO-50                             'Steam turbine; condensing technology; burning coal; available for investments from 2050'                                         
-SteamTur-CON-WP-10_19                          'Steam turbine; condensing technology; burning wood pellets; available for investments years 2010-2019'                           
-SteamTur-CON-WP-20_29                          'Steam turbine; condensing technology; burning wood pellets; available for investments years 2020-2029'                           
-SteamTur-CON-WP-30_49                          'Steam turbine; condensing technology; burning wood pellets; available for investments years 2030-2049'                           
-SteamTur-CON-WP-50                             'Steam turbine; condensing technology; burning wood pellets; available for investments from 2050'                                 
-SteamTur-CON-NG-10_19                          'Steam turbine; condensing technology; burning natural gas;; available for investments years 2010-2019'                           
-SteamTur-CON-NG-20_50                          'Steam turbine; condensing technology; burning natural gas; available for investments years 2020-2050'                            
-SteamTur-CON-COccs-30_50                                                                                                                                                         
-SteamTur-CON-WPccs-30_50                                                                                                                                                         
-SteamTur-EXT-CO-10_19                          'Steam turbine; extraction technology; burning coal; available for investments years 2010-2019'                                   
-SteamTur-EXT-CO-20_29                          'Steam turbine; extraction technology; burning coal; available for investments years 2020-2029'                                   
-SteamTur-EXT-CO-30_49                          'Steam turbine; extraction technology; burning coal; available for investments years 2030-2049'                                   
-SteamTur-EXT-CO-50                             'Steam turbine; extraction technology; burning coal; available for investments from 2050'                                         
-SteamTur-EXT-WP-10_19                          'Steam turbine; extraction technology; burning wood pellets; available for investments years 2010-2019'                           
-SteamTur-EXT-WP-20_29                          'Steam turbine; extraction technology; burning wood pellets; available for investments years 2020-2029'                           
-SteamTur-EXT-WP-30_49                          'Steam turbine; extraction technology; burning wood pellets; available for investments years 2030-2049'                           
-SteamTur-EXT-WP-50                             'Steam turbine; extraction technology; burning wood pellets; available for investments from 2050'                                 
-SteamTur-EXT-NG-10_19                          'Steam turbine; extraction technology; burning natural gas; available for investments years 2010-2019'                            
-SteamTur-EXT-NG-20_50                          'Steam turbine; extraction technology; burning natural gas; available for investments years 2020-2050'                            
-SteamTur-EXT-COccs-30_50                                                                                                                                                         
-SteamTur-EXT-WPccs-30_50                                                                                                                                                         
-GasTur-CON-NG-10_19                            'Gas turbine condensing technology; burning natural gas; available for investments years 2010-2019'                               
-GasTur-CON-NG-20                               'Gas turbine condensing technology; burning natural gas; available for investments from 2020'                                     
-GasTur-EXT-NG-10_19                            'Gas turbine extraction technology; burning natural gas; available for investments years 2010-2019'                               
-GasTur-EXT-NG-20                               'Gas turbine extraction technology; burning natural gas; available for investments from 2020'                                     
-GasTur-CON-BGn-10_19                           'Gas turbine condensing technology; burning biogas from network; available for investments years 2010-2019'                       
-GasTur-CON-BGn-20                              'Gas turbine condensing technology; burning biogas from network; available for investments from 2020'                             
-GasTur-EXT-BGn-10_19                           'Gas turbine extraction technology; burning biogas from network; available for investments years 2010-2019'                       
-GasTur-EXT-BGn-20                              'Gas turbine extraction technology; burning biogas from network; available for investments from 2020'                             
+GEXT-STRAW                                     'Steam turbine; condensing technology; burning coal; available for investments years 2010-2019'                                   
+GEXT-WW-018                                    'Steam turbine; condensing technology; burning coal; available for investments years 2020-2029'                                   
+SteamTur-CON-CO-10_19                          'Steam turbine; condensing technology; burning coal; available for investments years 2030-2049'                                   
+SteamTur-CON-CO-20_29                          'Steam turbine; condensing technology; burning coal; available for investments from 2050'                                         
+SteamTur-CON-CO-30_49                          'Steam turbine; condensing technology; burning wood pellets; available for investments years 2010-2019'                           
+SteamTur-CON-CO-50                             'Steam turbine; condensing technology; burning wood pellets; available for investments years 2020-2029'                           
+SteamTur-CON-WP-10_19                          'Steam turbine; condensing technology; burning wood pellets; available for investments years 2030-2049'                           
+SteamTur-CON-WP-20_29                          'Steam turbine; condensing technology; burning wood pellets; available for investments from 2050'                                 
+SteamTur-CON-WP-30_49                          'Steam turbine; condensing technology; burning natural gas;; available for investments years 2010-2019'                           
+SteamTur-CON-WP-50                             'Steam turbine; condensing technology; burning natural gas; available for investments years 2020-2050'                            
+SteamTur-CON-NG-10_19                                                                                                                                                            
+SteamTur-CON-NG-20_50                                                                                                                                                            
+SteamTur-CON-COccs-30_50                       'Steam turbine; extraction technology; burning coal; available for investments years 2010-2019'                                   
+SteamTur-CON-WPccs-30_50                       'Steam turbine; extraction technology; burning coal; available for investments years 2020-2029'                                   
+SteamTur-EXT-CO-10_19                          'Steam turbine; extraction technology; burning coal; available for investments years 2030-2049'                                   
+SteamTur-EXT-CO-20_29                          'Steam turbine; extraction technology; burning coal; available for investments from 2050'                                         
+SteamTur-EXT-CO-30_49                          'Steam turbine; extraction technology; burning wood pellets; available for investments years 2010-2019'                           
+SteamTur-EXT-CO-50                             'Steam turbine; extraction technology; burning wood pellets; available for investments years 2020-2029'                           
+SteamTur-EXT-WP-10_19                          'Steam turbine; extraction technology; burning wood pellets; available for investments years 2030-2049'                           
+SteamTur-EXT-WP-20_29                          'Steam turbine; extraction technology; burning wood pellets; available for investments from 2050'                                 
+SteamTur-EXT-WP-30_49                          'Steam turbine; extraction technology; burning natural gas; available for investments years 2010-2019'                            
+SteamTur-EXT-WP-50                             'Steam turbine; extraction technology; burning natural gas; available for investments years 2020-2050'                            
+SteamTur-EXT-NG-10_19                                                                                                                                                            
+SteamTur-EXT-NG-20_50                                                                                                                                                            
+SteamTur-EXT-COccs-30_50                       'Gas turbine condensing technology; burning natural gas; available for investments years 2010-2019'                               
+SteamTur-EXT-WPccs-30_50                       'Gas turbine condensing technology; burning natural gas; available for investments from 2020'                                     
+GasTur-CON-NG-10_19                            'Gas turbine extraction technology; burning natural gas; available for investments years 2010-2019'                               
+GasTur-CON-NG-20                               'Gas turbine extraction technology; burning natural gas; available for investments from 2020'                                     
+GasTur-EXT-NG-10_19                            'Gas turbine condensing technology; burning biogas from network; available for investments years 2010-2019'                       
+GasTur-EXT-NG-20                               'Gas turbine condensing technology; burning biogas from network; available for investments from 2020'                             
+GasTur-CON-BGn-10_19                           'Gas turbine extraction technology; burning biogas from network; available for investments years 2010-2019'                       
+GasTur-CON-BGn-20                              'Gas turbine extraction technology; burning biogas from network; available for investments from 2020'                             
+GasTur-EXT-BGn-10_19                                                                                                                                                             
+GasTur-EXT-BGn-20                                                                                                                                                                
 GasTur-CON-BGn-EC-10_19                                                                                                                                                          
 GasTur-CON-BGn-EC-20                                                                                                                                                             
-GasTur-EXT-BGn-EC-10_19                                                                                                                                                          
-GasTur-EXT-BGn-EC-20                                                                                                                                                             
-GasTurCC-CON-NG-10_19                          'Gas turbine combined cicle condensing technology; burning natural gas; available for investments years 2010-2019'                
-GasTurCC-CON-NG-20_29                          'Gas turbine combined cicle condensing technology; burning natural gas; available for investments years 2020-2029'                
-GasTurCC-CON-NG-30_49                          'Gas turbine combined cicle condensing technology; burning natural gas; available for investments years 2030-2049'                
-GasTurCC-CON-NG-50                             'Gas turbine combined cicle condensing technology; burning natural gas; available for investments from 2050'                      
+GasTur-EXT-BGn-EC-10_19                        'Gas turbine combined cicle condensing technology; burning natural gas; available for investments years 2010-2019'                
+GasTur-EXT-BGn-EC-20                           'Gas turbine combined cicle condensing technology; burning natural gas; available for investments years 2020-2029'                
+GasTurCC-CON-NG-10_19                          'Gas turbine combined cicle condensing technology; burning natural gas; available for investments years 2030-2049'                
+GasTurCC-CON-NG-20_29                          'Gas turbine combined cicle condensing technology; burning natural gas; available for investments from 2050'                      
+GasTurCC-CON-NG-30_49                                                                                                                                                            
+GasTurCC-CON-NG-50                                                                                                                                                               
 GasTurCC-CON-BGn-10_19                                                                                                                                                           
 GasTurCC-CON-BGn-20_29                                                                                                                                                           
 GasTurCC-CON-BGn-30_49                                                                                                                                                           
@@ -375,86 +365,86 @@ GasTurCC-CON-BGn-50
 GasTurCC-CON-BGn-EC-10_19                                                                                                                                                        
 GasTurCC-CON-BGn-EC-20_29                                                                                                                                                        
 GasTurCC-CON-BGn-EC-30_49                                                                                                                                                        
-GasTurCC-CON-BGn-EC-50                                                                                                                                                           
-GasTurCC-CON-NGccs-30_50                                                                                                                                                         
-GasTurCC-EXT-NG-10_19                          'Gas turbine combined cicle extraction technology; burning natural gas; available for investments years 2010-2019'                
-GasTurCC-EXT-NG-20_29                          'Gas turbine combined cicle extraction technology; burning natural gas; available for investments years 2020-2029'                
-GasTurCC-EXT-NG-30_49                          'Gas turbine combined cicle extraction technology; burning natural gas; available for investments years 2030-2049'                
-GasTurCC-EXT-NG-50                             'Gas turbine combined cicle extraction technology; burning natural gas; available for investments from 2050'                      
-GasTurCC-EXT-BGn-10_19                         'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments years 2010-2019'        
-GasTurCC-EXT-BGn-20_29                         'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments years 2020-2029'        
-GasTurCC-EXT-BGn-30_49                         'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments years 2030-2049'        
-GasTurCC-EXT-BGn-50                            'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments from 2050'              
+GasTurCC-CON-BGn-EC-50                         'Gas turbine combined cicle extraction technology; burning natural gas; available for investments years 2010-2019'                
+GasTurCC-CON-NGccs-30_50                       'Gas turbine combined cicle extraction technology; burning natural gas; available for investments years 2020-2029'                
+GasTurCC-EXT-NG-10_19                          'Gas turbine combined cicle extraction technology; burning natural gas; available for investments years 2030-2049'                
+GasTurCC-EXT-NG-20_29                          'Gas turbine combined cicle extraction technology; burning natural gas; available for investments from 2050'                      
+GasTurCC-EXT-NG-30_49                          'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments years 2010-2019'        
+GasTurCC-EXT-NG-50                             'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments years 2020-2029'        
+GasTurCC-EXT-BGn-10_19                         'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments years 2030-2049'        
+GasTurCC-EXT-BGn-20_29                         'Gas turbine combined cicle extraction technology; burning biogas from network; available for investments from 2050'              
+GasTurCC-EXT-BGn-30_49                                                                                                                                                           
+GasTurCC-EXT-BGn-50                                                                                                                                                              
 GasTurCC-EXT-BGn-EC-10_19                                                                                                                                                        
 GasTurCC-EXT-BGn-EC-20_29                                                                                                                                                        
 GasTurCC-EXT-BGn-EC-30_49                                                                                                                                                        
-GasTurCC-EXT-BGn-EC-50                                                                                                                                                           
-GasTurCC-EXT-NGccs-30_50                                                                                                                                                         
-GasTurCC-BP-NG-10_19                           'Gas turbine combined cicle backpressure technology; burning natural gas; available for investments years 2010-2019'              
-GasTurCC-BP-NG-20                              'Gas turbine combined cicle backpressure technology; burning natural gas; available for investments from 2020 '                   
-GasTurCC-BP-BGn-10_19                          'Gas turbine combined cicle backpressure technology; burning biogas from network; available for investments years 2010-2019'      
-GasTurCC-BP-BGn-20                             'Gas turbine combined cicle backpressure technology; burning biogas from network; available for investments from 2020 '           
-GasTurCC-BP-BGn-EC-10_19                                                                                                                                                         
-GasTurCC-BP-BGn-EC-20                                                                                                                                                            
-Engine-NG-10_19                                'Engine; burning natural gas; available for investments years 2010-2019'                                                          
-Engine-NG-20_29                                'Engine; burning natural gas; available for investments years 2020-2029'                                                          
-Engine-NG-30_49                                'Engine; burning natural gas; available for investments years 2030-2049'                                                          
-Engine-NG-50                                   'Engine; burning natural gas; available for investments from 2050'                                                                
-Engine-BGn-10_19                               'Engine; burning biogas from network; available for investments years 2010-2019'                                                  
-Engine-BGn-20_29                               'Engine; burning biogas from network; available for investments years 2020-2029'                                                  
-Engine-BGn-30_49                               'Engine; burning biogas from network; available for investments years 2030-2049'                                                  
-Engine-BGn-50                                  'Engine; burning biogas from network; available for investments from 2050'                                                        
+GasTurCC-EXT-BGn-EC-50                         'Gas turbine combined cicle backpressure technology; burning natural gas; available for investments years 2010-2019'              
+GasTurCC-EXT-NGccs-30_50                       'Gas turbine combined cicle backpressure technology; burning natural gas; available for investments from 2020 '                   
+GasTurCC-BP-NG-10_19                           'Gas turbine combined cicle backpressure technology; burning biogas from network; available for investments years 2010-2019'      
+GasTurCC-BP-NG-20                              'Gas turbine combined cicle backpressure technology; burning biogas from network; available for investments from 2020 '           
+GasTurCC-BP-BGn-10_19                                                                                                                                                            
+GasTurCC-BP-BGn-20                                                                                                                                                               
+GasTurCC-BP-BGn-EC-10_19                       'Engine; burning natural gas; available for investments years 2010-2019'                                                          
+GasTurCC-BP-BGn-EC-20                          'Engine; burning natural gas; available for investments years 2020-2029'                                                          
+Engine-NG-10_19                                'Engine; burning natural gas; available for investments years 2030-2049'                                                          
+Engine-NG-20_29                                'Engine; burning natural gas; available for investments from 2050'                                                                
+Engine-NG-30_49                                'Engine; burning biogas from network; available for investments years 2010-2019'                                                  
+Engine-NG-50                                   'Engine; burning biogas from network; available for investments years 2020-2029'                                                  
+Engine-BGn-10_19                               'Engine; burning biogas from network; available for investments years 2030-2049'                                                  
+Engine-BGn-20_29                               'Engine; burning biogas from network; available for investments from 2050'                                                        
+Engine-BGn-30_49                                                                                                                                                                 
+Engine-BGn-50                                                                                                                                                                    
 Engine-BGn-EC-10_19                                                                                                                                                              
 Engine-BGn-EC-20_29                                                                                                                                                              
-Engine-BGn-EC-30_49                                                                                                                                                              
-Engine-BGn-EC-50                                                                                                                                                                 
-WasteToEnergy-BP-10_19                         'Waste to energy backpressure technology; available for investments years 2010-2019'                                              
-WasteToEnergy-BP-20                            'Waste to energy backpressure technology; available for investments from 2020'                                                    
-WasteToEnergy_Small-BP-20                      'Waste to energy backpressure technology; small size available for investments from 2020'                                         
-WasteToEnergy_Medium-BP-20                     'Waste to energy backpressure technology; medium size available for investments from 2020'                                        
-WasteToEnergy_Large-BP-20                      'Waste to energy backpressure technology; large size available for investments from 2020'                                         
-SteamTur-LARGE-CON-WO-10_19                    'Steam turbine; large size condensing technology; burning wood available for investments years 2010-2019'                         
-SteamTur-LARGE-CON-WO-20_29                    'Steam turbine; large size condensing technology; burning wood available for investments years 2020-2029'                         
-SteamTur-LARGE-CON-WO-30                       'Steam turbine; large size condensing technology; burning wood available for investments from 2030'                               
-SteamTur-LARGE-EXT-WO-10_19                    'Steam turbine; large size extraction technology; burning wood available for investments years 2010-2019'                         
-SteamTur-LARGE-EXT-WO-20_29                    'Steam turbine; large size extraction technology; burning wood available for investments years 2020-2029'                         
-SteamTur-LARGE-EXT-WO-30                       'Steam turbine; large size extraction technology; burning wood available for investments from 2030'                               
-SteamTur-LARGE-BP-WO-10_19                     'Steam turbine; large size backpressure technology; burning wood available for investments years 2010-2019'                       
-SteamTur-LARGE-BP-WO-20_29                     'Steam turbine; large size backpressure technology; burning wood available for investments years 2020-2029'                       
-SteamTur-LARGE-BP-WO-30                        'Steam turbine; large size backpressure technology; burning wood available for investments from 2030'                             
-SteamTur-Medi-BP-WO-10                         'Steam turbine; medium size backpressure technology; burning wood available for investments from 2010'                            
-SteamTur-Medi-BP-WW-10                         'Steam turbine; medium size backpressure technology; burning wood waste available for investments from 2010'                      
-SteamTur-Medi-BP-ST-10                         'Steam turbine; medium size backpressure technology; burning straw available for investments from 2010'                           
+Engine-BGn-EC-30_49                            'Waste to energy backpressure technology; available for investments years 2010-2019'                                              
+Engine-BGn-EC-50                               'Waste to energy backpressure technology; available for investments from 2020'                                                    
+WasteToEnergy-BP-10_19                         'Waste to energy backpressure technology; small size available for investments from 2020'                                         
+WasteToEnergy-BP-20                            'Waste to energy backpressure technology; medium size available for investments from 2020'                                        
+WasteToEnergy_Small-BP-20                      'Waste to energy backpressure technology; large size available for investments from 2020'                                         
+WasteToEnergy_Medium-BP-20                     'Steam turbine; large size condensing technology; burning wood available for investments years 2010-2019'                         
+WasteToEnergy_Large-BP-20                      'Steam turbine; large size condensing technology; burning wood available for investments years 2020-2029'                         
+SteamTur-LARGE-CON-WO-10_19                    'Steam turbine; large size condensing technology; burning wood available for investments from 2030'                               
+SteamTur-LARGE-CON-WO-20_29                    'Steam turbine; large size extraction technology; burning wood available for investments years 2010-2019'                         
+SteamTur-LARGE-CON-WO-30                       'Steam turbine; large size extraction technology; burning wood available for investments years 2020-2029'                         
+SteamTur-LARGE-EXT-WO-10_19                    'Steam turbine; large size extraction technology; burning wood available for investments from 2030'                               
+SteamTur-LARGE-EXT-WO-20_29                    'Steam turbine; large size backpressure technology; burning wood available for investments years 2010-2019'                       
+SteamTur-LARGE-EXT-WO-30                       'Steam turbine; large size backpressure technology; burning wood available for investments years 2020-2029'                       
+SteamTur-LARGE-BP-WO-10_19                     'Steam turbine; large size backpressure technology; burning wood available for investments from 2030'                             
+SteamTur-LARGE-BP-WO-20_29                     'Steam turbine; medium size backpressure technology; burning wood available for investments from 2010'                            
+SteamTur-LARGE-BP-WO-30                        'Steam turbine; medium size backpressure technology; burning wood waste available for investments from 2010'                      
+SteamTur-Medi-BP-WO-10                         'Steam turbine; medium size backpressure technology; burning straw available for investments from 2010'                           
+SteamTur-Medi-BP-WW-10                                                                                                                                                           
+SteamTur-Medi-BP-ST-10                                                                                                                                                           
 Central-CHP-BG-10_19                                                                                                                                                             
 Central-CHP-BG-20_29                                                                                                                                                             
 Central-CHP-BG-30                                                                                                                                                                
-Central-CHP-BG-15                                                                                                                                                                
-Central-CHP-BG-EC-15                                                                                                                                                             
-Wind-Onshore-10_19                             'Wind onshore;  available for investment years 2010-2019'                                                                         
-Wind-Onshore-20_29                             'Wind onshore;  available for investment years 2020-2029'                                                                         
-Wind-Onshore-30_49                             'Wind onshore;  available for investment years 2030-2049'                                                                         
-Wind-Onshore-50                                'Wind onshore;  available for investment from 2050'                                                                               
+Central-CHP-BG-15                              'Wind onshore;  available for investment years 2010-2019'                                                                         
+Central-CHP-BG-EC-15                           'Wind onshore;  available for investment years 2020-2029'                                                                         
+Wind-Onshore-10_19                             'Wind onshore;  available for investment years 2030-2049'                                                                         
+Wind-Onshore-20_29                             'Wind onshore;  available for investment from 2050'                                                                               
+Wind-Onshore-30_49                                                                                                                                                               
+Wind-Onshore-50                                                                                                                                                                  
 Wind-Onshore_LCI-20_29                                                                                                                                                           
-Wind-Onshore_LCI-30_49                                                                                                                                                           
-Wind-Onshore_LCI-50                                                                                                                                                              
-Wind-Offshore-10_19                            'Wind offshore available for investment years 2010-2019'                                                                          
-Wind-Offshore-20_29                            'Wind offshore;  available for investment years 2020-2029'                                                                        
-Wind-Offshore-30_49                            'Wind offshore;  available for investment years 2030-2049'                                                                        
-Wind-Offshore-50                               'Wind offshore;  available for investment from 2050'                                                                              
-Wind-nearOffshore-20_29                        'Wind offshore near from the coast; available for investment years 2020-2029'                                                     
-Wind-nearOffshore-30_49                        'Wind offshore near from the coast; available for investment years 2030-2049'                                                     
-Wind-nearOffshore-50                           'Wind offshore near from the coast available for investment from 2050'                                                            
-Wind-farOffshore-20_29                         'Wind offshore far from the coast;  available for investment years 2020-2029'                                                     
-Wind-farOffshore-30_49                         'Wind offshore far from the coast;  available for investment years 2030-2049'                                                     
-Wind-farOffshore-50                            'Wind offshore far from the coast;  available for investment from 2050'                                                           
-SolarPV-10_19                                  'Solar PV;  available for investment fom 2010 until 2019 (included)'                                                              
-SolarPV-20_29                                  'Solar PV;  available for investment fom 2020 until 2029 (included)'                                                              
-SolarPV-30_49                                  'Solar PV;  available for investment fom 2030 until 2049 (included)'                                                              
-SolarPV-50                                     'Solar PV;  available for investment fom year 2050'                                                                               
-WavePower-10_19                                'Wave Power;  available for investment years 2010-2019'                                                                           
-WavePower-20_29                                'Wave Power; available for investment years 2020-2029'                                                                            
-WavePower-30_49                                'Wave Power;  available for investment years 2030-2049'                                                                           
-WavePower-50                                   'Wave Power;  available for investment from year 2050'                                                                            
+Wind-Onshore_LCI-30_49                         'Wind offshore available for investment years 2010-2019'                                                                          
+Wind-Onshore_LCI-50                            'Wind offshore;  available for investment years 2020-2029'                                                                        
+Wind-Offshore-10_19                            'Wind offshore;  available for investment years 2030-2049'                                                                        
+Wind-Offshore-20_29                            'Wind offshore;  available for investment from 2050'                                                                              
+Wind-Offshore-30_49                            'Wind offshore near from the coast; available for investment years 2020-2029'                                                     
+Wind-Offshore-50                               'Wind offshore near from the coast; available for investment years 2030-2049'                                                     
+Wind-nearOffshore-20_29                        'Wind offshore near from the coast available for investment from 2050'                                                            
+Wind-nearOffshore-30_49                        'Wind offshore far from the coast;  available for investment years 2020-2029'                                                     
+Wind-nearOffshore-50                           'Wind offshore far from the coast;  available for investment years 2030-2049'                                                     
+Wind-farOffshore-20_29                         'Wind offshore far from the coast;  available for investment from 2050'                                                           
+Wind-farOffshore-30_49                         'Solar PV;  available for investment fom 2010 until 2019 (included)'                                                              
+Wind-farOffshore-50                            'Solar PV;  available for investment fom 2020 until 2029 (included)'                                                              
+SolarPV-10_19                                  'Solar PV;  available for investment fom 2030 until 2049 (included)'                                                              
+SolarPV-20_29                                  'Solar PV;  available for investment fom year 2050'                                                                               
+SolarPV-30_49                                  'Wave Power;  available for investment years 2010-2019'                                                                           
+SolarPV-50                                     'Wave Power; available for investment years 2020-2029'                                                                            
+WavePower-10_19                                'Wave Power;  available for investment years 2030-2049'                                                                           
+WavePower-20_29                                'Wave Power;  available for investment from year 2050'                                                                            
+WavePower-30_49                                                                                                                                                                  
+WavePower-50                                                                                                                                                                     
 HeatPump-EL-10_19                                                                                                                                                                
 HeatPump-EL-20_29                                                                                                                                                                
 HeatPump-EL-30_49                                                                                                                                                                
@@ -1681,5 +1671,15 @@ GNR_WT_WIND_ONS
 GNR_WT_WIND_ON_SS-25-KW_Y-2020                                                                                                                                                   
 GNR_WT_WIND_ON_SS-25-KW_Y-2030                                                                                                                                                   
 GNR_WT_WIND_ON_SS-25-KW_Y-2050                                                                                                                                                   
-/                                                                                                                                                                                
-;                                                                                                                                                                                
+GNR_RES_WTR_PMP_MC-01                                                                                                                                                            
+GNR_RES_WTR_NOPMP_MC-01                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-02                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-03                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-04                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-05                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-06                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-07                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-08                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-09                                                                                                                                                          
+GNR_RES_WTR_NOPMP_MC-10                                                                                                                                                          
+/;                                                                                                                                                                               
