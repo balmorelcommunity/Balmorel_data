@@ -4,9 +4,9 @@ NORWAY
 DENMARK                                      
 *FINLAND                                     
 GERMANY                                      
-*NETHERLANDS                                 
+NETHERLANDS                                  
 SWEDEN                                       
-*UNITED_KINGDOM                              
+UNITED_KINGDOM                               
 *ESTONIA                                     
 *LATVIA                                      
 *LITHUANIA                                   
