@@ -1,4 +1,4 @@
 *CYCLESINS             
 PARAMETER CYCLESINS(S);
-CYCLESINS(S)=1;      
+CYCLESINS(S)=1;        
                        
