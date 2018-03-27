@@ -37,9 +37,9 @@ DE4-W_Offshore_A                                                                
                                                                                                    
 NE_OFFSHORE                                                                        3964            
 UK_OFFSHORE                                                                        3324            
-                                                                                                   
-                                                                                                   
 /;                                                                                                 
+WNDFLH(AAA)$(WNDFLH(AAA) EQ 0) = WNDFLH('FinA') ;                                                  
+                                                                                                   
                                                                                                    
 PARAMETER SOLEFLH(AAA)  'Full load hours for solar power'                                          
 * Same data used for all regions as for Germany                                                    
@@ -67,6 +67,7 @@ EE_A                                                                            
 LV_A                                                                               998.64          
 LT_A                                                                               998.64          
 /;                                                                                                 
+SOLEFLH(AAA)$(SOLEFLH(AAA) EQ 0) = SOLEFLH('DK2_NoDH') ;                                           
                                                                                                    
 PARAMETER SOLHFLH(AAA)  'Full load hours for solar heat (hours)'                                   
 * NOT REAL DATA, DEMONSTRATION ONLY. Same data used for all regions as for Germany                 
@@ -94,6 +95,7 @@ EE_A                                                                            
 LV_A                                                                               1040            
 LT_A                                                                               1040            
 /;                                                                                                 
+SOLHFLH(AAA)$(SOLHFLH(AAA) EQ 0) = SOLHFLH('DK2_NoDH') ;                                           
                                                                                                    
                                                                                                    
                                                                                                    

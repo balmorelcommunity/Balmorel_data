@@ -12,7 +12,6 @@ DK1                                                                 .    DK1_Med
 DK2                                                                 .    DK2_Small         
 DK2                                                                 .    DK2_NoDH          
 DK1                                                                 .    DK1_NoDH          
-DK1                                                                 .    DK2_Rural         
 DK2                                                                 .    DK2_Offshore      
 DK1                                                                 .    DK1_Offshore      
                                                                                            
