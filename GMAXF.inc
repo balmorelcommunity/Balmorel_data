@@ -1,4 +1,16 @@
-TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'        
-*                                                                NATGAS 
-* DK_E_Urban                                                     0      
-;                                                                       
+TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'                                                              
+                                                                   STRAW      WOOD      WOODWASTE BIOGAS                      
+2016.DENMARK                                                       38249938   26295442  7547110   49293770                    
+2016.GERMANY                                                       416301200  637648554 199885806 377769592                   
+2016.ESTONIA                                                       19146132   49157900  10142595  5481780                     
+2016.LATVIA                                                        38595479   85967700  1454980   8278642                     
+2016.LITHUANIA                                                     52637848   57888000  2305023   17654602                    
+2016.NETHERLANDS                                                   72654515   8676500   45870942  200922730                   
+2016.POLAND                                                        166683031  312220000 71090829  131464145                   
+2016.FINLAND                                                       1809255    456765800 77791704  28138654                    
+2016.SWEDEN                                                        24262270   541360000 21976132  42886034                    
+2016.UNITED_KINGDOM                                                1014180305 78276100  82302390  302831278                   
+2016.NORWAY                                                        9911538    86443400  24792565  25308479                    
+;                                                                                                                             
+GMAXF(YYY,CCC,FFF)=GMAXF('2016',CCC,FFF);                                                                                     
+                                                                                                                              
