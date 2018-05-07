@@ -9,7 +9,7 @@ DE4-E
 DE4-N                                
 DE4-S                                
 DE4-W                                
-NE                                   
+NL                                   
 NO1                                  
 NO2                                  
 NO3                                  
