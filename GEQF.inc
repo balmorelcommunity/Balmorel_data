@@ -1,6 +1,7 @@
 TABLE GEQF(YYY,CCCRRRAAA,FFF)  'Required fuel use (GJ) per year'                                                                                                                                               
                                                                                                                                                          NATGAS MUNIWASTE     STRAW       WOOD        WOODWASTE
 *Available Municipal Solid Waste for Incineration - data from FRIDA (TopWaste project)                                                                                                                         
+$ontext                                                                                                                                                                                                        
 2016.DK2                                                                                                                                                        14930786                                       
 2020.DK2                                                                                                                                                        15792925                                       
 2025.DK2                                                                                                                                                        14913845                                       
@@ -51,7 +52,7 @@ TABLE GEQF(YYY,CCCRRRAAA,FFF)  'Required fuel use (GJ) per year'
 2050.NORWAY                                                                                                                                                     24275695                                       
 2050.SWEDEN                                                                                                                                                     56000000                                       
 *                                                                                                                                                                                                              
-$ontext                                                                                                                                                                                                        
+*$ontext                                                                                                                                                                                                       
 *Data TopWaste Project - HAZARDOUSWASTE                                                                                                                                                                        
 2016.DENMARK                                                                                                                                                                                                   
 2020.DENMARK                                                                                                                                                                                                   

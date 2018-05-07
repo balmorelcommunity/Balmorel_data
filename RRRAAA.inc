@@ -24,25 +24,38 @@ DE4-N                                                               .    DE4-N_O
 DE4-S                                                               .    DE4-S_A           
 DE4-W                                                               .    DE4-W_A           
 DE4-W                                                               .    DE4-W_Offshore_A  
-Ne                                                                  .    NeA               
-EE                                                                  .    EE_A              
-EE                                                                  .    EE_Narva          
-EE                                                                  .    EE_Tartu          
-EE                                                                  .    EE_Parnu          
-EE                                                                  .    EE_Tallinn        
-EE                                                                  .    EE_Kohtla_Jarve   
-EE                                                                  .    EE_Industry       
-EE                                                                  .    EE_Small          
                                                                                            
-LV                                                                  .    LV_A              
-LV                                                                  .    LV_A1             
-LV                                                                  .    LV_A2             
-LV                                                                  .    LV_A3             
+EE                                                                  .    EE_A              
+EE                                                                  .    EE_Enefit         
+EE                                                                  .    EE_Industry       
+EE                                                                  .    EE_Kohtla_Jarve   
+EE                                                                  .    EE_Narva          
+EE                                                                  .    EE_Parnu          
+EE                                                                  .    EE_Rural          
+EE                                                                  .    EE_Sillamae       
+EE                                                                  .    EE_Tallinn        
+EE                                                                  .    EE_Tartu          
+EE                                                                  .    EE_Urban          
                                                                                            
 LT                                                                  .    LT_A              
-LT                                                                  .    LT_A1             
+LT                                                                  .    LT_KauU           
+LT                                                                  .    LT_KlaU           
+LT                                                                  .    LT_Other_DH       
+LT                                                                  .    LT_Panevezys      
+LT                                                                  .    LT_Rural          
+LT                                                                  .    LT_SiaU           
+LT                                                                  .    LT_VilU           
+                                                                                           
+LV                                                                  .    LV_A              
+LV                                                                  .    LV_Other_DH       
+LV                                                                  .    LV_RigaR          
+LV                                                                  .    LV_Rural          
+                                                                                           
+NL                                                                  .    NL_A              
 PL                                                                  .    PL_A              
-PL                                                                  .    PL_A1             
+PL                                                                  .    PL_Rural          
+UK                                                                  .    UK_A              
+UK                                                                  .    UK_Offshore       
                                                                                            
 NO1                                                                 .    NO1_A1            
 NO1                                                                 .    NO1_A2            
@@ -55,9 +68,6 @@ SE1                                                                 .    SE1A
 SE2                                                                 .    SE2A              
 SE3                                                                 .    SE3A              
 SE4                                                                 .    SE4A              
-UK                                                                  .    UKA               
-NE                                                                  .    NE_OFFSHORE       
-UK                                                                  .    UK_OFFSHORE       
 FIN                                                                 .    FIN_ESPOO         
 FIN                                                                 .    FIN_HELS          
 FIN                                                                 .    FIN_TAMP          

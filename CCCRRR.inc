@@ -7,7 +7,7 @@ GERMANY                                                .    DE4-E
 GERMANY                                                .    DE4-N  
 GERMANY                                                .    DE4-S  
 GERMANY                                                .    DE4-W  
-NETHERLANDS                                            .    Ne     
+NETHERLANDS                                            .    NL     
 ESTONIA                                                .    EE     
 LATVIA                                                 .    LV     
 LITHUANIA                                              .    LT     
