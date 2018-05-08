@@ -7,7 +7,7 @@ DE4-E                                                                    5
 DE4-N                                                                    5   
 DE4-S                                                                    5   
 DE4-W                                                                    5   
-NE                                                                       5   
+NL                                                                       5   
 NO1                                                                      5   
 NO2                                                                      5   
 NO3                                                                      5   
