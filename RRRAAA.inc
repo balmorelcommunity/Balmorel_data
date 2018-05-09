@@ -36,7 +36,7 @@ EE                                                                  .    EE_Sill
 EE                                                                  .    EE_Tallinn        
 EE                                                                  .    EE_Tartu          
 EE                                                                  .    EE_Urban          
-                                                                                           
+EE                                                                  .    EE_OFFSHORE       
 LT                                                                  .    LT_A              
 LT                                                                  .    LT_KauU           
 LT                                                                  .    LT_KlaU           
@@ -45,15 +45,17 @@ LT                                                                  .    LT_Pane
 LT                                                                  .    LT_Rural          
 LT                                                                  .    LT_SiaU           
 LT                                                                  .    LT_VilU           
-                                                                                           
+LT                                                                  .    LT_OFFSHORE       
 LV                                                                  .    LV_A              
 LV                                                                  .    LV_Other_DH       
 LV                                                                  .    LV_RigaR          
 LV                                                                  .    LV_Rural          
-                                                                                           
+LV                                                                  .    LV_OFFSHORE       
 NL                                                                  .    NL_A              
+NL                                                                  .    NL_OFFSHORE       
 PL                                                                  .    PL_A              
 PL                                                                  .    PL_Rural          
+PL                                                                  .    PL_OFFSHORE       
 UK                                                                  .    UK_A              
 UK                                                                  .    UK_Offshore       
                                                                                            
@@ -68,24 +70,25 @@ SE1                                                                 .    SE1A
 SE2                                                                 .    SE2A              
 SE3                                                                 .    SE3A              
 SE4                                                                 .    SE4A              
-FIN                                                                 .    FIN_ESPOO         
-FIN                                                                 .    FIN_HELS          
-FIN                                                                 .    FIN_TAMP          
-FIN                                                                 .    FIN_EL            
-FIN                                                                 .    FIN_HP            
-FIN                                                                 .    FIN_OTHER         
-FIN                                                                 .    FIN_GAS           
-SE1                                                                 .    SE1_EL            
-SE1                                                                 .    SE1_OTHER         
-SE2                                                                 .    SE2_EL            
-SE2                                                                 .    SE2_OTHER         
-SE3                                                                 .    SE3_STO           
-SE3                                                                 .    SE3_GOT           
-SE3                                                                 .    SE3_EL            
-SE3                                                                 .    SE3_HP            
-SE3                                                                 .    SE3_OTHER         
-SE4                                                                 .    SE4_MAL           
-SE4                                                                 .    SE4_EL            
-SE4                                                                 .    SE4_HP            
-SE4                                                                 .    SE4_OTHER         
+FIN                                                                 .    FI_large          
+FIN                                                                 .    FI_large_gas      
+FIN                                                                 .    FI_medium         
+FIN                                                                 .    FI_medium_gas     
+FIN                                                                 .    FI_small          
+FIN                                                                 .    FI_small_gas      
+FIN                                                                 .    FI_IND            
+SE1                                                                 .    SE1_medium        
+SE1                                                                 .    SE1_small         
+SE2                                                                 .    SE2_medium        
+SE2                                                                 .    SE2_small         
+SE3                                                                 .    SE3_large         
+SE3                                                                 .    SE3_medium        
+SE3                                                                 .    SE3_small         
+SE4                                                                 .    SE4_large         
+SE4                                                                 .    SE4_medium        
+SE4                                                                 .    SE4_small         
+SE1                                                                 .    SE1_IND           
+SE2                                                                 .    SE2_IND           
+SE3                                                                 .    SE3_IND           
+SE4                                                                 .    SE4_IND           
 /;                                                                                         
