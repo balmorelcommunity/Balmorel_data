@@ -26,10 +26,10 @@ DE4-N_A                                                                         
 DE4-S_A                                                                                                             1                                           1                                 
 DE4-W_A                                                                                                             1                                           1                                 
 NO1_A1                                                                                                              1                                                1                            
-NO1_A2                                                                                                              1                                                1                            
+NO1_A2                                                                                                                                                               1                            
 NO2_A1                                                                                                              1                                                1                            
 NO3_A1                                                                                                              1                                                1                            
-NO3_A2                                                                                                              1                                                1                            
+NO3_A2                                                                                                                                                               1                            
 NO4_A1                                                                                                              1                                                1                            
 NO5_A1                                                                                                              1                                                1                            
 SE1A                                                                                                                1                                                                             
@@ -95,6 +95,7 @@ LT_Panevezys                                                                    
 LT_Rural                                                                                                                                                                  1                       
 LT_SiaU                                                                                                                                                                   1                       
 DK2_Offshore                                                                                                                                                                               1      
+DK1_Offshore                                                                                                                                                                               1      
 NL_OFFSHORE                                                                                                                                                                                1      
 UK_OFFSHORE                                                                                                                                                                                1      
 DE4-E_Offshore_A                                                                                                                                                                           1      

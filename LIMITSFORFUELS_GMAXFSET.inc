@@ -1,0 +1,12 @@
+SET LIMITSFORFUELS_GMAXFSET(LIMITSFORFUELS_NUMCONMAX,CCCRRRAAA,FFF)
+/
+NUMCONMAX1 .DENMARK .STRAW
+NUMCONMAX2 .DENMARK .BIOGAS
+NUMCONMAX3 .DENMARK .STRAW
+$ifi not %combtech%==yes $goto nocombtech
+NUMCONMAX2 .DENMARK .BIOGAS_UP
+$label nocombtech
+$ifi not %hydrogen%==yes $goto nohydrogen
+NUMCONMAX2 .DENMARK .BIOGAS_H2
+$label nohydrogen
+/
