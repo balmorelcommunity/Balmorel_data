@@ -280,12 +280,8 @@ GNR_ST_WOODPEL_EXT_E-52_LS-250-MW_Y-2030
 GNR_ST_WOODPEL_EXT_E-54_LS-250-MW_Y-2050                                                                                                                                                          
                                                                                                                                                                                                   
 GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2020                                                                                                                                                                 
-GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2030                                                                                                                                                                 
-GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2030                                                                                                                                                                 
-*GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2030                                                                                                                                                                
 GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2050                                                                                                                                                                 
-GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2050                                                                                                                                                                 
                                                                                                                                                                                                   
 GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010                                                                                                                                                               
                                                                                                                                                                                                   
@@ -355,12 +351,8 @@ GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2020
 GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2030                                                                                                                                                      
 GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2050                                                                                                                                                      
                                                                                                                                                                                                   
-GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2020                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
-GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2030                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2030                                                                                                                                                                 
-*GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2030                                                                                                                                                                
-GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2050                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2050                                                                                                                                                                 
                                                                                                                                                                                                   
 GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010                                                                                                                                                               
@@ -404,12 +396,8 @@ GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2020
 GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                         
 GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                         
                                                                                                                                                                                                   
-GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2020                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
-GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2030                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2030                                                                                                                                                                 
-*GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2030                                                                                                                                                                
-GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2050                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2050                                                                                                                                                                 
                                                                                                                                                                                                   
 GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010                                                                                                                                                               
