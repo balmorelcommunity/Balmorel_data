@@ -645,6 +645,5 @@ RZES-2_ST_NGAS_BP                                            .    RZES-2_ST_NGAS
 VUOSAARIB_CC_NGAS_EXT                                        .    VUOSAARIB_CC_NGAS_EXT_CT-TGAS-H2                   
 ZIEL-1_ST_NGAS_BP                                            .    ZIEL-1_ST_NGAS_BP_CT-TGAS-H2                       
 ZIEL-3_ST_NGAS_BP                                            .    ZIEL-3_ST_NGAS_BP_CT-TGAS-H2                       
-/;                                                                                                                   
 $label endoffile                                                                                                     
-                                                                                                                     
+/;                                                                                                                   
