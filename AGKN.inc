@@ -25,13 +25,18 @@ DE4-E_A                                                                         
 DE4-N_A                                                                                                             1                                           1                                 
 DE4-S_A                                                                                                             1                                           1                                 
 DE4-W_A                                                                                                             1                                           1                                 
-NO1_A1                                                                                                              1                                                1                            
+NO1_A1                                                                                                              1                                                                             
 NO1_A2                                                                                                                                                               1                            
-NO2_A1                                                                                                              1                                                1                            
-NO3_A1                                                                                                              1                                                1                            
+NO1_A3                                                                                                                                                               1                            
+NO2_A1                                                                                                              1                                                                             
+NO2_A2                                                                                                                                                               1                            
+NO3_A1                                                                                                              1                                                                             
 NO3_A2                                                                                                                                                               1                            
-NO4_A1                                                                                                              1                                                1                            
-NO5_A1                                                                                                              1                                                1                            
+NO3_A3                                                                                                                                                               1                            
+NO4_A1                                                                                                              1                                                                             
+NO4_A2                                                                                                                                                               1                            
+NO5_A1                                                                                                              1                                                                             
+NO5_A2                                                                                                                                                               1                            
 SE1A                                                                                                                1                                                                             
 SE2A                                                                                                                1                                                                             
 SE3A                                                                                                                1                                                                             
@@ -40,7 +45,7 @@ UK_A                                                                            
 EE_A                                                                                                                1                                                                             
 LV_A                                                                                                                1                                                                             
 LT_A                                                                                                                1                                                                             
-PL_A                                                                                                                1                                                                             
+PL_A                                                                                                                1                                           1                                 
 NL_A                                                                                                                1                                                                             
 DK1_Large                                                                                                                                                       1                                 
 DK1_Rural                                                                                                                                                                 1                       
@@ -105,12 +110,16 @@ EE_OFFSHORE                                                                     
 LV_OFFSHORE                                                                                                                                                                                1      
 LT_OFFSHORE                                                                                                                                                                                1      
 PL_OFFSHORE                                                                                                                                                                                1      
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
+SE1_Offshore                                                                                                                                                                               1      
+SE2_Offshore                                                                                                                                                                               1      
+SE3_Offshore                                                                                                                                                                               1      
+SE4_Offshore                                                                                                                                                                               1      
+NO1_Offshore                                                                                                                                                                               1      
+NO2_Offshore                                                                                                                                                                               1      
+NO3_Offshore                                                                                                                                                                               1      
+NO4_Offshore                                                                                                                                                                               1      
+NO5_Offshore                                                                                                                                                                               1      
+FI_Offshore                                                                                                                                                                                1      
                                                                                                                                                                                                   
                                                                                                                                                                                                   
                                                                                                                                                                                                   
@@ -366,8 +375,10 @@ GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020
 GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                             
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
-GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
                                                                                                                                                                                                   
+GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                     
+GNR_HP_ELEC_GROUND-WTR_COP-380_LS-4-MW_Y-2030                                                                                                                                                     
+GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
                                                                                                                                                                                                   
 )                                                                                                                                                                                                 
                                                                                                                                                                                                   
@@ -411,6 +422,8 @@ GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020
 GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                             
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
+GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                     
+GNR_HP_ELEC_GROUND-WTR_COP-380_LS-4-MW_Y-2030                                                                                                                                                     
 GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
                                                                                                                                                                                                   
 )                                                                                                                                                                                                 
