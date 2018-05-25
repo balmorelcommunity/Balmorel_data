@@ -33,9 +33,9 @@ NO2_A2                                                                          
 NO3_A1                                                                                                              1                                                                             
 NO3_A2                                                                                                                                                               1                            
 NO3_A3                                                                                                                                                               1                            
-NO4_A1                                                                                                              1                                                                             
+NO4_A1                                                                                                              1                                           1                                 
 NO4_A2                                                                                                                                                               1                            
-NO5_A1                                                                                                              1                                                                             
+NO5_A1                                                                                                              1                                           1                                 
 NO5_A2                                                                                                                                                               1                            
 SE1A                                                                                                                1                                                                             
 SE2A                                                                                                                1                                                                             
@@ -331,8 +331,8 @@ GNR_ST_MSW_BP_E-24_MS-80-MW-FEED_Y-2050
 GNR_ST_STRW_BP_E-25_MS-80-MW-FEED_Y-2020                                                                                                                                                          
 GNR_ST_STRW_BP_E-25_MS-80-MW-FEED_Y-2030                                                                                                                                                          
 GNR_ST_STRW_BP_E-25_MS-80-MW-FEED_Y-2050                                                                                                                                                          
-GNR_ST_WOODCHI_BP_E-16_MS-80-MW-FEED_Y-2030                                                                                                                                                       
-GNR_ST_WOODCHI_BP_E-16_MS-80-MW-FEED_Y-2050                                                                                                                                                       
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                       
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                       
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                       
 GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2020                                                                                                                                                       
 GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2030                                                                                                                                                       
@@ -398,6 +398,8 @@ GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                          
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                          
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                       
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                       
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                       
 GNR_CC_NGAS_CND_E-51_SS-10-MW_Y-2020                                                                                                                                                              
 GNR_CC_NGAS_CND_E-53_SS-10-MW_Y-2030                                                                                                                                                              
 GNR_CC_NGAS_CND_E-55_SS-10-MW_Y-2050                                                                                                                                                              
