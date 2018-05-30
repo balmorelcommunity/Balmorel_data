@@ -12,4 +12,3 @@ LATVIA
 LITHUANIA                          
 POLAND                             
 /;                                 
-                                   

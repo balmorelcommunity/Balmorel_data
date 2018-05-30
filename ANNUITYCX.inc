@@ -1,9 +1,9 @@
 PARAMETER ANNUITYCX(CCC) 'Transforms investment to annual payment (fraction)'
 ;                                                                            
-* Interest rate assumption: 6%                                               
-* Loan repayment  assumption for all the lines: 20 YEARS                     
+* Interest rate assumption: Socio-economic discount rate                     
+* Loan repayment  assumption for all the lines: 40 YEARS                     
                                                                              
-ANNUITYCX(CCC)=1/((1-(1+0.06)**(-20))/0.06);                                 
+ANNUITYCX(CCC)=1/((1-(1+DISCOUNTRATE)**(-40))/DISCOUNTRATE);                 
                                                                              
                                                                              
                                                                              

@@ -16,6 +16,7 @@ DK2_Offshore
 DK1_Offshore                   
                                
 FinA                           
+FI_Offshore                    
 DE4-E_A                        
 DE4-E_Offshore_A               
 DE4-N_A                        
@@ -25,15 +26,29 @@ DE4-W_A
 DE4-W_Offshore_A               
 NO1_A1                         
 NO1_A2                         
+NO1_A3                         
 NO2_A1                         
+NO2_A2                         
 NO3_A1                         
 NO3_A2                         
+NO3_A3                         
 NO4_A1                         
+NO4_A2                         
 NO5_A1                         
+NO5_A2                         
+NO1_Offshore                   
+NO2_Offshore                   
+NO3_Offshore                   
+NO4_Offshore                   
+NO5_Offshore                   
 SE1A                           
 SE2A                           
 SE3A                           
 SE4A                           
+SE1_Offshore                   
+SE2_Offshore                   
+SE3_Offshore                   
+SE4_Offshore                   
                                
 EE_A                           
 EE_Enefit                      
@@ -332,4 +347,3 @@ SE4_Onshore50
 SE4_Onshore50_LCI              
 $offtext                       
 /;                             
-                               
