@@ -1,4 +1,3 @@
-                                     
 SET RRR(CCCRRRAAA)  'All regions'    
 /                                    
 DK1                            "DK_W"
@@ -25,4 +24,3 @@ LV
 LT                                   
 PL                                   
 /;                                   
-                                     

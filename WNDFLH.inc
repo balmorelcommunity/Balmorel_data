@@ -30,6 +30,16 @@ DK1_Offshore                                                    4466
 DE4-E_Offshore_A                                                4380
 DE4-N_Offshore_A                                                4477
 DE4-W_Offshore_A                                                4477
+SE1_Offshore                                                    3942
+SE2_Offshore                                                    3942
+SE3_Offshore                                                    3942
+SE4_Offshore                                                    3942
+NO1_Offshore                                                    3942
+NO2_Offshore                                                    3942
+NO3_Offshore                                                    3942
+NO4_Offshore                                                    3942
+NO5_Offshore                                                    3942
+FI_Offshore                                                     3942
                                                                     
                                                                     
                                                                     
@@ -39,4 +49,3 @@ DE4-W_Offshore_A                                                4477
 UK_OFFSHORE                                                     3324
 /;                                                                  
 WNDFLH(AAA)$(WNDFLH(AAA) EQ 0) = WNDFLH('FinA') ;                   
-                                                                    
