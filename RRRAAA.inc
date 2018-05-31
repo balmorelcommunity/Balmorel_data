@@ -61,11 +61,21 @@ UK                                                                  .    UK_Offs
                                                                                            
 NO1                                                                 .    NO1_A1            
 NO1                                                                 .    NO1_A2            
+NO1                                                                 .    NO1_A3            
 NO2                                                                 .    NO2_A1            
+NO2                                                                 .    NO2_A2            
 NO3                                                                 .    NO3_A1            
 NO3                                                                 .    NO3_A2            
+NO3                                                                 .    NO3_A3            
 NO4                                                                 .    NO4_A1            
+NO4                                                                 .    NO4_A2            
 NO5                                                                 .    NO5_A1            
+NO5                                                                 .    NO5_A2            
+NO1                                                                 .    NO1_Offshore      
+NO2                                                                 .    NO2_Offshore      
+NO3                                                                 .    NO3_Offshore      
+NO4                                                                 .    NO4_Offshore      
+NO5                                                                 .    NO5_Offshore      
 SE1                                                                 .    SE1A              
 SE2                                                                 .    SE2A              
 SE3                                                                 .    SE3A              
@@ -77,6 +87,7 @@ FIN                                                                 .    FI_medi
 FIN                                                                 .    FI_small          
 FIN                                                                 .    FI_small_gas      
 FIN                                                                 .    FI_IND            
+FIN                                                                 .    FI_Offshore       
 SE1                                                                 .    SE1_medium        
 SE1                                                                 .    SE1_small         
 SE2                                                                 .    SE2_medium        
@@ -91,4 +102,8 @@ SE1                                                                 .    SE1_IND
 SE2                                                                 .    SE2_IND           
 SE3                                                                 .    SE3_IND           
 SE4                                                                 .    SE4_IND           
+SE1                                                                 .    SE1_Offshore      
+SE2                                                                 .    SE2_Offshore      
+SE3                                                                 .    SE3_Offshore      
+SE4                                                                 .    SE4_Offshore      
 /;                                                                                         

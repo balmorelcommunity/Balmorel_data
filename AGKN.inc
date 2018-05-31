@@ -25,13 +25,18 @@ DE4-E_A                                                                         
 DE4-N_A                                                                                                             1                                           1                                 
 DE4-S_A                                                                                                             1                                           1                                 
 DE4-W_A                                                                                                             1                                           1                                 
-NO1_A1                                                                                                              1                                                1                            
+NO1_A1                                                                                                              1                                                                             
 NO1_A2                                                                                                                                                               1                            
-NO2_A1                                                                                                              1                                                1                            
-NO3_A1                                                                                                              1                                                1                            
+NO1_A3                                                                                                                                                               1                            
+NO2_A1                                                                                                              1                                                                             
+NO2_A2                                                                                                                                                               1                            
+NO3_A1                                                                                                              1                                                                             
 NO3_A2                                                                                                                                                               1                            
-NO4_A1                                                                                                              1                                                1                            
-NO5_A1                                                                                                              1                                                1                            
+NO3_A3                                                                                                                                                               1                            
+NO4_A1                                                                                                              1                                           1                                 
+NO4_A2                                                                                                                                                               1                            
+NO5_A1                                                                                                              1                                           1                                 
+NO5_A2                                                                                                                                                               1                            
 SE1A                                                                                                                1                                                                             
 SE2A                                                                                                                1                                                                             
 SE3A                                                                                                                1                                                                             
@@ -40,7 +45,7 @@ UK_A                                                                            
 EE_A                                                                                                                1                                                                             
 LV_A                                                                                                                1                                                                             
 LT_A                                                                                                                1                                                                             
-PL_A                                                                                                                1                                                                             
+PL_A                                                                                                                1                                           1                                 
 NL_A                                                                                                                1                                                                             
 DK1_Large                                                                                                                                                       1                                 
 DK1_Rural                                                                                                                                                                 1                       
@@ -105,12 +110,16 @@ EE_OFFSHORE                                                                     
 LV_OFFSHORE                                                                                                                                                                                1      
 LT_OFFSHORE                                                                                                                                                                                1      
 PL_OFFSHORE                                                                                                                                                                                1      
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
+SE1_Offshore                                                                                                                                                                               1      
+SE2_Offshore                                                                                                                                                                               1      
+SE3_Offshore                                                                                                                                                                               1      
+SE4_Offshore                                                                                                                                                                               1      
+NO1_Offshore                                                                                                                                                                               1      
+NO2_Offshore                                                                                                                                                                               1      
+NO3_Offshore                                                                                                                                                                               1      
+NO4_Offshore                                                                                                                                                                               1      
+NO5_Offshore                                                                                                                                                                               1      
+FI_Offshore                                                                                                                                                                                1      
                                                                                                                                                                                                   
                                                                                                                                                                                                   
                                                                                                                                                                                                   
@@ -154,9 +163,9 @@ GNR_WT_WIND_ON_LS_Y-2020
 GNR_WT_WIND_ON_LS_Y-2030                                                                                                                                                                          
 GNR_WT_WIND_ON_LS_Y-2050                                                                                                                                                                          
                                                                                                                                                                                                   
-GNR_CC_NGAS_CND_E-51_SS-10-MW_Y-2020                                                                                                                                                              
-GNR_CC_NGAS_CND_E-53_SS-10-MW_Y-2030                                                                                                                                                              
-GNR_CC_NGAS_CND_E-55_SS-10-MW_Y-2050                                                                                                                                                              
+*GNR_CC_NGAS_CND_E-51_SS-10-MW_Y-2020                                                                                                                                                             
+*GNR_CC_NGAS_CND_E-53_SS-10-MW_Y-2030                                                                                                                                                             
+*GNR_CC_NGAS_CND_E-55_SS-10-MW_Y-2050                                                                                                                                                             
 GNR_CC_NGAS_CND_E-59_LS-100-MW_Y-2020                                                                                                                                                             
 GNR_CC_NGAS_CND_E-61_LS-100-MW_Y-2030                                                                                                                                                             
 GNR_CC_NGAS_CND_E-63_LS-100-MW_Y-2050                                                                                                                                                             
@@ -167,9 +176,9 @@ GNR_ENG_BGAS_CND_E-47_Y-2050
 GNR_ENG_NGAS_CND_E-47_Y-2020                                                                                                                                                                      
 GNR_ENG_NGAS_CND_E-48_Y-2030                                                                                                                                                                      
 GNR_ENG_NGAS_CND_E-50_Y-2050                                                                                                                                                                      
-GNR_GT_NGAS_CND_E-37_SS-5-MW_Y-2020                                                                                                                                                               
-GNR_GT_NGAS_CND_E-39_SS-5-MW_Y-2030                                                                                                                                                               
-GNR_GT_NGAS_CND_E-40_SS-5-MW_Y-2050                                                                                                                                                               
+*GNR_GT_NGAS_CND_E-37_SS-5-MW_Y-2020                                                                                                                                                              
+*GNR_GT_NGAS_CND_E-39_SS-5-MW_Y-2030                                                                                                                                                              
+*GNR_GT_NGAS_CND_E-40_SS-5-MW_Y-2050                                                                                                                                                              
 GNR_GT_NGAS_CND_E-42_LS-40-MW_Y-2020                                                                                                                                                              
 GNR_GT_NGAS_CND_E-43_LS-40-MW_Y-2030                                                                                                                                                              
 GNR_GT_NGAS_CND_E-44_LS-40-MW_Y-2050                                                                                                                                                              
@@ -177,41 +186,41 @@ GNR_ST_COAL_CND_E-49_LS-400-MW_Y-2020
 GNR_ST_COAL_CND_E-52_LS-400-MW_Y-2030                                                                                                                                                             
 GNR_ST_COAL_CND_E-54_LS-400-MW_Y-2050                                                                                                                                                             
 GNR_ST_MSW_CND_E-23_LS-220-MW-FEED_Y-2020                                                                                                                                                         
-GNR_ST_MSW_CND_E-23_LS-35-MW-FEED_Y-2020                                                                                                                                                          
-GNR_ST_MSW_CND_E-23_MS-80-MW-FEED_Y-2020                                                                                                                                                          
+*GNR_ST_MSW_CND_E-23_SS-35-MW-FEED_Y-2020                                                                                                                                                         
+*GNR_ST_MSW_CND_E-23_MS-80-MW-FEED_Y-2020                                                                                                                                                         
 GNR_ST_MSW_CND_E-24_LS-220-MW-FEED_Y-2030                                                                                                                                                         
-GNR_ST_MSW_CND_E-24_LS-35-MW-FEED_Y-2030                                                                                                                                                          
-GNR_ST_MSW_CND_E-24_LS-35-MW-FEED_Y-2050                                                                                                                                                          
-GNR_ST_MSW_CND_E-24_MS-80-MW-FEED_Y-2030                                                                                                                                                          
-GNR_ST_MSW_CND_E-24_MS-80-MW-FEED_Y-2050                                                                                                                                                          
+*GNR_ST_MSW_CND_E-24_SS-35-MW-FEED_Y-2030                                                                                                                                                         
+*GNR_ST_MSW_CND_E-24_SS-35-MW-FEED_Y-2050                                                                                                                                                         
+*GNR_ST_MSW_CND_E-24_MS-80-MW-FEED_Y-2030                                                                                                                                                         
+*GNR_ST_MSW_CND_E-24_MS-80-MW-FEED_Y-2050                                                                                                                                                         
 GNR_ST_MSW_CND_E-25_LS-220-MW-FEED_Y-2050                                                                                                                                                         
 GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2020                                                                                                                                                             
 GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2030                                                                                                                                                             
 GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2050                                                                                                                                                             
-GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                         
-GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                         
-GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                         
-GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2020                                                                                                                                                         
-GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2030                                                                                                                                                         
-GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2050                                                                                                                                                         
+*GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                        
+*GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                        
+*GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                        
+*GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2020                                                                                                                                                        
+*GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2030                                                                                                                                                        
+*GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2050                                                                                                                                                        
 GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2020                                                                                                                                                        
 GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2030                                                                                                                                                        
 GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2050                                                                                                                                                        
-GNR_ST_WOODCHI_CND_E-16_MS-80-MW-FEED_Y-2030                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-16_MS-80-MW-FEED_Y-2050                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                      
+*GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                     
+*GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                     
+*GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                     
 GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2020                                                                                                                                                     
 GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2030                                                                                                                                                     
 GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2050                                                                                                                                                     
-GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2020                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2030                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2050                                                                                                                                                      
+*GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2020                                                                                                                                                     
+*GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2030                                                                                                                                                     
+*GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2050                                                                                                                                                     
 GNR_ST_WOODPEL_CND_E-17_LS-200-MW-FEED_Y-2020                                                                                                                                                     
 GNR_ST_WOODPEL_CND_E-17_LS-200-MW-FEED_Y-2030                                                                                                                                                     
 GNR_ST_WOODPEL_CND_E-17_LS-200-MW-FEED_Y-2050                                                                                                                                                     
-GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2020                                                                                                                                                      
-GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2030                                                                                                                                                      
-GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2050                                                                                                                                                      
+*GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2020                                                                                                                                                     
+*GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2030                                                                                                                                                     
+*GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2050                                                                                                                                                     
 GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2020                                                                                                                                                     
 GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2030                                                                                                                                                     
 GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2050                                                                                                                                                     
@@ -256,10 +265,10 @@ GNR_ST_COAL_EXT_E-49_LS-400-MW_Y-2020
 GNR_ST_COAL_EXT_E-52_LS-400-MW_Y-2030                                                                                                                                                             
 GNR_ST_COAL_EXT_E-54_LS-400-MW_Y-2050                                                                                                                                                             
 GNR_ST_MSW_BP_E-23_LS-220-MW-FEED_Y-2020                                                                                                                                                          
-GNR_ST_MSW_BP_E-23_LS-35-MW-FEED_Y-2020                                                                                                                                                           
+*GNR_ST_MSW_BP_E-23_SS-35-MW-FEED_Y-2020                                                                                                                                                          
 GNR_ST_MSW_BP_E-24_LS-220-MW-FEED_Y-2030                                                                                                                                                          
-GNR_ST_MSW_BP_E-24_LS-35-MW-FEED_Y-2030                                                                                                                                                           
-GNR_ST_MSW_BP_E-24_LS-35-MW-FEED_Y-2050                                                                                                                                                           
+*GNR_ST_MSW_BP_E-24_SS-35-MW-FEED_Y-2030                                                                                                                                                          
+*GNR_ST_MSW_BP_E-24_SS-35-MW-FEED_Y-2050                                                                                                                                                          
 GNR_ST_MSW_BP_E-25_LS-220-MW-FEED_Y-2050                                                                                                                                                          
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020                                                                                                                                                             
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2030                                                                                                                                                             
@@ -322,35 +331,16 @@ GNR_ST_MSW_BP_E-24_MS-80-MW-FEED_Y-2050
 GNR_ST_STRW_BP_E-25_MS-80-MW-FEED_Y-2020                                                                                                                                                          
 GNR_ST_STRW_BP_E-25_MS-80-MW-FEED_Y-2030                                                                                                                                                          
 GNR_ST_STRW_BP_E-25_MS-80-MW-FEED_Y-2050                                                                                                                                                          
-GNR_ST_WOODCHI_BP_E-16_MS-80-MW-FEED_Y-2030                                                                                                                                                       
-GNR_ST_WOODCHI_BP_E-16_MS-80-MW-FEED_Y-2050                                                                                                                                                       
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                       
+*GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                      
+*GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                      
+*GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                      
 GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2020                                                                                                                                                       
 GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2030                                                                                                                                                       
 GNR_ST_WOODCHI_BP_E-29_MS-80-MW-FEED_Y-2050                                                                                                                                                       
 GNR_ST_WOODPEL_BP_E-30_MS-80-MW-FEED_Y-2020                                                                                                                                                       
 GNR_ST_WOODPEL_BP_E-30_MS-80-MW-FEED_Y-2030                                                                                                                                                       
 GNR_ST_WOODPEL_BP_E-30_MS-80-MW-FEED_Y-2050                                                                                                                                                       
-GNR_ENG_BGAS_CND_E-43_Y-2020                                                                                                                                                                      
-GNR_ENG_BGAS_CND_E-45_Y-2030                                                                                                                                                                      
-GNR_ENG_BGAS_CND_E-47_Y-2050                                                                                                                                                                      
-GNR_ENG_NGAS_CND_E-47_Y-2020                                                                                                                                                                      
-GNR_ENG_NGAS_CND_E-48_Y-2030                                                                                                                                                                      
-GNR_ENG_NGAS_CND_E-50_Y-2050                                                                                                                                                                      
-GNR_ST_MSW_CND_E-23_MS-80-MW-FEED_Y-2020                                                                                                                                                          
-GNR_ST_MSW_CND_E-24_MS-80-MW-FEED_Y-2030                                                                                                                                                          
-GNR_ST_MSW_CND_E-24_MS-80-MW-FEED_Y-2050                                                                                                                                                          
-GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2020                                                                                                                                                         
-GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2030                                                                                                                                                         
-GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2050                                                                                                                                                         
-GNR_ST_WOODCHI_CND_E-16_MS-80-MW-FEED_Y-2030                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-16_MS-80-MW-FEED_Y-2050                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2020                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2030                                                                                                                                                      
-GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2050                                                                                                                                                      
-GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2020                                                                                                                                                      
-GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2030                                                                                                                                                      
-GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2050                                                                                                                                                      
+                                                                                                                                                                                                  
                                                                                                                                                                                                   
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2030                                                                                                                                                                 
@@ -366,8 +356,10 @@ GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020
 GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                             
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
-GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
                                                                                                                                                                                                   
+GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                     
+GNR_HP_ELEC_GROUND-WTR_COP-380_LS-4-MW_Y-2030                                                                                                                                                     
+GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
                                                                                                                                                                                                   
 )                                                                                                                                                                                                 
                                                                                                                                                                                                   
@@ -387,15 +379,9 @@ GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                          
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                          
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                       
-GNR_CC_NGAS_CND_E-51_SS-10-MW_Y-2020                                                                                                                                                              
-GNR_CC_NGAS_CND_E-53_SS-10-MW_Y-2030                                                                                                                                                              
-GNR_CC_NGAS_CND_E-55_SS-10-MW_Y-2050                                                                                                                                                              
-GNR_GT_NGAS_CND_E-37_SS-5-MW_Y-2020                                                                                                                                                               
-GNR_GT_NGAS_CND_E-39_SS-5-MW_Y-2030                                                                                                                                                               
-GNR_GT_NGAS_CND_E-40_SS-5-MW_Y-2050                                                                                                                                                               
-GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                         
-GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                         
-GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                         
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                       
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                       
+                                                                                                                                                                                                  
                                                                                                                                                                                                   
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2030                                                                                                                                                                 
@@ -411,6 +397,8 @@ GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020
 GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                             
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
+GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                     
+GNR_HP_ELEC_GROUND-WTR_COP-380_LS-4-MW_Y-2030                                                                                                                                                     
 GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
                                                                                                                                                                                                   
 )                                                                                                                                                                                                 
