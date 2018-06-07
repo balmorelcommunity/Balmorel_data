@@ -52,4 +52,5 @@ GDCOMBGSHARELO                            'Combination technology, minimum gener
 GDCOMBGSHAREUP                            'Combination technology, maximum generation (MW) share of total generation ([0;1])'                               
 GDCOMBFSHARELO                            'Combination technology, minimum fuel (GJ) share of total fuel use ([0;1])'                                       
 GDCOMBFSHAREUP                            'Combination technology, maximum fuel (GJ) share of total fuel use ([0;1])'                                       
+GDTECHGROUP                               'Technology group'                                                                                                
 /;                                                                                                                                                          
