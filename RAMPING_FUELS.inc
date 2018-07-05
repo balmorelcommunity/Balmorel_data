@@ -1,0 +1,23 @@
+SET RAMPING_FUELS(FFF) 'Fuels with ramping constraints'
+ /                                                     
+NATGAS                                                 
+LIGNITE                                                
+HEAVYFUELOIL                                           
+PEAT                                                   
+WOODWASTE                                              
+FUELOIL                                                
+MUNIWASTE                                              
+SHALE                                                  
+STRAW                                                  
+COAL                                                   
+RETORTGAS                                              
+OTHERGAS                                               
+BIOGAS                                                 
+BIOOIL                                                 
+LIGHTOIL                                               
+LNG                                                    
+WOOD                                                   
+WOODCHIPS                                              
+WOODPELLETS                                            
+NUCLEAR                                                
+/;                                                     
