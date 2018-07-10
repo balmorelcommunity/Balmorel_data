@@ -1,0 +1,52 @@
+PARAMETER X3VQIM(YYY,RRR,X3VPLACE0,X3VSTEP0,SSS,TTT)   'Limit (MW) on price Dependent electricity import'                                                                  
+/                                                                                                                                                                          
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T001 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T002 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T003 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T004 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T005 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T006 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T007 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T008 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T009 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T010 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T011 1000
+2016                                                                                                       .    DK1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T012 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T001 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T002 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T003 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T004 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T005 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T006 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T007 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T008 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T009 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T010 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T011 1000
+2016                                                                                                       .    DK2  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T012 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T001 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T002 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T003 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T004 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T005 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T006 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T007 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T008 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T009 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T010 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T011 1000
+2016                                                                                                       .    SE1  .    X3VGERMAN .    X3VSTEP01 .    S05  .    T012 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T001 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T002 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T003 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T004 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T005 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T006 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T007 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T008 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T009 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T010 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T011 1000
+2016                                                                                                       .    SE2  .    X3VPOL    .    X3VSTEP01 .    S05  .    T012 1000
+/;                                                                                                                                                                         
+*X3VPEX(Y,IR,X3VPLACE0,X3VSTEP0,SSS,TTT)=1.4*X3VPEX('2001',IR,X3VPLACE0,X3VSTEP0,'S05',TTT);                                                                               
