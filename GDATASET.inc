@@ -23,8 +23,6 @@ GDCOMBSLO                                 'Combination technology, minimum share
 GDCOMBSUP                                 'Combination technology, maximum share of production'                                                             
 GDLOADLOSS                                'Loss when loading a storage (MWh loss/MWh loading input)'                                                        
 GDSTOLOSS                                 'Stationary loss from storage (MWh loss per time period/MWh energy content in storage)'                           
-GDRAMPUP                                  'Ramp-up limit (% of capacity/h)'                                                                                 
-GDRAMPDOWN                                'Ramp-down limit (% of capacity/h)'                                                                               
 GDLASTYEAR                                 'Technology available for investment until and including this year (blank or 0 implies no expiration)'           
 GDMOTHBALL                                'Year when a unit is mothballed'                                                                                  
 GDCOMBKRES                                'Combination technology, capacity reserved for specific subunit'                                                  
