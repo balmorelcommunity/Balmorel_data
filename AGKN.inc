@@ -215,9 +215,9 @@ GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2050
 *GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2020                                                                                                                                                     
 *GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2030                                                                                                                                                     
 *GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2050                                                                                                                                                     
-GNR_ST_WOODPEL_CND_E-17_LS-200-MW-FEED_Y-2020                                                                                                                                                     
-GNR_ST_WOODPEL_CND_E-17_LS-200-MW-FEED_Y-2030                                                                                                                                                     
-GNR_ST_WOODPEL_CND_E-17_LS-200-MW-FEED_Y-2050                                                                                                                                                     
+GNR_ST_WOODPEL_CND_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                      
+GNR_ST_WOODPEL_CND_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                      
+GNR_ST_WOODPEL_CND_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                      
 *GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2020                                                                                                                                                     
 *GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2030                                                                                                                                                     
 *GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2050                                                                                                                                                     
@@ -279,9 +279,6 @@ GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2050
 GNR_ST_WOODCHI_BP_E-29_LS-600-MW-FEED_Y-2020                                                                                                                                                      
 GNR_ST_WOODCHI_BP_E-29_LS-600-MW-FEED_Y-2030                                                                                                                                                      
 GNR_ST_WOODCHI_BP_E-29_LS-600-MW-FEED_Y-2050                                                                                                                                                      
-GNR_ST_WOODPEL_BP_E-17_LS-200-MW-FEED_Y-2020                                                                                                                                                      
-GNR_ST_WOODPEL_BP_E-17_LS-200-MW-FEED_Y-2030                                                                                                                                                      
-GNR_ST_WOODPEL_BP_E-17_LS-200-MW-FEED_Y-2050                                                                                                                                                      
 GNR_ST_WOODPEL_EXT_E-33_LS-800-MW-FEED_Y-2020                                                                                                                                                     
 GNR_ST_WOODPEL_EXT_E-33_LS-800-MW-FEED_Y-2030                                                                                                                                                     
 GNR_ST_WOODPEL_EXT_E-33_LS-800-MW-FEED_Y-2050                                                                                                                                                     
@@ -381,6 +378,9 @@ GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                       
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                       
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                       
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                       
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                       
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                       
                                                                                                                                                                                                   
                                                                                                                                                                                                   
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
