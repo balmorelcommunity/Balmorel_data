@@ -9,8 +9,9 @@
 * Range:       $A$1:$A$14
 * -----------------------------------------------------
 SET GRDATASET 'Grid rent data'
-/    
+/
 GRDFC
+GRDSUBS
 GRDECW
 GRDECS
 GRDTOU1
@@ -21,5 +22,6 @@ GRDDCW
 GRDDCS
 GRDDC2
 GRDDCTOU
-/;   
+GRDDCY
+/;
 * -----------------------------------------------------
