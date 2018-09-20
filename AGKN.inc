@@ -230,9 +230,9 @@ GNR_ST_WOODPEL_CND_E-54_LS-250-MW_Y-2050
                                                                                                                                                                                                   
 GNR_ES_ELEC_BAT-LITHIO_E-95_Y-16-29                                                                                                                                                               
 GNR_ES_ELEC_BAT-LITHIO_E-97_Y-30-50                                                                                                                                                               
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
+GNR_ENG_BGAS_CND_E-43_Y-2020_TG                                                                                                                                                                   
+GNR_ENG_BGAS_CND_E-45_Y-2030_TG                                                                                                                                                                   
+GNR_ENG_BGAS_CND_E-47_Y-2050_TG                                                                                                                                                                   
 )                                                                                                                                                                                                 
                                                                                                                                                                                                   
                                                                                                                                                                                                   
@@ -360,6 +360,9 @@ GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050
 GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                     
 GNR_HP_ELEC_GROUND-WTR_COP-380_LS-4-MW_Y-2030                                                                                                                                                     
 GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
+GNR_ENG_BGAS_BP_E-43_Y-2020_TG                                                                                                                                                                    
+GNR_ENG_BGAS_BP_E-45_Y-2030_TG                                                                                                                                                                    
+GNR_ENG_BGAS_BP_E-47_Y-2050_TG                                                                                                                                                                    
                                                                                                                                                                                                   
 )                                                                                                                                                                                                 
                                                                                                                                                                                                   
