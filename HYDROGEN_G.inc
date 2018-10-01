@@ -3,10 +3,14 @@ SET G(GGG)  'All hydrogen technologies'
 GNR_ELYS_ELEC_AEC_Y-15                          
 GNR_ELYS_ELEC_AEC_Y-20                          
 GNR_ELYS_ELEC_AEC_Y-30                          
+GNR_ELYS_ELEC_AEC_Y-50                          
 GNR_ELYS_ELEC_SOEC_Y-20                         
+GNR_ELYS_ELEC_SOEC_Y-30                         
+GNR_ELYS_ELEC_SOEC_Y-50                         
 GNR_ELYS_ELEC_PEMEC_Y-15                        
 GNR_ELYS_ELEC_PEMEC_Y-20                        
 GNR_ELYS_ELEC_PEMEC_Y-30                        
+GNR_ELYS_ELEC_PEMEC_Y-50                        
 GNR_H2S_H2-UND_Y-15                             
 GNR_H2S_H2-TNKC_Y-15                            
 GNR_H2S_H2-TNKD_Y-15                            
