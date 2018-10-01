@@ -21,7 +21,3 @@ $offtext
 ;                                                                                                                     
 HYDROGEN_DH2(YYY,AAA)=0;                                                                                              
 HYDROGEN_DH2(YYY,RRR)=0;                                                                                              
-HYDROGEN_DH2('2035','DK2')= 5000000/3.6;                                                                              
-HYDROGEN_DH2('2040','DK2')=10000000/3.6;                                                                              
-HYDROGEN_DH2('2045','DK2')=15000000/3.6;                                                                              
-HYDROGEN_DH2('2050','DK2')=20000000/3.6;                                                                              
