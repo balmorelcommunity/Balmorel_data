@@ -1,6 +1,6 @@
 TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'                                         
-                                                                 STRAW      WOOD      WOODWASTE BIOGAS   
-2016.DENMARK                                                     92884745   211677970 5588136   39799851 
+                                                                 STRAW      WOODCHIPS WOODWASTE BIOGAS   
+2016.DENMARK                                                     54000000   40000000            42000000 
 2016.GERMANY                                                     1010930549 513307043 148002229 254665913
 2016.ESTONIA                                                     46493765   39572110  7509921   4675715  
 2016.LATVIA                                                      93723844   69203999  1077317   7301224  

@@ -163,26 +163,26 @@ GNR_WT_WIND_ON_LS_Y-2020
 GNR_WT_WIND_ON_LS_Y-2030                                                                                                                                                                          
 GNR_WT_WIND_ON_LS_Y-2050                                                                                                                                                                          
                                                                                                                                                                                                   
-GNR_CC_NGAS_CND_E-59_LS-100-MW_Y-2020                                                                                                                                                             
+*GNR_CC_NGAS_CND_E-59_LS-100-MW_Y-2020                                                                                                                                                            
 GNR_CC_NGAS_CND_E-61_LS-100-MW_Y-2030                                                                                                                                                             
 GNR_CC_NGAS_CND_E-63_LS-100-MW_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
 GNR_ENG_BGAS_CND_E-43_Y-2020                                                                                                                                                                      
 GNR_ENG_BGAS_CND_E-45_Y-2030                                                                                                                                                                      
 GNR_ENG_BGAS_CND_E-47_Y-2050                                                                                                                                                                      
-GNR_ENG_NGAS_CND_E-47_Y-2020                                                                                                                                                                      
+*GNR_ENG_NGAS_CND_E-47_Y-2020                                                                                                                                                                     
 GNR_ENG_NGAS_CND_E-48_Y-2030                                                                                                                                                                      
 GNR_ENG_NGAS_CND_E-50_Y-2050                                                                                                                                                                      
-GNR_GT_NGAS_CND_E-42_LS-40-MW_Y-2020                                                                                                                                                              
+*GNR_GT_NGAS_CND_E-42_LS-40-MW_Y-2020                                                                                                                                                             
 GNR_GT_NGAS_CND_E-43_LS-40-MW_Y-2030                                                                                                                                                              
 GNR_GT_NGAS_CND_E-44_LS-40-MW_Y-2050                                                                                                                                                              
-GNR_ST_COAL_CND_E-49_LS-400-MW_Y-2020                                                                                                                                                             
-GNR_ST_COAL_CND_E-52_LS-400-MW_Y-2030                                                                                                                                                             
-GNR_ST_COAL_CND_E-54_LS-400-MW_Y-2050                                                                                                                                                             
+*GNR_ST_COAL_CND_E-49_LS-400-MW_Y-2020                                                                                                                                                            
+*GNR_ST_COAL_CND_E-52_LS-400-MW_Y-2030                                                                                                                                                            
+*GNR_ST_COAL_CND_E-54_LS-400-MW_Y-2050                                                                                                                                                            
 GNR_ST_MSW_CND_E-23_LS-220-MW-FEED_Y-2020                                                                                                                                                         
 GNR_ST_MSW_CND_E-24_LS-220-MW-FEED_Y-2030                                                                                                                                                         
 GNR_ST_MSW_CND_E-25_LS-220-MW-FEED_Y-2050                                                                                                                                                         
-GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2020                                                                                                                                                             
+*GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2020                                                                                                                                                            
 GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2030                                                                                                                                                             
 GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2050                                                                                                                                                             
 GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2020                                                                                                                                                        
@@ -200,9 +200,9 @@ GNR_ST_WOODPEL_CND_E-54_LS-250-MW_Y-2050
                                                                                                                                                                                                   
 GNR_ES_ELEC_BAT-LITHIO_E-95_Y-16-29                                                                                                                                                               
 GNR_ES_ELEC_BAT-LITHIO_E-97_Y-30-50                                                                                                                                                               
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
+GNR_ENG_TGAS_CND_E-43_Y-2020                                                                                                                                                                      
+GNR_ENG_TGAS_CND_E-45_Y-2030                                                                                                                                                                      
+GNR_ENG_TGAS_CND_E-47_Y-2050                                                                                                                                                                      
 )                                                                                                                                                                                                 
                                                                                                                                                                                                   
                                                                                                                                                                                                   
@@ -225,19 +225,19 @@ GNR_BO_WOODCHI_E-117_LS-6-MW-FEED_Y-2050
 GNR_BO_WOODPEL_E-102_LS-6-MW-FEED_Y-2020                                                                                                                                                          
 GNR_BO_WOODPEL_E-102_LS-6-MW-FEED_Y-2030                                                                                                                                                          
 GNR_BO_WOODPEL_E-102_LS-6-MW-FEED_Y-2050                                                                                                                                                          
-GNR_CC_NGAS_EXT_E-59_LS-100-MW_Y-2020                                                                                                                                                             
+*GNR_CC_NGAS_EXT_E-59_LS-100-MW_Y-2020                                                                                                                                                            
 GNR_CC_NGAS_EXT_E-61_LS-100-MW_Y-2030                                                                                                                                                             
 GNR_CC_NGAS_EXT_E-63_LS-100-MW_Y-2050                                                                                                                                                             
-GNR_GT_NGAS_BP_E-42_LS-40-MW_Y-2020                                                                                                                                                               
+*GNR_GT_NGAS_BP_E-42_LS-40-MW_Y-2020                                                                                                                                                              
 GNR_GT_NGAS_BP_E-43_LS-40-MW_Y-2030                                                                                                                                                               
 GNR_GT_NGAS_BP_E-44_LS-40-MW_Y-2050                                                                                                                                                               
-GNR_ST_COAL_EXT_E-49_LS-400-MW_Y-2020                                                                                                                                                             
-GNR_ST_COAL_EXT_E-52_LS-400-MW_Y-2030                                                                                                                                                             
-GNR_ST_COAL_EXT_E-54_LS-400-MW_Y-2050                                                                                                                                                             
+*GNR_ST_COAL_EXT_E-49_LS-400-MW_Y-2020                                                                                                                                                            
+*GNR_ST_COAL_EXT_E-52_LS-400-MW_Y-2030                                                                                                                                                            
+*GNR_ST_COAL_EXT_E-54_LS-400-MW_Y-2050                                                                                                                                                            
 GNR_ST_MSW_BP_E-23_LS-220-MW-FEED_Y-2020                                                                                                                                                          
 GNR_ST_MSW_BP_E-24_LS-220-MW-FEED_Y-2030                                                                                                                                                          
 GNR_ST_MSW_BP_E-25_LS-220-MW-FEED_Y-2050                                                                                                                                                          
-GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020                                                                                                                                                             
+*GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020                                                                                                                                                            
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2030                                                                                                                                                             
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2050                                                                                                                                                             
 GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2020                                                                                                                                                         
@@ -253,7 +253,7 @@ GNR_ST_WOODPEL_EXT_E-49_LS-250-MW_Y-2020
 GNR_ST_WOODPEL_EXT_E-52_LS-250-MW_Y-2030                                                                                                                                                          
 GNR_ST_WOODPEL_EXT_E-54_LS-250-MW_Y-2050                                                                                                                                                          
                                                                                                                                                                                                   
-GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2020                                                                                                                                                                 
+*GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2020                                                                                                                                                                
 GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2030                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-CEN_E-90_Y-2050                                                                                                                                                                 
                                                                                                                                                                                                   
@@ -263,7 +263,7 @@ GNR_SH_SUN_LS_Y-2020
 GNR_SH_SUN_LS_Y-2030                                                                                                                                                                              
 GNR_SH_SUN_LS_Y-2050                                                                                                                                                                              
                                                                                                                                                                                                   
-GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                             
+*GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                            
 GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                             
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
@@ -279,13 +279,13 @@ GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050
 *Group 3 - Available investments in medium CHP areas                                                                                                                                              
 DK2_MedSmall.(                                                                                                                                                                                    
                                                                                                                                                                                                   
-GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2020                                                                                                                                                              
+*GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2020                                                                                                                                                             
 GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2030                                                                                                                                                              
 GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2050                                                                                                                                                              
 GNR_ENG_BGAS_BP_E-43_Y-2020                                                                                                                                                                       
 GNR_ENG_BGAS_BP_E-45_Y-2030                                                                                                                                                                       
 GNR_ENG_BGAS_BP_E-47_Y-2050                                                                                                                                                                       
-GNR_ENG_NGAS_BP_E-47_Y-2020                                                                                                                                                                       
+*GNR_ENG_NGAS_BP_E-47_Y-2020                                                                                                                                                                      
 GNR_ENG_NGAS_BP_E-48_Y-2030                                                                                                                                                                       
 GNR_ENG_NGAS_BP_E-50_Y-2050                                                                                                                                                                       
 GNR_ST_MSW_BP_E-23_MS-80-MW-FEED_Y-2020                                                                                                                                                           
@@ -302,7 +302,7 @@ GNR_ST_WOODPEL_BP_E-30_MS-80-MW-FEED_Y-2030
 GNR_ST_WOODPEL_BP_E-30_MS-80-MW-FEED_Y-2050                                                                                                                                                       
                                                                                                                                                                                                   
                                                                                                                                                                                                   
-GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
+*GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2030                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2050                                                                                                                                                                 
                                                                                                                                                                                                   
@@ -312,27 +312,29 @@ GNR_SH_SUN_LS_Y-2020
 GNR_SH_SUN_LS_Y-2030                                                                                                                                                                              
 GNR_SH_SUN_LS_Y-2050                                                                                                                                                                              
                                                                                                                                                                                                   
-GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                             
+*GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                            
 GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                             
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
                                                                                                                                                                                                   
-GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                     
+*GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                    
 GNR_HP_ELEC_GROUND-WTR_COP-380_LS-4-MW_Y-2030                                                                                                                                                     
 GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
-                                                                                                                                                                                                  
+GNR_ENG_TGAS_BP_E-43_Y-2020                                                                                                                                                                       
+GNR_ENG_TGAS_BP_E-45_Y-2030                                                                                                                                                                       
+GNR_ENG_TGAS_BP_E-47_Y-2050                                                                                                                                                                       
 )                                                                                                                                                                                                 
                                                                                                                                                                                                   
                                                                                                                                                                                                   
 *Group 4 - Available investments in small CHP areas                                                                                                                                               
 DK2_Small.(                                                                                                                                                                                       
-GNR_BO_NGAS_E-105_SS-500-KW_Y-2020                                                                                                                                                                
+*GNR_BO_NGAS_E-105_SS-500-KW_Y-2020                                                                                                                                                               
 GNR_BO_NGAS_E-106_SS-500-KW_Y-2030                                                                                                                                                                
 GNR_BO_NGAS_E-106_SS-500-KW_Y-2050                                                                                                                                                                
-GNR_CC_NGAS_BP_E-51_SS-10-MW_Y-2020                                                                                                                                                               
+*GNR_CC_NGAS_BP_E-51_SS-10-MW_Y-2020                                                                                                                                                              
 GNR_CC_NGAS_BP_E-53_SS-10-MW_Y-2030                                                                                                                                                               
 GNR_CC_NGAS_BP_E-55_SS-10-MW_Y-2050                                                                                                                                                               
-GNR_GT_NGAS_BP_E-37_SS-5-MW_Y-2020                                                                                                                                                                
+*GNR_GT_NGAS_BP_E-37_SS-5-MW_Y-2020                                                                                                                                                               
 GNR_GT_NGAS_BP_E-39_SS-5-MW_Y-2030                                                                                                                                                                
 GNR_GT_NGAS_BP_E-40_SS-5-MW_Y-2050                                                                                                                                                                
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                          
@@ -346,7 +348,7 @@ GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2030
 GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                       
                                                                                                                                                                                                   
                                                                                                                                                                                                   
-GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                 
+*GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2020                                                                                                                                                                
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2030                                                                                                                                                                 
 GNR_HS_HEAT_PIT_L-DEC_E-91_Y-2050                                                                                                                                                                 
                                                                                                                                                                                                   
@@ -356,11 +358,11 @@ GNR_SH_SUN_LS_Y-2020
 GNR_SH_SUN_LS_Y-2030                                                                                                                                                                              
 GNR_SH_SUN_LS_Y-2050                                                                                                                                                                              
                                                                                                                                                                                                   
-GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                             
+*GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                            
 GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                             
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                             
                                                                                                                                                                                                   
-GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                     
+*GNR_HP_ELEC_GROUND-WTR_COP-360_LS-4-MW_Y-2020                                                                                                                                                    
 GNR_HP_ELEC_GROUND-WTR_COP-380_LS-4-MW_Y-2030                                                                                                                                                     
 GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050                                                                                                                                                     
                                                                                                                                                                                                   
@@ -371,10 +373,10 @@ GNR_HP_ELEC_GROUND-WTR_COP-410_LS-4-MW_Y-2050
 *Group 7 - Offshore wind w/o wave                                                                                                                                                                 
 DK2_Offshore.(                                                                                                                                                                                    
                                                                                                                                                                                                   
-GNR_WT_WIND_OFF_L-FS_Y-2020                                                                                                                                                                       
+*GNR_WT_WIND_OFF_L-FS_Y-2020                                                                                                                                                                      
 GNR_WT_WIND_OFF_L-FS_Y-2030                                                                                                                                                                       
 GNR_WT_WIND_OFF_L-FS_Y-2050                                                                                                                                                                       
-GNR_WT_WIND_OFF_L-NS_Y-2020                                                                                                                                                                       
+*GNR_WT_WIND_OFF_L-NS_Y-2020                                                                                                                                                                      
 GNR_WT_WIND_OFF_L-NS_Y-2030                                                                                                                                                                       
 GNR_WT_WIND_OFF_L-NS_Y-2050                                                                                                                                                                       
                                                                                                                                                                                                   

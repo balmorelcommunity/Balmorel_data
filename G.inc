@@ -817,4 +817,10 @@ NA2y3_ST_COAL_EXT
 TOPPILA2_ST_PEAT_EXT                                          
 KELJONLAHTI_ST_PEAT_EXT                                       
 GNR_ST_PEAT_CND_E-38                                          
+GNR_ENG_TGAS_CND_E-43_Y-2020                                  
+GNR_ENG_TGAS_CND_E-45_Y-2030                                  
+GNR_ENG_TGAS_CND_E-47_Y-2050                                  
+GNR_ENG_TGAS_BP_E-43_Y-2020                                   
+GNR_ENG_TGAS_BP_E-45_Y-2030                                   
+GNR_ENG_TGAS_BP_E-47_Y-2050                                   
 /;                                                            
