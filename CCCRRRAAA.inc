@@ -1,5 +1,3 @@
-* All sets that are related to Geographical resolution     
-                                                           
 SET CCCRRRAAA 'All geographical entities (CCC + RRR + AAA)'
 /                                                          
 * Countries:                                               
@@ -159,6 +157,44 @@ DK2_NoDH
 DK1_NoDH                                                   
 DK2_Offshore                                               
 DK1_Offshore                                               
+                                                           
+* Danish industry areas                                    
+DK1_Large_PHH                                              
+DK1_Large_PHL                                              
+DK1_Large_SH                                               
+DK1_MedSmall_PHH                                           
+DK1_MedSmall_PHL                                           
+DK1_MedSmall_SH                                            
+DK1_Medium_PHH                                             
+DK1_Medium_PHL                                             
+DK1_Medium_SH                                              
+DK1_NoDH_PHH                                               
+DK1_NoDH_PHL                                               
+DK1_NoDH_SH                                                
+DK1_Rural_PHH                                              
+DK1_Rural_PHL                                              
+DK1_Rural_SH                                               
+DK1_Small_PHH                                              
+DK1_Small_PHL                                              
+DK1_Small_SH                                               
+DK2_Large_PHH                                              
+DK2_Large_PHL                                              
+DK2_Large_SH                                               
+DK2_MedSmall_PHH                                           
+DK2_MedSmall_PHL                                           
+DK2_MedSmall_SH                                            
+DK2_Medium_PHH                                             
+DK2_Medium_PHL                                             
+DK2_Medium_SH                                              
+DK2_NoDH_PHH                                               
+DK2_NoDH_PHL                                               
+DK2_NoDH_SH                                                
+DK2_Rural_PHH                                              
+DK2_Rural_PHL                                              
+DK2_Rural_SH                                               
+DK2_Small_PHH                                              
+DK2_Small_PHL                                              
+DK2_Small_SH                                               
                                                            
 $ontext                                                    
 * Wind areas                                               
@@ -395,3 +431,4 @@ SE4_Onshore50
 SE4_Onshore50_LCI                                          
 $offtext                                                   
 /;                                                         
+                                                           

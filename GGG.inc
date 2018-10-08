@@ -823,4 +823,14 @@ GNR_ENG_TGAS_CND_E-47_Y-2050
 GNR_ENG_TGAS_BP_E-43_Y-2020                   
 GNR_ENG_TGAS_BP_E-45_Y-2030                   
 GNR_ENG_TGAS_BP_E-47_Y-2050                   
+GNR_HP_ELEC_COP-400_PHL_Y-2020                
+GNR_HP_ELEC_COP-480_PHL_Y-2030                
+GNR_HP_ELEC_COP-600_PHL_Y-2050                
+GNR_HP_ELEC_COP-400_PHH_Y-2020                
+GNR_HP_ELEC_COP-480_PHH_Y-2030                
+GNR_HP_ELEC_COP-600_PHH_Y-2050                
+GNR_BO_NGAS_E-80_PHL                          
+GNR_BO_NGAS_E-80_PHH                          
+GNR_BO_ELEC_E-80_PHL                          
+GNR_BO_ELEC_E-80_PHH                          
 /;                                            

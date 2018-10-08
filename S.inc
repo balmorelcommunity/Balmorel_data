@@ -1,14 +1,14 @@
-SET S(SSS)  'Seasons in the simulation'                          
-/                                                                
-*S12                                                             
-*S12,S20,S35                                                     
-S01,S20,S28,S43                                                  
-*S07,S24,S38,S42                                                 
-*S10,S25,S29,S52                                                 
-*S11,S21,S32,S41                                                 
-*S01,S07,S20,S24,S28,S38,S42,S43                                 
-*S10,S11,S21,S25,S29,S32,S41,S52                                 
-*S01,S07,S10,S11,S20,S21,S24,S25,S28,S29,S32,S38,S41,S42,S43,S52 
-                                                                 
-                                                                 
-/;                                                               
+SET S(SSS)  'Seasons in the simulation'
+/
+S12
+*S12,S20,S35
+*S01,S20,S28,S43
+*S07,S24,S38,S42
+*S10,S25,S29,S52
+*S11,S21,S32,S41
+*S01,S07,S20,S24,S28,S38,S42,S43
+*S10,S11,S21,S25,S29,S32,S41,S52
+*S01,S07,S10,S11,S20,S21,S24,S25,S28,S29,S32,S38,S41,S42,S43,S52
+
+
+/;
