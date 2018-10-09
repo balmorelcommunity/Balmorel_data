@@ -1,4 +1,4 @@
-SET STEPWISEPRICE_L  'All generation technologies'
-/
-L1*L8
-/;
+SET   STEPWISEPRICE_L 'All generation technologies'
+/                                                  
+L1*L8                                              
+/;                                                 

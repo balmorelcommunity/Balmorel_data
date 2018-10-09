@@ -49,6 +49,7 @@ TABLE FUELPRICE1(YYY,RRR,FFF)  'Fuel prices of hydrogen fuels (Money/GJ)'
 2045.DK1                                                                                                                                                           12.8      13.4            
 2050.DK1                                                                                                                                                           12        13.2            
 ;                                                                                                                                                                                            
+FUELPRICE1(Y,RRR,'BIOGAS_H2')=FUELPRICE1(Y,RRR,'BIOGAS')+0.7;                                                                                                                                
 PARAMETER FUELPRICE(YYY,AAA,FFF);                                                                                                                                                            
 FUELPRICE(YYY,AAA,FFF) = SUM(RRR, FUELPRICE1(YYY,RRR,FFF)*RRRAAA(RRR,AAA));                                                                                                                  
                                                                                                                                                                                              
