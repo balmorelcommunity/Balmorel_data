@@ -22,4 +22,6 @@ SWEDEN                                                 .    SE2
 SWEDEN                                                 .    SE3    
 SWEDEN                                                 .    SE4    
 UNITED_KINGDOM                                         .    UK     
+BELGIUM                                                .    BE     
+FRANCE                                                 .    FR     
 /;                                                                 

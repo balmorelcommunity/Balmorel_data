@@ -23,6 +23,8 @@ GDCOMBSLO                                 'Combination technology, minimum share
 GDCOMBSUP                                 'Combination technology, maximum share of production'                                                                
 GDLOADLOSS                                'Loss when loading a storage (MWh loss/MWh loading input)'                                                           
 GDSTOLOSS                                 'Stationary loss from storage (MWh loss per time period/MWh energy content in storage)'                              
+GDRAMPUP                                  'Ramp-up limit (% of capacity/h)'                                                                                    
+GDRAMPDOWN                                'Ramp-down limit (% of capacity/h)'                                                                                  
 GDLASTYEAR                                 'Technology available for investment until and including this year (blank or 0 implies no expiration)'              
 GDMOTHBALL                                'Year when a unit is mothballed'                                                                                     
 GDCOMBKRES                                'Combination technology, capacity reserved for specific subunit'                                                     
@@ -32,7 +34,7 @@ GDUCUNITSIZE                              'Standard size of unit type (MW)'
 GDUCGMIN                                  'Unit commitment: minimum production (share of nominal capacity)'                                                    
 GDUCUCOST                                 'Unit commitment: startup cost (Money)'                                                                              
 GDUCCOST0                                 'Unit commitment: fixed hourly cost (Money)'                                                                         
-GDUCF0                                    Unit commitment: fixed hourly fuel use (%)'                                                                          
+GDUCF0                                    'Unit commitment: fixed hourly fuel use (MWh)'                                                                       
 GDUCDCOST                                 'Unit commitment: shutdown cost (Money)'                                                                             
 GDUCDTMIN                                 'Unit commitment: minimum down time (hours)'                                                                         
 GDUCUTMIN                                 'Unit commitment: minimum up time (hours)'                                                                           
@@ -52,3 +54,5 @@ GDCOMBFSHARELO                            'Combination technology, minimum fuel 
 GDCOMBFSHAREUP                            'Combination technology, maximum fuel (GJ) share of total fuel use ([0;1])'                                          
 GDTECHGROUP                               'Technology group'                                                                                                   
 /;                                                                                                                                                             
+                                                                                                                                                               
+                                                                                                                                                               
