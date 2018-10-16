@@ -1,51 +1,259 @@
-PARAMETER WNDFLH(AAA)  'Full load hours for wind power (hours)'                 
-/                                                                               
-DK2_NoDH                                                        2959            
-DK1_NoDH                                                        3199            
-FinA                                                            1937            
-DE4-E_A                                                         2263            
-DE4-N_A                                                         2467            
-DE4-S_A                                                         1887            
-DE4-W_A                                                         2177            
-NO1_A1                                                          2798            
-NO2_A1                                                          2798            
-NO3_A1                                                          2782            
-NO4_A1                                                          3120            
-NO5_A1                                                          2798            
-SE1A                                                            2533            
-SE2A                                                            2533            
-SE3A                                                            2212            
-SE4A                                                            2012            
-UK_A                                                            3176            
-                                                                                
-EE_A                                                            2020            
-LV_A                                                            2019            
-LT_A                                                            1932            
-PL_A                                                            2286            
-NL_A                                                            2860            
-                                                                                
-                                                                                
-DK2_Offshore                                                    4385.55367807462
-DK1_Offshore                                                    4590.06282111033
-DE4-E_Offshore_A                                                4533.91095821735
-DE4-N_Offshore_A                                                4636.6909935232 
-DE4-W_Offshore_A                                                4636.6909935232 
-SE1_Offshore                                                    3721.248        
-SE2_Offshore                                                    3563.568        
-SE3_Offshore                                                    3872.796        
-SE4_Offshore                                                    4333.572        
-NO1_Offshore                                                    3942            
-NO2_Offshore                                                    4532.63189907563
-NO3_Offshore                                                    4089.34448842777
-NO4_Offshore                                                    4156.04267384894
-NO5_Offshore                                                    4564.52553921362
-FI_Offshore                                                     3942            
-                                                                                
-UK_OFFSHORE                                                     4510.18077510104
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-/;                                                                              
-WNDFLH(AAA)$(WNDFLH(AAA) EQ 0) = WNDFLH('FinA') ;                               
+PARAMETER WNDFLH(AAA)  'Full load hours for wind power (hours)'       
+/                                                                     
+*old data                                                             
+$ontext                                                               
+DK2_NoDH                                                        2959  
+DK1_NoDH                                                        3199  
+FinA                                                            1937  
+DE4-E_A                                                         2263  
+DE4-N_A                                                         2467  
+DE4-S_A                                                         1887  
+DE4-W_A                                                         2177  
+NO1_A1                                                          2798  
+NO2_A1                                                          2798  
+NO3_A1                                                          2782  
+NO4_A1                                                          3120  
+NO5_A1                                                          2798  
+SE1A                                                            2533  
+SE2A                                                            2533  
+SE3A                                                            2212  
+SE4A                                                            2012  
+UK_A                                                            3176  
+                                                                      
+EE_A                                                            2020  
+EE_A                                                            2020  
+LV_A                                                            2019  
+LT_A                                                            1932  
+PL_A                                                            2286  
+NL_A                                                            2860  
+                                                                      
+                                                                      
+DK2_Offshore                                                    4380  
+DK1_Offshore                                                    4466  
+DE4-E_Offshore                                                  4380  
+DE4-N_Offshore                                                  4477  
+DE4-W_Offshore                                                  4477  
+SE1_Offshore                                                    3942  
+SE2_Offshore                                                    3942  
+SE3_Offshore                                                    3942  
+SE4_Offshore                                                    3942  
+NO1_Offshore                                                    3942  
+NO2_Offshore                                                    3942  
+NO3_Offshore                                                    3942  
+NO4_Offshore                                                    3942  
+NO5_Offshore                                                    3942  
+FI_Offshore                                                     3942  
+UK_OFFSHORE                                                     3324  
+$offtext                                                              
+                                                                      
+                                                                      
+                                                                      
+BE_A                                                            2000  
+FR_A                                                            2000  
+                                                                      
+DE4-E_A                                                         2263  
+DE4-N_A                                                         2467  
+DE4-S_A                                                         1887  
+DE4-W_A                                                         2177  
+                                                                      
+DK1_NoDH                                                        2145  
+DK2_NoDH                                                        2068  
+EE_A                                                            2289  
+FinA                                                            2151  
+UK_A                                                            1853  
+LT_A                                                            2095  
+LV_A                                                            2296  
+NL_A                                                            2277  
+NO3_A1                                                          2532  
+NO4_A1                                                          2963  
+NO2_A1                                                          2421  
+NO5_A1                                                          1881  
+NO1_A1                                                          2731  
+PL_A                                                            2128  
+SE1A                                                            2169  
+SE2A                                                            1957  
+SE3A                                                            2300  
+SE4A                                                            2918  
+                                                                      
+DE4-E_Offshore                                                  3422  
+DE4-N_Offshore                                                  3422  
+DE4-W_Offshore                                                  3422  
+                                                                      
+DK1_Offshore                                                    3789  
+DK2_Offshore                                                    3682  
+EE_Offshore                                                     2535  
+FI_Offshore                                                     2649  
+UK_Offshore                                                     3291  
+LT_Offshore                                                     3131  
+LV_Offshore                                                     2681  
+NL_Offshore                                                     3522  
+NO_Offshore                                                     3478  
+PL_Offshore                                                     3133  
+SE_Offshore                                                     2968  
+DE4-E_A_20-30                                                   1868  
+DE4-N_A_20-30                                                   1868  
+DE4-S_A_20-30                                                   1868  
+DE4-W_A_20-30                                                   1868  
+DK1_20-30                                                       2438.5
+DK2_20-30                                                       2367.5
+EE_20-30                                                        2474  
+FInA_20-30                                                      2464  
+UK_20-30                                                        2168  
+LT_20-30                                                        2255  
+LV_20-30                                                        2559  
+NL_20-30                                                        2490  
+NO3_20-30                                                       2715  
+NO4_20-30                                                       3176  
+NO2_20-30                                                       2773.5
+NO5_20-30                                                       2048.5
+NO1_20-30                                                       3036  
+PL_20-30                                                        2295  
+SE1_20-30                                                       2458  
+SE2_20-30                                                       2241  
+SE3_20-30                                                       2585  
+SE4_20-30                                                       3220  
+FR_20-30                                                        2168  
+BE_20-30                                                        2168  
+DE_Offshore_20-30                                               3633  
+DK1_Offshore_20-30                                              4034.5
+DK2_Offshore_20-30                                              4006.5
+EE_Offshore_20-30                                               2789.5
+FI_Offshore_20-30                                               3028  
+UK_Offshore_20-30                                               3667  
+LT_Offshore_20-30                                               3384.5
+LV_Offshore_20-30                                               2914.5
+NL_Offshore_20-30                                               3737.5
+NO_Offshore_20-30                                               3643.5
+PL_Offshore_20-30                                               3363  
+SE_Offshore_20-30                                               3454.5
+FR_Offshore_20-30                                               3633  
+BE_Offshore_20-30                                               3633  
+DE4-E_A_30-40                                                   2044  
+DE4-N_A_30-40                                                   2044  
+DE4-S_A_30-40                                                   2044  
+DE4-W_A_30-40                                                   2044  
+DK1_30-40                                                       2732  
+DK2_30-40                                                       2667  
+EE_30-40                                                        2659  
+FInA_30-40                                                      2751  
+UK_30-40                                                        2483  
+LT_30-40                                                        2415  
+LV_30-40                                                        2822  
+NL_30-40                                                        2703  
+NO3_30-40                                                       2898  
+NO4_30-40                                                       3389  
+NO2_30-40                                                       3126  
+NO5_30-40                                                       2216  
+NO1_30-40                                                       3341  
+PL_30-40                                                        2462  
+SE1_30-40                                                       2747  
+SE2_30-40                                                       2525  
+SE3_30-40                                                       2870  
+SE4_30-40                                                       3522  
+FR_30-40                                                        2483  
+BE_30-40                                                        2483  
+DE_Offshore_30-40                                               3844  
+DK1_Offshore_30-40                                              4280  
+DK2_Offshore_30-40                                              4331  
+EE_Offshore_30-40                                               3044  
+FI_Offshore_30-40                                               3407  
+UK_Offshore_30-40                                               4043  
+LT_Offshore_30-40                                               3638  
+LV_Offshore_30-40                                               3148  
+NL_Offshore_30-40                                               3953  
+NO_Offshore_30-40                                               3809  
+PL_Offshore_30-40                                               3593  
+SE_Offshore_30-40                                               3941  
+FR_Offshore_30-40                                               3953  
+BE_Offshore_30-40                                               3953  
+DE4-E_A_40-50                                                   2270  
+DE4-N_A_40-50                                                   2270  
+DE4-S_A_40-50                                                   2270  
+DE4-W_A_40-50                                                   2270  
+DK1_40-50                                                       3158  
+DK2_40-50                                                       3141  
+EE_40-50                                                        2899  
+FInA_40-50                                                      3173  
+UK_40-50                                                        2826  
+LT_40-50                                                        2624  
+LV_40-50                                                        3165  
+NL_40-50                                                        2980  
+NO3_40-50                                                       3132  
+NO4_40-50                                                       3652  
+NO2_40-50                                                       3570  
+NO5_40-50                                                       2436  
+NO1_40-50                                                       3689  
+PL_40-50                                                        2680  
+SE1_40-50                                                       3117  
+SE2_40-50                                                       2908  
+SE3_40-50                                                       3245  
+SE4_40-50                                                       3899  
+FR_40-50                                                        2826  
+BE_40-50                                                        2826  
+DE_Offshore_40-50                                               4085  
+DK1_Offshore_40-50                                              4428  
+DK2_Offshore_40-50                                              4611  
+EE_Offshore_40-50                                               3652  
+FI_Offshore_40-50                                               3678  
+UK_Offshore_40-50                                               4315  
+LT_Offshore_40-50                                               3915  
+LV_Offshore_40-50                                               3434  
+NL_Offshore_40-50                                               4184  
+NO_Offshore_40-50                                               4037  
+PL_Offshore_40-50                                               3918  
+SE_Offshore_40-50                                               4064  
+FR_Offshore_40-50                                               4184  
+BE_Offshore_40-50                                               4184  
+DE4-E_A_50                                                      2504  
+DE4-N_A_50                                                      2504  
+DE4-S_A_50                                                      2504  
+DE4-W_A_50                                                      2504  
+DK1_50                                                          3576  
+DK2_50                                                          3589  
+EE_50                                                           3140  
+FInA_50                                                         3583  
+UK_50                                                           3177  
+LT_50                                                           2834  
+LV_50                                                           3514  
+NL_50                                                           3262  
+NO3_50                                                          3367  
+NO4_50                                                          3906  
+NO2_50                                                          3973  
+NO5_50                                                          2661  
+NO1_50                                                          4018  
+PL_50                                                           2900  
+SE1_50                                                          3478  
+SE2_50                                                          3296  
+SE3_50                                                          3621  
+SE4_50                                                          4256  
+FR_50                                                           3177  
+BE_50                                                           3177  
+DE_Offshore_50                                                  4311  
+DK1_Offshore_50                                                 4770  
+DK2_Offshore_50                                                 4841  
+EE_Offshore_50                                                  3920  
+FI_Offshore_50                                                  3961  
+UK_Offshore_50                                                  4572  
+LT_Offshore_50                                                  4145  
+LV_Offshore_50                                                  3695  
+NL_Offshore_50                                                  4434  
+NO_Offshore_50                                                  4353  
+PL_Offshore_50                                                  4150  
+SE_Offshore_50                                                  4322  
+FR_Offshore_50                                                  4434  
+BE_Offshore_50                                                  4434  
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+/;                                                                    
+WNDFLH(AAA)$(WNDFLH(AAA) EQ 0) = WNDFLH('FinA') ;                     

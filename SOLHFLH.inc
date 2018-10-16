@@ -24,4 +24,4 @@ EE_Rural                                                                        
 LV_A                                                                                                                                   703 
 LT_A                                                                                                                                   703 
 /;                                                                                                                                         
-SOLHFLH(AAA)$(SOLHFLH(AAA) EQ 0) = SOLHFLH('DK2_NoDH') ;                                                                                   
+                                                                                                                                           

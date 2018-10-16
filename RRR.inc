@@ -23,4 +23,7 @@ EE
 LV                                   
 LT                                   
 PL                                   
+BE                                   
+FR                                   
+                                     
 /;                                   

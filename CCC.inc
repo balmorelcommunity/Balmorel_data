@@ -11,4 +11,6 @@ ESTONIA
 LATVIA                             
 LITHUANIA                          
 POLAND                             
+BELGIUM                            
+FRANCE                             
 /;                                 
