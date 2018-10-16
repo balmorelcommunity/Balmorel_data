@@ -33,6 +33,8 @@ WATERRES
 HEAT                                                                               
 THERMGAS                                                                           
 DUMMY                                                                              
+                                                                                   
+* Fuels used in units outside EU ETS e.g. small boilers and engines                
 COAL_EXETS                                                                         
 NATGAS_EXETS                                                                       
 FUELOIL_EXETS                                                                      
