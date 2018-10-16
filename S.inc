@@ -1,7 +1,7 @@
 SET S(SSS)  'Seasons in the simulation'
 /
-S12
-*S12,S20,S35
+*S12
+S12,S20,S35
 *S01,S20,S28,S43
 *S07,S24,S38,S42
 *S10,S25,S29,S52
