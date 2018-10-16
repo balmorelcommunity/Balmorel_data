@@ -1,3 +1,41 @@
-PARAMETER TAX_F(FFF,CCC) 'Fuel taxes for heat and electricity production (Money/GJ)'  
-/                                                                                     
-/;                                                                                    
+* -----------------------------------------------------
+* XLS2GMS Version 1.5,  August 2002
+* Erwin Kalvelagen, GAMS Development Corp.
+* -----------------------------------------------------
+* Application: Microsoft Excel
+* Version:     16.0
+* Workbook:    \\nmbu.no\my\home\Documents\Prosjekter\Flex4RES\taxes\tax_data.xlsx
+* Sheet:       TAX_F
+* Range:       $A$1:$K$30
+* -----------------------------------------------------
+***          Taxes for fuel use                                                                                       
+***          Negative values are interpreted as subsidies                                                             
+***          Oct-2018. Jon Gustav Kirkerud                                                                            
+PARAMETER TAX_F(YYY,CCC,GGG) 'tax on fuel use';                                                                                                           
+                                                                                                                      
+                                                                                                                      
+*** Main input format: per country and per fuel                                                                                                          
+TABLE TAX_F_IN(YYY,CCC,FFF) 'tax on fuel use'                                                                                                          
+             NUCLEAR                                      NATGAS COAL LIGNITE FUELOIL LIGHTOIL SHALE PEAT LNG ELECTRIC
+2015.DENMARK 0                                                                                                        
+;                                                                                                                     
+                                                                                                                      
+* Apply 2015 numbers to all years:                                                                                                          
+TAX_F_IN(YYY,C,FFF)$(YVALUE(YYY) ne 2015) = TAX_F_IN('2015',C,FFF);                                                                                                          
+                                                                                                                      
+* Assign values onto TAX_F                                                                                                          
+TAX_F(Y,C,G)$((SUM(IA$ICA(C,IA), GKFX(Y,IA,G)) > 0) OR SUM(IA$ICA(C,IA), AGKN(IA,G))) = SUM(FFF$IGF(G,FFF), TAX_F_IN(Y,C,FFF));                                                                                                          
+                                                                                                                      
+                                                                                                                      
+*** Secondary input: exceptions from the main input on technology level                                                                                                          
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+* Another way to implement E and V-rule for back pressure, but GEFFRATE is wrongly treated                                                                                                          
+* Backpressure plants are charged under the cost optimal rule that depends on efficiency and CB-value                                                                                                          
+*TAX_F(Y,'DENMARK',G)$(NOT (GDATA(G,'GDTYPE') EQ GBPR)) = 0;                                                                                                          
+*TAX_F(Y,'DENMARK',IGBPR) = TAX_F(Y,'DENMARK',IGBPR) * MIN( 1 - (GDATA(IGBPR,'GDCB') * GDATA(IGBPR,'GDFE') / (1 + GDATA(IGBPR,'GDCB')) ) / 0.67, (GDATA(IGBPR,'GDFE')/ ( 1 + GDATA(IGBPR,'GDCB'))/1.2));                                                                                                          
+                                                                                                                      
+* -----------------------------------------------------
