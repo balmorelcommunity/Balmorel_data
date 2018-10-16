@@ -74,7 +74,6 @@ MUNIWASTE
 STRAW                                                                              
 WOOD                                                                               
 WOODCHIPS                                                                          
-DRYWOODCHIPS                                                                       
 RECYCLEDWOOD                                                                       
 WOODPELLETS                                                                        
 WOODWASTE                                                                          
