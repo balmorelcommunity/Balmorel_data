@@ -17,12 +17,12 @@ DK2_Offshore                                                      2
 DK1_Offshore                                                      2   
 FinA                                                              2   
 DE4-E_A                                                           2   
-DE4-E_Offshore_A                                                  2   
+DE4-E_Offshore                                                    2   
 DE4-N_A                                                           2   
-DE4-N_Offshore_A                                                  2   
+DE4-N_Offshore                                                    2   
 DE4-S_A                                                           2   
 DE4-W_A                                                           2   
-DE4-W_Offshore_A                                                  2   
+DE4-W_Offshore                                                    2   
 EE_Enefit                                                         2   
 EE_Industry                                                       2   
 EE_Kohtla_Jarve                                                   2   
