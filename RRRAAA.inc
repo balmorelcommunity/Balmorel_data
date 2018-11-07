@@ -107,7 +107,17 @@ SE2                                                                 .    SE2_Off
 SE3                                                                 .    SE3_Offshore     
 SE4                                                                 .    SE4_Offshore     
                                                                                           
-* Danish industry areas                                                                   
+* Danish industry areas - less Areas                                                      
+DK1                                                                 .    DK1_Large_PHH    
+DK1                                                                 .    DK1_Large_PHL    
+DK1                                                                 .    DK1_NoDH_PHH     
+DK1                                                                 .    DK1_NoDH_PHL     
+DK2                                                                 .    DK2_Large_PHH    
+DK2                                                                 .    DK2_Large_PHL    
+DK2                                                                 .    DK2_NoDH_PHH     
+DK2                                                                 .    DK2_NoDH_PHL     
+$ontext                                                                                   
+* Danish industry areas - more Areas                                                      
 DK1                                                                 .    DK1_Large_PHH    
 DK1                                                                 .    DK1_Large_PHL    
 DK1                                                                 .    DK1_Large_SH     
@@ -144,5 +154,5 @@ DK2                                                                 .    DK2_Rur
 DK2                                                                 .    DK2_Small_PHH    
 DK2                                                                 .    DK2_Small_PHL    
 DK2                                                                 .    DK2_Small_SH     
-                                                                                          
+$offtext                                                                                  
 /;                                                                                        
