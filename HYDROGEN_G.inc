@@ -343,4 +343,8 @@ RZES-2_ST_NGAS_BP_CT-TGAS-H2
 VUOSAARIB_CC_NGAS_EXT_CT-TGAS-H2                
 ZIEL-1_ST_NGAS_BP_CT-TGAS-H2                    
 ZIEL-3_ST_NGAS_BP_CT-TGAS-H2                    
+GNR_BO_NGAS_E-82_PHL-BGAS-H2                    
+GNR_BO_NGAS_E-70_PHH-BGAS-H2                    
+GNR_BO_NGAS_E-82_PHL-TGAS-H2                    
+GNR_BO_NGAS_E-70_PHH-TGAS-H2                    
 /;                                              
