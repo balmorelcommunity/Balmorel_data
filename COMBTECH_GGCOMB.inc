@@ -645,13 +645,21 @@ RZES-2_ST_NGAS_BP                                            .    RZES-2_ST_NGAS
 VUOSAARIB_CC_NGAS_EXT                                        .    VUOSAARIB_CC_NGAS_EXT_CT-TGAS-H2                
 ZIEL-1_ST_NGAS_BP                                            .    ZIEL-1_ST_NGAS_BP_CT-TGAS-H2                    
 ZIEL-3_ST_NGAS_BP                                            .    ZIEL-3_ST_NGAS_BP_CT-TGAS-H2                    
-GNR_BO_NGAS_E-82_PHL                                         .    GNR_BO_NGAS_E-82_PHL-BGAS-H2                    
-GNR_BO_NGAS_E-70_PHH                                         .    GNR_BO_NGAS_E-70_PHH-BGAS-H2                    
-GNR_BO_NGAS_E-82_PHL                                         .    GNR_BO_NGAS_E-82_PHL-TGAS-H2                    
-GNR_BO_NGAS_E-70_PHH                                         .    GNR_BO_NGAS_E-70_PHH-TGAS-H2                    
-GNR_BO_NGAS_E-82_PHL                                         .    GNR_BO_NGAS_E-82_PHL-BGAS-UP                    
-GNR_BO_NGAS_E-70_PHH                                         .    GNR_BO_NGAS_E-70_PHH-BGAS-UP                    
-GNR_BO_NGAS_E-82_PHL                                         .    GNR_BO_NGAS_E-82_PHL-TGAS-UP                    
-GNR_BO_NGAS_E-70_PHH                                         .    GNR_BO_NGAS_E-70_PHH-TGAS-UP                    
+GNR_BO_NGAS_E-82_PHL_Y-2020                                  .    GNR_BO_NGAS_E-82_PHL_Y-2020-TGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2020                                  .    GNR_BO_NGAS_E-70_PHH_Y-2020-TGAS-UP             
+GNR_BO_NGAS_E-82_PHL_Y-2030                                  .    GNR_BO_NGAS_E-82_PHL_Y-2030-TGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2030                                  .    GNR_BO_NGAS_E-70_PHH_Y-2030-TGAS-UP             
+GNR_BO_NGAS_E-82_PHL_Y-2040                                  .    GNR_BO_NGAS_E-82_PHL_Y-2040-TGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2040                                  .    GNR_BO_NGAS_E-70_PHH_Y-2040-TGAS-UP             
+GNR_BO_NGAS_E-82_PHL_Y-2050                                  .    GNR_BO_NGAS_E-82_PHL_Y-2050-TGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2050                                  .    GNR_BO_NGAS_E-70_PHH_Y-2050-TGAS-UP             
+GNR_BO_NGAS_E-82_PHL_Y-2020                                  .    GNR_BO_NGAS_E-82_PHL_Y-2020-BGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2020                                  .    GNR_BO_NGAS_E-70_PHH_Y-2020-BGAS-UP             
+GNR_BO_NGAS_E-82_PHL_Y-2030                                  .    GNR_BO_NGAS_E-82_PHL_Y-2030-BGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2030                                  .    GNR_BO_NGAS_E-70_PHH_Y-2030-BGAS-UP             
+GNR_BO_NGAS_E-82_PHL_Y-2040                                  .    GNR_BO_NGAS_E-82_PHL_Y-2040-BGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2040                                  .    GNR_BO_NGAS_E-70_PHH_Y-2040-BGAS-UP             
+GNR_BO_NGAS_E-82_PHL_Y-2050                                  .    GNR_BO_NGAS_E-82_PHL_Y-2050-BGAS-UP             
+GNR_BO_NGAS_E-70_PHH_Y-2050                                  .    GNR_BO_NGAS_E-70_PHH_Y-2050-BGAS-UP             
 $label endoffile                                                                                                  
 /;                                                                                                                
