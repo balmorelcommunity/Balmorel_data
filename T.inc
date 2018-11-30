@@ -1,5 +1,6 @@
 SET T(TTT)  'Time periods within a season in the simulation'
 /
+*T001
 *T001*T168
 *T001*T012
 *T001*T004
