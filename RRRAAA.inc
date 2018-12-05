@@ -107,6 +107,7 @@ SE2                                                                 .    SE2_Off
 SE3                                                                 .    SE3_Offshore     
 SE4                                                                 .    SE4_Offshore     
                                                                                           
+$ifi not %HEATTRANS%==yes $goto noheattrans                                               
 * Danish industry areas - less Areas                                                      
 DK1                                                                 .    DK1_Large_PHH    
 DK1                                                                 .    DK1_Large_PHL    
@@ -155,4 +156,5 @@ DK2                                                                 .    DK2_Sma
 DK2                                                                 .    DK2_Small_PHL    
 DK2                                                                 .    DK2_Small_SH     
 $offtext                                                                                  
+$label noheattrans                                                                        
 /;                                                                                        

@@ -823,6 +823,7 @@ GNR_ENG_TGAS_CND_E-47_Y-2050
 GNR_ENG_TGAS_BP_E-43_Y-2020                                   
 GNR_ENG_TGAS_BP_E-45_Y-2030                                   
 GNR_ENG_TGAS_BP_E-47_Y-2050                                   
+$ifi not %HEATTRANS%==yes $goto noheattrans                   
 GNR_BO_NGAS_E-82_PHL_Y-2020                                   
 GNR_BO_NGAS_E-70_PHH_Y-2020                                   
 GNR_BO_NGAS_E-82_PHL_Y-2030                                   
@@ -847,4 +848,5 @@ GNR_HP_ELEC_COP-100_PHH_Y-2020
 GNR_HP_ELEC_COP-100_PHH_Y-2030                                
 GNR_HP_ELEC_COP-100_PHH_Y-2040                                
 GNR_HP_ELEC_COP-100_PHH_Y-2050                                
+$label noheattrans                                            
 /;                                                            

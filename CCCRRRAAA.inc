@@ -158,7 +158,19 @@ DK1_NoDH
 DK2_Offshore                                               
 DK1_Offshore                                               
                                                            
-* Danish industry areas                                    
+$ifi not %HEATTRANS%==yes $goto noheattrans                
+* Danish industry areas - lessAreas                        
+DK1_Large_PHH                                              
+DK1_Large_PHL                                              
+DK1_NoDH_PHH                                               
+DK1_NoDH_PHL                                               
+DK2_Large_PHH                                              
+DK2_Large_PHL                                              
+DK2_NoDH_PHH                                               
+DK2_NoDH_PHL                                               
+                                                           
+$ontext                                                    
+* Danish industry areas - moreAreas                        
 DK1_Large_PHH                                              
 DK1_Large_PHL                                              
 DK1_Large_SH                                               
@@ -195,6 +207,9 @@ DK2_Rural_SH
 DK2_Small_PHH                                              
 DK2_Small_PHL                                              
 DK2_Small_SH                                               
+$offtext                                                   
+$label noheattrans                                         
+                                                           
                                                            
 $ontext                                                    
 * Wind areas                                               

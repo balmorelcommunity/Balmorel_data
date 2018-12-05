@@ -322,6 +322,7 @@ RZES-2_ST_NGAS_BP_CT-TGAS-UP
 VUOSAARIB_CC_NGAS_EXT_CT-TGAS-UP                
 ZIEL-1_ST_NGAS_BP_CT-TGAS-UP                    
 ZIEL-3_ST_NGAS_BP_CT-TGAS-UP                    
+$ifi not %HEATTRANS%==yes $goto noheattrans     
 GNR_BO_NGAS_E-82_PHL_Y-2020-TGAS-UP             
 GNR_BO_NGAS_E-70_PHH_Y-2020-TGAS-UP             
 GNR_BO_NGAS_E-82_PHL_Y-2030-TGAS-UP             
@@ -338,4 +339,5 @@ GNR_BO_NGAS_E-82_PHL_Y-2040-BGAS-UP
 GNR_BO_NGAS_E-70_PHH_Y-2040-BGAS-UP             
 GNR_BO_NGAS_E-82_PHL_Y-2050-BGAS-UP             
 GNR_BO_NGAS_E-70_PHH_Y-2050-BGAS-UP             
+$label noheattrans                              
 /;                                              
