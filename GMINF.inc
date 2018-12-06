@@ -1,3 +1,3 @@
-TABLE GMINF(CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'     
-                                                                
-;                                                               
+TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
+
+;
