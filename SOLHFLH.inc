@@ -21,7 +21,9 @@ SE3A                                                                            
 SE4A                                                                                                                                   703 
 UK_A                                                                                                                                   1040
 EE_Rural                                                                                                                               703 
+EE_Kohtla_Jarve                                                                                                                        703 
 LV_A                                                                                                                                   703 
 LT_A                                                                                                                                   703 
 /;                                                                                                                                         
+SOLHFLH(AAA)$(SOLHFLH(AAA)=0)=SOLHFLH('DK2_NoDH');                                                                                         
                                                                                                                                            

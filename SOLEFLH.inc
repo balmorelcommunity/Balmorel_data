@@ -25,8 +25,8 @@ LV_A                                                      998.64
 LT_A                                                      998.64                    
 BE_A                                                      1010                      
 FR_A                                                      1180                      
-                                                                                    
-                                                                                    
-                                                                                    
+PL_A                                                      1054                      
                                                                                     
 /;                                                                                  
+                                                                                    
+SOLEFLH(AAA)$(SOLEFLH(AAA)=0)=SOLEFLH('DK2_NoDH');                                  
