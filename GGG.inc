@@ -189,6 +189,8 @@ GNR_BO_WOODWST_E-89
 GNR_BO_WOODWST_E-90                           
 GNR_BO_WOODWST_E-91                           
 GNR_BO_WOODWST_E-94                           
+GNR_CC_COAL_BP_E-27                           
+GNR_CC_COAL_BP_E-46                           
 GNR_CC_COAL_BP_E-47                           
 GNR_CC_COAL_BP_E-49                           
 GNR_CC_FUELOIL_BP_E-38                        
@@ -206,6 +208,7 @@ GNR_CC_NGAS_BP_E-53_SS-10-MW_Y-2030
 GNR_CC_NGAS_BP_E-55                           
 GNR_CC_NGAS_BP_E-55_SS-10-MW_Y-2050           
 GNR_CC_NGAS_BP_E-57                           
+GNR_CC_NGAS_BP_E-59                           
 GNR_CC_NGAS_CND_E-38                          
 GNR_CC_NGAS_CND_E-42                          
 GNR_CC_NGAS_CND_E-43                          
@@ -469,6 +472,7 @@ GNR_ST_BFG_BP_CB-90
 GNR_ST_BGAS_BP_CB-40                          
 GNR_ST_BGAS_BP_E-33                           
 GNR_ST_BGAS_BP_E-38                           
+GNR_ST_BGAS_CND_E-33                          
 GNR_ST_BGAS_CND_E-37                          
 GNR_ST_BGAS_CND_E-38                          
 GNR_ST_BGAS_CND_E-40                          
@@ -503,6 +507,7 @@ GNR_ST_COAL_CND_E-46
 GNR_ST_COAL_CND_E-49_LS-400-MW_Y-2020         
 GNR_ST_COAL_CND_E-52_LS-400-MW_Y-2030         
 GNR_ST_COAL_CND_E-54_LS-400-MW_Y-2050         
+GNR_ST_COAL_EXT_E-35                          
 GNR_ST_COAL_EXT_E-36                          
 GNR_ST_COAL_EXT_E-37                          
 GNR_ST_COAL_EXT_E-38                          
@@ -511,6 +516,7 @@ GNR_ST_COAL_EXT_E-40
 GNR_ST_COAL_EXT_E-41                          
 GNR_ST_COAL_EXT_E-42                          
 GNR_ST_COAL_EXT_E-43                          
+GNR_ST_COAL_EXT_E-44                          
 GNR_ST_COAL_EXT_E-47                          
 GNR_ST_COAL_EXT_E-49_LS-400-MW_Y-2020         
 GNR_ST_COAL_EXT_E-52_LS-400-MW_Y-2030         
@@ -549,6 +555,9 @@ GNR_ST_LIGN_CND_E-32
 GNR_ST_LIGN_CND_E-41                          
 GNR_ST_LIGN_CND_E-42                          
 GNR_ST_LIGN_CND_E-43                          
+GNR_ST_LIGN_EXT_E-34                          
+GNR_ST_LIGN_EXT_E-39                          
+GNR_ST_LIGN_EXT_E-40                          
 GNR_ST_MSW_BP_CB-10                           
 GNR_ST_MSW_BP_CB-20                           
 GNR_ST_MSW_BP_CB-30                           
@@ -610,7 +619,9 @@ GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2050
 GNR_ST_NGAS_CON_E-38                          
 GNR_ST_NGAS_EXT_E-24                          
 GNR_ST_NGAS_EXT_E-31                          
+GNR_ST_NGAS_EXT_E-36                          
 GNR_ST_NGAS_EXT_E-39                          
+GNR_ST_NGAS_EXT_E-40                          
 GNR_ST_NGAS_EXT_E-47                          
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020         
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2030         
@@ -829,7 +840,5 @@ VILNIUS_ST_MSW_BP
 VILNIUS_ST_WOODCHI_BP                         
 VKG_ST_RETORT-GAS_EXT                         
 VUOSAARIB_CC_NGAS_EXT                         
-                                              
-                                              
                                               
 /;                                            
