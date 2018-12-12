@@ -47,9 +47,9 @@ DE4-E_A.GNR_CC_NGAS_BP_E-53                                                     
 NO4_A1.GNR_ST_MSW_BP_CB-30                                                                                                                  0.98              0.99              1                 1                 1                 0.99              0.98              0.96              0.93              0.9               0.87              0.81              0.77              0.73              0.68              0.62              0.57              0.52              0.47              0.44              0.41              0.38              0.36              0.35              0.34              0.34              0.34              0.34              0.33              0.34              0.34              0.35              0.37              0.4               0.43              0.46              0.49              0.52              0.55              0.58              0.62              0.67              0.72              0.77              0.81              0.85              0.87              0.9               0.92              0.95              0.97              0.98
 ;
 
-GKRATE(IA,G,S)$(ICA('GERMANY',IA) AND (GDATA(G,'GDFUEL') EQ COAL) AND ((SUM(Y, GKFX(Y,IA,G)) > 0) OR AGKN(IA,G))) =   GKRATE('DE4-E_A','GNR_ST_COAL_BP_E-35',S);
-GKRATE(IA,G,S)$(ICA('GERMANY',IA) AND (GDATA(G,'GDFUEL') EQ LIGNITE) AND ((SUM(Y, GKFX(Y,IA,G)) > 0) OR AGKN(IA,G))) =   GKRATE('DE4-E_A','GNR_ST_LIGN_BP_E-28',S);
-GKRATE(IA,G,S)$(ICA('GERMANY',IA) AND (GDATA(G,'GDFUEL') EQ NATGAS) AND ((SUM(Y, GKFX(Y,IA,G)) > 0) OR AGKN(IA,G))) =   GKRATE('DE4-E_A','GNR_CC_NGAS_BP_E-53',S);
+GKRATE(IA,G,S)$(ICA('GERMANY',IA) AND (GDATA(G,'GDFUEL') EQ COAL) AND ((GDATA(G,'GDTYPE') EQ GCND) OR (GDATA(G,'GDTYPE') EQ GEXT) OR (GDATA(G,'GDTYPE') EQ GBPR)) AND((SUM(Y, GKFX(Y,IA,G)) > 0) OR AGKN(IA,G))) =   GKRATE('DE4-E_A','GNR_ST_COAL_BP_E-35',S);
+GKRATE(IA,G,S)$(ICA('GERMANY',IA) AND (GDATA(G,'GDFUEL') EQ LIGNITE) AND ((GDATA(G,'GDTYPE') EQ GCND) OR (GDATA(G,'GDTYPE') EQ GEXT) OR (GDATA(G,'GDTYPE') EQ GBPR)) AND ((SUM(Y, GKFX(Y,IA,G)) > 0) OR AGKN(IA,G))) =   GKRATE('DE4-E_A','GNR_ST_LIGN_BP_E-28',S);
+GKRATE(IA,G,S)$(ICA('GERMANY',IA) AND (GDATA(G,'GDFUEL') EQ NATGAS) AND ((GDATA(G,'GDTYPE') EQ GCND) OR (GDATA(G,'GDTYPE') EQ GEXT) OR (GDATA(G,'GDTYPE') EQ GBPR)) AND ((SUM(Y, GKFX(Y,IA,G)) > 0) OR AGKN(IA,G))) =   GKRATE('DE4-E_A','GNR_CC_NGAS_BP_E-53',S);
 
 
 
