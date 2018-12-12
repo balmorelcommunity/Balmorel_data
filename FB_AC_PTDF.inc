@@ -1,4 +1,4 @@
-SET                                                                                                                                                 ACNETWORKS                           Defines the three AC-Subnetworks in Scandinavia, central Europe and Baltics defined by the PyPSA clustering'
+SET                                                                                                                                                 ACNETWORKS                           'Defines the three AC-Subnetworks in Scandinavia, central Europe and Baltics defined by the PyPSA clustering'
 /
 ACSCAND
 ACEUR
@@ -8,35 +8,34 @@ ACBALT
 
 
 
-SET                                                                                                                                                 RRR                                  All regions included in the AC-power flow calculation'
-/
-
-DK2
-FIN
-NO1
-NO2
-NO3
-NO4
-NO5
-SE1
-SE2
-SE3
-SE4
-DK1
-DE4-N
-DE4-E
-DE4-S
-DE4-W
-NL
-PL
-UK
-BE
-FR
-EE
-LV
-LT
-/
-;
+*SET                                                                                                                                                 RRR                                  'All regions included in the AC-power flow calculation'
+*/
+*DK2
+*FIN
+*NO1
+*NO2
+*NO3
+*NO4
+*NO5
+*SE1
+*SE2
+*SE3
+*SE4
+*DK1
+*DE4-N
+*DE4-E
+*DE4-S
+*DE4-W
+*NL
+*PL
+*UK
+*BE
+*FR
+*EE
+*LV
+*LT
+*/
+*;
 
 
 ALIAS (RRR,IRRRALIAS);
@@ -45,41 +44,41 @@ ALIAS (RRR,IRRRALIAS);
 
 SET LINES                                                                                                                                           All AC lines in the Balmorel system'
 /
-ACLine1                                                                                                                                             *                                    AC_DK2_SE4                                                                                                   DK2                          SE4
-ACLine2                                                                                                                                             *                                    AC_FIN_NO4                                                                                                   FIN                          NO4
-ACLine3                                                                                                                                             *                                    AC_FIN_SE1                                                                                                   FIN                          SE1
-ACLine4                                                                                                                                             *                                    AC_FIN_SE3                                                                                                   FIN                          SE3
-ACLine5                                                                                                                                             *                                    AC_NO1_NO2                                                                                                   NO1                          NO2
-ACLine6                                                                                                                                             *                                    AC_NO1_NO5                                                                                                   NO1                          NO5
-ACLine7                                                                                                                                             *                                    AC_NO1_SE3                                                                                                   NO1                          SE3
-ACLine8                                                                                                                                             *                                    AC_NO2_NO5                                                                                                   NO2                          NO5
-ACLine9                                                                                                                                             *                                    AC_NO3_NO4                                                                                                   NO3                          NO4
-ACLine10                                                                                                                                            *                                    AC_NO3_NO5                                                                                                   NO3                          NO5
-ACLine11                                                                                                                                            *                                    AC_NO3_SE2                                                                                                   NO3                          SE2
-ACLine12                                                                                                                                            *                                    AC_NO4_SE1                                                                                                   NO4                          SE1
-ACLine13                                                                                                                                            *                                    AC_NO4_SE2                                                                                                   NO4                          SE2
-ACLine14                                                                                                                                            *                                    AC_SE1_SE2                                                                                                   SE1                          SE2
-ACLine15                                                                                                                                            *                                    AC_SE2_SE3                                                                                                   SE2                          SE3
-ACLine16                                                                                                                                            *                                    AC_SE3_SE4                                                                                                   SE3                          SE4
-ACLine17                                                                                                                                            *                                    AC_BE_FR                                                                                                     BE                           FR
-ACLine18                                                                                                                                            *                                    AC_BE_NL                                                                                                     BE                           NL
-ACLine19                                                                                                                                            *                                    AC_DES_DEW                                                                                                   DE4-S                        DE4-W
-ACLine20                                                                                                                                            *                                    AC_DES_DEE                                                                                                   DE4-S                        DE4-E
-ACLine21                                                                                                                                            *                                    AC_DES_FR                                                                                                    DE4-S                        FR
-ACLine22                                                                                                                                            *                                    AC_DEW_DEE                                                                                                   DE4-W                        DE4-E
-ACLine23                                                                                                                                            *                                    AC_DEW_DEN                                                                                                   DE4-W                        DE4-N
-ACLine24                                                                                                                                            *                                    AC_DEW_NL                                                                                                    DE4-W                        NL
-ACLine25                                                                                                                                            *                                    AC_DEE_DEN                                                                                                   DE4-E                        DE4-N
-ACLine26                                                                                                                                            *                                    AC_DEE_PL                                                                                                    DE4-E                        PL
-ACLine27                                                                                                                                            *                                    AC_DEN_DK1                                                                                                   DE4-N                        DK1
-ACLine28                                                                                                                                            *                                    AC_EE_LV                                                                                                     EE                           LV
-ACLine29                                                                                                                                            *                                    AC_LT_LV                                                                                                     LT                           LV
+ACLine1                                                                                                                                             '*                                    AC_DK2_SE4                                                                                                   DK2                          SE4           '
+ACLine2                                                                                                                                             '*                                    AC_FIN_NO4                                                                                                   FIN                          NO4           '
+ACLine3                                                                                                                                             '*                                    AC_FIN_SE1                                                                                                   FIN                          SE1           '
+ACLine4                                                                                                                                             '*                                    AC_FIN_SE3                                                                                                   FIN                          SE3           '
+ACLine5                                                                                                                                             '*                                    AC_NO1_NO2                                                                                                   NO1                          NO2           '
+ACLine6                                                                                                                                             '*                                    AC_NO1_NO5                                                                                                   NO1                          NO5           '
+ACLine7                                                                                                                                             '*                                    AC_NO1_SE3                                                                                                   NO1                          SE3           '
+ACLine8                                                                                                                                             '*                                    AC_NO2_NO5                                                                                                   NO2                          NO5           '
+ACLine9                                                                                                                                             '*                                    AC_NO3_NO4                                                                                                   NO3                          NO4           '
+ACLine10                                                                                                                                            '*                                    AC_NO3_NO5                                                                                                   NO3                          NO5           '
+ACLine11                                                                                                                                            '*                                    AC_NO3_SE2                                                                                                   NO3                          SE2           '
+ACLine12                                                                                                                                            '*                                    AC_NO4_SE1                                                                                                   NO4                          SE1           '
+ACLine13                                                                                                                                            '*                                    AC_NO4_SE2                                                                                                   NO4                          SE2           '
+ACLine14                                                                                                                                            '*                                    AC_SE1_SE2                                                                                                   SE1                          SE2           '
+ACLine15                                                                                                                                            '*                                    AC_SE2_SE3                                                                                                   SE2                          SE3           '
+ACLine16                                                                                                                                            '*                                    AC_SE3_SE4                                                                                                   SE3                          SE4           '
+ACLine17                                                                                                                                            '*                                    AC_BE_FR                                                                                                     BE                           FR            '
+ACLine18                                                                                                                                            '*                                    AC_BE_NL                                                                                                     BE                           NL            '
+ACLine19                                                                                                                                            '*                                    AC_DES_DEW                                                                                                   DE4-S                        DE4-W         '
+ACLine20                                                                                                                                            '*                                    AC_DES_DEE                                                                                                   DE4-S                        DE4-E         '
+ACLine21                                                                                                                                            '*                                    AC_DES_FR                                                                                                    DE4-S                        FR            '
+ACLine22                                                                                                                                            '*                                    AC_DEW_DEE                                                                                                   DE4-W                        DE4-E         '
+ACLine23                                                                                                                                            '*                                    AC_DEW_DEN                                                                                                   DE4-W                        DE4-N         '
+ACLine24                                                                                                                                            '*                                    AC_DEW_NL                                                                                                    DE4-W                        NL            '
+ACLine25                                                                                                                                            '*                                    AC_DEE_DEN                                                                                                   DE4-E                        DE4-N         '
+ACLine26                                                                                                                                            '*                                    AC_DEE_PL                                                                                                    DE4-E                        PL            '
+ACLine27                                                                                                                                            '*                                    AC_DEN_DK1                                                                                                   DE4-N                        DK1           '
+ACLine28                                                                                                                                            '*                                    AC_EE_LV                                                                                                     EE                           LV            '
+ACLine29                                                                                                                                            '*                                    AC_LT_LV                                                                                                     LT                           LV            '
 /
 ;
 
 ALIAS(LINES,ILINES);
 
-SET LINESRRR(LINES,RRR,RRR)                                                                                                                                                              AC lines which are connecting regions'
+SET LINESRRR(LINES,RRR,RRR)                                                                                                                                                              'AC lines which are connecting regions'
 /
 ACLine1                                                                                                                                             .                                    DK2                                                                                                          .                            SE4
 ACLine2                                                                                                                                             .                                    FIN                                                                                                          .                            NO4
@@ -113,37 +112,65 @@ ACLine29                                                                        
 /
 ;
 
-SET AC2RRR(ACNETWORKS,RRR)                                                                                                                                                               Coupling networks and regions'
+SET AC2RRR(ACNETWORKS,RRR)                                                                                                                                                               'Coupling networks and regions'
 /
-ACSCAND                                                                                                                                             .                                    (                                                                                                            DK2                          ,           SE4        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            FIN                          ,           NO4        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            FIN                          ,           SE1        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            FIN                          ,           SE3        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO1                          ,           NO2        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO1                          ,           NO5        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO1                          ,           SE3        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO2                          ,           NO5        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO3                          ,           NO4        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO3                          ,           NO5        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO3                          ,           SE2        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO4                          ,           SE1        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            NO4                          ,           SE2        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            SE1                          ,           SE2        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            SE2                          ,           SE3        )
-ACSCAND                                                                                                                                             .                                    (                                                                                                            SE3                          ,           SE4        )
-ACEUR                                                                                                                                               .                                    (                                                                                                            BE                           ,           FR         )
-ACEUR                                                                                                                                               .                                    (                                                                                                            BE                           ,           NL         )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-S                        ,           DE4-W      )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-S                        ,           DE4-E      )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-S                        ,           FR         )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-W                        ,           DE4-E      )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-W                        ,           DE4-N      )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-W                        ,           NL         )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-E                        ,           DE4-N      )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-E                        ,           PL         )
-ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-N                        ,           DK1        )
-ACBALT                                                                                                                                              .                                    (                                                                                                            EE                           ,           LV         )
-ACBALT                                                                                                                                              .                                    (                                                                                                            LT                           ,           LV         )
+ACSCAND                                                                                                                                             .                                 DK2
+ACSCAND                                                                                                                                             .                                 FIN
+ACSCAND                                                                                                                                             .                               NO1
+ACSCAND                                                                                                                                             .                                  NO2
+ACSCAND                                                                                                                                             .                                    (                                                                                                            NO3   )
+ACSCAND                                                                                                                                             .                                    (                                                                                                            NO4   )
+ACSCAND                                                                                                                                             .                                    (                                                                                                            NO5  )
+ACSCAND                                                                                                                                             .                                    (                                                                                                            SE4   )
+ACSCAND                                                                                                                                             .                                    (                                                                                                            SE1  )
+ACSCAND                                                                                                                                             .                                    (                                                                                                            SE2   )
+ACSCAND                                                                                                                                             .                                    (                                                                                                            SE3   )
+ACEUR                                                                                                                                               .                                    (                                                                                                            FR    )
+ACEUR                                                                                                                                               .                                    (                                                                                                            BE     )
+ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-S   )
+ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-W  )
+ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-N   )
+ACEUR                                                                                                                                               .                                    (                                                                                                            DE4-E   )
+ACEUR                                                                                                                                               .                                    (                                                                                                            PL   )
+ACEUR                                                                                                                                               .                                    (                                                                                                            NL  )
+ACEUR                                                                                                                                               .                                    (                                                                                                            DK1  )
+ACBALT                                                                                                                                              .                                    (                                                                                                            LV  )
+ACBALT                                                                                                                                              .                                    (                                                                                                            EE   )
+ACBALT                                                                                                                                              .                                    (                                                                                                            LT    )
+/
+;
+
+SET AC2LINES(LINES,ACNETWORKS)                                                                                                                                                           'AC lines connected to AC networks'
+/
+ACLine1                                                                                                                                             .                                    ACSCAND
+ACLine2                                                                                                                                             .                                    ACSCAND
+ACLine3                                                                                                                                             .                                    ACSCAND
+ACLine4                                                                                                                                             .                                    ACSCAND
+ACLine5                                                                                                                                             .                                    ACSCAND
+ACLine6                                                                                                                                             .                                    ACSCAND
+ACLine7                                                                                                                                             .                                    ACSCAND
+ACLine8                                                                                                                                             .                                    ACSCAND
+ACLine9                                                                                                                                             .                                    ACSCAND
+ACLine10                                                                                                                                            .                                    ACSCAND
+ACLine11                                                                                                                                            .                                    ACSCAND
+ACLine12                                                                                                                                            .                                    ACSCAND
+ACLine13                                                                                                                                            .                                    ACSCAND
+ACLine14                                                                                                                                            .                                    ACSCAND
+ACLine15                                                                                                                                            .                                    ACSCAND
+ACLine16                                                                                                                                            .                                    ACSCAND
+ACLine17                                                                                                                                            .                                    ACEUR
+ACLine18                                                                                                                                            .                                    ACEUR
+ACLine19                                                                                                                                            .                                    ACEUR
+ACLine20                                                                                                                                            .                                    ACEUR
+ACLine21                                                                                                                                            .                                    ACEUR
+ACLine22                                                                                                                                            .                                    ACEUR
+ACLine23                                                                                                                                            .                                    ACEUR
+ACLine24                                                                                                                                            .                                    ACEUR
+ACLine25                                                                                                                                            .                                    ACEUR
+ACLine26                                                                                                                                            .                                    ACEUR
+ACLine27                                                                                                                                            .                                    ACEUR
+ACLine28                                                                                                                                            .                                    ACBALT
+ACLine29                                                                                                                                            .                                    ACBALT
 /
 ;
 
