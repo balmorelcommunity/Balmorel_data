@@ -29,4 +29,3 @@ BE_A                                                             1040
 FR_A                                                             1040
                                                                      
 /;                                                                   
-WAVEFLH(AAA)$(WAVEFLH(AAA)=0)=WAVEFLH('DK2_NoDH');                   
