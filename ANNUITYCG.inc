@@ -1,13 +1,16 @@
-PARAMETER ANNUITYCG(CCC,GGG) 'Transforms investment to annual payment (fraction)'                         
-;                                                                                                         
-                                                                                                          
-* Interest rate assumption: 6%                                                                            
-* Loan repayment assumption: lifetime of the technology if lifetime is higher than 20 years, else 20 years
-ANNUITYCG(C,G)$(GDATA(G,'GDKVARIABL')=1)=1/((1-(1+0.06)**(MAX(-GDATA(G,'GDLIFETIME'),-20)))/0.06);        
-*ANNUITYCG(C,G)=0.117;                                                                                    
-                                                                                                          
-                                                                                                          
-                                                                                                          
-                                                                                                          
-                                                                                                          
-                                                                                                          
+*ANNUITYG calculation                                                                                                                                                                                                                                                                     
+PARAMETER ANNUITYCG(C,G)               "Transforms investment in technologies into annual payment (fraction)";                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                          
+PARAMETER DEBT_SHARE_G(G)         "Share of debt for the investment of each generation technology (fraction)";                                                                                                                                                                            
+DEBT_SHARE_G(G)$(GDATA(G,'GDKVARIABL') EQ 1)=0.8;                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                          
+PARAMETER INTEREST_RATE_G(G)         "Interest rate applied to the loan of each generation technology (fraction)";                                                                                                                                                                        
+INTEREST_RATE_G(G)$(GDATA(G,'GDKVARIABL') EQ 1)=0.06;                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                          
+PARAMETER PAYBACK_TIME_G(G)          "Payback time of the loan for generation technologies (years)";                                                                                                                                                                                      
+* Loan repayment assumption: lifetime of the technology if lifetime is higher than 20 years, else 20 years                                                                                                                                                                                
+PAYBACK_TIME_G(G)$(GDATA(G,'GDKVARIABL') EQ 1)=MIN(GDATA(G,'GDLIFETIME'),20);                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                          
+ANNUITYCG(C,G)$(GDATA(G,'GDKVARIABL') EQ 1)= ((1-DEBT_SHARE_G(G))*DISCOUNTRATE + INTEREST_RATE_G(G) * DEBT_SHARE_G (G)* (1 - (1 + DISCOUNTRATE) ** (-PAYBACK_TIME_G(G))) / (1 - (1 + INTEREST_RATE_G(G)) **( -PAYBACK_TIME_G(G)))) / (1 - (1 + DISCOUNTRATE) ** (-GDATA(G,'GDLIFETIME')));
+                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                          

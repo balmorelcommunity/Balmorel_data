@@ -1,10 +1,17 @@
-PARAMETER ANNUITYCX(CCC) 'Transforms investment to annual payment (fraction)'
-;                                                                            
-* Interest rate assumption: Socio-economic discount rate                     
-* Loan repayment  assumption for all the lines: 40 YEARS                     
-                                                                             
-ANNUITYCX(CCC)=1/((1-(1+DISCOUNTRATE)**(-40))/DISCOUNTRATE);                 
-*ANNUITYCX(C)=0.117;                                                         
-                                                                             
-                                                                             
-                                                                             
+*ANNUITYX calculation                                                                                                                                                                                                            
+PARAMETER ANNUITYCX(C)                 "Transforms investment in transmission lines into annual payment (fraction)";                                                                                                             
+                                                                                                                                                                                                                                 
+SCALAR DEBT_SHARE_X         "Share of debt for the investment of transmission lines (fraction)";                                                                                                                                 
+*Assumption: share of debt equal to 0                                                                                                                                                                                            
+DEBT_SHARE_X=0;                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                 
+SCALAR    INTEREST_RATE_X              "Interest rate applied to the loan of transmission lines";                                                                                                                                
+*Assumption: interest rate equals socio economic discount rate                                                                                                                                                                   
+INTEREST_RATE_X = DISCOUNTRATE;                                                                                                                                                                                                  
+                                                                                                                                                                                                                                 
+SCALAR    PAYBACK_TIME_X               "Payback time of the loan for transmission lines (years)";                                                                                                                                
+*Assumption: payback time equals lifetime                                                                                                                                                                                        
+PAYBACK_TIME_X = LIFETIME_X;                                                                                                                                                                                                     
+                                                                                                                                                                                                                                 
+ANNUITYCX(C)= ((1-DEBT_SHARE_X)*DISCOUNTRATE + INTEREST_RATE_X * DEBT_SHARE_X* (1 - (1 + DISCOUNTRATE) ** (-PAYBACK_TIME_X)) / (1 - (1 + INTEREST_RATE_X) ** (-PAYBACK_TIME_X))) / (1 - (1 + DISCOUNTRATE) **( -PAYBACK_TIME_X));
+                                                                                                                                                                                                                                 
