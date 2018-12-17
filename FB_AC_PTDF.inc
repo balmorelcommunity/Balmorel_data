@@ -76,9 +76,11 @@ ACLine29                                                                        
 /
 ;
 
+
+
 ALIAS(LINES,ILINES);
 
-SET LINESRRR(LINES,RRR,RRR)                                                                                                                                                              'AC lines which are connecting regions'
+SET LINESRRR(LINES,IRRRE,IRRRI)                                                                                                                                                              'AC lines which are connecting regions'
 /
 ACLine1                                                                                                                                             .                                    DK2                                                                                                          .                            SE4
 ACLine2                                                                                                                                             .                                    FIN                                                                                                          .                            NO4
