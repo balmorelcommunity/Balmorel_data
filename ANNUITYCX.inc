@@ -1,17 +1,15 @@
-*ANNUITYX calculation                                                                                                                                                                                                            
-PARAMETER ANNUITYCX(C)                 "Transforms investment in transmission lines into annual payment (fraction)";                                                                                                             
-                                                                                                                                                                                                                                 
-SCALAR DEBT_SHARE_X         "Share of debt for the investment of transmission lines (fraction)";                                                                                                                                 
-*Assumption: share of debt equal to 0                                                                                                                                                                                            
-DEBT_SHARE_X=0;                                                                                                                                                                                                                  
-                                                                                                                                                                                                                                 
-SCALAR    INTEREST_RATE_X              "Interest rate applied to the loan of transmission lines";                                                                                                                                
-*Assumption: interest rate equals socio economic discount rate                                                                                                                                                                   
-INTEREST_RATE_X = DISCOUNTRATE;                                                                                                                                                                                                  
-                                                                                                                                                                                                                                 
-SCALAR    PAYBACK_TIME_X               "Payback time of the loan for transmission lines (years)";                                                                                                                                
-*Assumption: payback time equals lifetime                                                                                                                                                                                        
-PAYBACK_TIME_X = LIFETIME_X;                                                                                                                                                                                                     
-                                                                                                                                                                                                                                 
-ANNUITYCX(C)= ((1-DEBT_SHARE_X)*DISCOUNTRATE + INTEREST_RATE_X * DEBT_SHARE_X* (1 - (1 + DISCOUNTRATE) ** (-PAYBACK_TIME_X)) / (1 - (1 + INTEREST_RATE_X) ** (-PAYBACK_TIME_X))) / (1 - (1 + DISCOUNTRATE) **( -PAYBACK_TIME_X));
-                                                                                                                                                                                                                                 
+*PARAMETER ANNUITYCX(C) CALCULATED WITH AUXILS
+
+ANNUITYCX('NORWAY')=0.045027940033;
+ANNUITYCX('DENMARK')=0.045027940033;
+ANNUITYCX('FINLAND')=0.045027940033;
+ANNUITYCX('GERMANY')=0.045027940033;
+ANNUITYCX('NETHERLANDS')=0.045027940033;
+ANNUITYCX('SWEDEN')=0.045027940033;
+ANNUITYCX('UNITED_KINGDOM')=0.045027940033;
+ANNUITYCX('ESTONIA')=0.045027940033;
+ANNUITYCX('LATVIA')=0.045027940033;
+ANNUITYCX('LITHUANIA')=0.045027940033;
+ANNUITYCX('POLAND')=0.045027940033;
+ANNUITYCX('BELGIUM')=0.045027940033;
+ANNUITYCX('FRANCE')=0.045027940033;
