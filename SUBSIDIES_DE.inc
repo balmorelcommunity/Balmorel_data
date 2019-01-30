@@ -1,5 +1,5 @@
 PARAMETER SUBSIDIES_DE(CCC,DEUSER)                                    'Consumers subsidy on electricity consumption (Money/MWh)'
-*This does not exist
+*This does not exist in DK
 /
 $ontext
 DENMARK   0
