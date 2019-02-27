@@ -1,0 +1,3 @@
+INDHEAT_GROUP 'Group of technologies'
+/GB, WP, EL, HPA2W, GBHPA2W, GBSH, WPSH, ELHPA2A/
+;
