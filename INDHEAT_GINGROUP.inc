@@ -1,4 +1,4 @@
-INDHEAT_GINGROUP(INDHEAT_G,INDHEAT_GROUP) 'Technologies belonging to each group'
+SET INDHEAT_GINGROUP(INDHEAT_GGG,INDHEAT_GROUP) 'Technologies belonging to each group'
 /
 GB . GR_GB
 WP . GR_WP
