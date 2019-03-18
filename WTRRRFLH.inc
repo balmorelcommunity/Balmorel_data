@@ -3,10 +3,10 @@ PARAMETER WTRRRFLH(AAA) 'Full load hours for hydro run-of-river plants (hours)'
 /                                                                                                                                                                                     
 * Average year 2002-2011                                                                                                                                                              
 FinA                                                                                                                                                                  4819.27012282765
-DE4-E_A                                                                                                                                                               4820            
-DE4-N_A                                                                                                                                                               4820            
-DE4-S_A                                                                                                                                                               4820            
-DE4-W_A                                                                                                                                                               4820            
+DE4-E_A                                                                                                                                                               2035.37481427205
+DE4-N_A                                                                                                                                                               2035.37481427205
+DE4-S_A                                                                                                                                                               2035.37481427205
+DE4-W_A                                                                                                                                                               2035.37481427205
 NL_A                                                                                                                                                                  4200            
 NO1_A1                                                                                                                                                                4175.15822434474
 NO2_A1                                                                                                                                                                4734.04616878191
