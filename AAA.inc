@@ -236,6 +236,7 @@ PL_Offshore_50
 SE_Offshore_50                 
 BE_A                           
 FR_A                           
+FR_IND                         
 BE_20-30                       
 BE_30-40                       
 BE_40-50                       

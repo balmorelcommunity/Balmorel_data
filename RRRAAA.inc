@@ -85,7 +85,7 @@ DK2                                                                 .    DK2_NoD
 DK1                                                                 .    DK1_NoDH            
 BE                                                                  .    BE_A                
 FR                                                                  .    FR_A                
-                                                                                             
+FR                                                                  .    FR_IND              
 DE4-E                                                               .    DE4-E_Offshore      
 DE4-N                                                               .    DE4-N_Offshore      
 DE4-W                                                               .    DE4-W_Offshore      
