@@ -23,5 +23,8 @@ SOLARHEATING
 WINDTURBINE_OFFSHORE_FAR                      
 WINDTURBINE_OFFSHORE_NEARSHORE                
 WINDTURBINE_ONSHORE                           
+WINDTURBINE_OFFSHORE_1                        
+WINDTURBINE_OFFSHORE_2                        
+WINDTURBINE_OFFSHORE_3                        
 /;                                            
                                               

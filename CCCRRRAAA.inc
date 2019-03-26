@@ -19,8 +19,8 @@ FRANCE
                                                            
                                                            
 * Regions:                                                 
-DK1                            "DK_W"                      
-DK2                            "DK_E"                      
+DK1                                                        
+DK2                                                        
                                                            
 FIN                                                        
 DE4-E                                                      

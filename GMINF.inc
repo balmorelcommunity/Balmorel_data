@@ -36,14 +36,4 @@ TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
 2049.ESTONIA                                                    741818.181818182
 2050.ESTONIA                                                    720000          
                                                                                 
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
 ;                                                                               
