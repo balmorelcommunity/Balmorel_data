@@ -33,10 +33,10 @@ GDCOMBFCAP                                'Combination technology, capacity limi
 GDUC                                      'Unit commitment: the unit participates in unit commitment (0/1)'                                                    
 GDUCUNITSIZE                              'Standard size of unit type (MW)'                                                                                    
 GDUCGMIN                                  'Unit commitment: minimum production (share of nominal capacity)'                                                    
-GDUCUCOST                                 'Unit commitment: startup cost (Money)'                                                                              
-GDUCCOST0                                 'Unit commitment: fixed hourly cost (Money)'                                                                         
-GDUCF0                                    'Unit commitment: fixed hourly fuel use (MWh)'                                                                       
-GDUCDCOST                                 'Unit commitment: shutdown cost (Money)'                                                                             
+GDUCUCOST                                 'Unit commitment: startup cost (Money/MW)'                                                                           
+GDUCCOST0                                 'Unit commitment: fixed hourly cost (Money/MW)'                                                                      
+GDUCF0                                    'Unit commitment: fixed hourly fuel use (MWh/MW)'                                                                    
+GDUCDCOST                                 'Unit commitment: shutdown cost (Money/MW)'                                                                          
 GDUCDTMIN                                 'Unit commitment: minimum down time (hours)'                                                                         
 GDUCUTMIN                                 'Unit commitment: minimum up time (hours)'                                                                           
 GDUCDURD                                  'Unit commitment: duration of shut down process (hours)'                                                             
@@ -55,6 +55,7 @@ GDCOMBFSHARELO                            'Combination technology, minimum fuel 
 GDCOMBFSHAREUP                            'Combination technology, maximum fuel (GJ) share of total fuel use ([0;1])'                                          
 GDTECHGROUP                               'Technology group'                                                                                                   
 GDDECOM                                   'Technology allowed to be decomissioned ([0;1])'                                                                     
+GDFOR                                     'Forced Outage Rate (fraction)'                                                                                      
 /;                                                                                                                                                             
                                                                                                                                                                
                                                                                                                                                                
