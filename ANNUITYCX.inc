@@ -1,10 +1,15 @@
-PARAMETER ANNUITYCX(CCC) 'Transforms investment to annual payment (fraction)'
-;                                                                            
-* Interest rate assumption: Socio-economic discount rate                     
-* Loan repayment  assumption for all the lines: 40 YEARS                     
-                                                                             
-ANNUITYCX(CCC)=1/((1-(1+DISCOUNTRATE)**(-40))/DISCOUNTRATE);                 
-*ANNUITYCX(C)=0.117;                                                         
-                                                                             
-                                                                             
-                                                                             
+*PARAMETER ANNUITYCX(C) CALCULATED WITH AUXILS
+
+ANNUITYCX('NORWAY')=0.066461535921;
+ANNUITYCX('DENMARK')=0.066461535921;
+ANNUITYCX('FINLAND')=0.066461535921;
+ANNUITYCX('GERMANY')=0.066461535921;
+ANNUITYCX('NETHERLANDS')=0.066461535921;
+ANNUITYCX('SWEDEN')=0.066461535921;
+ANNUITYCX('UNITED_KINGDOM')=0.066461535921;
+ANNUITYCX('ESTONIA')=0.066461535921;
+ANNUITYCX('LATVIA')=0.066461535921;
+ANNUITYCX('LITHUANIA')=0.066461535921;
+ANNUITYCX('POLAND')=0.066461535921;
+ANNUITYCX('BELGIUM')=0.066461535921;
+ANNUITYCX('FRANCE')=0.066461535921;
