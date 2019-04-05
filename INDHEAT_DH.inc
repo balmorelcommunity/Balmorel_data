@@ -1,7 +1,8 @@
 PARAMETER INDHEAT_DH(YYY,INDHEAT_AAA)  'Annual brutto individual heat consumption';
-*Draft version: assumption that DH accounts for 80% of the total heat demand in DK, therefore indheat must be 25% of this demand
-
-INDHEAT_DH(YYY,INDHEAT_AAA)  = 0.25*SUM((RRR,AAA)$(RRRAAA(RRR,INDHEAT_AAA) AND RRRAAA(RRR,AAA)),DH(YYY,AAA,'RESH'));
+*DH accounts for 69% of the total heat demand in DK1, therefore indheat must be 31% of this demand
+INDHEAT_DH(YYY,'DK1_NoDH')  = 0.31*SUM((RRR,AAA)$(RRRAAA(RRR,INDHEAT_AAA) AND RRRAAA(RRR,AAA)),DH(YYY,AAA,'RESH'));
+*DH accounts for 62% of the total heat demand in DK2, therefore indheat must be 38% of this demand
+INDHEAT_DH(YYY,'DK2_NoDH')  = 0.38*SUM((RRR,AAA)$(RRRAAA(RRR,INDHEAT_AAA) AND RRRAAA(RRR,AAA)),DH(YYY,AAA,'RESH'));
 
 
 
