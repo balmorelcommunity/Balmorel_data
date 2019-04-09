@@ -54,6 +54,7 @@ GDCOMBGSHAREUP                            'Combination technology, maximum gener
 GDCOMBFSHARELO                            'Combination technology, minimum fuel (GJ) share of total fuel use ([0;1])'                                          
 GDCOMBFSHAREUP                            'Combination technology, maximum fuel (GJ) share of total fuel use ([0;1])'                                          
 GDTECHGROUP                               'Technology group'                                                                                                   
+GDSUBTECHGROUP                            'SubTechnology group'                                                                                                
 GDDECOM                                   'Technology allowed to be decomissioned ([0;1])'                                                                     
 GDFOR                                     'Forced Outage Rate (fraction)'                                                                                      
 /;                                                                                                                                                             

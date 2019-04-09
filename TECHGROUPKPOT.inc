@@ -1,51 +1,27 @@
-TABLE TECHGROUPKPOT(CCCRRRAAA,TECH_GROUP)       'Technology group capacity restriction by geography (MW)'                                                                                               
-                                                                                                          SOLARPV          WINDTURBINE_ONSHORE WINDTURBINE_OFFSHORE_FAR WINDTURBINE_OFFSHORE_NEARSHORE  
-DK1                                                                                                       5400             6480                2340                     600                             
-DK2                                                                                                       3600             1520                4750                     540                             
-FIN                                                                                                                        15000                                        eps                             
-DE4-E                                                                                                     28691.8755999579 25000               11631.2                  100                             
-DE4-N                                                                                                     32247.43162141   15906               31397                    300                             
-DE4-S                                                                                                     102941.761953601 50777                                        eps                             
-DE4-W                                                                                                     36118.9308250315 25000                                        eps                             
-NL                                                                                                                         10300               25655.4                  300                             
-NO1                                                                                                                        701                                          eps                             
-NO2                                                                                                                        2793                                         eps                             
-NO3                                                                                                                        5412                                         eps                             
-NO4                                                                                                                        4857                                         eps                             
-NO5                                                                                                                        238                 11510                    290                             
-SE1                                                                                                                        6437                                         eps                             
-SE2                                                                                                                        12589                                        eps                             
-SE3                                                                                                                        9887                                         eps                             
-SE4                                                                                                                        6087                6000                     eps                             
-UK                                                                                                                         38354               48864.6                  4808                            
-EE                                                                                                                         18388                                        eps                             
-LV                                                                                                                         23347                                        eps                             
-LT                                                                                                                         21368                                        eps                             
-PL                                                                                                                         89030                                        eps                             
-FR                                                                                                                         101227              7900                     eps                             
-BE                                                                                                                         8968                53300                    eps                             
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-;                                                                                                                                                                                                       
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
+TABLE TECHGROUPKPOT(CCCRRRAAA,TECH_GROUP)       'Technology group capacity restriction by geography (MW)'                                
+                                                                                                          SOLARPV WINDTURBINE_ONSHORE    
+DK1                                                                                                                                      
+DK2                                                                                                                                      
+FIN                                                                                                                                      
+DE4-E                                                                                                                                    
+DE4-N                                                                                                                                    
+DE4-S                                                                                                                                    
+DE4-W                                                                                                                                    
+NL                                                                                                                                       
+NO1                                                                                                                                      
+NO2                                                                                                                                      
+NO3                                                                                                                                      
+NO4                                                                                                                                      
+NO5                                                                                                                                      
+SE1                                                                                                                                      
+SE2                                                                                                                                      
+SE3                                                                                                                                      
+SE4                                                                                                                                      
+UK                                                                                                                                       
+EE                                                                                                                                       
+LV                                                                                                                                       
+LT                                                                                                                                       
+PL                                                                                                                                       
+FR                                                                                                                                       
+BE                                                                                                                                       
+;                                                                                                                                        
