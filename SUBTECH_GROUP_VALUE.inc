@@ -18,6 +18,7 @@ RG3_OFF4                           RG3_OFF4
 RG1_OFF5                           RG1_OFF5                                             
 RG2_OFF5                           RG2_OFF5                                             
 RG3_OFF5                           RG3_OFF5                                             
+HUB_OFF                            HUB_OFF                                              
 AIR                           AIR                                                       
 EXCESSHEAT                           EXCESSHEAT                                         
 GROUND                           GROUND                                                 

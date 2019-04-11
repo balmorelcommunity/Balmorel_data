@@ -1186,4 +1186,12 @@ NL-OFF2_WT_WIND_OFF_L-RG3_Y-2050
 NO2-OFF1_WT_WIND_OFF_L-RG3_Y-2050             
 NO3-OFF1_WT_WIND_OFF_L-RG3_Y-2050             
 NO5-OFF1_WT_WIND_OFF_L-RG3_Y-2050             
+GNR_WT_WIND_OFF_HUB_1GW_Y-2020                
+GNR_WT_WIND_OFF_HUB_1GW_Y-2030                
+GNR_WT_WIND_OFF_HUB_1GW_Y-2040                
+GNR_WT_WIND_OFF_HUB_1GW_Y-2050                
+GNR_WT_WIND_OFF_HUB_2GW_Y-2020                
+GNR_WT_WIND_OFF_HUB_2GW_Y-2030                
+GNR_WT_WIND_OFF_HUB_2GW_Y-2040                
+GNR_WT_WIND_OFF_HUB_2GW_Y-2050                
 /;                                            

@@ -28,9 +28,9 @@ SE2A                                                                            
 SE3A                                                                                                                                                          2300            
 SE4A                                                                                                                                                          2918            
                                                                                                                                                                               
-DE4-E_Offshore                                                                                                                                                3870            
-DE4-N_Offshore                                                                                                                                                3770            
-DE4-W_Offshore                                                                                                                                                3770            
+DE4-E_Offshore                                                                                                                                                3941.8206849381 
+DE4-N_Offshore                                                                                                                                                4035.27084679633
+DE4-W_Offshore                                                                                                                                                4035.27084679633
 DK1_Offshore                                                                                                                                                  3878            
 DK2_Offshore                                                                                                                                                  3546            
 EE_Offshore                                                                                                                                                   2535            
