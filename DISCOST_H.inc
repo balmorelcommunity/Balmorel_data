@@ -24,7 +24,6 @@ DE4-S_A                                                           2
 DE4-W_A                                                           2   
 DE4-W_Offshore                                                    2   
 EE_Enefit                                                         2   
-EE_Industry                                                       2   
 EE_Kohtla_Jarve                                                   2   
 EE_Narva                                                          2   
 EE_Parnu                                                          2   

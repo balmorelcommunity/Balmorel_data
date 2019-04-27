@@ -12,7 +12,6 @@ SE4                                                                 .    SE4A
                                                                                                     
 EE                                                                  .    EE_A                       
 EE                                                                  .    EE_Enefit                  
-EE                                                                  .    EE_Industry                
 EE                                                                  .    EE_Kohtla_Jarve            
 EE                                                                  .    EE_Narva                   
 EE                                                                  .    EE_Parnu                   
@@ -44,7 +43,6 @@ FIN                                                                 .    FI_medi
 FIN                                                                 .    FI_medium_gas              
 FIN                                                                 .    FI_small                   
 FIN                                                                 .    FI_small_gas               
-FIN                                                                 .    FI_IND                     
 NO1                                                                 .    NO1_A1                     
 NO1                                                                 .    NO1_A2                     
 NO1                                                                 .    NO1_A3                     
@@ -67,10 +65,6 @@ SE3                                                                 .    SE3_sma
 SE4                                                                 .    SE4_large                  
 SE4                                                                 .    SE4_medium                 
 SE4                                                                 .    SE4_small                  
-SE1                                                                 .    SE1_IND                    
-SE2                                                                 .    SE2_IND                    
-SE3                                                                 .    SE3_IND                    
-SE4                                                                 .    SE4_IND                    
 DK1                                                                 .    DK1_Large                  
 DK1                                                                 .    DK1_Rural                  
 DK1                                                                 .    DK1_Medium                 
@@ -85,7 +79,6 @@ DK2                                                                 .    DK2_NoD
 DK1                                                                 .    DK1_NoDH                   
 BE                                                                  .    BE_A                       
 FR                                                                  .    FR_A                       
-FR                                                                  .    FR_IND                     
                                                                                                     
 DE4-E                                                               .    DE4-E_Offshore             
 DE4-N                                                               .    DE4-N_Offshore             

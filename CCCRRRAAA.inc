@@ -63,7 +63,6 @@ SE4A
                                                            
 EE_A                                                       
 EE_Enefit                                                  
-EE_Industry                                                
 EE_Kohtla_Jarve                                            
 EE_Narva                                                   
 EE_Parnu                                                   
@@ -95,7 +94,6 @@ FI_medium
 FI_medium_gas                                              
 FI_small                                                   
 FI_small_gas                                               
-FI_IND                                                     
 NO1_A1                                                     
 NO1_A2                                                     
 NO1_A3                                                     
@@ -118,10 +116,6 @@ SE3_small
 SE4_large                                                  
 SE4_medium                                                 
 SE4_small                                                  
-SE1_IND                                                    
-SE2_IND                                                    
-SE3_IND                                                    
-SE4_IND                                                    
 DK1_Large                                                  
 DK1_Rural                                                  
 DK1_Medium                                                 
@@ -136,7 +130,6 @@ DK2_NoDH
 DK1_NoDH                                                   
 BE_A                                                       
 FR_A                                                       
-FR_IND                                                     
                                                            
 DE4-E_Offshore                                             
 DE4-N_Offshore                                             
