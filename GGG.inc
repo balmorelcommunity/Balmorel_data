@@ -1197,4 +1197,6 @@ ZIEL-1_ST_NGAS_BP
 ZIEL-2_ST_COAL_BP                             
 ZIEL-3_ST_NGAS_BP                             
 ZIEL-4_ST_COAL_BP                             
+GNR_BACKUP_ELECTRICITY                        
+GNR_BACKUP_HEAT                               
 /;                                            

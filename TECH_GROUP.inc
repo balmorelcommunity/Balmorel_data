@@ -20,5 +20,7 @@ SOLARPV
 SOLARHEATING                                  
 WINDTURBINE_ONSHORE                           
 WINDTURBINE_OFFSHORE                          
+BACKUP_ELECTRICITY                            
+BACKUP_HEAT                                   
 /;                                            
                                               
