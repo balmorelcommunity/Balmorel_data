@@ -2,6 +2,7 @@
 PARAMETER TECH_GROUP_VALUE(TECH_GROUP)              'Technology Groups value'  
 /                                                                              
 STEAMTURBINE_SUBCRITICAL         STEAMTURBINE_SUBCRITICAL                      
+STEAMTURBINE_SUPERCRITICAL     STEAMTURBINE_SUPERCRITICAL                      
 RESERVOIR_PMP                    RESERVOIR_PMP                                 
 WATERTURBINE                     WATERTURBINE                                  
 ENGINE_IC                        ENGINE_IC                                     
