@@ -42,6 +42,12 @@ GNR_BO_BGAS_E-91
 GNR_BO_BGAS_E-92                                              
 GNR_BO_BGAS_E-95                                              
 GNR_BO_BGAS_E-99                                              
+GNR_BO_BGAS_E-100_Y-2020                                      
+GNR_BO_BGAS_E-100_Y-2030                                      
+GNR_BO_BGAS_E-100_Y-2050                                      
+GNR_BO_BIOIL_E-114_Y-2020                                     
+GNR_BO_BIOIL_E-114_Y-2030                                     
+GNR_BO_BIOIL_E-114_Y-2050                                     
 GNR_BO_BIOIL_E-100                                            
 GNR_BO_BIOIL_E-102                                            
 GNR_BO_BIOIL_E-103                                            
@@ -846,6 +852,4 @@ VILNIUS_ST_MSW_BP
 VILNIUS_ST_WOODCHI_BP                                         
 VKG_ST_RETORT-GAS_EXT                                         
 VUOSAARIB_CC_NGAS_EXT                                         
-                                                              
-                                                              
 /;                                                            
