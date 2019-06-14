@@ -182,8 +182,8 @@ SE1_30-40                                                                       
 SE2_30-40                                                                                                                                                                                                               1
 SE3_30-40                                                                                                                                                                                                               1
 SE4_30-40                                                                                                                                                                                                               1
-BE_30-40																																																				1	
-FR_30-40																																																				1
+BE_30-40                                                                                                                                                                                                                1
+FR_30-40                                                                                                                                                                                                                1
 DE_Offshore_30-40                                                                                                                                                                                                                 1
 DK1_Offshore_30-40                                                                                                                                                                                                                1
 DK2_Offshore_30-40                                                                                                                                                                                                                1
@@ -327,12 +327,12 @@ DK2_NoDH.(
 GNR_PV_SUN_LS-4-MW_Y-2020
 GNR_PV_SUN_LS-4-MW_Y-2030
 GNR_PV_SUN_LS-4-MW_Y-2050
-GNR_PV_SUN_MS-100-KW_Y-2020                                   
-GNR_PV_SUN_MS-100-KW_Y-2030                                   
-GNR_PV_SUN_MS-100-KW_Y-2050                                   
-GNR_PV_SUN_SS-6-KW_Y-2020                                     
-GNR_PV_SUN_SS-6-KW_Y-2030                                     
-GNR_PV_SUN_SS-6-KW_Y-2050                                     
+GNR_PV_SUN_MS-100-KW_Y-2020
+GNR_PV_SUN_MS-100-KW_Y-2030
+GNR_PV_SUN_MS-100-KW_Y-2050
+GNR_PV_SUN_SS-6-KW_Y-2020
+GNR_PV_SUN_SS-6-KW_Y-2030
+GNR_PV_SUN_SS-6-KW_Y-2050
 
 GNR_CC_NGAS_CND_E-59_LS-100-MW_Y-2020
 GNR_CC_NGAS_CND_E-61_LS-100-MW_Y-2030
