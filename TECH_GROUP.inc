@@ -13,15 +13,12 @@ ELECTRICITY_BATTERY
 GEOTHERMAL                                    
 GASTURBINE                                    
 HEATPUMP                                      
-HEATPUMP_AIR                                  
-HEATPUMP_GROUND                               
-HEATPUMP_EXCESSHEAT                           
+DUMMY                                         
 PIT                                           
 WATERTANK                                     
 SOLARPV                                       
 SOLARHEATING                                  
-WINDTURBINE_OFFSHORE_FAR                      
-WINDTURBINE_OFFSHORE_NEARSHORE                
 WINDTURBINE_ONSHORE                           
+WINDTURBINE_OFFSHORE                          
 /;                                            
                                               

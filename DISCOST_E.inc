@@ -17,6 +17,8 @@ SE1                                                                      5
 SE2                                                                      5   
 SE3                                                                      5   
 SE4                                                                      5   
+FR                                                                       5   
+BE                                                                       5   
 UK                                                                       5   
 EE                                                                       5   
 LV                                                                       5   
