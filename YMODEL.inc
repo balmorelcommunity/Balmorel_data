@@ -1,10 +1,10 @@
-SET YMODEL                  
-                            
-/                           
-ONEYEAR                     
-*ONEYEAR,TWOYEAR            
-*ONEYEAR,TWOYEAR,THREEYEAR  
-                            
-/;                          
-                            
-                            
+SET YMODEL
+
+/
+*ONEYEAR
+ONEYEAR,TWOYEAR
+*ONEYEAR,TWOYEAR,THREEYEAR
+
+/;
+
+
