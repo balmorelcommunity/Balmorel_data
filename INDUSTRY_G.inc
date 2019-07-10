@@ -1,0 +1,27 @@
+SET G(GGG)  'Generation technologies in the simulation'
+/                                                      
+GNR_BO_NGAS_E-82_PHL_Y-2020                            
+GNR_BO_NGAS_E-70_PHH_Y-2020                            
+GNR_BO_NGAS_E-82_PHL_Y-2030                            
+GNR_BO_NGAS_E-70_PHH_Y-2030                            
+GNR_BO_NGAS_E-82_PHL_Y-2040                            
+GNR_BO_NGAS_E-70_PHH_Y-2040                            
+GNR_BO_NGAS_E-82_PHL_Y-2050                            
+GNR_BO_NGAS_E-70_PHH_Y-2050                            
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHL_Y-2020              
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHL_Y-2030              
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHL_Y-2040              
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHL_Y-2050              
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHH_Y-2020              
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHH_Y-2030              
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHH_Y-2040              
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_PHH_Y-2050              
+GNR_HP_ELEC_COP-160_PHL_Y-2020                         
+GNR_HP_ELEC_COP-160_PHL_Y-2030                         
+GNR_HP_ELEC_COP-160_PHL_Y-2040                         
+GNR_HP_ELEC_COP-160_PHL_Y-2050                         
+GNR_HP_ELEC_COP-100_PHH_Y-2020                         
+GNR_HP_ELEC_COP-100_PHH_Y-2030                         
+GNR_HP_ELEC_COP-100_PHH_Y-2040                         
+GNR_HP_ELEC_COP-100_PHH_Y-2050                         
+/;                                                     
