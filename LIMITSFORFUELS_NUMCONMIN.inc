@@ -1,7 +1,7 @@
-SET LIMITSFORFUELS_NUMCONMIN
-/
+SET LIMITSFORFUELS_NUMCONMIN             
+/                                        
 $ifi not %INDUSTRY%==yes $goto noindustry
-NUMCONMIN1
-$label noindustry
-/
-;
+NUMCONMIN1                               
+$label noindustry                        
+/                                        
+;                                        
