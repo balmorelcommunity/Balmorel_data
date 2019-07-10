@@ -1,16 +1,17 @@
-TABLE XHLOSS(IAAAE,IAAAI)  "Heat transmission loss between areas (calculated from exported quantity) (share)"                                                                                                                                                  
-                                                                                                                                                                                                                                                               
+TABLE XHLOSS(IAAAE,IAAAI)  "Heat transmission loss between areas (calculated from exported quantity) (share)"
+$ifi not %INDUSTRY%==yes $goto noindustry
                                                                                                               DK1_Large DK1_Large_PHL DK1_Large_PHH DK2_Large DK2_Large_PHL DK2_Large_PHH DK1_NoDH DK1_NoDH_PHL DK1_NoDH_PHH DK2_NoDH DK2_NoDH_PHL DK2_NoDH_PHH
-DK1_Large                                                                                                               0.1           0.1                                                                                                                      
-DK1_Large_PHL                                                                                                 0.1                     0.1                                                                                                                      
-DK1_Large_PHH                                                                                                 0.1       0.1                                                                                                                                    
-DK2_Large                                                                                                                                                     0.1           0.1                                                                                
-DK2_Large_PHL                                                                                                                                       0.1                     0.1                                                                                
-DK2_Large_PHH                                                                                                                                       0.1       0.1                                                                                              
-DK1_NoDH                                                                                                                                                                                                                                                       
-DK1_NoDH_PHL                                                                                                                                                                                                    0.1                                            
-DK1_NoDH_PHH                                                                                                                                                                                       0.1                                                         
-DK2_NoDH                                                                                                                                                                                                                                                       
-DK2_NoDH_PHL                                                                                                                                                                                                                                       0.1         
-DK2_NoDH_PHH                                                                                                                                                                                                                          0.1                      
-;                                                                                                                                                                                                                                                              
+DK1_Large                                                                                                               0.1           0.1
+DK1_Large_PHL                                                                                                 0.1                     0.1
+DK1_Large_PHH                                                                                                 0.1       0.1
+DK2_Large                                                                                                                                                     0.1           0.1
+DK2_Large_PHL                                                                                                                                       0.1                     0.1
+DK2_Large_PHH                                                                                                                                       0.1       0.1
+DK1_NoDH
+DK1_NoDH_PHL                                                                                                                                                                                                    0.1
+DK1_NoDH_PHH                                                                                                                                                                                       0.1
+DK2_NoDH
+DK2_NoDH_PHL                                                                                                                                                                                                                                       0.1
+DK2_NoDH_PHH                                                                                                                                                                                                                          0.1
+$label noindustry
+;
