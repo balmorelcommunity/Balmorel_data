@@ -1,14 +1,10 @@
 SET FFF  'Fuels'
-/
-BIOGAS_UP
-THERMGAS_UP
-BIONG
-/
-;
-
-
-ACRONYMS
-BIONG
-BIOGAS_UP
-THERMGAS_UP
-;
+/               
+BIONG           
+/               
+;               
+                
+                
+ACRONYMS        
+BIONG           
+;               

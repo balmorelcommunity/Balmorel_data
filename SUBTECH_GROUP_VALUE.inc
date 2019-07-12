@@ -1,3 +1,4 @@
+                                                                                        
 PARAMETER SUBTECH_GROUP_VALUE(SUBTECH_GROUP)              'SubTechnology Groups value'  
 /                                                                                       
 RG1                           RG1                                                       
@@ -23,3 +24,4 @@ AIR                           AIR
 EXCESSHEAT                           EXCESSHEAT                                         
 GROUND                           GROUND                                                 
 /;                                                                                      
+                                                                                        
