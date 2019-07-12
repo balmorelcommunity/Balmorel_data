@@ -469,6 +469,7 @@ ZERA-7_ST_COAL_EXT_CT-STRAW
 ZERA-8_ST_COAL_EXT_CT-STRAW                   
 ZIEL-2_ST_COAL_BP_CT-STRAW                    
 ZIEL-4_ST_COAL_BP_CT-STRAW                    
+$ifi not %INDUSTRY%==yes $goto noindustry     
 GNR_BO_NGAS_E-75_PHH_Y-2020_CT_BIONG          
 GNR_BO_NGAS_E-76_PHH_Y-2030_CT_BIONG          
 GNR_BO_NGAS_E-76_PHH_Y-2040_CT_BIONG          
@@ -477,6 +478,7 @@ GNR_BO_NGAS_E-85_PHL_Y-2020_CT_BIONG
 GNR_BO_NGAS_E-86_PHL_Y-2030_CT_BIONG          
 GNR_BO_NGAS_E-86_PHL_Y-2040_CT_BIONG          
 GNR_BO_NGAS_E-86_PHL_Y-2050_CT_BIONG          
+$label noindustry                             
 /;                                            
                                               
                                               
