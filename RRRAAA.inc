@@ -574,11 +574,5 @@ FR                                                                  .    FR_VRE-
 FR                                                                  .    FR_VRE-ONS_RG3_30-40
 FR                                                                  .    FR_VRE-ONS_RG3_40-50
 FR                                                                  .    FR_VRE-ONS_RG3_50
-$ifi not %indheat%==yes $goto endindheat
-DK2                                                                 .    DK2_NoDH_ind
-DK1                                                                 .    DK1_NoDH_ind
-DK2                                                                 .    DK2_NoDH_apart
-DK1                                                                 .    DK1_NoDH_apart
-$label endindheat
 /;
 
