@@ -4,4 +4,5 @@ STEAMTURBINE_SUBCRITICAL
 STEAMTURBINE_SUPERCRITICAL                              
 GASTURBINE                                              
 COMBINEDCYCLE                                           
+BOILER                                                  
 /;                                                      
