@@ -1,57 +1,6 @@
-SET RRRAAA(RRR,AAA) "Areas in regions"                                                      
+                                                                                            
+SET RRRAAA(RRR,AAA)                                                       'Areas in regions'
 /                                                                                           
-FIN                                                                 .    FinA               
-DE4-E                                                               .    DE4-E_A            
-DE4-N                                                               .    DE4-N_A            
-DE4-S                                                               .    DE4-S_A            
-DE4-W                                                               .    DE4-W_A            
-DE4-E                                                               .    DE4-E_nonDH        
-DE4-N                                                               .    DE4-N_nonDH        
-DE4-S                                                               .    DE4-S_nonDH        
-DE4-W                                                               .    DE4-W_nonDH        
-SE1                                                                 .    SE1A               
-SE2                                                                 .    SE2A               
-SE3                                                                 .    SE3A               
-SE4                                                                 .    SE4A               
-                                                                                            
-EE                                                                  .    EE_A               
-EE                                                                  .    EE_Enefit          
-EE                                                                  .    EE_Industry        
-EE                                                                  .    EE_Kohtla_Jarve    
-EE                                                                  .    EE_Narva           
-EE                                                                  .    EE_Parnu           
-EE                                                                  .    EE_Rural           
-EE                                                                  .    EE_Sillamae        
-EE                                                                  .    EE_Tallinn         
-EE                                                                  .    EE_Tartu           
-EE                                                                  .    EE_Urban           
-LT                                                                  .    LT_A               
-LT                                                                  .    LT_KauU            
-LT                                                                  .    LT_KlaU            
-LT                                                                  .    LT_Other_DH        
-LT                                                                  .    LT_Panevezys       
-LT                                                                  .    LT_Rural           
-LT                                                                  .    LT_SiaU            
-LT                                                                  .    LT_VilU            
-LV                                                                  .    LV_A               
-LV                                                                  .    LV_Other_DH        
-LV                                                                  .    LV_RigaR           
-LV                                                                  .    LV_Rural           
-NL                                                                  .    NL_A               
-NL                                                                  .    NL_nonDH           
-PL                                                                  .    PL_A               
-PL                                                                  .    PL_Rural           
-PL                                                                  .    PL_nonDH           
-UK                                                                  .    UK_A               
-UK                                                                  .    UK_nonDH           
-                                                                                            
-FIN                                                                 .    FI_large           
-FIN                                                                 .    FI_large_gas       
-FIN                                                                 .    FI_medium          
-FIN                                                                 .    FI_medium_gas      
-FIN                                                                 .    FI_small           
-FIN                                                                 .    FI_small_gas       
-FIN                                                                 .    FI_IND             
 NO1                                                                 .    NO1_A1             
 NO1                                                                 .    NO1_A2             
 NO1                                                                 .    NO1_A3             
@@ -64,6 +13,20 @@ NO4                                                                 .    NO4_A1
 NO4                                                                 .    NO4_A2             
 NO5                                                                 .    NO5_A1             
 NO5                                                                 .    NO5_A2             
+NO1                                                                 .    NO1_IDVH_RES       
+NO1                                                                 .    NO1_IDVH_TER       
+NO2                                                                 .    NO2_IDVH_RES       
+NO2                                                                 .    NO2_IDVH_TER       
+NO3                                                                 .    NO3_IDVH_RES       
+NO3                                                                 .    NO3_IDVH_TER       
+NO4                                                                 .    NO4_IDVH_RES       
+NO4                                                                 .    NO4_IDVH_TER       
+NO5                                                                 .    NO5_IDVH_RES       
+NO5                                                                 .    NO5_IDVH_TER       
+SE1                                                                 .    SE1A               
+SE2                                                                 .    SE2A               
+SE3                                                                 .    SE3A               
+SE4                                                                 .    SE4A               
 SE1                                                                 .    SE1_medium         
 SE1                                                                 .    SE1_small          
 SE2                                                                 .    SE2_medium         
@@ -78,6 +41,14 @@ SE1                                                                 .    SE1_IND
 SE2                                                                 .    SE2_IND            
 SE3                                                                 .    SE3_IND            
 SE4                                                                 .    SE4_IND            
+SE1                                                                 .    SE1_IDVH_RES       
+SE1                                                                 .    SE1_IDVH_TER       
+SE2                                                                 .    SE2_IDVH_RES       
+SE2                                                                 .    SE2_IDVH_TER       
+SE3                                                                 .    SE3_IDVH_RES       
+SE3                                                                 .    SE3_IDVH_TER       
+SE4                                                                 .    SE4_IDVH_RES       
+SE4                                                                 .    SE4_IDVH_TER       
 DK1                                                                 .    DK1_Large          
 DK1                                                                 .    DK1_Rural          
 DK1                                                                 .    DK1_Medium         
@@ -90,10 +61,86 @@ DK1                                                                 .    DK1_Med
 DK2                                                                 .    DK2_Small          
 DK2                                                                 .    DK2_NoDH           
 DK1                                                                 .    DK1_NoDH           
+DK1                                                                 .    DK1_IDVH_RES       
+DK1                                                                 .    DK1_IDVH_TER       
+DK2                                                                 .    DK2_IDVH_RES       
+DK2                                                                 .    DK2_IDVH_TER       
+FIN                                                                 .    FinA               
+FIN                                                                 .    FI_large           
+FIN                                                                 .    FI_large_gas       
+FIN                                                                 .    FI_medium          
+FIN                                                                 .    FI_medium_gas      
+FIN                                                                 .    FI_small           
+FIN                                                                 .    FI_small_gas       
+FIN                                                                 .    FI_IND             
+FIN                                                                 .    FI_IDVH_RES        
+FIN                                                                 .    FI_IDVH_TER        
+                                                                                            
+EE                                                                  .    EE_A               
+EE                                                                  .    EE_Enefit          
+EE                                                                  .    EE_Industry        
+EE                                                                  .    EE_Kohtla_Jarve    
+EE                                                                  .    EE_Narva           
+EE                                                                  .    EE_Parnu           
+EE                                                                  .    EE_Rural           
+EE                                                                  .    EE_Sillamae        
+EE                                                                  .    EE_Tallinn         
+EE                                                                  .    EE_Tartu           
+EE                                                                  .    EE_Urban           
+EE                                                                  .    EE_IDVH_RES        
+EE                                                                  .    EE_IDVH_TER        
+                                                                                            
+LT                                                                  .    LT_A               
+LT                                                                  .    LT_KauU            
+LT                                                                  .    LT_KlaU            
+LT                                                                  .    LT_Other_DH        
+LT                                                                  .    LT_Panevezys       
+LT                                                                  .    LT_Rural           
+LT                                                                  .    LT_SiaU            
+LT                                                                  .    LT_IDVH_RES        
+LT                                                                  .    LT_IDVH_TER        
+                                                                                            
+LT                                                                  .    LT_VilU            
+LV                                                                  .    LV_A               
+LV                                                                  .    LV_Other_DH        
+LV                                                                  .    LV_RigaR           
+LV                                                                  .    LV_Rural           
+LV                                                                  .    LV_IDVH_RES        
+LV                                                                  .    LV_IDVH_TER        
+                                                                                            
+DE4-E                                                               .    DE4-E_A            
+DE4-N                                                               .    DE4-N_A            
+DE4-S                                                               .    DE4-S_A            
+DE4-W                                                               .    DE4-W_A            
+DE4-E                                                               .    DE4-E_IDVH_RES     
+DE4-E                                                               .    DE4-E_IDVH_TER     
+DE4-N                                                               .    DE4-N_IDVH_RES     
+DE4-N                                                               .    DE4-N_IDVH_TER     
+DE4-S                                                               .    DE4-S_IDVH_RES     
+DE4-S                                                               .    DE4-S_IDVH_TER     
+DE4-W                                                               .    DE4-W_IDVH_RES     
+DE4-W                                                               .    DE4-W_IDVH_TER     
+                                                                                            
+PL                                                                  .    PL_A               
+PL                                                                  .    PL_Rural           
+PL                                                                  .    PL_IDVH_RES        
+PL                                                                  .    PL_IDVH_TER        
+UK                                                                  .    UK_A               
+UK                                                                  .    UK_DH              
+UK                                                                  .    UK_IDVH_RES        
+UK                                                                  .    UK_IDVH_TER        
+NL                                                                  .    NL_A               
+NL                                                                  .    NL_DH              
+NL                                                                  .    NL_IDVH_RES        
+NL                                                                  .    NL_IDVH_TER        
 BE                                                                  .    BE_A               
-BE                                                                  .    BE_nonDH           
+BE                                                                  .    BE_DH              
+BE                                                                  .    BE_IDVH_RES        
+BE                                                                  .    BE_IDVH_TER        
 FR                                                                  .    FR_A               
-FR                                                                  .    FR_nonDH           
+FR                                                                  .    FR_DH              
+FR                                                                  .    FR_IDVH_RES        
+FR                                                                  .    FR_IDVH_TER        
                                                                                             
 DE4-E                                                               .    DE4-E_Offshore     
 DE4-N                                                               .    DE4-N_Offshore     
@@ -266,6 +313,70 @@ FR                                                                  .    FR_Offs
                                                                                             
                                                                                             
 /;                                                                                          
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
                                                                                             
                                                                                             
                                                                                             
