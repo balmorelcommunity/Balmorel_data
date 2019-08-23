@@ -930,7 +930,7 @@ IDVHG_STOV_2020_OFH
 IDVHG_STOV_2030_OFH                                                                                        
 IDVHG_STOV_2040_OFH                                                                                        
 IDVHG_STOV_2050_OFH                                                                                        
-                                                                                                           
+IDVHG_COAL_2010_OFH                                                                                        
 $ifi not %COMBTECH%==yes $goto endcombtech                                                                 
 IDVHG_GB_2010_OFH_BIONG                                                                                    
 IDVHG_GB_2020_OFH_BIONG                                                                                    

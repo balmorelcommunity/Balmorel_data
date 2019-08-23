@@ -11,6 +11,7 @@ IDVHG_ELHPA2A                                1
 IDVHG_HPA2W                                  1                                                             1
 IDVHG_GBHPA2W                                1                                                             1
 IDVHG_SOL                                                                                                  1
+IDVHG_COALB                                  1                                                             1
 
 *IDVHG_GASBSOLH                              1                                                             1
 *IDVHG_WOODPBSOLH                            1                                                             1

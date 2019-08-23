@@ -894,6 +894,7 @@ IDVHG_EL_2020_OFH
 IDVHG_EL_2030_OFH                                                                                                 
 IDVHG_EL_2040_OFH                                                                                                 
 IDVHG_EL_2050_OFH                                                                                                 
+$ontext                                                                                                           
 IDVHG_OIL_2010_APART                                                                                              
 IDVHG_OIL_2020_APART                                                                                              
 IDVHG_OIL_2030_APART                                                                                              
@@ -924,13 +925,14 @@ IDVHG_EL_2020_APART
 IDVHG_EL_2030_APART                                                                                               
 IDVHG_EL_2040_APART                                                                                               
 IDVHG_EL_2050_APART                                                                                               
+$offtext                                                                                                          
 ****WOOD STOVE, ADDED BY YIKUANG                                                                                  
 IDVHG_STOV_2010_OFH                                                                                               
 IDVHG_STOV_2020_OFH                                                                                               
 IDVHG_STOV_2030_OFH                                                                                               
 IDVHG_STOV_2040_OFH                                                                                               
 IDVHG_STOV_2050_OFH                                                                                               
-                                                                                                                  
+IDVHG_COAL_2010_OFH                                                                                               
 $ifi not %COMBTECH%==yes $goto endcombtech                                                                        
 IDVHG_GB_2010_OFH_BIONG                                                                                           
 IDVHG_GB_2020_OFH_BIONG                                                                                           
