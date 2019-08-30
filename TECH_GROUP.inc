@@ -33,7 +33,7 @@ IDVHG_ELHPA2A
 IDVHG_HPA2W                                  
 IDVHG_GBHPA2W                                
 IDVHG_SOL                                    
-                                             
+IDVHG_COALB                                  
 *IDVHG_GASBSOLH                              
 *IDVHG_WOODPBSOLH                            
 /;                                           
