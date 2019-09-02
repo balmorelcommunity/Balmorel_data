@@ -90,16 +90,12 @@ PL                                                                  .    PL_A
 PL                                                                  .    PL_Rural
 
 UK                                                                  .    UK_A
-UK                                                                  .    UK_DH
 
 NL                                                                  .    NL_A
-NL                                                                  .    NL_DH
 
 BE                                                                  .    BE_A
-BE                                                                  .    BE_DH
 
 FR                                                                  .    FR_A
-FR                                                                  .    FR_DH
 
 DE4-E                                                               .    DE4-E_Offshore
 DE4-N                                                               .    DE4-N_Offshore
@@ -267,7 +263,7 @@ FR                                                                  .    FR_Offs
 FR                                                                  .    FR_Offshore_30-40
 FR                                                                  .    FR_Offshore_40-50
 FR                                                                  .    FR_Offshore_50
- 
+
 /;
 
 

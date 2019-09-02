@@ -72,15 +72,24 @@ IDVHG_EL_2030_APART                                                             
 IDVHG_EL_2040_APART                                                                                         .    (SPACEHEAT, HOTWATER)
 IDVHG_EL_2050_APART                                                                                         .    (SPACEHEAT, HOTWATER)
 $ifi not %COMBTECH%==yes $goto endcombtech
-IDVHG_GB_2010_OFH_BIONG                                                                                     .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2020_OFH_BIONG                                                                                     .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2030_OFH_BIONG                                                                                     .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2040_OFH_BIONG                                                                                     .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2050_OFH_BIONG                                                                                     .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2010_APART_BIONG                                                                                   .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2020_APART_BIONG                                                                                   .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2030_APART_BIONG                                                                                   .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2040_APART_BIONG                                                                                   .    (SPACEHEAT, HOTWATER)
-IDVHG_GB_2050_APART_BIONG                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2010_OFH_BGAS_UP                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2020_OFH_BGAS_UP                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2030_OFH_BGAS_UP                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2050_OFH_BGAS_UP                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2010_APART_BGAS_UP                                                                                 .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2020_APART_BGAS_UP                                                                                 .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2030_APART_BGAS_UP                                                                                 .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2050_APART_BGAS_UP                                                                                 .    (SPACEHEAT, HOTWATER)
 $label endcombtech
+
+$ifi not %HYDROGEN%==yes $goto endhydrogen
+IDVHG_GB_2010_OFH_BGAS_H2                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2020_OFH_BGAS_H2                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2030_OFH_BGAS_H2                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2050_OFH_BGAS_H2                                                                                   .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2010_APART_BGAS_H2                                                                                 .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2020_APART_BGAS_H2                                                                                 .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2030_APART_BGAS_H2                                                                                 .    (SPACEHEAT, HOTWATER)
+IDVHG_GB_2050_APART_BGAS_H2                                                                                 .    (SPACEHEAT, HOTWATER)
+$label endhydrogen
 /;

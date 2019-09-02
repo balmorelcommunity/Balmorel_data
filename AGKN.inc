@@ -58,10 +58,6 @@ PL_A                                                                            
 NL_A                                                                                                                1
 FR_A                                                                                                                1
 BE_A                                                                                                                1
-UK_DH                                                                                                                                                           1
-NL_DH                                                                                                                                                           1
-FR_DH                                                                                                                                                           1
-BE_DH                                                                                                                                                           1
 DK1_Large                                                                                                                                                       1
 DK1_Rural                                                                                                                                                                 1
 DK1_Medium                                                                                                                                                           1
@@ -282,12 +278,12 @@ SE_Offshore_50                                                                  
 BE_Offshore_50                                                                                                                                                                                                                                                              1
 FR_Offshore_50                                                                                                                                                                                                                                                              1
 
-;                                                                                                                                                                                                                                                                                                    
+;
 
-                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                     
+
+
+
+
 $ontext
 To avoid manual entry in each area the following catagories of areas are defined.
 Note that each area can belong to one group only
@@ -610,12 +606,12 @@ GNR_WT_WIND_OFF_L-NS_Y-2050
 FI_IND.(GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2020
 GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2030
 GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2050
-GNR_BO_MSW_E-106_LS-35-MW-FEED_Y-2020
-GNR_BO_MSW_E-106_LS-35-MW-FEED_Y-2030
-GNR_BO_MSW_E-106_LS-35-MW-FEED_Y-2050
-GNR_BO_STRW_E-104_LS-6-MW-FEED_Y-2020
-GNR_BO_STRW_E-104_LS-6-MW-FEED_Y-2030
-GNR_BO_STRW_E-104_LS-6-MW-FEED_Y-2050
+*GNR_BO_MSW_E-106_LS-35-MW-FEED_Y-2020
+*GNR_BO_MSW_E-106_LS-35-MW-FEED_Y-2030
+*GNR_BO_MSW_E-106_LS-35-MW-FEED_Y-2050
+*GNR_BO_STRW_E-104_LS-6-MW-FEED_Y-2020
+*GNR_BO_STRW_E-104_LS-6-MW-FEED_Y-2030
+*GNR_BO_STRW_E-104_LS-6-MW-FEED_Y-2050
 GNR_BO_WOODCHI_E-117_LS-6-MW-FEED_Y-2020
 GNR_BO_WOODCHI_E-117_LS-6-MW-FEED_Y-2030
 GNR_BO_WOODCHI_E-117_LS-6-MW-FEED_Y-2050
@@ -631,15 +627,15 @@ GNR_GT_NGAS_BP_E-44_LS-40-MW_Y-2050
 GNR_ST_COAL_EXT_E-49_LS-400-MW_Y-2020
 GNR_ST_COAL_EXT_E-52_LS-400-MW_Y-2030
 GNR_ST_COAL_EXT_E-54_LS-400-MW_Y-2050
-GNR_ST_MSW_BP_E-23_LS-220-MW-FEED_Y-2020
-GNR_ST_MSW_BP_E-24_LS-220-MW-FEED_Y-2030
-GNR_ST_MSW_BP_E-25_LS-220-MW-FEED_Y-2050
+*GNR_ST_MSW_BP_E-23_LS-220-MW-FEED_Y-2020
+*GNR_ST_MSW_BP_E-24_LS-220-MW-FEED_Y-2030
+*GNR_ST_MSW_BP_E-25_LS-220-MW-FEED_Y-2050
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2030
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2050
-GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2020
-GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2030
-GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2050
+*GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2020
+*GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2030
+*GNR_ST_STRW_BP_E-31_LS-132-MW-FEED_Y-2050
 GNR_ST_WOODCHI_BP_E-29_LS-600-MW-FEED_Y-2020
 GNR_ST_WOODCHI_BP_E-29_LS-600-MW-FEED_Y-2030
 GNR_ST_WOODCHI_BP_E-29_LS-600-MW-FEED_Y-2050
