@@ -981,7 +981,7 @@ GNR_ST_LIGN_EXT_E-40                                                            
 ;
 
 
-
+$ontext
 ****************ADDED BY YI-KUANG, SAME AS INDHEAT_GGG WITH CHANGED NAMES**********************************
 *individual heating technologies
 $onmulti
@@ -1079,3 +1079,4 @@ INDHEAT_GDATA(INDHEAT_GGG,'GDCOMB')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=NATGAS)
 INDHEAT_GDATA(INDHEAT_GGG,'GDCOMBGUP')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=NATGAS)=1;
 INDHEAT_GDATA(INDHEAT_GGG,'GDCOMB')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=BIONG)=2;
 $label endcombtech2
+$offtext
