@@ -1,13 +1,3 @@
-* -----------------------------------------------------
-* XLS2GMS Version 1.5,  August 2002
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     16.0
-* Workbook:    \\nmbu.no\my\home\Documents\Prosjekter\Flex4RES\taxes\tax_data.xlsx
-* Sheet:       TAX_DH
-* Range:       $A$1:$C$17
-* -----------------------------------------------------
 ***       Consumer tax on heat consumption (Money / MWh)                                                
                                                                                                         
                                                                                                         
@@ -25,4 +15,3 @@ LITHUANIA 0
 POLAND    0                                                                                             
 $offtext                                                                                                
 /;                                                                                                      
-* -----------------------------------------------------
