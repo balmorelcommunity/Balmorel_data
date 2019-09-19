@@ -57,6 +57,7 @@ GDTECHGROUP                               'Technology group'
 GDSUBTECHGROUP                            'SubTechnology group'                                                                                                
 GDDECOM                                   'Technology allowed to be decomissioned ([0;1])'                                                                     
 GDFOR                                     'Forced Outage Rate (fraction)'                                                                                      
+GDPLANMAINT                               'Annual planned maintenance (hours)'                                                                                 
 /;                                                                                                                                                             
                                                                                                                                                                
                                                                                                                                                                
