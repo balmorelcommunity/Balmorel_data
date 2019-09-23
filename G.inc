@@ -902,6 +902,9 @@ GNR_WT_WIND_OFF_L-RG2_Y-2030
 GNR_WT_WIND_OFF_L-RG2_Y-2040                                  
 GNR_WT_WIND_OFF_L-RG2_Y-2050                                  
 GNR_WT_WIND_ONS                                               
+GNR_WT_WIND_ONS_RG1                                           
+GNR_WT_WIND_ONS_RG2                                           
+GNR_WT_WIND_ONS_RG3                                           
 GNR_WT_WIND_ONS_LS_L-RG1_Y-2020                               
 GNR_WT_WIND_ONS_LS_L-RG1_Y-2030                               
 GNR_WT_WIND_ONS_LS_L-RG1_Y-2040                               
