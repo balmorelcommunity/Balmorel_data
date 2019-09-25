@@ -1,304 +1,248 @@
-$ifi not %indheat_geo%==indheat_dk $goto endindheat_dk
-$onmulti
-SET CCCRRRAAA 'All geographical entities (CCC + RRR + AAA)'
-/
-DK2_NoDH_ind
-DK1_NoDH_ind
-DK2_NoDH_apart
-DK1_NoDH_apart
-/;
-
-SET AAA(CCCRRRAAA)  'All areas'
-/
-DK2_NoDH_ind
-DK1_NoDH_ind
-DK2_NoDH_apart
-DK1_NoDH_apart
-/;
-
-SET RRRAAA(RRR,AAA) 'Areas in regions'
-/
-DK2   . DK2_NoDH_ind
-DK1   . DK1_NoDH_ind
-DK2   . DK2_NoDH_apart
-DK1   . DK1_NoDH_apart
-/;
-
-SET INDHEAT_AAA(AAA) 'Areas with individual heating'
-/
-DK2_NoDH_ind
-DK1_NoDH_ind
-DK2_NoDH_apart
-DK1_NoDH_apart
-/;
-$offmulti
-$label endindheat_dk
-
-$ifi not %indheat_geo%==indheat_eu $goto endindheat_eu
-$onmulti
-SET CCCRRRAAA 'All geographical entities (CCC + RRR + AAA)'
-/
-NO1_IDVH_RES
-NO1_IDVH_TER
-NO2_IDVH_RES
-NO2_IDVH_TER
-NO3_IDVH_RES
-NO3_IDVH_TER
-NO4_IDVH_RES
-NO4_IDVH_TER
-NO5_IDVH_RES
-NO5_IDVH_TER
-SE1_IDVH_RES
-SE1_IDVH_TER
-SE2_IDVH_RES
-SE2_IDVH_TER
-SE3_IDVH_RES
-SE3_IDVH_TER
-SE4_IDVH_RES
-SE4_IDVH_TER
-DK1_IDVH_RES
-DK1_IDVH_TER
-DK2_IDVH_RES
-DK2_IDVH_TER
-FI_IDVH_RES
-FI_IDVH_TER
-DE4-E_IDVH_RES
-DE4-E_IDVH_TER
-DE4-N_IDVH_RES
-DE4-N_IDVH_TER
-DE4-S_IDVH_RES
-DE4-S_IDVH_TER
-DE4-W_IDVH_RES
-DE4-W_IDVH_TER
-EE_IDVH_RES
-EE_IDVH_TER
-LT_IDVH_RES
-LT_IDVH_TER
-LV_IDVH_RES
-LV_IDVH_TER
-PL_IDVH_RES
-PL_IDVH_TER
-UK_IDVH_RES
-UK_IDVH_TER
-NL_IDVH_RES
-NL_IDVH_TER
-BE_IDVH_RES
-BE_IDVH_TER
-FR_IDVH_RES
-FR_IDVH_TER
-/;
-
-SET AAA(CCCRRRAAA)  'All areas'
-/
-NO1_IDVH_RES
-NO2_IDVH_RES
-NO3_IDVH_RES
-NO4_IDVH_RES
-NO5_IDVH_RES
-SE1_IDVH_RES
-SE2_IDVH_RES
-SE3_IDVH_RES
-SE4_IDVH_RES
-DK1_IDVH_RES
-DK2_IDVH_RES
-FI_IDVH_RES
-DE4-E_IDVH_RES
-DE4-N_IDVH_RES
-DE4-S_IDVH_RES
-DE4-W_IDVH_RES
-EE_IDVH_RES
-LT_IDVH_RES
-LV_IDVH_RES
-PL_IDVH_RES
-UK_IDVH_RES
-NL_IDVH_RES
-BE_IDVH_RES
-FR_IDVH_RES
-
-NO1_IDVH_TER
-NO2_IDVH_TER
-NO3_IDVH_TER
-NO4_IDVH_TER
-NO5_IDVH_TER
-SE1_IDVH_TER
-SE2_IDVH_TER
-SE3_IDVH_TER
-SE4_IDVH_TER
-DK1_IDVH_TER
-DK2_IDVH_TER
-FI_IDVH_TER
-DE4-E_IDVH_TER
-DE4-N_IDVH_TER
-DE4-S_IDVH_TER
-DE4-W_IDVH_TER
-EE_IDVH_TER
-LT_IDVH_TER
-LV_IDVH_TER
-PL_IDVH_TER
-UK_IDVH_TER
-NL_IDVH_TER
-BE_IDVH_TER
-FR_IDVH_TER
-/;
-
-SET RRRAAA(RRR,AAA)      'Areas in regions'
-/
-NO1         .    NO1_IDVH_RES
-NO1         .    NO1_IDVH_TER
-NO2         .    NO2_IDVH_RES
-NO2         .    NO2_IDVH_TER
-NO3         .    NO3_IDVH_RES
-NO3         .    NO3_IDVH_TER
-NO4         .    NO4_IDVH_RES
-NO4         .    NO4_IDVH_TER
-NO5         .    NO5_IDVH_RES
-NO5         .    NO5_IDVH_TER
-SE1         .    SE1_IDVH_RES
-SE1         .    SE1_IDVH_TER
-SE2         .    SE2_IDVH_RES
-SE2         .    SE2_IDVH_TER
-SE3         .    SE3_IDVH_RES
-SE3         .    SE3_IDVH_TER
-SE4         .    SE4_IDVH_RES
-SE4         .    SE4_IDVH_TER
-DK1         .    DK1_IDVH_RES
-DK1         .    DK1_IDVH_TER
-DK2         .    DK2_IDVH_RES
-DK2         .    DK2_IDVH_TER
-FIN         .    FI_IDVH_RES
-FIN         .    FI_IDVH_TER
-EE          .    EE_IDVH_RES
-EE          .    EE_IDVH_TER
-LT          .    LT_IDVH_RES
-LT          .    LT_IDVH_TER
-LV          .    LV_IDVH_RES
-LV          .    LV_IDVH_TER
-DE4-E       .    DE4-E_IDVH_RES
-DE4-E       .    DE4-E_IDVH_TER
-DE4-N       .    DE4-N_IDVH_RES
-DE4-N       .    DE4-N_IDVH_TER
-DE4-S       .    DE4-S_IDVH_RES
-DE4-S       .    DE4-S_IDVH_TER
-DE4-W       .    DE4-W_IDVH_RES
-DE4-W       .    DE4-W_IDVH_TER
-PL          .    PL_IDVH_RES
-PL          .    PL_IDVH_TER
-UK          .    UK_IDVH_RES
-UK          .    UK_IDVH_TER
-NL          .    NL_IDVH_RES
-NL          .    NL_IDVH_TER
-BE          .    BE_IDVH_RES
-BE          .    BE_IDVH_TER
-FR          .    FR_IDVH_RES
-FR          .    FR_IDVH_TER
-/;
-
-SET INDHEAT_AAA(AAA) 'Areas with individual heating'
-/
-NO1_IDVH_RES
-NO2_IDVH_RES
-NO3_IDVH_RES
-NO4_IDVH_RES
-NO5_IDVH_RES
-SE1_IDVH_RES
-SE2_IDVH_RES
-SE3_IDVH_RES
-SE4_IDVH_RES
-DK1_IDVH_RES
-DK2_IDVH_RES
-FI_IDVH_RES
-DE4-E_IDVH_RES
-DE4-N_IDVH_RES
-DE4-S_IDVH_RES
-DE4-W_IDVH_RES
-EE_IDVH_RES
-LT_IDVH_RES
-LV_IDVH_RES
-PL_IDVH_RES
-UK_IDVH_RES
-NL_IDVH_RES
-BE_IDVH_RES
-FR_IDVH_RES
-
-NO1_IDVH_TER
-NO2_IDVH_TER
-NO3_IDVH_TER
-NO4_IDVH_TER
-NO5_IDVH_TER
-SE1_IDVH_TER
-SE2_IDVH_TER
-SE3_IDVH_TER
-SE4_IDVH_TER
-DK1_IDVH_TER
-DK2_IDVH_TER
-FI_IDVH_TER
-DE4-E_IDVH_TER
-DE4-N_IDVH_TER
-DE4-S_IDVH_TER
-DE4-W_IDVH_TER
-EE_IDVH_TER
-LT_IDVH_TER
-LV_IDVH_TER
-PL_IDVH_TER
-UK_IDVH_TER
-NL_IDVH_TER
-BE_IDVH_TER
-FR_IDVH_TER
-/;
-
-SET INDHEAT_RES_AAA(AAA) 'Areas with residential individual heating'
-/
-BE_IDVH_RES
-DE4-E_IDVH_RES
-DE4-N_IDVH_RES
-DE4-S_IDVH_RES
-DE4-W_IDVH_RES
-DK1_IDVH_RES
-DK2_IDVH_RES
-EE_IDVH_RES
-FI_IDVH_RES
-FR_IDVH_RES
-LT_IDVH_RES
-LV_IDVH_RES
-NL_IDVH_RES
-NO1_IDVH_RES
-NO2_IDVH_RES
-NO3_IDVH_RES
-NO4_IDVH_RES
-NO5_IDVH_RES
-PL_IDVH_RES
-SE1_IDVH_RES
-SE2_IDVH_RES
-SE3_IDVH_RES
-SE4_IDVH_RES
-UK_IDVH_RES
-/;
-
-SET INDHEAT_TER_AAA(AAA) 'Areas with tertiary individual heating'
-/
-BE_IDVH_TER
-DE4-E_IDVH_TER
-DE4-N_IDVH_TER
-DE4-S_IDVH_TER
-DE4-W_IDVH_TER
-DK1_IDVH_TER
-DK2_IDVH_TER
-EE_IDVH_TER
-FI_IDVH_TER
-FR_IDVH_TER
-LT_IDVH_TER
-LV_IDVH_TER
-NL_IDVH_TER
-NO1_IDVH_TER
-NO2_IDVH_TER
-NO3_IDVH_TER
-NO4_IDVH_TER
-NO5_IDVH_TER
-PL_IDVH_TER
-SE1_IDVH_TER
-SE2_IDVH_TER
-SE3_IDVH_TER
-SE4_IDVH_TER
-UK_IDVH_TER
-/;
-$label endindheat_eu
+$ifi not %indheat_geo%==indheat_eu      $goto endindheat_eu                          
+$onmulti                                                                             
+SET CCCRRRAAA                           'All geographical entities (CCC + RRR + AAA)'
+/                                                                                    
+NO1_IDVH_RES                                                                         
+NO1_IDVH_TER                                                                         
+NO2_IDVH_RES                                                                         
+NO2_IDVH_TER                                                                         
+NO3_IDVH_RES                                                                         
+NO3_IDVH_TER                                                                         
+NO4_IDVH_RES                                                                         
+NO4_IDVH_TER                                                                         
+NO5_IDVH_RES                                                                         
+NO5_IDVH_TER                                                                         
+SE1_IDVH_RES                                                                         
+SE1_IDVH_TER                                                                         
+SE2_IDVH_RES                                                                         
+SE2_IDVH_TER                                                                         
+SE3_IDVH_RES                                                                         
+SE3_IDVH_TER                                                                         
+SE4_IDVH_RES                                                                         
+SE4_IDVH_TER                                                                         
+DK1_IDVH_RES                                                                         
+DK1_IDVH_TER                                                                         
+DK2_IDVH_RES                                                                         
+DK2_IDVH_TER                                                                         
+FI_IDVH_RES                                                                          
+FI_IDVH_TER                                                                          
+DE4-E_IDVH_RES                                                                       
+DE4-E_IDVH_TER                                                                       
+DE4-N_IDVH_RES                                                                       
+DE4-N_IDVH_TER                                                                       
+DE4-S_IDVH_RES                                                                       
+DE4-S_IDVH_TER                                                                       
+DE4-W_IDVH_RES                                                                       
+DE4-W_IDVH_TER                                                                       
+EE_IDVH_RES                                                                          
+EE_IDVH_TER                                                                          
+LT_IDVH_RES                                                                          
+LT_IDVH_TER                                                                          
+LV_IDVH_RES                                                                          
+LV_IDVH_TER                                                                          
+PL_IDVH_RES                                                                          
+PL_IDVH_TER                                                                          
+UK_IDVH_RES                                                                          
+UK_IDVH_TER                                                                          
+NL_IDVH_RES                                                                          
+NL_IDVH_TER                                                                          
+BE_IDVH_RES                                                                          
+BE_IDVH_TER                                                                          
+FR_IDVH_RES                                                                          
+FR_IDVH_TER                                                                          
+/;                                                                                   
+                                                                                     
+SET AAA(CCCRRRAAA)                      'All areas'                                  
+/                                                                                    
+NO1_IDVH_RES                                                                         
+NO2_IDVH_RES                                                                         
+NO3_IDVH_RES                                                                         
+NO4_IDVH_RES                                                                         
+NO5_IDVH_RES                                                                         
+SE1_IDVH_RES                                                                         
+SE2_IDVH_RES                                                                         
+SE3_IDVH_RES                                                                         
+SE4_IDVH_RES                                                                         
+DK1_IDVH_RES                                                                         
+DK2_IDVH_RES                                                                         
+FI_IDVH_RES                                                                          
+DE4-E_IDVH_RES                                                                       
+DE4-N_IDVH_RES                                                                       
+DE4-S_IDVH_RES                                                                       
+DE4-W_IDVH_RES                                                                       
+EE_IDVH_RES                                                                          
+LT_IDVH_RES                                                                          
+LV_IDVH_RES                                                                          
+PL_IDVH_RES                                                                          
+UK_IDVH_RES                                                                          
+NL_IDVH_RES                                                                          
+BE_IDVH_RES                                                                          
+FR_IDVH_RES                                                                          
+                                                                                     
+NO1_IDVH_TER                                                                         
+NO2_IDVH_TER                                                                         
+NO3_IDVH_TER                                                                         
+NO4_IDVH_TER                                                                         
+NO5_IDVH_TER                                                                         
+SE1_IDVH_TER                                                                         
+SE2_IDVH_TER                                                                         
+SE3_IDVH_TER                                                                         
+SE4_IDVH_TER                                                                         
+DK1_IDVH_TER                                                                         
+DK2_IDVH_TER                                                                         
+FI_IDVH_TER                                                                          
+DE4-E_IDVH_TER                                                                       
+DE4-N_IDVH_TER                                                                       
+DE4-S_IDVH_TER                                                                       
+DE4-W_IDVH_TER                                                                       
+EE_IDVH_TER                                                                          
+LT_IDVH_TER                                                                          
+LV_IDVH_TER                                                                          
+PL_IDVH_TER                                                                          
+UK_IDVH_TER                                                                          
+NL_IDVH_TER                                                                          
+BE_IDVH_TER                                                                          
+FR_IDVH_TER                                                                          
+/;                                                                                   
+                                                                                     
+SET RRRAAA(RRR,AAA)                     'Areas in regions'                           
+/                                                                                    
+NO1                                .    NO1_IDVH_RES                                 
+NO1                                .    NO1_IDVH_TER                                 
+NO2                                .    NO2_IDVH_RES                                 
+NO2                                .    NO2_IDVH_TER                                 
+NO3                                .    NO3_IDVH_RES                                 
+NO3                                .    NO3_IDVH_TER                                 
+NO4                                .    NO4_IDVH_RES                                 
+NO4                                .    NO4_IDVH_TER                                 
+NO5                                .    NO5_IDVH_RES                                 
+NO5                                .    NO5_IDVH_TER                                 
+SE1                                .    SE1_IDVH_RES                                 
+SE1                                .    SE1_IDVH_TER                                 
+SE2                                .    SE2_IDVH_RES                                 
+SE2                                .    SE2_IDVH_TER                                 
+SE3                                .    SE3_IDVH_RES                                 
+SE3                                .    SE3_IDVH_TER                                 
+SE4                                .    SE4_IDVH_RES                                 
+SE4                                .    SE4_IDVH_TER                                 
+DK1                                .    DK1_IDVH_RES                                 
+DK1                                .    DK1_IDVH_TER                                 
+DK2                                .    DK2_IDVH_RES                                 
+DK2                                .    DK2_IDVH_TER                                 
+FIN                                .    FI_IDVH_RES                                  
+FIN                                .    FI_IDVH_TER                                  
+EE                                 .    EE_IDVH_RES                                  
+EE                                 .    EE_IDVH_TER                                  
+LT                                 .    LT_IDVH_RES                                  
+LT                                 .    LT_IDVH_TER                                  
+LV                                 .    LV_IDVH_RES                                  
+LV                                 .    LV_IDVH_TER                                  
+DE4-E                              .    DE4-E_IDVH_RES                               
+DE4-E                              .    DE4-E_IDVH_TER                               
+DE4-N                              .    DE4-N_IDVH_RES                               
+DE4-N                              .    DE4-N_IDVH_TER                               
+DE4-S                              .    DE4-S_IDVH_RES                               
+DE4-S                              .    DE4-S_IDVH_TER                               
+DE4-W                              .    DE4-W_IDVH_RES                               
+DE4-W                              .    DE4-W_IDVH_TER                               
+PL                                 .    PL_IDVH_RES                                  
+PL                                 .    PL_IDVH_TER                                  
+UK                                 .    UK_IDVH_RES                                  
+UK                                 .    UK_IDVH_TER                                  
+NL                                 .    NL_IDVH_RES                                  
+NL                                 .    NL_IDVH_TER                                  
+BE                                 .    BE_IDVH_RES                                  
+BE                                 .    BE_IDVH_TER                                  
+FR                                 .    FR_IDVH_RES                                  
+FR                                 .    FR_IDVH_TER                                  
+/;                                                                                   
+$offmulti                                                                            
+SET INDHEAT_AAA(AAA)                    'Areas with individual heating'              
+/                                                                                    
+BE_IDVH_RES                                                                          
+DE4-E_IDVH_RES                                                                       
+DE4-N_IDVH_RES                                                                       
+DE4-S_IDVH_RES                                                                       
+DE4-W_IDVH_RES                                                                       
+DK1_IDVH_RES                                                                         
+DK2_IDVH_RES                                                                         
+EE_IDVH_RES                                                                          
+FI_IDVH_RES                                                                          
+FR_IDVH_RES                                                                          
+LT_IDVH_RES                                                                          
+LV_IDVH_RES                                                                          
+NL_IDVH_RES                                                                          
+NO1_IDVH_RES                                                                         
+NO2_IDVH_RES                                                                         
+NO3_IDVH_RES                                                                         
+NO4_IDVH_RES                                                                         
+NO5_IDVH_RES                                                                         
+PL_IDVH_RES                                                                          
+SE1_IDVH_RES                                                                         
+SE2_IDVH_RES                                                                         
+SE3_IDVH_RES                                                                         
+SE4_IDVH_RES                                                                         
+UK_IDVH_RES                                                                          
+                                                                                     
+BE_IDVH_TER                                                                          
+DE4-E_IDVH_TER                                                                       
+DE4-N_IDVH_TER                                                                       
+DE4-S_IDVH_TER                                                                       
+DE4-W_IDVH_TER                                                                       
+DK1_IDVH_TER                                                                         
+DK2_IDVH_TER                                                                         
+EE_IDVH_TER                                                                          
+FI_IDVH_TER                                                                          
+FR_IDVH_TER                                                                          
+LT_IDVH_TER                                                                          
+LV_IDVH_TER                                                                          
+NL_IDVH_TER                                                                          
+NO1_IDVH_TER                                                                         
+NO2_IDVH_TER                                                                         
+NO3_IDVH_TER                                                                         
+NO4_IDVH_TER                                                                         
+NO5_IDVH_TER                                                                         
+PL_IDVH_TER                                                                          
+SE1_IDVH_TER                                                                         
+SE2_IDVH_TER                                                                         
+SE3_IDVH_TER                                                                         
+SE4_IDVH_TER                                                                         
+UK_IDVH_TER                                                                          
+/;                                                                                   
+$label endindheat_eu                                                                 
+                                                                                     
+$ifi not %indheat_geo%==indheat_dk      $goto endindheat_dk                          
+$onmulti                                                                             
+SET CCCRRRAAA                           'All geographical entities (CCC + RRR + AAA)'
+/                                                                                    
+DK2_NoDH_ind                                                                         
+DK1_NoDH_ind                                                                         
+DK2_NoDH_apart                                                                       
+DK1_NoDH_apart                                                                       
+/;                                                                                   
+                                                                                     
+SET AAA(CCCRRRAAA)                      'All areas'                                  
+/                                                                                    
+DK2_NoDH_ind                                                                         
+DK1_NoDH_ind                                                                         
+DK2_NoDH_apart                                                                       
+DK1_NoDH_apart                                                                       
+/;                                                                                   
+                                                                                     
+SET RRRAAA(RRR,AAA)                     'Areas in regions'                           
+/                                                                                    
+DK2                                .    DK2_NoDH_ind                                 
+DK1                                .    DK1_NoDH_ind                                 
+DK2                                .    DK2_NoDH_apart                               
+DK1                                .    DK1_NoDH_apart                               
+/;                                                                                   
+$offmulti                                                                            
+SET INDHEAT_AAA(AAA)                    'Areas with individual heating'              
+/                                                                                    
+DK2_NoDH_ind                                                                         
+DK1_NoDH_ind                                                                         
+DK2_NoDH_apart                                                                       
+DK1_NoDH_apart                                                                       
+/;                                                                                   
+$label endindheat_dk                                                                 
+                                                                                     
