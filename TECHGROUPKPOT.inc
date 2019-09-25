@@ -26,17 +26,17 @@ FR                                                                              
 BE                                                                                                        11772                   
                                                                                                                                   
 +                                                                                                         WINDTURBINE_ONSHORE     
-NORWAY                                                                                                    14                      
-DENMARK                                                                                                   6.2                     
-FINLAND                                                                                                   15                      
-GERMANY                                                                                                   98.7                    
-NETHERLANDS                                                                                               10.3                    
-SWEDEN                                                                                                    35                      
-UNITED_KINGDOM                                                                                            38.4                    
-ESTONIA                                                                                                   15.8                    
-LATVIA                                                                                                    23.3                    
-LITHUANIA                                                                                                 21.4                    
-POLAND                                                                                                    89                      
-BELGIUM                                                                                                   6.719                   
-FRANCE                                                                                                    101.2                   
+NORWAY                                                                                                    14000                   
+DENMARK                                                                                                   6200                    
+FINLAND                                                                                                   15000                   
+GERMANY                                                                                                   98700                   
+NETHERLANDS                                                                                               10300                   
+SWEDEN                                                                                                    35000                   
+UNITED_KINGDOM                                                                                            38400                   
+ESTONIA                                                                                                   15800                   
+LATVIA                                                                                                    23300                   
+LITHUANIA                                                                                                 21400                   
+POLAND                                                                                                    89000                   
+BELGIUM                                                                                                   6719                    
+FRANCE                                                                                                    101200                  
 ;                                                                                                                                 
