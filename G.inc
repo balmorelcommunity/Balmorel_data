@@ -214,6 +214,10 @@ GNR_BO_NGAS_E-105_MS-5-MW_Y-2020
 GNR_BO_NGAS_E-106_MS-5-MW_Y-2030                              
 GNR_BO_NGAS_E-106_MS-5-MW_Y-2040                              
 GNR_BO_NGAS_E-106_MS-5-MW_Y-2050                              
+GNR_IND-BO_NGAS_E-75_MS-5-MW_Y-2020                           
+GNR_IND-BO_NGAS_E-75_MS-5-MW_Y-2030                           
+GNR_IND-BO_NGAS_E-75_MS-5-MW_Y-2040                           
+GNR_IND-BO_NGAS_E-75_MS-5-MW_Y-2050                           
 GNR_BO_NGAS_E-80                                              
 GNR_BO_NGAS_E-85                                              
 GNR_BO_NGAS_E-90                                              
@@ -229,6 +233,10 @@ GNR_BO_STRW_E-102_LS-6-MW_Y-2020
 GNR_BO_STRW_E-102_LS-6-MW_Y-2030                              
 GNR_BO_STRW_E-102_LS-6-MW_Y-2040                              
 GNR_BO_STRW_E-102_LS-6-MW_Y-2050                              
+GNR_IND-BO_STRW_E-70_LS-6-MW_Y-2020                           
+GNR_IND-BO_STRW_E-70_LS-6-MW_Y-2030                           
+GNR_IND-BO_STRW_E-70_LS-6-MW_Y-2040                           
+GNR_IND-BO_STRW_E-70_LS-6-MW_Y-2050                           
 GNR_BO_WOOD_E-100                                             
 GNR_BO_WOOD_E-108                                             
 GNR_BO_WOOD_E-67                                              
@@ -247,6 +255,10 @@ GNR_BO_WOODCHI_E-115_LS-7-MW_Y-2020
 GNR_BO_WOODCHI_E-115_LS-7-MW_Y-2030                           
 GNR_BO_WOODCHI_E-115_LS-7-MW_Y-2040                           
 GNR_BO_WOODCHI_E-115_LS-7-MW_Y-2050                           
+GNR_IND-BO_WOODCHI_E-70_LS-7-MW_Y-2020                        
+GNR_IND-BO_WOODCHI_E-70_LS-7-MW_Y-2030                        
+GNR_IND-BO_WOODCHI_E-70_LS-7-MW_Y-2040                        
+GNR_IND-BO_WOODCHI_E-70_LS-7-MW_Y-2050                        
 GNR_BO_WOODCHI_E-118                                          
 GNR_BO_WOODCHI_E-119                                          
 GNR_BO_WOODCHI_E-120                                          
@@ -257,6 +269,10 @@ GNR_BO_WOODPEL_E-100_LS-6-MW_Y-2020
 GNR_BO_WOODPEL_E-100_LS-6-MW_Y-2030                           
 GNR_BO_WOODPEL_E-100_LS-6-MW_Y-2040                           
 GNR_BO_WOODPEL_E-100_LS-6-MW_Y-2050                           
+GNR_IND-BO_WOODPEL_E-70_LS-6-MW_Y-2020                        
+GNR_IND-BO_WOODPEL_E-70_LS-6-MW_Y-2030                        
+GNR_IND-BO_WOODPEL_E-70_LS-6-MW_Y-2040                        
+GNR_IND-BO_WOODPEL_E-70_LS-6-MW_Y-2050                        
 GNR_BO_WOODPEL_E-87_SS-5-KW-FEED_Y-2020                       
 GNR_BO_WOODPEL_E-90                                           
 GNR_BO_WOODPEL_E-91_SS-4-KW-FEED_Y-2030                       
@@ -771,6 +787,10 @@ GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2030                      
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2040                      
 GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050                      
+GNR_IND-ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020                  
+GNR_IND-ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2030                  
+GNR_IND-ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2040                  
+GNR_IND-ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050                  
 GNR_ST_STRW_BP_E-21                                           
 GNR_ST_STRW_BP_E-24                                           
 GNR_ST_STRW_BP_E-25                                           
@@ -818,6 +838,10 @@ GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                   
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2040                   
 GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                   
+GNR_IND-ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020               
+GNR_IND-ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030               
+GNR_IND-ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2040               
+GNR_IND-ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050               
 GNR_ST_WOODCHI_BP_E-17                                        
 GNR_ST_WOODCHI_BP_E-23                                        
 GNR_ST_WOODCHI_BP_E-24                                        
@@ -853,6 +877,10 @@ GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2020
 GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2030                   
 GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2040                   
 GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050                   
+GNR_IND-ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2020               
+GNR_IND-ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2030               
+GNR_IND-ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2040               
+GNR_IND-ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050               
 GNR_ST_WOODPEL_BP_E-18                                        
 GNR_ST_WOODPEL_BP_E-30                                        
 GNR_ST_WOODPEL_BP_E-30_MS-80-MW-FEED_Y-2020                   

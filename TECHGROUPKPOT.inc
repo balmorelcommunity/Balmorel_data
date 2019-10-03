@@ -25,7 +25,9 @@ PL                                                                              
 FR                                                                                                        54000                   
 BE                                                                                                        11772                   
                                                                                                                                   
+*Socially accepted potentials (not activated by default)                                                                          
 +                                                                                                         WINDTURBINE_ONSHORE     
+$ontext                                                                                                                           
 NORWAY                                                                                                    14000                   
 DENMARK                                                                                                   6200                    
 FINLAND                                                                                                   15000                   
@@ -36,7 +38,10 @@ UNITED_KINGDOM                                                                  
 ESTONIA                                                                                                   15800                   
 LATVIA                                                                                                    23300                   
 LITHUANIA                                                                                                 21400                   
-POLAND                                                                                                    89000                   
+POLAND                                                                                                    10426                   
 BELGIUM                                                                                                   6719                    
 FRANCE                                                                                                    101200                  
+                                                                                                                                  
+DE4-S                                                                                                     7444                    
+$offtext                                                                                                                          
 ;                                                                                                                                 
