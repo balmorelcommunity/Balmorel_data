@@ -159,6 +159,46 @@ GMAXF(YYY,CCCRRRAAA,'OTHERGAS')=GMAXF('2016',CCCRRRAAA,'OTHERGAS');
 GMAXF(YYY,CCCRRRAAA,'COAL')=GMAXF('2016',CCCRRRAAA,'COAL');                                                                                                        
                                                                                                                                                                    
                                                                                                                                                                    
+GMAXF(Y,'NORWAY','Coal')$(Y.VAL GE 2020) =EPS;                                                                                                                     
+GMAXF(Y,'NORWAY','Lignite')$(Y.VAL GE 2020) =EPS;                                                                                                                  
+                                                                                                                                                                   
+GMAXF(Y,'SWEDEN','Coal')$(Y.VAL GE 2020) =EPS;                                                                                                                     
+GMAXF(Y,'SWEDEN','Lignite')$(Y.VAL GE 2020) =EPS;                                                                                                                  
+                                                                                                                                                                   
+                                                                                                                                                                   
+GMAXF(Y,'FINLAND','Coal')$(Y.VAL GE 2030) =EPS;                                                                                                                    
+GMAXF(Y,'FINLAND','Lignite')$(Y.VAL GE 2030) =EPS;                                                                                                                 
+                                                                                                                                                                   
+                                                                                                                                                                   
+GMAXF(Y,'DENMARK','Coal')$(Y.VAL GE 2030) =EPS;                                                                                                                    
+GMAXF(Y,'DENMARK','Lignite')$(Y.VAL GE 2030) =EPS;                                                                                                                 
+                                                                                                                                                                   
+GMAXF(Y,'DENMARK','WOODCHIPS')$(Y.VAL GE 2045) =25200000;                                                                                                          
+GMAXF(Y,'DENMARK','WOODCHIPS')$(Y.VAL GE 2050) =EPS;                                                                                                               
+                                                                                                                                                                   
+GMAXF(Y,'GERMANY','Coal')$(Y.VAL GE 2040) =EPS;                                                                                                                    
+GMAXF(Y,'GERMANY','Lignite')$(Y.VAL GE 2040) =EPS;                                                                                                                 
+                                                                                                                                                                   
+                                                                                                                                                                   
+                                                                                                                                                                   
+GMAXF(Y,'UNITED_KINGDOM','Coal')$(Y.VAL GE 2030) =EPS;                                                                                                             
+GMAXF(Y,'UNITED_KINGDOM','Lignite')$(Y.VAL GE 2030) =EPS;                                                                                                          
+                                                                                                                                                                   
+GMAXF(Y,'FRANCE','Coal')$(Y.VAL GE 2020) =EPS;                                                                                                                     
+GMAXF(Y,'FRANCE','Lignite')$(Y.VAL GE 2020) =EPS;                                                                                                                  
+                                                                                                                                                                   
+                                                                                                                                                                   
+GMAXF(Y,'BELGIUM','Coal')$(Y.VAL GE 2020) =EPS;                                                                                                                    
+GMAXF(Y,'BELGIUM','Lignite')$(Y.VAL GE 2020) =EPS;                                                                                                                 
+                                                                                                                                                                   
+                                                                                                                                                                   
+GMAXF(Y,'NETHERLANDS','Coal')$(Y.VAL GE 2030) =EPS;                                                                                                                
+GMAXF(Y,'NETHERLANDS','Lignite')$(Y.VAL GE 2030) =EPS;                                                                                                             
+                                                                                                                                                                   
+                                                                                                                                                                   
+                                                                                                                                                                   
+                                                                                                                                                                   
+                                                                                                                                                                   
                                                                                                                                                                    
                                                                                                                                                                    
                                                                                                                                                                    
