@@ -1,7 +1,7 @@
 
-SET INDHEAT_AAAINSECTOR(INDHEAT_AAA,SECTOR) 'Technologies belonging to each group'
+SET INDHEAT_AAAINSECTOR(INDHEAT_AAA,SECTOR)      'Technologies belonging to each group'
 /
-$ifi not %indheat_geo%==indheat_eu  $goto endindheat_eu
+$ifi not %indheat_geo%==indheat_eu               $goto endindheat_eu
 BE_IDVH_RES                                 .    RES
 DE4-E_IDVH_RES                              .    RES
 DE4-N_IDVH_RES                              .    RES
@@ -53,10 +53,19 @@ SE4_IDVH_TER                                .    TER
 UK_IDVH_TER                                 .    TER
 $label endindheat_eu
 
-$ifi not %indheat_geo%==indheat_dk     $goto endindheat_dk
+$ifi not %indheat_geo%==indheat_dk               $goto endindheat_dk
 DK2_NoDH_ind                                .    RES
 DK1_NoDH_ind                                .    RES
 DK2_NoDH_apart                              .    RES
 DK1_NoDH_apart                              .    RES
 $label endindheat_dk
 /;
+
+$ifi not %taxes%==yes                            $goto endtaxes
+SET DEUSERINSECTOR(DEUSER,SECTOR)
+/
+RESE                                        .    RES
+OTHER                                       .    TER
+PII                                         .    INDUS
+/;
+$label endtaxes

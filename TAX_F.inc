@@ -1,33 +1,49 @@
-***                                                                                                                                                                                                      Taxes for fuel use                                                                                        
-***                                                                                                                                                                                                      Negative values are interpreted as subsidies                                                              
-***                                                                                                                                                                                                      Oct-2018. Jon Gustav Kirkerud                                                                             
-PARAMETER TAX_F(YYY,CCC,GGG) 'tax on fuel use';                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                   
-*** Main input format: per country and per fuel                                                                                                                                                                                                                                                                    
-TABLE TAX_F_IN(YYY,CCC,FFF) 'tax on fuel use'                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                         NUCLEAR                                      NATGAS COAL LIGNITE FUELOIL LIGHTOIL SHALE PEAT LNG  ELECTRIC
-2015.DENMARK                                                                                                                                                                                             0                                                                                                         
-;                                                                                                                                                                                                                                                                                                                  
-                                                                                                                                                                                                                                                                                                                   
-* Convert from €2015 to €2012                                                                                                                                                                                                                                                                                      
-TAX_F_IN(YYY,CCC,FFF) = TAX_F_IN(YYY,CCC,FFF) * 0.9799;                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                   
-* Apply 2015 numbers to all years:                                                                                                                                                                                                                                                                                 
-TAX_F_IN(YYY,C,FFF)$(YVALUE(YYY) ne 2015) = TAX_F_IN('2015',C,FFF);                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                   
-* Assign values onto TAX_F                                                                                                                                                                                                                                                                                         
-TAX_F(Y,C,G)$((SUM(IA$ICA(C,IA), GKFX(Y,IA,G)) > 0) OR SUM(IA$ICA(C,IA), AGKN(IA,G))) = SUM(FFF$IGF(G,FFF), TAX_F_IN(Y,C,FFF));                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                   
-*** Secondary input: exceptions from the main input on technology level                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                   
-* Another way to implement E and V-rule for back pressure, but GEFFRATE is wrongly treated                                                                                                                                                                                                                         
-* Backpressure plants are charged under the cost optimal rule that depends on efficiency and CB-value                                                                                                                                                                                                              
-*TAX_F(Y,'DENMARK',G)$(NOT (GDATA(G,'GDTYPE') EQ GBPR)) = 0;                                                                                                                                                                                                                                                       
-*TAX_F(Y,'DENMARK',IGBPR) = TAX_F(Y,'DENMARK',IGBPR) * MIN( 1 - (GDATA(IGBPR,'GDCB') * GDATA(IGBPR,'GDFE') / (1 + GDATA(IGBPR,'GDCB')) ) / 0.67, (GDATA(IGBPR,'GDFE')/ ( 1 + GDATA(IGBPR,'GDCB'))/1.2));                                                                                                           
-                                                                                                                                                                                                                                                                                                                   
+***Taxes for fuel use
+***Negative values are interpreted as subsidies
+***Oct-2018. Jon Gustav Kirkerud.
+
+PARAMETER TAX_F(YYY,CCC,GGG) 'tax on fuel use';
+
+*** Main input format: per country and per fuel
+TABLE TAX_F_IN(YYY,CCC,FFF) 'tax on fuel use'
+               NUCLEAR  NATGAS COAL LIGNITE FUELOIL LIGHTOIL SHALE PEAT LNG  ELECTRIC
+2015.DENMARK   0
+;
+
+* Convert from €2015 to €2012
+TAX_F_IN(YYY,CCC,FFF) = TAX_F_IN(YYY,CCC,FFF) * 0.9799;
+
+* Apply 2015 numbers to all years:
+TAX_F_IN(YYY,C,FFF)$(YVALUE(YYY) ne 2015) = TAX_F_IN('2015',C,FFF);
+
+* Assign values onto TAX_F
+TAX_F(Y,C,G)$((SUM(IA$ICA(C,IA), GKFX(Y,IA,G)) > 0) OR SUM(IA$ICA(C,IA), AGKN(IA,G))) = SUM(FFF$IGF(G,FFF), TAX_F_IN(Y,C,FFF));
+
+***Oct-2019 Yi-kuang Chen adding fuel tax for individual heat.
+$ifi not %indheat%==yes   $goto endindheat
+$ifi not %indheat_geo%==indheat_eu   $goto endindheat
+PARAMETER INDHEAT_TAX_F(YYY,CCC,INDHEAT_GGG);
+
+*** Main input format: per country and per fuel
+TABLE INDHEAT_TAX_F_IN(YYY,CCC,FFF) 'tax on fuel use'
+               IDVH_NATGAS IDVH_COAL IDVH_LIGHTOIL
+2015.DENMARK
+;
+
+* Convert from €2015 to €2012
+INDHEAT_TAX_F_IN(YYY,CCC,FFF) = INDHEAT_TAX_F_IN(YYY,CCC,FFF) * 0.9799;
+
+* Apply 2015 numbers to all years:
+INDHEAT_TAX_F_IN(YYY,C,FFF)$(YVALUE(YYY) ne 2015) = INDHEAT_TAX_F_IN('2015',C,FFF);
+
+* Assign values onto TAX_F
+INDHEAT_TAX_F(Y,C,INDHEAT_G)$((SUM((INDHEAT_GROUP,INDHEAT_IA)$ICA(C,INDHEAT_IA), INDHEAT_GKFX(Y,INDHEAT_IA,INDHEAT_G,INDHEAT_GROUP)) > 0) OR SUM((INDHEAT_GROUP,INDHEAT_IA)$ICA(C,INDHEAT_IA), INDHEAT_AGKN(INDHEAT_IA,INDHEAT_G,INDHEAT_GROUP))) = SUM(FFF$INDHEAT_IGF(INDHEAT_G,FFF), INDHEAT_TAX_F_IN(Y,C,FFF));
+$label endheat
+
+*** Secondary input: exceptions from the main input on technology level
+
+* Another way to implement E and V-rule for back pressure, but GEFFRATE is wrongly treated
+* Backpressure plants are charged under the cost optimal rule that depends on efficiency and CB-value
+*TAX_F(Y,'DENMARK',G)$(NOT (GDATA(G,'GDTYPE') EQ GBPR)) = 0;
+*TAX_F(Y,'DENMARK',IGBPR) = TAX_F(Y,'DENMARK',IGBPR) * MIN( 1 - (GDATA(IGBPR,'GDCB') * GDATA(IGBPR,'GDFE') / (1 + GDATA(IGBPR,'GDCB')) ) / 0.67, (GDATA(IGBPR,'GDFE')/ ( 1 + GDATA(IGBPR,'GDCB'))/1.2));
+

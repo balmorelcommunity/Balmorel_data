@@ -79,6 +79,12 @@ IDVHG_STOV_2050_OFH
                                                                           
 IDVHG_COAL_2010_OFH                                                       
                                                                           
+****WATER TANK STORAGE (DEA small scale hot water tanks, steel)           
+IDVHG_WTRTANK_2015_OFH                                                    
+IDVHG_WTRTANK_2020_OFH                                                    
+IDVHG_WTRTANK_2030_OFH                                                    
+IDVHG_WTRTANK_2040_OFH                                                    
+IDVHG_WTRTANK_2050_OFH                                                    
                                                                           
 $ifi not %COMBTECH%==yes $goto endcombtech                                
 IDVHG_GB_2010_OFH_BGAS_UP                                                 

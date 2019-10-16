@@ -71,6 +71,11 @@ IDVHG_STOV_2030_OFH                                                             
 IDVHG_STOV_2040_OFH                                                                     .    GR_STOV   
 IDVHG_STOV_2050_OFH                                                                     .    GR_STOV   
 IDVHG_COAL_2010_OFH                                                                     .    GR_COAL   
+IDVHG_WTRTANK_2015_OFH                                                                  .    GR_TANK   
+IDVHG_WTRTANK_2020_OFH                                                                  .    GR_TANK   
+IDVHG_WTRTANK_2030_OFH                                                                  .    GR_TANK   
+IDVHG_WTRTANK_2040_OFH                                                                  .    GR_TANK   
+IDVHG_WTRTANK_2050_OFH                                                                  .    GR_TANK   
 IDVHG_OIL_2010_APART                                                                    .    GR_OIL    
 IDVHG_OIL_2020_APART                                                                    .    GR_OIL    
 IDVHG_OIL_2030_APART                                                                    .    GR_OIL    

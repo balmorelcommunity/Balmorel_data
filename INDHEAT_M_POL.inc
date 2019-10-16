@@ -7,7 +7,7 @@ TABLE INDHEAT_M_POL(YYY,MPOLSET,SECTOR,CCC)  'Emission policy data'
                                                                         RES.DENMARK RES.UNITED_KINGDOM
 * Units:                                                                t CO2       t CO2
 2020.LIM_CO2
-2030.LIM_CO2                                                            
+2030.LIM_CO2
 2040.LIM_CO2
 2050.LIM_CO2
 ;

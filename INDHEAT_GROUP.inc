@@ -11,5 +11,6 @@ GR_WPSH
 GR_ELHPA2A                               
 GR_STOV                                  
 GR_COAL                                  
+GR_TANK                                  
 /                                        
 ;                                        

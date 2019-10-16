@@ -72,6 +72,11 @@ IDVHG_STOV_2020_OFH                                           .    GR_STOV      
 IDVHG_STOV_2030_OFH                                           .    GR_STOV                                                          1              
 IDVHG_STOV_2040_OFH                                           .    GR_STOV                                                          1              
 IDVHG_STOV_2050_OFH                                           .    GR_STOV                                                          1              
+IDVHG_WTRTANK_2015_OFH                                        .    GR_TANK                                                          1              
+IDVHG_WTRTANK_2020_OFH                                        .    GR_TANK                                                          1              
+IDVHG_WTRTANK_2030_OFH                                        .    GR_TANK                                                          1              
+IDVHG_WTRTANK_2040_OFH                                        .    GR_TANK                                                          1              
+IDVHG_WTRTANK_2050_OFH                                        .    GR_TANK                                                          1              
 /;                                                                                                                                                 
 INDHEAT_AGKN(INDHEAT_AAA,INDHEAT_GGG,INDHEAT_GROUP)           =    INDHEAT_AGKN_OFH(INDHEAT_GGG,INDHEAT_GROUP);                                    
 INDHEAT_AGKN_OFH(INDHEAT_GGG,INDHEAT_GROUP)                   =    0;                                                                              

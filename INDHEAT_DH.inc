@@ -152,7 +152,7 @@ HOTWATER                                                   .                    
 
 INDHEAT_DH(YYY,INDHEAT_AAA,INDHEAT_DHUSER)                   =                                                       INDHEAT_DH1(INDHEAT_DHUSER,INDHEAT_AAA,YYY);
 INDHEAT_DH1(INDHEAT_DHUSER,INDHEAT_AAA,YYY)                =                                                       0;
-
+INDHEAT_DH('2050',INDHEAT_AAA,INDHEAT_DHUSER)              =                                                       INDHEAT_DH('2020',INDHEAT_AAA,INDHEAT_DHUSER);
 INDHEAT_DH('2030',INDHEAT_AAA,INDHEAT_DHUSER)              =                                                       INDHEAT_DH('2020',INDHEAT_AAA,INDHEAT_DHUSER);
 INDHEAT_DH('2040',INDHEAT_AAA,INDHEAT_DHUSER)              =                                                       (INDHEAT_DH('2030',INDHEAT_AAA,INDHEAT_DHUSER)+INDHEAT_DH('2050',INDHEAT_AAA,INDHEAT_DHUSER))/2;
 $label endindheat_eu
