@@ -28,9 +28,9 @@ PEAT                                                                            
 MUNIWASTE                                                                                                   MUNIWASTE          11   0     0.156 0.004
 STRAW                                                                                                       STRAW              12   0     0.025 0.004
 WOOD                                                                                                        WOOD               13   0     0.025 0.004
-WOODCHIPS                                                                                                   WOODCHIPS          14   0     0.025 0.004
+WOODCHIPS                                                                                                   WOODCHIPS          14   17    0.025 0.004
 RECYCLEDWOOD                                                                                                RECYCLEDWOOD       16   0     0.025 0.004
-WOODPELLETS                                                                                                 WOODPELLETS        17   0     0.025 0.004
+WOODPELLETS                                                                                                 WOODPELLETS        17   17    0.025 0.004
 WOODWASTE                                                                                                   WOODWASTE          18   0     0.025 0.004
 BIOOIL                                                                                                      BIOOIL             19   0     0.025 0.004
 LNG                                                                                                         LNG                20   56.1  0     0.001
