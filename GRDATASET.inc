@@ -1,27 +1,32 @@
-* -----------------------------------------------------
-* XLS2GMS Version 1.5,  August 2002
-* Erwin Kalvelagen, GAMS Development Corp.
-* -----------------------------------------------------
-* Application: Microsoft Excel
-* Version:     16.0
-* Workbook:    \\nmbu.no\my\home\Documents\Prosjekter\Flex4RES\taxes\Grid_rent_data.xlsx
-* Sheet:       set
-* Range:       $A$1:$A$14
-* -----------------------------------------------------
-SET GRDATASET 'Grid rent data'
-/
-GRDFC
-GRDSUBS
-GRDECW
-GRDECS
-GRDTOU1
-GRDTOU2
-GRDTOU3
-GRDTOU4
-GRDDCW
-GRDDCS
-GRDDC2
-GRDDCTOU
-GRDDCY
-/;
-* -----------------------------------------------------
+SET GRDATASET 'Grid rent data'                                    
+/                                                                 
+GRDFC                                                             
+GRDSUBS                                                           
+GRDECW                                                            
+GRDECS                                                            
+GRDTOU1                                                           
+GRDTOU2                                                           
+GRDTOU3                                                           
+GRDTOU4                                                           
+GRDDCW                                                            
+GRDDCS                                                            
+GRDDC2                                                            
+GRDDCTOU                                                          
+GRDDCY                                                            
+/;                                                                
+                                                                  
+SET GRDATASET2 'relevant groups of technologies for grid tariffs' 
+/                                                                 
+AVE_CONS_Y                                                        
+FLH                                                               
+/;                                                                
+                                                                  
+SET GRTECHGROUP 'relevant groups of technologies for grid tariffs'
+/                                                                 
+P2H                                                               
+BATTERIES_GRID                                                    
+BATTERIES_HOME                                                    
+ELECTROLYSERS                                                     
+PRODUCTION                                                        
+PHS                                                               
+/;                                                                
