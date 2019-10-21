@@ -1,7 +1,7 @@
-TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
-                                                                NATGAS
-2016.ESTONIA                                                    0
-2017.ESTONIA                                                    1440000
+TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'                 
+                                                                NATGAS          
+2016.ESTONIA                                                    0               
+2017.ESTONIA                                                    1440000         
 2018.ESTONIA                                                    1418181.81818182
 2019.ESTONIA                                                    1396363.63636364
 2020.ESTONIA                                                    1374545.45454545
@@ -12,8 +12,28 @@ TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
 2025.ESTONIA                                                    1265454.54545455
 2026.ESTONIA                                                    1243636.36363636
 2027.ESTONIA                                                    1221818.18181818
-2028.ESTONIA                                                    1200000
+2028.ESTONIA                                                    1200000         
 2029.ESTONIA                                                    1178181.81818182
-
-
-;
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+;                                                                               
