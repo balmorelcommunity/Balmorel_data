@@ -194,11 +194,3 @@ GMAXF(Y,'BELGIUM','Lignite')$(Y.VAL GE 2020) =EPS;
                                                                                                                                                                    
 GMAXF(Y,'NETHERLANDS','Coal')$(Y.VAL GE 2030) =EPS;                                                                                                                
 GMAXF(Y,'NETHERLANDS','Lignite')$(Y.VAL GE 2030) =EPS;                                                                                                             
-                                                                                                                                                                   
-                                                                                                                                                                   
-                                                                                                                                                                   
-                                                                                                                                                                   
-                                                                                                                                                                   
-                                                                                                                                                                   
-                                                                                                                                                                   
-                                                                                                                                                                   
