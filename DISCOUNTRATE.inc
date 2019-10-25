@@ -1,2 +1,2 @@
-
-SCALAR    DISCOUNTRATE                 'Discount rate by country (fraction)' / 0.04  /;
+                                                                                        
+SCALAR    DISCOUNTRATE                 'Discount rate by country (fraction)' / 0.04  /; 
