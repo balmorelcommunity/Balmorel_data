@@ -478,5 +478,10 @@ GNR_BO_NGAS_E-85_PHL_Y-2020_CT_BIONG
 GNR_BO_NGAS_E-86_PHL_Y-2030_CT_BIONG          
 GNR_BO_NGAS_E-86_PHL_Y-2040_CT_BIONG          
 GNR_BO_NGAS_E-86_PHL_Y-2050_CT_BIONG          
+GNR_HP_NGAS_COP-171_PHL_Y-2020_CT_BIONG       
+GNR_HP_NGAS_COP-173_PHL_Y-2030_CT_BIONG       
+GNR_HP_NGAS_COP-174_PHL_Y-2040_CT_BIONG       
+GNR_HP_NGAS_COP-175_PHL_Y-2050_CT_BIONG       
+GNR_HP_NGAS_GE_COP-250_PHL_Y-2020_CT_BIONG    
 $label noindustry                             
 /;                                            

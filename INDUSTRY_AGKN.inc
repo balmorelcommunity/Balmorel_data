@@ -31,6 +31,11 @@ GNR_BO_WC_E-81_PHL_Y-2020
 GNR_BO_WC_E-82_PHL_Y-2030                                                
 GNR_BO_WC_E-82_PHL_Y-2040                                                
 GNR_BO_WC_E-83_PHL_Y-2050                                                
+GNR_HP_NGAS_COP-171_PHL_Y-2020                                           
+GNR_HP_NGAS_COP-173_PHL_Y-2030                                           
+GNR_HP_NGAS_COP-174_PHL_Y-2040                                           
+GNR_HP_NGAS_COP-175_PHL_Y-2050                                           
+GNR_HP_NGAS_GE_COP-250_PHL_Y-2020                                        
 )                                                                        
                                                                          
 *Group 10 - Industry Process Heat High District Heating                  
@@ -91,6 +96,11 @@ GNR_BO_WC_E-81_PHL_Y-2020
 GNR_BO_WC_E-82_PHL_Y-2030                                                
 GNR_BO_WC_E-82_PHL_Y-2040                                                
 GNR_BO_WC_E-83_PHL_Y-2050                                                
+GNR_HP_NGAS_COP-171_PHL_Y-2020                                           
+GNR_HP_NGAS_COP-173_PHL_Y-2030                                           
+GNR_HP_NGAS_COP-174_PHL_Y-2040                                           
+GNR_HP_NGAS_COP-175_PHL_Y-2050                                           
+GNR_HP_NGAS_GE_COP-250_PHL_Y-2020                                        
 )                                                                        
                                                                          
 *Group 12 - Industry Process Heat High No District Heating               
