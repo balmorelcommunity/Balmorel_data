@@ -158,7 +158,7 @@ GMAXF(YYY,CCCRRRAAA,'BIOGAS')=GMAXF('2016',CCCRRRAAA,'BIOGAS');
 GMAXF(YYY,CCCRRRAAA,'OTHERGAS')=GMAXF('2016',CCCRRRAAA,'OTHERGAS');                                                                                                
 GMAXF(YYY,CCCRRRAAA,'COAL')=GMAXF('2016',CCCRRRAAA,'COAL');                                                                                                        
                                                                                                                                                                    
-                                                                                                                                                                   
+$ontext                                                                                                                                                            
 GMAXF(Y,'NORWAY','Coal')$(Y.VAL GE 2020) =EPS;                                                                                                                     
 GMAXF(Y,'NORWAY','Lignite')$(Y.VAL GE 2020) =EPS;                                                                                                                  
                                                                                                                                                                    
@@ -194,3 +194,7 @@ GMAXF(Y,'BELGIUM','Lignite')$(Y.VAL GE 2020) =EPS;
                                                                                                                                                                    
 GMAXF(Y,'NETHERLANDS','Coal')$(Y.VAL GE 2030) =EPS;                                                                                                                
 GMAXF(Y,'NETHERLANDS','Lignite')$(Y.VAL GE 2030) =EPS;                                                                                                             
+                                                                                                                                                                   
+$offtext                                                                                                                                                           
+                                                                                                                                                                   
+                                                                                                                                                                   
