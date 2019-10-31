@@ -1191,4 +1191,9 @@ ZIEL-1_ST_NGAS_BP
 ZIEL-2_ST_COAL_BP                             
 ZIEL-3_ST_NGAS_BP                             
 ZIEL-4_ST_COAL_BP                             
+GNR_HP_NGAS_COP-171_Y-2020                    
+GNR_HP_NGAS_COP-173_Y-2030                    
+GNR_HP_NGAS_COP-174_Y-2040                    
+GNR_HP_NGAS_COP-175_Y-2050                    
+GNR_HP_NGAS_GE_COP-250_Y-2020                 
 /;                                            
