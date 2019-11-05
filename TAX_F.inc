@@ -2,7 +2,7 @@
 ***Negative values are interpreted as subsidies
 ***Oct-2018. Jon Gustav Kirkerud.
 
-PARAMETER TAX_F(YYY,CCC,GGG) 'tax on fuel use';
+PARAMETER TAX_F(YYY,CCCRRRAAA,GGG) 'tax on fuel use';
 
 *** Main input format: per country and per fuel
 TABLE TAX_F_IN(YYY,CCC,FFF) 'tax on fuel use'
@@ -19,25 +19,15 @@ TAX_F_IN(YYY,C,FFF)$(YVALUE(YYY) ne 2015) = TAX_F_IN('2015',C,FFF);
 * Assign values onto TAX_F
 TAX_F(Y,C,G)$((SUM(IA$ICA(C,IA), GKFX(Y,IA,G)) > 0) OR SUM(IA$ICA(C,IA), AGKN(IA,G))) = SUM(FFF$IGF(G,FFF), TAX_F_IN(Y,C,FFF));
 
+
 ***Oct-2019 Yi-kuang Chen adding fuel tax for individual heat.
 $ifi not %indheat%==yes   $goto endindheat
 $ifi not %indheat_geo%==indheat_eu   $goto endindheat
-PARAMETER INDHEAT_TAX_F(YYY,CCC,INDHEAT_GGG);
-
-*** Main input format: per country and per fuel
-TABLE INDHEAT_TAX_F_IN(YYY,CCC,FFF) 'tax on fuel use'
-               IDVH_NATGAS IDVH_COAL IDVH_LIGHTOIL
-2015.DENMARK
-;
-
-* Convert from €2015 to €2012
-INDHEAT_TAX_F_IN(YYY,CCC,FFF) = INDHEAT_TAX_F_IN(YYY,CCC,FFF) * 0.9799;
-
-* Apply 2015 numbers to all years:
-INDHEAT_TAX_F_IN(YYY,C,FFF)$(YVALUE(YYY) ne 2015) = INDHEAT_TAX_F_IN('2015',C,FFF);
-
-* Assign values onto TAX_F
-INDHEAT_TAX_F(Y,C,INDHEAT_G)$((SUM((INDHEAT_GROUP,INDHEAT_IA)$ICA(C,INDHEAT_IA), INDHEAT_GKFX(Y,INDHEAT_IA,INDHEAT_G,INDHEAT_GROUP)) > 0) OR SUM((INDHEAT_GROUP,INDHEAT_IA)$ICA(C,INDHEAT_IA), INDHEAT_AGKN(INDHEAT_IA,INDHEAT_G,INDHEAT_GROUP))) = SUM(FFF$INDHEAT_IGF(INDHEAT_G,FFF), INDHEAT_TAX_F_IN(Y,C,FFF));
+PARAMETER INDHEAT_TAX_F(YYY,INDHEAT_AAA,INDHEAT_GGG);
+* INDHEAT_TAX_F_IN can be found in INDHEAT_FDATA.inc
+* Assign values onto INDHEAT_TAX_F and change unit to EUR-2012/MWh
+INDHEAT_TAX_F(Y,INDHEAT_AAA,INDHEAT_G)$((SUM(INDHEAT_GROUP, INDHEAT_GKFX(Y,INDHEAT_AAA,INDHEAT_G,INDHEAT_GROUP)) > 0) OR SUM(INDHEAT_GROUP, INDHEAT_AGKN(INDHEAT_AAA,INDHEAT_G,INDHEAT_GROUP)))
+        = SUM(FFF$INDHEAT_IGF(INDHEAT_G,FFF), SUM((SECTOR,C), INDHEAT_TAX_F_IN(Y,C,FFF,SECTOR)*ICA(C,INDHEAT_AAA)*INDHEAT_AAAINSECTOR(INDHEAT_AAA,SECTOR)))* IOF3P6;
 $label endindheat
 
 *** Secondary input: exceptions from the main input on technology level
