@@ -1,11 +1,9 @@
-PARAMETER YMODELDELTA(YMODEL)   
-                                
-/                               
-ONEYEAR 0                       
-*ONEYEAR 0,TWOYEAR 1            
-*ONEYEAR 0,TWOYEAR 1,THREEYEAR 1
-                                
-/;                              
-                                
-                                
-                                
+PARAMETER YMODELDELTA(YMODEL)
+
+/
+Y01 0,Y02 1,Y03 1
+*, Y04 1,Y05 1,Y06 1
+/;
+
+
+
