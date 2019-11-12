@@ -1,4 +1,4 @@
-*CHRONOHOUR               
+*CHRONOHOUR
 PARAMETER CHRONOHOUR(S,T);
-CHRONOHOUR(S,T)=1;        
-                          
+CHRONOHOUR(S,T)=7;
+

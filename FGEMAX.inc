@@ -1,4 +1,5 @@
-TABLE FGEMAX(CCCRRRAAA,FFF)   'Maximum electricity generation by fuel (MWh)'                                                             
-*                                                                            NATGAS       MUNIWASTE     STRAW       WOOD        WOODWASTE
-* DK_W                                                                       0                                                           
-;                                                                                                                                        
+TABLE FGEMAX(CCCRRRAAA,FFF)   'Maximum electricity generation by fuel (MWh)'
+                                          NUCLEAR        NATGAS       MUNIWASTE     STRAW       WOOD        WOODWASTE
+FRANCE                                    398360000
+
+;
