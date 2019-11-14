@@ -18,7 +18,7 @@ FUELPRICE(Y,INDHEAT_AAA,'IDVH_WOOD')= FUELPRICE(Y,'DK1_large','WOOD');
 FUELPRICE(Y,INDHEAT_AAA,'IDVH_COAL')= FUELPRICE(Y,'DK1_large','COAL');
 
 *Source:                                                                                                                             eurostat, energy exclude taxes and levies eurostat, energy exclude taxes and levies EC working document
-TABLE FUELPRICE2(YYY,CCC,FFF,SECTOR) "unit: EUR2012/GJ"
+TABLE FUELPRICE_IDVH(YYY,CCC,FFF,SECTOR) "unit: EUR2012/GJ"
                                                                                                                                      IDVH_NATGAS.RES                           IDVH_NATGAS.TER                           IDVH_LIGHTOIL.RES   IDVH_LIGHTOIL.TER
 2017                                                                                                             .    Norway         17.3537218073841                          15.2263187484989                          11.5033931325427    11.5033931325427
 2017                                                                                                             .    Sweden         17.3537218073841                          15.2263187484989                          11.5033931325427    11.5033931325427
@@ -37,7 +37,7 @@ TABLE FUELPRICE2(YYY,CCC,FFF,SECTOR) "unit: EUR2012/GJ"
 
 *2017 prices apply to all modelled years.
 FUELPRICE(Y,INDHEAT_AAA,FFF)$(FUELPRICE(Y,INDHEAT_AAA,FFF) EQ 0) =
-SUM(SECTOR, SUM(C, FUELPRICE2('2017',C,FFF,SECTOR)*ICA(C,INDHEAT_AAA))*INDHEAT_AAAINSECTOR(INDHEAT_AAA,SECTOR));
+SUM(SECTOR, SUM(C, FUELPRICE_IDVH('2017',C,FFF,SECTOR)*ICA(C,INDHEAT_AAA))*INDHEAT_AAAINSECTOR(INDHEAT_AAA,SECTOR));
 
 $ifi not %taxes%==yes $goto endtaxes
 PARAMETER INDHEAT_TAX_F(YYY,INDHEAT_AAA,INDHEAT_GGG);
