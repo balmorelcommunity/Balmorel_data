@@ -1,5 +1,5 @@
 TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
-                                                                NATGAS           MUNIWASTE     STRAW       WOOD        WOODWASTE WOODPELLETS WOODCHIPS
+                                                                NATGAS           MUNIWASTE     STRAW       WOOD        WOODWASTE WOODPELLETS WOODCHIPS      BIOGAS      BIONG
 2016.ESTONIA                                                    0
 2017.ESTONIA                                                    1440000
 2018.ESTONIA                                                    1418181.81818182
@@ -15,8 +15,8 @@ TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
 2028.ESTONIA                                                    1200000
 2029.ESTONIA                                                    1178181.81818182
 
-2020.DENMARK                                                                                   15254380                          EPS         34015823
-2025.DENMARK                                                                                   4549135                           EPS         19939827
+2020.DENMARK                                                                                   15254380                          EPS         34015823       6000000     10000000
+2025.DENMARK                                                                                   4549135                           EPS         19939827       6000000     16000000
 2030.DENMARK                                                                                   2754690                           EPS         10867059.5
 2035.DENMARK                                                                                   960245                            EPS         1794292
 
