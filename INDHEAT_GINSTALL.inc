@@ -64,6 +64,3 @@ INDHEAT_GINSTALL('2016','DK2_NoDH_apart','IDVHG_WP_2010_APART','GR_WP')=        
 INDHEAT_GINSTALL('2016','DK2_NoDH_apart','IDVHG_HPA2W_2010_APART','GR_HPA2W')=                                                      0.02 ;
 INDHEAT_GINSTALL('2016','DK2_NoDH_apart','IDVHG_EL_2010_APART','GR_EL')=                                                            0.06 ;
 $label endindheat_dk
-
-INDHEAT_GINSTALL('2020',INDHEAT_AAA,INDHEAT_GGG,INDHEAT_GROUP)                                                                      =    0.9*INDHEAT_GINSTALL('2016',INDHEAT_AAA,INDHEAT_GGG,INDHEAT_GROUP);
-*INDHEAT_GINSTALL('2030',INDHEAT_AAA,INDHEAT_GGG,INDHEAT_GROUP)                                                                     =    0.2*INDHEAT_GINSTALL('2016',INDHEAT_AAA,INDHEAT_GGG,INDHEAT_GROUP);

@@ -34,10 +34,11 @@ TABLE FUELPRICE_IDVH(YYY,CCC,FFF,SECTOR) "unit: EUR2012/GJ"
 2017                                                                                                             .    Netherlands    10.1018195563416                          9.33916562957141                          8.14823680221773    8.14823680221773
 2017                                                                                                             .    Belgium        11.3729094342918                          10.4363168926443                          10.7844310617588    10.7844310617588
 ;
+FUELPRICE_IDVH(Y,C,'IDVH_NATGAS',SECTOR)= FUELPRICE_IDVH('2017',C,'IDVH_NATGAS',SECTOR)*FUELPRICE(Y,'DK1_large','NATGAS')/FUELPRICE('2017','DK1_large','NATGAS');
+FUELPRICE_IDVH(Y,C,'IDVH_LIGHTOIL',SECTOR)= FUELPRICE_IDVH('2017',C,'IDVH_LIGHTOIL',SECTOR)*FUELPRICE(Y,'DK1_large','LIGHTOIL')/FUELPRICE('2017','DK1_large','LIGHTOIL');
 
-*2017 prices apply to all modelled years.
 FUELPRICE(Y,INDHEAT_AAA,FFF)$(FUELPRICE(Y,INDHEAT_AAA,FFF) EQ 0) =
-SUM(SECTOR, SUM(C, FUELPRICE_IDVH('2017',C,FFF,SECTOR)*ICA(C,INDHEAT_AAA))*INDHEAT_AAAINSECTOR(INDHEAT_AAA,SECTOR));
+SUM(SECTOR, SUM(C, FUELPRICE_IDVH(Y,C,FFF,SECTOR)*ICA(C,INDHEAT_AAA))*INDHEAT_AAAINSECTOR(INDHEAT_AAA,SECTOR));
 
 $ifi not %taxes%==yes $goto endtaxes
 PARAMETER INDHEAT_TAX_F(YYY,INDHEAT_AAA,INDHEAT_GGG);
