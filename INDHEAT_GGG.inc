@@ -82,6 +82,11 @@ IDVHG_WTRTANK_2020_OFH
 IDVHG_WTRTANK_2030_OFH                                         
 IDVHG_WTRTANK_2040_OFH                                         
 IDVHG_WTRTANK_2050_OFH                                         
+IDVHG_WTRTANK_WTRONLY_2015_OFH                                 
+IDVHG_WTRTANK_WTRONLY_2020_OFH                                 
+IDVHG_WTRTANK_WTRONLY_2030_OFH                                 
+IDVHG_WTRTANK_WTRONLY_2040_OFH                                 
+IDVHG_WTRTANK_WTRONLY_2050_OFH                                 
                                                                
 $ifi not %COMBTECH%==yes $goto endcombtech                     
 IDVHG_GB_2010_OFH_BGAS_UP                                      
