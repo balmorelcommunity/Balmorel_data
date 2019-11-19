@@ -1,8 +1,11 @@
 SET YMODEL
 
 /
-Y01,Y02,Y03
-*,Y04,Y05,Y06
-/;
+$ifi "%limitY3%"=="Y3_2016"        ONEYEAR
+$ifi "%limitY3%"=="Y3_2030"        ONEYEAR
+$ifi "%limitY3%"=="Y3_2016_20"     ONEYEAR,TWOYEAR
+$ifi "%limitY3%"=="Y3_2012_20_30"  ONEYEAR,TWOYEAR,THREEYEAR
+$ifi "%limitY3%"=="Y3_2016_20_30"  ONEYEAR,TWOYEAR,THREEYEAR
 
+/;
 

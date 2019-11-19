@@ -1,9 +1,11 @@
 PARAMETER YMODELDELTA(YMODEL)
 
 /
-Y01 0,Y02 1,Y03 1
-*, Y04 1,Y05 1,Y06 1
+$ifi "%limitY3%"=="Y3_2016"        ONEYEAR 0
+$ifi "%limitY3%"=="Y3_2030"        ONEYEAR 0
+$ifi "%limitY3%"=="Y3_2016_20"     ONEYEAR 0,TWOYEAR 1
+$ifi "%limitY3%"=="Y3_2012_20_30"  ONEYEAR 0,TWOYEAR 1,THREEYEAR 1
+$ifi "%limitY3%"=="Y3_2016_20_30"  ONEYEAR 0,TWOYEAR 1,THREEYEAR 1
+
 /;
-
-
 

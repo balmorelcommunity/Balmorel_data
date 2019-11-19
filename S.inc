@@ -1,5 +1,8 @@
 SET S(SSS)  'Seasons in the simulation'
 /
-*S03, S16, S29, S42
-S01*S52
+$ifi %limitST%==yes     S01,S02 ,s03
+$ifi not %limitST%==yes S01*S52
 /;
+
+
+display "S.inc:", S  ;
