@@ -1,0 +1,30 @@
+PARAMETER SECONDARY_RESERVES(YYY,RRR) 'Secondary reserve requirement in each hour (MW)'
+/                                
+2016.DK1     600                             
+2016.DK2     600                                                         
+2016.FIN     600                                                         
+2016.DE4-E   600                                                       
+2016.DE4-N   600                                                      
+2016.DE4-S   600                                                      
+2016.DE4-W   600                                                      
+2016.NL      600                                                       
+2016.NO1     600                                                       
+2016.NO2     600                                                        
+2016.NO3     600                                                       
+2016.NO4     600                                                       
+2016.NO5     600                                                       
+2016.SE1     600                                                       
+2016.SE2     600                                                       
+2016.SE3     600                                                       
+2016.SE4     600                                                      
+2016.UK      600                                                       
+2016.EE      600                                                       
+2016.LV      600                                                       
+2016.LT      600                                                       
+2016.PL      600                                                       
+2016.BE      600                                                       
+2016.FR      600                                                       
+                                 
+/; 
+                              
+SECONDARY_RESERVES(Y,IR) =SECONDARY_RESERVES('2016',IR) ;
