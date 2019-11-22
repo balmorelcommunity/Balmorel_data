@@ -1,4 +1,4 @@
-PARAMETER SECONDARY_RESERVES(YYY,RRR) 'Secondary reserve requirement in each hour (MW)'
+PARAMETER SECONDARY_RESERVES_UP_REGULATION(YYY,RRR) 'Up regulation Secondary reserve requirement in each hour (MW)'
 /
 2016.DK1     90
 2016.DK2     90
@@ -27,4 +27,4 @@ PARAMETER SECONDARY_RESERVES(YYY,RRR) 'Secondary reserve requirement in each hou
 
 /;
 
-SECONDARY_RESERVES(Y,IR) =SECONDARY_RESERVES('2016',IR) ;
+SECONDARY_RESERVES_UP_REGULATION(Y,IR) =SECONDARY_RESERVES_UP_REGULATION('2016',IR) ;

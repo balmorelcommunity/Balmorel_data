@@ -1,4 +1,4 @@
-PARAMETER TERTIARY_RESERVES(YYY,RRR) 'Tertiary reserve requirement in each hour (MW)'
+PARAMETER TERTIARY_RESERVES_DOWN_REGULATION(YYY,RRR) 'Down regulation Tertiary reserve requirement in each hour (MW)'
 /
 2016.DK1     600
 2016.DK2     600
@@ -26,4 +26,4 @@ PARAMETER TERTIARY_RESERVES(YYY,RRR) 'Tertiary reserve requirement in each hour 
 2016.FR      600
 
 /;
-TERTIARY_RESERVES(Y,IR)= TERTIARY_RESERVES('2016',IR) ;
+TERTIARY_RESERVES_DOWN_REGULATION(Y,IR)= TERTIARY_RESERVES_DOWN_REGULATION('2016',IR) ;
