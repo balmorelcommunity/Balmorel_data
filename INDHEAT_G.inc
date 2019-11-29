@@ -1,10 +1,10 @@
 SET INDHEAT_G(INDHEAT_GGG) 'Individual heating technologies in simulation'
 /                                                                         
 IDVHG_OIL_2010_OFH                                                        
-IDVHG_OIL_2020_OFH                                                        
-IDVHG_OIL_2030_OFH                                                        
-IDVHG_OIL_2040_OFH                                                        
-IDVHG_OIL_2050_OFH                                                        
+*IDVHG_OIL_2020_OFH                                                        
+*IDVHG_OIL_2030_OFH                                                        
+*IDVHG_OIL_2040_OFH                                                        
+*IDVHG_OIL_2050_OFH                                                        
 IDVHG_GB_2010_OFH                                                         
 IDVHG_GB_2020_OFH                                                         
 IDVHG_GB_2030_OFH                                                         
