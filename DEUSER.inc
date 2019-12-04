@@ -3,7 +3,7 @@ SET DEUSER  "Electricity demand user groups. Set must include element RESE for h
 RESE                                                                                                                                     
 PII                                                                                                                                      
 OTHER                                                                                                                                    
-                                                                                                                                         
+DATACENTER                                                                                                                               
                                                                                                                                          
 /;                                                                                                                                       
                                                                                                                                          
