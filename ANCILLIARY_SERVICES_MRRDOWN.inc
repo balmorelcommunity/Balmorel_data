@@ -1,4 +1,4 @@
-PARAMETER MRRDOWN(YYY,RRR) 'MRR down regulation requirement in each hour (MW)'
+PARAMETER MRRDOWN(YYY,CCCRRRAAA) 'MRR down regulation requirement in each hour (MW)'
 /
 2016.DK1     0
 2016.DK2     0
@@ -27,4 +27,4 @@ PARAMETER MRRDOWN(YYY,RRR) 'MRR down regulation requirement in each hour (MW)'
 
 /;
 
-MRRDOWN(Y,IR)= MRRDOWN('2016',IR) ;
+MRRDOWN(Y,CCCRRRAAA)= MRRDOWN('2016',CCCRRRAAA) ;

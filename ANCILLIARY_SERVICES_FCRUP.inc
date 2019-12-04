@@ -1,30 +1,20 @@
-PARAMETER FCRUP(YYY,RRR) 'FCR up regulation requirement in each hour (MW)'
+PARAMETER FCRUP(YYY,CCCRRRAAA) 'FCR up regulation requirement in each hour (MW)'
 /
-2016.DK1      27
-2016.DK2
-2016.FIN
-2016.DE4-E    162
-2016.DE4-N    162
-2016.DE4-S    162
-2016.DE4-W    162
-2016.NL       128
-2016.NO1
-2016.NO2
-2016.NO3
-2016.NO4
-2016.NO5
-2016.SE1
-2016.SE2
-2016.SE3
-2016.SE4
-2016.UK
-2016.EE
-2016.LV
-2016.LT
-2016.PL        166
-2016.BE        104
-2016.FR        614
+2016.DK1                  25
+2016.DK2                 123
+2016.FINLAND             397
+2016.GERMANY             632
+2016.NETHERLANDS         136
+2016.NORWAY              563
+2016.SWEDEN              642
+2016.UNITED_KINGDOM     1800
+2016.ESTONIA             233
+2016.LATVIA              233
+2016.LITHUANIA           233
+2016.POLAND              165
+2016.BELGIUM             101
+2016.FRANCE              586
 
 /;
 
-FCRUP(Y,IR)= FCRUP('2016',IR) ;
+FCRUP(Y,CCCRRRAAA)= FCRUP('2016',CCCRRRAAA) ;

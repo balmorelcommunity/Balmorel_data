@@ -1,4 +1,4 @@
-PARAMETER MFRRUP(YYY,RRR) 'MFRR up regulation requirement in each hour (MW)'
+PARAMETER MFRRUP(YYY,CCCRRRAAA) 'MFRR up regulation requirement in each hour (MW)'
 /
 2016.DK1     0
 2016.DK2     0
@@ -27,4 +27,4 @@ PARAMETER MFRRUP(YYY,RRR) 'MFRR up regulation requirement in each hour (MW)'
 
 /;
 
-MFRRUP(Y,IR)= MFRRUP('2016',IR) ;
+MFRRUP(Y,CCCRRRAAA)= MFRRUP('2016',CCCRRRAAA) ;
