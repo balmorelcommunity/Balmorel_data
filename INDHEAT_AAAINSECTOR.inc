@@ -60,12 +60,3 @@ DK2_NoDH_apart                              .    RES
 DK1_NoDH_apart                              .    RES
 $label endindheat_dk
 /;
-
-$ifi not %taxes%==yes                            $goto endtaxes
-SET DEUSERINSECTOR(DEUSER,SECTOR)
-/
-RESE                                        .    RES
-OTHER                                       .    TER
-PII                                         .    INDUS
-/;
-$label endtaxes
