@@ -5,7 +5,7 @@ TABLE XKRATE(IRRRE,IRRRI,SSS)
 ;                                                                                                                                                                                          
                                                                                                                                                                                            
                                                                                                                                                                                            
-XKRATE(IRRRE,IRRRI,S)$((XKRATE(IRRRE,IRRRI,S) EQ 0) and (SUM(Y,XINVCOST(Y,IRRRE,IRRRI))   OR SUM(Y,(XKFX(Y,IRRRE,IRRRI)))))= 0;                                                            
+XKRATE(IRRRE,IRRRI,S)$((XKRATE(IRRRE,IRRRI,S) EQ 0) and (SUM(Y,XINVCOST(Y,IRRRE,IRRRI))   OR SUM(Y,(XKFX(Y,IRRRE,IRRRI)))))= EPS;                                                            
 *----------------------------------------------------------------------------------------                                                                                                  
                                                                                                                                                                                            
                                                                                                                                                                                            

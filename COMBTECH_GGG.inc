@@ -171,6 +171,11 @@ RIGA-TEC2_CC_NGAS_EXT_CT-BIONG
 RZES-2_ST_NGAS_BP_CT-BIONG                    
 VUOSAARIB_CC_NGAS_EXT_CT-BIONG                
 ZIEL-1_ST_NGAS_BP_CT-BIONG                    
+GNR_HP_NGAS_COP-171_Y-2020_CT-BIONG           
+GNR_HP_NGAS_COP-173_Y-2030_CT-BIONG           
+GNR_HP_NGAS_COP-174_Y-2040_CT-BIONG           
+GNR_HP_NGAS_COP-175_Y-2050_CT-BIONG           
+GNR_HP_NGAS_GE_COP-250_Y-2020_CT-BIONG        
 ZIEL-3_ST_NGAS_BP_CT-BIONG                    
 BIAL-4_ST_COAL_CND_CT-WP                      
 BIEL-4_ST_COAL_BP_CT-WP                       
@@ -478,6 +483,11 @@ GNR_BO_NGAS_E-85_PHL_Y-2020_CT_BIONG
 GNR_BO_NGAS_E-86_PHL_Y-2030_CT_BIONG          
 GNR_BO_NGAS_E-86_PHL_Y-2040_CT_BIONG          
 GNR_BO_NGAS_E-86_PHL_Y-2050_CT_BIONG          
+GNR_HP_NGAS_COP-171_PHL_Y-2020_CT_BIONG       
+GNR_HP_NGAS_COP-173_PHL_Y-2030_CT_BIONG       
+GNR_HP_NGAS_COP-174_PHL_Y-2040_CT_BIONG       
+GNR_HP_NGAS_COP-175_PHL_Y-2050_CT_BIONG       
+GNR_HP_NGAS_GE_COP-250_PHL_Y-2020_CT_BIONG    
 $label noindustry                             
 /;                                            
                                               

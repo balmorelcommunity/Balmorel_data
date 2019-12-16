@@ -1,15 +1,15 @@
-PARAMETER SOLEFLH(AAA)  'Full load hours for solar power'
-* Same data used for all regions as for Germany
-/
-*DK2_NoDH                                                                                                                                                               980
-*DK1_NoDH                                                                                                                                                               970
-
-FinA                                                                                                                                                                   900
+PARAMETER SOLEFLH(AAA)  'Full load hours for solar power'                                                                                                                              
+* Same data used for all regions as for Germany                                                                                                                                        
+/                                                                                                                                                                                      
+*DK2_NoDH                                                                                                                                                              980             
+*DK1_NoDH                                                                                                                                                              970             
+                                                                                                                                                                                       
+FinA                                                                                                                                                                   900             
 DE4-E_A                                                                                                                                                                1084.15773430489
 DE4-N_A                                                                                                                                                                1046.76999286996
 DE4-S_A                                                                                                                                                                1118.53727485046
 DE4-W_A                                                                                                                                                                1084.15773430489
-NL_A                                                                                                                                                                   1000
+NL_A                                                                                                                                                                   1000            
 NO1_A1                                                                                                                                                                 957.869595400869
 NO2_A1                                                                                                                                                                 953.285626109235
 NO3_A1                                                                                                                                                                 907.046569963796
@@ -18,45 +18,45 @@ NO5_A1                                                                          
 SE1A                                                                                                                                                                   961.490503317708
 SE2A                                                                                                                                                                   986.138215874704
 SE3A                                                                                                                                                                   1016.49276257529
-SE4A                                                                                                                                                                   1020.2769844501
-UK_A                                                                                                                                                                   1000
-EE_A                                                                                                                                                                   998.64
-LV_A                                                                                                                                                                   998.64
-LT_A                                                                                                                                                                   998.64
+SE4A                                                                                                                                                                   1020.2769844501 
+UK_A                                                                                                                                                                   1000            
+EE_A                                                                                                                                                                   998.64          
+LV_A                                                                                                                                                                   998.64          
+LT_A                                                                                                                                                                   998.64          
 PL_A                                                                                                                                                                   1084.15773430489
-BE_A                                                                                                                                                                   1010
-FR_A                                                                                                                                                                   1180
-
-DE4-N_VRE-ONS_RG1_20-30                                                                                                                                                1010
-DE4-E_VRE-ONS_RG1_20-30                                                                                                                                                1050
-DE4-W_VRE-ONS_RG1_20-30                                                                                                                                                1020
-DE4-S_VRE-ONS_RG1_20-30                                                                                                                                                1100
-*DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1000
-*DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1050
-EE_VRE-ONS_RG1_20-30                                                                                                                                                   1010
-FI_VRE-ONS_RG1_20-30                                                                                                                                                   910
-UK_VRE-ONS_RG1_20-30                                                                                                                                                   1050
-LT_VRE-ONS_RG1_20-30                                                                                                                                                   1010
-LV_VRE-ONS_RG1_20-30                                                                                                                                                   1010
-NL_VRE-ONS_RG1_20-30                                                                                                                                                   1030
-NO1_VRE-ONS_RG1_20-30                                                                                                                                                  950
-NO2_VRE-ONS_RG1_20-30                                                                                                                                                  950
-NO3_VRE-ONS_RG1_20-30                                                                                                                                                  920
-NO4_VRE-ONS_RG1_20-30                                                                                                                                                  910
-NO5_VRE-ONS_RG1_20-30                                                                                                                                                  910
-PL_VRE-ONS_RG1_20-30                                                                                                                                                   1060
-SE1_VRE-ONS_RG1_20-30                                                                                                                                                  910
-SE2_VRE-ONS_RG1_20-30                                                                                                                                                  950
-SE3_VRE-ONS_RG1_20-30                                                                                                                                                  990
-SE4_VRE-ONS_RG1_20-30                                                                                                                                                  1000
-FR_VRE-ONS_RG1_20-30                                                                                                                                                   1450
-BE_VRE-ONS_RG1_20-30                                                                                                                                                   1020
+BE_A                                                                                                                                                                   1010            
+FR_A                                                                                                                                                                   1180            
+                                                                                                                                                                                       
+DE4-N_VRE-ONS_RG1_20-30                                                                                                                                                1010            
+DE4-E_VRE-ONS_RG1_20-30                                                                                                                                                1050            
+DE4-W_VRE-ONS_RG1_20-30                                                                                                                                                1020            
+DE4-S_VRE-ONS_RG1_20-30                                                                                                                                                1100            
+*DK1_VRE-ONS_RG1_20-30                                                                                                                                                 1000            
+*DK2_VRE-ONS_RG1_20-30                                                                                                                                                 1050            
+EE_VRE-ONS_RG1_20-30                                                                                                                                                   1010            
+FI_VRE-ONS_RG1_20-30                                                                                                                                                   910             
+UK_VRE-ONS_RG1_20-30                                                                                                                                                   1050            
+LT_VRE-ONS_RG1_20-30                                                                                                                                                   1010            
+LV_VRE-ONS_RG1_20-30                                                                                                                                                   1010            
+NL_VRE-ONS_RG1_20-30                                                                                                                                                   1030            
+NO1_VRE-ONS_RG1_20-30                                                                                                                                                  950             
+NO2_VRE-ONS_RG1_20-30                                                                                                                                                  950             
+NO3_VRE-ONS_RG1_20-30                                                                                                                                                  920             
+NO4_VRE-ONS_RG1_20-30                                                                                                                                                  910             
+NO5_VRE-ONS_RG1_20-30                                                                                                                                                  910             
+PL_VRE-ONS_RG1_20-30                                                                                                                                                   1060            
+SE1_VRE-ONS_RG1_20-30                                                                                                                                                  910             
+SE2_VRE-ONS_RG1_20-30                                                                                                                                                  950             
+SE3_VRE-ONS_RG1_20-30                                                                                                                                                  990             
+SE4_VRE-ONS_RG1_20-30                                                                                                                                                  1000            
+FR_VRE-ONS_RG1_20-30                                                                                                                                                   1450            
+BE_VRE-ONS_RG1_20-30                                                                                                                                                   1020            
 DE4-N_VRE-ONS_RG1_30-40                                                                                                                                                1042.67364414843
 DE4-E_VRE-ONS_RG1_30-40                                                                                                                                                1083.96764985728
 DE4-W_VRE-ONS_RG1_30-40                                                                                                                                                1052.99714557564
 DE4-S_VRE-ONS_RG1_30-40                                                                                                                                                1135.58515699334
-*DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1032.35014272122
-*DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1083.96764985728
+*DK1_VRE-ONS_RG1_30-40                                                                                                                                                 1032.35014272122
+*DK2_VRE-ONS_RG1_30-40                                                                                                                                                 1083.96764985728
 EE_VRE-ONS_RG1_30-40                                                                                                                                                   1042.67364414843
 FI_VRE-ONS_RG1_30-40                                                                                                                                                   939.438629876308
 UK_VRE-ONS_RG1_30-40                                                                                                                                                   1083.96764985728
@@ -65,7 +65,7 @@ LV_VRE-ONS_RG1_30-40                                                            
 NL_VRE-ONS_RG1_30-40                                                                                                                                                   1063.32064700285
 NO1_VRE-ONS_RG1_30-40                                                                                                                                                  980.732635585157
 NO2_VRE-ONS_RG1_30-40                                                                                                                                                  980.732635585157
-NO3_VRE-ONS_RG1_30-40                                                                                                                                                  949.76213130352
+NO3_VRE-ONS_RG1_30-40                                                                                                                                                  949.76213130352 
 NO4_VRE-ONS_RG1_30-40                                                                                                                                                  939.438629876308
 NO5_VRE-ONS_RG1_30-40                                                                                                                                                  939.438629876308
 PL_VRE-ONS_RG1_30-40                                                                                                                                                   1094.29115128449
@@ -79,8 +79,8 @@ DE4-N_VRE-ONS_RG1_40-50                                                         
 DE4-E_VRE-ONS_RG1_40-50                                                                                                                                                1101.45099904853
 DE4-W_VRE-ONS_RG1_40-50                                                                                                                                                1069.98097050428
 DE4-S_VRE-ONS_RG1_40-50                                                                                                                                                1153.90104662226
-*DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1049.00095147479
-*DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1101.45099904853
+*DK1_VRE-ONS_RG1_40-50                                                                                                                                                 1049.00095147479
+*DK2_VRE-ONS_RG1_40-50                                                                                                                                                 1101.45099904853
 EE_VRE-ONS_RG1_40-50                                                                                                                                                   1059.49096098953
 FI_VRE-ONS_RG1_40-50                                                                                                                                                   954.590865842055
 UK_VRE-ONS_RG1_40-50                                                                                                                                                   1101.45099904853
@@ -103,14 +103,14 @@ DE4-N_VRE-ONS_RG1_50                                                            
 DE4-E_VRE-ONS_RG1_50                                                                                                                                                   1118.93434823977
 DE4-W_VRE-ONS_RG1_50                                                                                                                                                   1086.96479543292
 DE4-S_VRE-ONS_RG1_50                                                                                                                                                   1172.21693625119
-*DK1_VRE-ONS_RG1_50                                                                                                                                                     1065.65176022835
-*DK2_VRE-ONS_RG1_50                                                                                                                                                     1118.93434823977
+*DK1_VRE-ONS_RG1_50                                                                                                                                                    1065.65176022835
+*DK2_VRE-ONS_RG1_50                                                                                                                                                    1118.93434823977
 EE_VRE-ONS_RG1_50                                                                                                                                                      1076.30827783064
 FI_VRE-ONS_RG1_50                                                                                                                                                      969.743101807802
 UK_VRE-ONS_RG1_50                                                                                                                                                      1118.93434823977
 LT_VRE-ONS_RG1_50                                                                                                                                                      1076.30827783064
 LV_VRE-ONS_RG1_50                                                                                                                                                      1076.30827783064
-NL_VRE-ONS_RG1_50                                                                                                                                                      1097.6213130352
+NL_VRE-ONS_RG1_50                                                                                                                                                      1097.6213130352 
 NO1_VRE-ONS_RG1_50                                                                                                                                                     1012.36917221694
 NO2_VRE-ONS_RG1_50                                                                                                                                                     1012.36917221694
 NO3_VRE-ONS_RG1_50                                                                                                                                                     980.399619410086
@@ -123,36 +123,36 @@ SE3_VRE-ONS_RG1_50                                                              
 SE4_VRE-ONS_RG1_50                                                                                                                                                     1065.65176022835
 FR_VRE-ONS_RG1_50                                                                                                                                                      1545.19505233111
 BE_VRE-ONS_RG1_50                                                                                                                                                      1086.96479543292
-DE4-N_VRE-ONS_RG2_20-30                                                                                                                                                960
-DE4-E_VRE-ONS_RG2_20-30                                                                                                                                                1000
-DE4-W_VRE-ONS_RG2_20-30                                                                                                                                                970
-DE4-S_VRE-ONS_RG2_20-30                                                                                                                                                1050
-*DK1_VRE-ONS_RG2_20-30                                                                                                                                                  950
-*DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1000
-EE_VRE-ONS_RG2_20-30                                                                                                                                                   960
-FI_VRE-ONS_RG2_20-30                                                                                                                                                   860
-UK_VRE-ONS_RG2_20-30                                                                                                                                                   970
-LT_VRE-ONS_RG2_20-30                                                                                                                                                   960
-LV_VRE-ONS_RG2_20-30                                                                                                                                                   960
-NL_VRE-ONS_RG2_20-30                                                                                                                                                   980
-NO1_VRE-ONS_RG2_20-30                                                                                                                                                  900
-NO2_VRE-ONS_RG2_20-30                                                                                                                                                  900
-NO3_VRE-ONS_RG2_20-30                                                                                                                                                  870
-NO4_VRE-ONS_RG2_20-30                                                                                                                                                  860
-NO5_VRE-ONS_RG2_20-30                                                                                                                                                  860
-PL_VRE-ONS_RG2_20-30                                                                                                                                                   1010
-SE1_VRE-ONS_RG2_20-30                                                                                                                                                  860
-SE2_VRE-ONS_RG2_20-30                                                                                                                                                  900
-SE3_VRE-ONS_RG2_20-30                                                                                                                                                  940
-SE4_VRE-ONS_RG2_20-30                                                                                                                                                  950
-FR_VRE-ONS_RG2_20-30                                                                                                                                                   1250
-BE_VRE-ONS_RG2_20-30                                                                                                                                                   970
+DE4-N_VRE-ONS_RG2_20-30                                                                                                                                                960             
+DE4-E_VRE-ONS_RG2_20-30                                                                                                                                                1000            
+DE4-W_VRE-ONS_RG2_20-30                                                                                                                                                970             
+DE4-S_VRE-ONS_RG2_20-30                                                                                                                                                1050            
+*DK1_VRE-ONS_RG2_20-30                                                                                                                                                 950             
+*DK2_VRE-ONS_RG2_20-30                                                                                                                                                 1000            
+EE_VRE-ONS_RG2_20-30                                                                                                                                                   960             
+FI_VRE-ONS_RG2_20-30                                                                                                                                                   860             
+UK_VRE-ONS_RG2_20-30                                                                                                                                                   970             
+LT_VRE-ONS_RG2_20-30                                                                                                                                                   960             
+LV_VRE-ONS_RG2_20-30                                                                                                                                                   960             
+NL_VRE-ONS_RG2_20-30                                                                                                                                                   980             
+NO1_VRE-ONS_RG2_20-30                                                                                                                                                  900             
+NO2_VRE-ONS_RG2_20-30                                                                                                                                                  900             
+NO3_VRE-ONS_RG2_20-30                                                                                                                                                  870             
+NO4_VRE-ONS_RG2_20-30                                                                                                                                                  860             
+NO5_VRE-ONS_RG2_20-30                                                                                                                                                  860             
+PL_VRE-ONS_RG2_20-30                                                                                                                                                   1010            
+SE1_VRE-ONS_RG2_20-30                                                                                                                                                  860             
+SE2_VRE-ONS_RG2_20-30                                                                                                                                                  900             
+SE3_VRE-ONS_RG2_20-30                                                                                                                                                  940             
+SE4_VRE-ONS_RG2_20-30                                                                                                                                                  950             
+FR_VRE-ONS_RG2_20-30                                                                                                                                                   1250            
+BE_VRE-ONS_RG2_20-30                                                                                                                                                   970             
 DE4-N_VRE-ONS_RG2_30-40                                                                                                                                                991.056137012369
 DE4-E_VRE-ONS_RG2_30-40                                                                                                                                                1032.35014272122
 DE4-W_VRE-ONS_RG2_30-40                                                                                                                                                1001.37963843958
 DE4-S_VRE-ONS_RG2_30-40                                                                                                                                                1083.96764985728
-*DK1_VRE-ONS_RG2_30-40                                                                                                                                                  980.732635585157
-*DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1032.35014272122
+*DK1_VRE-ONS_RG2_30-40                                                                                                                                                 980.732635585157
+*DK2_VRE-ONS_RG2_30-40                                                                                                                                                 1032.35014272122
 EE_VRE-ONS_RG2_30-40                                                                                                                                                   991.056137012369
 FI_VRE-ONS_RG2_30-40                                                                                                                                                   887.821122740247
 UK_VRE-ONS_RG2_30-40                                                                                                                                                   1001.37963843958
@@ -175,8 +175,8 @@ DE4-N_VRE-ONS_RG2_40-50                                                         
 DE4-E_VRE-ONS_RG2_40-50                                                                                                                                                1049.00095147479
 DE4-W_VRE-ONS_RG2_40-50                                                                                                                                                1017.53092293054
 DE4-S_VRE-ONS_RG2_40-50                                                                                                                                                1101.45099904853
-*DK1_VRE-ONS_RG2_40-50                                                                                                                                                  996.550903901047
-*DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1049.00095147479
+*DK1_VRE-ONS_RG2_40-50                                                                                                                                                 996.550903901047
+*DK2_VRE-ONS_RG2_40-50                                                                                                                                                 1049.00095147479
 EE_VRE-ONS_RG2_40-50                                                                                                                                                   1007.04091341579
 FI_VRE-ONS_RG2_40-50                                                                                                                                                   902.140818268316
 UK_VRE-ONS_RG2_40-50                                                                                                                                                   1017.53092293054
@@ -197,13 +197,13 @@ FR_VRE-ONS_RG2_40-50                                                            
 BE_VRE-ONS_RG2_40-50                                                                                                                                                   1017.53092293054
 DE4-N_VRE-ONS_RG2_50                                                                                                                                                   1023.02568981922
 DE4-E_VRE-ONS_RG2_50                                                                                                                                                   1065.65176022835
-DE4-W_VRE-ONS_RG2_50                                                                                                                                                   1033.6822074215
+DE4-W_VRE-ONS_RG2_50                                                                                                                                                   1033.6822074215 
 DE4-S_VRE-ONS_RG2_50                                                                                                                                                   1118.93434823977
-*DK1_VRE-ONS_RG2_50                                                                                                                                                     1012.36917221694
-*DK2_VRE-ONS_RG2_50                                                                                                                                                     1065.65176022835
+*DK1_VRE-ONS_RG2_50                                                                                                                                                    1012.36917221694
+*DK2_VRE-ONS_RG2_50                                                                                                                                                    1065.65176022835
 EE_VRE-ONS_RG2_50                                                                                                                                                      1023.02568981922
 FI_VRE-ONS_RG2_50                                                                                                                                                      916.460513796384
-UK_VRE-ONS_RG2_50                                                                                                                                                      1033.6822074215
+UK_VRE-ONS_RG2_50                                                                                                                                                      1033.6822074215 
 LT_VRE-ONS_RG2_50                                                                                                                                                      1023.02568981922
 LV_VRE-ONS_RG2_50                                                                                                                                                      1023.02568981922
 NL_VRE-ONS_RG2_50                                                                                                                                                      1044.33872502379
@@ -218,155 +218,204 @@ SE2_VRE-ONS_RG2_50                                                              
 SE3_VRE-ONS_RG2_50                                                                                                                                                     1001.71265461465
 SE4_VRE-ONS_RG2_50                                                                                                                                                     1012.36917221694
 FR_VRE-ONS_RG2_50                                                                                                                                                      1332.06470028544
-BE_VRE-ONS_RG2_50                                                                                                                                                      1033.6822074215
-UK_VRE-ONS_RG3_20-30                                                                                                                                                   880
+BE_VRE-ONS_RG2_50                                                                                                                                                      1033.6822074215 
+UK_VRE-ONS_RG3_20-30                                                                                                                                                   880             
 UK_VRE-ONS_RG3_30-40                                                                                                                                                   908.468125594672
 UK_VRE-ONS_RG3_40-50                                                                                                                                                   923.120837297811
 UK_VRE-ONS_RG3_50                                                                                                                                                      937.773549000951
-FR_VRE-ONS_RG3_20-30                                                                                                                                                   1100
+FR_VRE-ONS_RG3_20-30                                                                                                                                                   1100            
 FR_VRE-ONS_RG3_30-40                                                                                                                                                   1135.58515699334
 FR_VRE-ONS_RG3_40-50                                                                                                                                                   1153.90104662226
 FR_VRE-ONS_RG3_50                                                                                                                                                      1172.21693625119
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+$ontext                                                                                                                                                                                
+                                                                                                                                                                                       
+DK2_NoDH                                                                                                                                                               980             
+DK1_NoDH                                                                                                                                                               970             
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1000            
+DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1050            
+DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1032            
+DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1084            
+DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1049            
+DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1101            
+DK1_VRE-ONS_RG1_50                                                                                                                                                     1066            
+DK2_VRE-ONS_RG1_50                                                                                                                                                     1119            
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG2_20-30                                                                                                                                                  950             
+DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1000            
+DK1_VRE-ONS_RG2_30-40                                                                                                                                                  981             
+DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1032            
+DK1_VRE-ONS_RG2_40-50                                                                                                                                                  997             
+DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1049            
+DK1_VRE-ONS_RG2_50                                                                                                                                                     1012            
+DK2_VRE-ONS_RG2_50                                                                                                                                                     1066            
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+$offtext                                                                                                                                                                               
+                                                                                                                                                                                       
+$ontext                                                                                                                                                                                
+DK2_NoDH                                                                                                                                                               980             
+DK1_NoDH                                                                                                                                                               970             
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1050            
+DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1100            
+DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1075            
+DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1125            
+DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1100            
+DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1150            
+DK1_VRE-ONS_RG1_50                                                                                                                                                     1120            
+DK2_VRE-ONS_RG1_50                                                                                                                                                     1150            
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG2_20-30                                                                                                                                                  1000            
+DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1050            
+DK1_VRE-ONS_RG2_30-40                                                                                                                                                  1025            
+DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1075            
+DK1_VRE-ONS_RG2_40-50                                                                                                                                                  1050            
+DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1100            
+DK1_VRE-ONS_RG2_50                                                                                                                                                     1070            
+DK2_VRE-ONS_RG2_50                                                                                                                                                     1100            
+                                                                                                                                                                                       
+$offtext                                                                                                                                                                               
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+$ontext                                                                                                                                                                                
+                                                                                                                                                                                       
+DK2_NoDH                                                                                                                                                               980             
+DK1_NoDH                                                                                                                                                               970             
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1050            
+DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1050            
+DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1084            
+DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1084            
+DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1101            
+DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1101            
+DK1_VRE-ONS_RG1_50                                                                                                                                                     1119            
+DK2_VRE-ONS_RG1_50                                                                                                                                                     1119            
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG2_20-30                                                                                                                                                  950             
+DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1000            
+DK1_VRE-ONS_RG2_30-40                                                                                                                                                  981             
+DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1032            
+DK1_VRE-ONS_RG2_40-50                                                                                                                                                  997             
+DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1049            
+DK1_VRE-ONS_RG2_50                                                                                                                                                     1012            
+DK2_VRE-ONS_RG2_50                                                                                                                                                     1066            
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+$offtext                                                                                                                                                                               
+                                                                                                                                                                                       
+$ontext                                                                                                                                                                                
+                                                                                                                                                                                       
+DK2_NoDH                                                                                                                                                               980             
+DK1_NoDH                                                                                                                                                               970             
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1030            
+DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1050            
+DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1064            
+DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1084            
+DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1081            
+DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1101            
+DK1_VRE-ONS_RG1_50                                                                                                                                                     1099            
+DK2_VRE-ONS_RG1_50                                                                                                                                                     1119            
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG2_20-30                                                                                                                                                  1010            
+DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1030            
+DK1_VRE-ONS_RG2_30-40                                                                                                                                                  1044            
+DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1064            
+DK1_VRE-ONS_RG2_40-50                                                                                                                                                  1061            
+DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1091            
+DK1_VRE-ONS_RG2_50                                                                                                                                                     1979            
+DK2_VRE-ONS_RG2_50                                                                                                                                                     1099            
+                                                                                                                                                                                       
+$offtext                                                                                                                                                                               
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+DK2_NoDH                                                                                                                                                               980             
+DK1_NoDH                                                                                                                                                               970             
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1120            
+DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1120            
+DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1130            
+DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1130            
+DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1140            
+DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1140            
+DK1_VRE-ONS_RG1_50                                                                                                                                                     1150            
+DK2_VRE-ONS_RG1_50                                                                                                                                                     1150            
+                                                                                                                                                                                       
+DK1_VRE-ONS_RG2_20-30                                                                                                                                                  1030            
+DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1050            
+DK1_VRE-ONS_RG2_30-40                                                                                                                                                  1080            
+DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1080            
+DK1_VRE-ONS_RG2_40-50                                                                                                                                                  1090            
+DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1090            
+DK1_VRE-ONS_RG2_50                                                                                                                                                     1100            
+DK2_VRE-ONS_RG2_50                                                                                                                                                     1100            
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+                                                                                                                                                                                       
+/;                                                                                                                                                                                     
+                                                                                                                                                                                       
+* If SOLEFLH has no values, but solar power is an investment option or has capacity in GKFX: Use the same value as DK2_NoDH                                                            
+SOLEFLH(IA)$((NOT SOLEFLH(IA)) AND (SUM(G$(GDATA(G,'GDTYPE') EQ GSOLE), AGKN(IA,G)) OR SUM((G,Y)$(GDATA(G,'GDTYPE') EQ GSOLE), GKFX(Y,IA,G)))) = SOLEFLH('DK2_NoDH') ;  
+
+SOLEFLH('DE4-N_VRE-ONS_RG1_20-30')=SOLEFLH('DE4-N_VRE-ONS_RG1_20-30')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG1_20-30')=SOLEFLH('DE4-E_VRE-ONS_RG1_20-30')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG1_20-30')=SOLEFLH('DE4-W_VRE-ONS_RG1_20-30')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG1_20-30')=SOLEFLH('DE4-S_VRE-ONS_RG1_20-30')*1.25;
+
+SOLEFLH('DE4-N_VRE-ONS_RG1_30-40')=SOLEFLH('DE4-N_VRE-ONS_RG1_30-40')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG1_30-40')=SOLEFLH('DE4-E_VRE-ONS_RG1_30-40')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG1_30-40')=SOLEFLH('DE4-W_VRE-ONS_RG1_30-40')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG1_30-40')=SOLEFLH('DE4-S_VRE-ONS_RG1_30-40')*1.25;
+
+SOLEFLH('DE4-N_VRE-ONS_RG1_40-50')=SOLEFLH('DE4-N_VRE-ONS_RG1_40-50')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG1_40-50')=SOLEFLH('DE4-E_VRE-ONS_RG1_40-50')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG1_40-50')=SOLEFLH('DE4-W_VRE-ONS_RG1_40-50')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG1_40-50')=SOLEFLH('DE4-S_VRE-ONS_RG1_40-50')*1.25;
+
+SOLEFLH('DE4-N_VRE-ONS_RG1_50')=SOLEFLH('DE4-N_VRE-ONS_RG1_50')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG1_50')=SOLEFLH('DE4-E_VRE-ONS_RG1_50')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG1_50')=SOLEFLH('DE4-W_VRE-ONS_RG1_50')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG1_50')=SOLEFLH('DE4-S_VRE-ONS_RG1_50')*1.25;
+
+SOLEFLH('DE4-N_VRE-ONS_RG2_20-30')=SOLEFLH('DE4-N_VRE-ONS_RG2_20-30')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG2_20-30')=SOLEFLH('DE4-E_VRE-ONS_RG2_20-30')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG2_20-30')=SOLEFLH('DE4-W_VRE-ONS_RG2_20-30')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG2_20-30')=SOLEFLH('DE4-S_VRE-ONS_RG2_20-30')*1.25;
+
+SOLEFLH('DE4-N_VRE-ONS_RG2_30-40')=SOLEFLH('DE4-N_VRE-ONS_RG2_30-40')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG2_30-40')=SOLEFLH('DE4-E_VRE-ONS_RG2_30-40')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG2_30-40')=SOLEFLH('DE4-W_VRE-ONS_RG2_30-40')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG2_30-40')=SOLEFLH('DE4-S_VRE-ONS_RG2_30-40')*1.25;
+
+SOLEFLH('DE4-N_VRE-ONS_RG2_40-50')=SOLEFLH('DE4-N_VRE-ONS_RG2_40-50')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG2_40-50')=SOLEFLH('DE4-E_VRE-ONS_RG2_40-50')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG2_40-50')=SOLEFLH('DE4-W_VRE-ONS_RG2_40-50')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG2_40-50')=SOLEFLH('DE4-S_VRE-ONS_RG2_40-50')*1.25;
+
+SOLEFLH('DE4-N_VRE-ONS_RG2_50')=SOLEFLH('DE4-N_VRE-ONS_RG2_50')*1.25;
+SOLEFLH('DE4-E_VRE-ONS_RG2_50')=SOLEFLH('DE4-E_VRE-ONS_RG2_50')*1.25;
+SOLEFLH('DE4-W_VRE-ONS_RG2_50')=SOLEFLH('DE4-W_VRE-ONS_RG2_50')*1.25;
+SOLEFLH('DE4-S_VRE-ONS_RG2_50')=SOLEFLH('DE4-S_VRE-ONS_RG2_50')*1.25;
+
+
+SOLEFLH('DE4-N_A')=SOLEFLH('DE4-N_A')*1.25;
+SOLEFLH('DE4-E_A')=SOLEFLH('DE4-E_A')*1.25;
+SOLEFLH('DE4-W_A ')=SOLEFLH('DE4-W_A')*1.25;
+SOLEFLH('DE4-S_A')=SOLEFLH('DE4-S_A')*1.25;
 
 
 
-
-$ontext
-
-DK2_NoDH                                                                                                                                                               980
-DK1_NoDH                                                                                                                                                               970
-
-DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1000
-DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1050
-DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1032.35014272122
-DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1083.96764985728
-DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1049.00095147479
-DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1101.45099904853
-DK1_VRE-ONS_RG1_50                                                                                                                                                     1065.65176022835
-DK2_VRE-ONS_RG1_50                                                                                                                                                     1118.93434823977
-
-DK1_VRE-ONS_RG2_20-30                                                                                                                                                  950
-DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1000
-DK1_VRE-ONS_RG2_30-40                                                                                                                                                  980.732635585157
-DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1032.35014272122
-DK1_VRE-ONS_RG2_40-50                                                                                                                                                  996.550903901047
-DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1049.00095147479
-DK1_VRE-ONS_RG2_50                                                                                                                                                     1012.36917221694
-DK2_VRE-ONS_RG2_50                                                                                                                                                     1065.65176022835
-
-
-
-
-$offtext
-
-$ontext
-DK2_NoDH                                                                                                                                                               980
-DK1_NoDH                                                                                                                                                               970
-
-DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1050
-DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1100
-DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1075
-DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1125
-DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1100
-DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1150
-DK1_VRE-ONS_RG1_50                                                                                                                                                     1120
-DK2_VRE-ONS_RG1_50                                                                                                                                                     1150
-
-DK1_VRE-ONS_RG2_20-30                                                                                                                                                  1000
-DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1050
-DK1_VRE-ONS_RG2_30-40                                                                                                                                                  1025
-DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1075
-DK1_VRE-ONS_RG2_40-50                                                                                                                                                  1050
-DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1100
-DK1_VRE-ONS_RG2_50                                                                                                                                                     1070
-DK2_VRE-ONS_RG2_50                                                                                                                                                     1100
-
-$offtext
-
-
-$ontext
-
-DK2_NoDH                                                                                                                                                               980
-DK1_NoDH                                                                                                                                                               970
-
-DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1050
-DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1050
-DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1083.96764985728
-DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1083.96764985728
-DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1101.45099904853
-DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1101.45099904853
-DK1_VRE-ONS_RG1_50                                                                                                                                                     1118.93434823977
-DK2_VRE-ONS_RG1_50                                                                                                                                                     1118.93434823977
-
-DK1_VRE-ONS_RG2_20-30                                                                                                                                                  950
-DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1000
-DK1_VRE-ONS_RG2_30-40                                                                                                                                                  980.732635585157
-DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1032.35014272122
-DK1_VRE-ONS_RG2_40-50                                                                                                                                                  996.550903901047
-DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1049.00095147479
-DK1_VRE-ONS_RG2_50                                                                                                                                                     1012.36917221694
-DK2_VRE-ONS_RG2_50                                                                                                                                                     1065.65176022835
-
-
-$offtext
-
-$ontext
-
-DK2_NoDH                                                                                                                                                               980
-DK1_NoDH                                                                                                                                                               970
-
-DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1030
-DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1050
-DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1063.96764985728
-DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1083.96764985728
-DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1081.45099904853
-DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1101.45099904853
-DK1_VRE-ONS_RG1_50                                                                                                                                                     1098.93434823977
-DK2_VRE-ONS_RG1_50                                                                                                                                                     1118.93434823977
-
-DK1_VRE-ONS_RG2_20-30                                                                                                                                                  1010
-DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1030
-DK1_VRE-ONS_RG2_30-40                                                                                                                                                  1043.96764985728
-DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1063.96764985728
-DK1_VRE-ONS_RG2_40-50                                                                                                                                                  1061.45099904853
-DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1091.45099904853
-DK1_VRE-ONS_RG2_50                                                                                                                                                     1078.93434823977
-DK2_VRE-ONS_RG2_50                                                                                                                                                     1098.93434823977
-
-$offtext
-
-
-DK2_NoDH                                                                                                                                                               980
-DK1_NoDH                                                                                                                                                               970
-
-DK1_VRE-ONS_RG1_20-30                                                                                                                                                  1120
-DK2_VRE-ONS_RG1_20-30                                                                                                                                                  1120
-DK1_VRE-ONS_RG1_30-40                                                                                                                                                  1130
-DK2_VRE-ONS_RG1_30-40                                                                                                                                                  1130
-DK1_VRE-ONS_RG1_40-50                                                                                                                                                  1140
-DK2_VRE-ONS_RG1_40-50                                                                                                                                                  1140
-DK1_VRE-ONS_RG1_50                                                                                                                                                     1150
-DK2_VRE-ONS_RG1_50                                                                                                                                                     1150
-
-DK1_VRE-ONS_RG2_20-30                                                                                                                                                  1030
-DK2_VRE-ONS_RG2_20-30                                                                                                                                                  1050
-DK1_VRE-ONS_RG2_30-40                                                                                                                                                  1080
-DK2_VRE-ONS_RG2_30-40                                                                                                                                                  1080
-DK1_VRE-ONS_RG2_40-50                                                                                                                                                  1090
-DK2_VRE-ONS_RG2_40-50                                                                                                                                                  1090
-DK1_VRE-ONS_RG2_50                                                                                                                                                     1100
-DK2_VRE-ONS_RG2_50                                                                                                                                                     1100
-
-
-
-
-
-
-
-
-
-
-/;
-
-* If SOLEFLH has no values, but solar power is an investment option or has capacity in GKFX: Use the same value as DK2_NoDH
-SOLEFLH(IA)$((NOT SOLEFLH(IA)) AND (SUM(G$(GDATA(G,'GDTYPE') EQ GSOLE), AGKN(IA,G)) OR SUM((G,Y)$(GDATA(G,'GDTYPE') EQ GSOLE), GKFX(Y,IA,G)))) = SOLEFLH('DK2_NoDH') ;
