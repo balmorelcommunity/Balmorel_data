@@ -1,0 +1,1 @@
+TIMELENGHT(TTT)=1; 
