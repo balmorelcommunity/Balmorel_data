@@ -1,7 +1,7 @@
 SET INDHEAT_GINGROUP(INDHEAT_GGG,INDHEAT_GROUP) 'Technologies belonging to each group'
 /
 IDVHG_COAL_2010_OFH                                                                     .    GR_COAL_TANK
-IDVHG_WTRTANK_2015_OFH                                                                  .    GR_COAL_TANK        
+IDVHG_WTRTANK_2015_OFH                                                                  .    GR_COAL_TANK
 IDVHG_EL_2010_OFH                                                                       .    GR_EL_TANK
 IDVHG_EL_2020_OFH                                                                       .    GR_EL_TANK
 IDVHG_EL_2030_OFH                                                                       .    GR_EL_TANK
@@ -127,6 +127,39 @@ IDVHG_WTRTANK_2020_OFH                                                          
 IDVHG_WTRTANK_2030_OFH                                                                  .    GR_HPA2W_TANK
 IDVHG_WTRTANK_2040_OFH                                                                  .    GR_HPA2W_TANK
 IDVHG_WTRTANK_2050_OFH                                                                  .    GR_HPA2W_TANK
+*
+IDVHG_AbGHPA2W_2010_OFH                                                                 .    GR_AbGHPA2W_TANK
+IDVHG_AbGHPA2W_2020_OFH                                                                 .    GR_AbGHPA2W_TANK
+IDVHG_AbGHPA2W_2030_OFH                                                                 .    GR_AbGHPA2W_TANK
+IDVHG_AbGHPA2W_2040_OFH                                                                 .    GR_AbGHPA2W_TANK
+IDVHG_AbGHPA2W_2050_OFH                                                                 .    GR_AbGHPA2W_TANK
+IDVHG_WTRTANK_2015_OFH                                                                  .    GR_AbGHPA2W_TANK
+IDVHG_WTRTANK_2020_OFH                                                                  .    GR_AbGHPA2W_TANK
+IDVHG_WTRTANK_2030_OFH                                                                  .    GR_AbGHPA2W_TANK
+IDVHG_WTRTANK_2040_OFH                                                                  .    GR_AbGHPA2W_TANK
+IDVHG_WTRTANK_2050_OFH                                                                  .    GR_AbGHPA2W_TANK
+IDVHG_AbGHPB2W_2010_OFH                                                                 .    GR_AbGHPB2W_TANK
+IDVHG_AbGHPB2W_2020_OFH                                                                 .    GR_AbGHPB2W_TANK
+IDVHG_AbGHPB2W_2030_OFH                                                                 .    GR_AbGHPB2W_TANK
+IDVHG_AbGHPB2W_2040_OFH                                                                 .    GR_AbGHPB2W_TANK
+IDVHG_AbGHPB2W_2050_OFH                                                                 .    GR_AbGHPB2W_TANK
+IDVHG_WTRTANK_2015_OFH                                                                  .    GR_AbGHPB2W_TANK
+IDVHG_WTRTANK_2020_OFH                                                                  .    GR_AbGHPB2W_TANK
+IDVHG_WTRTANK_2030_OFH                                                                  .    GR_AbGHPB2W_TANK
+IDVHG_WTRTANK_2040_OFH                                                                  .    GR_AbGHPB2W_TANK
+IDVHG_WTRTANK_2050_OFH                                                                  .    GR_AbGHPB2W_TANK
+IDVHG_AdGHPB2W_2010_OFH                                                                 .    GR_AdGHPB2W_TANK
+IDVHG_AdGHPB2W_2020_OFH                                                                 .    GR_AdGHPB2W_TANK
+IDVHG_AdGHPB2W_2030_OFH                                                                 .    GR_AdGHPB2W_TANK
+IDVHG_AdGHPB2W_2040_OFH                                                                 .    GR_AdGHPB2W_TANK
+IDVHG_AdGHPB2W_2050_OFH                                                                 .    GR_AdGHPB2W_TANK
+IDVHG_WTRTANK_2015_OFH                                                                  .    GR_AdGHPB2W_TANK
+IDVHG_WTRTANK_2020_OFH                                                                  .    GR_AdGHPB2W_TANK
+IDVHG_WTRTANK_2030_OFH                                                                  .    GR_AdGHPB2W_TANK
+IDVHG_WTRTANK_2040_OFH                                                                  .    GR_AdGHPB2W_TANK
+IDVHG_WTRTANK_2050_OFH                                                                  .    GR_AdGHPB2W_TANK
+*
+
 $ifi not %indheat_geo%==indheat_dk $goto endindheat_dk
 IDVHG_OIL_2010_APART                                                                    .    GR_OIL
 IDVHG_OIL_2020_APART                                                                    .    GR_OIL
@@ -183,5 +216,26 @@ IDVHG_EL_2020_APART                                                             
 IDVHG_EL_2030_APART                                                                     .    GR_EL
 IDVHG_EL_2040_APART                                                                     .    GR_EL
 IDVHG_EL_2050_APART                                                                     .    GR_EL
+*
+INDHEAT_AbGHPA2W_2010_APART                                                             .    GR_AbGHPA2W
+INDHEAT_AbGHPA2W_2020_APART                                                             .    GR_AbGHPA2W
+INDHEAT_AbGHPA2W_2030_APART                                                             .    GR_AbGHPA2W
+INDHEAT_AbGHPA2W_2040_APART                                                             .    GR_AbGHPA2W
+INDHEAT_AbGHPA2W_2050_APART                                                             .    GR_AbGHPA2W
+INDHEAT_AbGHPB2W_2010_APART                                                             .    GR_AbGHPB2W
+INDHEAT_AbGHPB2W_2020_APART                                                             .    GR_AbGHPB2W
+INDHEAT_AbGHPB2W_2030_APART                                                             .    GR_AbGHPB2W
+INDHEAT_AbGHPB2W_2040_APART                                                             .    GR_AbGHPB2W
+INDHEAT_AbGHPB2W_2050_APART                                                             .    GR_AbGHPB2W
+INDHEAT_GEHPA2W_2010_APART                                                              .    GR_GEHPA2W
+INDHEAT_GEHPA2W_2020_APART                                                              .    GR_GEHPA2W
+INDHEAT_GEHPA2W_2030_APART                                                              .    GR_GEHPA2W
+INDHEAT_GEHPA2W_2040_APART                                                              .    GR_GEHPA2W
+INDHEAT_GEHPA2W_2050_APART                                                              .    GR_GEHPA2W
+INDHEAT_GEHPB2W_2010_APART                                                              .    GR_GEHPB2W
+INDHEAT_GEHPB2W_2020_APART                                                              .    GR_GEHPB2W
+INDHEAT_GEHPB2W_2030_APART                                                              .    GR_GEHPB2W
+INDHEAT_GEHPB2W_2040_APART                                                              .    GR_GEHPB2W
+INDHEAT_GEHPB2W_2050_APART                                                              .    GR_GEHPB2W
 $label endindheat_dk
 /;

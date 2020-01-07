@@ -1,3 +1,4 @@
+$ONTEXT
 $ifi not %indheat_geo%==indheat_eu $goto endindheat_eu
 PARAMETERS
 INDHEAT_DE_VAR_BASIC(RRR,DEUSER,SSS,TTT) 'Electricity consumption profile excluding heating.'
@@ -47,3 +48,4 @@ DE_VAR_T(RRR,'RESE',SSS,TTT)= INDHEAT_DE_VAR_BASIC(RRR,'RESE',SSS,TTT)
 INDHEAT_DE_VAR_BASIC_SUMMER(RRR,DEUSER,TTT)=0;
 INDHEAT_BASIC_DE_SRATE(CCC,TEMP_S)=0;
 $label endindheat_eu
+$OFFTEXT
