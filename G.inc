@@ -153,6 +153,9 @@ GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2020
 GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2030                          
 GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2040                          
 GNR_BO_ELEC_E-99_MS-1-MW-FEED_Y-2050                          
+GNR_BO_LIGHTOIL_E-92_SS-15-KW                                 
+GNR_BO_WOOD_E-65_SS-6-KW                                      
+GNR_BO_COAL_E-76_SS-15-KW                                     
 GNR_BO_FUELOIL_E-100                                          
 GNR_BO_FUELOIL_E-61                                           
 GNR_BO_FUELOIL_E-80                                           
@@ -488,6 +491,11 @@ GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030
 GNR_HP_ELEC_AIR-WTR_COP-365_SS-4-KW_Y-2050                    
 GNR_HP_ELEC_AIR-WTR_COP-343_LS_Y-2040                         
 GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                         
+GNR_HP_ELEC_AIR-AIR_COP-480_SS-3-KW                           
+GNR_HP_ELEC_AIR-AIR_COP-490_SS-3-KW_Y-2020                    
+GNR_HP_ELEC_AIR-AIR_COP-340_SS-4-KW_Y-2030                    
+GNR_HP_ELEC_AIR-AIR_COP-350_SS-4-KW_Y-2040                    
+GNR_HP_ELEC_AIR-AIR_COP-360_SS-4-KW_Y-2050                    
 GNR_HP_ELEC_COP-1200_Y-2030                                   
 GNR_HP_ELEC_COP-1800_Y-2050                                   
 GNR_HP_ELEC_COP-270                                           
@@ -611,6 +619,7 @@ GNR_SH_SUN_LS_Y-2020
 GNR_SH_SUN_LS_Y-2030                                          
 GNR_SH_SUN_LS_Y-2040                                          
 GNR_SH_SUN_LS_Y-2050                                          
+GNR_SH_SUN_SS-4-KW                                            
 GNR_SH_SUN_SS-4-KW_Y-2020                                     
 GNR_SH_SUN_SS-4-KW_Y-2030                                     
 GNR_SH_SUN_SS-4-KW_Y-2040                                     
@@ -1225,5 +1234,9 @@ ZIEL-1_ST_NGAS_BP
 ZIEL-2_ST_COAL_BP                                             
 ZIEL-3_ST_NGAS_BP                                             
 ZIEL-4_ST_COAL_BP                                             
+                                                              
+                                                              
+                                                              
+                                                              
                                                               
 /;                                                            

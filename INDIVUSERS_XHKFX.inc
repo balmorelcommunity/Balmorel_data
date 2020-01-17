@@ -1,0 +1,58 @@
+                                                                                                                                                                                                         
+PARAMETER XHKFX(YYY,IAAAE,IAAAI) 'Initial heat transmission capacicty between areas (MW)';                                                                                                               
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+*Heat transmission capacity from water heating area to space heating areas is unlimited (one way flow!)                                                                                                  
+XHKFX(Y,'BE_IDVU-HOTWTR','BE_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+XHKFX(Y,'DE4-E_IDVU-HOTWTR','DE4-E_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                         
+XHKFX(Y,'DE4-N_IDVU-HOTWTR','DE4-N_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                         
+XHKFX(Y,'DE4-S_IDVU-HOTWTR','DE4-S_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                         
+XHKFX(Y,'DE4-W_IDVU-HOTWTR','DE4-W_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                         
+XHKFX(Y,'DK1_IDVU-HOTWTR','DK1_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'DK2_IDVU-HOTWTR','DK2_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'EE_IDVU-HOTWTR','EE_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+XHKFX(Y,'FIN_IDVU-HOTWTR','FIN_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'FR_IDVU-HOTWTR','FR_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+XHKFX(Y,'LT_IDVU-HOTWTR','LT_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+XHKFX(Y,'LV_IDVU-HOTWTR','LV_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+XHKFX(Y,'NL_IDVU-HOTWTR','NL_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+XHKFX(Y,'NO1_IDVU-HOTWTR','NO1_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'NO2_IDVU-HOTWTR','NO2_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'NO3_IDVU-HOTWTR','NO3_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'NO4_IDVU-HOTWTR','NO4_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'NO5_IDVU-HOTWTR','NO5_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'PL_IDVU-HOTWTR','PL_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+XHKFX(Y,'SE1_IDVU-HOTWTR','SE1_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'SE2_IDVU-HOTWTR','SE2_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'SE3_IDVU-HOTWTR','SE3_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'SE4_IDVU-HOTWTR','SE4_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                             
+XHKFX(Y,'UK_IDVU-HOTWTR','UK_IDVU-SPACEHEAT')$(YVALUE(Y) GE 2016)=1000000;                                                                                                                               
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         
