@@ -321,6 +321,7 @@ SE4                                                                 .    SE4_VRE
 FR                                                                  .    FR_VRE-OFF1_RG2_50         
 BE                                                                  .    BE_VRE-OFF1_RG2_50         
 DE4-W                                                               .    DE4-NW_VRE-OFF1_RG3_20-30  
+DE4-E                                                               .    DE4-NE_VRE-OFF1_RG3_20-30  
 DK1                                                                 .    DK1_VRE-OFF1_RG3_20-30     
 UK                                                                  .    UK_VRE-OFF1_RG3_20-30      
 UK                                                                  .    UK_VRE-OFF2_RG3_20-30      
@@ -333,6 +334,7 @@ NO2                                                                 .    NO2_VRE
 NO3                                                                 .    NO3_VRE-OFF1_RG3_20-30     
 NO5                                                                 .    NO5_VRE-OFF1_RG3_20-30     
 DE4-W                                                               .    DE4-NW_VRE-OFF1_RG3_30-40  
+DE4-E                                                               .    DE4-NE_VRE-OFF1_RG3_30-40  
 DK1                                                                 .    DK1_VRE-OFF1_RG3_30-40     
 UK                                                                  .    UK_VRE-OFF1_RG3_30-40      
 UK                                                                  .    UK_VRE-OFF2_RG3_30-40      
@@ -345,6 +347,7 @@ NO2                                                                 .    NO2_VRE
 NO3                                                                 .    NO3_VRE-OFF1_RG3_30-40     
 NO5                                                                 .    NO5_VRE-OFF1_RG3_30-40     
 DE4-W                                                               .    DE4-NW_VRE-OFF1_RG3_40-50  
+DE4-E                                                               .    DE4-NE_VRE-OFF1_RG3_40-50  
 DK1                                                                 .    DK1_VRE-OFF1_RG3_40-50     
 UK                                                                  .    UK_VRE-OFF1_RG3_40-50      
 UK                                                                  .    UK_VRE-OFF2_RG3_40-50      
@@ -357,6 +360,7 @@ NO2                                                                 .    NO2_VRE
 NO3                                                                 .    NO3_VRE-OFF1_RG3_40-50     
 NO5                                                                 .    NO5_VRE-OFF1_RG3_40-50     
 DE4-W                                                               .    DE4-NW_VRE-OFF1_RG3_50     
+DE4-E                                                               .    DE4-NE_VRE-OFF1_RG3_50     
 DK1                                                                 .    DK1_VRE-OFF1_RG3_50        
 UK                                                                  .    UK_VRE-OFF1_RG3_50         
 UK                                                                  .    UK_VRE-OFF2_RG3_50         

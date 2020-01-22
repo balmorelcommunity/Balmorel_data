@@ -56,6 +56,10 @@ DE4-NW-OFF1_WT_WIND_OFF_L-RG3_Y-2020
 DE4-NW-OFF1_WT_WIND_OFF_L-RG3_Y-2030                          
 DE4-NW-OFF1_WT_WIND_OFF_L-RG3_Y-2040                          
 DE4-NW-OFF1_WT_WIND_OFF_L-RG3_Y-2050                          
+DE4-NE-OFF1_WT_WIND_OFF_L-RG3_Y-2020                          
+DE4-NE-OFF1_WT_WIND_OFF_L-RG3_Y-2030                          
+DE4-NE-OFF1_WT_WIND_OFF_L-RG3_Y-2040                          
+DE4-NE-OFF1_WT_WIND_OFF_L-RG3_Y-2050                          
 DK1-OFF1_WT_WIND_OFF_L-RG1_Y-2020                             
 DK1-OFF1_WT_WIND_OFF_L-RG1_Y-2030                             
 DK1-OFF1_WT_WIND_OFF_L-RG1_Y-2040                             
@@ -1234,9 +1238,5 @@ ZIEL-1_ST_NGAS_BP
 ZIEL-2_ST_COAL_BP                                             
 ZIEL-3_ST_NGAS_BP                                             
 ZIEL-4_ST_COAL_BP                                             
-                                                              
-                                                              
-                                                              
-                                                              
                                                               
 /;                                                            
