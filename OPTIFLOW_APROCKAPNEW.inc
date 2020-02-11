@@ -148,33 +148,94 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2050                                                                                                               .    DK1_Small    .    Manure_tank_50                                
                                                                                                                                                                                         
                                                                                                                                                                                         
-2020                                                                                                               .    DK1_Large    .    CO2_PH                                        
-2020                                                                                                               .    DK1_Large    .    CO2_IND                                       
-2020                                                                                                               .    DK1_Large    .    CO2_DAC                                       
-2020                                                                                                               .    DK1_Large    .    CO2_Bio                                       
-2020                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2020                                                                                                               .    DK1_Large    .    CO2_DAC_20                                    
+2025                                                                                                               .    DK1_Large    .    CO2_DAC_25                                    
+2030                                                                                                               .    DK1_Large    .    CO2_DAC_30                                    
+2035                                                                                                               .    DK1_Large    .    CO2_DAC_35                                    
+2040                                                                                                               .    DK1_Large    .    CO2_DAC_40                                    
+2045                                                                                                               .    DK1_Large    .    CO2_DAC_45                                    
+2050                                                                                                               .    DK1_Large    .    CO2_DAC_50                                    
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Large    .    CO2_IND_20                                    
+2025                                                                                                               .    DK1_Large    .    CO2_IND_25                                    
+2030                                                                                                               .    DK1_Large    .    CO2_IND_30                                    
+2035                                                                                                               .    DK1_Large    .    CO2_IND_35                                    
+2040                                                                                                               .    DK1_Large    .    CO2_IND_40                                    
+2045                                                                                                               .    DK1_Large    .    CO2_IND_45                                    
+2050                                                                                                               .    DK1_Large    .    CO2_IND_50                                    
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Large    .    CO2_PH_20                                     
+2025                                                                                                               .    DK1_Large    .    CO2_PH_25                                     
+2030                                                                                                               .    DK1_Large    .    CO2_PH_30                                     
+2035                                                                                                               .    DK1_Large    .    CO2_PH_35                                     
+2040                                                                                                               .    DK1_Large    .    CO2_PH_40                                     
+2045                                                                                                               .    DK1_Large    .    CO2_PH_45                                     
+2050                                                                                                               .    DK1_Large    .    CO2_PH_50                                     
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Large    .    CO2_Bio_20                                    
+2025                                                                                                               .    DK1_Large    .    CO2_Bio_25                                    
+2030                                                                                                               .    DK1_Large    .    CO2_Bio_30                                    
+2035                                                                                                               .    DK1_Large    .    CO2_Bio_35                                    
+2040                                                                                                               .    DK1_Large    .    CO2_Bio_40                                    
+2045                                                                                                               .    DK1_Large    .    CO2_Bio_45                                    
+2050                                                                                                               .    DK1_Large    .    CO2_Bio_50                                    
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Medium   .    CO2_DAC_20                                    
+2025                                                                                                               .    DK1_Medium   .    CO2_DAC_25                                    
+2030                                                                                                               .    DK1_Medium   .    CO2_DAC_30                                    
+2035                                                                                                               .    DK1_Medium   .    CO2_DAC_35                                    
+2040                                                                                                               .    DK1_Medium   .    CO2_DAC_40                                    
+2045                                                                                                               .    DK1_Medium   .    CO2_DAC_45                                    
+2050                                                                                                               .    DK1_Medium   .    CO2_DAC_50                                    
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Medium   .    CO2_IND_20                                    
+2025                                                                                                               .    DK1_Medium   .    CO2_IND_25                                    
+2030                                                                                                               .    DK1_Medium   .    CO2_IND_30                                    
+2035                                                                                                               .    DK1_Medium   .    CO2_IND_35                                    
+2040                                                                                                               .    DK1_Medium   .    CO2_IND_40                                    
+2045                                                                                                               .    DK1_Medium   .    CO2_IND_45                                    
+2050                                                                                                               .    DK1_Medium   .    CO2_IND_50                                    
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Medium   .    CO2_PH_20                                     
+2025                                                                                                               .    DK1_Medium   .    CO2_PH_25                                     
+2030                                                                                                               .    DK1_Medium   .    CO2_PH_30                                     
+2035                                                                                                               .    DK1_Medium   .    CO2_PH_35                                     
+2040                                                                                                               .    DK1_Medium   .    CO2_PH_40                                     
+2045                                                                                                               .    DK1_Medium   .    CO2_PH_45                                     
+2050                                                                                                               .    DK1_Medium   .    CO2_PH_50                                     
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Medium   .    CO2_Bio_20                                    
+2025                                                                                                               .    DK1_Medium   .    CO2_Bio_25                                    
+2030                                                                                                               .    DK1_Medium   .    CO2_Bio_30                                    
+2035                                                                                                               .    DK1_Medium   .    CO2_Bio_35                                    
+2040                                                                                                               .    DK1_Medium   .    CO2_Bio_40                                    
+2045                                                                                                               .    DK1_Medium   .    CO2_Bio_45                                    
+2050                                                                                                               .    DK1_Medium   .    CO2_Bio_50                                    
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_MedSmall .    CO2_Bio_20                                    
+2025                                                                                                               .    DK1_MedSmall .    CO2_Bio_25                                    
+2030                                                                                                               .    DK1_MedSmall .    CO2_Bio_30                                    
+2035                                                                                                               .    DK1_MedSmall .    CO2_Bio_35                                    
+2040                                                                                                               .    DK1_MedSmall .    CO2_Bio_40                                    
+2045                                                                                                               .    DK1_MedSmall .    CO2_Bio_45                                    
+2050                                                                                                               .    DK1_MedSmall .    CO2_Bio_50                                    
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Small    .    CO2_Bio_20                                    
+2025                                                                                                               .    DK1_Small    .    CO2_Bio_25                                    
+2030                                                                                                               .    DK1_Small    .    CO2_Bio_30                                    
+2035                                                                                                               .    DK1_Small    .    CO2_Bio_35                                    
+2040                                                                                                               .    DK1_Small    .    CO2_Bio_40                                    
+2045                                                                                                               .    DK1_Small    .    CO2_Bio_45                                    
+2050                                                                                                               .    DK1_Small    .    CO2_Bio_50                                    
+                                                                                                                                                                                        
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
-                                                                                                                                                                                        
-2020                                                                                                               .    DK1_Medium   .    CO2_PH                                        
-2020                                                                                                               .    DK1_Medium   .    CO2_IND                                       
-2020                                                                                                               .    DK1_Medium   .    CO2_DAC                                       
-2020                                                                                                               .    DK1_Medium   .    CO2_STO                                       
-                                                                                                                                                                                        
-                                                                                                                                                                                        
-2020                                                                                                               .    DK1_Medium   .    CO2_Bio                                       
 2020                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
-                                                                                                                                                                                        
-2020                                                                                                               .    DK1_Small    .    CO2_Bio                                       
+2020                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
 2020                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
                                                                                                                                                                                         
-2020                                                                                                               .    DK1_MedSmall .    CO2_Bio                                       
-2020                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
-                                                                                                                                                                                        
-                                                                                                                                                                                        
-                                                                                                                                                                                        
-                                                                                                                                                                                        
-                                                                                                                                                                                        
-                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Medium   .    CO2_STO                                       
+2020                                                                                                               .    DK1_Large    .    CO2_STO                                       
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Medium   .    TG_MW_20                                      
 2025                                                                                                               .    DK1_Medium   .    TG_MW_25                                      
@@ -498,6 +559,38 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2050                                                                                                               .    DK1_Small    .    BiogasUpgr_BMETH_50                           
                                                                                                                                                                                         
 *****SOEC                                                                                                                                                                               
+2020                                                                                                               .    DK1_Large    .    AEC_20                                        
+2025                                                                                                               .    DK1_Large    .    AEC_25                                        
+2030                                                                                                               .    DK1_Large    .    AEC_30                                        
+2035                                                                                                               .    DK1_Large    .    AEC_35                                        
+2040                                                                                                               .    DK1_Large    .    AEC_40                                        
+2045                                                                                                               .    DK1_Large    .    AEC_45                                        
+2050                                                                                                               .    DK1_Large    .    AEC_50                                        
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Medium   .    AEC_20                                        
+2025                                                                                                               .    DK1_Medium   .    AEC_25                                        
+2030                                                                                                               .    DK1_Medium   .    AEC_30                                        
+2035                                                                                                               .    DK1_Medium   .    AEC_35                                        
+2040                                                                                                               .    DK1_Medium   .    AEC_40                                        
+2045                                                                                                               .    DK1_Medium   .    AEC_45                                        
+2050                                                                                                               .    DK1_Medium   .    AEC_50                                        
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Large    .    PEM_20                                        
+2025                                                                                                               .    DK1_Large    .    PEM_25                                        
+2030                                                                                                               .    DK1_Large    .    PEM_30                                        
+2035                                                                                                               .    DK1_Large    .    PEM_35                                        
+2040                                                                                                               .    DK1_Large    .    PEM_40                                        
+2045                                                                                                               .    DK1_Large    .    PEM_45                                        
+2050                                                                                                               .    DK1_Large    .    PEM_50                                        
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Medium   .    PEM_20                                        
+2025                                                                                                               .    DK1_Medium   .    PEM_25                                        
+2030                                                                                                               .    DK1_Medium   .    PEM_30                                        
+2035                                                                                                               .    DK1_Medium   .    PEM_35                                        
+2040                                                                                                               .    DK1_Medium   .    PEM_40                                        
+2045                                                                                                               .    DK1_Medium   .    PEM_45                                        
+2050                                                                                                               .    DK1_Medium   .    PEM_50                                        
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Large    .    SOEC_20                                       
 2025                                                                                                               .    DK1_Large    .    SOEC_25                                       
 2030                                                                                                               .    DK1_Large    .    SOEC_30                                       

@@ -8,7 +8,7 @@ PARAMETER MAXFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitation
 2020                                                                                                                       .    DENMARK            .    ResD             .    ResProD               5000000  
                                                                                                                                                                                                              
                                                                                                                                                                                                              
-2020                                                                                                                       .    DENMARK            .    WOOD_PELLETS_Gen .    WOOD_PELLETS_Gen_FLOW 75949367 
+*2020                                                                                                                      .    DENMARK            .    WOOD_PELLETS_Gen .    WOOD_PELLETS_Gen_FLOW 75949367 
 2020                                                                                                                       .    DENMARK            .    WOOD_Gen         .    WOOD_Gen_FLOW         2600000  
 2020                                                                                                                       .    DENMARK            .    STRAW_Gen        .    STRAW_Gen_FLOW        3700000  
                                                                                                                                                                                                              

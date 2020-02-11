@@ -299,6 +299,22 @@ Methanol_synthesis_TG_45          .    Methanol_synthesis
 Methanol_synthesis_TG_50          .    Methanol_synthesis        
                                                                  
 ***********hydrogen                                              
+AEC_20                            .    Hydrogen                  
+AEC_25                            .    Hydrogen                  
+AEC_30                            .    Hydrogen                  
+AEC_35                            .    Hydrogen                  
+AEC_40                            .    Hydrogen                  
+AEC_45                            .    Hydrogen                  
+AEC_50                            .    Hydrogen                  
+                                                                 
+PEM_20                            .    Hydrogen                  
+PEM_25                            .    Hydrogen                  
+PEM_30                            .    Hydrogen                  
+PEM_35                            .    Hydrogen                  
+PEM_40                            .    Hydrogen                  
+PEM_45                            .    Hydrogen                  
+PEM_50                            .    Hydrogen                  
+                                                                 
 SOEC_20                           .    Hydrogen                  
 SOEC_25                           .    Hydrogen                  
 SOEC_30                           .    Hydrogen                  

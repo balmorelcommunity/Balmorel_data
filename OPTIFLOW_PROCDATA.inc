@@ -1,422 +1,457 @@
-TABLE PROCDATA(PROC,PROCDATASET)    "Process data"                                                                                                                      
-                                                                                                                                                                        
-*                                                           MEuro/GJ/h                                            Euro/GJ/h                                             
-                                                            PROCINVCOST PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST /*   PROCVARCOST */                       
-ProA                                                        0.5         1               2020         25           15000                                                 
-ProB                                                        0.001       1               2020         25           1                                                     
-                                                                                                                                                                        
-StoA                                                        0.2         1               2020         20           100                                                   
-                                                                                                                                                                        
-ProD                                                        0.5         1               2020         20           100                                                   
-StoD                                                        0.1         1               2020         20           100                                                   
-                                                                                                                                                                        
-*BiogasProd_single                                          0.395       1               2020         20           7170                                                  
-*BiogasProd_mix                                             0.307       1               2020         20           2812                                                  
-*BiogasProd_mix                                             0.42        1               2020         20           0.001                                                 
-*BiogasProd_mix                                             0.307       1               2020         20           2812                                                  
-                                                                                                                                                                        
-BiogasUpgr_BMETH_20                                         0.0953      1               2020         20           2389                                                  
-BiogasUpgr_BMETH_25                                         0.0953      1               2020         20           2389                                                  
-BiogasUpgr_BMETH_30                                         0.0953      1               2020         20           2389                                                  
-BiogasUpgr_BMETH_35                                         0.0953      1               2020         20           2389                                                  
-BiogasUpgr_BMETH_40                                         0.0953      1               2020         20           2389                                                  
-BiogasUpgr_BMETH_45                                         0.0953      1               2020         20           2389                                                  
-BiogasUpgr_BMETH_50                                         0.0953      1               2020         20           2389                                                  
-                                                                                                                                                                        
-BIOGAS_GRID_STO                                             0.0059085   1               2020         20           59.085                                                
-                                                                                                                                                                        
-*BIO_syngas_STO                                             0.07        1               2020         20           80                                                    
-*GasGrid_STO_BNG                                            1E-005      1               2020         20           0.0001                                                
-                                                                                                                                                                        
-Straw_pre_BG_20                                             4.2E-005    1               2020         20           0.001                                                 
-Straw_pre_BG_25                                             4.2E-005    1               2020         20           0.001                                                 
-Straw_pre_BG_30                                             4.2E-005    1               2020         20           0.001                                                 
-Straw_pre_BG_35                                             4.2E-005    1               2020         20           0.001                                                 
-Straw_pre_BG_40                                             4.2E-005    1               2020         20           0.001                                                 
-Straw_pre_BG_45                                             4.2E-005    1               2020         20           0.001                                                 
-Straw_pre_BG_50                                             4.2E-005    1               2020         20           0.001                                                 
-                                                                                                                                                                        
-Deep_Litter_pre_BG_20                                       1.53E-005   1               2020         20           0.001                                                 
-Deep_Litter_pre_BG_25                                       1.53E-005   1               2020         20           0.001                                                 
-Deep_Litter_pre_BG_30                                       1.53E-005   1               2020         20           0.001                                                 
-Deep_Litter_pre_BG_35                                       1.53E-005   1               2020         20           0.001                                                 
-Deep_Litter_pre_BG_40                                       1.53E-005   1               2020         20           0.001                                                 
-Deep_Litter_pre_BG_45                                       1.53E-005   1               2020         20           0.001                                                 
-Deep_Litter_pre_BG_50                                       1.53E-005   1               2020         20           0.001                                                 
-                                                                                                                                                                        
-Food_Waste_pre_BG_20                                        4.9E-006    1               2020         20           0.001                                                 
-Food_Waste_pre_BG_25                                        4.9E-006    1               2020         20           0.001                                                 
-Food_Waste_pre_BG_30                                        4.9E-006    1               2020         20           0.001                                                 
-Food_Waste_pre_BG_35                                        4.9E-006    1               2020         20           0.001                                                 
-Food_Waste_pre_BG_40                                        4.9E-006    1               2020         20           0.001                                                 
-Food_Waste_pre_BG_45                                        4.9E-006    1               2020         20           0.001                                                 
-Food_Waste_pre_BG_50                                        4.9E-006    1               2020         20           0.001                                                 
-                                                                                                                                                                        
-Nature_Area_pre_BG_20                                       2.93E-005   1               2020         20           0.001                                                 
-Nature_Area_pre_BG_25                                       2.93E-005   1               2020         20           0.001                                                 
-Nature_Area_pre_BG_30                                       2.93E-005   1               2020         20           0.001                                                 
-Nature_Area_pre_BG_35                                       2.93E-005   1               2020         20           0.001                                                 
-Nature_Area_pre_BG_40                                       2.93E-005   1               2020         20           0.001                                                 
-Nature_Area_pre_BG_45                                       2.93E-005   1               2020         20           0.001                                                 
-Nature_Area_pre_BG_50                                       2.93E-005   1               2020         20           0.001                                                 
-                                                                                                                                                                        
-Manure_tank_20                                              3.23E-005   1               2020         20           0.001                                                 
-Manure_tank_25                                              3.23E-005   1               2020         20           0.001                                                 
-Manure_tank_30                                              3.23E-005   1               2020         20           0.001                                                 
-Manure_tank_35                                              3.23E-005   1               2020         20           0.001                                                 
-Manure_tank_40                                              3.23E-005   1               2020         20           0.001                                                 
-Manure_tank_45                                              3.23E-005   1               2020         20           0.001                                                 
-Manure_tank_50                                              3.23E-005   1               2020         20           0.001                                                 
-                                                                                                                                                                        
-                                                                                                                                                                        
-*BiogasProd_mix                                             3.23E-005   1               2020         20           2.9                                                   
-                                                                                                                                                                        
-CO2_DAC                                                     1.717       1               2020         25           68678                                                 
-CO2_IND                                                     0.446       1               2020         25           11915                                                 
-CO2_PH                                                      0.446       1               2020         25           11915                                                 
-CO2_Bio                                                     0.446       1               2020         25           11915                                                 
-                                                                                                                                                                        
-CO2_Sto                                                     1.521       1               2020         20           30435                                                 
-                                                                                                                                                                        
-SOEC_20                                                     0.61        1               2020         20           18333                                                 
-SOEC_25                                                     0.39        1               2025         20           11667                                                 
-SOEC_30                                                     0.17        1               2030         20           5000                                                  
-SOEC_35                                                     0.15        1               2035         20           4583                                                  
-SOEC_40                                                     0.14        1               2040         20           4167                                                  
-SOEC_45                                                     0.13        1               2045         20           3750                                                  
-SOEC_50                                                     0.11        1               2050         30           3333                                                  
-                                                                                                                                                                        
-Hydrogen_STO_Large_20                                       0.096396    1               2020         20           4446.149                                              
-Hydrogen_STO_Large_25                                       0.096396    1               2020         20           4446.149                                              
-Hydrogen_STO_Large_30                                       0.096396    1               2020         20           4446.149                                              
-Hydrogen_STO_Large_35                                       0.096396    1               2020         20           4446.149                                              
-Hydrogen_STO_Large_40                                       0.096396    1               2020         20           4446.149                                              
-Hydrogen_STO_Large_45                                       0.096396    1               2020         20           4446.149                                              
-Hydrogen_STO_Large_50                                       0.096396    1               2020         20           4446.149                                              
-                                                                                                                                                                        
-Hydrogen_STO_Small_20                                       0.172265    1               2020         20           7946.308                                              
-Hydrogen_STO_Small_25                                       0.172265    1               2020         20           7946.308                                              
-Hydrogen_STO_Small_30                                       0.172265    1               2020         20           7946.308                                              
-Hydrogen_STO_Small_35                                       0.172265    1               2020         20           7946.308                                              
-Hydrogen_STO_Small_40                                       0.172265    1               2020         20           7946.308                                              
-Hydrogen_STO_Small_45                                       0.172265    1               2020         20           7946.308                                              
-Hydrogen_STO_Small_50                                       0.172265    1               2020         20           7946.308                                              
-                                                                                                                                                                        
-*****gasification                                                                                                                                                       
-$ontext                                                                                                                                                                 
-TG_MW_20                                                    0.175       1               2020         20           7010        /*   0.953       TJEK */                  
-TG_MW_25                                                    0.175       1               2025         20           7010        /*   0.953       TJEK */                  
-TG_MW_30                                                    0.175       1               2030         20           7010        /*   0.953       TJEK */                  
-TG_MW_35                                                    0.175       1               2035         20           7010        /*   0.953       TJEK */                  
-TG_MW_40                                                    0.175       1               2040         20           7010        /*   0.953       TJEK */                  
-TG_MW_45                                                    0.175       1               2045         20           7010        /*   0.953       TJEK */                  
-TG_MW_50                                                    0.175       1               2050         20           7010        /*   0.953       TJEK */                  
-$offtext                                                                                                                                                                
-                                                                                                                                                                        
-TG_ST_20                                                    0.175       1               2020         20           7010        /*   0.953       TJEK */                  
-TG_ST_25                                                    0.175       1               2025         20           7010        /*   0.953       TJEK */                  
-TG_ST_30                                                    0.175       1               2030         20           7010        /*   0.953       TJEK */                  
-TG_ST_35                                                    0.175       1               2035         20           7010        /*   0.953       TJEK */                  
-TG_ST_40                                                    0.175       1               2040         20           7010        /*   0.953       TJEK */                  
-TG_ST_45                                                    0.175       1               2045         20           7010        /*   0.953       TJEK */                  
-TG_ST_50                                                    0.175       1               2050         20           7010        /*   0.953       TJEK */                  
-                                                                                                                                                                        
-TG_WO_20                                                    0.175       1               2020         20           7010        /*   0.953       TJEK */                  
-TG_WO_25                                                    0.175       1               2025         20           7010        /*   0.953       TJEK */                  
-TG_WO_30                                                    0.175       1               2030         20           7010        /*   0.953       TJEK */                  
-TG_WO_35                                                    0.175       1               2035         20           7010        /*   0.953       TJEK */                  
-TG_WO_40                                                    0.175       1               2040         20           7010        /*   0.953       TJEK */                  
-TG_WO_45                                                    0.175       1               2045         20           7010        /*   0.953       TJEK */                  
-TG_WO_50                                                    0.175       1               2050         20           7010        /*   0.953       TJEK */                  
-                                                                                                                                                                        
-TG_WP_20                                                    0.175       1               2020         20           7010        /*   0.953       TJEK */                  
-TG_WP_25                                                    0.175       1               2025         20           7010        /*   0.953       TJEK */                  
-TG_WP_30                                                    0.175       1               2030         20           7010        /*   0.953       TJEK */                  
-TG_WP_35                                                    0.175       1               2035         20           7010        /*   0.953       TJEK */                  
-TG_WP_40                                                    0.175       1               2040         20           7010        /*   0.953       TJEK */                  
-TG_WP_45                                                    0.175       1               2045         20           7010        /*   0.953       TJEK */                  
-TG_WP_50                                                    0.175       1               2050         20           7010        /*   0.953       TJEK */                  
-                                                                                                                                                                        
-                                                                                                                                                                        
-ThermGasific_SNG_MW_20                                      0.414       1               2020         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_MW_25                                      0.414       1               2025         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_MW_30                                      0.414       1               2030         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_MW_35                                      0.414       1               2035         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_MW_40                                      0.414       1               2040         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_MW_45                                      0.414       1               2045         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_MW_50                                      0.414       1               2050         20           11260       /*   0.7383      */                       
-                                                                                                                                                                        
-ThermGasific_SNG_ST_20                                      0.414       1               2020         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_ST_25                                      0.414       1               2025         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_ST_30                                      0.414       1               2030         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_ST_35                                      0.414       1               2035         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_ST_40                                      0.414       1               2040         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_ST_45                                      0.414       1               2045         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_ST_50                                      0.414       1               2050         20           11260       /*   0.7383      */                       
-                                                                                                                                                                        
-ThermGasific_SNG_WO_20                                      0.414       1               2020         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WO_25                                      0.414       1               2025         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WO_30                                      0.414       1               2030         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WO_35                                      0.414       1               2035         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WO_40                                      0.414       1               2040         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WO_45                                      0.414       1               2045         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WO_50                                      0.414       1               2050         20           11260       /*   0.7383      */                       
-                                                                                                                                                                        
-ThermGasific_SNG_WP_20                                      0.414       1               2020         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WP_25                                      0.414       1               2025         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WP_30                                      0.414       1               2030         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WP_35                                      0.414       1               2035         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WP_40                                      0.414       1               2040         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WP_45                                      0.414       1               2045         20           11260       /*   0.7383      */                       
-ThermGasific_SNG_WP_50                                      0.414       1               2050         20           11260       /*   0.7383      */                       
-                                                                                                                                                                        
-                                                                                                                                                                        
-ThermGasific_Syngas_MW_20                                   0.283       1               2020         20           5556        /*   0.6846      */                       
-ThermGasific_Syngas_MW_25                                   0.283       1               2025         20           5556        /*   1.6846      */                       
-ThermGasific_Syngas_MW_30                                   0.283       1               2030         20           5556        /*   2.6846      */                       
-ThermGasific_Syngas_MW_35                                   0.283       1               2035         20           5556        /*   3.6846      */                       
-ThermGasific_Syngas_MW_40                                   0.283       1               2040         20           5556        /*   4.6846      */                       
-ThermGasific_Syngas_MW_45                                   0.283       1               2045         20           5556        /*   5.6846      */                       
-ThermGasific_Syngas_MW_50                                   0.283       1               2050         20           5556        /*   6.6846      */                       
-                                                                                                                                                                        
-ThermGasific_Syngas_ST_20                                   0.283       1               2020         20           5556        /*   0.6846      */                       
-ThermGasific_Syngas_ST_25                                   0.283       1               2025         20           5556        /*   1.6846      */                       
-ThermGasific_Syngas_ST_30                                   0.283       1               2030         20           5556        /*   2.6846      */                       
-ThermGasific_Syngas_ST_35                                   0.283       1               2035         20           5556        /*   3.6846      */                       
-ThermGasific_Syngas_ST_40                                   0.283       1               2040         20           5556        /*   4.6846      */                       
-ThermGasific_Syngas_ST_45                                   0.283       1               2045         20           5556        /*   5.6846      */                       
-ThermGasific_Syngas_ST_50                                   0.283       1               2050         20           5556        /*   6.6846      */                       
-                                                                                                                                                                        
-ThermGasific_Syngas_WO_20                                   0.283       1               2020         20           5556        /*   0.6846      */                       
-ThermGasific_Syngas_WO_25                                   0.283       1               2025         20           5556        /*   1.6846      */                       
-ThermGasific_Syngas_WO_30                                   0.283       1               2030         20           5556        /*   2.6846      */                       
-ThermGasific_Syngas_WO_35                                   0.283       1               2035         20           5556        /*   3.6846      */                       
-ThermGasific_Syngas_WO_40                                   0.283       1               2040         20           5556        /*   4.6846      */                       
-ThermGasific_Syngas_WO_45                                   0.283       1               2045         20           5556        /*   5.6846      */                       
-ThermGasific_Syngas_WO_50                                   0.283       1               2050         20           5556        /*   6.6846      */                       
-                                                                                                                                                                        
-ThermGasific_Syngas_WP_20                                   0.283       1               2020         20           5556        /*   0.6846      */                       
-ThermGasific_Syngas_WP_25                                   0.283       1               2025         20           5556        /*   1.6846      */                       
-ThermGasific_Syngas_WP_30                                   0.283       1               2030         20           5556        /*   2.6846      */                       
-ThermGasific_Syngas_WP_35                                   0.283       1               2035         20           5556        /*   3.6846      */                       
-ThermGasific_Syngas_WP_40                                   0.283       1               2040         20           5556        /*   4.6846      */                       
-ThermGasific_Syngas_WP_45                                   0.283       1               2045         20           5556        /*   5.6846      */                       
-ThermGasific_Syngas_WP_50                                   0.283       1               2050         20           5556        /*   6.6846      */                       
-                                                                                                                                                                        
-                                                                                                                                                                        
-***********************meth                                                                                                                                             
-Methanisation_Bio_BioGas_20                                 0.137       1               2020         20           6837                                                  
-Methanisation_Bio_BioGas_25                                 0.137       1               2025         20           6837                                                  
-Methanisation_Bio_BioGas_30                                 0.137       1               2030         20           6837                                                  
-Methanisation_Bio_BioGas_35                                 0.137       1               2035         20           6837                                                  
-Methanisation_Bio_BioGas_40                                 0.137       1               2040         20           6837                                                  
-Methanisation_Bio_BioGas_45                                 0.137       1               2045         20           6837                                                  
-Methanisation_Bio_BioGas_50                                 0.137       1               2050         20           6837                                                  
-                                                                                                                                                                        
-                                                                                                                                                                        
-Methane_synthesis_TG_20                                     0.137       1               2020         20           6837                                                  
-Methane_synthesis_TG_25                                     0.137       1               2025         20           6837                                                  
-Methane_synthesis_TG_30                                     0.137       1               2030         20           6837                                                  
-Methane_synthesis_TG_35                                     0.137       1               2035         20           6837                                                  
-Methane_synthesis_TG_40                                     0.137       1               2040         20           6837                                                  
-Methane_synthesis_TG_45                                     0.137       1               2045         20           6837                                                  
-Methane_synthesis_TG_50                                     0.137       1               2050         20           6837                                                  
-                                                                                                                                                                        
-                                                                                                                                                                        
-Methanol_synthesis_TG_20                                    0.049       1               2020         20           1467                                                  
-Methanol_synthesis_TG_25                                    0.049       1               2025         20           1467                                                  
-Methanol_synthesis_TG_30                                    0.049       1               2030         20           1467                                                  
-Methanol_synthesis_TG_35                                    0.049       1               2035         20           1467                                                  
-Methanol_synthesis_TG_40                                    0.049       1               2040         20           1467                                                  
-Methanol_synthesis_TG_45                                    0.049       1               2045         20           1467                                                  
-Methanol_synthesis_TG_50                                    0.049       1               2050         20           1467                                                  
-                                                                                                                                                                        
-*******Biojet                                                                                                                                                           
-BioJet_ST_20                                                0.39715     1               2020         20           11855                                                 
-BioJet_ST_25                                                0.39715     1               2025         20           11855                                                 
-BioJet_ST_30                                                0.39715     1               2030         20           11855                                                 
-BioJet_ST_35                                                0.39715     1               2035         20           11855                                                 
-BioJet_ST_40                                                0.39715     1               2040         20           11855                                                 
-BioJet_ST_45                                                0.39715     1               2045         20           11855                                                 
-BioJet_ST_50                                                0.39715     1               2050         20           11855                                                 
-                                                                                                                                                                        
-BioJet_WO_20                                                0.39715     1               2020         20           11855                                                 
-BioJet_WO_25                                                0.39715     1               2025         20           11855                                                 
-BioJet_WO_30                                                0.39715     1               2030         20           11855                                                 
-BioJet_WO_35                                                0.39715     1               2035         20           11855                                                 
-BioJet_WO_40                                                0.39715     1               2040         20           11855                                                 
-BioJet_WO_45                                                0.39715     1               2045         20           11855                                                 
-BioJet_WO_50                                                0.39715     1               2050         20           11855                                                 
-                                                                                                                                                                        
-BioJet_WP_20                                                0.39715     1               2020         20           11855                                                 
-BioJet_WP_25                                                0.39715     1               2025         20           11855                                                 
-BioJet_WP_30                                                0.39715     1               2030         20           11855                                                 
-BioJet_WP_35                                                0.39715     1               2035         20           11855                                                 
-BioJet_WP_40                                                0.39715     1               2040         20           11855                                                 
-BioJet_WP_45                                                0.39715     1               2045         20           11855                                                 
-BioJet_WP_50                                                0.39715     1               2050         20           11855                                                 
-                                                                                                                                                                        
-                                                                                                                                                                        
-BioJet_ST_H2_20                                             0.437       1               2020         20           13041                                                 
-BioJet_ST_H2_25                                             0.437       1               2025         20           13041                                                 
-BioJet_ST_H2_30                                             0.437       1               2030         20           13041                                                 
-BioJet_ST_H2_35                                             0.437       1               2035         20           13041                                                 
-BioJet_ST_H2_40                                             0.437       1               2040         20           13041                                                 
-BioJet_ST_H2_45                                             0.437       1               2045         20           13041                                                 
-BioJet_ST_H2_50                                             0.437       1               2050         20           13041                                                 
-                                                                                                                                                                        
-BioJet_WO_H2_20                                             0.437       1               2020         20           13041                                                 
-BioJet_WO_H2_25                                             0.437       1               2025         20           13041                                                 
-BioJet_WO_H2_30                                             0.437       1               2030         20           13041                                                 
-BioJet_WO_H2_35                                             0.437       1               2035         20           13041                                                 
-BioJet_WO_H2_40                                             0.437       1               2040         20           13041                                                 
-BioJet_WO_H2_45                                             0.437       1               2045         20           13041                                                 
-BioJet_WO_H2_50                                             0.437       1               2050         20           13041                                                 
-                                                                                                                                                                        
-BioJet_WP_H2_20                                             0.437       1               2020         20           13041                                                 
-BioJet_WP_H2_25                                             0.437       1               2025         20           13041                                                 
-BioJet_WP_H2_30                                             0.437       1               2030         20           13041                                                 
-BioJet_WP_H2_35                                             0.437       1               2035         20           13041                                                 
-BioJet_WP_H2_40                                             0.437       1               2040         20           13041                                                 
-BioJet_WP_H2_45                                             0.437       1               2045         20           13041                                                 
-BioJet_WP_H2_50                                             0.437       1               2050         20           13041                                                 
-                                                                                                                                                                        
-**HTL                                                                                                                                                                   
-HTL_ST_20                                                   0.61        1               2020         25           17439                                                 
-HTL_ST_25                                                   0.534       1               2025         25           17439                                                 
-HTL_ST_30                                                   0.458       1               2030         25           17439                                                 
-HTL_ST_35                                                   0.401       1               2035         25           17439                                                 
-HTL_ST_40                                                   0.343       1               2040         25           17439                                                 
-HTL_ST_45                                                   0.324       1               2045         25           17439                                                 
-HTL_ST_50                                                   0.305       1               2050         25           17439                                                 
-                                                                                                                                                                        
-HTL_WO_20                                                   0.61        1               2020         25           17439                                                 
-HTL_WO_25                                                   0.534       1               2025         25           17439                                                 
-HTL_WO_30                                                   0.458       1               2030         25           17439                                                 
-HTL_WO_35                                                   0.401       1               2035         25           17439                                                 
-HTL_WO_40                                                   0.343       1               2040         25           17439                                                 
-HTL_WO_45                                                   0.324       1               2045         25           17439                                                 
-HTL_WO_50                                                   0.305       1               2050         25           17439                                                 
-                                                                                                                                                                        
-HTL_WP_20                                                   0.61        1               2020         25           17439                                                 
-HTL_WP_25                                                   0.534       1               2025         25           17439                                                 
-HTL_WP_30                                                   0.458       1               2030         25           17439                                                 
-HTL_WP_35                                                   0.401       1               2035         25           17439                                                 
-HTL_WP_40                                                   0.343       1               2040         25           17439                                                 
-HTL_WP_45                                                   0.324       1               2045         25           17439                                                 
-HTL_WP_50                                                   0.305       1               2050         25           17439                                                 
-                                                                                                                                                                        
-                                                                                                                                                                        
-Ethanol_20                                                  0.2466      1               2020         20           18942                                                 
-Ethanol_25                                                  0.2466      1               2025         20           18942                                                 
-Ethanol_30                                                  0.2466      1               2030         20           18942                                                 
-Ethanol_35                                                  0.2466      1               2035         20           18942                                                 
-Ethanol_40                                                  0.2466      1               2040         20           18942                                                 
-Ethanol_45                                                  0.2466      1               2045         20           18942                                                 
-Ethanol_50                                                  0.2466      1               2050         20           18942                                                 
-                                                                                                                                                                        
-                                                                                                                                                                        
-*TG_FT_Biodiesel_MW_20                                      0.526       1               2020         20           14840       /*   0.953       */                       
-*TG_FT_Biodiesel_MW_25                                      0.526       1               2025         20           14840       /*   0.953       */                       
-*TG_FT_Biodiesel_MW_30                                      0.526       1               2030         20           14840       /*   0.953       */                       
-*TG_FT_Biodiesel_MW_35                                      0.526       1               2035         20           14840       /*   0.953       */                       
-*TG_FT_Biodiesel_MW_40                                      0.526       1               2040         20           14840       /*   0.953       */                       
-*TG_FT_Biodiesel_MW_45                                      0.526       1               2045         20           14840       /*   0.953       */                       
-*TG_FT_Biodiesel_MW_50                                      0.526       1               2050         20           14840       /*   0.953       */                       
-                                                                                                                                                                        
-TG_FT_Biodiesel_ST_20                                       0.526       1               2020         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_ST_25                                       0.526       1               2025         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_ST_30                                       0.526       1               2030         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_ST_35                                       0.526       1               2035         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_ST_40                                       0.526       1               2040         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_ST_45                                       0.526       1               2045         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_ST_50                                       0.526       1               2050         20           14840       /*   0.953       */                       
-                                                                                                                                                                        
-TG_FT_Biodiesel_WO_20                                       0.526       1               2020         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WO_25                                       0.526       1               2025         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WO_30                                       0.526       1               2030         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WO_35                                       0.526       1               2035         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WO_40                                       0.526       1               2040         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WO_45                                       0.526       1               2045         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WO_50                                       0.526       1               2050         20           14840       /*   0.953       */                       
-                                                                                                                                                                        
-TG_FT_Biodiesel_WP_20                                       0.526       1               2020         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WP_25                                       0.526       1               2025         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WP_30                                       0.526       1               2030         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WP_35                                       0.526       1               2035         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WP_40                                       0.526       1               2040         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WP_45                                       0.526       1               2045         20           14840       /*   0.953       */                       
-TG_FT_Biodiesel_WP_50                                       0.526       1               2050         20           14840       /*   0.953       */                       
-                                                                                                                                                                        
-GtBioJet_20                                                 0.2         1               2020         20           5000                                                  
-GtBioJet_25                                                 0.2         1               2025         20           5000                                                  
-GtBioJet_30                                                 0.2         1               2030         20           5000                                                  
-GtBioJet_35                                                 0.2         1               2035         20           5000                                                  
-GtBioJet_40                                                 0.2         1               2040         20           5000                                                  
-GtBioJet_45                                                 0.2         1               2045         20           5000                                                  
-GtBioJet_50                                                 0.2         1               2050         20           5000                                                  
-                                                                                                                                                                        
-GtMeOH_20                                                   0.1527      1               2020         20           5316                                                  
-GtMeOH_25                                                   0.1527      1               2025         20           5316                                                  
-GtMeOH_30                                                   0.1527      1               2030         20           5316                                                  
-GtMeOH_35                                                   0.1527      1               2035         20           5316                                                  
-GtMeOH_40                                                   0.1527      1               2040         20           5316                                                  
-GtMeOH_45                                                   0.1527      1               2045         20           5316                                                  
-GtMeOH_50                                                   0.1527      1               2050         20           5316                                                  
-                                                                                                                                                                        
-CSMR_20                                                     0.6         1               2020         20           20000                                                 
-CSMR_25                                                     0.6         1               2025         20           20000                                                 
-CSMR_30                                                     0.6         1               2030         20           20000                                                 
-CSMR_35                                                     0.6         1               2035         20           20000                                                 
-CSMR_40                                                     0.6         1               2040         20           20000                                                 
-CSMR_45                                                     0.6         1               2045         20           20000                                                 
-CSMR_50                                                     0.6         1               2050         20           20000                                                 
-                                                                                                                                                                        
-                                                                                                                                                                        
-EMethanol_synthesis_20                                      0.1527      1               2020         20           5316                                                  
-EMethanol_synthesis_25                                      0.1527      1               2025         20           5316                                                  
-EMethanol_synthesis_30                                      0.1527      1               2030         20           5316                                                  
-EMethanol_synthesis_35                                      0.1527      1               2035         20           5316                                                  
-EMethanol_synthesis_40                                      0.1527      1               2040         20           5316                                                  
-EMethanol_synthesis_45                                      0.1527      1               2045         20           5316                                                  
-EMethanol_synthesis_50                                      0.1527      1               2050         20           5316                                                  
-                                                                                                                                                                        
-EMethanol_Upgrade_20                                        0.0813      1               2020         20           3252                                                  
-EMethanol_Upgrade_25                                        0.0813      1               2025         20           3252                                                  
-EMethanol_Upgrade_30                                        0.0813      1               2030         20           3252                                                  
-EMethanol_Upgrade_35                                        0.0813      1               2035         20           3252                                                  
-EMethanol_Upgrade_40                                        0.0813      1               2040         20           3252                                                  
-EMethanol_Upgrade_45                                        0.0813      1               2045         20           3252                                                  
-EMethanol_Upgrade_50                                        0.0813      1               2050         20           3252                                                  
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-E_FT_20                                                     0.13668     1               2020         25           5467                                                  
-E_FT_25                                                     0.13668     1               2025         25           5467                                                  
-E_FT_30                                                     0.13668     1               2030         25           5467                                                  
-E_FT_35                                                     0.13668     1               2035         25           5467                                                  
-E_FT_40                                                     0.13668     1               2040         25           5467                                                  
-E_FT_45                                                     0.13668     1               2045         25           5467                                                  
-E_FT_50                                                     0.13668     1               2050         25           5467                                                  
-                                                                                                                                                                        
-Ammonia_Synthesis_20                                        0.1944      1               2020         20           7777                                                  
-Ammonia_Synthesis_25                                        0.1944      1               2025         20           7777                                                  
-Ammonia_Synthesis_30                                        0.1944      1               2030         20           7777                                                  
-Ammonia_Synthesis_35                                        0.1944      1               2035         20           7777                                                  
-Ammonia_Synthesis_40                                        0.1944      1               2040         20           7777                                                  
-Ammonia_Synthesis_45                                        0.1944      1               2045         20           7777                                                  
-Ammonia_Synthesis_50                                        0.1944      1               2050         20           7777                                                  
-                                                                                                                                                                        
-                                                                                                                                                                        
-Engine_Syngas_50                                            0.394       1               2020         20           5803                                                  
-Engine_Biogas_50                                            0.394       1               2020         20           5803                                                  
-                                                                                                                                                                        
-;                                                                                                                                                                       
-                                                                                                                                                                        
-*PROCDATA(PROC,'PROCINVCOST')=PROCDATA(PROC,'PROCINVCOST');                                                                                                             
+TABLE PROCDATA(PROC,PROCDATASET)    "Process data"                                                                                                                                         
+                                                                                                                                                                                           
+*                                                           MEuro/GJ/h                                                    Euro/GJ/h                                                        
+                                                            PROCINVCOST         PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST      /*   PROCVARCOST       */                       
+ProA                                                        0.5                 1               2020         25           15000                                                            
+ProB                                                        0.001               1               2020         25           1                                                                
+                                                                                                                                                                                           
+StoA                                                        0.2                 1               2020         20           100                                                              
+                                                                                                                                                                                           
+ProD                                                        0.5                 1               2020         20           100                                                              
+StoD                                                        0.1                 1               2020         20           100                                                              
+                                                                                                                                                                                           
+*BiogasProd_single                                          0.395               1               2020         20           7170                                                             
+*BiogasProd_mix                                             0.307               1               2020         20           2812                                                             
+*BiogasProd_mix                                             0.42                1               2020         20           0.001                                                            
+*BiogasProd_mix                                             0.307               1               2020         20           2812                                                             
+                                                                                                                                                                                           
+BiogasUpgr_BMETH_20                                         0.118               1               2020         20           2944                                                             
+BiogasUpgr_BMETH_25                                         0.112               1               2025         20           2792                                                             
+BiogasUpgr_BMETH_30                                         0.106               1               2030         20           2639                                                             
+BiogasUpgr_BMETH_35                                         0.103               1               2035         20           2576                                                             
+BiogasUpgr_BMETH_40                                         0.1                 1               2040         20           2514                                                             
+BiogasUpgr_BMETH_45                                         0.098               1               2045         20           2451                                                             
+BiogasUpgr_BMETH_50                                         0.095               1               2050         20           2389                                                             
+                                                                                                                                                                                           
+BIOGAS_GRID_STO                                             0.0059085           1               2020         20           59.085                                                           
+                                                                                                                                                                                           
+*BIO_syngas_STO                                             0.07                1               2020         20           80                                                               
+*GasGrid_STO_BNG                                            1E-005              1               2020         20           0.0001                                                           
+                                                                                                                                                                                           
+Straw_pre_BG_20                                             5.19042609717E-005  1               2020         20           0.001                                                            
+Straw_pre_BG_25                                             4.930904792312E-005 1               2025         20           0.001                                                            
+Straw_pre_BG_30                                             4.671383487453E-005 1               2030         20           0.001                                                            
+Straw_pre_BG_35                                             4.554598900267E-005 1               2035         20           0.001                                                            
+Straw_pre_BG_40                                             4.437814313081E-005 1               2040         20           0.001                                                            
+Straw_pre_BG_45                                             4.321029725894E-005 1               2045         20           0.001                                                            
+Straw_pre_BG_50                                             4.204245138708E-005 1               2050         20           0.001                                                            
+                                                                                                                                                                                           
+Deep_Litter_pre_BG_20                                       1.88303830502E-005  1               2020         20           0.001                                                            
+Deep_Litter_pre_BG_25                                       1.788886389769E-005 1               2025         20           0.001                                                            
+Deep_Litter_pre_BG_30                                       1.694734474518E-005 1               2030         20           0.001                                                            
+Deep_Litter_pre_BG_35                                       1.588813569861E-005 1               2035         20           0.001                                                            
+Deep_Litter_pre_BG_40                                       1.482892665203E-005 1               2040         20           0.001                                                            
+Deep_Litter_pre_BG_45                                       1.376971760546E-005 1               2045         20           0.001                                                            
+Deep_Litter_pre_BG_50                                       1.271050855888E-005 1               2050         20           0.001                                                            
+                                                                                                                                                                                           
+Food_Waste_pre_BG_20                                        2.112382713965E-005 1               2020         20           0.001                                                            
+Food_Waste_pre_BG_25                                        2.006763578266E-005 1               2025         20           0.001                                                            
+Food_Waste_pre_BG_30                                        1.901144442568E-005 1               2030         20           0.001                                                            
+Food_Waste_pre_BG_35                                        1.548074760377E-005 1               2035         20           0.001                                                            
+Food_Waste_pre_BG_40                                        1.195005078186E-005 1               2040         20           0.001                                                            
+Food_Waste_pre_BG_45                                        8.419353959945E-006 1               2045         20           0.001                                                            
+Food_Waste_pre_BG_50                                        4.888657138032E-006 1               2050         20           0.001                                                            
+                                                                                                                                                                                           
+Nature_Area_pre_BG_20                                       3.621227509654E-005 1               2020         20           0.001                                                            
+Nature_Area_pre_BG_25                                       3.440166134171E-005 1               2025         20           0.001                                                            
+Nature_Area_pre_BG_30                                       3.259104758688E-005 1               2030         20           0.001                                                            
+Nature_Area_pre_BG_35                                       3.177627139721E-005 1               2035         20           0.001                                                            
+Nature_Area_pre_BG_40                                       3.096149520754E-005 1               2040         20           0.001                                                            
+Nature_Area_pre_BG_45                                       3.014671901787E-005 1               2045         20           0.001                                                            
+Nature_Area_pre_BG_50                                       2.933194282819E-005 1               2050         20           0.001                                                            
+                                                                                                                                                                                           
+Manure_tank_20                                              1.569198587517E-005 1               2020         20           0.001                                                            
+Manure_tank_25                                              1.490738658141E-005 1               2025         20           0.001                                                            
+Manure_tank_30                                              1.412278728765E-005 1               2030         20           0.001                                                            
+Manure_tank_35                                              1.376971760546E-005 1               2035         20           0.001                                                            
+Manure_tank_40                                              1.341664792327E-005 1               2040         20           0.001                                                            
+Manure_tank_45                                              1.306357824108E-005 1               2045         20           0.001                                                            
+Manure_tank_50                                              1.271050855888E-005 1               2050         20           0.001                                                            
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+*BiogasProd_mix                                             3.23E-005           1               2020         20           2.9                                                              
+                                                                                                                                                                                           
+CO2_DAC_20                                                  3                   1               2020         25           120047                                                           
+CO2_DAC_25                                                  2.73                1               2025         25           109133                                                           
+CO2_DAC_30                                                  2.48                1               2030         25           99212                                                            
+CO2_DAC_35                                                  2.25                1               2035         25           90193                                                            
+CO2_DAC_40                                                  2.05                1               2040         25           81994                                                            
+CO2_DAC_45                                                  1.88                1               2045         25           75336                                                            
+CO2_DAC_50                                                  1.72                1               2050         25           68678                                                            
+                                                                                                                                                                                           
+CO2_IND_20                                                  0.325               1               2020         25           11915                                                            
+CO2_IND_25                                                  0.321               1               2025         25           11915                                                            
+CO2_IND_30                                                  0.317               1               2030         25           11915                                                            
+CO2_IND_35                                                  0.313               1               2035         25           11915                                                            
+CO2_IND_40                                                  0.308               1               2040         25           11915                                                            
+CO2_IND_45                                                  0.304               1               2045         25           11915                                                            
+CO2_IND_50                                                  0.3                 1               2050         25           11915                                                            
+                                                                                                                                                                                           
+CO2_PH_20                                                   0.325               1               2020         25           11915                                                            
+CO2_PH_25                                                   0.321               1               2025         25           11915                                                            
+CO2_PH_30                                                   0.317               1               2030         25           11915                                                            
+CO2_PH_35                                                   0.313               1               2035         25           11915                                                            
+CO2_PH_40                                                   0.308               1               2040         25           11915                                                            
+CO2_PH_45                                                   0.304               1               2045         25           11915                                                            
+CO2_PH_50                                                   0.3                 1               2050         25           11915                                                            
+                                                                                                                                                                                           
+CO2_Bio_20                                                  0.325               1               2020         25           11915                                                            
+CO2_Bio_25                                                  0.321               1               2025         25           11915                                                            
+CO2_Bio_30                                                  0.317               1               2030         25           11915                                                            
+CO2_Bio_35                                                  0.313               1               2035         25           11915                                                            
+CO2_Bio_40                                                  0.308               1               2040         25           11915                                                            
+CO2_Bio_45                                                  0.304               1               2045         25           11915                                                            
+CO2_Bio_50                                                  0.3                 1               2050         25           11915                                                            
+                                                                                                                                                                                           
+CO2_Sto                                                     1.521               1               2020         20           30435                                                            
+                                                                                                                                                                                           
+AEC_20                                                      0.17                1               2020         25           8333                                                             
+AEC_25                                                      0.16                1               2025         25           7986                                                             
+AEC_30                                                      0.15                1               2030         25           7639                                                             
+AEC_35                                                      0.15                1               2035         25           7465                                                             
+AEC_40                                                      0.15                1               2040         25           7292                                                             
+AEC_45                                                      0.14                1               2045         25           7118                                                             
+AEC_50                                                      0.14                1               2050         25           6944                                                             
+                                                                                                                                                                                           
+PEM_20                                                      0.31                1               2020         15           15278                                                            
+PEM_25                                                      0.24                1               2025         15           11806                                                            
+PEM_30                                                      0.17                1               2030         15           8333                                                             
+PEM_35                                                      0.16                1               2035         15           7639                                                             
+PEM_40                                                      0.15                1               2040         15           6944                                                             
+PEM_45                                                      0.13                1               2045         15           6250                                                             
+PEM_50                                                      0.11                1               2050         15           5556                                                             
+                                                                                                                                                                                           
+SOEC_20                                                     0.61                1               2020         20           18333                                                            
+SOEC_25                                                     0.39                1               2025         20           11667                                                            
+SOEC_30                                                     0.17                1               2030         20           5000                                                             
+SOEC_35                                                     0.15                1               2035         20           4583                                                             
+SOEC_40                                                     0.14                1               2040         20           4167                                                             
+SOEC_45                                                     0.13                1               2045         20           3750                                                             
+SOEC_50                                                     0.11                1               2050         30           3333                                                             
+                                                                                                                                                                                           
+Hydrogen_STO_Large_20                                       0.125               1               2020         20           5771                                                             
+Hydrogen_STO_Large_25                                       0.111               1               2025         20           5108                                                             
+Hydrogen_STO_Large_30                                       0.096               1               2030         20           4446                                                             
+Hydrogen_STO_Large_35                                       0.092               1               2035         20           4224                                                             
+Hydrogen_STO_Large_40                                       0.087               1               2040         20           4013                                                             
+Hydrogen_STO_Large_45                                       0.083               1               2045         20           3812                                                             
+Hydrogen_STO_Large_50                                       0.079               1               2050         20           3621                                                             
+                                                                                                                                                                                           
+Hydrogen_STO_Small_20                                       0.224               1               2020         20           10311                                                            
+Hydrogen_STO_Small_25                                       0.198               1               2025         20           9129                                                             
+Hydrogen_STO_Small_30                                       0.172               1               2030         20           7946                                                             
+Hydrogen_STO_Small_35                                       0.164               1               2035         20           7549                                                             
+Hydrogen_STO_Small_40                                       0.155               1               2040         20           7172                                                             
+Hydrogen_STO_Small_45                                       0.148               1               2045         20           6813                                                             
+Hydrogen_STO_Small_50                                       0.14                1               2050         20           6472                                                             
+                                                                                                                                                                                           
+*****gasification                                                                                                                                                                          
+$ontext                                                                                                                                                                                    
+TG_MW_20                                                    0.175               1               2020         20           7010             /*   0.953             TJEK */                  
+TG_MW_25                                                    0.175               1               2025         20           7010             /*   0.953             TJEK */                  
+TG_MW_30                                                    0.175               1               2030         20           7010             /*   0.953             TJEK */                  
+TG_MW_35                                                    0.175               1               2035         20           7010             /*   0.953             TJEK */                  
+TG_MW_40                                                    0.175               1               2040         20           7010             /*   0.953             TJEK */                  
+TG_MW_45                                                    0.175               1               2045         20           7010             /*   0.953             TJEK */                  
+TG_MW_50                                                    0.175               1               2050         20           7010             /*   0.953             TJEK */                  
+$offtext                                                                                                                                                                                   
+                                                                                                                                                                                           
+TG_ST_20                                                    0.175               1               2020         20           7010             /*   0.953             TJEK */                  
+TG_ST_25                                                    0.175               1               2025         20           7010             /*   0.953             TJEK */                  
+TG_ST_30                                                    0.175               1               2030         20           7010             /*   0.953             TJEK */                  
+TG_ST_35                                                    0.175               1               2035         20           7010             /*   0.953             TJEK */                  
+TG_ST_40                                                    0.175               1               2040         20           7010             /*   0.953             TJEK */                  
+TG_ST_45                                                    0.175               1               2045         20           7010             /*   0.953             TJEK */                  
+TG_ST_50                                                    0.175               1               2050         20           7010             /*   0.953             TJEK */                  
+                                                                                                                                                                                           
+TG_WO_20                                                    0.175               1               2020         20           7010             /*   0.953             TJEK */                  
+TG_WO_25                                                    0.175               1               2025         20           7010             /*   0.953             TJEK */                  
+TG_WO_30                                                    0.175               1               2030         20           7010             /*   0.953             TJEK */                  
+TG_WO_35                                                    0.175               1               2035         20           7010             /*   0.953             TJEK */                  
+TG_WO_40                                                    0.175               1               2040         20           7010             /*   0.953             TJEK */                  
+TG_WO_45                                                    0.175               1               2045         20           7010             /*   0.953             TJEK */                  
+TG_WO_50                                                    0.175               1               2050         20           7010             /*   0.953             TJEK */                  
+                                                                                                                                                                                           
+TG_WP_20                                                    0.175               1               2020         20           7010             /*   0.953             TJEK */                  
+TG_WP_25                                                    0.175               1               2025         20           7010             /*   0.953             TJEK */                  
+TG_WP_30                                                    0.175               1               2030         20           7010             /*   0.953             TJEK */                  
+TG_WP_35                                                    0.175               1               2035         20           7010             /*   0.953             TJEK */                  
+TG_WP_40                                                    0.175               1               2040         20           7010             /*   0.953             TJEK */                  
+TG_WP_45                                                    0.175               1               2045         20           7010             /*   0.953             TJEK */                  
+TG_WP_50                                                    0.175               1               2050         20           7010             /*   0.953             TJEK */                  
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+ThermGasific_SNG_MW_20                                      0.694444444444444   1               2020         20           11166.6666666667 /*   0.75              */                       
+ThermGasific_SNG_MW_25                                      0.569444444444444   1               2025         20           9222.22222222222 /*   0.611111111111111 */                       
+ThermGasific_SNG_MW_30                                      0.444444444444444   1               2030         20           7277.77777777778 /*   0.472222222222222 */                       
+ThermGasific_SNG_MW_35                                      0.444444444444444   1               2035         20           7131.94444444444 /*   0.472222222222222 */                       
+ThermGasific_SNG_MW_40                                      0.416666666666667   1               2040         20           6986.11111111111 /*   0.458333333333333 */                       
+ThermGasific_SNG_MW_45                                      0.416666666666667   1               2045         20           6840.27777777778 /*   0.444444444444444 */                       
+ThermGasific_SNG_MW_50                                      0.416666666666667   1               2050         20           6694.44444444444 /*   0.444444444444444 */                       
+                                                                                                                                                                                           
+ThermGasific_SNG_ST_20                                      0.694444444444444   1               2020         20           11166.6666666667 /*   0.75              */                       
+ThermGasific_SNG_ST_25                                      0.569444444444444   1               2025         20           9222.22222222222 /*   0.611111111111111 */                       
+ThermGasific_SNG_ST_30                                      0.444444444444444   1               2030         20           7277.77777777778 /*   0.472222222222222 */                       
+ThermGasific_SNG_ST_35                                      0.444444444444444   1               2035         20           7131.94444444444 /*   0.472222222222222 */                       
+ThermGasific_SNG_ST_40                                      0.416666666666667   1               2040         20           6986.11111111111 /*   0.458333333333333 */                       
+ThermGasific_SNG_ST_45                                      0.416666666666667   1               2045         20           6840.27777777778 /*   0.444444444444444 */                       
+ThermGasific_SNG_ST_50                                      0.416666666666667   1               2050         20           6694.44444444444 /*   0.444444444444444 */                       
+                                                                                                                                                                                           
+ThermGasific_SNG_WO_20                                      0.694444444444444   1               2020         20           11166.6666666667 /*   0.75              */                       
+ThermGasific_SNG_WO_25                                      0.569444444444444   1               2025         20           9222.22222222222 /*   0.611111111111111 */                       
+ThermGasific_SNG_WO_30                                      0.444444444444444   1               2030         20           7277.77777777778 /*   0.472222222222222 */                       
+ThermGasific_SNG_WO_35                                      0.444444444444444   1               2035         20           7131.94444444444 /*   0.472222222222222 */                       
+ThermGasific_SNG_WO_40                                      0.416666666666667   1               2040         20           6986.11111111111 /*   0.458333333333333 */                       
+ThermGasific_SNG_WO_45                                      0.416666666666667   1               2045         20           6840.27777777778 /*   0.444444444444444 */                       
+ThermGasific_SNG_WO_50                                      0.416666666666667   1               2050         20           6694.44444444444 /*   0.444444444444444 */                       
+                                                                                                                                                                                           
+ThermGasific_SNG_WP_20                                      0.694444444444444   1               2020         20           11166.6666666667 /*   0.75              */                       
+ThermGasific_SNG_WP_25                                      0.569444444444444   1               2025         20           9222.22222222222 /*   0.611111111111111 */                       
+ThermGasific_SNG_WP_30                                      0.444444444444444   1               2030         20           7277.77777777778 /*   0.472222222222222 */                       
+ThermGasific_SNG_WP_35                                      0.444444444444444   1               2035         20           7131.94444444444 /*   0.472222222222222 */                       
+ThermGasific_SNG_WP_40                                      0.416666666666667   1               2040         20           6986.11111111111 /*   0.458333333333333 */                       
+ThermGasific_SNG_WP_45                                      0.416666666666667   1               2045         20           6840.27777777778 /*   0.444444444444444 */                       
+ThermGasific_SNG_WP_50                                      0.416666666666667   1               2050         20           6694.44444444444 /*   0.444444444444444 */                       
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+ThermGasific_Syngas_MW_20                                   0.35048471290082    1               2020         20           6152.12527964206 /*   0.76510067114094  */                       
+ThermGasific_Syngas_MW_25                                   0.333706189410887   1               2025         20           6002.98284862043 /*   0.74496644295302  */                       
+ThermGasific_Syngas_MW_30                                   0.316927665920955   1               2030         20           5853.84041759881 /*   0.724832214765101 */                       
+ThermGasific_Syngas_MW_35                                   0.308538404175988   1               2035         20           5779.26920208799 /*   0.714765100671141 */                       
+ThermGasific_Syngas_MW_40                                   0.300149142431022   1               2040         20           5704.69798657718 /*   0.704697986577181 */                       
+ThermGasific_Syngas_MW_45                                   0.291759880686055   1               2045         20           5630.12677106637 /*   0.694630872483221 */                       
+ThermGasific_Syngas_MW_50                                   0.283370618941089   1               2050         20           5555.55555555556 /*   0.684563758389262 */                       
+                                                                                                                                                                                           
+ThermGasific_Syngas_ST_20                                   0.35048471290082    1               2020         20           6152.12527964206 /*   0.76510067114094  */                       
+ThermGasific_Syngas_ST_25                                   0.333706189410887   1               2025         20           6002.98284862043 /*   0.74496644295302  */                       
+ThermGasific_Syngas_ST_30                                   0.316927665920955   1               2030         20           5853.84041759881 /*   0.724832214765101 */                       
+ThermGasific_Syngas_ST_35                                   0.308538404175988   1               2035         20           5779.26920208799 /*   0.714765100671141 */                       
+ThermGasific_Syngas_ST_40                                   0.300149142431022   1               2040         20           5704.69798657718 /*   0.704697986577181 */                       
+ThermGasific_Syngas_ST_45                                   0.291759880686055   1               2045         20           5630.12677106637 /*   0.694630872483221 */                       
+ThermGasific_Syngas_ST_50                                   0.283370618941089   1               2050         20           5555.55555555556 /*   0.684563758389262 */                       
+                                                                                                                                                                                           
+ThermGasific_Syngas_WO_20                                   0.35048471290082    1               2020         20           6152.12527964206 /*   0.76510067114094  */                       
+ThermGasific_Syngas_WO_25                                   0.333706189410887   1               2025         20           6002.98284862043 /*   0.74496644295302  */                       
+ThermGasific_Syngas_WO_30                                   0.316927665920955   1               2030         20           5853.84041759881 /*   0.724832214765101 */                       
+ThermGasific_Syngas_WO_35                                   0.308538404175988   1               2035         20           5779.26920208799 /*   0.714765100671141 */                       
+ThermGasific_Syngas_WO_40                                   0.300149142431022   1               2040         20           5704.69798657718 /*   0.704697986577181 */                       
+ThermGasific_Syngas_WO_45                                   0.291759880686055   1               2045         20           5630.12677106637 /*   0.694630872483221 */                       
+ThermGasific_Syngas_WO_50                                   0.283370618941089   1               2050         20           5555.55555555556 /*   0.684563758389262 */                       
+                                                                                                                                                                                           
+ThermGasific_Syngas_WP_20                                   0.35048471290082    1               2020         20           6152.12527964206 /*   0.76510067114094  */                       
+ThermGasific_Syngas_WP_25                                   0.333706189410887   1               2025         20           6002.98284862043 /*   0.74496644295302  */                       
+ThermGasific_Syngas_WP_30                                   0.316927665920955   1               2030         20           5853.84041759881 /*   0.724832214765101 */                       
+ThermGasific_Syngas_WP_35                                   0.308538404175988   1               2035         20           5779.26920208799 /*   0.714765100671141 */                       
+ThermGasific_Syngas_WP_40                                   0.300149142431022   1               2040         20           5704.69798657718 /*   0.704697986577181 */                       
+ThermGasific_Syngas_WP_45                                   0.291759880686055   1               2045         20           5630.12677106637 /*   0.694630872483221 */                       
+ThermGasific_Syngas_WP_50                                   0.283370618941089   1               2050         20           5555.55555555556 /*   0.684563758389262 */                       
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+***********************meth                                                                                                                                                                
+Methanisation_Bio_BioGas_20                                 0.137               1               2020         20           6837                                                             
+Methanisation_Bio_BioGas_25                                 0.137               1               2025         20           6837                                                             
+Methanisation_Bio_BioGas_30                                 0.137               1               2030         20           6837                                                             
+Methanisation_Bio_BioGas_35                                 0.137               1               2035         20           6837                                                             
+Methanisation_Bio_BioGas_40                                 0.137               1               2040         20           6837                                                             
+Methanisation_Bio_BioGas_45                                 0.137               1               2045         20           6837                                                             
+Methanisation_Bio_BioGas_50                                 0.137               1               2050         20           6837                                                             
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+Methane_synthesis_TG_20                                     0.137               1               2020         20           6837                                                             
+Methane_synthesis_TG_25                                     0.137               1               2025         20           6837                                                             
+Methane_synthesis_TG_30                                     0.137               1               2030         20           6837                                                             
+Methane_synthesis_TG_35                                     0.137               1               2035         20           6837                                                             
+Methane_synthesis_TG_40                                     0.137               1               2040         20           6837                                                             
+Methane_synthesis_TG_45                                     0.137               1               2045         20           6837                                                             
+Methane_synthesis_TG_50                                     0.137               1               2050         20           6837                                                             
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+Methanol_synthesis_TG_20                                    0.049               1               2020         20           1467                                                             
+Methanol_synthesis_TG_25                                    0.049               1               2025         20           1467                                                             
+Methanol_synthesis_TG_30                                    0.049               1               2030         20           1467                                                             
+Methanol_synthesis_TG_35                                    0.049               1               2035         20           1467                                                             
+Methanol_synthesis_TG_40                                    0.049               1               2040         20           1467                                                             
+Methanol_synthesis_TG_45                                    0.049               1               2045         20           1467                                                             
+Methanol_synthesis_TG_50                                    0.049               1               2050         20           1467                                                             
+                                                                                                                                                                                           
+*******Biojet                                                                                                                                                                              
+BioJet_ST_20                                                0.39715             1               2020         20           11855                                                            
+BioJet_ST_25                                                0.39715             1               2025         20           11855                                                            
+BioJet_ST_30                                                0.39715             1               2030         20           11855                                                            
+BioJet_ST_35                                                0.39715             1               2035         20           11855                                                            
+BioJet_ST_40                                                0.39715             1               2040         20           11855                                                            
+BioJet_ST_45                                                0.39715             1               2045         20           11855                                                            
+BioJet_ST_50                                                0.39715             1               2050         20           11855                                                            
+                                                                                                                                                                                           
+BioJet_WO_20                                                0.39715             1               2020         20           11855                                                            
+BioJet_WO_25                                                0.39715             1               2025         20           11855                                                            
+BioJet_WO_30                                                0.39715             1               2030         20           11855                                                            
+BioJet_WO_35                                                0.39715             1               2035         20           11855                                                            
+BioJet_WO_40                                                0.39715             1               2040         20           11855                                                            
+BioJet_WO_45                                                0.39715             1               2045         20           11855                                                            
+BioJet_WO_50                                                0.39715             1               2050         20           11855                                                            
+                                                                                                                                                                                           
+BioJet_WP_20                                                0.39715             1               2020         20           11855                                                            
+BioJet_WP_25                                                0.39715             1               2025         20           11855                                                            
+BioJet_WP_30                                                0.39715             1               2030         20           11855                                                            
+BioJet_WP_35                                                0.39715             1               2035         20           11855                                                            
+BioJet_WP_40                                                0.39715             1               2040         20           11855                                                            
+BioJet_WP_45                                                0.39715             1               2045         20           11855                                                            
+BioJet_WP_50                                                0.39715             1               2050         20           11855                                                            
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+BioJet_ST_H2_20                                             0.437               1               2020         20           13041                                                            
+BioJet_ST_H2_25                                             0.437               1               2025         20           13041                                                            
+BioJet_ST_H2_30                                             0.437               1               2030         20           13041                                                            
+BioJet_ST_H2_35                                             0.437               1               2035         20           13041                                                            
+BioJet_ST_H2_40                                             0.437               1               2040         20           13041                                                            
+BioJet_ST_H2_45                                             0.437               1               2045         20           13041                                                            
+BioJet_ST_H2_50                                             0.437               1               2050         20           13041                                                            
+                                                                                                                                                                                           
+BioJet_WO_H2_20                                             0.437               1               2020         20           13041                                                            
+BioJet_WO_H2_25                                             0.437               1               2025         20           13041                                                            
+BioJet_WO_H2_30                                             0.437               1               2030         20           13041                                                            
+BioJet_WO_H2_35                                             0.437               1               2035         20           13041                                                            
+BioJet_WO_H2_40                                             0.437               1               2040         20           13041                                                            
+BioJet_WO_H2_45                                             0.437               1               2045         20           13041                                                            
+BioJet_WO_H2_50                                             0.437               1               2050         20           13041                                                            
+                                                                                                                                                                                           
+BioJet_WP_H2_20                                             0.437               1               2020         20           13041                                                            
+BioJet_WP_H2_25                                             0.437               1               2025         20           13041                                                            
+BioJet_WP_H2_30                                             0.437               1               2030         20           13041                                                            
+BioJet_WP_H2_35                                             0.437               1               2035         20           13041                                                            
+BioJet_WP_H2_40                                             0.437               1               2040         20           13041                                                            
+BioJet_WP_H2_45                                             0.437               1               2045         20           13041                                                            
+BioJet_WP_H2_50                                             0.437               1               2050         20           13041                                                            
+                                                                                                                                                                                           
+**HTL                                                                                                                                                                                      
+HTL_ST_20                                                   0.61                1               2020         25           17439                                                            
+HTL_ST_25                                                   0.534               1               2025         25           17439                                                            
+HTL_ST_30                                                   0.458               1               2030         25           17439                                                            
+HTL_ST_35                                                   0.401               1               2035         25           17439                                                            
+HTL_ST_40                                                   0.343               1               2040         25           17439                                                            
+HTL_ST_45                                                   0.324               1               2045         25           17439                                                            
+HTL_ST_50                                                   0.305               1               2050         25           17439                                                            
+                                                                                                                                                                                           
+HTL_WO_20                                                   0.61                1               2020         25           17439                                                            
+HTL_WO_25                                                   0.534               1               2025         25           17439                                                            
+HTL_WO_30                                                   0.458               1               2030         25           17439                                                            
+HTL_WO_35                                                   0.401               1               2035         25           17439                                                            
+HTL_WO_40                                                   0.343               1               2040         25           17439                                                            
+HTL_WO_45                                                   0.324               1               2045         25           17439                                                            
+HTL_WO_50                                                   0.305               1               2050         25           17439                                                            
+                                                                                                                                                                                           
+HTL_WP_20                                                   0.61                1               2020         25           17439                                                            
+HTL_WP_25                                                   0.534               1               2025         25           17439                                                            
+HTL_WP_30                                                   0.458               1               2030         25           17439                                                            
+HTL_WP_35                                                   0.401               1               2035         25           17439                                                            
+HTL_WP_40                                                   0.343               1               2040         25           17439                                                            
+HTL_WP_45                                                   0.324               1               2045         25           17439                                                            
+HTL_WP_50                                                   0.305               1               2050         25           17439                                                            
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+Ethanol_20                                                  0.2466              1               2020         20           18942                                                            
+Ethanol_25                                                  0.2466              1               2025         20           18942                                                            
+Ethanol_30                                                  0.2466              1               2030         20           18942                                                            
+Ethanol_35                                                  0.2466              1               2035         20           18942                                                            
+Ethanol_40                                                  0.2466              1               2040         20           18942                                                            
+Ethanol_45                                                  0.2466              1               2045         20           18942                                                            
+Ethanol_50                                                  0.2466              1               2050         20           18942                                                            
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+*TG_FT_Biodiesel_MW_20                                      0.705               1               2020         20           14840            /*   0.953             */                       
+*TG_FT_Biodiesel_MW_25                                      0.643               1               2025         20           14840            /*   0.953             */                       
+*TG_FT_Biodiesel_MW_30                                      0.582               1               2030         20           14840            /*   0.953             */                       
+*TG_FT_Biodiesel_MW_35                                      0.568               1               2035         20           14840            /*   0.953             */                       
+*TG_FT_Biodiesel_MW_40                                      0.554               1               2040         20           14840            /*   0.953             */                       
+*TG_FT_Biodiesel_MW_45                                      0.54                1               2045         20           14840            /*   0.953             */                       
+*TG_FT_Biodiesel_MW_50                                      0.526               1               2050         20           14840            /*   0.953             */                       
+                                                                                                                                                                                           
+TG_FT_Biodiesel_ST_20                                       0.705               1               2020         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_ST_25                                       0.643               1               2025         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_ST_30                                       0.582               1               2030         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_ST_35                                       0.568               1               2035         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_ST_40                                       0.554               1               2040         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_ST_45                                       0.54                1               2045         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_ST_50                                       0.526               1               2050         20           14840            /*   0.953             */                       
+                                                                                                                                                                                           
+TG_FT_Biodiesel_WO_20                                       0.705               1               2020         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WO_25                                       0.643               1               2025         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WO_30                                       0.582               1               2030         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WO_35                                       0.568               1               2035         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WO_40                                       0.554               1               2040         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WO_45                                       0.54                1               2045         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WO_50                                       0.526               1               2050         20           14840            /*   0.953             */                       
+                                                                                                                                                                                           
+TG_FT_Biodiesel_WP_20                                       0.705               1               2020         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WP_25                                       0.643               1               2025         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WP_30                                       0.582               1               2030         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WP_35                                       0.568               1               2035         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WP_40                                       0.554               1               2040         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WP_45                                       0.54                1               2045         20           14840            /*   0.953             */                       
+TG_FT_Biodiesel_WP_50                                       0.526               1               2050         20           14840            /*   0.953             */                       
+                                                                                                                                                                                           
+GtBioJet_20                                                 0.2                 1               2020         20           5000                                                             
+GtBioJet_25                                                 0.2                 1               2025         20           5000                                                             
+GtBioJet_30                                                 0.2                 1               2030         20           5000                                                             
+GtBioJet_35                                                 0.2                 1               2035         20           5000                                                             
+GtBioJet_40                                                 0.2                 1               2040         20           5000                                                             
+GtBioJet_45                                                 0.2                 1               2045         20           5000                                                             
+GtBioJet_50                                                 0.2                 1               2050         20           5000                                                             
+                                                                                                                                                                                           
+GtMeOH_20                                                   0.1527              1               2020         20           5316                                                             
+GtMeOH_25                                                   0.1527              1               2025         20           5316                                                             
+GtMeOH_30                                                   0.1527              1               2030         20           5316                                                             
+GtMeOH_35                                                   0.1527              1               2035         20           5316                                                             
+GtMeOH_40                                                   0.1527              1               2040         20           5316                                                             
+GtMeOH_45                                                   0.1527              1               2045         20           5316                                                             
+GtMeOH_50                                                   0.1527              1               2050         20           5316                                                             
+                                                                                                                                                                                           
+CSMR_20                                                     0.6                 1               2020         20           20000                                                            
+CSMR_25                                                     0.6                 1               2025         20           20000                                                            
+CSMR_30                                                     0.6                 1               2030         20           20000                                                            
+CSMR_35                                                     0.6                 1               2035         20           20000                                                            
+CSMR_40                                                     0.6                 1               2040         20           20000                                                            
+CSMR_45                                                     0.6                 1               2045         20           20000                                                            
+CSMR_50                                                     0.6                 1               2050         20           20000                                                            
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+EMethanol_synthesis_20                                      0.235               1               2020         20           9402                                                             
+EMethanol_synthesis_25                                      0.188               1               2025         20           7521                                                             
+EMethanol_synthesis_30                                      0.141               1               2030         20           5641                                                             
+EMethanol_synthesis_35                                      0.141               1               2035         20           5641                                                             
+EMethanol_synthesis_40                                      0.141               1               2040         20           5641                                                             
+EMethanol_synthesis_45                                      0.141               1               2045         20           5641                                                             
+EMethanol_synthesis_50                                      0.141               1               2050         20           5641                                                             
+                                                                                                                                                                                           
+EMethanol_Upgrade_20                                        0.0915570046861632  1               2020         20           3252                                                             
+EMethanol_Upgrade_25                                        0.08976176930016    1               2025         20           3252                                                             
+EMethanol_Upgrade_30                                        0.088001734608      1               2030         20           3252                                                             
+EMethanol_Upgrade_35                                        0.0862762104        1               2035         20           3252                                                             
+EMethanol_Upgrade_40                                        0.08458452          1               2040         20           3252                                                             
+EMethanol_Upgrade_45                                        0.082926            1               2045         20           3252                                                             
+EMethanol_Upgrade_50                                        0.0813              1               2050         20           3252                                                             
+                                                                                                                                                                                           
+E_FT_20                                                     0.214               1               2020         25           8547                                                             
+E_FT_25                                                     0.175               1               2025         25           7007                                                             
+E_FT_30                                                     0.137               1               2030         25           5467                                                             
+E_FT_35                                                     0.137               1               2035         25           5467                                                             
+E_FT_40                                                     0.137               1               2040         25           5467                                                             
+E_FT_45                                                     0.137               1               2045         25           5467                                                             
+E_FT_50                                                     0.137               1               2050         25           5467                                                             
+                                                                                                                                                                                           
+Ammonia_Synthesis_20                                        0.2605145925375     1               2020         20           5716.80963339062                                                 
+Ammonia_Synthesis_25                                        0.24810913575       1               2025         20           6017.6943509375                                                  
+Ammonia_Synthesis_30                                        0.236294415         1               2030         20           6334.41510625                                                    
+Ammonia_Synthesis_35                                        0.2250423           1               2035         20           6667.805375                                                      
+Ammonia_Synthesis_40                                        0.214326            1               2040         20           7018.7425                                                        
+Ammonia_Synthesis_45                                        0.20412             1               2045         20           7388.15                                                          
+Ammonia_Synthesis_50                                        0.1944              1               2050         20           7777                                                             
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+Engine_Syngas_50                                            0.394               1               2020         20           5803                                                             
+Engine_Biogas_50                                            0.394               1               2020         20           5803                                                             
+                                                                                                                                                                                           
+;                                                                                                                                                                                          
+                                                                                                                                                                                           
+*PROCDATA(PROC,'PROCINVCOST')=PROCDATA(PROC,'PROCINVCOST');                                                                                                                                
