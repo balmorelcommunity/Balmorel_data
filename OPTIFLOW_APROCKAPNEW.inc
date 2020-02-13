@@ -230,12 +230,52 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
                                                                                                                                                                                         
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
+2025                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
+2030                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
+2035                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
+2040                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
+2045                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
+2050                                                                                                               .    DK1_Large    .    CO2_Bio_Pot                                   
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
+2025                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
+2030                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
+2035                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
+2040                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
+2045                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
+2050                                                                                                               .    DK1_Medium   .    CO2_Bio_Pot                                   
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
+2025                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
+2030                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
+2035                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
+2040                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
+2045                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
+2050                                                                                                               .    DK1_MedSmall .    CO2_Bio_Pot                                   
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
+2025                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
+2030                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
+2035                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
+2040                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
+2045                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
+2050                                                                                                               .    DK1_Small    .    CO2_Bio_Pot                                   
+                                                                                                                                                                                        
+2020                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2025                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2030                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2035                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2040                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2045                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2050                                                                                                               .    DK1_Large    .    CO2_STO                                       
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Medium   .    CO2_STO                                       
-2020                                                                                                               .    DK1_Large    .    CO2_STO                                       
+2025                                                                                                               .    DK1_Medium   .    CO2_STO                                       
+2030                                                                                                               .    DK1_Medium   .    CO2_STO                                       
+2035                                                                                                               .    DK1_Medium   .    CO2_STO                                       
+2040                                                                                                               .    DK1_Medium   .    CO2_STO                                       
+2045                                                                                                               .    DK1_Medium   .    CO2_STO                                       
+2050                                                                                                               .    DK1_Medium   .    CO2_STO                                       
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Medium   .    TG_MW_20                                      
 2025                                                                                                               .    DK1_Medium   .    TG_MW_25                                      
@@ -523,8 +563,29 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2050                                                                                                               .    DK1_Medium   .    Methanol_synthesis_TG_50                      
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Medium   .    Biogas_Grid_STO                               
+2025                                                                                                               .    DK1_Medium   .    Biogas_Grid_STO                               
+2030                                                                                                               .    DK1_Medium   .    Biogas_Grid_STO                               
+2035                                                                                                               .    DK1_Medium   .    Biogas_Grid_STO                               
+2040                                                                                                               .    DK1_Medium   .    Biogas_Grid_STO                               
+2045                                                                                                               .    DK1_Medium   .    Biogas_Grid_STO                               
+2050                                                                                                               .    DK1_Medium   .    Biogas_Grid_STO                               
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_MedSmall .    Biogas_Grid_STO                               
+2025                                                                                                               .    DK1_MedSmall .    Biogas_Grid_STO                               
+2030                                                                                                               .    DK1_MedSmall .    Biogas_Grid_STO                               
+2035                                                                                                               .    DK1_MedSmall .    Biogas_Grid_STO                               
+2040                                                                                                               .    DK1_MedSmall .    Biogas_Grid_STO                               
+2045                                                                                                               .    DK1_MedSmall .    Biogas_Grid_STO                               
+2050                                                                                                               .    DK1_MedSmall .    Biogas_Grid_STO                               
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Small    .    Biogas_Grid_STO                               
+2025                                                                                                               .    DK1_Small    .    Biogas_Grid_STO                               
+2030                                                                                                               .    DK1_Small    .    Biogas_Grid_STO                               
+2035                                                                                                               .    DK1_Small    .    Biogas_Grid_STO                               
+2040                                                                                                               .    DK1_Small    .    Biogas_Grid_STO                               
+2045                                                                                                               .    DK1_Small    .    Biogas_Grid_STO                               
+2050                                                                                                               .    DK1_Small    .    Biogas_Grid_STO                               
+                                                                                                                                                                                        
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Large    .    BiogasUpgr_BMETH_20                           
 2025                                                                                                               .    DK1_Large    .    BiogasUpgr_BMETH_25                           
@@ -609,36 +670,36 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
                                                                                                                                                                                         
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_20                         
-2020                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_25                         
-2020                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_30                         
-2020                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_35                         
-2020                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_40                         
-2020                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_45                         
-2020                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_50                         
+2025                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_25                         
+2030                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_30                         
+2035                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_35                         
+2040                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_40                         
+2045                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_45                         
+2050                                                                                                               .    DK1_Large    .    Hydrogen_STO_Large_50                         
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_20                         
-2020                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_25                         
-2020                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_30                         
-2020                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_35                         
-2020                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_40                         
-2020                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_45                         
-2020                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_50                         
+2025                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_25                         
+2030                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_30                         
+2035                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_35                         
+2040                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_40                         
+2045                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_45                         
+2050                                                                                                               .    DK1_Medium   .    Hydrogen_STO_Large_50                         
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_20                         
-2020                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_25                         
-2020                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_30                         
-2020                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_35                         
-2020                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_40                         
-2020                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_45                         
-2020                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_50                         
+2025                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_25                         
+2030                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_30                         
+2035                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_35                         
+2040                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_40                         
+2045                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_45                         
+2050                                                                                                               .    DK1_MedSmall .    Hydrogen_STO_Small_50                         
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_20                         
-2020                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_25                         
-2020                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_30                         
-2020                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_35                         
-2020                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_40                         
-2020                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_45                         
-2020                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_50                         
+2025                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_25                         
+2030                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_30                         
+2035                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_35                         
+2040                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_40                         
+2045                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_45                         
+2050                                                                                                               .    DK1_Small    .    Hydrogen_STO_Small_50                         
                                                                                                                                                                                         
                                                                                                                                                                                         
                                                                                                                                                                                         
@@ -651,6 +712,7 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2040                                                                                                               .    DK1_Large    .    HTL_ST_40                                     
 2045                                                                                                               .    DK1_Large    .    HTL_ST_45                                     
 2050                                                                                                               .    DK1_Large    .    HTL_ST_50                                     
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Medium   .    HTL_ST_20                                     
 2025                                                                                                               .    DK1_Medium   .    HTL_ST_25                                     
 2030                                                                                                               .    DK1_Medium   .    HTL_ST_30                                     
@@ -666,6 +728,7 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2040                                                                                                               .    DK1_Large    .    HTL_WO_40                                     
 2045                                                                                                               .    DK1_Large    .    HTL_WO_45                                     
 2050                                                                                                               .    DK1_Large    .    HTL_WO_50                                     
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Medium   .    HTL_WO_20                                     
 2025                                                                                                               .    DK1_Medium   .    HTL_WO_25                                     
 2030                                                                                                               .    DK1_Medium   .    HTL_WO_30                                     
@@ -681,6 +744,7 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2040                                                                                                               .    DK1_Large    .    HTL_WP_40                                     
 2045                                                                                                               .    DK1_Large    .    HTL_WP_45                                     
 2050                                                                                                               .    DK1_Large    .    HTL_WP_50                                     
+                                                                                                                                                                                        
 2020                                                                                                               .    DK1_Medium   .    HTL_WP_20                                     
 2025                                                                                                               .    DK1_Medium   .    HTL_WP_25                                     
 2030                                                                                                               .    DK1_Medium   .    HTL_WP_30                                     
@@ -835,7 +899,6 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2040                                                                                                               .    DK1_Medium   .    E_FT_40                                       
 2045                                                                                                               .    DK1_Medium   .    E_FT_45                                       
 2050                                                                                                               .    DK1_Medium   .    E_FT_50                                       
-                                                                                                                                                                                        
                                                                                                                                                                                         
 2020                                                                                                               .    DK1_Large    .    Ammonia_Synthesis_20                          
 2025                                                                                                               .    DK1_Large    .    Ammonia_Synthesis_25                          
@@ -1002,4 +1065,4 @@ APROCKAPNEW(Y,'DK2_Small',PROC)=APROCKAPNEW(Y,'DK1_Small',PROC);
 APROCKAPNEW(Y,'DK1_Rural',PROC)=APROCKAPNEW(Y,'DK1_Small',PROC);                                                                                                                        
 APROCKAPNEW(Y,'DK2_Rural',PROC)=APROCKAPNEW(Y,'DK2_Small',PROC);                                                                                                                        
                                                                                                                                                                                         
-APROCKAPNEW(Y,AAA,PROC)=APROCKAPNEW('2020',AAA,PROC);                                                                                                                                   
+*APROCKAPNEW(Y,AAA,PROC)=APROCKAPNEW('2020',AAA,PROC);                                                                                                                                  
