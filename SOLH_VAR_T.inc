@@ -3,7 +3,7 @@
 TABLE SOLH_VAR_T1(SSS,TTT,AAA)               "Variation of the solar generation"                                                                       
 * contains the description of seasonal and daily variation of the solar heat production.                                                               
 * Data from DMI - Juan 30-05-2018                                                                                                                      
-                                                                                                                  DE4-N_A                              
+                                                                                                                  DK1_NoDH                             
 S01.T001                                                                                                          0                                    
 S01.T002                                                                                                          0                                    
 S01.T003                                                                                                          0                                    
@@ -8742,7 +8742,7 @@ S52.T167                                                                        
 S52.T168                                                                                                          0                                    
 ;                                                                                                                                                      
 SOLH_VAR_T(AAA,SSS,TTT)= SOLH_VAR_T1(SSS,TTT,AAA);                                                                                                     
-SOLH_VAR_T(IA,SSS,TTT)$((NOT SUM((S,T), SOLH_VAR_T(IA,S,T)))  AND SOLHFLH(IA)) = SOLH_VAR_T('DK2_NoDH',SSS,TTT) ;                                      
+SOLH_VAR_T(IA,SSS,TTT)$((NOT SUM((S,T), SOLH_VAR_T(IA,S,T)))  AND SOLHFLH(IA)) = SOLH_VAR_T('DK1_NoDH',SSS,TTT) ;                                      
                                                                                                                                                        
 SOLH_VAR_T1(SSS,TTT,AAA) =0;                                                                                                                           
                                                                                                                                                        
