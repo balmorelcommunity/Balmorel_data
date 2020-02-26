@@ -1,4 +1,4 @@
-*To be updated. Data only for DK2 by 20190902. 
+*To be updated. Data only for DK2 by 20190902.
 
 TABLE SOLH_VAR_T1(SSS,TTT,AAA)               "Variation of the solar generation"
 * contains the description of seasonal and daily variation of the solar heat production.
@@ -8741,7 +8741,7 @@ S52.T166                                                                        
 S52.T167                                                                                                          0
 S52.T168                                                                                                          0
 ;
-SOLH_VAR_T(AAA,SSS,TTT)= SOLH_VAR_T1(SSS,TTT,AAA);
+SOLH_VAR_T(AAA,SSS,TTT)= SOLH_VAR_T1(SSS,TTT,AAA)$(SOLH_VAR_T1(SSS,TTT,AAA) GE 0.001);
 SOLH_VAR_T(IA,SSS,TTT)$((NOT SUM((S,T), SOLH_VAR_T(IA,S,T)))  AND SOLHFLH(IA)) = SOLH_VAR_T('DK2_NoDH',SSS,TTT) ;
 
 SOLH_VAR_T1(SSS,TTT,AAA) =0;
