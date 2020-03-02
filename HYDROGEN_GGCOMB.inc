@@ -55,4 +55,6 @@ GNR_BO_NGAS_E-95_SS-10-KW_Y-2020                             .    GNR_BO_NGAS_E-
 GNR_BO_NGAS_E-96_SS-10-KW_Y-2030                             .    GNR_BO_NGAS_E-96_SS-10-KW_Y-2030_CT-BIOMETH     
 GNR_BO_NGAS_E-96_SS-10-KW_Y-2040                             .    GNR_BO_NGAS_E-96_SS-10-KW_Y-2040_CT-BIOMETH     
 GNR_BO_NGAS_E-97_SS-10-KW_Y-2050                             .    GNR_BO_NGAS_E-97_SS-10-KW_Y-2050_CT-BIOMETH     
+GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020                           .    GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH   
+                                                                                                                  
 /;                                                                                                                

@@ -50,4 +50,6 @@ GNR_GT_NGAS_CND_E-44_LS-40-MW_Y-2040_CT-BGAS
 GNR_GT_NGAS_CND_E-44_LS-40-MW_Y-2050_CT-BGAS 
 GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2020_CT-BGAS
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020_CT-BGAS
+GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020_CT-BGAS   
+                                             
 /;                                           
