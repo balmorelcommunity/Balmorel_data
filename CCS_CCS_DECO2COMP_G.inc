@@ -45,11 +45,12 @@ GNR_GT_NGASCCS_CND_E-42_LS-40-MW_Y-2020                                         
 GNR_GT_NGASCCS_CND_E-43_LS-40-MW_Y-2030                                                                                                                                  0.371  
 GNR_GT_NGASCCS_CND_E-44_LS-40-MW_Y-2040                                                                                                                                  0.371  
 GNR_GT_NGASCCS_CND_E-44_LS-40-MW_Y-2050                                                                                                                                  0.371  
-GNR_IND-BO_NGASCCS_E-75_MS-5-MW_Y-2020                                                                                                                                   0.371  
-GNR_IND-BO_NGASCCS_E-75_MS-5-MW_Y-2030                                                                                                                                   0.371  
-GNR_IND-BO_NGASCCS_E-75_MS-5-MW_Y-2040                                                                                                                                   0.371  
-GNR_IND-BO_NGASCCS_E-75_MS-5-MW_Y-2050                                                                                                                                   0.371  
+GNR_IND-DF_NGASCCS_E-100_MS-3-MW_Y-2020                                                                                                                                  0.371  
+GNR_IND-BO_NGASCCS_E-93_MS-20-MW_Y-2020                                                                                                                                  0.371  
+GNR_IND-BO_NGASCCS_E-94_MS-20-MW_Y-2030                                                                                                                                  0.371  
+GNR_IND-BO_NGASCCS_E-95_MS-20-MW_Y-2040                                                                                                                                  0.371  
+GNR_IND-BO_NGASCCS_E-96_MS-20-MW_Y-2050                                                                                                                                  0.371  
 GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020                                                                                                                                 0.371  
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020                                                                                                                                 0.371  
-GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020                                                                                                                                       0.371  
+GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020                                                                                                                                    0.371  
 /;                                                                                                                                                                              
