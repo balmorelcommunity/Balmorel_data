@@ -639,6 +639,7 @@ GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2030
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2050
 GNR_ST_NUCL_CND_E-33
+GNR_ST_NUCL_ADVANCE
 GNR_ST_PEAT_BP_CB-10
 GNR_ST_PEAT_BP_CB-120
 GNR_ST_PEAT_BP_CB-20
@@ -852,19 +853,19 @@ VILNIUS_ST_MSW_BP
 VILNIUS_ST_WOODCHI_BP
 VKG_ST_RETORT-GAS_EXT
 VUOSAARIB_CC_NGAS_EXT
-/;                                                                                                                
+/;
 
 
 
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
-                                                                                                                  
+
+
+
+
+
+
+
+
+
+
+
+
