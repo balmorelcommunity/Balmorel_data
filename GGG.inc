@@ -928,6 +928,18 @@ GNR_WT_WIND_ONS_SS-25-KW_Y-2020
 GNR_WT_WIND_ONS_SS-25-KW_Y-2030               
 GNR_WT_WIND_ONS_SS-25-KW_Y-2040               
 GNR_WT_WIND_ONS_SS-25-KW_Y-2050               
+GNR_WT-LW_WIND_ONS_LS_L-RG1_Y-2020            
+GNR_WT-LW_WIND_ONS_LS_L-RG1_Y-2030            
+GNR_WT-LW_WIND_ONS_LS_L-RG1_Y-2040            
+GNR_WT-LW_WIND_ONS_LS_L-RG1_Y-2050            
+GNR_WT-LW_WIND_ONS_LS_L-RG2_Y-2020            
+GNR_WT-LW_WIND_ONS_LS_L-RG2_Y-2030            
+GNR_WT-LW_WIND_ONS_LS_L-RG2_Y-2040            
+GNR_WT-LW_WIND_ONS_LS_L-RG2_Y-2050            
+GNR_WT-LW_WIND_ONS_LS_L-RG3_Y-2020            
+GNR_WT-LW_WIND_ONS_LS_L-RG3_Y-2030            
+GNR_WT-LW_WIND_ONS_LS_L-RG3_Y-2040            
+GNR_WT-LW_WIND_ONS_LS_L-RG3_Y-2050            
 GORZ-4_ST_NGAS_BP                             
 IMAVERE_ST_WOODCHI_BP                         
 IRU_ST_MSW_BP                                 
@@ -1182,18 +1194,6 @@ GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020      
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020         
 GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020            
-                                              
-                                              
-                                              
-                                              
-                                              
-                                              
-                                              
-                                              
-                                              
-                                              
-                                              
-                                              
                                               
                                               
                                               
