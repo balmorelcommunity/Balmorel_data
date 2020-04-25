@@ -25,6 +25,11 @@ INDHEAT_HPA2A_2020_IND                                                          
 INDHEAT_HPA2A_2030_IND                                                                                      .    (SPACEHEAT)           
 INDHEAT_HPA2A_2040_IND                                                                                      .    (SPACEHEAT)           
 INDHEAT_HPA2A_2050_IND                                                                                      .    (SPACEHEAT)           
+INDHEAT_HPB2W_2010_IND                                                                                      .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2020_IND                                                                                      .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2030_IND                                                                                      .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2040_IND                                                                                      .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2050_IND                                                                                      .    (SPACEHEAT, HOTWATER) 
 INDHEAT_SH_2010_IND                                                                                         .    (HOTWATER)            
 INDHEAT_SH_2020_IND                                                                                         .    (HOTWATER)            
 INDHEAT_SH_2030_IND                                                                                         .    (HOTWATER)            
@@ -36,6 +41,7 @@ INDHEAT_EL_2030_IND                                                             
 INDHEAT_EL_2040_IND                                                                                         .    (SPACEHEAT, HOTWATER) 
 INDHEAT_EL_2050_IND                                                                                         .    (SPACEHEAT, HOTWATER) 
 *                                                                                                                                      
+$ontext                                                                                                                                
 INDHEAT_AbGHPA2W_2010_IND                                                                                   .    (SPACEHEAT, HOTWATER) 
 INDHEAT_AbGHPA2W_2020_IND                                                                                   .    (SPACEHEAT, HOTWATER) 
 INDHEAT_AbGHPA2W_2030_IND                                                                                   .    (SPACEHEAT, HOTWATER) 
@@ -51,6 +57,7 @@ INDHEAT_AdGHPB2W_2020_IND                                                       
 INDHEAT_AdGHPB2W_2030_IND                                                                                   .    (SPACEHEAT, HOTWATER) 
 INDHEAT_AdGHPB2W_2040_IND                                                                                   .    (SPACEHEAT, HOTWATER) 
 INDHEAT_AdGHPB2W_2050_IND                                                                                   .    (SPACEHEAT, HOTWATER) 
+$offtext                                                                                                                               
 *                                                                                                                                      
 *                                                                                                                                      
 INDHEAT_OIL_2010_APART                                                                                      .    (SPACEHEAT, HOTWATER) 
@@ -73,6 +80,11 @@ INDHEAT_HPA2W_2020_APART                                                        
 INDHEAT_HPA2W_2030_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
 INDHEAT_HPA2W_2040_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
 INDHEAT_HPA2W_2050_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2010_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2020_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2030_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2040_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
+INDHEAT_HPB2W_2050_APART                                                                                    .    (SPACEHEAT, HOTWATER) 
 INDHEAT_SH_2010_APART                                                                                       .    (HOTWATER)            
 INDHEAT_SH_2020_APART                                                                                       .    (HOTWATER)            
 INDHEAT_SH_2030_APART                                                                                       .    (HOTWATER)            
@@ -84,6 +96,7 @@ INDHEAT_EL_2030_APART                                                           
 INDHEAT_EL_2040_APART                                                                                       .    (SPACEHEAT, HOTWATER) 
 INDHEAT_EL_2050_APART                                                                                       .    (SPACEHEAT, HOTWATER) 
 *                                                                                                                                      
+$ontext                                                                                                                                
 INDHEAT_AbGHPA2W_2010_APART                                                                                 .    (SPACEHEAT, HOTWATER) 
 INDHEAT_AbGHPA2W_2020_APART                                                                                 .    (SPACEHEAT, HOTWATER) 
 INDHEAT_AbGHPA2W_2030_APART                                                                                 .    (SPACEHEAT, HOTWATER) 
@@ -104,6 +117,7 @@ INDHEAT_GEHPB2W_2020_APART                                                      
 INDHEAT_GEHPB2W_2030_APART                                                                                  .    (SPACEHEAT, HOTWATER) 
 INDHEAT_GEHPB2W_2040_APART                                                                                  .    (SPACEHEAT, HOTWATER) 
 INDHEAT_GEHPB2W_2050_APART                                                                                  .    (SPACEHEAT, HOTWATER) 
+$offtext                                                                                                                               
 *                                                                                                                                      
 $ifi not %COMBTECH%==yes $goto endcombtech                                                                                             
 INDHEAT_GB_2010_IND_BIONG                                                                                   .    (SPACEHEAT, HOTWATER) 

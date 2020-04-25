@@ -40,6 +40,11 @@ DK1_NoDH_ind                                                                    
 DK1_NoDH_ind                                                                                                   .    INDHEAT_HPA2A_2030_IND      .    GR_ELHPA2A  1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_HPA2A_2040_IND      .    GR_ELHPA2A  1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_HPA2A_2050_IND      .    GR_ELHPA2A  1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_HPB2W_2010_IND      .    GR_HPB2W    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_HPB2W_2020_IND      .    GR_HPB2W    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_HPB2W_2030_IND      .    GR_HPB2W    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_HPB2W_2040_IND      .    GR_HPB2W    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_HPB2W_2050_IND      .    GR_HPB2W    1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_SH_2010_IND         .    GR_GBSH     1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_SH_2020_IND         .    GR_GBSH     1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_SH_2030_IND         .    GR_GBSH     1   
@@ -61,6 +66,7 @@ DK1_NoDH_ind                                                                    
 DK1_NoDH_ind                                                                                                   .    INDHEAT_EL_2040_IND         .    GR_ELHPA2A  1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_EL_2050_IND         .    GR_ELHPA2A  1   
 *                                                                                                                                                                    
+$ontext                                                                                                                                                              
 DK1_NoDH_ind                                                                                                   .    INDHEAT_AbGHPA2W_2010_IND   .    GR_AbGHPA2W 1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_AbGHPA2W_2020_IND   .    GR_AbGHPA2W 1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_AbGHPA2W_2030_IND   .    GR_AbGHPA2W 1   
@@ -76,6 +82,7 @@ DK1_NoDH_ind                                                                    
 DK1_NoDH_ind                                                                                                   .    INDHEAT_AdGHPB2W_2030_IND   .    GR_AdGHPB2W 1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_AdGHPB2W_2040_IND   .    GR_AdGHPB2W 1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_AdGHPB2W_2050_IND   .    GR_AdGHPB2W 1   
+$offtext                                                                                                                                                             
 *                                                                                                                                                                    
 *                                                                                                                                                                    
 DK1_NoDH_apart                                                                                                 .    INDHEAT_GB_2010_APART       .    GR_GB       1   
@@ -113,6 +120,11 @@ DK1_NoDH_apart                                                                  
 DK1_NoDH_apart                                                                                                 .    INDHEAT_HPA2W_2030_APART    .    GR_GBHPA2W  1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_HPA2W_2040_APART    .    GR_GBHPA2W  1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_HPA2W_2050_APART    .    GR_GBHPA2W  1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_HPB2W_2010_APART    .    GR_HPB2W    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_HPB2W_2020_APART    .    GR_HPB2W    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_HPB2W_2030_APART    .    GR_HPB2W    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_HPB2W_2040_APART    .    GR_HPB2W    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_HPB2W_2050_APART    .    GR_HPB2W    1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_SH_2010_APART       .    GR_GBSH     1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_SH_2020_APART       .    GR_GBSH     1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_SH_2030_APART       .    GR_GBSH     1   
@@ -130,6 +142,7 @@ DK1_NoDH_apart                                                                  
 DK1_NoDH_apart                                                                                                 .    INDHEAT_EL_2050_APART       .    GR_EL       1   
 *                                                                                                                                                                    
 *                                                                                                                                                                    
+$ontext                                                                                                                                                              
 DK1_NoDH_apart                                                                                                 .    INDHEAT_AbGHPA2W_2010_APART .    GR_AbGHPA2W 1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_AbGHPA2W_2020_APART .    GR_AbGHPA2W 1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_AbGHPA2W_2030_APART .    GR_AbGHPA2W 1   
@@ -150,6 +163,7 @@ DK1_NoDH_apart                                                                  
 DK1_NoDH_apart                                                                                                 .    INDHEAT_GEHPB2W_2030_APART  .    GR_GEHPB2W  1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_GEHPB2W_2040_APART  .    GR_GEHPB2W  1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_GEHPB2W_2050_APART  .    GR_GEHPB2W  1   
+$offtext                                                                                                                                                             
                                                                                                                                                                      
 /;                                                                                                                                                                   
                                                                                                                                                                      

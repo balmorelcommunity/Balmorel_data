@@ -45,6 +45,11 @@ INDHEAT_HPA2A_2020_IND                                                          
 INDHEAT_HPA2A_2030_IND                                                                  .    GR_ELHPA2A 
 INDHEAT_HPA2A_2040_IND                                                                  .    GR_ELHPA2A 
 INDHEAT_HPA2A_2050_IND                                                                  .    GR_ELHPA2A 
+INDHEAT_HPB2W_2010_IND                                                                  .    GR_HPB2W   
+INDHEAT_HPB2W_2020_IND                                                                  .    GR_HPB2W   
+INDHEAT_HPB2W_2030_IND                                                                  .    GR_HPB2W   
+INDHEAT_HPB2W_2040_IND                                                                  .    GR_HPB2W   
+INDHEAT_HPB2W_2050_IND                                                                  .    GR_HPB2W   
 INDHEAT_SH_2010_IND                                                                     .    GR_GBSH    
 INDHEAT_SH_2020_IND                                                                     .    GR_GBSH    
 INDHEAT_SH_2030_IND                                                                     .    GR_GBSH    
@@ -66,6 +71,7 @@ INDHEAT_EL_2030_IND                                                             
 INDHEAT_EL_2040_IND                                                                     .    GR_ELHPA2A 
 INDHEAT_EL_2050_IND                                                                     .    GR_ELHPA2A 
 *                                                                                                       
+$ontext                                                                                                 
 INDHEAT_AbGHPA2W_2010_IND                                                               .    GR_AbGHPA2W
 INDHEAT_AbGHPA2W_2020_IND                                                               .    GR_AbGHPA2W
 INDHEAT_AbGHPA2W_2030_IND                                                               .    GR_AbGHPA2W
@@ -81,6 +87,7 @@ INDHEAT_AdGHPB2W_2020_IND                                                       
 INDHEAT_AdGHPB2W_2030_IND                                                               .    GR_AdGHPB2W
 INDHEAT_AdGHPB2W_2040_IND                                                               .    GR_AdGHPB2W
 INDHEAT_AdGHPB2W_2050_IND                                                               .    GR_AdGHPB2W
+$offtext                                                                                                
 *                                                                                                       
 *                                                                                                       
 INDHEAT_OIL_2010_APART                                                                  .    GR_OIL     
@@ -123,6 +130,11 @@ INDHEAT_HPA2W_2020_APART                                                        
 INDHEAT_HPA2W_2030_APART                                                                .    GR_GBHPA2W 
 INDHEAT_HPA2W_2040_APART                                                                .    GR_GBHPA2W 
 INDHEAT_HPA2W_2050_APART                                                                .    GR_GBHPA2W 
+INDHEAT_HPB2W_2010_APART                                                                .    GR_HPB2W   
+INDHEAT_HPB2W_2020_APART                                                                .    GR_HPB2W   
+INDHEAT_HPB2W_2030_APART                                                                .    GR_HPB2W   
+INDHEAT_HPB2W_2040_APART                                                                .    GR_HPB2W   
+INDHEAT_HPB2W_2050_APART                                                                .    GR_HPB2W   
 INDHEAT_SH_2010_APART                                                                   .    GR_GBSH    
 INDHEAT_SH_2020_APART                                                                   .    GR_GBSH    
 INDHEAT_SH_2030_APART                                                                   .    GR_GBSH    
@@ -139,6 +151,7 @@ INDHEAT_EL_2030_APART                                                           
 INDHEAT_EL_2040_APART                                                                   .    GR_EL      
 INDHEAT_EL_2050_APART                                                                   .    GR_EL      
 *                                                                                                       
+$ontext                                                                                                 
 INDHEAT_AbGHPA2W_2010_APART                                                             .    GR_AbGHPA2W
 INDHEAT_AbGHPA2W_2020_APART                                                             .    GR_AbGHPA2W
 INDHEAT_AbGHPA2W_2030_APART                                                             .    GR_AbGHPA2W
@@ -159,4 +172,5 @@ INDHEAT_GEHPB2W_2020_APART                                                      
 INDHEAT_GEHPB2W_2030_APART                                                              .    GR_GEHPB2W 
 INDHEAT_GEHPB2W_2040_APART                                                              .    GR_GEHPB2W 
 INDHEAT_GEHPB2W_2050_APART                                                              .    GR_GEHPB2W 
+$offtext                                                                                                
 /;                                                                                                      
