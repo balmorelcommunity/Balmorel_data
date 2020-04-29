@@ -1,5 +1,6 @@
-SET LIMITSFORFUELS_GMAXFSET(LIMITSFORFUELS_NUMCONMAX,CCCRRRAAA,FFF)                                                     
-/                                                                                                                       
-/                                                                                                                       
-;                                                                                                                       
+SET LIMITSFORFUELS_GMAXFSET(LIMITSFORFUELS_NUMCONMAX,CCCRRRAAA,FFF)
+/
+NUMCONMAX1       . DENMARK . BIOGAS
+/
+;
 LIMITSFORFUELS_GMAXFSET(LIMITSFORFUELS_NUMCONMAX,C,FFF)=LIMITSFORFUELS_GMAXFSET(LIMITSFORFUELS_NUMCONMAX,'DENMARK',FFF);

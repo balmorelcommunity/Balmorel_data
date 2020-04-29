@@ -1,0 +1,6 @@
+TABLE LIMITSFORFUELS_GMAXF(YYY,CCCRRRAAA,FFF) 'Maximum fuel use (GJ) per year for several fuels'
+                 BIOGAS
+2035.DENMARK     107000000
+2040.DENMARK     107000000
+2050.DENMARK     107000000
+;
