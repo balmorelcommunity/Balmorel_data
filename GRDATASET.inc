@@ -15,6 +15,12 @@ GRDDCTOU
 GRDDCY                                                            
 /;                                                                
                                                                   
+SET GRDATASET2 'relevant groups of technologies for grid tariffs' 
+/                                                                 
+AVE_CONS_Y                                                        
+FLH                                                               
+/;                                                                
+                                                                  
 SET GRTECHGROUP 'relevant groups of technologies for grid tariffs'
 /                                                                 
 P2H                                                               
