@@ -1,6 +1,6 @@
 SET INDHEAT_GMOVE(INDHEAT_GGG,INDHEAT_GROUPFROM,INDHEAT_GROUPTO) 'Technologies that can be moved from group GROUPFROM to GROUPTO'
 /
-*$ontext
+$ontext
 INDHEAT_GB_2010_IND                                                                                                               .    GR_GB .    GR_GBHPA2W
 INDHEAT_GB_2010_IND                                                                                                               .    GR_GB .    GR_GBSH
 INDHEAT_WP_2010_IND                                                                                                               .    GR_WP .    GR_WPSH
@@ -15,6 +15,6 @@ INDHEAT_EL_2020_IND                                                             
 INDHEAT_GB_2020_APART                                                                                                             .    GR_GB .    GR_GBHPA2W
 INDHEAT_GB_2020_APART                                                                                                             .    GR_GB .    GR_GBSH
 INDHEAT_WP_2020_APART                                                                                                             .    GR_WP .    GR_WPSH
-*$offtext
+$offtext
 /
 ;
