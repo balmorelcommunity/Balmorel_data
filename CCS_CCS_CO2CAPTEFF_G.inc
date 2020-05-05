@@ -12,14 +12,14 @@ GNR_CC_NGASCCS_CND_E-51_SS-10-MW_Y-2020                                0.9
 GNR_CC_NGASCCS_CND_E-53_SS-10-MW_Y-2030                                0.9
 GNR_CC_NGASCCS_CND_E-54_SS-10-MW_Y-2040                                0.9
 GNR_CC_NGASCCS_CND_E-55_SS-10-MW_Y-2050                                0.9
-GNR_CC_NGASCCS_CND_E-59_LS-100-MW_Y-2020                               -0.9
-GNR_CC_NGASCCS_CND_E-61_LS-100-MW_Y-2030                               -0.9
-GNR_CC_NGASCCS_CND_E-62_LS-100-MW_Y-2040                               -0.9
-GNR_CC_NGASCCS_CND_E-63_LS-100-MW_Y-2050                               -0.9
-GNR_CC_NGASCCS_EXT_E-59_LS-100-MW_Y-2020                               -0.9
-GNR_CC_NGASCCS_EXT_E-61_LS-100-MW_Y-2030                               -0.9
-GNR_CC_NGASCCS_EXT_E-62_LS-100-MW_Y-2040                               -0.9
-GNR_CC_NGASCCS_EXT_E-63_LS-100-MW_Y-2050                               -0.9
+GNR_CC_NGASCCS_CND_E-59_LS-100-MW_Y-2020                               0.9
+GNR_CC_NGASCCS_CND_E-61_LS-100-MW_Y-2030                               0.9
+GNR_CC_NGASCCS_CND_E-62_LS-100-MW_Y-2040                               0.9
+GNR_CC_NGASCCS_CND_E-63_LS-100-MW_Y-2050                               0.9
+GNR_CC_NGASCCS_EXT_E-59_LS-100-MW_Y-2020                               0.9
+GNR_CC_NGASCCS_EXT_E-61_LS-100-MW_Y-2030                               0.9
+GNR_CC_NGASCCS_EXT_E-62_LS-100-MW_Y-2040                               0.9
+GNR_CC_NGASCCS_EXT_E-63_LS-100-MW_Y-2050                               0.9
 GNR_ENG_NGASCCS_BP_E-47_Y-2020                                         0.9
 GNR_ENG_NGASCCS_BP_E-48_Y-2030                                         0.9
 GNR_ENG_NGASCCS_BP_E-49_Y-2040                                         0.9
@@ -52,184 +52,159 @@ GNR_IND-BO_NGASCCS_E-96_MS-20-MW_Y-2050                                0.9
 GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020                               0.9
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020                               0.9
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020                                  0.9
-GNR_CC_NGASCCS_CND_E-59_LS-100-MW_Y-2020_CT-BIONG                      0.9
-GNR_CC_NGASCCS_CND_E-61_LS-100-MW_Y-2030_CT-BIONG                      0.9
-GNR_CC_NGASCCS_CND_E-62_LS-100-MW_Y-2040_CT-BIONG                      0.9
-GNR_CC_NGASCCS_CND_E-63_LS-100-MW_Y-2050_CT-BIONG                      0.9
-GNR_CC_NGASCCS_EXT_E-59_LS-100-MW_Y-2020_CT-BIONG                      0.9
-GNR_CC_NGASCCS_EXT_E-61_LS-100-MW_Y-2030_CT-BIONG                      0.9
-GNR_CC_NGASCCS_EXT_E-62_LS-100-MW_Y-2040_CT-BIONG                      0.9
-GNR_CC_NGASCCS_EXT_E-63_LS-100-MW_Y-2050_CT-BIONG                      0.9
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2020                               0.9
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2030                               0.9
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2040                               0.9
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2050                               0.9
+GNR_ST_MSWCCS_BP_E-23_LS-220-MW-FEED_Y-2020                            0.9
+GNR_ST_MSWCCS_BP_E-23_MS-80-MW-FEED_Y-2020                             0.9
+GNR_ST_MSWCCS_BP_E-23_SS-35-MW-FEED_Y-2020                             0.9
+GNR_ST_MSWCCS_BP_E-24_LS-220-MW-FEED_Y-2030                            0.9
+GNR_ST_MSWCCS_BP_E-24_MS-80-MW-FEED_Y-2030                             0.9
+GNR_ST_MSWCCS_BP_E-24_MS-80-MW-FEED_Y-2040                             0.9
+GNR_ST_MSWCCS_BP_E-24_MS-80-MW-FEED_Y-2050                             0.9
+GNR_ST_MSWCCS_BP_E-24_SS-35-MW-FEED_Y-2030                             0.9
+GNR_ST_MSWCCS_BP_E-24_SS-35-MW-FEED_Y-2040                             0.9
+GNR_ST_MSWCCS_BP_E-24_SS-35-MW-FEED_Y-2050                             0.9
+GNR_ST_MSWCCS_BP_E-25_LS-220-MW-FEED_Y-2040                            0.9
+GNR_ST_MSWCCS_BP_E-25_LS-220-MW-FEED_Y-2050                            0.9
+GNR_ST_MSWCCS_CND_E-23_LS-220-MW-FEED_Y-2020                           0.9
+GNR_ST_MSWCCS_CND_E-23_MS-80-MW-FEED_Y-2020                            0.9
+GNR_ST_MSWCCS_CND_E-23_SS-35-MW-FEED_Y-2020                            0.9
+GNR_ST_MSWCCS_CND_E-24_LS-220-MW-FEED_Y-2030                           0.9
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2030                            0.9
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2040                            0.9
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2050                            0.9
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2030                            0.9
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2040                            0.9
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2050                            0.9
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2040                           0.9
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2050                           0.9
+GNR_BO_STRW_E-104_LS-6-MW_CCS-FEED_Y-2020                              0.9
+GNR_BO_STRW_E-104_LS-6-MW_CCS-FEED_Y-2030                              0.9
+GNR_BO_STRW_E-104_LS-6-MW_CCS-FEED_Y-2040                              0.9
+GNR_BO_STRW_E-104_LS-6-MW_CCS-FEED_Y-2050                              0.9
+GNR_BO_WOODCHI_E-117_LS-6-MW_CCS-FEED_Y-2020                           0.9
+GNR_BO_WOODCHI_E-117_LS-6-MW_CCS-FEED_Y-2030                           0.9
+GNR_BO_WOODCHI_E-117_LS-6-MW_CCS-FEED_Y-2040                           0.9
+GNR_BO_WOODCHI_E-117_LS-6-MW_CCS-FEED_Y-2050                           0.9
+GNR_BO_WOODPEL_E-102_LS-6-MW_CCS-FEED_Y-2020                           0.9
+GNR_BO_WOODPEL_E-102_LS-6-MW_CCS-FEED_Y-2030                           0.9
+GNR_BO_WOODPEL_E-102_LS-6-MW_CCS-FEED_Y-2040                           0.9
+GNR_BO_WOODPEL_E-102_LS-6-MW_CCS-FEED_Y-2050                           0.9
+GNR_ST_STRW_BP_E-17_SS-20-MW_CCS-FEED_Y-2020                           0.9
+GNR_ST_STRW_BP_E-17_SS-20-MW_CCS-FEED_Y-2030                           0.9
+GNR_ST_STRW_BP_E-17_SS-20-MW_CCS-FEED_Y-2040                           0.9
+GNR_ST_STRW_BP_E-17_SS-20-MW_CCS-FEED_Y-2050                           0.9
+GNR_ST_STRW_BP_E-25_MS-80-MW_CCS-FEED_Y-2020                           0.9
+GNR_ST_STRW_BP_E-25_MS-80-MW_CCS-FEED_Y-2030                           0.9
+GNR_ST_STRW_BP_E-25_MS-80-MW_CCS-FEED_Y-2040                           0.9
+GNR_ST_STRW_BP_E-25_MS-80-MW_CCS-FEED_Y-2050                           0.9
+GNR_ST_STRW_BP_E-31_LS-132-MW_CCS-FEED_Y-2020                          0.9
+GNR_ST_STRW_BP_E-31_LS-132-MW_CCS-FEED_Y-2030                          0.9
+GNR_ST_STRW_BP_E-31_LS-132-MW_CCS-FEED_Y-2040                          0.9
+GNR_ST_STRW_BP_E-31_LS-132-MW_CCS-FEED_Y-2050                          0.9
+GNR_ST_STRW_CND_E-17_SS-20-MW_CCS-FEED_Y-2020                          0.9
+GNR_ST_STRW_CND_E-17_SS-20-MW_CCS-FEED_Y-2030                          0.9
+GNR_ST_STRW_CND_E-17_SS-20-MW_CCS-FEED_Y-2040                          0.9
+GNR_ST_STRW_CND_E-17_SS-20-MW_CCS-FEED_Y-2050                          0.9
+GNR_ST_STRW_CND_E-25_MS-80-MW_CCS-FEED_Y-2020                          0.9
+GNR_ST_STRW_CND_E-25_MS-80-MW_CCS-FEED_Y-2030                          0.9
+GNR_ST_STRW_CND_E-25_MS-80-MW_CCS-FEED_Y-2040                          0.9
+GNR_ST_STRW_CND_E-25_MS-80-MW_CCS-FEED_Y-2050                          0.9
+GNR_ST_STRW_CND_E-31_LS-132-MW_CCS-FEED_Y-2020                         0.9
+GNR_ST_STRW_CND_E-31_LS-132-MW_CCS-FEED_Y-2030                         0.9
+GNR_ST_STRW_CND_E-31_LS-132-MW_CCS-FEED_Y-2040                         0.9
+GNR_ST_STRW_CND_E-31_LS-132-MW_CCS-FEED_Y-2050                         0.9
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW_CCS-FEED_Y-2020                        0.9
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW_CCS-FEED_Y-2030                        0.9
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW_CCS-FEED_Y-2040                        0.9
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW_CCS-FEED_Y-2050                        0.9
+GNR_ST_WOODCHI_BP_E-29_LS-600-MW_CCS-FEED_Y-2020                       0.9
+GNR_ST_WOODCHI_BP_E-29_LS-600-MW_CCS-FEED_Y-2030                       0.9
+GNR_ST_WOODCHI_BP_E-29_LS-600-MW_CCS-FEED_Y-2040                       0.9
+GNR_ST_WOODCHI_BP_E-29_LS-600-MW_CCS-FEED_Y-2050                       0.9
+GNR_ST_WOODCHI_BP_E-29_MS-80-MW_CCS-FEED_Y-2020                        0.9
+GNR_ST_WOODCHI_BP_E-29_MS-80-MW_CCS-FEED_Y-2030                        0.9
+GNR_ST_WOODCHI_BP_E-29_MS-80-MW_CCS-FEED_Y-2040                        0.9
+GNR_ST_WOODCHI_BP_E-29_MS-80-MW_CCS-FEED_Y-2050                        0.9
+GNR_ST_WOODCHI_CND_E-16_SS-20-MW_CCS-FEED_Y-2020                       0.9
+GNR_ST_WOODCHI_CND_E-16_SS-20-MW_CCS-FEED_Y-2030                       0.9
+GNR_ST_WOODCHI_CND_E-16_SS-20-MW_CCS-FEED_Y-2040                       0.9
+GNR_ST_WOODCHI_CND_E-16_SS-20-MW_CCS-FEED_Y-2050                       0.9
+GNR_ST_WOODCHI_CND_E-29_LS-600-MW_CCS-FEED_Y-2020                      0.9
+GNR_ST_WOODCHI_CND_E-29_LS-600-MW_CCS-FEED_Y-2030                      0.9
+GNR_ST_WOODCHI_CND_E-29_LS-600-MW_CCS-FEED_Y-2040                      0.9
+GNR_ST_WOODCHI_CND_E-29_LS-600-MW_CCS-FEED_Y-2050                      0.9
+GNR_ST_WOODCHI_CND_E-29_MS-80-MW_CCS-FEED_Y-2020                       0.9
+GNR_ST_WOODCHI_CND_E-29_MS-80-MW_CCS-FEED_Y-2030                       0.9
+GNR_ST_WOODCHI_CND_E-29_MS-80-MW_CCS-FEED_Y-2040                       0.9
+GNR_ST_WOODCHI_CND_E-29_MS-80-MW_CCS-FEED_Y-2050                       0.9
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW_CCS-FEED_Y-2020                        0.9
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW_CCS-FEED_Y-2030                        0.9
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW_CCS-FEED_Y-2040                        0.9
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW_CCS-FEED_Y-2050                        0.9
+GNR_ST_WOODPEL_BP_E-30_MS-80-MW_CCS-FEED_Y-2020                        0.9
+GNR_ST_WOODPEL_BP_E-30_MS-80-MW_CCS-FEED_Y-2030                        0.9
+GNR_ST_WOODPEL_BP_E-30_MS-80-MW_CCS-FEED_Y-2040                        0.9
+GNR_ST_WOODPEL_BP_E-30_MS-80-MW_CCS-FEED_Y-2050                        0.9
+GNR_ST_WOODPEL_BP_E-33_LS-800-MW_CCS-FEED_Y-2020                       0.9
+GNR_ST_WOODPEL_BP_E-33_LS-800-MW_CCS-FEED_Y-2030                       0.9
+GNR_ST_WOODPEL_BP_E-33_LS-800-MW_CCS-FEED_Y-2040                       0.9
+GNR_ST_WOODPEL_BP_E-33_LS-800-MW_CCS-FEED_Y-2050                       0.9
+GNR_ST_WOODPEL_CND_E-17_SS-20-MW_CCS-FEED_Y-2020                       0.9
+GNR_ST_WOODPEL_CND_E-17_SS-20-MW_CCS-FEED_Y-2030                       0.9
+GNR_ST_WOODPEL_CND_E-17_SS-20-MW_CCS-FEED_Y-2040                       0.9
+GNR_ST_WOODPEL_CND_E-17_SS-20-MW_CCS-FEED_Y-2050                       0.9
+GNR_ST_WOODPEL_CND_E-30_MS-80-MW_CCS-FEED_Y-2020                       0.9
+GNR_ST_WOODPEL_CND_E-30_MS-80-MW_CCS-FEED_Y-2030                       0.9
+GNR_ST_WOODPEL_CND_E-30_MS-80-MW_CCS-FEED_Y-2040                       0.9
+GNR_ST_WOODPEL_CND_E-30_MS-80-MW_CCS-FEED_Y-2050                       0.9
+GNR_ST_WOODPEL_CND_E-33_LS-800-MW_CCS-FEED_Y-2020                      0.9
+GNR_ST_WOODPEL_CND_E-33_LS-800-MW_CCS-FEED_Y-2030                      0.9
+GNR_ST_WOODPEL_CND_E-33_LS-800-MW_CCS-FEED_Y-2040                      0.9
+GNR_ST_WOODPEL_CND_E-33_LS-800-MW_CCS-FEED_Y-2050                      0.9
+GNR_BO_COAL_CCS_E-72_PHH_Y-2020                                        0.9
+GNR_BO_COAL_CCS_E-73_PHH_Y-2030                                        0.9
+GNR_BO_COAL_CCS_E-73_PHH_Y-2040                                        0.9
+GNR_BO_COAL_CCS_E-74_PHH_Y-2050                                        0.9
+GNR_BO_COAL_CCS_E-81_PHL_Y-2020                                        0.9
+GNR_BO_COAL_CCS_E-83_PHL_Y-2030                                        0.9
+GNR_BO_COAL_CCS_E-83_PHL_Y-2040                                        0.9
+GNR_BO_COAL_CCS_E-82_PHL_Y-2050                                        0.9
+GNR_BO_FUELOIL_CCS_E-77_PHH_Y-2020                                     0.9
+GNR_BO_FUELOIL_CCS_E-78_PHH_Y-2030                                     0.9
+GNR_BO_FUELOIL_CCS_E-78_PHH_Y-2040                                     0.9
+GNR_BO_FUELOIL_CCS_E-78_PHH_Y-2050                                     0.9
+GNR_BO_FUELOIL_CCS_E-86_PHL_Y-2020                                     0.9
+GNR_BO_FUELOIL_CCS_E-87_PHL_Y-2030                                     0.9
+GNR_BO_FUELOIL_CCS_E-87_PHL_Y-2040                                     0.9
+GNR_BO_FUELOIL_CCS_E-88_PHL_Y-2050                                     0.9
+GNR_BO_NGAS_CCS_E-75_PHH_Y-2020                                        0.9
+GNR_BO_NGAS_CCS_E-76_PHH_Y-2030                                        0.9
+GNR_BO_NGAS_CCS_E-76_PHH_Y-2040                                        0.9
+GNR_BO_NGAS_CCS_E-77_PHH_Y-2050                                        0.9
+GNR_BO_NGAS_CCS_E-85_PHL_Y-2020                                        0.9
+GNR_BO_NGAS_CCS_E-86_PHL_Y-2030                                        0.9
+GNR_BO_NGAS_CCS_E-86_PHL_Y-2040                                        0.9
+GNR_BO_NGAS_CCS_E-86_PHL_Y-2050                                        0.9
+GNR_BO_WP_CCS_E-72_PHH_Y-2020                                          0.9
+GNR_BO_WP_CCS_E-73_PHH_Y-2030                                          0.9
+GNR_BO_WP_CCS_E-73_PHH_Y-2040                                          0.9
+GNR_BO_WP_CCS_E-74_PHH_Y-2050                                          0.9
+GNR_BO_WP_CCS_E-81_PHL_Y-2020                                          0.9
+GNR_BO_WP_CCS_E-82_PHL_Y-2030                                          0.9
+GNR_BO_WP_CCS_E-82_PHL_Y-2040                                          0.9
+GNR_BO_WP_CCS_E-83_PHL_Y-2050                                          0.9
+GNR_BO_WC_CCS_E-72_PHH_Y-2020                                          0.9
+GNR_BO_WC_CCS_E-73_PHH_Y-2030                                          0.9
+GNR_BO_WC_CCS_E-73_PHH_Y-2040                                          0.9
+GNR_BO_WC_CCS_E-74_PHH_Y-2050                                          0.9
+GNR_BO_WC_CCS_E-81_PHL_Y-2020                                          0.9
+GNR_BO_WC_CCS_E-82_PHL_Y-2030                                          0.9
+GNR_BO_WC_CCS_E-82_PHL_Y-2040                                          0.9
+GNR_BO_WC_CCS_E-83_PHL_Y-2050                                          0.9
 /;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
