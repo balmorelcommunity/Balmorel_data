@@ -40,6 +40,11 @@ INDHEAT_EL_2020_IND                                                             
 INDHEAT_EL_2030_IND                                                                                           .    (SPACEHEAT, HOTWATER) 
 INDHEAT_EL_2040_IND                                                                                           .    (SPACEHEAT, HOTWATER) 
 INDHEAT_EL_2050_IND                                                                                           .    (SPACEHEAT, HOTWATER) 
+INDHEAT_WTRTANK_WTRONLY_2015_OFH_IND                                                                          .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2020_OFH_IND                                                                          .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2030_OFH_IND                                                                          .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2040_OFH_IND                                                                          .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2050_OFH_IND                                                                          .    (HOTWATER)            
 *                                                                                                                                        
 $ontext                                                                                                                                  
 INDHEAT_AbGHPA2W_2010_IND                                                                                     .    (SPACEHEAT, HOTWATER) 
@@ -95,6 +100,11 @@ INDHEAT_EL_2020_APART                                                           
 INDHEAT_EL_2030_APART                                                                                         .    (SPACEHEAT, HOTWATER) 
 INDHEAT_EL_2040_APART                                                                                         .    (SPACEHEAT, HOTWATER) 
 INDHEAT_EL_2050_APART                                                                                         .    (SPACEHEAT, HOTWATER) 
+INDHEAT_WTRTANK_WTRONLY_2015_OFH_APART                                                                        .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2020_OFH_APART                                                                        .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2030_OFH_APART                                                                        .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2040_OFH_APART                                                                        .    (HOTWATER)            
+INDHEAT_WTRTANK_WTRONLY_2050_OFH_APART                                                                        .    (HOTWATER)            
 *                                                                                                                                        
 $ontext                                                                                                                                  
 INDHEAT_AbGHPA2W_2010_APART                                                                                   .    (SPACEHEAT, HOTWATER) 
