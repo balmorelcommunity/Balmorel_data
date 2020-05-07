@@ -15,7 +15,7 @@ INDHEAT_FACTOROMFCOST(Y,'INDHEAT_HPA2W_2040_APART','GR_GBHPA2W') =              
 INDHEAT_FACTOROMFCOST(Y,'INDHEAT_HPA2W_2050_APART','GR_GBHPA2W') =                                                                               1.31398501036517 ;
 
 $ontext
-*Diana's numbers calculated from DGC numbers
+*Diana's numbers based on DGC
 INDHEAT_FACTOROMFCOST(Y,'INDHEAT_HPA2W_2010_IND','GR_GBHPA2W') =                                                                                 0.63 ;
 INDHEAT_FACTOROMFCOST(Y,'INDHEAT_HPA2W_2020_IND','GR_GBHPA2W') =                                                                                 0.63 ;
 INDHEAT_FACTOROMFCOST(Y,'INDHEAT_HPA2W_2030_IND','GR_GBHPA2W') =                                                                                 0.63 ;
