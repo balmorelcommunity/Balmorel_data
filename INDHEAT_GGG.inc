@@ -40,6 +40,11 @@ INDHEAT_EL_2020_IND
 INDHEAT_EL_2030_IND                                  
 INDHEAT_EL_2040_IND                                  
 INDHEAT_EL_2050_IND                                  
+INDHEAT_ELW_2010_IND                                 
+INDHEAT_ELW_2020_IND                                 
+INDHEAT_ELW_2030_IND                                 
+INDHEAT_ELW_2040_IND                                 
+INDHEAT_ELW_2050_IND                                 
 *                                                    
 $ontext                                              
 INDHEAT_AbGHPA2W_2010_IND                            
@@ -95,7 +100,12 @@ INDHEAT_EL_2020_APART
 INDHEAT_EL_2030_APART                                
 INDHEAT_EL_2040_APART                                
 INDHEAT_EL_2050_APART                                
-*Storages                                            
+INDHEAT_ELW_2010_APART                               
+INDHEAT_ELW_2020_APART                               
+INDHEAT_ELW_2030_APART                               
+INDHEAT_ELW_2040_APART                               
+INDHEAT_ELW_2050_APART                               
+* Storages                                           
 INDHEAT_WTRTANK_WTRONLY_2015_OFH_IND                 
 INDHEAT_WTRTANK_WTRONLY_2020_OFH_IND                 
 INDHEAT_WTRTANK_WTRONLY_2030_OFH_IND                 
@@ -106,7 +116,6 @@ INDHEAT_WTRTANK_WTRONLY_2020_OFH_APART
 INDHEAT_WTRTANK_WTRONLY_2030_OFH_APART               
 INDHEAT_WTRTANK_WTRONLY_2040_OFH_APART               
 INDHEAT_WTRTANK_WTRONLY_2050_OFH_APART               
-*                                                    
 $ontext                                              
 INDHEAT_AbGHPA2W_2010_APART                          
 INDHEAT_AbGHPA2W_2020_APART                          
@@ -143,3 +152,5 @@ INDHEAT_GB_2040_APART_BIONG
 INDHEAT_GB_2050_APART_BIONG                          
 $label endcombtech                                   
 /;                                                   
+                                                     
+                                                     
