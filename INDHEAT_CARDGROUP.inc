@@ -6,6 +6,7 @@ GR_GB                                                                           
 GR_WP                                                                              1   
 GR_HPA2W                                                                           2   
 GR_EL                                                                              2   
+GR_ELW                                                                             2   
 GR_GBSH                                                                            3   
 GR_WPSH                                                                            3   
 GR_ELHPA2A                                                                         3   

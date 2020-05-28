@@ -5,5 +5,5 @@ TABLE FDATA(FFF,FDATASET)   'Fuel specific values'
                                                                                                                                                    
                                                                                                             FDACRONYM FDCO2 FDSO2 FDN2O  !!   FDCO2
 *                                                                                                           Units     kg/GJ kg/GJ kg/GJ            
-BIONG                                                                                                       BIONG     -8    0.025 0.004            
+BIONG                                                                                                       BIONG     -5.53 0.025 0.004            
 ;                                                                                                                                                  

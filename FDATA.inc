@@ -35,7 +35,7 @@ WOODWASTE                                                                       
 BIOOIL                                                                                                      BIOOIL             19   0     0.025 0.004
 LNG                                                                                                         LNG                20   56.1  0     0.001
 LPG                                                                                                         LPG                21   63.1             
-BIOGAS                                                                                                      BIOGAS             22   -8    0.025 0.004
+BIOGAS                                                                                                      BIOGAS             22   -5.53 0.025 0.004
 OTHERGAS                                                                                                    OTHERGAS           23   66.7             
 WASTEHEAT                                                                                                   WASTEHEAT          24   0     0     0    
 WIND                                                                                                        WIND               25   0     0     0    
