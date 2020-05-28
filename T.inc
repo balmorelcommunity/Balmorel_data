@@ -1,10 +1,8 @@
 SET T(TTT)  'Time periods within a season in the simulation'
 /
-*T001*T168
+*timesteps used for Base scenarios for FG results in spring 2020
+T001*T168
 
-*timesteps used for FG results in Fall 2019
-*T001,T080,T120,T150
-T029,T067,T109,T135
-
-*T001,T012
+*timesteps used for sensitivity analysis FG results in spring 2020
+*T029,T067,T109,T135
 /;
