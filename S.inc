@@ -1,11 +1,8 @@
 SET S(SSS)  'Seasons in the simulation'
 /
-*S01
+*Seasons used for Base scenarios for FG results in spring 2020
+S02,S12,S25,S33,S40
 
-*Seasons used for FG analysis in Fall 2019
-*S02,S12,S25,S40
-S03,S27,S29,S52
-
-
-*S02,S12
+*Seasons used for sensitivity analysis FG results in spring 2020
+*S03,S27,S29,S52
 /;
