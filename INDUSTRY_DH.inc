@@ -45,7 +45,7 @@ SH                                                                              
 DH(YYY,AAA,'PHL')  = DH2('PHL',AAA,YYY);
 DH(YYY,AAA,'PHH')  = DH2('PHH',AAA,YYY);
 DH(YYY,AAA,'SH')  = DH2('SH',AAA,YYY);
-DH(YYY,AAA,'RESH')$(DH(YYY,AAA,'RESH')>0)  = DH(YYY,AAA,'RESH')-DH(YYY,AAA,'SH')-DH(YYY,AAA,'PHL');
+*DH(YYY,AAA,'RESH')$(DH(YYY,AAA,'RESH')>0)  = DH(YYY,AAA,'RESH')-DH(YYY,AAA,'SH')-DH(YYY,AAA,'PHL');
 $ontext
                                                                                                                                                                                                                                                                                  3.59999712E-006                                                                        3.6
                                                                                                                                                                                                                                                DK1_Large_PHH                     2.88326937161166
