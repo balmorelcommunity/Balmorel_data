@@ -15,7 +15,7 @@ TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
 2028.ESTONIA                                                    1200000
 2029.ESTONIA                                                    1178181.81818182
 
-2020.DENMARK                                                                                   15254380                          EPS         34015823   7800000  7800000
+2020.DENMARK                                                    74000000                       15254380                          EPS         34015823   7800000  7800000
 2025.DENMARK                                                                                   4549135                           EPS         19939827   11100000 11100000
 2030.DENMARK                                                                                   2754690                           EPS         10867059.5 11100000 11100000
 2035.DENMARK                                                                                   960245                            EPS         1794292    11100000 11100000
