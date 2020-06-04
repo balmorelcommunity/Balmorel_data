@@ -1,5 +1,5 @@
 TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
-                                                                NATGAS           MUNIWASTE     STRAW       WOOD        WOODWASTE WOODPELLETS WOODCHIPS  BIOGAS   BIONG
+                                                                NATGAS           MUNIWASTE     STRAW       WOOD        WOODWASTE WOODPELLETS WOODCHIPS BIOGAS BIONG
 2016.ESTONIA                                                    0
 2017.ESTONIA                                                    1440000
 2018.ESTONIA                                                    1418181.81818182
@@ -15,13 +15,11 @@ TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
 2028.ESTONIA                                                    1200000
 2029.ESTONIA                                                    1178181.81818182
 
-2020.DENMARK                                                    74000000                       15254380                             EPS      34015823   7800000  7800000
-2025.DENMARK                                                                                   4549135                              EPS      19939827   11100000 11100000
-2030.DENMARK                                                                                   2754690                              EPS      10867059.5 11100000 11100000
-2035.DENMARK                                                                                   960245                               EPS      1794292    11100000 11100000
-2040.DENMARK                                                                                                                        EPS                 11100000 11100000
-2045.DENMARK                                                                                                                        EPS
-2050.DENMARK                                                                                                                        EPS
+2020.DENMARK                                                    74000000                       15254380                          EPS         34015823
+2025.DENMARK
+2030.DENMARK
+2040.DENMARK
+2050.DENMARK
 
 
 
@@ -37,3 +35,5 @@ TABLE GMINF(YYY,CCCRRRAAA,FFF) 'Minimum fuel use (GJ) per year'
 
 
 ;
+
+
