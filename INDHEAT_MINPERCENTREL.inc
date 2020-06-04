@@ -1,5 +1,10 @@
 PARAMETER INDHEAT_MINPERCENTREL(YYY,INDHEAT_AAA,INDHEAT_SUMGROUP) 'Minimum percentage assumed to be fixed to a specific summed group';
-*Draft version: assuming that 80% would have the same type of technology in the following year                                        
-                                                                                                                                      
-INDHEAT_MINPERCENTREL(Y,INDHEAT_AAA,'NO_RADIATOR')  = 0.65;                                                                           
-INDHEAT_MINPERCENTREL(Y,INDHEAT_AAA,'RADIATOR')  = 1;                                                                                 
+*Draft version: assuming that 80% would have the same type of technology in the following year
+
+INDHEAT_MINPERCENTREL(Y,INDHEAT_AAA,'NO_RADIATOR')  = 0.65;
+INDHEAT_MINPERCENTREL(Y,INDHEAT_AAA,'RADIATOR')  = 1;
+$ifi %TECHALT%=="_decouplingCost" INDHEAT_MINPERCENTREL(Y,INDHEAT_AAA,'GAS')  = 1-0.359;
+
+PARAMETER INDHEAT_MINPERCENTREL2(YYY,INDHEAT_AAA,INDHEAT_SUMGROUP) 'Minimum percentage assumed to be fixed to a specific summed group';
+INDHEAT_MINPERCENTREL2(Y,INDHEAT_AAA,'OIL')  = SUM(INDHEAT_G$INDHEAT_GINGROUP(INDHEAT_G,'GR_OIL'),INDHEAT_GINSTALL('2016',INDHEAT_AAA,INDHEAT_G,'GR_OIL'))
+                 + SUM(INDHEAT_G$INDHEAT_GINGROUP(INDHEAT_G,'GR_WP'),INDHEAT_GINSTALL('2016',INDHEAT_AAA,INDHEAT_G,'GR_WP'));
