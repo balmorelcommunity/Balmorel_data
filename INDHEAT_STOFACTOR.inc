@@ -1,3 +1,5 @@
 PARAMETER INDHEAT_STOFACTOR(INDHEAT_GROUP)        'Division factor for GKFX/VGKN on  size of storage';
-                                                                                                      
-INDHEAT_STOFACTOR(INDHEAT_GROUP) = 4;                                                                 
+
+INDHEAT_STOFACTOR(INDHEAT_GROUP) = 4;
+$ifi %TECHALT%=="_cheapStorage_up" INDHEAT_STOFACTOR(INDHEAT_GROUP) = 6;
+$ifi %TECHALT%=="_cheapStorage_lo" INDHEAT_STOFACTOR(INDHEAT_GROUP) = 2;
