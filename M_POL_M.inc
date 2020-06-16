@@ -117,8 +117,8 @@ $ifi not %CarbonPrice%==yes  $goto label_CarbonPrice_END
 
 M_POL('2020','TAX_CO2','DENMARK')= 25.15      ;
 M_POL('2025','TAX_CO2','DENMARK')= 113.16      ;
-M_POL('2030','TAX_CO2','DENMARK')= 201.07      ;
-M_POL('2040','TAX_CO2','DENMARK')= 201.07      ;
-M_POL('2050','TAX_CO2','DENMARK')= 201.07      ;
+M_POL('2030','TAX_CO2','DENMARK')= 134.05      ;
+M_POL('2040','TAX_CO2','DENMARK')= 134.05      ;
+M_POL('2050','TAX_CO2','DENMARK')= 134.05      ;
 
 $LABEL label_CarbonPrice_END
