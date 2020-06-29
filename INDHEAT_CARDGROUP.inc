@@ -11,6 +11,8 @@ GR_GBSH                                                                         
 GR_WPSH                                                                            3   
 GR_ELHPA2A                                                                         3   
 GR_HPB2W                                                                           2   
+GR_IDHSUB                                                                          1   
+GR_DHSUB                                                                           1   
 *                                                                                      
 $ontext                                                                                
 GR_AbGHPA2W                                                                        1   

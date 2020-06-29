@@ -70,6 +70,16 @@ DK1_NoDH_ind                                                                    
 DK1_NoDH_ind                                                                                                   .    INDHEAT_ELW_2030_IND                   .    GR_ELW      1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_ELW_2040_IND                   .    GR_ELW      1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_ELW_2050_IND                   .    GR_ELW      1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_IDHSUB_2010_IND                .    GR_IDHSUB   1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_IDHSUB_2020_IND                .    GR_IDHSUB   1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_IDHSUB_2030_IND                .    GR_IDHSUB   1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_IDHSUB_2040_IND                .    GR_IDHSUB   1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_IDHSUB_2050_IND                .    GR_IDHSUB   1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_DHSUB_2010_IND                 .    GR_DHSUB    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_DHSUB_2020_IND                 .    GR_DHSUB    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_DHSUB_2030_IND                 .    GR_DHSUB    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_DHSUB_2040_IND                 .    GR_DHSUB    1   
+DK1_NoDH_ind                                                                                                   .    INDHEAT_DHSUB_2050_IND                 .    GR_DHSUB    1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_WTRTANK_WTRONLY_2015_OFH_IND   .    GR_EL       1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_WTRTANK_WTRONLY_2020_OFH_IND   .    GR_EL       1   
 DK1_NoDH_ind                                                                                                   .    INDHEAT_WTRTANK_WTRONLY_2030_OFH_IND   .    GR_EL       1   
@@ -190,6 +200,16 @@ DK1_NoDH_apart                                                                  
 DK1_NoDH_apart                                                                                                 .    INDHEAT_ELW_2030_APART                 .    GR_ELW      1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_ELW_2040_APART                 .    GR_ELW      1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_ELW_2050_APART                 .    GR_ELW      1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_IDHSUB_2010_APART              .    GR_IDHSUB   1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_IDHSUB_2020_APART              .    GR_IDHSUB   1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_IDHSUB_2030_APART              .    GR_IDHSUB   1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_IDHSUB_2040_APART              .    GR_IDHSUB   1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_IDHSUB_2050_APART              .    GR_IDHSUB   1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_DHSUB_2010_APART               .    GR_DHSUB    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_DHSUB_2020_APART               .    GR_DHSUB    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_DHSUB_2030_APART               .    GR_DHSUB    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_DHSUB_2040_APART               .    GR_DHSUB    1   
+DK1_NoDH_apart                                                                                                 .    INDHEAT_DHSUB_2050_APART               .    GR_DHSUB    1   
 *                                                                                                                                                                               
 DK1_NoDH_apart                                                                                                 .    INDHEAT_WTRTANK_WTRONLY_2015_OFH_APART .    GR_EL       1   
 DK1_NoDH_apart                                                                                                 .    INDHEAT_WTRTANK_WTRONLY_2020_OFH_APART .    GR_EL       1   
