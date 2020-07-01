@@ -1,45 +1,63 @@
-PARAMETER INDHEAT_DHCOST(YYY,AAA,INDHEAT_AAA,INDHEAT_DHEXPAREA)         'Cost of DH expansion (Money/MWh)';
-
-INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_ind','INSIDEDH')   =        201.55        ;
-INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_ind','INSIDEDH')  =        22.01        ;
-INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_ind','INSIDEDH')=        27.55        ;
-INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_ind','INSIDEDH')   =        3.42        ;
-INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_ind','INSIDEDH')   =        1.07        ;
-INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_apart','INSIDEDH')   =        103.33        ;
-INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_apart','INSIDEDH')  =        16.05        ;
-INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_apart','INSIDEDH')=        13.93        ;
-INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_apart','INSIDEDH')   =        8.87        ;
-INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_apart','INSIDEDH')   =        2.06        ;
-INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_ind','INSIDEDH')   =        132.33        ;
-INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_ind','INSIDEDH')  =        20.41        ;
-INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_ind','INSIDEDH')=        18.97        ;
-INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_ind','INSIDEDH')   =        25.59        ;
-INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_ind','INSIDEDH')   =        3.10        ;
-INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_apart','INSIDEDH')   =        31.81        ;
-INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_apart','INSIDEDH')  =        17.53        ;
-INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_apart','INSIDEDH')=        13.89        ;
-INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_apart','INSIDEDH')   =        46.04        ;
-INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_apart','INSIDEDH')   =        2.20        ;
-
-INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_ind','NEARDH')   =        495.31        ;
-INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_ind','NEARDH')  =        198.89        ;
-INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_ind','NEARDH')=        146.53        ;
-INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_ind','NEARDH')   =        57.96        ;
-INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_ind','NEARDH')   =        7.39        ;
-INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_apart','NEARDH')   =        495.31        ;
-INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_apart','NEARDH')  =        198.85        ;
-INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_apart','NEARDH')=        207.10        ;
-INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_apart','NEARDH')   =        92.73        ;
-INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_apart','NEARDH')   =        19.54        ;
-INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_ind','NEARDH')   =        172.05        ;
-INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_ind','NEARDH')  =        66.84        ;
-INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_ind','NEARDH')=        66.97        ;
-INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_ind','NEARDH')   =        130.52        ;
-INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_ind','NEARDH')   =        10.26        ;
-INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_apart','NEARDH')   =        208.47        ;
-INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_apart','NEARDH')  =        72.46        ;
-INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_apart','NEARDH')=        153.53        ;
-INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_apart','NEARDH')   =        97.29        ;
-INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_apart','NEARDH')   =        23.22        ;
-
-
+PARAMETER INDHEAT_DHCOST(YYY,AAA,INDHEAT_AAA,INDHEAT_DHEXPAREA)         'Potential of DH expansion (MWh)';                                                                                                                                          
+$ontext                                                                                                                                                                                                                                             
+                                                                                                           DH areas                                                                                                                                 
+                                                                                                           DK1                                                                  DK2                                                                 
+                                                                                                           SF                                MF                                 SF                                MF                                
+                                                                                                           Pot (GWh)        Cost (MDKK/GWh)  Pot (GWh)        Cost (MDKK/GWh)   Pot (GWh)        Cost (MDKK/GWh)  Pot (GWh)        Cost (MDKK/GWh)  
+Large                                                                                                      24.06154914      1.50454959443231 19.48618026      0.771365490796296 157.104562729999 1.49753434853662 379.581710289999 0.372339741796363
+Medium                                                                                                     148.93981799     1.45333589715098 55.1194852399999 1.0354474783553   123.95239764     1.46686520359269 94.0684903799998 0.835117877226001
+MedSmall                                                                                                   41.20847773      1.46702456218103 22.48966714      0.673802769319245 70.6044447699998 1.53442331219964 41.0485440899999 1.1039443908326  
+Small                                                                                                      107.13794813     1.49253569618461 20.55759145      1.56076717829705  14.63715566      1.51601687619137 5.96148607       2.04691780819678 
+Rural                                                                                                      349.616497929999 1.50319855073094 73.3387110499999 1.3846119129469   181.87678614     1.53715707723579 71.9755756599999 1.08357730083906 
+                                                                                                                                                                                                                                                    
+                                                                                                           Next-to-DH areas                                                                                                                         
+                                                                                                           DK1                                                                  DK2                                                                 
+                                                                                                           SF                                MF                                 SF                                MF                                
+                                                                                                           Pot (GWh)        Cost (MDKK/GWh)  Pot (GWh)        Cost (MDKK/GWh)   Pot (GWh)        Cost (MDKK/GWh)  Pot (GWh)        Cost (MDKK/GWh)  
+Large                                                                                                      88.3704060300003 3.69750837156254 5.55229111000001 3.69750837156254  78.72920529      3.74682145088914 55.7421587599999 5.86488138793261 
+Medium                                                                                                     154.31386379     11.2718424951485 17.845137        8.11585059010479  253.622357799999 3.27488472742895 57.4397245199998 3.88830215309261 
+MedSmall                                                                                                   97.2856845999999 10.3175491940635 30.24929225      4.63237490612624  194.40611329     4.4737122213424  76.56456236      2.89801074688674 
+Small                                                                                                      92.0475341999996 17.5763571533326 6.93514098999999 13.7171194905881  248.919319509999 2.57781922399761 32.94509706      2.68491057146071 
+Rural                                                                                                      686.600657729998 7.44077923301874 61.4298584499998 6.19741588998958  1454.28608559    2.58884176275523 449.192755019999 2.16773747521624 
+$offtext                                                                                                                                                                                                                                            
+INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_ind','INSIDEDH')   =                                              201.547166032459 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_ind','INSIDEDH')  =                                              194.686657354452 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_ind','INSIDEDH')=                                              196.520370017553 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_ind','INSIDEDH')   =                                              199.937802569941 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_ind','INSIDEDH')   =                                              201.366182281438 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_apart','INSIDEDH')   =                                            103.33094317432  ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_apart','INSIDEDH')  =                                            138.706962941098 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_apart','INSIDEDH')=                                            90.2615899958801 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_apart','INSIDEDH')   =                                            209.077987715613 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_apart','INSIDEDH')   =                                            185.480497380696 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_ind','INSIDEDH')   =                                              200.607414405442 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_ind','INSIDEDH')  =                                              196.499022584419 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_ind','INSIDEDH')=                                              205.549003643623 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_ind','INSIDEDH')   =                                              203.083305584912 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_ind','INSIDEDH')   =                                              205.915214633059 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_apart','INSIDEDH')   =                                            49.8780632011202 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_apart','INSIDEDH')  =                                            111.871115502478 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_apart','INSIDEDH')=                                            147.882704733101 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_apart','INSIDEDH')   =                                            274.201983683426 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_apart','INSIDEDH')   =                                            145.154360460691 ;                                                                                                                       
+                                                                                                                                                                                                                                                    
+INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_ind','NEARDH')   =                                                495.312574891164 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_ind','NEARDH')  =                                                1509.95880711969 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_ind','NEARDH')=                                                1382.12313383301 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_ind','NEARDH')   =                                                2354.50196293806 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_ind','NEARDH')   =                                                996.755423043368 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Large','DK1_NoDH_apart','NEARDH')   =                                              495.312574891164 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Medium','DK1_NoDH_apart','NEARDH')  =                                              1087.18695111919 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_MedSmall','DK1_NoDH_apart','NEARDH')=                                              620.545868201774 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Small','DK1_NoDH_apart','NEARDH')   =                                              1837.52437918126 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK1_Rural','DK1_NoDH_apart','NEARDH')   =                                              830.196368384405 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_ind','NEARDH')   =                                                501.918479690441 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_ind','NEARDH')  =                                                438.698556922834 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_ind','NEARDH')=                                                599.291657246135 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_ind','NEARDH')   =                                                345.320726590436 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_ind','NEARDH')   =                                                346.797289049595 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Large','DK2_NoDH_apart','NEARDH')   =                                              785.650554311134 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Medium','DK2_NoDH_apart','NEARDH')  =                                              520.871018498675 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_MedSmall','DK2_NoDH_apart','NEARDH')=                                              388.213094023676 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Small','DK2_NoDH_apart','NEARDH')   =                                              359.666519954549 ;                                                                                                                       
+INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_apart','NEARDH')   =                                              290.386801770428 ;                                                                                                                       
