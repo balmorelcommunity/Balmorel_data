@@ -1,7 +1,7 @@
-Parameter SUBSIDIES_AVG_ELPRICE(Y,C,RRR) 'Average electricity price for each year and region after Balmorel model runs'                                         
-/                                                                                                                                                               
+Parameter SUBSIDIES_AVG_ELPRICE(YYY,CCC,RRR) 'Average electricity price for each year and region after Balmorel model runs'
+/
 2020                                                                                                                    .    NORWAY  .    NO1   28.1837766150928
-2020                                                                                                                    .    NORWAY  .    NO2   27.278096291253 
+2020                                                                                                                    .    NORWAY  .    NO2   27.278096291253
 2020                                                                                                                    .    NORWAY  .    NO3   27.3679033256611
 2020                                                                                                                    .    NORWAY  .    NO4   24.2943492229839
 2020                                                                                                                    .    NORWAY  .    NO5   26.8316361741269
@@ -57,22 +57,22 @@ Parameter SUBSIDIES_AVG_ELPRICE(Y,C,RRR) 'Average electricity price for each yea
 2040                                                                                                                    .    GERMANY .    DE4-S 49.3667423855213
 2040                                                                                                                    .    GERMANY .    DE4-W 47.1474510359983
 2040                                                                                                                    .    SWEDEN  .    SE1   31.2447101372339
-2040                                                                                                                    .    SWEDEN  .    SE2   32.829940057676 
+2040                                                                                                                    .    SWEDEN  .    SE2   32.829940057676
 2040                                                                                                                    .    SWEDEN  .    SE3   37.7924188327679
 2040                                                                                                                    .    SWEDEN  .    SE4   41.7502992677663
 2050                                                                                                                    .    NORWAY  .    NO1   32.8269554488056
 2050                                                                                                                    .    NORWAY  .    NO2   31.8833738423317
 2050                                                                                                                    .    NORWAY  .    NO3   28.3916675581392
-2050                                                                                                                    .    NORWAY  .    NO4   25.209857342734 
+2050                                                                                                                    .    NORWAY  .    NO4   25.209857342734
 2050                                                                                                                    .    NORWAY  .    NO5   28.6003250930686
 2050                                                                                                                    .    DENMARK .    DK1   36.8491372489668
-2050                                                                                                                    .    DENMARK .    DK2   38.916693956265 
+2050                                                                                                                    .    DENMARK .    DK2   38.916693956265
 2050                                                                                                                    .    GERMANY .    DE4-E 40.4253370826696
-2050                                                                                                                    .    GERMANY .    DE4-N 40.118610794412 
+2050                                                                                                                    .    GERMANY .    DE4-N 40.118610794412
 2050                                                                                                                    .    GERMANY .    DE4-S 42.3050671899395
 2050                                                                                                                    .    GERMANY .    DE4-W 41.7747814604191
 2050                                                                                                                    .    SWEDEN  .    SE1   26.1535796448862
 2050                                                                                                                    .    SWEDEN  .    SE2   29.5818374113056
 2050                                                                                                                    .    SWEDEN  .    SE3   34.1493098414856
-2050                                                                                                                    .    SWEDEN  .    SE4   36.925136110627 
-/;                                                                                                                                                              
+2050                                                                                                                    .    SWEDEN  .    SE4   36.925136110627
+/;

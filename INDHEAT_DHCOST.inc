@@ -67,3 +67,6 @@ INDHEAT_DHCOST(YYY,'DK2_Rural','DK2_NoDH_apart','NEARDH')   =                   
 $ifi not %TECHALT%=="_lowCostExpansion" $goto lowCostExpansion
 INDHEAT_DHCOST(YYY,AAA,INDHEAT_AAA,INDHEAT_DHEXPAREA) = INDHEAT_DHCOST(YYY,AAA,INDHEAT_AAA,INDHEAT_DHEXPAREA)*0.5;
 $label lowCostExpansion
+$ifi not %TECHALT%=="_highCostExpansion" $goto highCostExpansion
+INDHEAT_DHCOST(YYY,AAA,INDHEAT_AAA,INDHEAT_DHEXPAREA) = INDHEAT_DHCOST(YYY,AAA,INDHEAT_AAA,INDHEAT_DHEXPAREA)*1.5;
+$label highCostExpansion

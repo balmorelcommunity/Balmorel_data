@@ -1,0 +1,7 @@
+PARAMETER HEATSV_SAVEQ(YYY,CCC) 'Fixed heat savings for each year, MWh'
+/
+/;
+$ifi not %SCNAME%==HS $goto endHS
+HEATSV_SAVEQ('2050','DENMARK')=23500000;
+HEATSV_SAVEQ(Y,'DENMARK')$(YVALUE(Y) < 2050) = (YVALUE(Y)-2016)/(2050-2016)*HEATSV_SAVEQ('2050','DENMARK');
+$label endHS
