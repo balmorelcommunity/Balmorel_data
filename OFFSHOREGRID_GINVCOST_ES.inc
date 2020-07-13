@@ -41,3 +41,5 @@ GNR_WT_WIND_OFF_HUB_2GW_Y-2050                                                  
 GNR_WT_WIND_OFF_HUB_2GW_Y-2050                                                                 .    XES5 3384.96499174005
 GNR_WT_WIND_OFF_HUB_2GW_Y-2050                                                                 .    XES6 20309.7899504403
 /;                                                                                                                       
+*Increasing potential                                                                                                    
+GINVCOST_ES(GGG,'XES6')$GINVCOST_ES(GGG,'XES6')=GINVCOST_ES(GGG,'XES6')*50;                                              

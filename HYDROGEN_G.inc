@@ -252,6 +252,8 @@ GNR_FC_H2_SOFCC_Y-2050
 *HYDROGEN STORAGE                                        
 GNR_H2S_H2-TNKC_Y-2020                                   
 GNR_H2S_H2-TNKC_Y-2030                                   
+GNR_H2S_H2-TNKC_Y-2040                                   
+GNR_H2S_H2-TNKC_Y-2050                                   
 *METHANATION+CO2 DIRECT AIR CAPTURE                      
 GNR_METHANATION-DAC_E-60_Y-2020                          
                                                          

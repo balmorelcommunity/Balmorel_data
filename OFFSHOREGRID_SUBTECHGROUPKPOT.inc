@@ -18,3 +18,11 @@ NL3_OFF_2_Hub_UKandNL_e                                                         
 DK_w_OFF_2_Hub_DK_hub                                                                                                         2000                                                       
                                                                                                                                                                                          
 ;                                                                                                                                                                                        
+                                                                                                                                                                                         
+*Lines when simplified set is used                                                                                                                                                       
+SUBTECHGROUPKPOT(CCCRRRAAA,'WINDTURBINE_OFFSHORE','HUB_OFF')=0;                                                                                                                          
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         

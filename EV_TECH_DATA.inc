@@ -32,8 +32,8 @@ TABLE                      EVTechData(YYY,EVTECH)                               
 *                          MW                     MW                  -          -                       -            EUR/MWh  -          -            -            -
                            BEVCHCAP               PHEVCHCAP           CHEFF      BATTOVERS               LIFEFAC      BATTCOST BATTDEGCYC BATTDEGCALCO BATTDEGCALFL CHV2GCOST
 2030                       0.01                   0.01                0.85       1.1                     0.25         140000   4E-005     6E-007       9E-007       59.66
-2040                       0.015                  0.015               0.85       1.1                     0.25         105000   4E-005     6E-007       9E-007       57.53
-2050                       0.02                   0.02                0.85       1.1                     0.25         70000    4E-005     6E-007       9E-007       60.06
+2040                       0.015                  0.015               0.87       1.1                     0.25         105000   4E-005     6E-007       9E-007       57.53
+2050                       0.02                   0.02                0.89       1.1                     0.25         70000    4E-005     6E-007       9E-007       60.06
 ;
 EV_BEV_CHARGERCAP(YYY)                            =                   EVTechData (YYY,'BEVCHCAP')        ;
 EV_PHEV_CHARGERCAP(YYY)                           =                   EVTechData (YYY,'PHEVCHCAP')        ;

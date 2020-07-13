@@ -2545,3 +2545,5 @@ DK_w_OFF_2_Hub_DK_hub                                                           
 DK_w_OFF_2_Hub_DK_hub                                                                                          .    31_DE_OFF_2_Hub_WeiWin       .    XES5 2000                     
 DK_w_OFF_2_Hub_DK_hub                                                                                          .    31_DE_OFF_2_Hub_WeiWin       .    XES6 20000                    
 /;                                                                                                                                                                                  
+*Increasing potential                                                                                                                                                               
+XKN_ES(IRE,IRI,'XES6')$(XKN_ES(IRE,IRI,'XES6') GT 0)=XKN_ES(IRE,IRI,'XES6')*25;                                                                                                     

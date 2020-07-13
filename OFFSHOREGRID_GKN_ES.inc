@@ -48,5 +48,6 @@ GNR_WT_WIND_OFF_HUB_2GW_Y-2050                                                  
 GNR_WT_WIND_OFF_HUB_2GW_Y-2050                                                           .    XES4 1000 
 GNR_WT_WIND_OFF_HUB_2GW_Y-2050                                                           .    XES5 2000 
 GNR_WT_WIND_OFF_HUB_2GW_Y-2050                                                           .    XES6 12000
-                                                                                                        
 /;                                                                                                      
+*Increasing potential                                                                                   
+GKN_ES(GGG,'XES6')$GKN_ES(GGG,'XES6')=GKN_ES(GGG,'XES6')*50;                                            

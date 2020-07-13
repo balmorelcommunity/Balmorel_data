@@ -1,452 +1,484 @@
-* PARAMETER XLOSS contains the loss in transmission is expressed as a fraction                                                               
-* of the power entering the transmission line.                                                                                               
-* Units: (none)                                                                                                                              
-* The input data are checked for reasonable values. See the file CHECK0.INC.                                                                 
-                                                                                                                                             
-                                                                                                                                             
-* Observe: Unreasonable results may be found if there are neither                                                                            
-* cost nor loss associated with electrical transmission.                                                                                     
-* Therefore for all (non-diagonal) entries there should be a positive number                                                                 
-* in either TABLE XCOST or in TABLE XLOSS.                                                                                                   
-                                                                                                                                             
-* Data source:                                                                                                                               
-                                                                                                                                             
-* The data entered assumes for simplicity that all transmission losses                                                                       
-* between regions RE and RI are the same in both directions.                                                                                 
-* Therefore the loss data is given only once.                                                                                                
-* It is therefore by convention assumed that loss data between regions RE and RI                                                             
-* is given only for ORD(RE) LT ORD(RI), i.e. data is entered                                                                                 
-* only in the upper right half of the table; the remaining data                                                                              
-* is filled in by the LOOP statement immediately after the table.                                                                            
-                                                                                                                                             
-* (If this assumption is not found reasonable upon revision of the data,                                                                     
-* then fill in the whole table,                                                                                                              
-* and delete the fill-in LOOP statement immediately after the table.)                                                                        
-                                                                                                                                             
-PARAMETER XLOSS(IRRRE,IRRRI)  'Transmission loss between regions (fraction)'                                                                 
-/                                                                                                                                            
-BE                                                                               .    UK                           0.042                     
-BE                                                                               .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-BE                                                                               .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-BE                                                                               .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-BE                                                                               .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-BE                                                                               .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-BE                                                                               .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-DE4-W                                                                            .    NO2                          0.042                     
-DE4-W                                                                            .    31_DE_OFF_2_Hub_BorWin       0.042                     
-DE4-W                                                                            .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-DE4-W                                                                            .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-DE4-W                                                                            .    31_DE_OFF_2_Hub_DolWin       0.042                     
-DE4-W                                                                            .    31_DE_OFF_2_Hub_HelWin       0.042                     
-DE4-W                                                                            .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-DE4-W                                                                            .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-DE4-W                                                                            .    NSY_OFF_2_Hub_NO_c           0.042                     
-DE4-W                                                                            .    NSY_OFF_2_Hub_NO_e           0.042                     
-DE4-W                                                                            .    NSY_OFF_2_Hub_NO_w           0.042                     
-DE4-W                                                                            .    31_DE_OFF_2_Hub_NorWin       0.042                     
-DE4-W                                                                            .    31_DE_OFF_2_Hub_SylWin       0.042                     
-DE4-W                                                                            .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-DE4-W                                                                            .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-DK1                                                                              .    UK                           0.042                     
-DK1                                                                              .    NL                           0.042                     
-DK1                                                                              .    NO2                          0.042                     
-DK1                                                                              .    31_DE_OFF_2_Hub_BorWin       0.042                     
-DK1                                                                              .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-DK1                                                                              .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-DK1                                                                              .    31_DE_OFF_2_Hub_DolWin       0.042                     
-DK1                                                                              .    31_DE_OFF_2_Hub_HelWin       0.042                     
-DK1                                                                              .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-DK1                                                                              .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-DK1                                                                              .    NSY_OFF_2_Hub_NO_c           0.042                     
-DK1                                                                              .    NSY_OFF_2_Hub_NO_e           0.042                     
-DK1                                                                              .    NSY_OFF_2_Hub_NO_w           0.042                     
-DK1                                                                              .    31_DE_OFF_2_Hub_NorWin       0.042                     
-DK1                                                                              .    31_DE_OFF_2_Hub_SylWin       0.042                     
-DK1                                                                              .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-DK1                                                                              .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-DK1                                                                              .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-DK1                                                                              .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-UK                                                                               .    BE                           0.042                     
-UK                                                                               .    DK1                          0.042                     
-UK                                                                               .    NL                           0.042                     
-UK                                                                               .    NO2                          0.042                     
-UK                                                                               .    31_DE_OFF_2_Hub_BorWin       0.042                     
-UK                                                                               .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-UK                                                                               .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-UK                                                                               .    31_DE_OFF_2_Hub_DolWin       0.042                     
-UK                                                                               .    31_DE_OFF_2_Hub_HelWin       0.042                     
-UK                                                                               .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-UK                                                                               .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-UK                                                                               .    NSY_OFF_2_Hub_NO_c           0.042                     
-UK                                                                               .    NSY_OFF_2_Hub_NO_e           0.042                     
-UK                                                                               .    NSY_OFF_2_Hub_NO_w           0.042                     
-UK                                                                               .    31_DE_OFF_2_Hub_NorWin       0.042                     
-UK                                                                               .    31_DE_OFF_2_Hub_SylWin       0.042                     
-UK                                                                               .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-UK                                                                               .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-UK                                                                               .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-UK                                                                               .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-NL                                                                               .    DK1                          0.042                     
-NL                                                                               .    UK                           0.042                     
-NL                                                                               .    NO2                          0.042                     
-NL                                                                               .    31_DE_OFF_2_Hub_BorWin       0.042                     
-NL                                                                               .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-NL                                                                               .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-NL                                                                               .    31_DE_OFF_2_Hub_DolWin       0.042                     
-NL                                                                               .    31_DE_OFF_2_Hub_HelWin       0.042                     
-NL                                                                               .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-NL                                                                               .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-NL                                                                               .    NSY_OFF_2_Hub_NO_c           0.042                     
-NL                                                                               .    NSY_OFF_2_Hub_NO_e           0.042                     
-NL                                                                               .    NSY_OFF_2_Hub_NO_w           0.042                     
-NL                                                                               .    31_DE_OFF_2_Hub_NorWin       0.042                     
-NL                                                                               .    31_DE_OFF_2_Hub_SylWin       0.042                     
-NL                                                                               .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-NL                                                                               .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-NL                                                                               .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-NL                                                                               .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-NO2                                                                              .    DE4-W                        0.042                     
-NO2                                                                              .    DK1                          0.042                     
-NO2                                                                              .    UK                           0.042                     
-NO2                                                                              .    NL                           0.042                     
-NO2                                                                              .    31_DE_OFF_2_Hub_BorWin       0.042                     
-NO2                                                                              .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-NO2                                                                              .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-NO2                                                                              .    31_DE_OFF_2_Hub_DolWin       0.042                     
-NO2                                                                              .    31_DE_OFF_2_Hub_HelWin       0.042                     
-NO2                                                                              .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-NO2                                                                              .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-NO2                                                                              .    NSY_OFF_2_Hub_NO_c           0.042                     
-NO2                                                                              .    NSY_OFF_2_Hub_NO_e           0.042                     
-NO2                                                                              .    NSY_OFF_2_Hub_NO_w           0.042                     
-NO2                                                                              .    31_DE_OFF_2_Hub_NorWin       0.042                     
-NO2                                                                              .    31_DE_OFF_2_Hub_SylWin       0.042                     
-NO2                                                                              .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-NO2                                                                              .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-NO2                                                                              .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-NO2                                                                              .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    DE4-W                        0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    DK1                          0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    UK                           0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    NL                           0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    NO2                          0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    31_DE_OFF_2_Hub_DolWin       0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    31_DE_OFF_2_Hub_HelWin       0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    NSY_OFF_2_Hub_NO_c           0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    NSY_OFF_2_Hub_NO_e           0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    NSY_OFF_2_Hub_NO_w           0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    31_DE_OFF_2_Hub_NorWin       0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    31_DE_OFF_2_Hub_SylWin       0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-31_DE_OFF_2_Hub_BorWin                                                           .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    BE                           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    DE4-W                        0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    DK1                          0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    UK                           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    NL                           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    NO2                          0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    31_DE_OFF_2_Hub_BorWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    31_DE_OFF_2_Hub_DolWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    31_DE_OFF_2_Hub_HelWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    NSY_OFF_2_Hub_NO_c           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    NSY_OFF_2_Hub_NO_e           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    NSY_OFF_2_Hub_NO_w           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    31_DE_OFF_2_Hub_NorWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    31_DE_OFF_2_Hub_SylWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                     .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    BE                           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    DE4-W                        0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    DK1                          0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    UK                           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    NL                           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    NO2                          0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    31_DE_OFF_2_Hub_BorWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    31_DE_OFF_2_Hub_DolWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    31_DE_OFF_2_Hub_HelWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    NSY_OFF_2_Hub_NO_c           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    NSY_OFF_2_Hub_NO_e           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    NSY_OFF_2_Hub_NO_w           0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    31_DE_OFF_2_Hub_NorWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    31_DE_OFF_2_Hub_SylWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-93_UK_OFF_2_Hub_DoggerBank_w                                                     .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    DE4-W                        0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    DK1                          0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    UK                           0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    NL                           0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    NO2                          0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    31_DE_OFF_2_Hub_BorWin       0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    31_DE_OFF_2_Hub_HelWin       0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    NSY_OFF_2_Hub_NO_c           0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    NSY_OFF_2_Hub_NO_e           0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    NSY_OFF_2_Hub_NO_w           0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    31_DE_OFF_2_Hub_NorWin       0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    31_DE_OFF_2_Hub_SylWin       0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-31_DE_OFF_2_Hub_DolWin                                                           .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    DE4-W                        0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    DK1                          0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    UK                           0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    NL                           0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    NO2                          0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    31_DE_OFF_2_Hub_BorWin       0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    31_DE_OFF_2_Hub_DolWin       0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    NSY_OFF_2_Hub_NO_c           0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    NSY_OFF_2_Hub_NO_e           0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    NSY_OFF_2_Hub_NO_w           0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    31_DE_OFF_2_Hub_NorWin       0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    31_DE_OFF_2_Hub_SylWin       0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-31_DE_OFF_2_Hub_HelWin                                                           .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    BE                           0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    DE4-W                        0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    DK1                          0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    UK                           0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    NL                           0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    NO2                          0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    31_DE_OFF_2_Hub_BorWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    31_DE_OFF_2_Hub_DolWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    31_DE_OFF_2_Hub_HelWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    NSY_OFF_2_Hub_NO_c           0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    NSY_OFF_2_Hub_NO_e           0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    NSY_OFF_2_Hub_NO_w           0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    31_DE_OFF_2_Hub_NorWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    31_DE_OFF_2_Hub_SylWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_e                                                        .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    BE                           0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    DE4-W                        0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    DK1                          0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    UK                           0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    NL                           0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    NO2                          0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    31_DE_OFF_2_Hub_BorWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    31_DE_OFF_2_Hub_DolWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    31_DE_OFF_2_Hub_HelWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    NSY_OFF_2_Hub_NO_c           0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    NSY_OFF_2_Hub_NO_e           0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    NSY_OFF_2_Hub_NO_w           0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    31_DE_OFF_2_Hub_NorWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    31_DE_OFF_2_Hub_SylWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-93_UK_OFF_2_Hub_HornSea_w                                                        .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    DE4-W                        0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    DK1                          0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    UK                           0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    NL                           0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    NO2                          0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    31_DE_OFF_2_Hub_BorWin       0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    31_DE_OFF_2_Hub_DolWin       0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    31_DE_OFF_2_Hub_HelWin       0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    NSY_OFF_2_Hub_NO_e           0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    NSY_OFF_2_Hub_NO_w           0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    31_DE_OFF_2_Hub_NorWin       0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    31_DE_OFF_2_Hub_SylWin       0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-NSY_OFF_2_Hub_NO_c                                                               .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    DE4-W                        0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    DK1                          0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    UK                           0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    NL                           0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    NO2                          0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    31_DE_OFF_2_Hub_BorWin       0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    31_DE_OFF_2_Hub_DolWin       0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    31_DE_OFF_2_Hub_HelWin       0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    NSY_OFF_2_Hub_NO_c           0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    NSY_OFF_2_Hub_NO_w           0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    31_DE_OFF_2_Hub_NorWin       0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    31_DE_OFF_2_Hub_SylWin       0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-NSY_OFF_2_Hub_NO_e                                                               .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    DE4-W                        0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    DK1                          0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    UK                           0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    NL                           0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    NO2                          0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    31_DE_OFF_2_Hub_BorWin       0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    31_DE_OFF_2_Hub_DolWin       0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    31_DE_OFF_2_Hub_HelWin       0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    NSY_OFF_2_Hub_NO_c           0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    NSY_OFF_2_Hub_NO_e           0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    31_DE_OFF_2_Hub_NorWin       0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    31_DE_OFF_2_Hub_SylWin       0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-NSY_OFF_2_Hub_NO_w                                                               .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    DE4-W                        0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    DK1                          0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    UK                           0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    NL                           0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    NO2                          0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    31_DE_OFF_2_Hub_BorWin       0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    31_DE_OFF_2_Hub_DolWin       0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    31_DE_OFF_2_Hub_HelWin       0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    NSY_OFF_2_Hub_NO_c           0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    NSY_OFF_2_Hub_NO_e           0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    NSY_OFF_2_Hub_NO_w           0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    31_DE_OFF_2_Hub_SylWin       0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-31_DE_OFF_2_Hub_NorWin                                                           .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    DE4-W                        0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    DK1                          0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    UK                           0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    NL                           0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    NO2                          0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    31_DE_OFF_2_Hub_BorWin       0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    31_DE_OFF_2_Hub_DolWin       0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    31_DE_OFF_2_Hub_HelWin       0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    NSY_OFF_2_Hub_NO_c           0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    NSY_OFF_2_Hub_NO_e           0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    NSY_OFF_2_Hub_NO_w           0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    31_DE_OFF_2_Hub_NorWin       0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-31_DE_OFF_2_Hub_SylWin                                                           .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    BE                           0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    DK1                          0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    UK                           0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    NL                           0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    NO2                          0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    31_DE_OFF_2_Hub_BorWin       0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    31_DE_OFF_2_Hub_DolWin       0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    31_DE_OFF_2_Hub_HelWin       0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    NSY_OFF_2_Hub_NO_c           0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    NSY_OFF_2_Hub_NO_e           0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    NSY_OFF_2_Hub_NO_w           0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    31_DE_OFF_2_Hub_NorWin       0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    31_DE_OFF_2_Hub_SylWin       0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-NL3_OFF_2_Hub_UKandNL_e                                                          .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    BE                           0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    DK1                          0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    UK                           0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    NL                           0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    NO2                          0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    31_DE_OFF_2_Hub_BorWin       0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    31_DE_OFF_2_Hub_DolWin       0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    31_DE_OFF_2_Hub_HelWin       0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    NSY_OFF_2_Hub_NO_c           0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    NSY_OFF_2_Hub_NO_e           0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    NSY_OFF_2_Hub_NO_w           0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    31_DE_OFF_2_Hub_NorWin       0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    31_DE_OFF_2_Hub_SylWin       0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-90_UK_OFF_2_Hub_UKandNL_w                                                        .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    DE4-W                        0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    DK1                          0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    UK                           0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    NL                           0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    NO2                          0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    31_DE_OFF_2_Hub_BorWin       0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    31_DE_OFF_2_Hub_DolWin       0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    31_DE_OFF_2_Hub_HelWin       0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    NSY_OFF_2_Hub_NO_c           0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    NSY_OFF_2_Hub_NO_e           0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    NSY_OFF_2_Hub_NO_w           0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    31_DE_OFF_2_Hub_NorWin       0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    31_DE_OFF_2_Hub_SylWin       0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-31_DE_OFF_2_Hub_WeiWin                                                           .    DK_w_OFF_2_Hub_DK_hub        0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    DE4-W                        0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    DK1                          0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    UK                           0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    NL                           0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    NO2                          0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    31_DE_OFF_2_Hub_BorWin       0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    93_UK_OFF_2_Hub_DoggerBank_e 0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    93_UK_OFF_2_Hub_DoggerBank_w 0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    31_DE_OFF_2_Hub_DolWin       0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    31_DE_OFF_2_Hub_HelWin       0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    93_UK_OFF_2_Hub_HornSea_e    0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    93_UK_OFF_2_Hub_HornSea_w    0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    NSY_OFF_2_Hub_NO_c           0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    NSY_OFF_2_Hub_NO_e           0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    NSY_OFF_2_Hub_NO_w           0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    31_DE_OFF_2_Hub_NorWin       0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    31_DE_OFF_2_Hub_SylWin       0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    NL3_OFF_2_Hub_UKandNL_e      0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    90_UK_OFF_2_Hub_UKandNL_w    0.042                     
-DK_w_OFF_2_Hub_DK_hub                                                            .    31_DE_OFF_2_Hub_WeiWin       0.042                     
-/;                                                                                                                                           
+*Additions XLOSS from offshore grid                                                                      
+*Country to country                                                                                      
+XLOSS('BE','DE4-W')=0.012572104;                                                                         
+XLOSS('BE','DK1')=0.020003024;                                                                           
+XLOSS('BE','NL')=0.005201848;                                                                            
+XLOSS('BE','NO2')=0.027019771;                                                                           
+XLOSS('BE','UK')=0.009777942;                                                                            
+XLOSS('DE4-W','BE')=0.012572104;                                                                         
+XLOSS('DE4-W','DK1')=0.009684084;                                                                        
+XLOSS('DE4-W','NL')=0.008170869;                                                                         
+XLOSS('DE4-W','NO2')=0.018710035;                                                                        
+XLOSS('DE4-W','UK')=0.019055159;                                                                         
+XLOSS('DK1','BE')=0.020003024;                                                                           
+XLOSS('DK1','DE4-W')=0.009684084;                                                                        
+XLOSS('DK1','NL')=0.014808368;                                                                           
+XLOSS('DK1','NO2')=0.009287635;                                                                          
+XLOSS('DK1','UK')=0.021112167;                                                                           
+XLOSS('NL','BE')=0.005201848;                                                                            
+XLOSS('NL','DE4-W')=0.008170869;                                                                         
+XLOSS('NL','DK1')=0.014808368;                                                                           
+XLOSS('NL','NO2')=0.021969482;                                                                           
+XLOSS('NL','UK')=0.01172822;                                                                             
+XLOSS('NO2','BE')=0.027019771;                                                                           
+XLOSS('NO2','DE4-W')=0.018710035;                                                                        
+XLOSS('NO2','DK1')=0.009287635;                                                                          
+XLOSS('NO2','NL')=0.021969482;                                                                           
+XLOSS('NO2','UK')=0.021185055;                                                                           
+XLOSS('UK','BE')=0.009777942;                                                                            
+XLOSS('UK','DE4-W')=0.019055159;                                                                         
+XLOSS('UK','DK1')=0.021112167;                                                                           
+XLOSS('UK','NL')=0.01172822;                                                                             
+XLOSS('UK','NO2')=0.021185055;                                                                           
+                                                                                                         
+*Hub-to-shore and shore-to-hub                                                                           
+XLOSS('31_DE_OFF_2_Hub_BorWin','DE4-W')=0.006948609;                                                     
+XLOSS('31_DE_OFF_2_Hub_BorWin','DK1')=0.008042687;                                                       
+XLOSS('31_DE_OFF_2_Hub_BorWin','NL')=0.007280107;                                                        
+XLOSS('31_DE_OFF_2_Hub_BorWin','NO2')=0.014706591;                                                       
+XLOSS('31_DE_OFF_2_Hub_BorWin','UK')=0.013979368;                                                        
+XLOSS('31_DE_OFF_2_Hub_HelWin','DE4-W')=0.005157943;                                                     
+XLOSS('31_DE_OFF_2_Hub_HelWin','DK1')=0.006193558;                                                       
+XLOSS('31_DE_OFF_2_Hub_HelWin','NL')=0.00862452;                                                         
+XLOSS('31_DE_OFF_2_Hub_HelWin','NO2')=0.014227234;                                                       
+XLOSS('31_DE_OFF_2_Hub_HelWin','UK')=0.016681146;                                                        
+XLOSS('31_DE_OFF_2_Hub_SylWin','DE4-W')=0.007378217;                                                     
+XLOSS('31_DE_OFF_2_Hub_SylWin','DK1')=0.005124117;                                                       
+XLOSS('31_DE_OFF_2_Hub_SylWin','NL')=0.010051867;                                                        
+XLOSS('31_DE_OFF_2_Hub_SylWin','NO2')=0.01219175;                                                        
+XLOSS('31_DE_OFF_2_Hub_SylWin','UK')=0.016494853;                                                        
+XLOSS('31_DE_OFF_2_Hub_DolWin','DE4-W')=0.005799536;                                                     
+XLOSS('31_DE_OFF_2_Hub_DolWin','DK1')=0.008593229;                                                       
+XLOSS('31_DE_OFF_2_Hub_DolWin','NL')=0.006310514;                                                        
+XLOSS('31_DE_OFF_2_Hub_DolWin','NO2')=0.015830171;                                                       
+XLOSS('31_DE_OFF_2_Hub_DolWin','UK')=0.014246818;                                                        
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','BE')=0.0078512;                                                       
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','DK1')=0.0165411;                                                      
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','NL')=0.006073559;                                                     
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','NO2')=0.021399324;                                                    
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','UK')=0.00598358;                                                      
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','BE')=0.00736539;                                                        
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','DK1')=0.015103176;                                                      
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','NL')=0.004507956;                                                       
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','NO2')=0.020564355;                                                      
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','UK')=0.007814491;                                                       
+XLOSS('31_DE_OFF_2_Hub_NorWin','DE4-W')=0.009591338;                                                     
+XLOSS('31_DE_OFF_2_Hub_NorWin','DK1')=0.008388871;                                                       
+XLOSS('31_DE_OFF_2_Hub_NorWin','NL')=0.008989271;                                                        
+XLOSS('31_DE_OFF_2_Hub_NorWin','NO2')=0.013280499;                                                       
+XLOSS('31_DE_OFF_2_Hub_NorWin','UK')=0.013024788;                                                        
+XLOSS('31_DE_OFF_2_Hub_WeiWin','DE4-W')=0.007833167;                                                     
+XLOSS('31_DE_OFF_2_Hub_WeiWin','DK1')=0.00730856;                                                        
+XLOSS('31_DE_OFF_2_Hub_WeiWin','NL')=0.008472038;                                                        
+XLOSS('31_DE_OFF_2_Hub_WeiWin','NO2')=0.013497509;                                                       
+XLOSS('31_DE_OFF_2_Hub_WeiWin','UK')=0.014278791;                                                        
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','BE')=0.012379912;                                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','DE4-W')=0.015672988;                                                  
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','DK1')=0.016453415;                                                    
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','NL')=0.010108084;                                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','NO2')=0.019280518;                                                    
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','UK')=0.005245751;                                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','BE')=0.011317258;                                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','DE4-W')=0.014116107;                                                  
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','DK1')=0.015323269;                                                    
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','NL')=0.008655143;                                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','NO2')=0.018823276;                                                    
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','UK')=0.006102916;                                                     
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','BE')=0.014970519;                                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','DE4-W')=0.015740517;                                               
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','DK1')=0.014549148;                                                 
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','NL')=0.011788536;                                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','NO2')=0.016234585;                                                 
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','UK')=0.006732956;                                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','BE')=0.015281108;                                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','DE4-W')=0.014426796;                                               
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','DK1')=0.012556313;                                                 
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','NL')=0.011509468;                                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','NO2')=0.01442294;                                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','UK')=0.008609173;                                                  
+XLOSS('NSY_OFF_2_Hub_NO_w','DE4-W')=0.015159084;                                                         
+XLOSS('NSY_OFF_2_Hub_NO_w','DK1')=0.010277089;                                                           
+XLOSS('NSY_OFF_2_Hub_NO_w','NL')=0.014510596;                                                            
+XLOSS('NSY_OFF_2_Hub_NO_w','NO2')=0.010129167;                                                           
+XLOSS('NSY_OFF_2_Hub_NO_w','UK')=0.011553698;                                                            
+XLOSS('NSY_OFF_2_Hub_NO_c','DE4-W')=0.01429409;                                                          
+XLOSS('NSY_OFF_2_Hub_NO_c','DK1')=0.007956899;                                                           
+XLOSS('NSY_OFF_2_Hub_NO_c','NL')=0.015151487;                                                            
+XLOSS('NSY_OFF_2_Hub_NO_c','NO2')=0.007795173;                                                           
+XLOSS('NSY_OFF_2_Hub_NO_c','UK')=0.014276056;                                                            
+XLOSS('NSY_OFF_2_Hub_NO_e','DE4-W')=0.013985813;                                                         
+XLOSS('NSY_OFF_2_Hub_NO_e','DK1')=0.006613185;                                                           
+XLOSS('NSY_OFF_2_Hub_NO_e','NL')=0.015803883;                                                            
+XLOSS('NSY_OFF_2_Hub_NO_e','NO2')=0.006446771;                                                           
+XLOSS('NSY_OFF_2_Hub_NO_e','UK')=0.016045828;                                                            
+XLOSS('DK_w_OFF_2_Hub_DK_hub','DE4-W')=0.008967739;                                                      
+XLOSS('DK_w_OFF_2_Hub_DK_hub','DK1')=0.003695133;                                                        
+XLOSS('DK_w_OFF_2_Hub_DK_hub','NL')=0.012063213;                                                         
+XLOSS('DK_w_OFF_2_Hub_DK_hub','NO2')=0.010180188;                                                        
+XLOSS('DK_w_OFF_2_Hub_DK_hub','UK')=0.017575217;                                                         
+XLOSS('DE4-W','31_DE_OFF_2_Hub_BorWin')=0.006948609;                                                     
+XLOSS('DK1','31_DE_OFF_2_Hub_BorWin')=0.008042687;                                                       
+XLOSS('NL','31_DE_OFF_2_Hub_BorWin')=0.007280107;                                                        
+XLOSS('NO2','31_DE_OFF_2_Hub_BorWin')=0.014706591;                                                       
+XLOSS('UK','31_DE_OFF_2_Hub_BorWin')=0.013979368;                                                        
+XLOSS('DE4-W','31_DE_OFF_2_Hub_HelWin')=0.005157943;                                                     
+XLOSS('DK1','31_DE_OFF_2_Hub_HelWin')=0.006193558;                                                       
+XLOSS('NL','31_DE_OFF_2_Hub_HelWin')=0.00862452;                                                         
+XLOSS('NO2','31_DE_OFF_2_Hub_HelWin')=0.014227234;                                                       
+XLOSS('UK','31_DE_OFF_2_Hub_HelWin')=0.016681146;                                                        
+XLOSS('DE4-W','31_DE_OFF_2_Hub_SylWin')=0.007378217;                                                     
+XLOSS('DK1','31_DE_OFF_2_Hub_SylWin')=0.005124117;                                                       
+XLOSS('NL','31_DE_OFF_2_Hub_SylWin')=0.010051867;                                                        
+XLOSS('NO2','31_DE_OFF_2_Hub_SylWin')=0.01219175;                                                        
+XLOSS('UK','31_DE_OFF_2_Hub_SylWin')=0.016494853;                                                        
+XLOSS('DE4-W','31_DE_OFF_2_Hub_DolWin')=0.005799536;                                                     
+XLOSS('DK1','31_DE_OFF_2_Hub_DolWin')=0.008593229;                                                       
+XLOSS('NL','31_DE_OFF_2_Hub_DolWin')=0.006310514;                                                        
+XLOSS('NO2','31_DE_OFF_2_Hub_DolWin')=0.015830171;                                                       
+XLOSS('UK','31_DE_OFF_2_Hub_DolWin')=0.014246818;                                                        
+XLOSS('BE','90_UK_OFF_2_Hub_UKandNL_w')=0.0078512;                                                       
+XLOSS('DK1','90_UK_OFF_2_Hub_UKandNL_w')=0.0165411;                                                      
+XLOSS('NL','90_UK_OFF_2_Hub_UKandNL_w')=0.006073559;                                                     
+XLOSS('NO2','90_UK_OFF_2_Hub_UKandNL_w')=0.021399324;                                                    
+XLOSS('UK','90_UK_OFF_2_Hub_UKandNL_w')=0.00598358;                                                      
+XLOSS('BE','NL3_OFF_2_Hub_UKandNL_e')=0.00736539;                                                        
+XLOSS('DK1','NL3_OFF_2_Hub_UKandNL_e')=0.015103176;                                                      
+XLOSS('NL','NL3_OFF_2_Hub_UKandNL_e')=0.004507956;                                                       
+XLOSS('NO2','NL3_OFF_2_Hub_UKandNL_e')=0.020564355;                                                      
+XLOSS('UK','NL3_OFF_2_Hub_UKandNL_e')=0.007814491;                                                       
+XLOSS('DE4-W','31_DE_OFF_2_Hub_NorWin')=0.009591338;                                                     
+XLOSS('DK1','31_DE_OFF_2_Hub_NorWin')=0.008388871;                                                       
+XLOSS('NL','31_DE_OFF_2_Hub_NorWin')=0.008989271;                                                        
+XLOSS('NO2','31_DE_OFF_2_Hub_NorWin')=0.013280499;                                                       
+XLOSS('UK','31_DE_OFF_2_Hub_NorWin')=0.013024788;                                                        
+XLOSS('DE4-W','31_DE_OFF_2_Hub_WeiWin')=0.007833167;                                                     
+XLOSS('DK1','31_DE_OFF_2_Hub_WeiWin')=0.00730856;                                                        
+XLOSS('NL','31_DE_OFF_2_Hub_WeiWin')=0.008472038;                                                        
+XLOSS('NO2','31_DE_OFF_2_Hub_WeiWin')=0.013497509;                                                       
+XLOSS('UK','31_DE_OFF_2_Hub_WeiWin')=0.014278791;                                                        
+XLOSS('BE','93_UK_OFF_2_Hub_HornSea_w')=0.012379912;                                                     
+XLOSS('DE4-W','93_UK_OFF_2_Hub_HornSea_w')=0.015672988;                                                  
+XLOSS('DK1','93_UK_OFF_2_Hub_HornSea_w')=0.016453415;                                                    
+XLOSS('NL','93_UK_OFF_2_Hub_HornSea_w')=0.010108084;                                                     
+XLOSS('NO2','93_UK_OFF_2_Hub_HornSea_w')=0.019280518;                                                    
+XLOSS('UK','93_UK_OFF_2_Hub_HornSea_w')=0.005245751;                                                     
+XLOSS('BE','93_UK_OFF_2_Hub_HornSea_e')=0.011317258;                                                     
+XLOSS('DE4-W','93_UK_OFF_2_Hub_HornSea_e')=0.014116107;                                                  
+XLOSS('DK1','93_UK_OFF_2_Hub_HornSea_e')=0.015323269;                                                    
+XLOSS('NL','93_UK_OFF_2_Hub_HornSea_e')=0.008655143;                                                     
+XLOSS('NO2','93_UK_OFF_2_Hub_HornSea_e')=0.018823276;                                                    
+XLOSS('UK','93_UK_OFF_2_Hub_HornSea_e')=0.006102916;                                                     
+XLOSS('BE','93_UK_OFF_2_Hub_DoggerBank_w')=0.014970519;                                                  
+XLOSS('DE4-W','93_UK_OFF_2_Hub_DoggerBank_w')=0.015740517;                                               
+XLOSS('DK1','93_UK_OFF_2_Hub_DoggerBank_w')=0.014549148;                                                 
+XLOSS('NL','93_UK_OFF_2_Hub_DoggerBank_w')=0.011788536;                                                  
+XLOSS('NO2','93_UK_OFF_2_Hub_DoggerBank_w')=0.016234585;                                                 
+XLOSS('UK','93_UK_OFF_2_Hub_DoggerBank_w')=0.006732956;                                                  
+XLOSS('BE','93_UK_OFF_2_Hub_DoggerBank_e')=0.015281108;                                                  
+XLOSS('DE4-W','93_UK_OFF_2_Hub_DoggerBank_e')=0.014426796;                                               
+XLOSS('DK1','93_UK_OFF_2_Hub_DoggerBank_e')=0.012556313;                                                 
+XLOSS('NL','93_UK_OFF_2_Hub_DoggerBank_e')=0.011509468;                                                  
+XLOSS('NO2','93_UK_OFF_2_Hub_DoggerBank_e')=0.01442294;                                                  
+XLOSS('UK','93_UK_OFF_2_Hub_DoggerBank_e')=0.008609173;                                                  
+XLOSS('DE4-W','NSY_OFF_2_Hub_NO_w')=0.015159084;                                                         
+XLOSS('DK1','NSY_OFF_2_Hub_NO_w')=0.010277089;                                                           
+XLOSS('NL','NSY_OFF_2_Hub_NO_w')=0.014510596;                                                            
+XLOSS('NO2','NSY_OFF_2_Hub_NO_w')=0.010129167;                                                           
+XLOSS('UK','NSY_OFF_2_Hub_NO_w')=0.011553698;                                                            
+XLOSS('DE4-W','NSY_OFF_2_Hub_NO_c')=0.01429409;                                                          
+XLOSS('DK1','NSY_OFF_2_Hub_NO_c')=0.007956899;                                                           
+XLOSS('NL','NSY_OFF_2_Hub_NO_c')=0.015151487;                                                            
+XLOSS('NO2','NSY_OFF_2_Hub_NO_c')=0.007795173;                                                           
+XLOSS('UK','NSY_OFF_2_Hub_NO_c')=0.014276056;                                                            
+XLOSS('DE4-W','NSY_OFF_2_Hub_NO_e')=0.013985813;                                                         
+XLOSS('DK1','NSY_OFF_2_Hub_NO_e')=0.006613185;                                                           
+XLOSS('NL','NSY_OFF_2_Hub_NO_e')=0.015803883;                                                            
+XLOSS('NO2','NSY_OFF_2_Hub_NO_e')=0.006446771;                                                           
+XLOSS('UK','NSY_OFF_2_Hub_NO_e')=0.016045828;                                                            
+XLOSS('DE4-W','DK_w_OFF_2_Hub_DK_hub')=0.008967739;                                                      
+XLOSS('DK1','DK_w_OFF_2_Hub_DK_hub')=0.003695133;                                                        
+XLOSS('NL','DK_w_OFF_2_Hub_DK_hub')=0.012063213;                                                         
+XLOSS('NO2','DK_w_OFF_2_Hub_DK_hub')=0.010180188;                                                        
+XLOSS('UK','DK_w_OFF_2_Hub_DK_hub')=0.017575217;                                                         
+                                                                                                         
+*hub-to-hub                                                                                              
+XLOSS('31_DE_OFF_2_Hub_BorWin','31_DE_OFF_2_Hub_HelWin')=0.002751735;                                    
+XLOSS('31_DE_OFF_2_Hub_BorWin','31_DE_OFF_2_Hub_SylWin')=0.002946882;                                    
+XLOSS('31_DE_OFF_2_Hub_BorWin','31_DE_OFF_2_Hub_DolWin')=0.001362337;                                    
+XLOSS('31_DE_OFF_2_Hub_BorWin','90_UK_OFF_2_Hub_UKandNL_w')=0.00862431;                                  
+XLOSS('31_DE_OFF_2_Hub_BorWin','NL3_OFF_2_Hub_UKandNL_e')=0.007086587;                                   
+XLOSS('31_DE_OFF_2_Hub_BorWin','31_DE_OFF_2_Hub_NorWin')=0.002684283;                                    
+XLOSS('31_DE_OFF_2_Hub_BorWin','31_DE_OFF_2_Hub_WeiWin')=0.001263103;                                    
+XLOSS('31_DE_OFF_2_Hub_BorWin','93_UK_OFF_2_Hub_HornSea_w')=0.009592487;                                 
+XLOSS('31_DE_OFF_2_Hub_BorWin','93_UK_OFF_2_Hub_HornSea_e')=0.008167726;                                 
+XLOSS('31_DE_OFF_2_Hub_BorWin','93_UK_OFF_2_Hub_DoggerBank_w')=0.008975277;                              
+XLOSS('31_DE_OFF_2_Hub_BorWin','93_UK_OFF_2_Hub_DoggerBank_e')=0.007511271;                              
+XLOSS('31_DE_OFF_2_Hub_BorWin','NSY_OFF_2_Hub_NO_w')=0.008524217;                                        
+XLOSS('31_DE_OFF_2_Hub_BorWin','NSY_OFF_2_Hub_NO_c')=0.00834268;                                         
+XLOSS('31_DE_OFF_2_Hub_BorWin','NSY_OFF_2_Hub_NO_e')=0.008689206;                                        
+XLOSS('31_DE_OFF_2_Hub_BorWin','DK_w_OFF_2_Hub_DK_hub')=0.004853712;                                     
+XLOSS('31_DE_OFF_2_Hub_HelWin','31_DE_OFF_2_Hub_BorWin')=0.002751735;                                    
+XLOSS('31_DE_OFF_2_Hub_HelWin','31_DE_OFF_2_Hub_SylWin')=0.002250159;                                    
+XLOSS('31_DE_OFF_2_Hub_HelWin','31_DE_OFF_2_Hub_DolWin')=0.002606789;                                    
+XLOSS('31_DE_OFF_2_Hub_HelWin','90_UK_OFF_2_Hub_UKandNL_w')=0.011164061;                                 
+XLOSS('31_DE_OFF_2_Hub_HelWin','NL3_OFF_2_Hub_UKandNL_e')=0.009507619;                                   
+XLOSS('31_DE_OFF_2_Hub_HelWin','31_DE_OFF_2_Hub_NorWin')=0.004886273;                                    
+XLOSS('31_DE_OFF_2_Hub_HelWin','31_DE_OFF_2_Hub_WeiWin')=0.00304255;                                     
+XLOSS('31_DE_OFF_2_Hub_HelWin','93_UK_OFF_2_Hub_HornSea_w')=0.012342466;                                 
+XLOSS('31_DE_OFF_2_Hub_HelWin','93_UK_OFF_2_Hub_HornSea_e')=0.010918272;                                 
+XLOSS('31_DE_OFF_2_Hub_HelWin','93_UK_OFF_2_Hub_DoggerBank_w')=0.011564706;                              
+XLOSS('31_DE_OFF_2_Hub_HelWin','93_UK_OFF_2_Hub_DoggerBank_e')=0.009945504;                              
+XLOSS('31_DE_OFF_2_Hub_HelWin','NSY_OFF_2_Hub_NO_w')=0.010063889;                                        
+XLOSS('31_DE_OFF_2_Hub_HelWin','NSY_OFF_2_Hub_NO_c')=0.009145759;                                        
+XLOSS('31_DE_OFF_2_Hub_HelWin','NSY_OFF_2_Hub_NO_e')=0.008948035;                                        
+XLOSS('31_DE_OFF_2_Hub_HelWin','DK_w_OFF_2_Hub_DK_hub')=0.00408205;                                      
+XLOSS('31_DE_OFF_2_Hub_SylWin','31_DE_OFF_2_Hub_BorWin')=0.002946882;                                    
+XLOSS('31_DE_OFF_2_Hub_SylWin','31_DE_OFF_2_Hub_HelWin')=0.002250159;                                    
+XLOSS('31_DE_OFF_2_Hub_SylWin','31_DE_OFF_2_Hub_DolWin')=0.003746332;                                    
+XLOSS('31_DE_OFF_2_Hub_SylWin','90_UK_OFF_2_Hub_UKandNL_w')=0.011432141;                                 
+XLOSS('31_DE_OFF_2_Hub_SylWin','NL3_OFF_2_Hub_UKandNL_e')=0.009979329;                                   
+XLOSS('31_DE_OFF_2_Hub_SylWin','31_DE_OFF_2_Hub_NorWin')=0.003686945;                                    
+XLOSS('31_DE_OFF_2_Hub_SylWin','31_DE_OFF_2_Hub_WeiWin')=0.002226848;                                    
+XLOSS('31_DE_OFF_2_Hub_SylWin','93_UK_OFF_2_Hub_HornSea_w')=0.011748329;                                 
+XLOSS('31_DE_OFF_2_Hub_SylWin','93_UK_OFF_2_Hub_HornSea_e')=0.010477611;                                 
+XLOSS('31_DE_OFF_2_Hub_SylWin','93_UK_OFF_2_Hub_DoggerBank_w')=0.010404865;                              
+XLOSS('31_DE_OFF_2_Hub_SylWin','93_UK_OFF_2_Hub_DoggerBank_e')=0.00858882;                               
+XLOSS('31_DE_OFF_2_Hub_SylWin','NSY_OFF_2_Hub_NO_w')=0.00802549;                                         
+XLOSS('31_DE_OFF_2_Hub_SylWin','NSY_OFF_2_Hub_NO_c')=0.006916701;                                        
+XLOSS('31_DE_OFF_2_Hub_SylWin','NSY_OFF_2_Hub_NO_e')=0.006706499;                                        
+XLOSS('31_DE_OFF_2_Hub_SylWin','DK_w_OFF_2_Hub_DK_hub')=0.002036516;                                     
+XLOSS('31_DE_OFF_2_Hub_DolWin','31_DE_OFF_2_Hub_BorWin')=0.001362337;                                    
+XLOSS('31_DE_OFF_2_Hub_DolWin','31_DE_OFF_2_Hub_HelWin')=0.002606789;                                    
+XLOSS('31_DE_OFF_2_Hub_DolWin','31_DE_OFF_2_Hub_SylWin')=0.003746332;                                    
+XLOSS('31_DE_OFF_2_Hub_DolWin','90_UK_OFF_2_Hub_UKandNL_w')=0.008604287;                                 
+XLOSS('31_DE_OFF_2_Hub_DolWin','NL3_OFF_2_Hub_UKandNL_e')=0.00691531;                                    
+XLOSS('31_DE_OFF_2_Hub_DolWin','31_DE_OFF_2_Hub_NorWin')=0.004004761;                                    
+XLOSS('31_DE_OFF_2_Hub_DolWin','31_DE_OFF_2_Hub_WeiWin')=0.002586338;                                    
+XLOSS('31_DE_OFF_2_Hub_DolWin','93_UK_OFF_2_Hub_HornSea_w')=0.010199583;                                 
+XLOSS('31_DE_OFF_2_Hub_DolWin','93_UK_OFF_2_Hub_HornSea_e')=0.008698725;                                 
+XLOSS('31_DE_OFF_2_Hub_DolWin','93_UK_OFF_2_Hub_DoggerBank_w')=0.009956144;                              
+XLOSS('31_DE_OFF_2_Hub_DolWin','93_UK_OFF_2_Hub_DoggerBank_e')=0.00863706;                               
+XLOSS('31_DE_OFF_2_Hub_DolWin','NSY_OFF_2_Hub_NO_w')=0.009879886;                                        
+XLOSS('31_DE_OFF_2_Hub_DolWin','NSY_OFF_2_Hub_NO_c')=0.009677455;                                        
+XLOSS('31_DE_OFF_2_Hub_DolWin','NSY_OFF_2_Hub_NO_e')=0.009947884;                                        
+XLOSS('31_DE_OFF_2_Hub_DolWin','DK_w_OFF_2_Hub_DK_hub')=0.005771415;                                     
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','31_DE_OFF_2_Hub_BorWin')=0.00862431;                                  
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','31_DE_OFF_2_Hub_HelWin')=0.011164061;                                 
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','31_DE_OFF_2_Hub_SylWin')=0.011432141;                                 
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','31_DE_OFF_2_Hub_DolWin')=0.008604287;                                 
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','NL3_OFF_2_Hub_UKandNL_e')=0.001835643;                                
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','31_DE_OFF_2_Hub_NorWin')=0.008478327;                                 
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','31_DE_OFF_2_Hub_WeiWin')=0.009232837;                                 
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','93_UK_OFF_2_Hub_HornSea_w')=0.004542014;                              
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','93_UK_OFF_2_Hub_HornSea_e')=0.003515682;                              
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','93_UK_OFF_2_Hub_DoggerBank_w')=0.007231546;                           
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','93_UK_OFF_2_Hub_DoggerBank_e')=0.007914725;                           
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','NSY_OFF_2_Hub_NO_w')=0.012045912;                                     
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','NSY_OFF_2_Hub_NO_c')=0.013710087;                                     
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','NSY_OFF_2_Hub_NO_e')=0.014956752;                                     
+XLOSS('90_UK_OFF_2_Hub_UKandNL_w','DK_w_OFF_2_Hub_DK_hub')=0.013018486;                                  
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','31_DE_OFF_2_Hub_BorWin')=0.007086587;                                   
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','31_DE_OFF_2_Hub_HelWin')=0.009507619;                                   
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','31_DE_OFF_2_Hub_SylWin')=0.009979329;                                   
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','31_DE_OFF_2_Hub_DolWin')=0.00691531;                                    
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','90_UK_OFF_2_Hub_UKandNL_w')=0.001835643;                                
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','31_DE_OFF_2_Hub_NorWin')=0.00736756;                                    
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','31_DE_OFF_2_Hub_WeiWin')=0.007838651;                                   
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','93_UK_OFF_2_Hub_HornSea_w')=0.005628526;                                
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','93_UK_OFF_2_Hub_HornSea_e')=0.004247817;                                
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','93_UK_OFF_2_Hub_DoggerBank_w')=0.007702163;                             
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','93_UK_OFF_2_Hub_DoggerBank_e')=0.007917633;                             
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','NSY_OFF_2_Hub_NO_w')=0.011695062;                                       
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','NSY_OFF_2_Hub_NO_c')=0.013041686;                                       
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','NSY_OFF_2_Hub_NO_e')=0.014128344;                                       
+XLOSS('NL3_OFF_2_Hub_UKandNL_e','DK_w_OFF_2_Hub_DK_hub')=0.011690009;                                    
+XLOSS('31_DE_OFF_2_Hub_NorWin','31_DE_OFF_2_Hub_BorWin')=0.002684283;                                    
+XLOSS('31_DE_OFF_2_Hub_NorWin','31_DE_OFF_2_Hub_HelWin')=0.004886273;                                    
+XLOSS('31_DE_OFF_2_Hub_NorWin','31_DE_OFF_2_Hub_SylWin')=0.003686945;                                    
+XLOSS('31_DE_OFF_2_Hub_NorWin','31_DE_OFF_2_Hub_DolWin')=0.004004761;                                    
+XLOSS('31_DE_OFF_2_Hub_NorWin','90_UK_OFF_2_Hub_UKandNL_w')=0.008478327;                                 
+XLOSS('31_DE_OFF_2_Hub_NorWin','NL3_OFF_2_Hub_UKandNL_e')=0.00736756;                                    
+XLOSS('31_DE_OFF_2_Hub_NorWin','31_DE_OFF_2_Hub_WeiWin')=0.001845262;                                    
+XLOSS('31_DE_OFF_2_Hub_NorWin','93_UK_OFF_2_Hub_HornSea_w')=0.008116804;                                 
+XLOSS('31_DE_OFF_2_Hub_NorWin','93_UK_OFF_2_Hub_HornSea_e')=0.006935255;                                 
+XLOSS('31_DE_OFF_2_Hub_NorWin','93_UK_OFF_2_Hub_DoggerBank_w')=0.006766874;                              
+XLOSS('31_DE_OFF_2_Hub_NorWin','93_UK_OFF_2_Hub_DoggerBank_e')=0.005064006;                              
+XLOSS('31_DE_OFF_2_Hub_NorWin','NSY_OFF_2_Hub_NO_w')=0.005916104;                                        
+XLOSS('31_DE_OFF_2_Hub_NorWin','NSY_OFF_2_Hub_NO_c')=0.006162832;                                        
+XLOSS('31_DE_OFF_2_Hub_NorWin','NSY_OFF_2_Hub_NO_e')=0.006915953;                                        
+XLOSS('31_DE_OFF_2_Hub_NorWin','DK_w_OFF_2_Hub_DK_hub')=0.004711267;                                     
+XLOSS('31_DE_OFF_2_Hub_WeiWin','31_DE_OFF_2_Hub_BorWin')=0.001263103;                                    
+XLOSS('31_DE_OFF_2_Hub_WeiWin','31_DE_OFF_2_Hub_HelWin')=0.00304255;                                     
+XLOSS('31_DE_OFF_2_Hub_WeiWin','31_DE_OFF_2_Hub_SylWin')=0.002226848;                                    
+XLOSS('31_DE_OFF_2_Hub_WeiWin','31_DE_OFF_2_Hub_DolWin')=0.002586338;                                    
+XLOSS('31_DE_OFF_2_Hub_WeiWin','90_UK_OFF_2_Hub_UKandNL_w')=0.009232837;                                 
+XLOSS('31_DE_OFF_2_Hub_WeiWin','NL3_OFF_2_Hub_UKandNL_e')=0.007838651;                                   
+XLOSS('31_DE_OFF_2_Hub_WeiWin','31_DE_OFF_2_Hub_NorWin')=0.001845262;                                    
+XLOSS('31_DE_OFF_2_Hub_WeiWin','93_UK_OFF_2_Hub_HornSea_w')=0.009608097;                                 
+XLOSS('31_DE_OFF_2_Hub_WeiWin','93_UK_OFF_2_Hub_HornSea_e')=0.008291037;                                 
+XLOSS('31_DE_OFF_2_Hub_WeiWin','93_UK_OFF_2_Hub_DoggerBank_w')=0.00855465;                               
+XLOSS('31_DE_OFF_2_Hub_WeiWin','93_UK_OFF_2_Hub_DoggerBank_e')=0.00690327;                               
+XLOSS('31_DE_OFF_2_Hub_WeiWin','NSY_OFF_2_Hub_NO_w')=0.007408797;                                        
+XLOSS('31_DE_OFF_2_Hub_WeiWin','NSY_OFF_2_Hub_NO_c')=0.007091864;                                        
+XLOSS('31_DE_OFF_2_Hub_WeiWin','NSY_OFF_2_Hub_NO_e')=0.007430337;                                        
+XLOSS('31_DE_OFF_2_Hub_WeiWin','DK_w_OFF_2_Hub_DK_hub')=0.003864282;                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','31_DE_OFF_2_Hub_BorWin')=0.009592487;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','31_DE_OFF_2_Hub_HelWin')=0.012342466;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','31_DE_OFF_2_Hub_SylWin')=0.011748329;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','31_DE_OFF_2_Hub_DolWin')=0.010199583;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','90_UK_OFF_2_Hub_UKandNL_w')=0.004542014;                              
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','NL3_OFF_2_Hub_UKandNL_e')=0.005628526;                                
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','31_DE_OFF_2_Hub_NorWin')=0.008116804;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','31_DE_OFF_2_Hub_WeiWin')=0.009608097;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','93_UK_OFF_2_Hub_HornSea_e')=0.00156991;                               
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','93_UK_OFF_2_Hub_DoggerBank_w')=0.00331698;                            
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','93_UK_OFF_2_Hub_DoggerBank_e')=0.00486399;                            
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','NSY_OFF_2_Hub_NO_w')=0.009240391;                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','NSY_OFF_2_Hub_NO_c')=0.011514263;                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','NSY_OFF_2_Hub_NO_e')=0.013083165;                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_w','DK_w_OFF_2_Hub_DK_hub')=0.012758351;                                  
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','31_DE_OFF_2_Hub_BorWin')=0.008167726;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','31_DE_OFF_2_Hub_HelWin')=0.010918272;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','31_DE_OFF_2_Hub_SylWin')=0.010477611;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','31_DE_OFF_2_Hub_DolWin')=0.008698725;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','90_UK_OFF_2_Hub_UKandNL_w')=0.003515682;                              
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','NL3_OFF_2_Hub_UKandNL_e')=0.004247817;                                
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','31_DE_OFF_2_Hub_NorWin')=0.006935255;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','31_DE_OFF_2_Hub_WeiWin')=0.008291037;                                 
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','93_UK_OFF_2_Hub_HornSea_w')=0.00156991;                               
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','93_UK_OFF_2_Hub_DoggerBank_w')=0.003721895;                           
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','93_UK_OFF_2_Hub_DoggerBank_e')=0.004664013;                           
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','NSY_OFF_2_Hub_NO_w')=0.009006567;                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','NSY_OFF_2_Hub_NO_c')=0.011029125;                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','NSY_OFF_2_Hub_NO_e')=0.012485544;                                     
+XLOSS('93_UK_OFF_2_Hub_HornSea_e','DK_w_OFF_2_Hub_DK_hub')=0.011637889;                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','31_DE_OFF_2_Hub_BorWin')=0.008975277;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','31_DE_OFF_2_Hub_HelWin')=0.011564706;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','31_DE_OFF_2_Hub_SylWin')=0.010404865;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','31_DE_OFF_2_Hub_DolWin')=0.009956144;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','90_UK_OFF_2_Hub_UKandNL_w')=0.007231546;                           
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','NL3_OFF_2_Hub_UKandNL_e')=0.007702163;                             
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','31_DE_OFF_2_Hub_NorWin')=0.006766874;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','31_DE_OFF_2_Hub_WeiWin')=0.00855465;                               
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','93_UK_OFF_2_Hub_HornSea_w')=0.00331698;                            
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','93_UK_OFF_2_Hub_HornSea_e')=0.003721895;                           
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','93_UK_OFF_2_Hub_DoggerBank_e')=0.002026102;                        
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','NSY_OFF_2_Hub_NO_w')=0.006109456;                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','NSY_OFF_2_Hub_NO_c')=0.00858663;                                   
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','NSY_OFF_2_Hub_NO_e')=0.010263014;                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_w','DK_w_OFF_2_Hub_DK_hub')=0.010934894;                               
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','31_DE_OFF_2_Hub_BorWin')=0.007511271;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','31_DE_OFF_2_Hub_HelWin')=0.009945504;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','31_DE_OFF_2_Hub_SylWin')=0.00858882;                               
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','31_DE_OFF_2_Hub_DolWin')=0.00863706;                               
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','90_UK_OFF_2_Hub_UKandNL_w')=0.007914725;                           
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','NL3_OFF_2_Hub_UKandNL_e')=0.007917633;                             
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','31_DE_OFF_2_Hub_NorWin')=0.005064006;                              
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','31_DE_OFF_2_Hub_WeiWin')=0.00690327;                               
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','93_UK_OFF_2_Hub_HornSea_w')=0.00486399;                            
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','93_UK_OFF_2_Hub_HornSea_e')=0.004664013;                           
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','93_UK_OFF_2_Hub_DoggerBank_w')=0.002026102;                        
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','NSY_OFF_2_Hub_NO_w')=0.004392516;                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','NSY_OFF_2_Hub_NO_c')=0.00668388;                                   
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','NSY_OFF_2_Hub_NO_e')=0.008313122;                                  
+XLOSS('93_UK_OFF_2_Hub_DoggerBank_e','DK_w_OFF_2_Hub_DK_hub')=0.008973729;                               
+XLOSS('NSY_OFF_2_Hub_NO_w','31_DE_OFF_2_Hub_BorWin')=0.008524217;                                        
+XLOSS('NSY_OFF_2_Hub_NO_w','31_DE_OFF_2_Hub_HelWin')=0.010063889;                                        
+XLOSS('NSY_OFF_2_Hub_NO_w','31_DE_OFF_2_Hub_SylWin')=0.00802549;                                         
+XLOSS('NSY_OFF_2_Hub_NO_w','31_DE_OFF_2_Hub_DolWin')=0.009879886;                                        
+XLOSS('NSY_OFF_2_Hub_NO_w','90_UK_OFF_2_Hub_UKandNL_w')=0.012045912;                                     
+XLOSS('NSY_OFF_2_Hub_NO_w','NL3_OFF_2_Hub_UKandNL_e')=0.011695062;                                       
+XLOSS('NSY_OFF_2_Hub_NO_w','31_DE_OFF_2_Hub_NorWin')=0.005916104;                                        
+XLOSS('NSY_OFF_2_Hub_NO_w','31_DE_OFF_2_Hub_WeiWin')=0.007408797;                                        
+XLOSS('NSY_OFF_2_Hub_NO_w','93_UK_OFF_2_Hub_HornSea_w')=0.009240391;                                     
+XLOSS('NSY_OFF_2_Hub_NO_w','93_UK_OFF_2_Hub_HornSea_e')=0.009006567;                                     
+XLOSS('NSY_OFF_2_Hub_NO_w','93_UK_OFF_2_Hub_DoggerBank_w')=0.006109456;                                  
+XLOSS('NSY_OFF_2_Hub_NO_w','93_UK_OFF_2_Hub_DoggerBank_e')=0.004392516;                                  
+XLOSS('NSY_OFF_2_Hub_NO_w','NSY_OFF_2_Hub_NO_c')=0.002723923;                                            
+XLOSS('NSY_OFF_2_Hub_NO_w','NSY_OFF_2_Hub_NO_e')=0.004494529;                                            
+XLOSS('NSY_OFF_2_Hub_NO_w','DK_w_OFF_2_Hub_DK_hub')=0.00735883;                                          
+XLOSS('NSY_OFF_2_Hub_NO_c','31_DE_OFF_2_Hub_BorWin')=0.00834268;                                         
+XLOSS('NSY_OFF_2_Hub_NO_c','31_DE_OFF_2_Hub_HelWin')=0.009145759;                                        
+XLOSS('NSY_OFF_2_Hub_NO_c','31_DE_OFF_2_Hub_SylWin')=0.006916701;                                        
+XLOSS('NSY_OFF_2_Hub_NO_c','31_DE_OFF_2_Hub_DolWin')=0.009677455;                                        
+XLOSS('NSY_OFF_2_Hub_NO_c','90_UK_OFF_2_Hub_UKandNL_w')=0.013710087;                                     
+XLOSS('NSY_OFF_2_Hub_NO_c','NL3_OFF_2_Hub_UKandNL_e')=0.013041686;                                       
+XLOSS('NSY_OFF_2_Hub_NO_c','31_DE_OFF_2_Hub_NorWin')=0.006162832;                                        
+XLOSS('NSY_OFF_2_Hub_NO_c','31_DE_OFF_2_Hub_WeiWin')=0.007091864;                                        
+XLOSS('NSY_OFF_2_Hub_NO_c','93_UK_OFF_2_Hub_HornSea_w')=0.011514263;                                     
+XLOSS('NSY_OFF_2_Hub_NO_c','93_UK_OFF_2_Hub_HornSea_e')=0.011029125;                                     
+XLOSS('NSY_OFF_2_Hub_NO_c','93_UK_OFF_2_Hub_DoggerBank_w')=0.00858663;                                   
+XLOSS('NSY_OFF_2_Hub_NO_c','93_UK_OFF_2_Hub_DoggerBank_e')=0.00668388;                                   
+XLOSS('NSY_OFF_2_Hub_NO_c','NSY_OFF_2_Hub_NO_w')=0.002723923;                                            
+XLOSS('NSY_OFF_2_Hub_NO_c','NSY_OFF_2_Hub_NO_e')=0.001770608;                                            
+XLOSS('NSY_OFF_2_Hub_NO_c','DK_w_OFF_2_Hub_DK_hub')=0.005651446;                                         
+XLOSS('NSY_OFF_2_Hub_NO_e','31_DE_OFF_2_Hub_BorWin')=0.008689206;                                        
+XLOSS('NSY_OFF_2_Hub_NO_e','31_DE_OFF_2_Hub_HelWin')=0.008948035;                                        
+XLOSS('NSY_OFF_2_Hub_NO_e','31_DE_OFF_2_Hub_SylWin')=0.006706499;                                        
+XLOSS('NSY_OFF_2_Hub_NO_e','31_DE_OFF_2_Hub_DolWin')=0.009947884;                                        
+XLOSS('NSY_OFF_2_Hub_NO_e','90_UK_OFF_2_Hub_UKandNL_w')=0.014956752;                                     
+XLOSS('NSY_OFF_2_Hub_NO_e','NL3_OFF_2_Hub_UKandNL_e')=0.014128344;                                       
+XLOSS('NSY_OFF_2_Hub_NO_e','31_DE_OFF_2_Hub_NorWin')=0.006915953;                                        
+XLOSS('NSY_OFF_2_Hub_NO_e','31_DE_OFF_2_Hub_WeiWin')=0.007430337;                                        
+XLOSS('NSY_OFF_2_Hub_NO_e','93_UK_OFF_2_Hub_HornSea_w')=0.013083165;                                     
+XLOSS('NSY_OFF_2_Hub_NO_e','93_UK_OFF_2_Hub_HornSea_e')=0.012485544;                                     
+XLOSS('NSY_OFF_2_Hub_NO_e','93_UK_OFF_2_Hub_DoggerBank_w')=0.010263014;                                  
+XLOSS('NSY_OFF_2_Hub_NO_e','93_UK_OFF_2_Hub_DoggerBank_e')=0.008313122;                                  
+XLOSS('NSY_OFF_2_Hub_NO_e','NSY_OFF_2_Hub_NO_w')=0.004494529;                                            
+XLOSS('NSY_OFF_2_Hub_NO_e','NSY_OFF_2_Hub_NO_c')=0.001770608;                                            
+XLOSS('NSY_OFF_2_Hub_NO_e','DK_w_OFF_2_Hub_DK_hub')=0.005041789;                                         
+XLOSS('DK_w_OFF_2_Hub_DK_hub','31_DE_OFF_2_Hub_BorWin')=0.004853712;                                     
+XLOSS('DK_w_OFF_2_Hub_DK_hub','31_DE_OFF_2_Hub_HelWin')=0.00408205;                                      
+XLOSS('DK_w_OFF_2_Hub_DK_hub','31_DE_OFF_2_Hub_SylWin')=0.002036516;                                     
+XLOSS('DK_w_OFF_2_Hub_DK_hub','31_DE_OFF_2_Hub_DolWin')=0.005771415;                                     
+XLOSS('DK_w_OFF_2_Hub_DK_hub','90_UK_OFF_2_Hub_UKandNL_w')=0.013018486;                                  
+XLOSS('DK_w_OFF_2_Hub_DK_hub','NL3_OFF_2_Hub_UKandNL_e')=0.011690009;                                    
+XLOSS('DK_w_OFF_2_Hub_DK_hub','31_DE_OFF_2_Hub_NorWin')=0.004711267;                                     
+XLOSS('DK_w_OFF_2_Hub_DK_hub','31_DE_OFF_2_Hub_WeiWin')=0.003864282;                                     
+XLOSS('DK_w_OFF_2_Hub_DK_hub','93_UK_OFF_2_Hub_HornSea_w')=0.012758351;                                  
+XLOSS('DK_w_OFF_2_Hub_DK_hub','93_UK_OFF_2_Hub_HornSea_e')=0.011637889;                                  
+XLOSS('DK_w_OFF_2_Hub_DK_hub','93_UK_OFF_2_Hub_DoggerBank_w')=0.010934894;                               
+XLOSS('DK_w_OFF_2_Hub_DK_hub','93_UK_OFF_2_Hub_DoggerBank_e')=0.008973729;                               
+XLOSS('DK_w_OFF_2_Hub_DK_hub','NSY_OFF_2_Hub_NO_w')=0.00735883;                                          
+XLOSS('DK_w_OFF_2_Hub_DK_hub','NSY_OFF_2_Hub_NO_c')=0.005651446;                                         
+XLOSS('DK_w_OFF_2_Hub_DK_hub','NSY_OFF_2_Hub_NO_e')=0.005041789;                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
+                                                                                                         
