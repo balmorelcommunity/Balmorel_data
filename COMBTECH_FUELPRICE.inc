@@ -28,28 +28,28 @@ TABLE FUELPRICE3(YYY,RRR,FFF)  'Fuel prices of hydrogen fuels (Money/GJ)'
 2015.SE4                                                                                                                                                           0         0
 2015.EE                                                                                                                                                            0         0
 * FUTURE PRICE DEVELOPMENT - SAME PRICE FOR ALL AREAS
-*                                                                                                                                                                  BIOGAS_UP THERMGAS_UP  BIONG
-2016.DK1                                                                                                                                                           19.9      36.3         18.0
-2017.DK1                                                                                                                                                           19.9      36.3         18.0
-2018.DK1                                                                                                                                                           19.9      36.3         18.0
-2019.DK1                                                                                                                                                           19.9      36.3         18.0
-2020.DK1                                                                                                                                                           17.5      22.18        18.0
-2021.DK1                                                                                                                                                           17.5      22.18        17.6
-2022.DK1                                                                                                                                                           17.5      22.18        17.2
-2023.DK1                                                                                                                                                           17.5      22.18        16.8
-2024.DK1                                                                                                                                                           17.5      22.18        16.4
-2025.DK1                                                                                                                                                           17.5      22.18        16.0
-2026.DK1                                                                                                                                                           17.5      22.18        15.8
-2027.DK1                                                                                                                                                           17.5      22.18        15.6
-2028.DK1                                                                                                                                                           17.5      22.18        15.4
-2029.DK1                                                                                                                                                           17.5      22.18        15.2
-2030.DK1                                                                                                                                                           16.1      18.8         15.0
-2035.DK1                                                                                                                                                           16.1      18.8         14.25
-2040.DK1                                                                                                                                                           16.1      18.8         13.5
-2045.DK1                                                                                                                                                           16.1      18.8         12.75
-2050.DK1                                                                                                                                                           15.2      17.1         12.0
+*                                                                                                                                                                  BIOGAS_UP THERMGAS_UP
+2016.DK1                                                                                                                                                           19.9      36.3
+2017.DK1                                                                                                                                                           19.9      36.3
+2018.DK1                                                                                                                                                           19.9      36.3
+2019.DK1                                                                                                                                                           19.9      36.3
+2020.DK1                                                                                                                                                           17.5      22.18
+2021.DK1                                                                                                                                                           17.5      22.18
+2022.DK1                                                                                                                                                           17.5      22.18
+2023.DK1                                                                                                                                                           17.5      22.18
+2024.DK1                                                                                                                                                           17.5      22.18
+2025.DK1                                                                                                                                                           17.5      22.18
+2026.DK1                                                                                                                                                           17.5      22.18
+2027.DK1                                                                                                                                                           17.5      22.18
+2028.DK1                                                                                                                                                           17.5      22.18
+2029.DK1                                                                                                                                                           17.5      22.18
+2030.DK1                                                                                                                                                           16.1      18.8
+2035.DK1                                                                                                                                                           16.1      18.8
+2040.DK1                                                                                                                                                           16.1      18.8
+2045.DK1                                                                                                                                                           16.1      18.8
+2050.DK1                                                                                                                                                           15.2      17.1
 ;
-FUELPRICE3(YYY,RRR,'BIOGAS_UP')=11.859;
+
 PARAMETER FUELPRICE(YYY,AAA,FFF);
 FUELPRICE(YYY,AAA,FFF)$(SUM(RRR, FUELPRICE3(YYY,RRR,FFF)*RRRAAA(RRR,AAA)) NE 0) = SUM(RRR, FUELPRICE3(YYY,RRR,FFF)*RRRAAA(RRR,AAA));
 
@@ -57,3 +57,9 @@ FUELPRICE(YYY,AAA,FFF)$(SUM(RRR, FUELPRICE3(YYY,RRR,FFF)*RRRAAA(RRR,AAA)) NE 0) 
 * the values for  'DK1_large'  are used for all A:
 FUELPRICE('2015',AAA,FFF)$(FUELPRICE('2015',AAA,FFF) EQ 0)=FUELPRICE('2015','DK1_large',FFF);
 FUELPRICE(YYY,AAA,FFF)$((YYY.val > 2014) and (FUELPRICE(YYY,AAA,FFF) EQ 0))=FUELPRICE(YYY,'DK1_large',FFF);
+
+*Imported P2G from north Africa and middel East solar farm  !! Nordic and Baltic sea offshore wind
+FUELPRICE(YYY,AAA,'CLEANGAS')$((YYY.val > 2019) AND (YYY.val < 2030))=  47.22; !!69.44;
+FUELPRICE(YYY,AAA,'CLEANGAS')$((YYY.val > 2029) AND (YYY.val < 2040))=  38.89; !!52.78;
+FUELPRICE(YYY,AAA,'CLEANGAS')$((YYY.val > 2039) AND (YYY.val < 2050))=  33.33; !!44.44;
+FUELPRICE(YYY,AAA,'CLEANGAS')$(YYY.val > 2049)=  27.78; !!36.11;

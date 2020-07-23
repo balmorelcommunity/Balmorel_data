@@ -7,5 +7,5 @@ TABLE FDATA(FFF,FDATASET)   'Fuel specific values'
 *                                                                                                           Units       kg/GJ kg/GJ kg/GJ
 BIOGAS_UP                                                                                                   BIOGAS_UP   0     0.025 0.004
 THERMGAS_UP                                                                                                 THERMGAS_UP 0     0.025 0.004
-BIONG                                                                                                       BIONG       0     0.025 0.004   
+CLEANGAS                                                                                                    CLEANGAS    0     0.025 0.004
 ;
