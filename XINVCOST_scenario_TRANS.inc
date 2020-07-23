@@ -48,7 +48,33 @@ $label  bb4invcost
 
 TABLE XINVCOST(YYY,IRRRE,IRRRI)  'Investment cost in new transmission capacity (Money/MW)'
 
-              DK2              DK1     SE1             SE2    SE3    SE4    NO4    NO3    NO5    NO1    NO2     FIN    DE4-S  DE4-E  DE4-N   DE4-W  UK      EE     LV     LT     PL     NL     FR     BE
+              DK2              DK1     SE1             SE2    SE3    SE4    NO4    NO3    NO5    NO1    NO2     FIN    DE4-S  DE4-E  DE4-N   DE4-W  UK      EE     LV     LT     PL     NL      FR     BE
+2050.DK2                       509574                                421379                                                          568371
+2050.DK1      509574                                          774161                                    695800                       568371         1195600                             842800
+2050.SE1                                               568371               489975                              568371
+2050.SE2                               568371                 568371        538973 568371
+2050.SE3                       774161                  568371        568371                      568371         793760                                      999600 999600
+2050.SE4      421379                                          568371                                                                 725163                               989800 862400
+2050.NO4                               489975          538973                      568371                       568371
+2050.NO3                                               568371               568371        509574 568371
+2050.NO5                                                                           509574        519374 489975
+2050.NO1                                                      568371               568371 519374        509574
+2050.NO2                       695800                                                     489975 509574                              1185800        1215200                             1185800
+2050.FIN                               568371                 793760        568371                                                                          676200
+2050.DE4-S                                                                                                                    568371         568371                                     568371  568400 539000
+2050.DE4-E                                                                                                             568371        568371  568371                              568371
+2050.DE4-N    568371           568371                                725163                             1185800               568371         568371
+2050.DE4-W                                                                                                             568371 568371 568371
+2050.UK                        1195600                                                                  1215200                                                                         872200  735000 401800
+2050.EE                                                       999600                                            676200                                             450800
+2050.LV                                                       999600                                                                                        450800        450800
+2050.LT                                                              989800                                                                                        450800        568371
+2050.PL                                                              862400                                                   568371                                      568371
+2050.NL                        842800                                                                   1185800        568371                       872200                                             450800
+2050.FR                                                                                                                568400                       735000                                             568400
+2050.BE                                                                                                                539000                       401800                              450800  568400
+
+*             DK2              DK1     SE1             SE2    SE3    SE4    NO4    NO3    NO5    NO1    NO2     FIN    DE4-S  DE4-E  DE4-N   DE4-W  UK      EE     LV     LT     PL     NL      FR     BE
 2016.DK2                       509574
 2016.DK1      509574
 2016.SE1                                               568371
@@ -59,7 +85,7 @@ TABLE XINVCOST(YYY,IRRRE,IRRRI)  'Investment cost in new transmission capacity (
 2016.NO3                                                                    568371        509574 568371
 2016.NO5                                                                           509574        519374 489975
 2016.NO1                                                                           568371 519374        509574
-2016.NO2                                                                                  489975 509574                              
+2016.NO2                                                                                  489975 509574
 2016.FIN
 2016.DE4-S                                                                                                                    568371         568371
 2016.DE4-E                                                                                                             568371        568371  568371
@@ -73,7 +99,9 @@ TABLE XINVCOST(YYY,IRRRE,IRRRI)  'Investment cost in new transmission capacity (
 2016.NL
 2016.FR
 2016.BE
+
 ;
-XINVCOST(YYY,IRRRE,IRRRI)=XINVCOST('2016',IRRRE,IRRRI);
+XINVCOST(YYY,IRRRE,IRRRI)$(YVALUE(YYY) LT 2050)=XINVCOST('2016',IRRRE,IRRRI);
+XINVCOST('2040',IRRRE,IRRRI)=XINVCOST('2050',IRRRE,IRRRI);
 
 $label  endxinvcost

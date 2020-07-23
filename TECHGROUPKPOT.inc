@@ -1,29 +1,30 @@
-TABLE TECHGROUPKPOT(CCCRRRAAA,TECH_GROUP)       'Technology group capacity restriction by geography (MW)'
-                                                                                                          SOLARPV          WINDTURBINE_ONSHORE WINDTURBINE_OFFSHORE_FAR WINDTURBINE_OFFSHORE_NEARSHORE
-DK1                                                                                                       5400             6480                23400                    600
-DK2                                                                                                       3600             1520                4750                     540
-FIN                                                                                                                        15000                                        500
-DE4-E                                                                                                     28691.8755999579 25000               11631.2                  500
-DE4-N                                                                                                     32247.43162141   15906               31397                    500
-DE4-S                                                                                                     102941.761953601 50777                                        eps
-DE4-W                                                                                                     36118.9308250315 25000                                        eps
-NL                                                                                                                         10300               25655.4                  300
-NO1                                                                                                                        701                                          500
-NO2                                                                                                                        2793                                         500
-NO3                                                                                                                        5412                                         500
-NO4                                                                                                                        4857                                         500
-NO5                                                                                                                        238                 11510                    500
-SE1                                                                                                                        6437                                         500
-SE2                                                                                                                        12589                                        500
-SE3                                                                                                                        9887                                         500
-SE4                                                                                                                        6087                6000                     500
-UK                                                                                                        69000            38354               48864.6                  4808
-EE                                                                                                                         18388                                        500
-LV                                                                                                                         23347                                        500
-LT                                                                                                                         21368                                        500
-PL                                                                                                                         89030                                        500
-FR                                                                                                                         101227              20000                    500
-BE                                                                                                                         8968                53300                    500
+TABLE TECHGROUPKPOT(CCCRRRAAA,TECH_GROUP)                                                                                                                  'Technologygroupcapacityrestrictionbygeography(MW)'
+*MW                                       ENSPRESO-REF total offshore                                ENSPRESO-REF total onshore   EU-Wide low restrictions Water depth 0-100m                                  12nm zone, water depth 0-30m   total onshore
+      SOLARPV                             WINDTURBINE_OFFSHORE_FAR    WINDTURBINE_OFFSHORE_NEARSHORE WINDTURBINE_ONSHORE          /*                       WINDTURBINE_OFFSHORE_FAR                            WINDTURBINE_OFFSHORE_NEARSHORE WINDTURBINE_ONSHORE                                        */
+BE                                        1850                        eps                            18467                        /*                       3700                                                1541                           24120.09091         own assumption farshore*2              */
+DE4-E 32422                                                           eps                            71022                        /*                       21682.0260201449                                    12697.5                        184685.970587                                              */
+DE4-N 36440                               27840                       eps                            34465                        /*                       58527.9739798551                                    12697.5                        111595                                                     */
+DE4-S 116324                                                          eps                            16081                        /*                                                                           eps                            104026.825069                                              */
+DE4-W 40814                                                           eps                            22497                        /*                                                                           eps                            62213.138456                                               */
+DK1   5400                                23400                       eps                            45800                        /*                       107062.273534636                                    44715.04                       68130                                                      */
+DK2   3600                                4750                        eps                            8870                         /*                       21732.7264653641                                    39652.96                       14875                                                      */
+EE                                        1280                        eps                            27280                        /*                       14675                                               17604                          45905                                                      */
+FIN                                       21265                       eps                            31260                        /*                       110430                                              96222                          58655                                                      */
+FR                                        15645                       eps                            906395                       /*                       132000                                              98086                          1051158.286416                                             */
+LT                                        2940                        eps                            128310                       /*                       14770                                               4296                           142380                                                     */
+LV                                        14970                       eps                            79455                        /*                       52615                                               25568                          84960                                                      */
+NL    70000                               47745                       eps                            48865                        /*                       86870                                               9886                           48880                                                      */
+NO1                                                                   eps                            1402                         /*                                                                           19299.8                        1682                own assumption onshore*1.2, nearshore like UK    */
+NO2                                                                   eps                            5586                         /*                                                                           19299.8                        6703                own assumption onshore*1.2  nearshore like UK    */
+NO3                                                                   eps                            10824                        /*                                                                           19299.8                        12989               own assumption onshore*1.2  nearshore like UK    */
+NO4                                                                   eps                            9714                         /*                                                                           19299.8                        11657               own assumption onshore*1.2  nearshore like UK    */
+NO5                                       11510                       eps                            476                          /*                       23020                                               19299.8                        571                 own assumption onshore*1.2, farshore*2 */
+PL                                        12310                       eps                            105306                       /*                       79525                                               25666                          523121.910845                                              */
+SE1                                                                   eps                            56050                        /*                                                                           13359.15                       62055                                                      */
+SE2                                                                   eps                            29365                        /*                                                                           26718.3                        33860                                                      */
+SE3                                                                   eps                            46300                        /*                                                                           26718.3                        84830.000001                                               */
+SE4                                       31035                       eps                            6025                         /*                       193930                                              22265.25                       17065                                                      */
+UK    69000                               103605                      eps                            230005                       /*                       643330                                              96499                          436389.999998                                              */
 
 
 
@@ -36,16 +37,3 @@ BE                                                                              
 
 
 ;
-
-
-
-
-
-
-
-
-
-
-
-
-

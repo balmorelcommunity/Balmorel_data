@@ -49,9 +49,9 @@ TABLE M_POL(YYY,MPOLSET,CCC)  'Emission policy data'
 *Convert 2015 euros to 2012 euros
 M_POL(YYY,MPOLSET,CCC)=M_POL(YYY,MPOLSET,CCC)*0.98;
 
-M_POL(YYY,                                           'TAX_CO2',      C               )=M_POL(YYY,    'TAX_CO2',     'DENMARK'      );
-
-*M_POL('2030',                                           'TAX_CO2',      C               )=30/1.022;
+M_POL(YYY,       'TAX_CO2',      C )=M_POL(YYY,    'TAX_CO2',     'DENMARK'      );
+M_POL(YYY,       'TAX_CO2',      C )=0;
+M_POL('2020',   'TAX_CO2',      C  )=22.0*0.98/1.022;
 *divided by OMONEY
 
 
