@@ -72,33 +72,23 @@ IDVHG_WTRTANK_WTRONLY_2040_OFH                                          GHSTO  H
 IDVHG_WTRTANK_WTRONLY_2050_OFH                                          GHSTO  HEAT             1                                                0.41               16.6666666666667  0.0012           2050       30         1          2050       0.15       0.15       0.021     !!loss is ratio of the storage content per hour
 
 $ifi not %combtech%==yes $goto endcombtech
-IDVHG_GB_2010_OFH_BIONG                                                 GHOB   BIONG            0.969315794621871 2     20               0       0.32               20.945            0                2010       20         1          2019
-IDVHG_GB_2020_OFH_BIONG                                                 GHOB   BIONG            0.969315794621871 1     10               0       0.312079600999     20.4709750624375  0                2020       20         1          2029
-IDVHG_GB_2030_OFH_BIONG                                                 GHOB   BIONG            0.979315794621871 0.5   5                0       0.296822070021865  19.8643793763666  0                2030       20         1          2039
-IDVHG_GB_2040_OFH_BIONG                                                 GHOB   BIONG            0.984315794621871 0.375 4                0       0.282665212670225  18.9665757918891  0                2040       20         1          2049
-IDVHG_GB_2050_OFH_BIONG                                                 GHOB   BIONG            0.989315794621871 0.25  3                0       0.268508355318586  18.0687722074116  0                2050       20         1          2050
+IDVHG_GB_2010_OFH_CLEANGAS                                              GHOB   CLEANGAS         0.969315794621871 2     20               0       0.32               20.945            0                2010       20         1          2019
+IDVHG_GB_2020_OFH_CLEANGAS                                              GHOB   CLEANGAS         0.969315794621871 1     10               0       0.312079600999     20.4709750624375  0                2020       20         1          2029
+IDVHG_GB_2030_OFH_CLEANGAS                                              GHOB   CLEANGAS         0.979315794621871 0.5   5                0       0.296822070021865  19.8643793763666  0                2030       20         1          2039
+IDVHG_GB_2040_OFH_CLEANGAS                                              GHOB   CLEANGAS         0.984315794621871 0.375 4                0       0.282665212670225  18.9665757918891  0                2040       20         1          2049
+IDVHG_GB_2050_OFH_CLEANGAS                                              GHOB   CLEANGAS         0.989315794621871 0.25  3                0       0.268508355318586  18.0687722074116  0                2050       20         1          2050
 *
-IDVHG_AbGHPA2W_2010_OFH_BIONG                                           GHOB   BIONG            1.35              2     15               0       0.722222222222222  13.0555555555556  0                2010       20         1          2019
-IDVHG_AbGHPA2W_2020_OFH_BIONG                                           GHOB   BIONG            1.45              1     10               0       0.407333333333333  7.83333333333333  0                2020       20         1          2029
-IDVHG_AbGHPA2W_2030_OFH_BIONG                                           GHOB   BIONG            1.7               0.5   5                0       0.3666             7.83333333333333  0                2030       20         1          2039
-IDVHG_AbGHPA2W_2040_OFH_BIONG                                           GHOB   BIONG            1.7               0.5   5                0       0.34827            7.83333333333333  0                2040       20         1          2049
-IDVHG_AbGHPA2W_2050_OFH_BIONG                                           GHOB   BIONG            1.7               0.5   5                0       0.32994            7.83333333333333  0                2050       20         1          2050
-IDVHG_AbGHPB2W_2010_OFH_BIONG                                           GHOB   BIONG            1.35              2     15               0       0.866666666666667  13.0555555555556  0                2010       20         1          2019
-IDVHG_AbGHPB2W_2020_OFH_BIONG                                           GHOB   BIONG            1.45              1     10               0       0.49               7.83333333333333  0                2020       20         1          2029
-IDVHG_AbGHPB2W_2030_OFH_BIONG                                           GHOB   BIONG            1.7               0.5   5                0       0.44               7.83333333333333  0                2030       20         1          2039
-IDVHG_AbGHPB2W_2040_OFH_BIONG                                           GHOB   BIONG            1.7               0.5   5                0       0.418333333333333  7.83333333333333  0                2040       20         1          2049
-IDVHG_AbGHPB2W_2050_OFH_BIONG                                           GHOB   BIONG            1.7               0.5   5                0       0.396666666666667  7.83333333333333  0                2050       20         1          2050
-IDVHG_AdGHPB2W_2010_OFH_BIONG                                           GHOB   BIONG            1.35              2     20               0       1.4                23.5              0                2010       20         1          2019
-IDVHG_AdGHPB2W_2020_OFH_BIONG                                           GHOB   BIONG            1.35              1     10               0       1.316              23.5              0                2020       20         1          2029
-IDVHG_AdGHPB2W_2030_OFH_BIONG                                           GHOB   BIONG            1.35              0.5   5                0       1.1844             23.5              0                2030       20         1          2039
-IDVHG_AdGHPB2W_2040_OFH_BIONG                                           GHOB   BIONG            1.35              0.5   5                0       1.12518            23.5              0                2040       20         1          2049
-IDVHG_AdGHPB2W_2050_OFH_BIONG                                           GHOB   BIONG            1.35              0.5   5                0       1.06596            23.5              0                2050       20         1          2050
-*
-IDVHG_GB_2010_APART_BIONG                                               GHOB   BIONG            1.01              2     20               0       0.0649125666033091 1.75022199155579  0                2010       25         1          2019
-IDVHG_GB_2020_APART_BIONG                                               GHOB   BIONG            1.01              1     10               0       0.0633058996418179 1.71440640482348  0                2020       25         1          2029
-IDVHG_GB_2030_APART_BIONG                                               GHOB   BIONG            1.02              0.5   5                0       0.0602108824675825 1.66611814102764  0                2030       25         1          2039
-IDVHG_GB_2040_APART_BIONG                                               GHOB   BIONG            1.02              0.375 4                0       0.0573391388871704 1.62620354516561  0                2040       25         1          2049
-IDVHG_GB_2050_APART_BIONG                                               GHOB   BIONG            1.02              0.25  3                0       0.0544673953067584 1.58628894930359  0                2050       25         1          2050
+IDVHG_GB_2010_OFH_BIOGAS_UP                                             GHOB   BIOGAS_UP        0.969315794621871 2     20               0       0.32               20.945            0                2010       20         1          2019
+IDVHG_GB_2020_OFH_BIOGAS_UP                                             GHOB   BIOGAS_UP        0.969315794621871 1     10               0       0.312079600999     20.4709750624375  0                2020       20         1          2029
+IDVHG_GB_2030_OFH_BIOGAS_UP                                             GHOB   BIOGAS_UP        0.979315794621871 0.5   5                0       0.296822070021865  19.8643793763666  0                2030       20         1          2039
+IDVHG_GB_2040_OFH_BIOGAS_UP                                             GHOB   BIOGAS_UP        0.984315794621871 0.375 4                0       0.282665212670225  18.9665757918891  0                2040       20         1          2049
+IDVHG_GB_2050_OFH_BIOGAS_UP                                             GHOB   BIOGAS_UP        0.989315794621871 0.25  3                0       0.268508355318586  18.0687722074116  0                2050       20         1          2050
+
+IDVHG_GB_2010_APART_CLEANGAS                                            GHOB   CLEANGAS         1.01              2     20               0       0.0649125666033091 1.75022199155579  0                2010       25         1          2019
+IDVHG_GB_2020_APART_CLEANGAS                                            GHOB   CLEANGAS         1.01              1     10               0       0.0633058996418179 1.71440640482348  0                2020       25         1          2029
+IDVHG_GB_2030_APART_CLEANGAS                                            GHOB   CLEANGAS         1.02              0.5   5                0       0.0602108824675825 1.66611814102764  0                2030       25         1          2039
+IDVHG_GB_2040_APART_CLEANGAS                                            GHOB   CLEANGAS         1.02              0.375 4                0       0.0573391388871704 1.62620354516561  0                2040       25         1          2049
+IDVHG_GB_2050_APART_CLEANGAS                                            GHOB   CLEANGAS         1.02              0.25  3                0       0.0544673953067584 1.58628894930359  0                2050       25         1          2050
 $label endcombtech
 
 $ifi not %indheat_geo%==indheat_dk $goto endindheat_dk
@@ -160,5 +150,10 @@ $label endindheat_dk
 $ifi not %COMBTECH%==yes $goto endcombtech2
 INDHEAT_GDATA(INDHEAT_GGG,'GDCOMB')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=IDVH_NATGAS)=1;
 INDHEAT_GDATA(INDHEAT_GGG,'GDCOMBGUP')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=IDVH_NATGAS)=1;
-INDHEAT_GDATA(INDHEAT_GGG,'GDCOMB')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=BIONG)=2;
+INDHEAT_GDATA(INDHEAT_GGG,'GDCOMB')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=CLEANGAS)=2;
+INDHEAT_GDATA(INDHEAT_GGG,'GDCOMB')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=BIOGAS_UP)=2;
 $label endcombtech2
+
+INDHEAT_GDATA(INDHEAT_GGG,'GDINVCOST0')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=HEAT)=0;
+INDHEAT_GDATA(INDHEAT_GGG,'GDOMFCOST0')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=HEAT)=0;
+INDHEAT_GDATA(INDHEAT_GGG,'GDOMVCOST0')$(INDHEAT_GDATA(INDHEAT_GGG,'GDFUEL')=HEAT)=0;

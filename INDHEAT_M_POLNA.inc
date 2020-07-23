@@ -4,12 +4,13 @@
 $ifi not %indheat_geo%==indheat_eu $goto endindheat_eu
 
 
-TABLE INDHEAT_M_POLNA(YYY,MPOLSET,SECTOR) 'Emission policy data in all countries by sector.'
+TABLE INDHEAT_M_POLNA(YYY,MPOLSET) 'Emission policy data in all countries by sector.'
 
-                                                                                                                                          RES
-2020.LIM_CO2
-2030.LIM_CO2
-2040.LIM_CO2
-2050.LIM_CO2
+      LIM_CO2
+2020
+2030
+2040
+2050
 ;
+
 $label endindheat_eu
