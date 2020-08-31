@@ -25,9 +25,9 @@ PL                                                                              
 FR                                                                                                        54000                   
 BE                                                                                                        11772                   
                                                                                                                                   
-*Socially accepted potentials (activated by default)                                                                              
+*National potentials (not activated by default)                                                                                   
 +                                                                                                         WINDTURBINE_ONSHORE     
-*$ontext                                                                                                                          
+$ontext                                                                                                                           
 NORWAY                                                                                                    14000                   
 DENMARK                                                                                                   6200                    
 FINLAND                                                                                                   15000                   
@@ -43,5 +43,5 @@ BELGIUM                                                                         
 FRANCE                                                                                                    101200                  
                                                                                                                                   
 DE4-S                                                                                                     7444                    
-*$offtext                                                                                                                         
+$offtext                                                                                                                          
 ;                                                                                                                                 
