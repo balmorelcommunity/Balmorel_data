@@ -1,28 +1,28 @@
-TABLE SUBTECHGROUPKPOT(CCCRRRAAA,TECH_GROUP,SUBTECH_GROUP)       'SubTechnology group capacity restriction by geography (MW)'                                                            
-                                                                                                                              WINDTURBINE_OFFSHORE.HUB_OFF                               
-31_DE_OFF_2_Hub_BorWin                                                                                                        7010.8                                                     
-93_UK_OFF_2_Hub_DoggerBank_e                                                                                                  4800                                                       
-93_UK_OFF_2_Hub_DoggerBank_w                                                                                                  4800                                                       
-31_DE_OFF_2_Hub_DolWin                                                                                                        2756.2                                                     
-31_DE_OFF_2_Hub_HelWin                                                                                                        1077                                                       
-93_UK_OFF_2_Hub_HornSea_e                                                                                                     2400                                                       
-93_UK_OFF_2_Hub_HornSea_w                                                                                                     2800                                                       
-NSY_OFF_2_Hub_NO_c                                                                                                            2000                                                       
-NSY_OFF_2_Hub_NO_e                                                                                                            2000                                                       
-NSY_OFF_2_Hub_NO_w                                                                                                            2000                                                       
-31_DE_OFF_2_Hub_NorWin                                                                                                        11257                                                      
-31_DE_OFF_2_Hub_SylWin                                                                                                        1264                                                       
-NL3_OFF_2_Hub_UKandNL_e                                                                                                       8700                                                       
-90_UK_OFF_2_Hub_UKandNL_w                                                                                                     4800                                                       
-31_DE_OFF_2_Hub_WeiWin                                                                                                        8556                                                       
-DK_w_OFF_2_Hub_DK_hub                                                                                                         2000                                                       
-                                                                                                                                                                                         
-;                                                                                                                                                                                        
-                                                                                                                                                                                         
-*Lines when simplified set is used                                                                                                                                                       
-SUBTECHGROUPKPOT(CCCRRRAAA,'WINDTURBINE_OFFSHORE','HUB_OFF')=0;                                                                                                                          
-                                                                                                                                                                                         
-                                                                                                                                                                                         
-                                                                                                                                                                                         
-                                                                                                                                                                                         
-                                                                                                                                                                                         
+TABLE SUBTECHGROUPKPOT(CCCRRRAAA,TECH_GROUP,SUBTECH_GROUP)       'SubTechnology group capacity restriction by geography (MW)'                                                                                
+                                                                                                                              WINDTURBINE_OFFSHORE.RG1 WINDTURBINE_OFFSHORE.RG2                              
+31_DE_OFF_2_Hub_BorWin                                                                                                        20000                    80000                                                 
+93_UK_OFF_2_Hub_DoggerBank_e                                                                                                  20000                    80000                                                 
+93_UK_OFF_2_Hub_DoggerBank_w                                                                                                  20000                    80000                                                 
+31_DE_OFF_2_Hub_DolWin                                                                                                        20000                    80000                                                 
+31_DE_OFF_2_Hub_HelWin                                                                                                        20000                    80000                                                 
+93_UK_OFF_2_Hub_HornSea_e                                                                                                     20000                    80000                                                 
+93_UK_OFF_2_Hub_HornSea_w                                                                                                     20000                    80000                                                 
+NSY_OFF_2_Hub_NO_c                                                                                                            20000                    80000                                                 
+NSY_OFF_2_Hub_NO_e                                                                                                            20000                    80000                                                 
+NSY_OFF_2_Hub_NO_w                                                                                                            20000                    80000                                                 
+31_DE_OFF_2_Hub_NorWin                                                                                                        20000                    80000                                                 
+31_DE_OFF_2_Hub_SylWin                                                                                                        20000                    80000                                                 
+NL3_OFF_2_Hub_UKandNL_e                                                                                                       20000                    80000                                                 
+90_UK_OFF_2_Hub_UKandNL_w                                                                                                     20000                    80000                                                 
+31_DE_OFF_2_Hub_WeiWin                                                                                                        20000                    80000                                                 
+DK_w_OFF_2_Hub_DK_hub                                                                                                         20000                    80000                                                 
+                                                                                                                                                                                                             
+;                                                                                                                                                                                                            
+                                                                                                                                                                                                             
+*Lines when simplified set is used                                                                                                                                                                           
+SUBTECHGROUPKPOT(CCCRRRAAA,'WINDTURBINE_OFFSHORE','RG2')=0;                                                                                                                                                  
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
