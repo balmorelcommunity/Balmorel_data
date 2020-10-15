@@ -1,0 +1,3 @@
+PARAMETER GMINAT(AAA,GGG)
+/
+/;
