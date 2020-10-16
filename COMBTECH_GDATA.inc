@@ -1,6 +1,0 @@
-TABLE GDATA(GGG,GDATASET)  'Technologies characteristics'
-                                                          GDTYPE GDFUEL      GDCV  GDCB     GDFE              GDCH4 GDNOX GDDESO2 GDINVCOST0 GDOMFCOST0       GDOMVCOST0       GDFROMYEAR    GDLIFETIME    GDKVARIABL GDLASTYEAR GDMOTHBALL GDSTOHLOAD GDSTOHUNLD GDCOMB GDCOMBGUP GDCOMBGSHAREK1 GDCOMBFUP GDCOMBFSHAREK1 GDCOMBGSHARELO GDCOMBGSHAREUP GDCOMBFSHARELO GDCOMBFSHAREUP GDCOMBSK GDCOMBSLO GDCOMBSUP GDCOMBKRES GDCOMBFCAP GDLOADLOSS GDSTOLOSS GDUC GDUCUNITSIZE GDUCGMIN GDUCUCOST GDUCCOST0 GDUCF0 GDUCDCOST GDUCDTMIN GDUCUTMIN GDUCDURD GDUCDURU GDUCRAMPU GDUCRAMPD GDBYPASSC GDTECHGROUP
-GNR_BO_NGAS_E-100_CT-BGAS-UP                              GHOB   BIOGAS_UP                  1                 3     10    0                  1.96             1.078                                        0                                                      2                                                                                                                                                                                                 3.1                                                                                                                            BOILER
-;
-GDATA(GGG,'GDCOMB')$(GDATA(GGG,'GDFUEL')=NATGAS)=1;
-GDATA(GGG,'GDCOMBGUP')$(GDATA(GGG,'GDFUEL')=NATGAS)=1;

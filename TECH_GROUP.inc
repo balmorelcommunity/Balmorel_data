@@ -23,19 +23,6 @@ SOLARHEATING
 WINDTURBINE_OFFSHORE_FAR                     
 WINDTURBINE_OFFSHORE_NEARSHORE               
 WINDTURBINE_ONSHORE                          
-                                             
-IDVHG_OILB                                   
-IDVHG_GASB                                   
-IDVHG_WOODPB                                 
-IDVHG_STOV                                   
-IDVHG_ELB                                    
-IDVHG_ELHPA2A                                
-IDVHG_HPA2W                                  
-IDVHG_GBHPA2W                                
-IDVHG_SOL                                    
-IDVHG_COALB                                  
-*IDVHG_GASBSOLH                              
-*IDVHG_WOODPBSOLH                            
 /;                                           
                                              
                                              
