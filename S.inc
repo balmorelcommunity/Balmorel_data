@@ -1,11 +1,13 @@
-SET S(SSS)  'Seasons in the simulation'                                                                                                                                         
-/                                                                                                                                                                               
-*$ifi %BBMODE%==INVEST S01*S06                                                                                                                                                  
-*$ifi %BBMODE%==INVEST S04,S17,S30,S43                                                                                                                                          
-S01, S08, S14, S21, S27, S34, S40, S47                                                                                                                                          
-*$ifi %BBMODE%==INVEST S02,S06,S11,S16,S20,S25,S29,S33,S38,S42,S46,S50                                                                                                          
-*$ifi %BBMODE%==HYDRO S02,S05,S08,S11,S14,S17,S20,S23,S26,S29,S32,S35,S38,S41,S44,S47,S50                                                                                       
-$ifi %BBMODE%==HYDRO S02,S04,S06,S08,S10,S12,S14,S16,S18,S20,S22,S24,S26,S28,S30,S32,S34,S36,S38,S40,S42,S44,S46,S48,S50                                                        
-*$ifi %BBMODE%==HYDRO S01*S52                                                                                                                                                   
-$ifi %BBMODE%==BB3 S02,S04,S06,S08,S10,S12,S14,S16,S18,S20,S22,S24,S26,S28,S30,S32,S34,S36,S38,S40,S42,S44,S46,S48,S50                                                          
-/;                                                                                                                                                                              
+SET S(SSS)  'Seasons in the simulation'
+/
+
+*$ifi %BBMODE%==INVEST S01*S06
+$ifi %BBMODE%==INVEST S04,S17,S30,S43
+*S02,S09,S15,S22,S28,S35,S41,S48
+*$ifi %BBMODE%==INVEST S02,S06,S11,S16,S20,S25,S29,S33,S38,S42,S46,S50
+$ifi %BBMODE%==HYDRO S02,S06,S11,S16,S20,S25,S29,S33,S38,S42,S46,S50
+*$ifi %BBMODE%==HYDRO S02,S05,S08,S11,S14,S17,S20,S23,S26,S29,S32,S35,S38,S41,S44,S47,S50
+*$ifi %BBMODE%==HYDRO S02,S04,S06,S08,S10,S12,S14,S16,S18,S20,S22,S24,S26,S28,S30,S32,S34,S36,S38,S40,S42,S44,S46,S48,S50
+*$ifi %BBMODE%==HYDRO S01*S52
+$ifi %BBMODE%==BB3 S02,S04,S06,S08,S10,S12,S14,S16,S18,S20,S22,S24,S26,S28,S30,S32,S34,S36,S38,S40,S42,S44,S46,S48,S50
+/;
