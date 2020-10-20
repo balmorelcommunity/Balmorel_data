@@ -1,3 +1,22 @@
-PARAMETER GEQAT(AAA,GGG)
-/
-/;
+PARAMETER GEQAT(AAA,GGG)                'Technologies with limited flexibility, which requires fixed production to capacity ratio in each time step.'                                                             
+/                                                                                                                                                                                                                 
+/;                                                                                                                                                                                                                
+                                                                                                                                                                                                                  
+GEQAT(IA,G)$(ICA('GERMANY',IA)         AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                COAL      ) AND INVDATA(IA,'IND')) =  0.429400573329777 ;   
+GEQAT(IA,G)$(ICA('GERMANY',IA)         AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                LIGNITE   ) AND INVDATA(IA,'IND')) =  0.589108960767177 ;   
+GEQAT(IA,G)$(ICA('GERMANY',IA)         AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                OTHERGAS  )) =                        1                 ;   
+GEQAT(IA,G)$(ICA('GERMANY',IA)         AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                WOODWASTE )) =                        0.642123287671233 ;   
+GEQAT(IA,G)$(ICA('GERMANY',IA)         AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                MUNIWASTE )) =                        0.6364            ;   
+GEQAT(IA,G)$(ICA('GERMANY',IA)         AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                BIOGAS    )) =                        0.642123287671233 ;   
+GEQAT(IA,G)$(ICA('UNITED_KINGDOM',IA)  AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                WOODCHIPS ) AND  INVDATA(IA,'IND')) = 0.398872950819672 ;   
+GEQAT(IA,G)$(ICA('UNITED_KINGDOM',IA)  AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                WOODWASTE ) AND  INVDATA(IA,'IND')) = 0.398872950819672 ;   
+GEQAT(IA,G)$(ICA('UNITED_KINGDOM',IA)  AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                OTHERGAS  ) AND  INVDATA(IA,'IND')) = 0.72203196347032  ;   
+GEQAT(IA,G)$(ICA('UNITED_KINGDOM',IA)  AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                MUNIWASTE )) =                        0.647716894977169 ;   
+GEQAT(IA,G)$(ICA('UNITED_KINGDOM',IA)  AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                BIOGAS    )) =                        0.486643835616438 ;   
+GEQAT(IA,G)$(ICA('FRANCE',IA)          AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                WOODWASTE )) =                        0.567             ;   
+GEQAT(IA,G)$(ICA('FRANCE',IA)          AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                MUNIWASTE )) =                        0.561             ;   
+GEQAT(IA,G)$(ICA('FRANCE',IA)          AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                BIOGAS    )) =                        0.574             ;   
+GEQAT(IA,G)$(ICA('NETHERLANDS',IA)     AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                WOODCHIPS ) AND  INVDATA(IA,'IND')) = 0.4756            ;   
+GEQAT(IA,G)$(ICA('NETHERLANDS',IA)     AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                MUNIWASTE )) =                        0.5686            ;   
+GEQAT(IA,G)$(ICA('NETHERLANDS',IA)     AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                BIOGAS    )) =                        0.46              ;   
+                                                                                                                                                                                                                  

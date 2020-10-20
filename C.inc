@@ -1,18 +1,18 @@
-SET C(CCC)  'Countries in the simulation'
-/
-NORWAY
-DENMARK
-FINLAND
-SWEDEN
-ESTONIA
-LATVIA
-LITHUANIA
-UNITED_KINGDOM
-GERMANY
-POLAND
-NETHERLANDS
-FRANCE
-BELGIUM
-
- 
-/;
+SET C(CCC)  'Countries in the simulation'    
+/                                            
+NORWAY                                       
+DENMARK                                      
+FINLAND                                      
+GERMANY                                      
+NETHERLANDS                                  
+SWEDEN                                       
+UNITED_KINGDOM                               
+ESTONIA                                      
+LATVIA                                       
+LITHUANIA                                    
+POLAND                                       
+BELGIUM                                      
+FRANCE                                       
+                                             
+                                             
+/;                                           

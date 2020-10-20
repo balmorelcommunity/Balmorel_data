@@ -19,7 +19,8 @@ RG1_OFF5
 RG2_OFF5                                            
 RG3_OFF5                                            
 HUB_OFF                                             
-AIR                                                 
-EXCESSHEAT                                          
-GROUND                                              
+AIR_AIR                                             
+AIR_WTR                                             
+EXCESSHEAT_WTR                                      
+GROUND_WTR                                          
 /;                                                  

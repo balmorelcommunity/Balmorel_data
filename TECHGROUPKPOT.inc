@@ -1,51 +1,47 @@
-TABLE TECHGROUPKPOT(CCCRRRAAA,TECH_GROUP)       'Technology group capacity restriction by geography (MW)'
-                                                                                                          SOLARPV          WINDTURBINE_ONSHORE WINDTURBINE_OFFSHORE_FAR WINDTURBINE_OFFSHORE_NEARSHORE
-DK1                                                                                                       5400             6480                23400                    600
-DK2                                                                                                       3600             1520                4750                     540
-FIN                                                                                                                        15000                                        500
-DE4-E                                                                                                     28691.8755999579 25000               11631.2                  500
-DE4-N                                                                                                     32247.43162141   15906               31397                    500
-DE4-S                                                                                                     102941.761953601 50777                                        eps
-DE4-W                                                                                                     36118.9308250315 25000                                        eps
-NL                                                                                                                         10300               25655.4                  300
-NO1                                                                                                                        701                                          500
-NO2                                                                                                                        2793                                         500
-NO3                                                                                                                        5412                                         500
-NO4                                                                                                                        4857                                         500
-NO5                                                                                                                        238                 11510                    500
-SE1                                                                                                                        6437                                         500
-SE2                                                                                                                        12589                                        500
-SE3                                                                                                                        9887                                         500
-SE4                                                                                                                        6087                6000                     500
-UK                                                                                                        69000            38354               48864.6                  4808
-EE                                                                                                                         18388                                        500
-LV                                                                                                                         23347                                        500
-LT                                                                                                                         21368                                        500
-PL                                                                                                                         89030                                        500
-FR                                                                                                                         101227              20000                    500
-BE                                                                                                                         8968                53300                    500
-
-
-
-
-
-
-
-
-
-
-
-;
-
-
-
-
-
-
-
-
-
-
-
-
-
+TABLE TECHGROUPKPOT(CCCRRRAAA,TECH_GROUP)       'Technology group capacity restriction by geography (MW)'                                                                                               
+                                                                                                          RESERVOIR_PMP        !! PV techgroup removed temporary SOLARPV_RESIDENTIAL SOLARPV_COMMERCIAL 
+DK1                                                                                                       eps                  !!                                1975.771974         1521.169573        
+DK2                                                                                                       eps                  !!                                1342.144067         1033.332157        
+FIN                                                                                                       eps                  !!                                3101.85             2388.15            
+DE4-E                                                                                                     19320                !!                                7773.444784         5984.864568        
+DE4-N                                                                                                     952.8                !!                                2477.284276         1907.289664        
+DE4-S                                                                                                     17304                !!                                20392.09568         15700.10906        
+DE4-W                                                                                                     9184                 !!                                23157.25509         17829.03711        
+NL                                                                                                        eps                  !!                                9960.385            7668.615           
+NO1                                                                                                       3729                 !!                                1106.078557         851.5826055        
+NO2                                                                                                       11317                !!                                709.7506361         546.44518          
+NO3                                                                                                       4583                 !!                                500.3721726         385.2422922        
+NO4                                                                                                       5257                 !!                                394.0849533         303.4105392        
+NO5                                                                                                       8116                 !!                                362.366958          278.9904898        
+SE1                                                                                                       eps                  !!                                204.7914581         157.6712996        
+SE2                                                                                                       eps                  !!                                386.6385909         297.6774992        
+SE3                                                                                                       eps                  !!                                2675.162108         2059.638083        
+SE4                                                                                                       eps                  !!                                785.6526671         604.8830269        
+UK                                                                                                        26884                !!                                22448.78471         17283.57761        
+EE                                                                                                        eps                  !!                                690.2663729         531.4440216        
+LV                                                                                                        eps                  !!                                810.2143            623.7933106        
+LT                                                                                                        9000                 !!                                1653.810334         1273.287603        
+PL                                                                                                        16638                !!                                16107.86755         12401.63254        
+FR                                                                                                        54000                !!                                60129.40678         46294.32203        
+BE                                                                                                        11772                !!                                6964.044554         5361.69802         
+                                                                                                                                                                                                        
+*Socially accepted potentials (activated by default)                                                                                                                                                    
++                                                                                                         WINDTURBINE_ONSHORE                                                                           
+*$ontext                                                                                                                                                                                                
+NORWAY                                                                                                    14000                                                                                         
+DENMARK                                                                                                   6200                                                                                          
+FINLAND                                                                                                   15000                                                                                         
+GERMANY                                                                                                   98700                                                                                         
+NETHERLANDS                                                                                               10300                                                                                         
+SWEDEN                                                                                                    35000                                                                                         
+UNITED_KINGDOM                                                                                            38400                                                                                         
+ESTONIA                                                                                                   15800                                                                                         
+LATVIA                                                                                                    23300                                                                                         
+LITHUANIA                                                                                                 21400                                                                                         
+POLAND                                                                                                    10426                                                                                         
+BELGIUM                                                                                                   6719                                                                                          
+FRANCE                                                                                                    101200                                                                                        
+                                                                                                                                                                                                        
+DE4-S                                                                                                     7444                                                                                          
+*$offtext                                                                                                                                                                                               
+;                                                                                                                                                                                                       

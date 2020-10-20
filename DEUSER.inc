@@ -1,16 +1,14 @@
-SET DEUSER  "Electricity demand user groups. Set must include element RESE for holding demand not included in any other user group"
-/
-RESE
-PII
-OTHER
-
-
-/;
-
-
-SETS
-IRESE(DEUSER) 'residential electricity consumption'
-;
-
-IRESE('RESE') = YES;
-
+SET DEUSER  "Electricity demand user groups. Set must include element RESE for holding demand not included in any other user group"      
+/                                                                                                                                        
+RESE                                                                                                                                     
+PII                                                                                                                                      
+OTHER                                                                                                                                    
+DATACENTER                                                                                                                               
+                                                                                                                                         
+/;                                                                                                                                       
+                                                                                                                                         
+SETS                                                                                                                                     
+IRESE(DEUSER) 'residential electricity consumption'                                                                                      
+;                                                                                                                                        
+IRESE('RESE') = YES;                                                                                                                     
+                                                                                                                                         
