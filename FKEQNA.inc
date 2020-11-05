@@ -1,4 +1,4 @@
-TABLE FKEQNA(YYY,FFF)     'Minimum capacity by fuel per year (MW)'                                                             
-*                                                                  NATGAS       MUNIWASTE     STRAW       WOOD        WOODWASTE
-* 2012.DK_W                                                                                   0           0                    
-;                                                                                                                              
+TABLE FKEQNA(YYY,FFF)     'Exact capacity by year and fuel (aggregated countries)(MW)'                                                             
+*                                                                                      NATGAS       MUNIWASTE     STRAW       WOOD        WOODWASTE
+* 2012.DK_W                                                                                                       0           0                    
+;                                                                                                                                                  
