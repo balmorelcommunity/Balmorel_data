@@ -1,2 +1,2 @@
-SET INDIVUSERS_GROUP_A(INDIVUSERS_GROUP,AAA) 'Areas that are part of individual users groups';                    
-INDIVUSERS_GROUP_A(INDIVUSERS_GROUP,AAA)=0;                                                                       
+SET INDIVUSERS_GROUP_A(AAA,DHUSER,INDIVUSERS_GROUP) 'Areas that are part of individual users groups';                    
+INDIVUSERS_GROUP_A(AAA,DHUSER,INDIVUSERS_GROUP)=0;                                                                       
