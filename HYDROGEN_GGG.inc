@@ -243,6 +243,10 @@ GNR_ELYS_ELEC_AEC_Y-2020
 GNR_ELYS_ELEC_AEC_Y-2030                                 
 GNR_ELYS_ELEC_AEC_Y-2040                                 
 GNR_ELYS_ELEC_AEC_Y-2050                                 
+GNR_ELYS_ELEC_AEC_Y-2020_HUB                             
+GNR_ELYS_ELEC_AEC_Y-2030_HUB                             
+GNR_ELYS_ELEC_AEC_Y-2040_HUB                             
+GNR_ELYS_ELEC_AEC_Y-2050_HUB                             
 *FUEL CELL                                               
 GNR_FC_H2_SOFCC                                          
 GNR_FC_H2_SOFCC_Y-2020                                   
