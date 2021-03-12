@@ -243,6 +243,10 @@ GNR_ELYS_ELEC_AEC_Y-2020
 GNR_ELYS_ELEC_AEC_Y-2030                                 
 GNR_ELYS_ELEC_AEC_Y-2040                                 
 GNR_ELYS_ELEC_AEC_Y-2050                                 
+GNR_ELYS_ELEC_AEC_DH_Y-2020                              
+GNR_ELYS_ELEC_AEC_DH_Y-2030                              
+GNR_ELYS_ELEC_AEC_DH_Y-2040                              
+GNR_ELYS_ELEC_AEC_DH_Y-2050                              
 GNR_ELYS_ELEC_AEC_Y-2020_HUB                             
 GNR_ELYS_ELEC_AEC_Y-2030_HUB                             
 GNR_ELYS_ELEC_AEC_Y-2040_HUB                             
