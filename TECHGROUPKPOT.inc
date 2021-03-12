@@ -42,6 +42,6 @@ POLAND                                                                          
 BELGIUM                                                                                                   6719                                                                                          
 FRANCE                                                                                                    101200                                                                                        
                                                                                                                                                                                                         
-DE4-S                                                                                                     7444                                                                                          
+DE4-S                                                                                                     10000                                                                                         
 *$offtext                                                                                                                                                                                               
 ;                                                                                                                                                                                                       

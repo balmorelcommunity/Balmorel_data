@@ -4,6 +4,7 @@ ACHEMA1_ST_NGAS_EXT
 ACHEMA2_ST_NGAS_EXT                           
 ADAM-1_ST_LIGNITE_EXT                         
 ADAM-2_ST_LIGNITE_CON                         
+AGG-BE_RES_WTR_PMP                            
 AGG-DE4-E_ES_ELEC                             
 AGG-DE4-E_RES_WTR_PMP                         
 AGG-DE4-N_ES_ELEC                             
@@ -94,6 +95,9 @@ GNR_BACKUP_ELECTRICITY
 GNR_BACKUP_HEAT                               
 GNR_BO_BFG_E-90                               
 GNR_BO_BGAS_E-100                             
+GNR_BO_BGAS_E-100_Y-2020                      
+GNR_BO_BGAS_E-100_Y-2030                      
+GNR_BO_BGAS_E-100_Y-2050                      
 GNR_BO_BGAS_E-80                              
 GNR_BO_BGAS_E-90                              
 GNR_BO_BGAS_E-91                              
@@ -104,6 +108,9 @@ GNR_BO_BIOIL_E-100
 GNR_BO_BIOIL_E-102                            
 GNR_BO_BIOIL_E-103                            
 GNR_BO_BIOIL_E-113                            
+GNR_BO_BIOIL_E-114_Y-2020                     
+GNR_BO_BIOIL_E-114_Y-2030                     
+GNR_BO_BIOIL_E-114_Y-2050                     
 GNR_BO_BIOIL_E-75                             
 GNR_BO_BIOIL_E-79                             
 GNR_BO_BIOIL_E-85                             
@@ -241,6 +248,9 @@ GNR_BO_WOODCHI_E-115_LS-7-MW_Y-2030
 GNR_BO_WOODCHI_E-115_LS-7-MW_Y-2040           
 GNR_BO_WOODCHI_E-115_LS-7-MW_Y-2050           
 GNR_BO_WOODCHI_E-117                          
+GNR_BO_WOODCHI_E-117_LS-6-MW-FEED_Y-2020      
+GNR_BO_WOODCHI_E-117_LS-6-MW-FEED_Y-2030      
+GNR_BO_WOODCHI_E-117_LS-6-MW-FEED_Y-2050      
 GNR_BO_WOODCHI_E-118                          
 GNR_BO_WOODCHI_E-119                          
 GNR_BO_WOODCHI_E-120                          
@@ -251,11 +261,17 @@ GNR_BO_WOODPEL_E-100_LS-6-MW_Y-2030
 GNR_BO_WOODPEL_E-100_LS-6-MW_Y-2040           
 GNR_BO_WOODPEL_E-100_LS-6-MW_Y-2050           
 GNR_BO_WOODPEL_E-102                          
+GNR_BO_WOODPEL_E-102_LS-6-MW-FEED_Y-2020      
+GNR_BO_WOODPEL_E-102_LS-6-MW-FEED_Y-2030      
+GNR_BO_WOODPEL_E-102_LS-6-MW-FEED_Y-2050      
 GNR_BO_WOODPEL_E-75_SS-12-KW-FEED             
 GNR_BO_WOODPEL_E-78_SS-10-KW-FEED_Y-2020      
 GNR_BO_WOODPEL_E-80_SS-8-KW-FEED_Y-2030       
 GNR_BO_WOODPEL_E-80_SS-8-KW-FEED_Y-2040       
 GNR_BO_WOODPEL_E-85_SS-8-KW-FEED_Y-2050       
+GNR_BO_WOODPEL_E-87_SS-5-KW-FEED_Y-2020       
+GNR_BO_WOODPEL_E-91_SS-4-KW-FEED_Y-2030       
+GNR_BO_WOODPEL_E-95_SS-4-KW-FEED_Y-2050       
 GNR_BO_WOODPEL_E-90                           
 GNR_BO_WOODWST_E-100                          
 GNR_BO_WOODWST_E-113                          
@@ -764,6 +780,8 @@ GNR_ST_NGAS_CND_E-38
 GNR_ST_NGAS_CND_E-39                          
 GNR_ST_NGAS_CND_E-40                          
 GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2020         
+GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2030         
+GNR_ST_NGAS_CND_E-47_LS-400-MW_Y-2050         
 GNR_ST_NGAS_CON_E-38                          
 GNR_ST_NGAS_EXT_E-24                          
 GNR_ST_NGAS_EXT_E-31                          
@@ -772,6 +790,8 @@ GNR_ST_NGAS_EXT_E-39
 GNR_ST_NGAS_EXT_E-40                          
 GNR_ST_NGAS_EXT_E-47                          
 GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2020         
+GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2030         
+GNR_ST_NGAS_EXT_E-47_LS-400-MW_Y-2050         
 GNR_ST_NUCL_CND_E-33                          
 GNR_ST_NUCL_ADVANCE                           
 GNR_ST_PEAT_BP_CB-10                          
@@ -900,8 +920,17 @@ GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2020
 GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2030 
 GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2040 
 GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2050 
+GNR_ST_WOODPEL_CND_E-49_LS-250-MW_Y-2020      
+GNR_ST_WOODPEL_CND_E-52_LS-250-MW_Y-2030      
+GNR_ST_WOODPEL_CND_E-54_LS-250-MW_Y-2050      
 GNR_ST_WOODPEL_EXT_E-30                       
+GNR_ST_WOODPEL_EXT_E-33_LS-800-MW-FEED_Y-2020 
+GNR_ST_WOODPEL_EXT_E-33_LS-800-MW-FEED_Y-2030 
+GNR_ST_WOODPEL_EXT_E-33_LS-800-MW-FEED_Y-2050 
 GNR_ST_WOODPEL_EXT_E-50                       
+GNR_ST_WOODPEL_EXT_E-49_LS-250-MW_Y-2020      
+GNR_ST_WOODPEL_EXT_E-52_LS-250-MW_Y-2030      
+GNR_ST_WOODPEL_EXT_E-54_LS-250-MW_Y-2050      
 GNR_ST_WOODWST_BP_CB-10                       
 GNR_ST_WOODWST_BP_CB-20                       
 GNR_ST_WOODWST_BP_CB-30                       
@@ -1261,6 +1290,7 @@ GNR_ST_WOODWST_CND_E-29_MUSTRUN
 GNR_ENG_NGAS_BP_E-42_MUSTRUN                  
 GNR_CC_OTHERGAS_CND_E-37                      
 GNR_ST_OTHERGAS_CND_E-37_MUSTRUN              
+LOST_LOAD                                     
 /;                                            
                                               
                                               

@@ -87,13 +87,15 @@ NL_A
 PL_A                                                       
 PL_Rural                                                   
 UK_A                                                       
-                                                           
+FI_IND                                                     
 FI_large                                                   
 FI_large_gas                                               
 FI_medium                                                  
 FI_medium_gas                                              
 FI_small                                                   
 FI_small_gas                                               
+NO4_IND                                                    
+NO5_IND                                                    
 NO1_A1                                                     
 NO1_A2                                                     
 NO1_A3                                                     
@@ -106,6 +108,10 @@ NO4_A1
 NO4_A2                                                     
 NO5_A1                                                     
 NO5_A2                                                     
+SE1_IND                                                    
+SE2_IND                                                    
+SE3_IND                                                    
+SE4_IND                                                    
 SE1_medium                                                 
 SE1_small                                                  
 SE2_medium                                                 

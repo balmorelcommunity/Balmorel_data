@@ -36,13 +36,15 @@ NL                                                                  .    NL_A
 PL                                                                  .    PL_A                       
 PL                                                                  .    PL_Rural                   
 UK                                                                  .    UK_A                       
-                                                                                                    
+FIN                                                                 .    FI_IND                     
 FIN                                                                 .    FI_large                   
 FIN                                                                 .    FI_large_gas               
 FIN                                                                 .    FI_medium                  
 FIN                                                                 .    FI_medium_gas              
 FIN                                                                 .    FI_small                   
 FIN                                                                 .    FI_small_gas               
+NO4                                                                 .    NO4_IND                    
+NO5                                                                 .    NO5_IND                    
 NO1                                                                 .    NO1_A1                     
 NO1                                                                 .    NO1_A2                     
 NO1                                                                 .    NO1_A3                     
@@ -55,6 +57,10 @@ NO4                                                                 .    NO4_A1
 NO4                                                                 .    NO4_A2                     
 NO5                                                                 .    NO5_A1                     
 NO5                                                                 .    NO5_A2                     
+SE1                                                                 .    SE1_IND                    
+SE2                                                                 .    SE2_IND                    
+SE3                                                                 .    SE3_IND                    
+SE4                                                                 .    SE4_IND                    
 SE1                                                                 .    SE1_medium                 
 SE1                                                                 .    SE1_small                  
 SE2                                                                 .    SE2_medium                 
