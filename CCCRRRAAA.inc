@@ -160,6 +160,10 @@ DE4-W_IND
 DE4-W_Lignite                                              
 DE4-W_Steam                                                
 DE4-W_Waste                                                
+DE4-E_DG                                                   
+DE4-N_DG                                                   
+DE4-S_DG                                                   
+DE4-W_DG                                                   
 FR_IND                                                     
 BE_IND                                                     
 NL_IND                                                     

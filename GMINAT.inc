@@ -3,10 +3,10 @@ PARAMETER  GMINAT(AAA,GGG)            'Technologies with limited flexibility, wh
 DE4-W_A                         .    GNR_ST_LIGN_CND_E-43                                                                                                                               0.2288                
 DE4-W_A                         .    GNR_ST_LIGN_CND_E-42                                                                                                                               0.4883                
 DE4-E_A                         .    GNR_ST_LIGN_CND_E-43                                                                                                                               0.4125                
-DE4-E_A                         .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
-DE4-N_A                         .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
-DE4-S_A                         .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
-DE4-W_A                         .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
+DE4-E_DG                        .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
+DE4-N_DG                        .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
+DE4-S_DG                        .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
+DE4-W_DG                        .    GNR_ENG_NGAS_BP_E-45_MUSTRUN                                                                                                                       0.457769836855194     
 FR_IND                          .    GNR_GT_NGAS_BP_E-37                                                                                                                                0.434                 
 FR_IND                          .    GNR_ENG_NGAS_BP_E-45                                                                                                                               0.338                 
 FR_IND                          .    GNR_ST_FUELOIL_BP_E-34                                                                                                                             0.151                 
@@ -26,3 +26,7 @@ GMINAT(IA,G)$(ICA('GERMANY',IA)      AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL
 GMINAT(IA,G)$(ICA('GERMANY',IA)      AND SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                             WOODPELLETS ) AND INVDATA(IA,'IND')) = 0.642123287671233 ;   
 GMINAT(IA,G)$(                       SUM(Y,GKFX(Y,IA,G)) AND(GDATA(G,'GDFUEL') =                                                                 NUCLEAR     )) =                       0.7               ;   
 GMINAT(IA,G)$(                       AGKN(IA,G) AND(GDATA(G,'GDFUEL') =                                                                          NUCLEAR     )) =                       0.7               ;   
+GMINAT('FI_IND',G)$(                 SUM(Y,GKFX(Y,'FI_IND',G)) AND(GDATA(G,'GDFUEL') =                                                           NATGAS      )) =                       0.228             ;   
+GMINAT('FI_IND',G)$(                 SUM(Y,GKFX(Y,'FI_IND',G)) AND(GDATA(G,'GDFUEL') =                                                           COAL        )) =                       0.514             ;   
+GMINAT('FI_IND',G)$(                 SUM(Y,GKFX(Y,'FI_IND',G)) AND(GDATA(G,'GDFUEL') =                                                           PEAT        )) =                       0.137             ;   
+GMINAT('FI_IND',G)$(                 SUM(Y,GKFX(Y,'FI_IND',G)) AND(GDATA(G,'GDFUEL') =                                                           WOODCHIPS   )) =                       0.514             ;   

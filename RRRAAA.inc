@@ -109,6 +109,10 @@ DE4-W                                                               .    DE4-W_I
 DE4-W                                                               .    DE4-W_Lignite              
 DE4-W                                                               .    DE4-W_Steam                
 DE4-W                                                               .    DE4-W_Waste                
+DE4-E                                                               .    DE4-E_DG                   
+DE4-N                                                               .    DE4-N_DG                   
+DE4-S                                                               .    DE4-S_DG                   
+DE4-W                                                               .    DE4-W_DG                   
 FR                                                                  .    FR_IND                     
 BE                                                                  .    BE_IND                     
 NL                                                                  .    NL_IND                     
