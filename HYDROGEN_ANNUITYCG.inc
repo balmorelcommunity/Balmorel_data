@@ -178,3 +178,8 @@ ANNUITYCG(CCC,'GNR_ELYS_ELEC_AEC_DH_Y-2020')=0.064011962786;
 ANNUITYCG(CCC,'GNR_ELYS_ELEC_AEC_DH_Y-2030')=0.057830099134;                       
 ANNUITYCG(CCC,'GNR_ELYS_ELEC_AEC_DH_Y-2040')=0.055948589741;                       
 ANNUITYCG(CCC,'GNR_ELYS_ELEC_AEC_DH_Y-2050')=0.053577322368;                       
+                                                                                   
+ANNUITYCG(CCC,'GNR_H2S_H2-CAVERN_Y-2020')=0.040808000038;                          
+ANNUITYCG(CCC,'GNR_H2S_H2-CAVERN_Y-2020')=0.040808000038;                          
+ANNUITYCG(CCC,'GNR_H2S_H2-CAVERN_Y-2020')=0.040808000038;                          
+ANNUITYCG(CCC,'GNR_H2S_H2-CAVERN_Y-2020')=0.040808000038;                          
