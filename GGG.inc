@@ -961,6 +961,10 @@ GNR_WT_WIND_OFF_HUB_RG2_SD-30M_Y-2020
 GNR_WT_WIND_OFF_HUB_RG2_SD-30M_Y-2030         
 GNR_WT_WIND_OFF_HUB_RG2_SD-30M_Y-2040         
 GNR_WT_WIND_OFF_HUB_RG2_SD-30M_Y-2050         
+GNR_WT_WIND_OFF_HUB_RG3_SD-30M_Y-2020         
+GNR_WT_WIND_OFF_HUB_RG3_SD-30M_Y-2030         
+GNR_WT_WIND_OFF_HUB_RG3_SD-30M_Y-2040         
+GNR_WT_WIND_OFF_HUB_RG3_SD-30M_Y-2050         
 GNR_WT_WIND_OFF_HUB_RG1_SD-20M_Y-2020         
 GNR_WT_WIND_OFF_HUB_RG1_SD-20M_Y-2030         
 GNR_WT_WIND_OFF_HUB_RG1_SD-20M_Y-2040         
@@ -969,6 +973,10 @@ GNR_WT_WIND_OFF_HUB_RG2_SD-20M_Y-2020
 GNR_WT_WIND_OFF_HUB_RG2_SD-20M_Y-2030         
 GNR_WT_WIND_OFF_HUB_RG2_SD-20M_Y-2040         
 GNR_WT_WIND_OFF_HUB_RG2_SD-20M_Y-2050         
+GNR_WT_WIND_OFF_HUB_RG3_SD-20M_Y-2020         
+GNR_WT_WIND_OFF_HUB_RG3_SD-20M_Y-2030         
+GNR_WT_WIND_OFF_HUB_RG3_SD-20M_Y-2040         
+GNR_WT_WIND_OFF_HUB_RG3_SD-20M_Y-2050         
 GNR_WT_WIND_ONS                               
 GNR_WT-SP277-HH100_ONS_LS_L-RG1_Y-2020        
 GNR_WT-SP277-HH100_ONS_LS_L-RG1_Y-2030        
@@ -1218,7 +1226,6 @@ GNR_OFF_HUB_2GW_Y-2020
 GNR_OFF_HUB_2GW_Y-2030                        
 GNR_OFF_HUB_2GW_Y-2040                        
 GNR_OFF_HUB_2GW_Y-2050                        
-                                              
                                               
                                               
                                               

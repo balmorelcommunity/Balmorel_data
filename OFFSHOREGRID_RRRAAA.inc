@@ -136,4 +136,72 @@ NL3_OFF_2_Hub_UKandNL_e                                             .    NL3_OFF
 31_DE_OFF_2_Hub_WeiWin                                              .    31_DE_OFF_2_Hub_WeiWin_RG2_2050        
 DK_w_OFF_2_Hub_DK_hub                                               .    DK_w_OFF_2_Hub_DK_hub_RG2_2050         
                                                                                                                 
+31_DE_OFF_2_Hub_BorWin                                              .    31_DE_OFF_2_Hub_BorWin_RG3_2020        
+93_UK_OFF_2_Hub_DoggerBank_e                                        .    93_UK_OFF_2_Hub_DoggerBank_e_RG3_2020  
+93_UK_OFF_2_Hub_DoggerBank_w                                        .    93_UK_OFF_2_Hub_DoggerBank_w_RG3_2020  
+31_DE_OFF_2_Hub_DolWin                                              .    31_DE_OFF_2_Hub_DolWin_RG3_2020        
+31_DE_OFF_2_Hub_HelWin                                              .    31_DE_OFF_2_Hub_HelWin_RG3_2020        
+93_UK_OFF_2_Hub_HornSea_e                                           .    93_UK_OFF_2_Hub_HornSea_e_RG3_2020     
+93_UK_OFF_2_Hub_HornSea_w                                           .    93_UK_OFF_2_Hub_HornSea_w_RG3_2020     
+NSY_OFF_2_Hub_NO_c                                                  .    NSY_OFF_2_Hub_NO_c_RG3_2020            
+NSY_OFF_2_Hub_NO_e                                                  .    NSY_OFF_2_Hub_NO_e_RG3_2020            
+NSY_OFF_2_Hub_NO_w                                                  .    NSY_OFF_2_Hub_NO_w_RG3_2020            
+31_DE_OFF_2_Hub_NorWin                                              .    31_DE_OFF_2_Hub_NorWin_RG3_2020        
+31_DE_OFF_2_Hub_SylWin                                              .    31_DE_OFF_2_Hub_SylWin_RG3_2020        
+NL3_OFF_2_Hub_UKandNL_e                                             .    NL3_OFF_2_Hub_UKandNL_e_RG3_2020       
+90_UK_OFF_2_Hub_UKandNL_w                                           .    90_UK_OFF_2_Hub_UKandNL_w_RG3_2020     
+31_DE_OFF_2_Hub_WeiWin                                              .    31_DE_OFF_2_Hub_WeiWin_RG3_2020        
+DK_w_OFF_2_Hub_DK_hub                                               .    DK_w_OFF_2_Hub_DK_hub_RG3_2020         
+                                                                                                                
+31_DE_OFF_2_Hub_BorWin                                              .    31_DE_OFF_2_Hub_BorWin_RG3_2030        
+93_UK_OFF_2_Hub_DoggerBank_e                                        .    93_UK_OFF_2_Hub_DoggerBank_e_RG3_2030  
+93_UK_OFF_2_Hub_DoggerBank_w                                        .    93_UK_OFF_2_Hub_DoggerBank_w_RG3_2030  
+31_DE_OFF_2_Hub_DolWin                                              .    31_DE_OFF_2_Hub_DolWin_RG3_2030        
+31_DE_OFF_2_Hub_HelWin                                              .    31_DE_OFF_2_Hub_HelWin_RG3_2030        
+93_UK_OFF_2_Hub_HornSea_e                                           .    93_UK_OFF_2_Hub_HornSea_e_RG3_2030     
+93_UK_OFF_2_Hub_HornSea_w                                           .    93_UK_OFF_2_Hub_HornSea_w_RG3_2030     
+NSY_OFF_2_Hub_NO_c                                                  .    NSY_OFF_2_Hub_NO_c_RG3_2030            
+NSY_OFF_2_Hub_NO_e                                                  .    NSY_OFF_2_Hub_NO_e_RG3_2030            
+NSY_OFF_2_Hub_NO_w                                                  .    NSY_OFF_2_Hub_NO_w_RG3_2030            
+31_DE_OFF_2_Hub_NorWin                                              .    31_DE_OFF_2_Hub_NorWin_RG3_2030        
+31_DE_OFF_2_Hub_SylWin                                              .    31_DE_OFF_2_Hub_SylWin_RG3_2030        
+NL3_OFF_2_Hub_UKandNL_e                                             .    NL3_OFF_2_Hub_UKandNL_e_RG3_2030       
+90_UK_OFF_2_Hub_UKandNL_w                                           .    90_UK_OFF_2_Hub_UKandNL_w_RG3_2030     
+31_DE_OFF_2_Hub_WeiWin                                              .    31_DE_OFF_2_Hub_WeiWin_RG3_2030        
+DK_w_OFF_2_Hub_DK_hub                                               .    DK_w_OFF_2_Hub_DK_hub_RG3_2030         
+                                                                                                                
+31_DE_OFF_2_Hub_BorWin                                              .    31_DE_OFF_2_Hub_BorWin_RG3_2040        
+93_UK_OFF_2_Hub_DoggerBank_e                                        .    93_UK_OFF_2_Hub_DoggerBank_e_RG3_2040  
+93_UK_OFF_2_Hub_DoggerBank_w                                        .    93_UK_OFF_2_Hub_DoggerBank_w_RG3_2040  
+31_DE_OFF_2_Hub_DolWin                                              .    31_DE_OFF_2_Hub_DolWin_RG3_2040        
+31_DE_OFF_2_Hub_HelWin                                              .    31_DE_OFF_2_Hub_HelWin_RG3_2040        
+93_UK_OFF_2_Hub_HornSea_e                                           .    93_UK_OFF_2_Hub_HornSea_e_RG3_2040     
+93_UK_OFF_2_Hub_HornSea_w                                           .    93_UK_OFF_2_Hub_HornSea_w_RG3_2040     
+NSY_OFF_2_Hub_NO_c                                                  .    NSY_OFF_2_Hub_NO_c_RG3_2040            
+NSY_OFF_2_Hub_NO_e                                                  .    NSY_OFF_2_Hub_NO_e_RG3_2040            
+NSY_OFF_2_Hub_NO_w                                                  .    NSY_OFF_2_Hub_NO_w_RG3_2040            
+31_DE_OFF_2_Hub_NorWin                                              .    31_DE_OFF_2_Hub_NorWin_RG3_2040        
+31_DE_OFF_2_Hub_SylWin                                              .    31_DE_OFF_2_Hub_SylWin_RG3_2040        
+NL3_OFF_2_Hub_UKandNL_e                                             .    NL3_OFF_2_Hub_UKandNL_e_RG3_2040       
+90_UK_OFF_2_Hub_UKandNL_w                                           .    90_UK_OFF_2_Hub_UKandNL_w_RG3_2040     
+31_DE_OFF_2_Hub_WeiWin                                              .    31_DE_OFF_2_Hub_WeiWin_RG3_2040        
+DK_w_OFF_2_Hub_DK_hub                                               .    DK_w_OFF_2_Hub_DK_hub_RG3_2040         
+                                                                                                                
+31_DE_OFF_2_Hub_BorWin                                              .    31_DE_OFF_2_Hub_BorWin_RG3_2050        
+93_UK_OFF_2_Hub_DoggerBank_e                                        .    93_UK_OFF_2_Hub_DoggerBank_e_RG3_2050  
+93_UK_OFF_2_Hub_DoggerBank_w                                        .    93_UK_OFF_2_Hub_DoggerBank_w_RG3_2050  
+31_DE_OFF_2_Hub_DolWin                                              .    31_DE_OFF_2_Hub_DolWin_RG3_2050        
+31_DE_OFF_2_Hub_HelWin                                              .    31_DE_OFF_2_Hub_HelWin_RG3_2050        
+93_UK_OFF_2_Hub_HornSea_e                                           .    93_UK_OFF_2_Hub_HornSea_e_RG3_2050     
+93_UK_OFF_2_Hub_HornSea_w                                           .    93_UK_OFF_2_Hub_HornSea_w_RG3_2050     
+NSY_OFF_2_Hub_NO_c                                                  .    NSY_OFF_2_Hub_NO_c_RG3_2050            
+NSY_OFF_2_Hub_NO_e                                                  .    NSY_OFF_2_Hub_NO_e_RG3_2050            
+NSY_OFF_2_Hub_NO_w                                                  .    NSY_OFF_2_Hub_NO_w_RG3_2050            
+31_DE_OFF_2_Hub_NorWin                                              .    31_DE_OFF_2_Hub_NorWin_RG3_2050        
+31_DE_OFF_2_Hub_SylWin                                              .    31_DE_OFF_2_Hub_SylWin_RG3_2050        
+NL3_OFF_2_Hub_UKandNL_e                                             .    NL3_OFF_2_Hub_UKandNL_e_RG3_2050       
+90_UK_OFF_2_Hub_UKandNL_w                                           .    90_UK_OFF_2_Hub_UKandNL_w_RG3_2050     
+31_DE_OFF_2_Hub_WeiWin                                              .    31_DE_OFF_2_Hub_WeiWin_RG3_2050        
+DK_w_OFF_2_Hub_DK_hub                                               .    DK_w_OFF_2_Hub_DK_hub_RG3_2050         
+                                                                                                                
 /;                                                                                                              
