@@ -1,4 +1,4 @@
-SET C(CCC)  'Countries in the simulation'    
+SET C(CCC)  'Countries in the simulation'     
 /                                            
 NORWAY                                       
 DENMARK                                      
