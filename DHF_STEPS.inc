@@ -18,7 +18,7 @@ DK1A.S01.T001.DF_PRICE                                                          
 $offtext                                                                                                                                
 ;                                                                                                                                       
                                                                                                                                         
-* Not sure wheter or not this should be included…                                                                                       
+* Not sure wheter or not this should be includedâ€¦                                                                                     
 $ontext                                                                                                                                 
 DHF_STEPS(IA,SSS,TTT,DF_QP,DHF_U1)$(DHF_STEPS(IA,SSS,TTT,DF_QP,DHF_U) EQ 0) = DHF_STEPS('Denmark1A','S01','T001',DF_QP,DHF_U) ;         
 DHF_STEPS(IA,SSS,TTT,DF_QP,DHF_D1)$(DHF_STEPS(IA,SSS,TTT,DF_QP,DHF_D) EQ 0) = DHF_STEPS('Denmark1A','S01','T001',DF_QP,DHF_D) ;         
