@@ -49,6 +49,19 @@ XHINVCOST(Y,'SE4_large','SE4_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;
 XHINVCOST(Y,'SE4_IDVU-HOTWTR','SE4_large')$(YVALUE(Y) ge 2016)=396000;                                     
 XHINVCOST(Y,'UK_A','UK_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;                                           
 XHINVCOST(Y,'UK_IDVU-HOTWTR','UK_A')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'IT_A','IT_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'IT_IDVU-HOTWTR','IT_A')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'CH_A','CH_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'CH_IDVU-HOTWTR','CH_A')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'AT_A','AT_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'AT_IDVU-HOTWTR','AT_A')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'CZ_A','CZ_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'CZ_IDVU-HOTWTR','CZ_A')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'ES_A','ES_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'ES_IDVU-HOTWTR','ES_A')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'PT_A','PT_IDVU-HOTWTR')$(YVALUE(Y) ge 2016)=396000;                                           
+XHINVCOST(Y,'PT_IDVU-HOTWTR','PT_A')$(YVALUE(Y) ge 2016)=396000;                                           
+                                                                                                           
 $label INDIVUSERS_AAA                                                                                      
                                                                                                            
 $ifi NOT %GROUP_DEMAND_SHIFT%==yes          $goto NO_INDIVUSERS_AAA                                        

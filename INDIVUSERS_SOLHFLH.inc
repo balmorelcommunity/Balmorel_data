@@ -27,6 +27,12 @@ SOLHFLH('SE2_IDVU-HOTWTR')=501.022626588929;
 SOLHFLH('SE3_IDVU-HOTWTR')=501.022626588929;                                                       
 SOLHFLH('SE4_IDVU-HOTWTR')=501.022626588929;                                                       
 SOLHFLH('UK_IDVU-HOTWTR')=455.498730490753;                                                        
+SOLHFLH('IT_IDVU-HOTWTR')=709.367418438484;                                                        
+SOLHFLH('CH_IDVU-HOTWTR')=612.251263689368;                                                        
+SOLHFLH('AT_IDVU-HOTWTR')=612.251263689368;                                                        
+SOLHFLH('CZ_IDVU-HOTWTR')=584.952690003189;                                                        
+SOLHFLH('ES_IDVU-HOTWTR')=709.367418438484;                                                        
+SOLHFLH('PT_IDVU-HOTWTR')=709.367418438484;                                                        
                                                                                                    
 $ifi not %GROUP_DEMAND_SHIFT%==yes                                $goto NO_INDIVUSERS_AAA          
 SOLHFLH('BE_IDVU_RES-HOTWTR')=                                    SOLHFLH('BE_IDVU-HOTWTR')    ;   

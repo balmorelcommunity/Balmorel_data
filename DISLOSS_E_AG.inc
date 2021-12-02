@@ -51,7 +51,3 @@ DISLOSS_E_AG(IA,'GNR_WT_WIND_OFF_HUB_RG3_SD-20M_Y-2050')$(AGKN(IA,'GNR_WT_WIND_O
                                                                                                                                                                                    
                                                                                                                                                                                    
                                                                                                                                                                                    
-                                                                                                                                                                                   
-                                                                                                                                                                                   
-                                                                                                                                                                                   
-                                                                                                                                                                                   
