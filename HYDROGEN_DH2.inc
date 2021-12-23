@@ -22,7 +22,7 @@ $offtext
 *HYDROGEN_DH2(YYY,AAA)=0;
 *HYDROGEN_DH2(YYY,RRR)=0;
 
-*$ontext
+$ontext
 *Base scenario from Hydrogen roadmap europe 2019
 HYDROGEN_DH2('2030','BE')=        643809.727        ;
 HYDROGEN_DH2('2030','DE4-E')=        638648.4976        ;
@@ -51,7 +51,7 @@ HYDROGEN_DH2('2030','UK')=        3036004.146        ;
 *Rough assumptions on future growth.
 HYDROGEN_DH2('2040',IR) = HYDROGEN_DH2('2030',IR)*1.3;
 HYDROGEN_DH2('2050',IR) = HYDROGEN_DH2('2030',IR)*1.6;
-
+$offtext
 $ontext
 *Ambitious scenario from Hydrogen roadmap europe 2019
 HYDROGEN_DH2('2030','BE')=        4348774.675        ;
@@ -80,3 +80,103 @@ HYDROGEN_DH2('2030','SE4')=        1438780.598        ;
 HYDROGEN_DH2('2030','UK')=        20507453.35        ;
 
 $offtext
+
+
+
+
+TABLE HYDROGEN_DH3(CCCRRRAAA,YYY)
+*BASELINE
+$ifi not %MARIASCENARIO%==BASELINE $GOTO H2BASELINEEND
+                    2030         2050
+BE                  126729       1805891
+DE4-E               114907       1637429
+DE4-N               35356        503824
+DE4-S               310973       4431363
+DE4-W               342311       4877935
+DK1                 36497        520078
+DK2                 24331        346719
+EE                  11546        164527
+FIN                 59766        851659
+FR                  649143       9250292
+LT                  28670        408547
+LV                  15392        219337
+NL                  152696       2175911
+NO1                 28348        403955
+NO2                 16638        237094
+NO3                 8809         125534
+NO4                 6027         85883
+NO5                 7273         103639
+PL                  302903       4316373
+SE1                 4513         64316
+SE2                 9279         132219
+SE3                 67525        962232
+SE4                 20727        295357
+UK                  594172       8466944
+;
+$LABEL H2BASELINEEND
+
+$ifi not %MARIASCENARIO%==TECH $GOTO H2TECHEND
+*TECH
+                   2030        2050
+BE                 126729      58597178
+DE4-E              114907      52506885
+DE4-N              35356       16155965
+DE4-S              310973      142099052
+DE4-W              342311      156419111
+DK1                36497       13815520
+DK2                24331       9210347
+EE                 11546       4401357
+FIN                59766       35887850
+FR                 649143      252425844
+LT                 28670       10593289
+LV                 15392       5905739
+NL                 152696      65937794
+NO1                28348       13960232
+NO2                16638       8193708
+NO3                8809        4338332
+NO4                6027        2968028
+NO5                7273        3581646
+PL                 302903      128871771
+SE1                4513        2209206
+SE2                9279        4541652
+SE3                67525       33052099
+SE4                20727       10145322
+UK                 594172      218843724
+;
+$LABEL H2TECHEND
+
+$ifi not %MARIASCENARIO%==LIFE $GOTO H2LIFEEND
+*Life
+
+                  2030        2050
+BE                126729      47057467
+DE4-E             114907      41715708
+DE4-N             35356       12835602
+DE4-S             310973      112894958
+DE4-W             342311      124271969
+DK1               36497       10536661
+DK2               24331       7024441
+EE                11546       3402136
+FIN               59766       28192844
+FR                649143      194940622
+LT                28670       8160052
+LV                15392       4508062
+NL                152696      53034073
+NO1               28348       11525889
+NO2               16638       6764914
+NO3               8809        3581827
+NO4               6027        2450472
+NO5               7273        2957089
+PL                302903      100576204
+SE1               4513        1810109
+SE2               9279        3721195
+SE3               67525       27081185
+SE4               20727       8312553
+UK                594172      166449972
+;
+$LABEL H2LIFEEND
+;
+
+HYDROGEN_DH2(YYY,CCCRRRAAA)= HYDROGEN_DH3(CCCRRRAAA,YYY);
+
+HYDROGEN_DH2('2049',CCCRRRAAA) = HYDROGEN_DH2('2050',CCCRRRAAA) ;
