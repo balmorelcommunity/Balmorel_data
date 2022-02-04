@@ -23,3 +23,4 @@ GNR_OFF_HUB_2GW_Y-2050                                                          
 /;                                                                                                                       
 *Increasing potential                                                                                                    
 GINVCOST_ES(GGG,'XES6')$GINVCOST_ES(GGG,'XES6')=GINVCOST_ES(GGG,'XES6')*50;                                              
+                                                                                                                         
