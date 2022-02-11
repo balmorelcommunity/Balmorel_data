@@ -51,6 +51,19 @@ SE3_IDVU-SPACEHEAT
 SE4_IDVU-SPACEHEAT                                                                                                                                                         
 UK_IDVU-SPACEHEAT                                                                                                                                                          
                                                                                                                                                                            
+IT_IDVU-HOTWTR                                                                                                                                                             
+IT_IDVU-SPACEHEAT                                                                                                                                                          
+CH_IDVU-HOTWTR                                                                                                                                                             
+CH_IDVU-SPACEHEAT                                                                                                                                                          
+AT_IDVU-HOTWTR                                                                                                                                                             
+AT_IDVU-SPACEHEAT                                                                                                                                                          
+CZ_IDVU-HOTWTR                                                                                                                                                             
+CZ_IDVU-SPACEHEAT                                                                                                                                                          
+ES_IDVU-HOTWTR                                                                                                                                                             
+ES_IDVU-SPACEHEAT                                                                                                                                                          
+PT_IDVU-HOTWTR                                                                                                                                                             
+PT_IDVU-SPACEHEAT                                                                                                                                                          
+                                                                                                                                                                           
 $ifi not %GROUP_DEMAND_SHIFT%==yes        $goto NO_INDIVUSERS_AAA                                                                                                          
 BE_IDVU_RES_BO_BIO-HOTWTR            ,    BE_IDVU_TER_BO_BIO-HOTWTR            ,    BE_IDVU_RES_BO_BIO-SPACEHEAT            ,    BE_IDVU_TER_BO_BIO-SPACEHEAT              
 BE_IDVU_RES_BO_COAL-HOTWTR           ,    BE_IDVU_TER_BO_COAL-HOTWTR           ,    BE_IDVU_RES_BO_COAL-SPACEHEAT           ,    BE_IDVU_TER_BO_COAL-SPACEHEAT             

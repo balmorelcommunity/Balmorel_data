@@ -28,3 +28,12 @@ PARAMETER MRRUP(YYY,CCCRRRAAA) 'MRR up regulation requirement in each hour (MW)'
 /;
 
 MRRUP(Y,CCCRRRAAA)= MRRUP('2016',CCCRRRAAA) ;
+
+
+*Assumptions for other countries:
+MRRUP(YYY,'IT')=MRRUP(YYY,'FR');
+MRRUP(YYY,'ES')=MRRUP(YYY,'FR');
+MRRUP(YYY,'CZ')=MRRUP(YYY,'BE');
+MRRUP(YYY,'AT')=MRRUP(YYY,'BE');
+MRRUP(YYY,'CH')=MRRUP(YYY,'BE');
+MRRUP(YYY,'PT')=MRRUP(YYY,'BE');

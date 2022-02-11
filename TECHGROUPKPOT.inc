@@ -25,6 +25,15 @@ PL                                                                              
 FR                                                                                                        54000                   
 BE                                                                                                        11772                   
                                                                                                                                   
+                                                                                                                                  
+IT                                                                                                        9580.64516129032        
+CH                                                                                                        9870.96774193548        
+AT                                                                                                        9870.96774193548        
+CZ                                                                                                        1172                    
+ES                                                                                                        35032.2580645161        
+PT                                                                                                        2952                    
+                                                                                                                                  
+                                                                                                                                  
 *National potentials (not activated by default)                                                                                   
 +                                                                                                         WINDTURBINE_ONSHORE     
 $ontext                                                                                                                           

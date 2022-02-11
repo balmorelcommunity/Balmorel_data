@@ -13,6 +13,10 @@ LITHUANIA
 POLAND                                       
 BELGIUM                                      
 FRANCE                                       
-                                             
-                                             
+ITALY                                        
+SWITZERLAND                                  
+AUSTRIA                                      
+CZECH_REPUBLIC                               
+SPAIN                                        
+PORTUGAL                                     
 /;                                           

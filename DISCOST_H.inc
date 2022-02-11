@@ -51,14 +51,15 @@ SE1A                                                              2
 SE2A                                                              2   
 SE3A                                                              2   
 SE4A                                                              2   
-                                                                      
-                                                                      
-                                                                      
-                                                                      
-                                                                      
-                                                                      
-                                                                      
-                                                                      
+IT_A                                                              2   
+CH_A                                                              2   
+AT_A                                                              2   
+CZ_A                                                              2   
+IT_Offshore                                                       2   
+ES_A                                                              2   
+PT_A                                                              2   
+ES_Offshore                                                       2   
+PT_Offshore                                                       2   
                                                                       
                                                                       
 /;                                                                    

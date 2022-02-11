@@ -24,4 +24,10 @@ SWEDEN                                                 .    SE4
 UNITED_KINGDOM                                         .    UK     
 BELGIUM                                                .    BE     
 FRANCE                                                 .    FR     
+ITALY                                                  .    IT     
+SWITZERLAND                                            .    CH     
+AUSTRIA                                                .    AT     
+CZECH_REPUBLIC                                         .    CZ     
+SPAIN                                                  .    ES     
+PORTUGAL                                               .    PT     
 /;                                                                 

@@ -25,6 +25,12 @@ XHCOST('SE2_IDVU-HOTWTR','SE2_IDVU-SPACEHEAT')=0;
 XHCOST('SE3_IDVU-HOTWTR','SE3_IDVU-SPACEHEAT')=0;                                                                          
 XHCOST('SE4_IDVU-HOTWTR','SE4_IDVU-SPACEHEAT')=0;                                                                          
 XHCOST('UK_IDVU-HOTWTR','UK_IDVU-SPACEHEAT')=0;                                                                            
+XHCOST('IT_IDVU-HOTWTR','IT_IDVU-SPACEHEAT')=0;                                                                            
+XHCOST('CH_IDVU-HOTWTR','CH_IDVU-SPACEHEAT')=0;                                                                            
+XHCOST('AT_IDVU-HOTWTR','AT_IDVU-SPACEHEAT')=0;                                                                            
+XHCOST('CZ_IDVU-HOTWTR','CZ_IDVU-SPACEHEAT')=0;                                                                            
+XHCOST('ES_IDVU-HOTWTR','ES_IDVU-SPACEHEAT')=0;                                                                            
+XHCOST('PT_IDVU-HOTWTR','PT_IDVU-SPACEHEAT')=0;                                                                            
                                                                                                                            
 XHCOST('BE_IDVU-SPACEHEAT','BE_IDVU-HOTWTR')=0;                                                                            
 XHCOST('DE4-E_IDVU-SPACEHEAT','DE4-E_IDVU-HOTWTR')=0;                                                                      
@@ -50,6 +56,12 @@ XHCOST('SE2_IDVU-SPACEHEAT','SE2_IDVU-HOTWTR')=0;
 XHCOST('SE3_IDVU-SPACEHEAT','SE3_IDVU-HOTWTR')=0;                                                                          
 XHCOST('SE4_IDVU-SPACEHEAT','SE4_IDVU-HOTWTR')=0;                                                                          
 XHCOST('UK_IDVU-SPACEHEAT','UK_IDVU-HOTWTR')=0;                                                                            
+XHCOST('IT_IDVU-SPACEHEAT','IT_IDVU-HOTWTR')=0;                                                                            
+XHCOST('CH_IDVU-SPACEHEAT','CH_IDVU-HOTWTR')=0;                                                                            
+XHCOST('AT_IDVU-SPACEHEAT','AT_IDVU-HOTWTR')=0;                                                                            
+XHCOST('CZ_IDVU-SPACEHEAT','CZ_IDVU-HOTWTR')=0;                                                                            
+XHCOST('ES_IDVU-SPACEHEAT','ES_IDVU-HOTWTR')=0;                                                                            
+XHCOST('PT_IDVU-SPACEHEAT','PT_IDVU-HOTWTR')=0;                                                                            
                                                                                                                            
 $ifi not %GROUP_DEMAND_SHIFT%==yes  $goto NO_INDIVUSERS_AAA                                                                
 XHCOST('BE_IDVU_RES_BO_BIO-HOTWTR','BE_IDVU_RES_BO_BIO-SPACEHEAT')=0;                                                      

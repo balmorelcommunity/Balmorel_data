@@ -24,6 +24,12 @@ SOLH_VAR_T('SE2_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('SE1A',SSS,TTT);
 SOLH_VAR_T('SE3_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('SE1A',SSS,TTT);                                                            
 SOLH_VAR_T('SE4_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('SE1A',SSS,TTT);                                                            
 SOLH_VAR_T('UK_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('UK_A',SSS,TTT);                                                             
+SOLH_VAR_T('IT_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('FR_A',SSS,TTT);                                                             
+SOLH_VAR_T('CH_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('DE4-E_A',SSS,TTT);                                                          
+SOLH_VAR_T('AT_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('DE4-E_A',SSS,TTT);                                                          
+SOLH_VAR_T('CZ_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('PL_A',SSS,TTT);                                                             
+SOLH_VAR_T('ES_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('FR_A',SSS,TTT);                                                             
+SOLH_VAR_T('PT_IDVU-HOTWTR',SSS,TTT)=SOLH_VAR_T('FR_A',SSS,TTT);                                                             
                                                                                                                              
                                                                                                                              
 $ifi not %GROUP_DEMAND_SHIFT%==yes                                     $goto NO_INDIVUSERS_AAA                               

@@ -49,5 +49,19 @@ XHMAXK('2016','SE4_IND-LT-NODH','SE4_large')=1149;
 XHMAXK('2016','UK_A','UK_IND-LT-NODH')=18760;                                                       
 XHMAXK('2016','UK_IND-LT-NODH','UK_A')=18760;                                                       
                                                                                                     
+XHMAXK('2016','AT_A','AT_IND-LT-NODH')=5022;                                                        
+XHMAXK('2016','AT_IND-LT-NODH','AT_A')=5022;                                                        
+XHMAXK('2016','CZ_A','CZ_IND-LT-NODH')=6804;                                                        
+XHMAXK('2016','CZ_IND-LT-NODH','CZ_A')=6804;                                                        
+XHMAXK('2016','IT_A','IT_IND-LT-NODH')=18760;                                                       
+XHMAXK('2016','IT_IND-LT-NODH','IT_A')=18760;                                                       
+XHMAXK('2016','CH_A','CH_IND-LT-NODH')=6804;                                                        
+XHMAXK('2016','CH_IND-LT-NODH','CH_A')=6804;                                                        
+XHMAXK('2016','ES_A','ES_IND-LT-NODH')=18760;                                                       
+XHMAXK('2016','ES_IND-LT-NODH','ES_A')=18760;                                                       
+XHMAXK('2016','PT_A','PT_IND-LT-NODH')=6804;                                                        
+XHMAXK('2016','PT_IND-LT-NODH','PT_A')=6804;                                                        
+                                                                                                    
+                                                                                                    
                                                                                                     
 XHMAXK(Y,IAE,IAI)=XHMAXK('2016',IAE,IAI);                                                           

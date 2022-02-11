@@ -17,4 +17,11 @@ ESTONIA                                                                      0.0
 LATVIA                                                                       0.094 
 LITHUANIA                                                                    0.094 
 POLAND                                                                       0.094 
+ITALY                                                                        0.094 
+SWITZERLAND                                                                  0.094 
+AUSTRIA                                                                      0.094 
+CZECH_REPUBLIC                                                               0.094 
+SPAIN                                                                        0.094 
+PORTUGAL                                                                     0.094 
+                                                                                   
 /;                                                                                 

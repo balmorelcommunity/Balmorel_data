@@ -145,4 +145,41 @@ SE4                                                                 .    SE4_IND
 UK                                                                  .    UK_IND-MT-NODH    
 UK                                                                  .    UK_IND-MT-DH      
                                                                                            
+AT                                                                  .    AT_IND-LT-NODH    
+AT                                                                  .    AT_IND-LT-DH      
+AT                                                                  .    AT_IND-MT-NODH    
+AT                                                                  .    AT_IND-MT-DH      
+AT                                                                  .    AT_IND-HT-NODH    
+AT                                                                  .    AT_IND-HT-DH      
+CZ                                                                  .    CZ_IND-LT-NODH    
+CZ                                                                  .    CZ_IND-LT-DH      
+CZ                                                                  .    CZ_IND-MT-NODH    
+CZ                                                                  .    CZ_IND-MT-DH      
+CZ                                                                  .    CZ_IND-HT-NODH    
+CZ                                                                  .    CZ_IND-HT-DH      
+IT                                                                  .    IT_IND-LT-NODH    
+IT                                                                  .    IT_IND-LT-DH      
+IT                                                                  .    IT_IND-MT-NODH    
+IT                                                                  .    IT_IND-MT-DH      
+IT                                                                  .    IT_IND-HT-NODH    
+IT                                                                  .    IT_IND-HT-DH      
+CH                                                                  .    CH_IND-LT-NODH    
+CH                                                                  .    CH_IND-LT-DH      
+CH                                                                  .    CH_IND-MT-NODH    
+CH                                                                  .    CH_IND-MT-DH      
+CH                                                                  .    CH_IND-HT-NODH    
+CH                                                                  .    CH_IND-HT-DH      
+ES                                                                  .    ES_IND-LT-NODH    
+ES                                                                  .    ES_IND-LT-DH      
+ES                                                                  .    ES_IND-MT-NODH    
+ES                                                                  .    ES_IND-MT-DH      
+ES                                                                  .    ES_IND-HT-NODH    
+ES                                                                  .    ES_IND-HT-DH      
+PT                                                                  .    PT_IND-LT-NODH    
+PT                                                                  .    PT_IND-LT-DH      
+PT                                                                  .    PT_IND-MT-NODH    
+PT                                                                  .    PT_IND-MT-DH      
+PT                                                                  .    PT_IND-HT-NODH    
+PT                                                                  .    PT_IND-HT-DH      
+                                                                                           
 /;                                                                                         

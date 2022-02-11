@@ -25,6 +25,12 @@ XHLOSS('SE2_IDVU-HOTWTR','SE2_IDVU-SPACEHEAT')=0;
 XHLOSS('SE3_IDVU-HOTWTR','SE3_IDVU-SPACEHEAT')=0;                                                                        
 XHLOSS('SE4_IDVU-HOTWTR','SE4_IDVU-SPACEHEAT')=0;                                                                        
 XHLOSS('UK_IDVU-HOTWTR','UK_IDVU-SPACEHEAT')=0;                                                                          
+XHLOSS('IT_IDVU-HOTWTR','IT_IDVU-SPACEHEAT')=0;                                                                          
+XHLOSS('CH_IDVU-HOTWTR','CH_IDVU-SPACEHEAT')=0;                                                                          
+XHLOSS('AT_IDVU-HOTWTR','AT_IDVU-SPACEHEAT')=0;                                                                          
+XHLOSS('CZ_IDVU-HOTWTR','CZ_IDVU-SPACEHEAT')=0;                                                                          
+XHLOSS('ES_IDVU-HOTWTR','ES_IDVU-SPACEHEAT')=0;                                                                          
+XHLOSS('PT_IDVU-HOTWTR','PT_IDVU-SPACEHEAT')=0;                                                                          
                                                                                                                          
                                                                                                                          
 *Loss from water heating individual heating areas to dh areas is 0 not do double count losses in distribution network    
@@ -52,6 +58,13 @@ XHLOSS('SE2_IDVU-HOTWTR','SE2_medium')=0;
 XHLOSS('SE3_IDVU-HOTWTR','SE3_large')=0;                                                                                 
 XHLOSS('SE4_IDVU-HOTWTR','SE4_large')=0;                                                                                 
 XHLOSS('UK_IDVU-HOTWTR','UK_A')=0;                                                                                       
+XHLOSS('IT_IDVU-HOTWTR','IT_A')=0;                                                                                       
+XHLOSS('CH_IDVU-HOTWTR','CH_A')=0;                                                                                       
+XHLOSS('AT_IDVU-HOTWTR','AT_A')=0;                                                                                       
+XHLOSS('CZ_IDVU-HOTWTR','CZ_A')=0;                                                                                       
+XHLOSS('ES_IDVU-HOTWTR','ES_A')=0;                                                                                       
+XHLOSS('PT_IDVU-HOTWTR','PT_A')=0;                                                                                       
+                                                                                                                         
 $label INDIVUSERS_AAA                                                                                                    
                                                                                                                          
 $ifi not %GROUP_DEMAND_SHIFT%==yes  $goto NO_INDIVUSERS_AAA                                                              
