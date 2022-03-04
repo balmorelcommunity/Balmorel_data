@@ -272,6 +272,16 @@ GNR_METHANATION-DAC_E-60_Y-2020
 *STEAM REFORMING                                         
 GNR_STEAM-REFORMING_E-70_Y-2020                          
 GNR_STEAM-REFORMING-CCS_E-70_Y-2020                      
+*BIOGAS UPGRADING                                        
+GNR_BIOGASUPGRADING_E-99_Y-2020                          
+GNR_BIOGASUPGRADING_E-99_Y-2030                          
+GNR_BIOGASUPGRADING_E-100_Y-2040                         
+GNR_BIOGASUPGRADING_E-100_Y-2050                         
+*BIOGAS METHANATION                                      
+GNR_BIOGASMETHANATION_E-168_Y-2020                       
+GNR_BIOGASMETHANATION_E-168_Y-2030                       
+GNR_BIOGASMETHANATION_E-168_Y-2040                       
+GNR_BIOGASMETHANATION_E-168_Y-2050                       
 *BACKUP                                                  
 GNR_BACKUP_HYDROGEN                                      
 GNR_BACKUP_BIOMETHANE                                    
