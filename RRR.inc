@@ -25,5 +25,11 @@ LT
 PL                               
 BE                               
 FR                               
+IT                               
+CH                               
+AT                               
+CZ                               
+ES                               
+PT                               
                                  
 /;                               

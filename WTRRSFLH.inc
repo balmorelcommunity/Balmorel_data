@@ -18,7 +18,12 @@ SE2A                                                                            
 SE3A                                                                                                                                                                    4078.00735163047
 SE4A                                                                                                                                                                    4500            
 FR_A                                                                                                                                                                    2999.99997600292
-                                                                                                                                                                                        
+IT_A                                                                                                                                                                    3300            
+CH_A                                                                                                                                                                    4000            
+AT_A                                                                                                                                                                    4000            
+CZ_A                                                                                                                                                                    3000            
+ES_A                                                                                                                                                                    2999.99997600292
+PT_A                                                                                                                                                                    2999.99997600292
 /;                                                                                                                                                                                      
                                                                                                                                                                                         
 * If WTRRSFLH has no values, but solar power is an investment option or has capacity in GKFX: Use the same value as FinA                                                                

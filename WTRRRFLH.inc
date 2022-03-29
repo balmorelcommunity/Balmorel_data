@@ -26,6 +26,12 @@ DK2_NoDH                                                                        
 DK1_NoDH                                                                                                                                                              4819.86064070176
 BE_A                                                                                                                                                                  2999.99997642319
 FR_A                                                                                                                                                                  2843.99998353587
+IT_A                                                                                                                                                                  3300            
+CH_A                                                                                                                                                                  4000            
+AT_A                                                                                                                                                                  4000            
+CZ_A                                                                                                                                                                  2843.99998353587
+ES_A                                                                                                                                                                  2843.99998353587
+PT_A                                                                                                                                                                  2843.99998353587
 /;                                                                                                                                                                                    
                                                                                                                                                                                       
 * If WTRRRFLH has no values, but solar power is an investment option or has capacity in GKFX: Use the same value as FinA                                                              

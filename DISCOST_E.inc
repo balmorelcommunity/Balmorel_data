@@ -24,4 +24,10 @@ EE                                                                       5
 LV                                                                       5   
 LT                                                                       5   
 PL                                                                       5   
+IT                                                                       5   
+CH                                                                       5   
+AT                                                                       5   
+CZ                                                                       5   
+ES                                                                       5   
+PT                                                                       5   
 /;                                                                           
