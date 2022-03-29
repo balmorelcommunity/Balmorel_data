@@ -1,0 +1,7 @@
+PARAMETER FLOWSHAREOUT2OUT(YYY,AAA,PROC,IFLOWIN,IFLOWOUT,IFLOWOUT2,ILOUPFXSET) "Fixed relation (index 4 divided by 5) between two split FLOWs leaving PROC (share)"                                     
+/                                                                                                                                                                                                       
+                                                                                                                                                                                                        
+/                                                                                                                                                                                                       
+;                                                                                                                                                                                                       
+FLOWSHAREOUT2OUT(Y,IA,PROC,IFLOWIN,IFLOWOUT,IFLOWOUT2,ILOUPFXSET)$(FLOWSHAREOUT2OUT(Y,IA,PROC,IFLOWIN,IFLOWOUT,IFLOWOUT2,ILOUPFXSET))=FLOWSHAREOUT2OUT(Y,IA,PROC,IFLOWIN,IFLOWOUT,IFLOWOUT2,ILOUPFXSET);
+                                                                                                                                                                                                        
