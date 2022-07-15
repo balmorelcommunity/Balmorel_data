@@ -29,16 +29,3 @@ AGKN('DK1_Medium-DC_S','G_DC_COLDSTORAGE') = YES;
 AGKN('DK1_Medium-DC_G','G_DC_HEATPUMP')    = YES;
 AGKN('DK1_Medium-DC_G','G_DC_FREECOOLING') = YES;
 $offtext                                         
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 
-                                                 

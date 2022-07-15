@@ -11,4 +11,3 @@ XHINVCOST('2016','DK1_Medium','DK1_Medium-DC_G') = 396000;
 XHINVCOST('2016','DK1_Medium-DC_G','DK1_Medium') = 396000;                                          
                                                                                                     
 XHINVCOST(Y,IAE,IAI)$(YVALUE(Y) GE 2016) =XHINVCOST('2016',IAE,IAI);                                
-                                                                                                    
