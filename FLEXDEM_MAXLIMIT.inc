@@ -1,4 +1,6 @@
-TABLE FLEXMAXLIMIT1(SSS, TTT, FLEXUSER) 'Maximum flexible consumption wrt. season and term (%)'
+* Normalised, inverse of mobility demand as a maximum charging constraint on flexible EV demand
+* Data from KFZ mobility demand in Brown, T., D. Schlachtberger, A. Kies, S. Schramm, and M. Greiner. ‘Synergies of Sector Coupling and Transmission Reinforcement in a Cost-Optimised, Highly Renewable European Energy System’. Energy 160 (October 2018): 720–39. https://doi.org/10.1016/j.energy.2018.06.222.
+TABLE FLEXMAXLIMIT1(SSS, TTT, FLEXUSER) 'Maximum flexible consumption wrt. season and term (%)'                          
             ELECTRIC_VEHICLES
                              
 S01 . T001           0.599795
