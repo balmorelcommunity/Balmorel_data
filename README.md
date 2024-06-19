@@ -1,9 +1,9 @@
 # README #
 
-The master branch of this repository holds the main dataset for Flex4RES. The corresponding xlsm file (generating the all the .inc files in the repository) can be found [here][xlsm]. For trying out changes on datasets please use branches and follow the following instructions for changes on the master branch.
+This branch contain data for the simple Balmorel model used in the 3-week DTU course in June. The corresponding xlsm file (generating the all the .inc files in the repository) will be distributed on DTU Learn. 
 
-## Generating .inc files
-* Store the Flex4Res dataset in any convenient directory
+## Generating .inc files from excel
+* Store the excel file in a directory outside OneDrive synchronization, or pause OneDrive while using the file
 * In the same diretory/On the same level create a new folder for the .inc files (e.g. data)
 * Open the sheet 'Settings' of the dataset
 * Enable Editing
@@ -11,12 +11,12 @@ The master branch of this repository holds the main dataset for Flex4RES. The co
 * Edit the Export diretory - only the name of the folder created in step 2: data\
 * Press the 'Export All' button
 
-## Making changes to the master branch
+<!-- ## Making changes to the master branch
 * Changes to the master branch are only possible through a pull request.
-* A pull request must only be approved if the resulting dataset corresponds to the latest major version of the xlsm file.
+* A pull request must only be approved if the resulting dataset corresponds to the latest major version of the xlsm file. -->
 
-## Making changes to the xlsm file on the Flex4RES sharepoint
+<!-- ## Making changes to the xlsm file on the Flex4RES sharepoint
 * Get access to the sharepoint.
-* Open the [xlsm file][xlsm] in excel (~~i.e. choose save file~~). When you open it in excel and switch to the edit mode, the file is checked out, so no one else can edit the file at the same time as you are editing it. 
+* Open the [xlsm file][xlsm] in excel (~~i.e. choose save file~~). When you open it in excel and switch to the edit mode, the file is checked out, so no one else can edit the file at the same time as you are editing it.  -->
 
-[xlsm]: https://share.dtu.dk/sites/Flex4RES_119500/Version%20Controlled%20Files/Data.xlsm  "Version controlled xlsm file on the Flex4RES Sharepoint"
+<!-- [xlsm]: https://share.dtu.dk/sites/Flex4RES_119500/Version%20Controlled%20Files/Data.xlsm  "Version controlled xlsm file on the Flex4RES Sharepoint" -->
