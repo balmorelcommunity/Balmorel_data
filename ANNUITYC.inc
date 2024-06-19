@@ -6,22 +6,7 @@ PARAMETER ANNUITYC(CCC) 'Transforms investment to annual payment (fraction)'
 * Unit: (none).                                                                    
 * The present value 0.094 corressponds to 20 years and 7%                          
 /                                                                                  
-GERMANY                                                                      0.094 
 DENMARK                                                                      0.094 
-FINLAND                                                                      0.094 
-NETHERLANDS                                                                  0.094 
 NORWAY                                                                       0.094 
-SWEDEN                                                                       0.094 
-UNITED_KINGDOM                                                               0.094 
-ESTONIA                                                                      0.094 
-LATVIA                                                                       0.094 
-LITHUANIA                                                                    0.094 
-POLAND                                                                       0.094 
-ITALY                                                                        0.094 
-SWITZERLAND                                                                  0.094 
-AUSTRIA                                                                      0.094 
-CZECH_REPUBLIC                                                               0.094 
-SPAIN                                                                        0.094 
-PORTUGAL                                                                     0.094 
                                                                                    
 /;                                                                                 

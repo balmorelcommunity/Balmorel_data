@@ -8,8 +8,3 @@ ACRONYMS
 BIOMETHANE               
 HYDROGEN                 
 ;                        
-                         
-                         
-                         
-                         
-                         
