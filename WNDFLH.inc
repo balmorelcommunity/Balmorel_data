@@ -441,10 +441,34 @@ AT_A                                                                            
 CZ_A                                                                                                                                                          2320.69103648979
 ES_A                                                                                                                                                          2139.99028820649
 PT_A                                                                                                                                                          2393.96667335751
+SK_A                                                                                                                                                          2213.059609     
+HU_A                                                                                                                                                          2213.059609     
+SI_A                                                                                                                                                          2213.059609     
+HR_A                                                                                                                                                          2611.59857      
+RO_A                                                                                                                                                          2186.396721     
+BG_A                                                                                                                                                          2044.745689     
+GR_A                                                                                                                                                          2747.468827     
+IE_A                                                                                                                                                          2525.575063     
+LU_A                                                                                                                                                          2278.51197      
+AL_A                                                                                                                                                          2747.468827     
+ME_A                                                                                                                                                          2186.396721     
+MK_A                                                                                                                                                          2747.468827     
+BA_A                                                                                                                                                          2186.396721     
+RS_A                                                                                                                                                          2186.396721     
+TR_A                                                                                                                                                          2910.608415     
+MT_A                                                                                                                                                          2278.51197      
+CY_A                                                                                                                                                          1497.732909     
                                                                                                                                                                               
 IT_Offshore                                                                                                                                                   2878.38008832735
 ES_Offshore                                                                                                                                                   3747.75641304071
 PT_Offshore                                                                                                                                                   3897.57171047313
+*HR_Offshore                                                                                                                                                  3897.57171047313
+*RO_Offshore                                                                                                                                                  3897.57171047313
+*BG_Offshore                                                                                                                                                  3897.57171047313
+*GR_offshore                                                                                                                                                  3897.57171047313
+*IE_Offshore                                                                                                                                                  3897.57171047313
+*AL_Offshore                                                                                                                                                  3897.57171047313
+*ME_Offshore                                                                                                                                                  3897.57171047313
                                                                                                                                                                               
 ES_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2791.55932252644
 PT_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2700.24941412192
@@ -452,6 +476,23 @@ CH_VRE-ONS_SP277-HH100_RG1                                                      
 CZ_VRE-ONS_SP277-HH100_RG1                                                                                                                                    3031.31514348154
 AT_VRE-ONS_SP277-HH100_RG1                                                                                                                                    3111.31905561089
 IT_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2680.99035577411
+SK_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2988.776416     
+HU_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2461.650332     
+SI_VRE-ONS_SP277-HH100_RG1                                                                                                                                    3182.374809     
+HR_VRE-ONS_SP277-HH100_RG1                                                                                                                                    3063.238886     
+RO_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2374.927189     
+BG_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2732.345715     
+GR_VRE-ONS_SP277-HH100_RG1                                                                                                                                    3212.527902     
+IE_VRE-ONS_SP277-HH100_RG1                                                                                                                                    4710.18104      
+LU_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2235.247329     
+AL_VRE-ONS_SP277-HH100_RG1                                                                                                                                    3626.948976     
+ME_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2582.357796     
+MK_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2350.963237     
+BA_VRE-ONS_SP277-HH100_RG1                                                                                                                                    3073.036192     
+RS_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2602.94051      
+TR_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2938.893654     
+MT_VRE-ONS_SP277-HH100_RG1                                                                                                                                    2194.74919      
+CY_VRE-ONS_SP277-HH100_RG1                                                                                                                                    1902.409447     
                                                                                                                                                                               
 ES_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1997.54930393408
 PT_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1951.17659507284
@@ -459,6 +500,23 @@ CH_VRE-ONS_SP277-HH100_RG2                                                      
 CZ_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2360.00058460463
 AT_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2257.074378362  
 IT_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1777.80462888778
+SK_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2234.03595      
+HU_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2116.344739     
+SI_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1963.058972     
+HR_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2253.213684     
+RO_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1755.025702     
+BG_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1887.055904     
+GR_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1947.021558     
+IE_VRE-ONS_SP277-HH100_RG2                                                                                                                                    4186.805168     
+LU_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2147.404083     
+AL_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2211.347778     
+ME_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1582.748727     
+MK_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1487.359454     
+BA_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1700.711218     
+RS_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1963.83213      
+TR_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1846.3326       
+MT_VRE-ONS_SP277-HH100_RG2                                                                                                                                    2023.597076     
+CY_VRE-ONS_SP277-HH100_RG2                                                                                                                                    1567.437042     
                                                                                                                                                                               
 ES_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1332.57437484954
 PT_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1393.69671479128
@@ -466,6 +524,23 @@ CH_VRE-ONS_SP277-HH100_RG3                                                      
 CZ_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1776.50220680965
 AT_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1441.90425140995
 IT_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1058.00752820006
+SK_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1373.981396     
+HU_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1789.685444     
+SI_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1012.902975     
+HR_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1429.772696     
+RO_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1175.106441     
+BG_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1175.079907     
+GR_VRE-ONS_SP277-HH100_RG3                                                                                                                                    930.3797773     
+IE_VRE-ONS_SP277-HH100_RG3                                                                                                                                    3582.37103      
+LU_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1753.017139     
+AL_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1283.65805      
+ME_VRE-ONS_SP277-HH100_RG3                                                                                                                                    680.286152      
+MK_VRE-ONS_SP277-HH100_RG3                                                                                                                                    743.4449676     
+BA_VRE-ONS_SP277-HH100_RG3                                                                                                                                    843.9305312     
+RS_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1325.729116     
+TR_VRE-ONS_SP277-HH100_RG3                                                                                                                                    951.9501253     
+MT_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1852.444962     
+CY_VRE-ONS_SP277-HH100_RG3                                                                                                                                    1073.521491     
                                                                                                                                                                               
 ES_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3532.47964812325
 PT_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3521.66168129137
@@ -473,6 +548,23 @@ CH_VRE-ONS_SP198-HH150_RG1                                                      
 CZ_VRE-ONS_SP198-HH150_RG1                                                                                                                                    4050.89213878474
 AT_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3881.74570066547
 IT_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3262.57431246876
+SK_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3903.286029     
+HU_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3453.765727     
+SI_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3884.440373     
+HR_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3816.769789     
+RO_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3242.858324     
+BG_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3592.864396     
+GR_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3873.951853     
+IE_VRE-ONS_SP198-HH150_RG1                                                                                                                                    5749.887183     
+LU_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3431.710767     
+AL_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3937.111629     
+ME_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3017.633421     
+MK_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3019.361376     
+BA_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3692.662649     
+RS_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3519.988355     
+TR_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3597.951575     
+MT_VRE-ONS_SP198-HH150_RG1                                                                                                                                    3231.132992     
+CY_VRE-ONS_SP198-HH150_RG1                                                                                                                                    2524.709259     
                                                                                                                                                                               
 ES_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2842.33407900062
 PT_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2891.58098876802
@@ -480,6 +572,23 @@ CH_VRE-ONS_SP198-HH150_RG2                                                      
 CZ_VRE-ONS_SP198-HH150_RG2                                                                                                                                    3469.57705561034
 AT_VRE-ONS_SP198-HH150_RG2                                                                                                                                    3213.47188961342
 IT_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2418.98322360171
+SK_VRE-ONS_SP198-HH150_RG2                                                                                                                                    3274.979776     
+HU_VRE-ONS_SP198-HH150_RG2                                                                                                                                    3108.883564     
+SI_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2880.776437     
+HR_VRE-ONS_SP198-HH150_RG2                                                                                                                                    3124.886585     
+RO_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2596.270263     
+BG_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2770.425009     
+GR_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2624.829964     
+IE_VRE-ONS_SP198-HH150_RG2                                                                                                                                    5412.871972     
+LU_VRE-ONS_SP198-HH150_RG2                                                                                                                                    3331.272704     
+AL_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2805.926661     
+ME_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2195.502732     
+MK_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2218.197036     
+BA_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2512.241888     
+RS_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2908.264924     
+TR_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2609.008339     
+MT_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2935.535636     
+CY_VRE-ONS_SP198-HH150_RG2                                                                                                                                    2231.192227     
                                                                                                                                                                               
 ES_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2074.75652156435
 PT_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2321.21749502414
@@ -487,6 +596,23 @@ CH_VRE-ONS_SP198-HH150_RG3                                                      
 CZ_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2857.51915422542
 AT_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2296.94546749239
 IT_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1610.00371652176
+SK_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2339.279898     
+HU_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2752.94041      
+SI_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1832.752966     
+HR_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2276.159369     
+RO_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1901.122238     
+BG_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1847.516126     
+GR_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1472.059495     
+IE_VRE-ONS_SP198-HH150_RG3                                                                                                                                    4900.407888     
+LU_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2923.139521     
+AL_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1964.141356     
+ME_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1137.479464     
+MK_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1337.244205     
+BA_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1568.917462     
+RS_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2183.015603     
+TR_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1545.007605     
+MT_VRE-ONS_SP198-HH150_RG3                                                                                                                                    2639.93828      
+CY_VRE-ONS_SP198-HH150_RG3                                                                                                                                    1562.961079     
                                                                                                                                                                               
                                                                                                                                                                               
                                                                                                                                                                               
@@ -513,6 +639,62 @@ ES_VRE-ONS_LWST100_RG3                                                          
 PT_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
 PT_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
 PT_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+SK_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+SK_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+SK_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+HU_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+HU_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+HU_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+SI_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+SI_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+SI_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+HR_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+HR_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+HR_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+RO_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+RO_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+RO_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+BG_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+BG_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+BG_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+GR_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+GR_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+GR_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+IE_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+IE_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+IE_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+LU_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+LU_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+LU_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+AL_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+AL_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+AL_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+ME_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+ME_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+ME_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+MK_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+MK_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+MK_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+BA_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+BA_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+BA_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
+                                                                                                                                                                              
+RS_VRE-ONS_LWST100_RG1                                                                                                                                        4786.27162976022
+RS_VRE-ONS_LWST100_RG2                                                                                                                                        4539.26690293154
+RS_VRE-ONS_LWST100_RG3                                                                                                                                        3784.15499049261
                                                                                                                                                                               
 IT_VRE-OFF1_RG1_20-30                                                                                                                                         3526.19370123808
 IT_VRE-OFF1_RG1_30-40                                                                                                                                         3702.50338629999
@@ -552,6 +734,136 @@ PT_VRE-OFF1_RG3_20-30                                                           
 PT_VRE-OFF1_RG3_30-40                                                                                                                                         3702.50338629999
 PT_VRE-OFF1_RG3_40-50                                                                                                                                         3878.81307136189
 PT_VRE-OFF1_RG3_50                                                                                                                                            4055.1227564238 
+                                                                                                                                                                              
+HR_VRE-OFF1_RG1_20-30                                                                                                                                         2398.62970549634
+HR_VRE-OFF1_RG1_30-40                                                                                                                                         2499.70774305818
+HR_VRE-OFF1_RG1_40-50                                                                                                                                         2598.18117513221
+HR_VRE-OFF1_RG1_50                                                                                                                                            2695.39273246713
+HR_VRE-OFF1_RG2_20-30                                                                                                                                         2398.62970549634
+HR_VRE-OFF1_RG2_30-40                                                                                                                                         2499.70774305818
+HR_VRE-OFF1_RG2_40-50                                                                                                                                         2598.18117513221
+HR_VRE-OFF1_RG2_50                                                                                                                                            2695.39273246713
+HR_VRE-OFF1_RG3_20-30                                                                                                                                         2398.62970549634
+HR_VRE-OFF1_RG3_30-40                                                                                                                                         2499.70774305818
+HR_VRE-OFF1_RG3_40-50                                                                                                                                         2598.18117513221
+HR_VRE-OFF1_RG3_50                                                                                                                                            2695.39273246713
+                                                                                                                                                                              
+RO_VRE-OFF1_RG1_20-30                                                                                                                                         2929.23652631198
+RO_VRE-OFF1_RG1_30-40                                                                                                                                         3032.89402063084
+RO_VRE-OFF1_RG1_40-50                                                                                                                                         3133.43608051617
+RO_VRE-OFF1_RG1_50                                                                                                                                            3230.56252552564
+RO_VRE-OFF1_RG2_20-30                                                                                                                                         2929.23652631198
+RO_VRE-OFF1_RG2_30-40                                                                                                                                         3032.89402063084
+RO_VRE-OFF1_RG2_40-50                                                                                                                                         3133.43608051617
+RO_VRE-OFF1_RG2_50                                                                                                                                            3230.56252552564
+RO_VRE-OFF1_RG3_20-30                                                                                                                                         2929.23652631198
+RO_VRE-OFF1_RG3_30-40                                                                                                                                         3032.89402063084
+RO_VRE-OFF1_RG3_40-50                                                                                                                                         3133.43608051617
+RO_VRE-OFF1_RG3_50                                                                                                                                            3230.56252552564
+                                                                                                                                                                              
+BG_VRE-OFF1_RG1_20-30                                                                                                                                         2922.68532047856
+BG_VRE-OFF1_RG1_30-40                                                                                                                                         3027.80996564977
+BG_VRE-OFF1_RG1_40-50                                                                                                                                         3129.9781688524 
+BG_VRE-OFF1_RG1_50                                                                                                                                            3229.88000059142
+BG_VRE-OFF1_RG2_20-30                                                                                                                                         2922.68532047856
+BG_VRE-OFF1_RG2_30-40                                                                                                                                         3027.80996564977
+BG_VRE-OFF1_RG2_40-50                                                                                                                                         3129.9781688524 
+BG_VRE-OFF1_RG2_50                                                                                                                                            3229.88000059142
+BG_VRE-OFF1_RG3_20-30                                                                                                                                         2922.68532047856
+BG_VRE-OFF1_RG3_30-40                                                                                                                                         3027.80996564977
+BG_VRE-OFF1_RG3_40-50                                                                                                                                         3129.9781688524 
+BG_VRE-OFF1_RG3_50                                                                                                                                            3229.88000059142
+                                                                                                                                                                              
+GR_VRE-OFF1_RG1_20-30                                                                                                                                         3842.36286094026
+GR_VRE-OFF1_RG1_30-40                                                                                                                                         4020.01816454043
+GR_VRE-OFF1_RG1_40-50                                                                                                                                         4189.26405513987
+GR_VRE-OFF1_RG1_50                                                                                                                                            4345.58086099342
+GR_VRE-OFF1_RG2_20-30                                                                                                                                         3842.36286094026
+GR_VRE-OFF1_RG2_30-40                                                                                                                                         4020.01816454043
+GR_VRE-OFF1_RG2_40-50                                                                                                                                         4189.26405513987
+GR_VRE-OFF1_RG2_50                                                                                                                                            4345.58086099342
+GR_VRE-OFF1_RG3_20-30                                                                                                                                         3842.36286094026
+GR_VRE-OFF1_RG3_30-40                                                                                                                                         4020.01816454043
+GR_VRE-OFF1_RG3_40-50                                                                                                                                         4189.26405513987
+GR_VRE-OFF1_RG3_50                                                                                                                                            4345.58086099342
+                                                                                                                                                                              
+IE_VRE-OFF1_RG1_20-30                                                                                                                                         5099.91227925584
+IE_VRE-OFF1_RG1_30-40                                                                                                                                         5232.37700597635
+IE_VRE-OFF1_RG1_40-50                                                                                                                                         5350.65317190255
+IE_VRE-OFF1_RG1_50                                                                                                                                            5460.39206137259
+IE_VRE-OFF1_RG2_20-30                                                                                                                                         5099.91227925584
+IE_VRE-OFF1_RG2_30-40                                                                                                                                         5232.37700597635
+IE_VRE-OFF1_RG2_40-50                                                                                                                                         5350.65317190255
+IE_VRE-OFF1_RG2_50                                                                                                                                            5460.39206137259
+IE_VRE-OFF1_RG3_20-30                                                                                                                                         5099.91227925584
+IE_VRE-OFF1_RG3_30-40                                                                                                                                         5232.37700597635
+IE_VRE-OFF1_RG3_40-50                                                                                                                                         5350.65317190255
+IE_VRE-OFF1_RG3_50                                                                                                                                            5460.39206137259
+                                                                                                                                                                              
+AL_VRE-OFF1_RG1_20-30                                                                                                                                         2694.34084152389
+AL_VRE-OFF1_RG1_30-40                                                                                                                                         2787.25338188116
+AL_VRE-OFF1_RG1_40-50                                                                                                                                         2876.50383576929
+AL_VRE-OFF1_RG1_50                                                                                                                                            2963.19956724271
+AL_VRE-OFF1_RG2_20-30                                                                                                                                         2694.34084152389
+AL_VRE-OFF1_RG2_30-40                                                                                                                                         2787.25338188116
+AL_VRE-OFF1_RG2_40-50                                                                                                                                         2876.50383576929
+AL_VRE-OFF1_RG2_50                                                                                                                                            2963.19956724271
+AL_VRE-OFF1_RG3_20-30                                                                                                                                         2694.34084152389
+AL_VRE-OFF1_RG3_30-40                                                                                                                                         2787.25338188116
+AL_VRE-OFF1_RG3_40-50                                                                                                                                         2876.50383576929
+AL_VRE-OFF1_RG3_50                                                                                                                                            2963.19956724271
+                                                                                                                                                                              
+ME_VRE-OFF1_RG1_20-30                                                                                                                                         2310.14085717099
+ME_VRE-OFF1_RG1_30-40                                                                                                                                         2396.34023678488
+ME_VRE-OFF1_RG1_40-50                                                                                                                                         2479.23134620973
+ME_VRE-OFF1_RG1_50                                                                                                                                            2560.32025554256
+ME_VRE-OFF1_RG2_20-30                                                                                                                                         2310.14085717099
+ME_VRE-OFF1_RG2_30-40                                                                                                                                         2396.34023678488
+ME_VRE-OFF1_RG2_40-50                                                                                                                                         2479.23134620973
+ME_VRE-OFF1_RG2_50                                                                                                                                            2560.32025554256
+ME_VRE-OFF1_RG3_20-30                                                                                                                                         2310.14085717099
+ME_VRE-OFF1_RG3_30-40                                                                                                                                         2396.34023678488
+ME_VRE-OFF1_RG3_40-50                                                                                                                                         2479.23134620973
+ME_VRE-OFF1_RG3_50                                                                                                                                            2560.32025554256
+                                                                                                                                                                              
+TR_VRE-OFF1_RG1_20-30                                                                                                                                         3116.8040156603 
+TR_VRE-OFF1_RG1_30-40                                                                                                                                         3268.25358667879
+TR_VRE-OFF1_RG1_40-50                                                                                                                                         3420.59991845567
+TR_VRE-OFF1_RG1_50                                                                                                                                            3573.87761744027
+TR_VRE-OFF1_RG2_20-30                                                                                                                                         3116.8040156603 
+TR_VRE-OFF1_RG2_30-40                                                                                                                                         3268.25358667879
+TR_VRE-OFF1_RG2_40-50                                                                                                                                         3420.59991845567
+TR_VRE-OFF1_RG2_50                                                                                                                                            3573.87761744027
+TR_VRE-OFF1_RG3_20-30                                                                                                                                         3116.8040156603 
+TR_VRE-OFF1_RG3_30-40                                                                                                                                         3268.25358667879
+TR_VRE-OFF1_RG3_40-50                                                                                                                                         3420.59991845567
+TR_VRE-OFF1_RG3_50                                                                                                                                            3573.87761744027
+                                                                                                                                                                              
+MT_VRE-OFF1_RG1_20-30                                                                                                                                         2733.48773312769
+MT_VRE-OFF1_RG1_30-40                                                                                                                                         2824.18996225503
+MT_VRE-OFF1_RG1_40-50                                                                                                                                         2909.31358193719
+MT_VRE-OFF1_RG1_50                                                                                                                                            2991.07550960886
+MT_VRE-OFF1_RG2_20-30                                                                                                                                         2733.48773312769
+MT_VRE-OFF1_RG2_30-40                                                                                                                                         2824.18996225503
+MT_VRE-OFF1_RG2_40-50                                                                                                                                         2909.31358193719
+MT_VRE-OFF1_RG2_50                                                                                                                                            2991.07550960886
+MT_VRE-OFF1_RG3_20-30                                                                                                                                         2733.48773312769
+MT_VRE-OFF1_RG3_30-40                                                                                                                                         2824.18996225503
+MT_VRE-OFF1_RG3_40-50                                                                                                                                         2909.31358193719
+MT_VRE-OFF1_RG3_50                                                                                                                                            2991.07550960886
+                                                                                                                                                                              
+CY_VRE-OFF1_RG1_20-30                                                                                                                                         1959.12287798246
+CY_VRE-OFF1_RG1_30-40                                                                                                                                         2045.80805591531
+CY_VRE-OFF1_RG1_40-50                                                                                                                                         2133.40515111999
+CY_VRE-OFF1_RG1_50                                                                                                                                            2221.87611280985
+CY_VRE-OFF1_RG2_20-30                                                                                                                                         1959.12287798246
+CY_VRE-OFF1_RG2_30-40                                                                                                                                         2045.80805591531
+CY_VRE-OFF1_RG2_40-50                                                                                                                                         2133.40515111999
+CY_VRE-OFF1_RG2_50                                                                                                                                            2221.87611280985
+CY_VRE-OFF1_RG3_20-30                                                                                                                                         1959.12287798246
+CY_VRE-OFF1_RG3_30-40                                                                                                                                         2045.80805591531
+CY_VRE-OFF1_RG3_40-50                                                                                                                                         2133.40515111999
+CY_VRE-OFF1_RG3_50                                                                                                                                            2221.87611280985
                                                                                                                                                                               
                                                                                                                                                                               
 /;                                                                                                                                                                            

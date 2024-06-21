@@ -32,6 +32,15 @@ AT                                                                              
 CZ                                                                                                        1172                    
 ES                                                                                                        35032.2580645161        
 PT                                                                                                        2952                    
+SK                                                                                                        2952                    
+HU                                                                                                        2952                    
+SI                                                                                                        2952                    
+HR                                                                                                        2952                    
+RO                                                                                                        2952                    
+BG                                                                                                        2952                    
+GR                                                                                                        2952                    
+IE                                                                                                        2952                    
+LU                                                                                                        2952                    
                                                                                                                                   
                                                                                                                                   
 *National potentials (not activated by default)                                                                                   

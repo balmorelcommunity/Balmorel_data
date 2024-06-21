@@ -30,4 +30,21 @@ AUSTRIA                                                .    AT
 CZECH_REPUBLIC                                         .    CZ     
 SPAIN                                                  .    ES     
 PORTUGAL                                               .    PT     
+SLOVAKIA                                               .    SK     
+HUNGARY                                                .    HU     
+SLOVENIA                                               .    SI     
+CROATIA                                                .    HR     
+ROMANIA                                                .    RO     
+BULGARIA                                               .    BG     
+GREECE                                                 .    GR     
+IRELAND                                                .    IE     
+LUXEMBOURG                                             .    LU     
+ALBANIA                                                .    AL     
+MONTENEGRO                                             .    ME     
+NORTH_MACEDONIA                                        .    MK     
+BOSNIA_AND_HERZEGOVINA                                 .    BA     
+SERBIA                                                 .    RS     
+TURKEY                                                 .    TR     
+MALTA                                                  .    MT     
+CYPRUS                                                 .    CY     
 /;                                                                 

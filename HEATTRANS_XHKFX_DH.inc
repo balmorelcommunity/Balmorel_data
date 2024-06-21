@@ -56,9 +56,6 @@ PARAMETER XHKFX_DH(YYY,IAAAI,IAAAE) "Exogenous heat transmission capacity for in
 2016     .       LT_VilU         .       LT_VilU         1704.344741
 2016     .       LT_SiaU         .       LT_SiaU         279.0506701
 2016     .       LT_Other_DH     .       LT_Other_DH     3445.852787
-2016     .       AT_A            .       AT_A            387.3930411
-2016     .       CZ_A            .       CZ_A            1115.020639
-
 /;
 
 XHKFX_DH(Y,IAI,IAE)$XHKFX_DH('2016',IAI,IAE)=XHKFX_DH('2016',IAI,IAE);
