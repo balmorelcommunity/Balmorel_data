@@ -1,6 +1,6 @@
 # README #
 
-The master branch of this repository implements major developments made to the model from the branch "A-unified-European-hydrogen-infrastructure-planning-to-support-the-rapid-scale-up-of-hydrogen-production"
+Data for the master branch of the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel)
 
 ## Generating .inc files from Excel
 * An excel file exist that can be used to generate .inc-files in this repository
