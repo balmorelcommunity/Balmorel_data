@@ -83,6 +83,23 @@ AT_A                                                                            
 CZ_A                                                                                                                                                                600             
 ES_A                                                                                                                                                                800             
 PT_A                                                                                                                                                                800             
+SK_A                                                                                                                                                                800             
+HU_A                                                                                                                                                                800             
+SI_A                                                                                                                                                                800             
+HR_A                                                                                                                                                                800             
+RO_A                                                                                                                                                                800             
+BG_A                                                                                                                                                                800             
+GR_A                                                                                                                                                                800             
+IE_A                                                                                                                                                                800             
+LU_A                                                                                                                                                                800             
+AL_A                                                                                                                                                                800             
+ME_A                                                                                                                                                                800             
+MK_A                                                                                                                                                                800             
+BA_A                                                                                                                                                                800             
+RS_A                                                                                                                                                                800             
+TR_A                                                                                                                                                                800             
+MT_A                                                                                                                                                                800             
+CY_A                                                                                                                                                                800             
                                                                                                                                                                                     
 /;                                                                                                                                                                                  
                                                                                                                                                                                     

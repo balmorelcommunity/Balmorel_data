@@ -60,6 +60,33 @@ ES_A                                                              2
 PT_A                                                              2   
 ES_Offshore                                                       2   
 PT_Offshore                                                       2   
+SK_A                                                              2   
+HU_A                                                              2   
+SI_A                                                              2   
+HR_A                                                              2   
+HR_Offshore                                                       2   
+RO_A                                                              2   
+RO_Offshore                                                       2   
+BG_A                                                              2   
+BG_Offshore                                                       2   
+GR_A                                                              2   
+GR_Offshore                                                       2   
+IE_A                                                              2   
+IE_Offshore                                                       2   
+LU_A                                                              2   
+AL_A                                                              2   
+AL_Offshore                                                       2   
+ME_A                                                              2   
+ME_Offshore                                                       2   
+MK_A                                                              2   
+BA_A                                                              2   
+RS_A                                                              2   
+TR_A                                                              2   
+MT_A                                                              2   
+CY_A                                                              2   
+TR_Offshore                                                       2   
+MT_Offshore                                                       2   
+CY_Offshore                                                       2   
                                                                       
                                                                       
 /;                                                                    

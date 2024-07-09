@@ -40,6 +40,23 @@ AT_IDVU-HOTWTR                                                                  
 CZ_IDVU-HOTWTR                                                                                                                 1                                                                      
 ES_IDVU-HOTWTR                                                                                                                 1                                                                      
 PT_IDVU-HOTWTR                                                                                                                 1                                                                      
+SK_IDVU-HOTWTR                                                                                                                 1                                                                      
+HU_IDVU-HOTWTR                                                                                                                 1                                                                      
+SI_IDVU-HOTWTR                                                                                                                 1                                                                      
+HR_IDVU-HOTWTR                                                                                                                 1                                                                      
+RO_IDVU-HOTWTR                                                                                                                 1                                                                      
+BG_IDVU-HOTWTR                                                                                                                 1                                                                      
+GR_IDVU-HOTWTR                                                                                                                 1                                                                      
+IE_IDVU-HOTWTR                                                                                                                 1                                                                      
+LU_IDVU-HOTWTR                                                                                                                 1                                                                      
+AL_IDVU-HOTWTR                                                                                                                 1                                                                      
+ME_IDVU-HOTWTR                                                                                                                 1                                                                      
+MK_IDVU-HOTWTR                                                                                                                 1                                                                      
+BA_IDVU-HOTWTR                                                                                                                 1                                                                      
+RS_IDVU-HOTWTR                                                                                                                 1                                                                      
+TR_IDVU-HOTWTR                                                                                                                 1                                                                      
+MT_IDVU-HOTWTR                                                                                                                 1                                                                      
+CY_IDVU-HOTWTR                                                                                                                 1                                                                      
                                                                                                                                                                                                       
                                                                                                                                                                                                       
 BE_IDVU-SPACEHEAT                                                                                                                                                                 1                   
@@ -72,6 +89,23 @@ AT_IDVU-SPACEHEAT                                                               
 CZ_IDVU-SPACEHEAT                                                                                                                                                                 1                   
 ES_IDVU-SPACEHEAT                                                                                                                                                                 1                   
 PT_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+SK_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+HU_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+SI_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+HR_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+RO_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+BG_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+GR_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+IE_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+LU_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+AL_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+ME_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+MK_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+BA_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+RS_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+TR_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+MT_IDVU-SPACEHEAT                                                                                                                                                                 1                   
+CY_IDVU-SPACEHEAT                                                                                                                                                                 1                   
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

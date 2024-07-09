@@ -1,9 +1,10 @@
 # README #
 
-The master branch of this repository holds the main dataset for Flex4RES. The corresponding xlsm file (generating the all the .inc files in the repository) can be found [here][xlsm]. For trying out changes on datasets please use branches and follow the following instructions for changes on the master branch.
+Data for the master branch of the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel). Clone this repository into base/ for easy version control of both framework code and base data. Remember to rename the cloned folder from "Balmorel_data" to "data" for proper functioning. 
 
-## Generating .inc files
-* Store the Flex4Res dataset in any convenient directory
+## Generating .inc files from Excel
+* An excel file exist that can be used to generate .inc-files in this repository
+* Store the file in a directory outside of OneDrive synchronisation
 * In the same diretory/On the same level create a new folder for the .inc files (e.g. data)
 * Open the sheet 'Settings' of the dataset
 * Enable Editing
@@ -15,8 +16,3 @@ The master branch of this repository holds the main dataset for Flex4RES. The co
 * Changes to the master branch are only possible through a pull request.
 * A pull request must only be approved if the resulting dataset corresponds to the latest major version of the xlsm file.
 
-## Making changes to the xlsm file on the Flex4RES sharepoint
-* Get access to the sharepoint.
-* Open the [xlsm file][xlsm] in excel (~~i.e. choose save file~~). When you open it in excel and switch to the edit mode, the file is checked out, so no one else can edit the file at the same time as you are editing it. 
-
-[xlsm]: https://share.dtu.dk/sites/Flex4RES_119500/Version%20Controlled%20Files/Data.xlsm  "Version controlled xlsm file on the Flex4RES Sharepoint"

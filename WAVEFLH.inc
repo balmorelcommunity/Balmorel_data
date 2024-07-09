@@ -33,5 +33,22 @@ AT_A                                                             1040
 CZ_A                                                             1040
 ES_A                                                             1040
 PT_A                                                             1040
+SK_A                                                             1040
+HU_A                                                             1040
+SI_A                                                             1040
+HR_A                                                             1040
+RO_A                                                             1040
+BG_A                                                             1040
+GR_A                                                             1040
+IE_A                                                             1040
+LU_A                                                             1040
+AL_A                                                             1040
+ME_A                                                             1040
+MK_A                                                             1040
+BA_A                                                             1040
+RS_A                                                             1040
+TR_A                                                             1040
+MT_A                                                             1040
+CY_A                                                             1040
                                                                      
 /;                                                                   

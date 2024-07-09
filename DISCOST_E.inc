@@ -30,4 +30,21 @@ AT                                                                       5
 CZ                                                                       5   
 ES                                                                       5   
 PT                                                                       5   
+SK                                                                       5   
+HU                                                                       5   
+SI                                                                       5   
+HR                                                                       5   
+RO                                                                       5   
+BG                                                                       5   
+GR                                                                       5   
+IE                                                                       5   
+LU                                                                       5   
+AL                                                                       5   
+ME                                                                       5   
+MK                                                                       5   
+BA                                                                       5   
+RS                                                                       5   
+TR                                                                       5   
+MT                                                                       5   
+CY                                                                       5   
 /;                                                                           
