@@ -1,1 +1,1 @@
-GKFX()
+GKFX(YYY,AAA,GGG) = 0;
