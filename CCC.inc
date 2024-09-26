@@ -1,7 +1,7 @@
 SET CCC(CCCRRRAAA)  'All Countries'
 /                                  
 NORWAY                             
-DENMARK                            
+DENMARK 
 FINLAND                            
 GERMANY                            
 NETHERLANDS                        
@@ -18,22 +18,5 @@ SWITZERLAND
 AUSTRIA                            
 CZECH_REPUBLIC                     
 SPAIN                              
-PORTUGAL                           
-SLOVAKIA                           
-HUNGARY                            
-SLOVENIA                           
-CROATIA                            
-ROMANIA                            
-BULGARIA                           
-GREECE                             
-IRELAND                            
-LUXEMBOURG                         
-ALBANIA                            
-MONTENEGRO                         
-NORTH_MACEDONIA                    
-BOSNIA_AND_HERZEGOVINA             
-SERBIA                             
-TURKEY                             
-MALTA                              
-CYPRUS                             
+PORTUGAL                          
 /;                                 

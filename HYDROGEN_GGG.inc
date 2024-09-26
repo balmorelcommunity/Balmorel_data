@@ -266,8 +266,7 @@ GNR_H2S_H2-CAVERN_Y-2020
 GNR_H2S_H2-CAVERN_Y-2030                           
 GNR_H2S_H2-CAVERN_Y-2040                           
 GNR_H2S_H2-CAVERN_Y-2050                           
-*IMPORT HYDROGEN IK                                
-GNR_IMPORT_H2                                      
+                                                   
 *METHANATION+CO2 DIRECT AIR CAPTURE                
 GNR_METHANATION-DAC_E-60_Y-2020                    
 *STEAM REFORMING                                   

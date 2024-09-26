@@ -1,7 +1,8 @@
-SET CCCRRR(CCC,RRR) "Regions in countries"                         
-/                                                                  
-DENMARK                                                .    DK2    
-DENMARK                                                .    DK1    
+SET CCCRRR(CCC, RRR) 'Regions in countries'       
+/
+DENMARK. DK_1
+DENMARK. DK_2
+
 FINLAND                                                .    FIN    
 GERMANY                                                .    DE4-E  
 GERMANY                                                .    DE4-N  
@@ -29,22 +30,6 @@ SWITZERLAND                                            .    CH
 AUSTRIA                                                .    AT     
 CZECH_REPUBLIC                                         .    CZ     
 SPAIN                                                  .    ES     
-PORTUGAL                                               .    PT     
-SLOVAKIA                                               .    SK     
-HUNGARY                                                .    HU     
-SLOVENIA                                               .    SI     
-CROATIA                                                .    HR     
-ROMANIA                                                .    RO     
-BULGARIA                                               .    BG     
-GREECE                                                 .    GR     
-IRELAND                                                .    IE     
-LUXEMBOURG                                             .    LU     
-ALBANIA                                                .    AL     
-MONTENEGRO                                             .    ME     
-NORTH_MACEDONIA                                        .    MK     
-BOSNIA_AND_HERZEGOVINA                                 .    BA     
-SERBIA                                                 .    RS     
-TURKEY                                                 .    TR     
-MALTA                                                  .    MT     
-CYPRUS                                                 .    CY     
-/;                                                                 
+PORTUGAL                                               .    PT 
+/
+;

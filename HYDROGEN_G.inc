@@ -282,8 +282,8 @@ GNR_BIOGASMETHANATION_E-168_Y-2020
 GNR_BIOGASMETHANATION_E-168_Y-2030                 
 GNR_BIOGASMETHANATION_E-168_Y-2040                 
 GNR_BIOGASMETHANATION_E-168_Y-2050                 
-*IMPORT HYDROGEN IK                                
-GNR_IMPORT_H2                                      
+                                                   
+                                                   
 *BACKUP                                            
 GNR_BACKUP_HYDROGEN                                
 GNR_BACKUP_BIOMETHANE                              

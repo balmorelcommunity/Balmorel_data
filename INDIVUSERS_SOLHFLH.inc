@@ -31,25 +31,8 @@ SOLHFLH('IT_IDVU-HOTWTR')=709.367418438484;
 SOLHFLH('CH_IDVU-HOTWTR')=612.251263689368;                                                        
 SOLHFLH('AT_IDVU-HOTWTR')=612.251263689368;                                                        
 SOLHFLH('CZ_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('CY_IDVU-HOTWTR')=709.367418438484;                                                        
+SOLHFLH('ES_IDVU-HOTWTR')=709.367418438484;                                                        
 SOLHFLH('PT_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('SK_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('HU_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('SI_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('HR_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('RO_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('BG_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('GR_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('IE_IDVU-HOTWTR')=455.498730490753;                                                        
-SOLHFLH('LU_IDVU-HOTWTR')=561.986968554354;                                                        
-SOLHFLH('AL_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('ME_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('MK_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('BA_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('RS_IDVU-HOTWTR')=584.952690003189;                                                        
-SOLHFLH('TR_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('MT_IDVU-HOTWTR')=709.367418438484;                                                        
-SOLHFLH('CY_IDVU-HOTWTR')=709.367418438484;                                                        
                                                                                                    
 $ifi not %GROUP_DEMAND_SHIFT%==yes                                $goto NO_INDIVUSERS_AAA          
 SOLHFLH('BE_IDVU_RES-HOTWTR')=                                    SOLHFLH('BE_IDVU-HOTWTR')    ;   
