@@ -1,471 +1,355 @@
-
-SET INVDATASET_IND                                                                                                                                                                                                                            
-/                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-IND-HT-DH                                                                                                               'industry process high temperature connected to DH'                                                                   
-IND-MT-DH                                                                                                               'industry process medium temperature connected to DH'                                                                 
-IND-LT-DH                                                                                                               'industry process low temperature connected to DH'                                                                    
-IND-HT-NODH                                                                                                             'industry process high temperature not connected to DH'                                                               
-IND-MT-NODH                                                                                                             'industry process medium temperature not connected to DH'                                                             
-IND-LT-NODH                                                                                                             'industry process low temperature not connected to DH'                                                                
-/;                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-*** TABLE to connect areas to regions, countries and other subsets                                                                                                                                                                            
-TABLE INVDATA_IND(AAA,INVDATASET_IND)                                                                                                                                                                                                         
-                                                                                                                        IND-HT-DH                                                 IND-LT-DH IND-HT-NODH IND-LT-NODH IND-MT-DH IND-MT-NODH     
-BE_IND-HT-NODH                                                                                                                                                                              1                                                 
-BE_IND-HT-DH                                                                                                            1                                                                                                                     
-DE4-E_IND-HT-NODH                                                                                                                                                                           1                                                 
-DE4-E_IND-HT-DH                                                                                                         1                                                                                                                     
-DE4-N_IND-HT-NODH                                                                                                                                                                           1                                                 
-DE4-N_IND-HT-DH                                                                                                         1                                                                                                                     
-DE4-S_IND-HT-NODH                                                                                                                                                                           1                                                 
-DE4-S_IND-HT-DH                                                                                                         1                                                                                                                     
-DE4-W_IND-HT-NODH                                                                                                                                                                           1                                                 
-DE4-W_IND-HT-DH                                                                                                         1                                                                                                                     
-DK1_IND-HT-NODH                                                                                                                                                                             1                                                 
-DK1_IND-HT-DH                                                                                                           1                                                                                                                     
-DK2_IND-HT-NODH                                                                                                                                                                             1                                                 
-DK2_IND-HT-DH                                                                                                           1                                                                                                                     
-EE_IND-HT-NODH                                                                                                                                                                              1                                                 
-EE_IND-HT-DH                                                                                                            1                                                                                                                     
-FIN_IND-HT-NODH                                                                                                                                                                             1                                                 
-FIN_IND-HT-DH                                                                                                           1                                                                                                                     
-FR_IND-HT-NODH                                                                                                                                                                              1                                                 
-FR_IND-HT-DH                                                                                                            1                                                                                                                     
-LT_IND-HT-NODH                                                                                                                                                                              1                                                 
-LT_IND-HT-DH                                                                                                            1                                                                                                                     
-LV_IND-HT-NODH                                                                                                                                                                              1                                                 
-LV_IND-HT-DH                                                                                                            1                                                                                                                     
-NL_IND-HT-NODH                                                                                                                                                                              1                                                 
-NL_IND-HT-DH                                                                                                            1                                                                                                                     
-NO1_IND-HT-NODH                                                                                                                                                                             1                                                 
-NO1_IND-HT-DH                                                                                                           1                                                                                                                     
-NO2_IND-HT-NODH                                                                                                                                                                             1                                                 
-NO2_IND-HT-DH                                                                                                           1                                                                                                                     
-NO3_IND-HT-NODH                                                                                                                                                                             1                                                 
-NO3_IND-HT-DH                                                                                                           1                                                                                                                     
-NO4_IND-HT-NODH                                                                                                                                                                             1                                                 
-NO4_IND-HT-DH                                                                                                           1                                                                                                                     
-NO5_IND-HT-NODH                                                                                                                                                                             1                                                 
-NO5_IND-HT-DH                                                                                                           1                                                                                                                     
-PL_IND-HT-NODH                                                                                                                                                                              1                                                 
-PL_IND-HT-DH                                                                                                            1                                                                                                                     
-SE1_IND-HT-NODH                                                                                                                                                                             1                                                 
-SE1_IND-HT-DH                                                                                                           1                                                                                                                     
-SE2_IND-HT-NODH                                                                                                                                                                             1                                                 
-SE2_IND-HT-DH                                                                                                           1                                                                                                                     
-SE3_IND-HT-NODH                                                                                                                                                                             1                                                 
-SE3_IND-HT-DH                                                                                                           1                                                                                                                     
-SE4_IND-HT-NODH                                                                                                                                                                             1                                                 
-SE4_IND-HT-DH                                                                                                           1                                                                                                                     
-UK_IND-HT-NODH                                                                                                                                                                              1                                                 
-UK_IND-HT-DH                                                                                                            1                                                                                                                     
-BE_IND-LT-NODH                                                                                                                                                                                          1                                     
-BE_IND-LT-DH                                                                                                                                                                      1                                                           
-DE4-E_IND-LT-NODH                                                                                                                                                                                       1                                     
-DE4-E_IND-LT-DH                                                                                                                                                                   1                                                           
-DE4-N_IND-LT-NODH                                                                                                                                                                                       1                                     
-DE4-N_IND-LT-DH                                                                                                                                                                   1                                                           
-DE4-S_IND-LT-NODH                                                                                                                                                                                       1                                     
-DE4-S_IND-LT-DH                                                                                                                                                                   1                                                           
-DE4-W_IND-LT-NODH                                                                                                                                                                                       1                                     
-DE4-W_IND-LT-DH                                                                                                                                                                   1                                                           
-DK1_IND-LT-NODH                                                                                                                                                                                         1                                     
-DK1_IND-LT-DH                                                                                                                                                                     1                                                           
-DK2_IND-LT-NODH                                                                                                                                                                                         1                                     
-DK2_IND-LT-DH                                                                                                                                                                     1                                                           
-EE_IND-LT-NODH                                                                                                                                                                                          1                                     
-EE_IND-LT-DH                                                                                                                                                                      1                                                           
-FIN_IND-LT-NODH                                                                                                                                                                                         1                                     
-FIN_IND-LT-DH                                                                                                                                                                     1                                                           
-FR_IND-LT-NODH                                                                                                                                                                                          1                                     
-FR_IND-LT-DH                                                                                                                                                                      1                                                           
-LT_IND-LT-NODH                                                                                                                                                                                          1                                     
-LT_IND-LT-DH                                                                                                                                                                      1                                                           
-LV_IND-LT-NODH                                                                                                                                                                                          1                                     
-LV_IND-LT-DH                                                                                                                                                                      1                                                           
-NL_IND-LT-NODH                                                                                                                                                                                          1                                     
-NL_IND-LT-DH                                                                                                                                                                      1                                                           
-NO1_IND-LT-NODH                                                                                                                                                                                         1                                     
-NO1_IND-LT-DH                                                                                                                                                                     1                                                           
-NO2_IND-LT-NODH                                                                                                                                                                                         1                                     
-NO2_IND-LT-DH                                                                                                                                                                     1                                                           
-NO3_IND-LT-NODH                                                                                                                                                                                         1                                     
-NO3_IND-LT-DH                                                                                                                                                                     1                                                           
-NO4_IND-LT-NODH                                                                                                                                                                                         1                                     
-NO4_IND-LT-DH                                                                                                                                                                     1                                                           
-NO5_IND-LT-NODH                                                                                                                                                                                         1                                     
-NO5_IND-LT-DH                                                                                                                                                                     1                                                           
-PL_IND-LT-NODH                                                                                                                                                                                          1                                     
-PL_IND-LT-DH                                                                                                                                                                      1                                                           
-SE1_IND-LT-NODH                                                                                                                                                                                         1                                     
-SE1_IND-LT-DH                                                                                                                                                                     1                                                           
-SE2_IND-LT-NODH                                                                                                                                                                                         1                                     
-SE2_IND-LT-DH                                                                                                                                                                     1                                                           
-SE3_IND-LT-NODH                                                                                                                                                                                         1                                     
-SE3_IND-LT-DH                                                                                                                                                                     1                                                           
-SE4_IND-LT-NODH                                                                                                                                                                                         1                                     
-SE4_IND-LT-DH                                                                                                                                                                     1                                                           
-UK_IND-LT-NODH                                                                                                                                                                                          1                                     
-UK_IND-LT-DH                                                                                                                                                                      1                                                           
-BE_IND-MT-NODH                                                                                                                                                                                                                1               
-BE_IND-MT-DH                                                                                                                                                                                                        1                         
-DE4-E_IND-MT-NODH                                                                                                                                                                                                             1               
-DE4-E_IND-MT-DH                                                                                                                                                                                                     1                         
-DE4-N_IND-MT-NODH                                                                                                                                                                                                             1               
-DE4-N_IND-MT-DH                                                                                                                                                                                                     1                         
-DE4-S_IND-MT-NODH                                                                                                                                                                                                             1               
-DE4-S_IND-MT-DH                                                                                                                                                                                                     1                         
-DE4-W_IND-MT-NODH                                                                                                                                                                                                             1               
-DE4-W_IND-MT-DH                                                                                                                                                                                                     1                         
-DK1_IND-MT-NODH                                                                                                                                                                                                               1               
-DK1_IND-MT-DH                                                                                                                                                                                                       1                         
-DK2_IND-MT-NODH                                                                                                                                                                                                               1               
-DK2_IND-MT-DH                                                                                                                                                                                                       1                         
-EE_IND-MT-NODH                                                                                                                                                                                                                1               
-EE_IND-MT-DH                                                                                                                                                                                                        1                         
-FIN_IND-MT-NODH                                                                                                                                                                                                               1               
-FIN_IND-MT-DH                                                                                                                                                                                                       1                         
-FR_IND-MT-NODH                                                                                                                                                                                                                1               
-FR_IND-MT-DH                                                                                                                                                                                                        1                         
-LT_IND-MT-NODH                                                                                                                                                                                                                1               
-LT_IND-MT-DH                                                                                                                                                                                                        1                         
-LV_IND-MT-NODH                                                                                                                                                                                                                1               
-LV_IND-MT-DH                                                                                                                                                                                                        1                         
-NL_IND-MT-NODH                                                                                                                                                                                                                1               
-NL_IND-MT-DH                                                                                                                                                                                                        1                         
-NO1_IND-MT-NODH                                                                                                                                                                                                               1               
-NO1_IND-MT-DH                                                                                                                                                                                                       1                         
-NO2_IND-MT-NODH                                                                                                                                                                                                               1               
-NO2_IND-MT-DH                                                                                                                                                                                                       1                         
-NO3_IND-MT-NODH                                                                                                                                                                                                               1               
-NO3_IND-MT-DH                                                                                                                                                                                                       1                         
-NO4_IND-MT-NODH                                                                                                                                                                                                               1               
-NO4_IND-MT-DH                                                                                                                                                                                                       1                         
-NO5_IND-MT-NODH                                                                                                                                                                                                               1               
-NO5_IND-MT-DH                                                                                                                                                                                                       1                         
-PL_IND-MT-NODH                                                                                                                                                                                                                1               
-PL_IND-MT-DH                                                                                                                                                                                                        1                         
-SE1_IND-MT-NODH                                                                                                                                                                                                               1               
-SE1_IND-MT-DH                                                                                                                                                                                                       1                         
-SE2_IND-MT-NODH                                                                                                                                                                                                               1               
-SE2_IND-MT-DH                                                                                                                                                                                                       1                         
-SE3_IND-MT-NODH                                                                                                                                                                                                               1               
-SE3_IND-MT-DH                                                                                                                                                                                                       1                         
-SE4_IND-MT-NODH                                                                                                                                                                                                               1               
-SE4_IND-MT-DH                                                                                                                                                                                                       1                         
-UK_IND-MT-NODH                                                                                                                                                                                                                1               
-UK_IND-MT-DH                                                                                                                                                                                                        1                         
-                                                                                                                                                                                                                                              
-AT_IND-LT-NODH                                                                                                                                                                                          1                                     
-AT_IND-LT-DH                                                                                                                                                                      1                                                           
-AT_IND-MT-NODH                                                                                                                                                                                                                1               
-AT_IND-MT-DH                                                                                                                                                                                                        1                         
-AT_IND-HT-NODH                                                                                                                                                                              1                                                 
-AT_IND-HT-DH                                                                                                            1                                                                                                                     
-CZ_IND-LT-NODH                                                                                                                                                                                          1                                     
-CZ_IND-LT-DH                                                                                                                                                                      1                                                           
-CZ_IND-MT-NODH                                                                                                                                                                                                                1               
-CZ_IND-MT-DH                                                                                                                                                                                                        1                         
-CZ_IND-HT-NODH                                                                                                                                                                              1                                                 
-CZ_IND-HT-DH                                                                                                            1                                                                                                                     
-IT_IND-LT-NODH                                                                                                                                                                                          1                                     
-IT_IND-LT-DH                                                                                                                                                                      1                                                           
-IT_IND-MT-NODH                                                                                                                                                                                                                1               
-IT_IND-MT-DH                                                                                                                                                                                                        1                         
-IT_IND-HT-NODH                                                                                                                                                                              1                                                 
-IT_IND-HT-DH                                                                                                            1                                                                                                                     
-CH_IND-LT-NODH                                                                                                                                                                                          1                                     
-CH_IND-LT-DH                                                                                                                                                                      1                                                           
-CH_IND-MT-NODH                                                                                                                                                                                                                1               
-CH_IND-MT-DH                                                                                                                                                                                                        1                         
-CH_IND-HT-NODH                                                                                                                                                                              1                                                 
-CH_IND-HT-DH                                                                                                            1                                                                                                                     
-ES_IND-LT-NODH                                                                                                                                                                                          1                                     
-ES_IND-LT-DH                                                                                                                                                                      1                                                           
-ES_IND-MT-NODH                                                                                                                                                                                                                1               
-ES_IND-MT-DH                                                                                                                                                                                                        1                         
-ES_IND-HT-NODH                                                                                                                                                                              1                                                 
-ES_IND-HT-DH                                                                                                            1                                                                                                                     
-PT_IND-LT-NODH                                                                                                                                                                                          1                                     
-PT_IND-LT-DH                                                                                                                                                                      1                                                           
-PT_IND-MT-NODH                                                                                                                                                                                                                1               
-PT_IND-MT-DH                                                                                                                                                                                                        1                         
-PT_IND-HT-NODH                                                                                                                                                                              1                                                 
-PT_IND-HT-DH                                                                                                            1                                                                                                                     
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-$ontext                                                                                                                                                                                                                                       
-To avoid manual entry in each area the following catagories of areas are defined.                                                                                                                                                             
-Note that each area can belong to one group only                                                                                                                                                                                              
-1 - High temperature industry connected to district heating                                                                                                                                                                                   
-2 - Medium temperature industry connected to district heating                                                                                                                                                                                 
-3 - Low temperature industry connected to district heating                                                                                                                                                                                    
-4 - High temperature industry not connected to district heating                                                                                                                                                                               
-5 - Medium temperature industry not connected to district heating                                                                                                                                                                             
-6 - Low temperature industry not connected to district heating                                                                                                                                                                                
-                                                                                                                                                                                                                                              
-$offtext                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-SET ALLOWEDINV_IND(AAA,GGG) "Area, technology where technolgy may be invested based on AGKN and implicit constraints "/                                                                                                                       
-                                                                                                                                                                                                                                              
-*GROUP 1 -  High temperature industry connected to district heating                                                                                                                                                                           
-DK1_IND-HT-DH.(                                                                                                                                                                                                                               
-GNR_IND-DF_ELEC_E-100_MS-5-MW_Y-2020                                                                                                                                                                                                          
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020                                                                                                                                                                                                      
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_IND-DF_NGAS_E-100_MS-3-MW_Y-2020                                                                                                                                                                                                          
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-)                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-*GROUP 2 -  Medium temperature industry connected to district heating                                                                                                                                                                         
-DK1_IND-MT-DH.(                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                              
-GNR_ENG_NGAS_BP_E-47_Y-2020                                                                                                                                                                                                                   
-GNR_ENG_NGAS_BP_E-48_Y-2030                                                                                                                                                                                                                   
-GNR_ENG_NGAS_BP_E-49_Y-2040                                                                                                                                                                                                                   
-GNR_ENG_NGAS_BP_E-50_Y-2050                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_CC_NGAS_BP_E-51_SS-10-MW_Y-2020                                                                                                                                                                                                           
-GNR_CC_NGAS_BP_E-53_SS-10-MW_Y-2030                                                                                                                                                                                                           
-GNR_CC_NGAS_BP_E-54_SS-10-MW_Y-2040                                                                                                                                                                                                           
-GNR_CC_NGAS_BP_E-55_SS-10-MW_Y-2050                                                                                                                                                                                                           
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_GT_NGAS_BP_E-37_SS-5-MW_Y-2020                                                                                                                                                                                                            
-GNR_GT_NGAS_BP_E-39_SS-5-MW_Y-2030                                                                                                                                                                                                            
-GNR_GT_NGAS_BP_E-40_SS-5-MW_Y-2040                                                                                                                                                                                                            
-GNR_GT_NGAS_BP_E-40_SS-5-MW_Y-2050                                                                                                                                                                                                            
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020                                                                                                                                                                                                            
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                                                                      
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                                                                      
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2040                                                                                                                                                                                                      
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                                                                      
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                                                                   
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                                                                   
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2040                                                                                                                                                                                                   
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2040                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                                                                   
-                                                                                                                                                                                                                                              
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2020                                                                                                                                                                                                         
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2030                                                                                                                                                                                                         
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2040                                                                                                                                                                                                         
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2050                                                                                                                                                                                                         
-                                                                                                                                                                                                                                              
-GNR_IND-BO_NGAS_E-93_MS-20-MW_Y-2020                                                                                                                                                                                                          
-GNR_IND-BO_NGAS_E-94_MS-20-MW_Y-2030                                                                                                                                                                                                          
-GNR_IND-BO_NGAS_E-95_MS-20-MW_Y-2040                                                                                                                                                                                                          
-GNR_IND-BO_NGAS_E-96_MS-20-MW_Y-2050                                                                                                                                                                                                          
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2020                                                                                                                                                                                                       
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2030                                                                                                                                                                                                       
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2040                                                                                                                                                                                                       
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2050                                                                                                                                                                                                       
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-)                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-*Group 3 -Low temperature industry connected to district heating                                                                                                                                                                              
-DK1_IND-LT-DH.(                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                              
-GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010                                                                                                                                                                                                           
-                                                                                                                                                                                                                                              
-GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                                                                         
-GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                                                                         
-GNR_HP_ELEC_AIR-WTR_COP-343_LS_Y-2040                                                                                                                                                                                                         
-GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                                                                         
-                                                                                                                                                                                                                                              
-)                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-*GROUP 4 -  High temperature industry not connected to district heating                                                                                                                                                                       
-DK1_IND-HT-NODH.(                                                                                                                                                                                                                             
-GNR_IND-DF_ELEC_E-100_MS-5-MW_Y-2020                                                                                                                                                                                                          
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020                                                                                                                                                                                                      
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_IND-DF_NGAS_E-100_MS-3-MW_Y-2020                                                                                                                                                                                                          
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-)                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-*GROUP 5 -  Medium temperature industry not connected to district heating                                                                                                                                                                     
-DK1_IND-MT-NODH.(                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-GNR_ENG_NGAS_BP_E-47_Y-2020                                                                                                                                                                                                                   
-GNR_ENG_NGAS_BP_E-48_Y-2030                                                                                                                                                                                                                   
-GNR_ENG_NGAS_BP_E-49_Y-2040                                                                                                                                                                                                                   
-GNR_ENG_NGAS_BP_E-50_Y-2050                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_CC_NGAS_BP_E-51_SS-10-MW_Y-2020                                                                                                                                                                                                           
-GNR_CC_NGAS_BP_E-53_SS-10-MW_Y-2030                                                                                                                                                                                                           
-GNR_CC_NGAS_BP_E-54_SS-10-MW_Y-2040                                                                                                                                                                                                           
-GNR_CC_NGAS_BP_E-55_SS-10-MW_Y-2050                                                                                                                                                                                                           
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_GT_NGAS_BP_E-37_SS-5-MW_Y-2020                                                                                                                                                                                                            
-GNR_GT_NGAS_BP_E-39_SS-5-MW_Y-2030                                                                                                                                                                                                            
-GNR_GT_NGAS_BP_E-40_SS-5-MW_Y-2040                                                                                                                                                                                                            
-GNR_GT_NGAS_BP_E-40_SS-5-MW_Y-2050                                                                                                                                                                                                            
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020                                                                                                                                                                                                            
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                                                                      
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                                                                      
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2040                                                                                                                                                                                                      
-GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                                                                      
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020                                                                                                                                                                                                   
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030                                                                                                                                                                                                   
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2040                                                                                                                                                                                                   
-GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2020                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2030                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2040                                                                                                                                                                                                   
-GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050                                                                                                                                                                                                   
-                                                                                                                                                                                                                                              
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2020                                                                                                                                                                                                         
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2030                                                                                                                                                                                                         
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2040                                                                                                                                                                                                         
-GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2050                                                                                                                                                                                                         
-                                                                                                                                                                                                                                              
-GNR_IND-BO_NGAS_E-93_MS-20-MW_Y-2020                                                                                                                                                                                                          
-GNR_IND-BO_NGAS_E-94_MS-20-MW_Y-2030                                                                                                                                                                                                          
-GNR_IND-BO_NGAS_E-95_MS-20-MW_Y-2040                                                                                                                                                                                                          
-GNR_IND-BO_NGAS_E-96_MS-20-MW_Y-2050                                                                                                                                                                                                          
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2020                                                                                                                                                                                                       
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2030                                                                                                                                                                                                       
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2040                                                                                                                                                                                                       
-GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2050                                                                                                                                                                                                       
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-)                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-*Group 6 -Low temperature industry not connected to district heating                                                                                                                                                                          
-DK1_IND-LT-NODH.(                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010                                                                                                                                                                                                           
-                                                                                                                                                                                                                                              
-GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020                                                                                                                                                                                                         
-GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030                                                                                                                                                                                                         
-GNR_HP_ELEC_AIR-WTR_COP-343_LS_Y-2040                                                                                                                                                                                                         
-GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050                                                                                                                                                                                                         
-                                                                                                                                                                                                                                              
-)                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-/;                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                              
-ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-HT-DH')=1)  and ALLOWEDINV_IND('DK1_IND-HT-DH',G))         = yes ;                                                                                                                               
-ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-MT-DH')=1)  and ALLOWEDINV_IND('DK1_IND-MT-DH',G))         = yes ;                                                                                                                               
-ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-LT-DH')=1)  and ALLOWEDINV_IND('DK1_IND-LT-DH',G))         = yes ;                                                                                                                               
-ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-HT-NODH')=1)  and ALLOWEDINV_IND('DK1_IND-HT-NODH',G))         = yes ;                                                                                                                           
-ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-MT-NODH')=1)  and ALLOWEDINV_IND('DK1_IND-MT-NODH',G))         = yes ;                                                                                                                           
-ALLOWEDINV_IND(AAA,G)$((INVDATA_IND(AAA,'IND-LT-NODH')=1)  and ALLOWEDINV_IND('DK1_IND-LT-NODH',G))         = yes ;                                                                                                                           
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-AGKN(AAA,G)=YES$(ALLOWEDINV_IND(AAA,G) OR AGKN(AAA,G));                                                                                                                                                                                       
-                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                              
-*Assigning Estonian peat CHP options.                                                                                                                                                                                                         
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2020')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2030')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2040')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-NODH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2050')=YES;                                                                                                                                                                       
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2020')=YES;                                                                                                                                                                         
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2030')=YES;                                                                                                                                                                         
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2040')=YES;                                                                                                                                                                         
-*AGKN('EE_IND-MT-DH','GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2050')=YES;                                                                                                                                                                         
+SET LOWTEMP_INV_OPTIONS(GGG)
+/
+GNR_HP_ELEC_AIR-WTR_COP-310_LS_Y-2020
+GNR_HP_ELEC_AIR-WTR_COP-330_LS_Y-2030
+GNR_HP_ELEC_AIR-WTR_COP-343_LS_Y-2040
+GNR_HP_ELEC_AIR-WTR_COP-360_LS_Y-2050
+GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010  
+/;
+SET MIDTEMP_INV_OPTIONS(GGG)
+/
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2020      
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2030      
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2040      
+GNR_BO_ELEC_E-99_LS-10-MW-FEED_Y-2050      
+GNR_CC_NGAS_BP_E-51_SS-10-MW_Y-2020        
+GNR_CC_NGAS_BP_E-53_SS-10-MW_Y-2030        
+GNR_CC_NGAS_BP_E-54_SS-10-MW_Y-2040        
+GNR_CC_NGAS_BP_E-55_SS-10-MW_Y-2050        
+GNR_ENG_NGAS_BP_E-47_Y-2020                
+GNR_ENG_NGAS_BP_E-48_Y-2030                
+GNR_ENG_NGAS_BP_E-49_Y-2040                
+GNR_ENG_NGAS_BP_E-50_Y-2050                
+GNR_GT_NGAS_BP_E-37_SS-5-MW_Y-2020         
+GNR_GT_NGAS_BP_E-39_SS-5-MW_Y-2030         
+GNR_GT_NGAS_BP_E-40_SS-5-MW_Y-2040         
+GNR_GT_NGAS_BP_E-40_SS-5-MW_Y-2050         
+GNR_IND-BO_NGAS_E-93_MS-20-MW_Y-2020       
+GNR_IND-BO_NGAS_E-94_MS-20-MW_Y-2030       
+GNR_IND-BO_NGAS_E-95_MS-20-MW_Y-2040       
+GNR_IND-BO_NGAS_E-96_MS-20-MW_Y-2050       
+GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2020    
+GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2030    
+GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2040    
+GNR_IND-BO_WOODCHI_E-90_MS-20-MW_Y-2050    
+GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020         
+GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2020   
+GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2030   
+GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2040   
+GNR_ST_STRW_BP_E-17_SS-20-MW-FEED_Y-2050   
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2020
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2030
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2040
+GNR_ST_WOODCHI_BP_E-16_SS-20-MW-FEED_Y-2050
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2020
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2030
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2040
+GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050
+/;
+SET HIGHTEMP_INV_OPTIONS(GGG)
+/
+GNR_IND-DF_ELEC_E-100_MS-5-MW_Y-2020    
+GNR_IND-DF_NGAS_E-100_MS-3-MW_Y-2020    
+GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020
+/;
 
 
-AGKN('DK_1_IND-HT-NODH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
-AGKN('DK_1_IND-HT-DH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
-AGKN('DK_1_IND-LT-NODH', 'GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010') = YES;
-AGKN('DK_1_IND-LT-DH', 'GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010') = YES;
-AGKN('DK_1_IND-MT-NODH', 'GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050') = YES;
-AGKN('DK_1_IND-MT-DH', 'GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050') = YES;
-AGKN('DK_2_IND-HT-NODH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
-AGKN('DK_2_IND-HT-DH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
-AGKN('DK_2_IND-LT-NODH', 'GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010') = YES;
-AGKN('DK_2_IND-LT-DH', 'GNR_HS_HEAT_WTR-TANK_LS_E-95_Y-2010') = YES;
-AGKN('DK_2_IND-MT-NODH', 'GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050') = YES;
-AGKN('DK_2_IND-MT-DH', 'GNR_ST_WOODPEL_BP_E-17_SS-20-MW-FEED_Y-2050') = YES;AGKN('DK_1_IND-LT-NODH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
-AGKN('DK_1_IND-LT-DH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
-AGKN('DK_2_IND-LT-NODH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
-AGKN('DK_2_IND-LT-DH', 'GNR_IND-DF_WOODCHI_E-100_MS-10-MW_Y-2020') = YES;
+AGKN('Aabenraa_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Aalborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Aarhus_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Aeroe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Albertslund_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Alleroed_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Assens_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Ballerup_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Billund_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Bornholm_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Broendby_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Broenderslev_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Christiansoe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Dragoer_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Egedal_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Esbjerg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Faaborg-Midtfyn_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Fanoe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Favrskov_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Faxe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Fredensborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Fredericia_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Frederiksberg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Frederikshavn_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Frederikssund_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Furesoe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Gentofte_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Gladsaxe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Glostrup_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Greve_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Gribskov_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Guldborgsund_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Haderslev_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Halsnaes_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Hedensted_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Helsingoer_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Herlev_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Herning_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Hilleroed_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Hjoerring_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Hoeje-Taastrup_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Hoersholm_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Holbaek_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Holstebro_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Horsens_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Hvidovre_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Ikast-Brande_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Ishoej_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Jammerbugt_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Kalundborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Kerteminde_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Koebenhavn_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Koege_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Kolding_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Laesoe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Langeland_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Lejre_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Lemvig_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Lolland_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Lyngby-Taarbaek_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Mariagerfjord_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Middelfart_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Morsoe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Naestved_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Norddjurs_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Nordfyns_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Nyborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Odder_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Odense_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Odsherred_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Randers_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Rebild_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Ringkoebing-Skjern_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Ringsted_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Roedovre_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Roskilde_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Rudersdal_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Samsoe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Silkeborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Skanderborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Skive_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Slagelse_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Soenderborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Solroed_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Soroe_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Stevns_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Struer_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Svendborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Syddjurs_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Taarnby_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Thisted_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Toender_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Vallensbaek_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Varde_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Vejen_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Vejle_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Vesthimmerlands_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Viborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
+AGKN('Vordingborg_IND-LT-NODH',GGG) = LOWTEMP_INV_OPTIONS(GGG);
 
+AGKN('Aabenraa_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Aalborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Aarhus_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Aeroe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Albertslund_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Alleroed_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Assens_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Ballerup_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Billund_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Bornholm_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Broendby_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Broenderslev_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Christiansoe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Dragoer_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Egedal_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Esbjerg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Faaborg-Midtfyn_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Fanoe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Favrskov_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Faxe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Fredensborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Fredericia_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Frederiksberg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Frederikshavn_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Frederikssund_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Furesoe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Gentofte_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Gladsaxe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Glostrup_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Greve_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Gribskov_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Guldborgsund_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Haderslev_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Halsnaes_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Hedensted_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Helsingoer_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Herlev_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Herning_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Hilleroed_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Hjoerring_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Hoeje-Taastrup_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Hoersholm_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Holbaek_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Holstebro_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Horsens_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Hvidovre_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Ikast-Brande_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Ishoej_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Jammerbugt_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Kalundborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Kerteminde_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Koebenhavn_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Koege_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Kolding_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Laesoe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Langeland_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Lejre_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Lemvig_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Lolland_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Lyngby-Taarbaek_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Mariagerfjord_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Middelfart_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Morsoe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Naestved_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Norddjurs_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Nordfyns_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Nyborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Odder_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Odense_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Odsherred_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Randers_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Rebild_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Ringkoebing-Skjern_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Ringsted_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Roedovre_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Roskilde_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Rudersdal_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Samsoe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Silkeborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Skanderborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Skive_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Slagelse_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Soenderborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Solroed_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Soroe_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Stevns_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Struer_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Svendborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Syddjurs_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Taarnby_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Thisted_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Toender_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Vallensbaek_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Varde_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Vejen_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Vejle_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Vesthimmerlands_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Viborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
+AGKN('Vordingborg_IND-MT-NODH',GGG) = MIDTEMP_INV_OPTIONS(GGG);
 
+AGKN('Aabenraa_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Aalborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Aarhus_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Aeroe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Albertslund_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Alleroed_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Assens_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Ballerup_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Billund_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Bornholm_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Broendby_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Broenderslev_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Christiansoe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Dragoer_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Egedal_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Esbjerg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Faaborg-Midtfyn_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Fanoe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Favrskov_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Faxe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Fredensborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Fredericia_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Frederiksberg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Frederikshavn_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Frederikssund_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Furesoe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Gentofte_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Gladsaxe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Glostrup_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Greve_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Gribskov_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Guldborgsund_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Haderslev_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Halsnaes_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Hedensted_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Helsingoer_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Herlev_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Herning_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Hilleroed_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Hjoerring_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Hoeje-Taastrup_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Hoersholm_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Holbaek_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Holstebro_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Horsens_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Hvidovre_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Ikast-Brande_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Ishoej_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Jammerbugt_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Kalundborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Kerteminde_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Koebenhavn_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Koege_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Kolding_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Laesoe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Langeland_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Lejre_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Lemvig_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Lolland_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Lyngby-Taarbaek_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Mariagerfjord_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Middelfart_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Morsoe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Naestved_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Norddjurs_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Nordfyns_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Nyborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Odder_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Odense_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Odsherred_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Randers_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Rebild_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Ringkoebing-Skjern_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Ringsted_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Roedovre_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Roskilde_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Rudersdal_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Samsoe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Silkeborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Skanderborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Skive_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Slagelse_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Soenderborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Solroed_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Soroe_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Stevns_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Struer_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Svendborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Syddjurs_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Taarnby_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Thisted_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Toender_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Vallensbaek_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Varde_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Vejen_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Vejle_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Vesthimmerlands_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Viborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);
+AGKN('Vordingborg_IND-HT-NODH',GGG) = HIGHTEMP_INV_OPTIONS(GGG);

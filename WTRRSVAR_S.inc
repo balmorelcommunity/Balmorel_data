@@ -1,1 +1,1 @@
-WTRRSVAR_S('Koebenhavn_A',SSS) = 1;
+WTRRSVAR_S(AAA,SSS) = 1;

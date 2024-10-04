@@ -1,22 +1,4 @@
-SET CCC(CCCRRRAAA)  'All Countries'
-/                                  
-NORWAY                             
-DENMARK 
-FINLAND                            
-GERMANY                            
-NETHERLANDS                        
-SWEDEN                             
-UNITED_KINGDOM                     
-ESTONIA                            
-LATVIA                             
-LITHUANIA                          
-POLAND                             
-BELGIUM                            
-FRANCE                             
-ITALY                              
-SWITZERLAND                        
-AUSTRIA                            
-CZECH_REPUBLIC                     
-SPAIN                              
-PORTUGAL                          
-/;                                 
+SET CCC(CCCRRRAAA)  'All countries'
+/
+DENMARK
+/;

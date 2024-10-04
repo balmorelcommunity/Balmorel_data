@@ -1,155 +1,102 @@
 SET RRR(CCCRRRAAA)  'All regions'
 /
-DK1                              
-DK2                              
-                                 
-FIN                              
-DE4-E                            
-DE4-N                            
-DE4-S                            
-DE4-W                            
-NL                               
-NO1                              
-NO2                              
-NO3                              
-NO4                              
-NO5                              
-SE1                              
-SE2                              
-SE3                              
-SE4                              
-UK                               
-EE                               
-LV                               
-LT                               
-PL                               
-BE                               
-FR                               
-IT                               
-CH                               
-AT                               
-CZ                               
-ES                               
-PT       
-DK_1
-DK_2
-
-DK02
-DK04
-DK05
-DK03
-DK01
-
-DK011
-DK012
-DK031
-DK013
-DK014
-DK041
-DK021
-DK032
-DK022
-DK050
-DK042
-
- DK_1_1_1
- DK_1_2_1
- DK_1_3_1
- DK_1_4_1
- DK_1_5_1
- DK_1_6_1
- DK_1_7_1
- DK_1_8_1
- DK_1_9_1
-DK_1_10_1
-DK_1_11_1
-DK_1_12_1
-DK_1_13_1
-DK_1_14_1
-DK_1_15_1
-DK_1_16_1
-DK_1_17_1
-DK_1_18_1
-DK_1_19_1
-DK_1_20_1
-DK_1_21_1
-DK_1_22_1
-DK_1_23_1
-DK_1_24_1
-DK_1_25_1
-DK_1_26_1
-DK_1_27_1
-DK_1_28_1
-DK_1_29_1
-DK_1_30_1
- DK_2_1_1
- DK_2_2_1
- DK_2_3_1
- DK_2_4_1
- DK_2_5_1
- DK_2_6_1
- DK_2_7_1
- DK_2_8_1
- DK_2_9_1
-DK_2_10_1
-DK_2_11_1
-DK_2_12_1
-DK_2_13_1
-DK_2_14_1
-DK_2_15_1
-DK_2_16_1
-DK_2_17_1
-DK_2_18_1
-DK_2_19_1
- DK_3_1_1
- DK_3_2_1
- DK_3_3_1
- DK_3_4_1
- DK_3_5_1
- DK_3_6_1
- DK_3_7_1
- DK_3_8_1
- DK_3_9_1
-DK_3_10_1
-DK_3_11_1
- DK_4_1_1
- DK_4_2_1
- DK_4_3_1
- DK_4_4_1
- DK_4_5_1
- DK_4_6_1
- DK_4_7_1
- DK_4_8_1
- DK_4_9_1
-DK_4_10_1
-DK_4_11_1
-DK_4_12_1
-DK_4_13_1
-DK_4_14_1
-DK_4_15_1
-DK_4_16_1
-DK_4_17_1
- DK_5_1_1
- DK_5_2_1
- DK_5_3_1
- DK_5_4_1
- DK_5_5_1
- DK_5_6_1
- DK_5_7_1
- DK_5_8_1
- DK_5_9_1
-DK_5_10_1
-DK_5_11_1
-DK_5_12_1
-DK_5_13_1
-DK_5_14_1
-DK_5_15_1
-DK_5_16_1
-DK_5_17_1
-DK_5_18_1
-DK_5_19_1
-DK_5_20_1
-DK_5_21_1
-DK_5_22_1
-/
-;
+Aabenraa
+Aalborg
+Aarhus
+Aeroe
+Albertslund
+Alleroed
+Assens
+Ballerup
+Billund
+Bornholm
+Broendby
+Broenderslev
+Christiansoe
+Dragoer
+Egedal
+Esbjerg
+Faaborg-Midtfyn
+Fanoe
+Favrskov
+Faxe
+Fredensborg
+Fredericia
+Frederiksberg
+Frederikshavn
+Frederikssund
+Furesoe
+Gentofte
+Gladsaxe
+Glostrup
+Greve
+Gribskov
+Guldborgsund
+Haderslev
+Halsnaes
+Hedensted
+Helsingoer
+Herlev
+Herning
+Hilleroed
+Hjoerring
+Hoeje-Taastrup
+Hoersholm
+Holbaek
+Holstebro
+Horsens
+Hvidovre
+Ikast-Brande
+Ishoej
+Jammerbugt
+Kalundborg
+Kerteminde
+Koebenhavn
+Koege
+Kolding
+Laesoe
+Langeland
+Lejre
+Lemvig
+Lolland
+Lyngby-Taarbaek
+Mariagerfjord
+Middelfart
+Morsoe
+Naestved
+Norddjurs
+Nordfyns
+Nyborg
+Odder
+Odense
+Odsherred
+Randers
+Rebild
+Ringkoebing-Skjern
+Ringsted
+Roedovre
+Roskilde
+Rudersdal
+Samsoe
+Silkeborg
+Skanderborg
+Skive
+Slagelse
+Soenderborg
+Solroed
+Soroe
+Stevns
+Struer
+Svendborg
+Syddjurs
+Taarnby
+Thisted
+Toender
+Vallensbaek
+Varde
+Vejen
+Vejle
+Vesthimmerlands
+Viborg
+Vordingborg
+/;

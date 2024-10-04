@@ -1,220 +1,102 @@
-                                                                                                                                                                                                                            
-$onembedded                                                                                                                                                                                                                 
-SET RRRAAA(RRR,AAA)    "Areas in regions"                                                                                                                                                                                   
-/                                                                                                                                                                                                                           
-BE                                        .(   BE_IDVU-HOTWTR                       ,    BE_IDVU-SPACEHEAT                    )                                                                                             
-DE4-E                                     .(   DE4-E_IDVU-HOTWTR                    ,    DE4-E_IDVU-SPACEHEAT                 )                                                                                             
-DE4-N                                     .(   DE4-N_IDVU-HOTWTR                    ,    DE4-N_IDVU-SPACEHEAT                 )                                                                                             
-DE4-S                                     .(   DE4-S_IDVU-HOTWTR                    ,    DE4-S_IDVU-SPACEHEAT                 )                                                                                             
-DE4-W                                     .(   DE4-W_IDVU-HOTWTR                    ,    DE4-W_IDVU-SPACEHEAT                 )                                                                                             
-DK1                                       .(   DK1_IDVU-HOTWTR                      ,    DK1_IDVU-SPACEHEAT                   )                                                                                             
-DK2                                       .(   DK2_IDVU-HOTWTR                      ,    DK2_IDVU-SPACEHEAT                   )                                                                                             
-EE                                        .(   EE_IDVU-HOTWTR                       ,    EE_IDVU-SPACEHEAT                    )                                                                                             
-FIN                                       .(   FIN_IDVU-HOTWTR                      ,    FIN_IDVU-SPACEHEAT                   )                                                                                             
-FR                                        .(   FR_IDVU-HOTWTR                       ,    FR_IDVU-SPACEHEAT                    )                                                                                             
-LT                                        .(   LT_IDVU-HOTWTR                       ,    LT_IDVU-SPACEHEAT                    )                                                                                             
-LV                                        .(   LV_IDVU-HOTWTR                       ,    LV_IDVU-SPACEHEAT                    )                                                                                             
-NL                                        .(   NL_IDVU-HOTWTR                       ,    NL_IDVU-SPACEHEAT                    )                                                                                             
-NO1                                       .(   NO1_IDVU-HOTWTR                      ,    NO1_IDVU-SPACEHEAT                   )                                                                                             
-NO2                                       .(   NO2_IDVU-HOTWTR                      ,    NO2_IDVU-SPACEHEAT                   )                                                                                             
-NO3                                       .(   NO3_IDVU-HOTWTR                      ,    NO3_IDVU-SPACEHEAT                   )                                                                                             
-NO4                                       .(   NO4_IDVU-HOTWTR                      ,    NO4_IDVU-SPACEHEAT                   )                                                                                             
-NO5                                       .(   NO5_IDVU-HOTWTR                      ,    NO5_IDVU-SPACEHEAT                   )                                                                                             
-PL                                        .(   PL_IDVU-HOTWTR                       ,    PL_IDVU-SPACEHEAT                    )                                                                                             
-SE1                                       .(   SE1_IDVU-HOTWTR                      ,    SE1_IDVU-SPACEHEAT                   )                                                                                             
-SE2                                       .(   SE2_IDVU-HOTWTR                      ,    SE2_IDVU-SPACEHEAT                   )                                                                                             
-SE3                                       .(   SE3_IDVU-HOTWTR                      ,    SE3_IDVU-SPACEHEAT                   )                                                                                             
-SE4                                       .(   SE4_IDVU-HOTWTR                      ,    SE4_IDVU-SPACEHEAT                   )                                                                                             
-UK                                        .(   UK_IDVU-HOTWTR                       ,    UK_IDVU-SPACEHEAT                    )                                                                                             
-IT                                        .(   IT_IDVU-HOTWTR                       ,    IT_IDVU-SPACEHEAT                    )                                                                                             
-CH                                        .(   CH_IDVU-HOTWTR                       ,    CH_IDVU-SPACEHEAT                    )                                                                                             
-AT                                        .(   AT_IDVU-HOTWTR                       ,    AT_IDVU-SPACEHEAT                    )                                                                                             
-CZ                                        .(   CZ_IDVU-HOTWTR                       ,    CZ_IDVU-SPACEHEAT                    )                                                                                             
-ES                                        .(   ES_IDVU-HOTWTR                       ,    ES_IDVU-SPACEHEAT                    )                                                                                             
-PT                                        .(   PT_IDVU-HOTWTR                       ,    PT_IDVU-SPACEHEAT                    )                                                                                             
-                                                                                                                                                                                                                            
-$ifi not %GROUP_DEMAND_SHIFT%==yes             $goto NO_INDIVUSERS_AAA                                                                                                                                                      
-BE                                        .(   BE_IDVU_RES_BO_BIO-HOTWTR            ,    BE_IDVU_TER_BO_BIO-HOTWTR            ,    BE_IDVU_RES_BO_BIO-SPACEHEAT            ,    BE_IDVU_TER_BO_BIO-SPACEHEAT            )   
-BE                                        .(   BE_IDVU_RES_BO_COAL-HOTWTR           ,    BE_IDVU_TER_BO_COAL-HOTWTR           ,    BE_IDVU_RES_BO_COAL-SPACEHEAT           ,    BE_IDVU_TER_BO_COAL-SPACEHEAT           )   
-BE                                        .(   BE_IDVU_RES_BO_EL-HOTWTR             ,    BE_IDVU_TER_BO_EL-HOTWTR             ,    BE_IDVU_RES_BO_EL-SPACEHEAT             ,    BE_IDVU_TER_BO_EL-SPACEHEAT             )   
-BE                                        .(   BE_IDVU_RES_BO_GAS-HOTWTR            ,    BE_IDVU_TER_BO_GAS-HOTWTR            ,    BE_IDVU_RES_BO_GAS-SPACEHEAT            ,    BE_IDVU_TER_BO_GAS-SPACEHEAT            )   
-BE                                        .(   BE_IDVU_RES_BO_OIL-HOTWTR            ,    BE_IDVU_TER_BO_OIL-HOTWTR            ,    BE_IDVU_RES_BO_OIL-SPACEHEAT            ,    BE_IDVU_TER_BO_OIL-SPACEHEAT            )   
-DE4-E                                     .(   DE4-E_IDVU_RES_BO_BIO-HOTWTR         ,    DE4-E_IDVU_TER_BO_BIO-HOTWTR         ,    DE4-E_IDVU_RES_BO_BIO-SPACEHEAT         ,    DE4-E_IDVU_TER_BO_BIO-SPACEHEAT         )   
-DE4-E                                     .(   DE4-E_IDVU_RES_BO_COAL-HOTWTR        ,    DE4-E_IDVU_TER_BO_COAL-HOTWTR        ,    DE4-E_IDVU_RES_BO_COAL-SPACEHEAT        ,    DE4-E_IDVU_TER_BO_COAL-SPACEHEAT        )   
-DE4-E                                     .(   DE4-E_IDVU_RES_BO_EL-HOTWTR          ,    DE4-E_IDVU_TER_BO_EL-HOTWTR          ,    DE4-E_IDVU_RES_BO_EL-SPACEHEAT          ,    DE4-E_IDVU_TER_BO_EL-SPACEHEAT          )   
-DE4-E                                     .(   DE4-E_IDVU_RES_BO_GAS-HOTWTR         ,    DE4-E_IDVU_TER_BO_GAS-HOTWTR         ,    DE4-E_IDVU_RES_BO_GAS-SPACEHEAT         ,    DE4-E_IDVU_TER_BO_GAS-SPACEHEAT         )   
-DE4-E                                     .(   DE4-E_IDVU_RES_BO_OIL-HOTWTR         ,    DE4-E_IDVU_TER_BO_OIL-HOTWTR         ,    DE4-E_IDVU_RES_BO_OIL-SPACEHEAT         ,    DE4-E_IDVU_TER_BO_OIL-SPACEHEAT         )   
-DE4-E                                     .(   DE4-E_IDVU_RES_HP_A2W-HOTWTR         ,    DE4-E_IDVU_TER_HP_A2W-HOTWTR         ,    DE4-E_IDVU_RES_HP_A2W-SPACEHEAT         ,    DE4-E_IDVU_TER_HP_A2W-SPACEHEAT         )   
-DE4-N                                     .(   DE4-N_IDVU_RES_BO_BIO-HOTWTR         ,    DE4-N_IDVU_TER_BO_BIO-HOTWTR         ,    DE4-N_IDVU_RES_BO_BIO-SPACEHEAT         ,    DE4-N_IDVU_TER_BO_BIO-SPACEHEAT         )   
-DE4-N                                     .(   DE4-N_IDVU_RES_BO_COAL-HOTWTR        ,    DE4-N_IDVU_TER_BO_COAL-HOTWTR        ,    DE4-N_IDVU_RES_BO_COAL-SPACEHEAT        ,    DE4-N_IDVU_TER_BO_COAL-SPACEHEAT        )   
-DE4-N                                     .(   DE4-N_IDVU_RES_BO_EL-HOTWTR          ,    DE4-N_IDVU_TER_BO_EL-HOTWTR          ,    DE4-N_IDVU_RES_BO_EL-SPACEHEAT          ,    DE4-N_IDVU_TER_BO_EL-SPACEHEAT          )   
-DE4-N                                     .(   DE4-N_IDVU_RES_BO_GAS-HOTWTR         ,    DE4-N_IDVU_TER_BO_GAS-HOTWTR         ,    DE4-N_IDVU_RES_BO_GAS-SPACEHEAT         ,    DE4-N_IDVU_TER_BO_GAS-SPACEHEAT         )   
-DE4-N                                     .(   DE4-N_IDVU_RES_BO_OIL-HOTWTR         ,    DE4-N_IDVU_TER_BO_OIL-HOTWTR         ,    DE4-N_IDVU_RES_BO_OIL-SPACEHEAT         ,    DE4-N_IDVU_TER_BO_OIL-SPACEHEAT         )   
-DE4-N                                     .(   DE4-N_IDVU_RES_HP_A2W-HOTWTR         ,    DE4-N_IDVU_TER_HP_A2W-HOTWTR         ,    DE4-N_IDVU_RES_HP_A2W-SPACEHEAT         ,    DE4-N_IDVU_TER_HP_A2W-SPACEHEAT         )   
-DE4-S                                     .(   DE4-S_IDVU_RES_BO_BIO-HOTWTR         ,    DE4-S_IDVU_TER_BO_BIO-HOTWTR         ,    DE4-S_IDVU_RES_BO_BIO-SPACEHEAT         ,    DE4-S_IDVU_TER_BO_BIO-SPACEHEAT         )   
-DE4-S                                     .(   DE4-S_IDVU_RES_BO_COAL-HOTWTR        ,    DE4-S_IDVU_TER_BO_COAL-HOTWTR        ,    DE4-S_IDVU_RES_BO_COAL-SPACEHEAT        ,    DE4-S_IDVU_TER_BO_COAL-SPACEHEAT        )   
-DE4-S                                     .(   DE4-S_IDVU_RES_BO_EL-HOTWTR          ,    DE4-S_IDVU_TER_BO_EL-HOTWTR          ,    DE4-S_IDVU_RES_BO_EL-SPACEHEAT          ,    DE4-S_IDVU_TER_BO_EL-SPACEHEAT          )   
-DE4-S                                     .(   DE4-S_IDVU_RES_BO_GAS-HOTWTR         ,    DE4-S_IDVU_TER_BO_GAS-HOTWTR         ,    DE4-S_IDVU_RES_BO_GAS-SPACEHEAT         ,    DE4-S_IDVU_TER_BO_GAS-SPACEHEAT         )   
-DE4-S                                     .(   DE4-S_IDVU_RES_BO_OIL-HOTWTR         ,    DE4-S_IDVU_TER_BO_OIL-HOTWTR         ,    DE4-S_IDVU_RES_BO_OIL-SPACEHEAT         ,    DE4-S_IDVU_TER_BO_OIL-SPACEHEAT         )   
-DE4-S                                     .(   DE4-S_IDVU_RES_HP_A2W-HOTWTR         ,    DE4-S_IDVU_TER_HP_A2W-HOTWTR         ,    DE4-S_IDVU_RES_HP_A2W-SPACEHEAT         ,    DE4-S_IDVU_TER_HP_A2W-SPACEHEAT         )   
-DE4-W                                     .(   DE4-W_IDVU_RES_BO_BIO-HOTWTR         ,    DE4-W_IDVU_TER_BO_BIO-HOTWTR         ,    DE4-W_IDVU_RES_BO_BIO-SPACEHEAT         ,    DE4-W_IDVU_TER_BO_BIO-SPACEHEAT         )   
-DE4-W                                     .(   DE4-W_IDVU_RES_BO_COAL-HOTWTR        ,    DE4-W_IDVU_TER_BO_COAL-HOTWTR        ,    DE4-W_IDVU_RES_BO_COAL-SPACEHEAT        ,    DE4-W_IDVU_TER_BO_COAL-SPACEHEAT        )   
-DE4-W                                     .(   DE4-W_IDVU_RES_BO_EL-HOTWTR          ,    DE4-W_IDVU_TER_BO_EL-HOTWTR          ,    DE4-W_IDVU_RES_BO_EL-SPACEHEAT          ,    DE4-W_IDVU_TER_BO_EL-SPACEHEAT          )   
-DE4-W                                     .(   DE4-W_IDVU_RES_BO_GAS-HOTWTR         ,    DE4-W_IDVU_TER_BO_GAS-HOTWTR         ,    DE4-W_IDVU_RES_BO_GAS-SPACEHEAT         ,    DE4-W_IDVU_TER_BO_GAS-SPACEHEAT         )   
-DE4-W                                     .(   DE4-W_IDVU_RES_BO_OIL-HOTWTR         ,    DE4-W_IDVU_TER_BO_OIL-HOTWTR         ,    DE4-W_IDVU_RES_BO_OIL-SPACEHEAT         ,    DE4-W_IDVU_TER_BO_OIL-SPACEHEAT         )   
-DE4-W                                     .(   DE4-W_IDVU_RES_HP_A2W-HOTWTR         ,    DE4-W_IDVU_TER_HP_A2W-HOTWTR         ,    DE4-W_IDVU_RES_HP_A2W-SPACEHEAT         ,    DE4-W_IDVU_TER_HP_A2W-SPACEHEAT         )   
-DK1                                       .(   DK1_IDVU_RES_BO_BIO-HOTWTR           ,    DK1_IDVU_TER_BO_BIO-HOTWTR           ,    DK1_IDVU_RES_BO_BIO-SPACEHEAT           ,    DK1_IDVU_TER_BO_BIO-SPACEHEAT           )   
-DK1                                       .(   DK1_IDVU_RES_BO_EL-HOTWTR            ,    DK1_IDVU_TER_BO_EL-HOTWTR            ,    DK1_IDVU_RES_BO_EL-SPACEHEAT            ,    DK1_IDVU_TER_BO_EL-SPACEHEAT            )   
-DK1                                       .(   DK1_IDVU_RES_BO_GAS-HOTWTR           ,    DK1_IDVU_TER_BO_GAS-HOTWTR           ,    DK1_IDVU_RES_BO_GAS-SPACEHEAT           ,    DK1_IDVU_TER_BO_GAS-SPACEHEAT           )   
-DK1                                       .(   DK1_IDVU_RES_BO_OIL-HOTWTR           ,    DK1_IDVU_TER_BO_OIL-HOTWTR           ,    DK1_IDVU_RES_BO_OIL-SPACEHEAT           ,    DK1_IDVU_TER_BO_OIL-SPACEHEAT           )   
-DK1                                       .(   DK1_IDVU_RES_HP_A2W-HOTWTR           ,    DK1_IDVU_TER_HP_A2W-HOTWTR           ,    DK1_IDVU_RES_HP_A2W-SPACEHEAT           ,    DK1_IDVU_TER_HP_A2W-SPACEHEAT           )   
-DK2                                       .(   DK2_IDVU_RES_BO_BIO-HOTWTR           ,    DK2_IDVU_TER_BO_BIO-HOTWTR           ,    DK2_IDVU_RES_BO_BIO-SPACEHEAT           ,    DK2_IDVU_TER_BO_BIO-SPACEHEAT           )   
-DK2                                       .(   DK2_IDVU_RES_BO_EL-HOTWTR            ,    DK2_IDVU_TER_BO_EL-HOTWTR            ,    DK2_IDVU_RES_BO_EL-SPACEHEAT            ,    DK2_IDVU_TER_BO_EL-SPACEHEAT            )   
-DK2                                       .(   DK2_IDVU_RES_BO_GAS-HOTWTR           ,    DK2_IDVU_TER_BO_GAS-HOTWTR           ,    DK2_IDVU_RES_BO_GAS-SPACEHEAT           ,    DK2_IDVU_TER_BO_GAS-SPACEHEAT           )   
-DK2                                       .(   DK2_IDVU_RES_BO_OIL-HOTWTR           ,    DK2_IDVU_TER_BO_OIL-HOTWTR           ,    DK2_IDVU_RES_BO_OIL-SPACEHEAT           ,    DK2_IDVU_TER_BO_OIL-SPACEHEAT           )   
-DK2                                       .(   DK2_IDVU_RES_HP_A2W-HOTWTR           ,    DK2_IDVU_TER_HP_A2W-HOTWTR           ,    DK2_IDVU_RES_HP_A2W-SPACEHEAT           ,    DK2_IDVU_TER_HP_A2W-SPACEHEAT           )   
-EE                                        .(   EE_IDVU_RES_BO_BIO-HOTWTR            ,    EE_IDVU_TER_BO_BIO-HOTWTR            ,    EE_IDVU_RES_BO_BIO-SPACEHEAT            ,    EE_IDVU_TER_BO_BIO-SPACEHEAT            )   
-EE                                        .(   EE_IDVU_RES_BO_COAL-HOTWTR           ,    EE_IDVU_TER_BO_COAL-HOTWTR           ,    EE_IDVU_RES_BO_COAL-SPACEHEAT           ,    EE_IDVU_TER_BO_COAL-SPACEHEAT           )   
-EE                                        .(   EE_IDVU_RES_BO_EL-HOTWTR             ,    EE_IDVU_TER_BO_EL-HOTWTR             ,    EE_IDVU_RES_BO_EL-SPACEHEAT             ,    EE_IDVU_TER_BO_EL-SPACEHEAT             )   
-EE                                        .(   EE_IDVU_RES_BO_GAS-HOTWTR            ,    EE_IDVU_TER_BO_GAS-HOTWTR            ,    EE_IDVU_RES_BO_GAS-SPACEHEAT            ,    EE_IDVU_TER_BO_GAS-SPACEHEAT            )   
-EE                                        .(   EE_IDVU_RES_BO_OIL-HOTWTR            ,    EE_IDVU_TER_BO_OIL-HOTWTR            ,    EE_IDVU_RES_BO_OIL-SPACEHEAT            ,    EE_IDVU_TER_BO_OIL-SPACEHEAT            )   
-FIN                                       .(   FIN_IDVU_RES_BO_BIO-HOTWTR           ,    FIN_IDVU_TER_BO_BIO-HOTWTR           ,    FIN_IDVU_RES_BO_BIO-SPACEHEAT           ,    FIN_IDVU_TER_BO_BIO-SPACEHEAT           )   
-FIN                                       .(   FIN_IDVU_RES_BO_COAL-HOTWTR          ,    FIN_IDVU_TER_BO_COAL-HOTWTR          ,    FIN_IDVU_RES_BO_COAL-SPACEHEAT          ,    FIN_IDVU_TER_BO_COAL-SPACEHEAT          )   
-FIN                                       .(   FIN_IDVU_RES_BO_EL-HOTWTR            ,    FIN_IDVU_TER_BO_EL-HOTWTR            ,    FIN_IDVU_RES_BO_EL-SPACEHEAT            ,    FIN_IDVU_TER_BO_EL-SPACEHEAT            )   
-FIN                                       .(   FIN_IDVU_RES_BO_GAS-HOTWTR           ,    FIN_IDVU_TER_BO_GAS-HOTWTR           ,    FIN_IDVU_RES_BO_GAS-SPACEHEAT           ,    FIN_IDVU_TER_BO_GAS-SPACEHEAT           )   
-FIN                                       .(   FIN_IDVU_RES_BO_OIL-HOTWTR           ,    FIN_IDVU_TER_BO_OIL-HOTWTR           ,    FIN_IDVU_RES_BO_OIL-SPACEHEAT           ,    FIN_IDVU_TER_BO_OIL-SPACEHEAT           )   
-FIN                                       .(   FIN_IDVU_RES_HP_A2W-HOTWTR           ,    FIN_IDVU_TER_HP_A2W-HOTWTR           ,    FIN_IDVU_RES_HP_A2W-SPACEHEAT           ,    FIN_IDVU_TER_HP_A2W-SPACEHEAT           )   
-FR                                        .(   FR_IDVU_RES_BO_BIO-HOTWTR            ,    FR_IDVU_TER_BO_BIO-HOTWTR            ,    FR_IDVU_RES_BO_BIO-SPACEHEAT            ,    FR_IDVU_TER_BO_BIO-SPACEHEAT            )   
-FR                                        .(   FR_IDVU_RES_BO_COAL-HOTWTR           ,    FR_IDVU_TER_BO_COAL-HOTWTR           ,    FR_IDVU_RES_BO_COAL-SPACEHEAT           ,    FR_IDVU_TER_BO_COAL-SPACEHEAT           )   
-FR                                        .(   FR_IDVU_RES_BO_EL-HOTWTR             ,    FR_IDVU_TER_BO_EL-HOTWTR             ,    FR_IDVU_RES_BO_EL-SPACEHEAT             ,    FR_IDVU_TER_BO_EL-SPACEHEAT             )   
-FR                                        .(   FR_IDVU_RES_BO_GAS-HOTWTR            ,    FR_IDVU_TER_BO_GAS-HOTWTR            ,    FR_IDVU_RES_BO_GAS-SPACEHEAT            ,    FR_IDVU_TER_BO_GAS-SPACEHEAT            )   
-FR                                        .(   FR_IDVU_RES_BO_OIL-HOTWTR            ,    FR_IDVU_TER_BO_OIL-HOTWTR            ,    FR_IDVU_RES_BO_OIL-SPACEHEAT            ,    FR_IDVU_TER_BO_OIL-SPACEHEAT            )   
-FR                                        .(   FR_IDVU_RES_HP_A2W-HOTWTR            ,    FR_IDVU_TER_HP_A2W-HOTWTR            ,    FR_IDVU_RES_HP_A2W-SPACEHEAT            ,    FR_IDVU_TER_HP_A2W-SPACEHEAT            )   
-LT                                        .(   LT_IDVU_RES_BO_BIO-HOTWTR            ,    LT_IDVU_TER_BO_BIO-HOTWTR            ,    LT_IDVU_RES_BO_BIO-SPACEHEAT            ,    LT_IDVU_TER_BO_BIO-SPACEHEAT            )   
-LT                                        .(   LT_IDVU_RES_BO_COAL-HOTWTR           ,    LT_IDVU_TER_BO_COAL-HOTWTR           ,    LT_IDVU_RES_BO_COAL-SPACEHEAT           ,    LT_IDVU_TER_BO_COAL-SPACEHEAT           )   
-LT                                        .(   LT_IDVU_RES_BO_EL-HOTWTR             ,    LT_IDVU_TER_BO_EL-HOTWTR             ,    LT_IDVU_RES_BO_EL-SPACEHEAT             ,    LT_IDVU_TER_BO_EL-SPACEHEAT             )   
-LT                                        .(   LT_IDVU_RES_BO_GAS-HOTWTR            ,    LT_IDVU_TER_BO_GAS-HOTWTR            ,    LT_IDVU_RES_BO_GAS-SPACEHEAT            ,    LT_IDVU_TER_BO_GAS-SPACEHEAT            )   
-LT                                        .(   LT_IDVU_RES_BO_OIL-HOTWTR            ,    LT_IDVU_TER_BO_OIL-HOTWTR            ,    LT_IDVU_RES_BO_OIL-SPACEHEAT            ,    LT_IDVU_TER_BO_OIL-SPACEHEAT            )   
-LV                                        .(   LV_IDVU_RES_BO_BIO-HOTWTR            ,    LV_IDVU_TER_BO_BIO-HOTWTR            ,    LV_IDVU_RES_BO_BIO-SPACEHEAT            ,    LV_IDVU_TER_BO_BIO-SPACEHEAT            )   
-LV                                        .(   LV_IDVU_RES_BO_COAL-HOTWTR           ,    LV_IDVU_TER_BO_COAL-HOTWTR           ,    LV_IDVU_RES_BO_COAL-SPACEHEAT           ,    LV_IDVU_TER_BO_COAL-SPACEHEAT           )   
-LV                                        .(   LV_IDVU_RES_BO_EL-HOTWTR             ,    LV_IDVU_TER_BO_EL-HOTWTR             ,    LV_IDVU_RES_BO_EL-SPACEHEAT             ,    LV_IDVU_TER_BO_EL-SPACEHEAT             )   
-LV                                        .(   LV_IDVU_RES_BO_GAS-HOTWTR            ,    LV_IDVU_TER_BO_GAS-HOTWTR            ,    LV_IDVU_RES_BO_GAS-SPACEHEAT            ,    LV_IDVU_TER_BO_GAS-SPACEHEAT            )   
-LV                                        .(   LV_IDVU_RES_BO_OIL-HOTWTR            ,    LV_IDVU_TER_BO_OIL-HOTWTR            ,    LV_IDVU_RES_BO_OIL-SPACEHEAT            ,    LV_IDVU_TER_BO_OIL-SPACEHEAT            )   
-NL                                        .(   NL_IDVU_RES_BO_BIO-HOTWTR            ,    NL_IDVU_TER_BO_BIO-HOTWTR            ,    NL_IDVU_RES_BO_BIO-SPACEHEAT            ,    NL_IDVU_TER_BO_BIO-SPACEHEAT            )   
-NL                                        .(   NL_IDVU_RES_BO_COAL-HOTWTR           ,    NL_IDVU_TER_BO_COAL-HOTWTR           ,    NL_IDVU_RES_BO_COAL-SPACEHEAT           ,    NL_IDVU_TER_BO_COAL-SPACEHEAT           )   
-NL                                        .(   NL_IDVU_RES_BO_EL-HOTWTR             ,    NL_IDVU_TER_BO_EL-HOTWTR             ,    NL_IDVU_RES_BO_EL-SPACEHEAT             ,    NL_IDVU_TER_BO_EL-SPACEHEAT             )   
-NL                                        .(   NL_IDVU_RES_BO_GAS-HOTWTR            ,    NL_IDVU_TER_BO_GAS-HOTWTR            ,    NL_IDVU_RES_BO_GAS-SPACEHEAT            ,    NL_IDVU_TER_BO_GAS-SPACEHEAT            )   
-NL                                        .(   NL_IDVU_RES_BO_OIL-HOTWTR            ,    NL_IDVU_TER_BO_OIL-HOTWTR            ,    NL_IDVU_RES_BO_OIL-SPACEHEAT            ,    NL_IDVU_TER_BO_OIL-SPACEHEAT            )   
-NO1                                       .(   NO1_IDVU_RES_BO_BIO-HOTWTR           ,    NO1_IDVU_TER_BO_BIO-HOTWTR           ,    NO1_IDVU_RES_BO_BIO-SPACEHEAT           ,    NO1_IDVU_TER_BO_BIO-SPACEHEAT           )   
-NO1                                       .(   NO1_IDVU_RES_BO_EL-HOTWTR            ,    NO1_IDVU_TER_BO_EL-HOTWTR            ,    NO1_IDVU_RES_BO_EL-SPACEHEAT            ,    NO1_IDVU_TER_BO_EL-SPACEHEAT            )   
-NO1                                       .(   NO1_IDVU_RES_BO_EL_HPA2A-HOTWTR      ,    NO1_IDVU_TER_BO_EL_HPA2A-HOTWTR      ,    NO1_IDVU_RES_BO_EL_HPA2A-SPACEHEAT      ,    NO1_IDVU_TER_BO_EL_HPA2A-SPACEHEAT      )   
-NO1                                       .(   NO1_IDVU_RES_BO_OIL-HOTWTR           ,    NO1_IDVU_TER_BO_OIL-HOTWTR           ,    NO1_IDVU_RES_BO_OIL-SPACEHEAT           ,    NO1_IDVU_TER_BO_OIL-SPACEHEAT           )   
-NO1                                       .(   NO1_IDVU_RES_HP_A2W-HOTWTR           ,    NO1_IDVU_TER_HP_A2W-HOTWTR           ,    NO1_IDVU_RES_HP_A2W-SPACEHEAT           ,    NO1_IDVU_TER_HP_A2W-SPACEHEAT           )   
-NO2                                       .(   NO2_IDVU_RES_BO_BIO-HOTWTR           ,    NO2_IDVU_TER_BO_BIO-HOTWTR           ,    NO2_IDVU_RES_BO_BIO-SPACEHEAT           ,    NO2_IDVU_TER_BO_BIO-SPACEHEAT           )   
-NO2                                       .(   NO2_IDVU_RES_BO_EL-HOTWTR            ,    NO2_IDVU_TER_BO_EL-HOTWTR            ,    NO2_IDVU_RES_BO_EL-SPACEHEAT            ,    NO2_IDVU_TER_BO_EL-SPACEHEAT            )   
-NO2                                       .(   NO2_IDVU_RES_BO_EL_HPA2A-HOTWTR      ,    NO2_IDVU_TER_BO_EL_HPA2A-HOTWTR      ,    NO2_IDVU_RES_BO_EL_HPA2A-SPACEHEAT      ,    NO2_IDVU_TER_BO_EL_HPA2A-SPACEHEAT      )   
-NO2                                       .(   NO2_IDVU_RES_BO_GAS-HOTWTR           ,    NO2_IDVU_TER_BO_GAS-HOTWTR           ,    NO2_IDVU_RES_BO_GAS-SPACEHEAT           ,    NO2_IDVU_TER_BO_GAS-SPACEHEAT           )   
-NO2                                       .(   NO2_IDVU_RES_BO_OIL-HOTWTR           ,    NO2_IDVU_TER_BO_OIL-HOTWTR           ,    NO2_IDVU_RES_BO_OIL-SPACEHEAT           ,    NO2_IDVU_TER_BO_OIL-SPACEHEAT           )   
-NO2                                       .(   NO2_IDVU_RES_HP_A2W-HOTWTR           ,    NO2_IDVU_TER_HP_A2W-HOTWTR           ,    NO2_IDVU_RES_HP_A2W-SPACEHEAT           ,    NO2_IDVU_TER_HP_A2W-SPACEHEAT           )   
-NO3                                       .(   NO3_IDVU_RES_BO_BIO-HOTWTR           ,    NO3_IDVU_TER_BO_BIO-HOTWTR           ,    NO3_IDVU_RES_BO_BIO-SPACEHEAT           ,    NO3_IDVU_TER_BO_BIO-SPACEHEAT           )   
-NO3                                       .(   NO3_IDVU_RES_BO_EL-HOTWTR            ,    NO3_IDVU_TER_BO_EL-HOTWTR            ,    NO3_IDVU_RES_BO_EL-SPACEHEAT            ,    NO3_IDVU_TER_BO_EL-SPACEHEAT            )   
-NO3                                       .(   NO3_IDVU_RES_BO_EL_HPA2A-HOTWTR      ,    NO3_IDVU_TER_BO_EL_HPA2A-HOTWTR      ,    NO3_IDVU_RES_BO_EL_HPA2A-SPACEHEAT      ,    NO3_IDVU_TER_BO_EL_HPA2A-SPACEHEAT      )   
-NO3                                       .(   NO3_IDVU_RES_BO_OIL-HOTWTR           ,    NO3_IDVU_TER_BO_OIL-HOTWTR           ,    NO3_IDVU_RES_BO_OIL-SPACEHEAT           ,    NO3_IDVU_TER_BO_OIL-SPACEHEAT           )   
-NO3                                       .(   NO3_IDVU_RES_HP_A2W-HOTWTR           ,    NO3_IDVU_TER_HP_A2W-HOTWTR           ,    NO3_IDVU_RES_HP_A2W-SPACEHEAT           ,    NO3_IDVU_TER_HP_A2W-SPACEHEAT           )   
-NO4                                       .(   NO4_IDVU_RES_BO_BIO-HOTWTR           ,    NO4_IDVU_TER_BO_BIO-HOTWTR           ,    NO4_IDVU_RES_BO_BIO-SPACEHEAT           ,    NO4_IDVU_TER_BO_BIO-SPACEHEAT           )   
-NO4                                       .(   NO4_IDVU_RES_BO_EL-HOTWTR            ,    NO4_IDVU_TER_BO_EL-HOTWTR            ,    NO4_IDVU_RES_BO_EL-SPACEHEAT            ,    NO4_IDVU_TER_BO_EL-SPACEHEAT            )   
-NO4                                       .(   NO4_IDVU_RES_BO_EL_HPA2A-HOTWTR      ,    NO4_IDVU_TER_BO_EL_HPA2A-HOTWTR      ,    NO4_IDVU_RES_BO_EL_HPA2A-SPACEHEAT      ,    NO4_IDVU_TER_BO_EL_HPA2A-SPACEHEAT      )   
-NO4                                       .(   NO4_IDVU_RES_BO_OIL-HOTWTR           ,    NO4_IDVU_TER_BO_OIL-HOTWTR           ,    NO4_IDVU_RES_BO_OIL-SPACEHEAT           ,    NO4_IDVU_TER_BO_OIL-SPACEHEAT           )   
-NO4                                       .(   NO4_IDVU_RES_HP_A2W-HOTWTR           ,    NO4_IDVU_TER_HP_A2W-HOTWTR           ,    NO4_IDVU_RES_HP_A2W-SPACEHEAT           ,    NO4_IDVU_TER_HP_A2W-SPACEHEAT           )   
-NO5                                       .(   NO5_IDVU_RES_BO_BIO-HOTWTR           ,    NO5_IDVU_TER_BO_BIO-HOTWTR           ,    NO5_IDVU_RES_BO_BIO-SPACEHEAT           ,    NO5_IDVU_TER_BO_BIO-SPACEHEAT           )   
-NO5                                       .(   NO5_IDVU_RES_BO_EL-HOTWTR            ,    NO5_IDVU_TER_BO_EL-HOTWTR            ,    NO5_IDVU_RES_BO_EL-SPACEHEAT            ,    NO5_IDVU_TER_BO_EL-SPACEHEAT            )   
-NO5                                       .(   NO5_IDVU_RES_BO_EL_HPA2A-HOTWTR      ,    NO5_IDVU_TER_BO_EL_HPA2A-HOTWTR      ,    NO5_IDVU_RES_BO_EL_HPA2A-SPACEHEAT      ,    NO5_IDVU_TER_BO_EL_HPA2A-SPACEHEAT      )   
-NO5                                       .(   NO5_IDVU_RES_BO_OIL-HOTWTR           ,    NO5_IDVU_TER_BO_OIL-HOTWTR           ,    NO5_IDVU_RES_BO_OIL-SPACEHEAT           ,    NO5_IDVU_TER_BO_OIL-SPACEHEAT           )   
-NO5                                       .(   NO5_IDVU_RES_HP_A2W-HOTWTR           ,    NO5_IDVU_TER_HP_A2W-HOTWTR           ,    NO5_IDVU_RES_HP_A2W-SPACEHEAT           ,    NO5_IDVU_TER_HP_A2W-SPACEHEAT           )   
-PL                                        .(   PL_IDVU_RES_BO_BIO-HOTWTR            ,    PL_IDVU_TER_BO_BIO-HOTWTR            ,    PL_IDVU_RES_BO_BIO-SPACEHEAT            ,    PL_IDVU_TER_BO_BIO-SPACEHEAT            )   
-PL                                        .(   PL_IDVU_RES_BO_COAL-HOTWTR           ,    PL_IDVU_TER_BO_COAL-HOTWTR           ,    PL_IDVU_RES_BO_COAL-SPACEHEAT           ,    PL_IDVU_TER_BO_COAL-SPACEHEAT           )   
-PL                                        .(   PL_IDVU_RES_BO_EL-HOTWTR             ,    PL_IDVU_TER_BO_EL-HOTWTR             ,    PL_IDVU_RES_BO_EL-SPACEHEAT             ,    PL_IDVU_TER_BO_EL-SPACEHEAT             )   
-PL                                        .(   PL_IDVU_RES_BO_GAS-HOTWTR            ,    PL_IDVU_TER_BO_GAS-HOTWTR            ,    PL_IDVU_RES_BO_GAS-SPACEHEAT            ,    PL_IDVU_TER_BO_GAS-SPACEHEAT            )   
-PL                                        .(   PL_IDVU_RES_BO_OIL-HOTWTR            ,    PL_IDVU_TER_BO_OIL-HOTWTR            ,    PL_IDVU_RES_BO_OIL-SPACEHEAT            ,    PL_IDVU_TER_BO_OIL-SPACEHEAT            )   
-PL                                        .(   PL_IDVU_RES_HP_A2W-HOTWTR            ,    PL_IDVU_TER_HP_A2W-HOTWTR            ,    PL_IDVU_RES_HP_A2W-SPACEHEAT            ,    PL_IDVU_TER_HP_A2W-SPACEHEAT            )   
-SE1                                       .(   SE1_IDVU_RES_BO_BIO-HOTWTR           ,    SE1_IDVU_TER_BO_BIO-HOTWTR           ,    SE1_IDVU_RES_BO_BIO-SPACEHEAT           ,    SE1_IDVU_TER_BO_BIO-SPACEHEAT           )   
-SE1                                       .(   SE1_IDVU_RES_BO_BIO_WOODSTOVE-HOTWTR ,    SE1_IDVU_TER_BO_BIO_WOODSTOVE-HOTWTR ,    SE1_IDVU_RES_BO_BIO_WOODSTOVE-SPACEHEAT ,    SE1_IDVU_TER_BO_BIO_WOODSTOVE-SPACEHEAT )   
-SE1                                       .(   SE1_IDVU_RES_BO_EL-HOTWTR            ,    SE1_IDVU_TER_BO_EL-HOTWTR            ,    SE1_IDVU_RES_BO_EL-SPACEHEAT            ,    SE1_IDVU_TER_BO_EL-SPACEHEAT            )   
-SE1                                       .(   SE1_IDVU_RES_BO_OIL-HOTWTR           ,    SE1_IDVU_TER_BO_OIL-HOTWTR           ,    SE1_IDVU_RES_BO_OIL-SPACEHEAT           ,    SE1_IDVU_TER_BO_OIL-SPACEHEAT           )   
-SE1                                       .(   SE1_IDVU_RES_HP_A2W-HOTWTR           ,    SE1_IDVU_TER_HP_A2W-HOTWTR           ,    SE1_IDVU_RES_HP_A2W-SPACEHEAT           ,    SE1_IDVU_TER_HP_A2W-SPACEHEAT           )   
-SE2                                       .(   SE2_IDVU_RES_BO_BIO-HOTWTR           ,    SE2_IDVU_TER_BO_BIO-HOTWTR           ,    SE2_IDVU_RES_BO_BIO-SPACEHEAT           ,    SE2_IDVU_TER_BO_BIO-SPACEHEAT           )   
-SE2                                       .(   SE2_IDVU_RES_BO_BIO_WOODSTOVE-HOTWTR ,    SE2_IDVU_TER_BO_BIO_WOODSTOVE-HOTWTR ,    SE2_IDVU_RES_BO_BIO_WOODSTOVE-SPACEHEAT ,    SE2_IDVU_TER_BO_BIO_WOODSTOVE-SPACEHEAT )   
-SE2                                       .(   SE2_IDVU_RES_BO_EL-HOTWTR            ,    SE2_IDVU_TER_BO_EL-HOTWTR            ,    SE2_IDVU_RES_BO_EL-SPACEHEAT            ,    SE2_IDVU_TER_BO_EL-SPACEHEAT            )   
-SE2                                       .(   SE2_IDVU_RES_BO_OIL-HOTWTR           ,    SE2_IDVU_TER_BO_OIL-HOTWTR           ,    SE2_IDVU_RES_BO_OIL-SPACEHEAT           ,    SE2_IDVU_TER_BO_OIL-SPACEHEAT           )   
-SE2                                       .(   SE2_IDVU_RES_HP_A2W-HOTWTR           ,    SE2_IDVU_TER_HP_A2W-HOTWTR           ,    SE2_IDVU_RES_HP_A2W-SPACEHEAT           ,    SE2_IDVU_TER_HP_A2W-SPACEHEAT           )   
-SE3                                       .(   SE3_IDVU_RES_BO_BIO-HOTWTR           ,    SE3_IDVU_TER_BO_BIO-HOTWTR           ,    SE3_IDVU_RES_BO_BIO-SPACEHEAT           ,    SE3_IDVU_TER_BO_BIO-SPACEHEAT           )   
-SE3                                       .(   SE3_IDVU_RES_BO_BIO_WOODSTOVE-HOTWTR ,    SE3_IDVU_TER_BO_BIO_WOODSTOVE-HOTWTR ,    SE3_IDVU_RES_BO_BIO_WOODSTOVE-SPACEHEAT ,    SE3_IDVU_TER_BO_BIO_WOODSTOVE-SPACEHEAT )   
-SE3                                       .(   SE3_IDVU_RES_BO_EL-HOTWTR            ,    SE3_IDVU_TER_BO_EL-HOTWTR            ,    SE3_IDVU_RES_BO_EL-SPACEHEAT            ,    SE3_IDVU_TER_BO_EL-SPACEHEAT            )   
-SE3                                       .(   SE3_IDVU_RES_BO_OIL-HOTWTR           ,    SE3_IDVU_TER_BO_OIL-HOTWTR           ,    SE3_IDVU_RES_BO_OIL-SPACEHEAT           ,    SE3_IDVU_TER_BO_OIL-SPACEHEAT           )   
-SE3                                       .(   SE3_IDVU_RES_HP_A2W-HOTWTR           ,    SE3_IDVU_TER_HP_A2W-HOTWTR           ,    SE3_IDVU_RES_HP_A2W-SPACEHEAT           ,    SE3_IDVU_TER_HP_A2W-SPACEHEAT           )   
-SE4                                       .(   SE4_IDVU_RES_BO_BIO-HOTWTR           ,    SE4_IDVU_TER_BO_BIO-HOTWTR           ,    SE4_IDVU_RES_BO_BIO-SPACEHEAT           ,    SE4_IDVU_TER_BO_BIO-SPACEHEAT           )   
-SE4                                       .(   SE4_IDVU_RES_BO_BIO_WOODSTOVE-HOTWTR ,    SE4_IDVU_TER_BO_BIO_WOODSTOVE-HOTWTR ,    SE4_IDVU_RES_BO_BIO_WOODSTOVE-SPACEHEAT ,    SE4_IDVU_TER_BO_BIO_WOODSTOVE-SPACEHEAT )   
-SE4                                       .(   SE4_IDVU_RES_BO_EL-HOTWTR            ,    SE4_IDVU_TER_BO_EL-HOTWTR            ,    SE4_IDVU_RES_BO_EL-SPACEHEAT            ,    SE4_IDVU_TER_BO_EL-SPACEHEAT            )   
-SE4                                       .(   SE4_IDVU_RES_BO_GAS-HOTWTR           ,    SE4_IDVU_TER_BO_GAS-HOTWTR           ,    SE4_IDVU_RES_BO_GAS-SPACEHEAT           ,    SE4_IDVU_TER_BO_GAS-SPACEHEAT           )   
-SE4                                       .(   SE4_IDVU_RES_BO_OIL-HOTWTR           ,    SE4_IDVU_TER_BO_OIL-HOTWTR           ,    SE4_IDVU_RES_BO_OIL-SPACEHEAT           ,    SE4_IDVU_TER_BO_OIL-SPACEHEAT           )   
-SE4                                       .(   SE4_IDVU_RES_HP_A2W-HOTWTR           ,    SE4_IDVU_TER_HP_A2W-HOTWTR           ,    SE4_IDVU_RES_HP_A2W-SPACEHEAT           ,    SE4_IDVU_TER_HP_A2W-SPACEHEAT           )   
-UK                                        .(   UK_IDVU_RES_BO_BIO-HOTWTR            ,    UK_IDVU_TER_BO_BIO-HOTWTR            ,    UK_IDVU_RES_BO_BIO-SPACEHEAT            ,    UK_IDVU_TER_BO_BIO-SPACEHEAT            )   
-UK                                        .(   UK_IDVU_RES_BO_COAL-HOTWTR           ,    UK_IDVU_TER_BO_COAL-HOTWTR           ,    UK_IDVU_RES_BO_COAL-SPACEHEAT           ,    UK_IDVU_TER_BO_COAL-SPACEHEAT           )   
-UK                                        .(   UK_IDVU_RES_BO_EL-HOTWTR             ,    UK_IDVU_TER_BO_EL-HOTWTR             ,    UK_IDVU_RES_BO_EL-SPACEHEAT             ,    UK_IDVU_TER_BO_EL-SPACEHEAT             )   
-UK                                        .(   UK_IDVU_RES_BO_GAS-HOTWTR            ,    UK_IDVU_TER_BO_GAS-HOTWTR            ,    UK_IDVU_RES_BO_GAS-SPACEHEAT            ,    UK_IDVU_TER_BO_GAS-SPACEHEAT            )   
-UK                                        .(   UK_IDVU_RES_BO_OIL-HOTWTR            ,    UK_IDVU_TER_BO_OIL-HOTWTR            ,    UK_IDVU_RES_BO_OIL-SPACEHEAT            ,    UK_IDVU_TER_BO_OIL-SPACEHEAT            )   
-UK                                        .(   UK_IDVU_RES_HP_A2W-HOTWTR            ,    UK_IDVU_TER_HP_A2W-HOTWTR            ,    UK_IDVU_RES_HP_A2W-SPACEHEAT            ,    UK_IDVU_TER_HP_A2W-SPACEHEAT            )   
-                                                                                                                                                                                                                            
-BE                                        .(   BE_IDVU_RES-HOTWTR                   ,    BE_IDVU_TER-HOTWTR                   ,    BE_IDVU_RES-SPACEHEAT                   ,    BE_IDVU_TER-SPACEHEAT                   )   
-DE4-E                                     .(   DE4-E_IDVU_RES-HOTWTR                ,    DE4-E_IDVU_TER-HOTWTR                ,    DE4-E_IDVU_RES-SPACEHEAT                ,    DE4-E_IDVU_TER-SPACEHEAT                )   
-DE4-N                                     .(   DE4-N_IDVU_RES-HOTWTR                ,    DE4-N_IDVU_TER-HOTWTR                ,    DE4-N_IDVU_RES-SPACEHEAT                ,    DE4-N_IDVU_TER-SPACEHEAT                )   
-DE4-S                                     .(   DE4-S_IDVU_RES-HOTWTR                ,    DE4-S_IDVU_TER-HOTWTR                ,    DE4-S_IDVU_RES-SPACEHEAT                ,    DE4-S_IDVU_TER-SPACEHEAT                )   
-DE4-W                                     .(   DE4-W_IDVU_RES-HOTWTR                ,    DE4-W_IDVU_TER-HOTWTR                ,    DE4-W_IDVU_RES-SPACEHEAT                ,    DE4-W_IDVU_TER-SPACEHEAT                )   
-DK1                                       .(   DK1_IDVU_RES-HOTWTR                  ,    DK1_IDVU_TER-HOTWTR                  ,    DK1_IDVU_RES-SPACEHEAT                  ,    DK1_IDVU_TER-SPACEHEAT                  )   
-DK2                                       .(   DK2_IDVU_RES-HOTWTR                  ,    DK2_IDVU_TER-HOTWTR                  ,    DK2_IDVU_RES-SPACEHEAT                  ,    DK2_IDVU_TER-SPACEHEAT                  )   
-EE                                        .(   EE_IDVU_RES-HOTWTR                   ,    EE_IDVU_TER-HOTWTR                   ,    EE_IDVU_RES-SPACEHEAT                   ,    EE_IDVU_TER-SPACEHEAT                   )   
-FIN                                       .(   FIN_IDVU_RES-HOTWTR                  ,    FIN_IDVU_TER-HOTWTR                  ,    FIN_IDVU_RES-SPACEHEAT                  ,    FIN_IDVU_TER-SPACEHEAT                  )   
-FR                                        .(   FR_IDVU_RES-HOTWTR                   ,    FR_IDVU_TER-HOTWTR                   ,    FR_IDVU_RES-SPACEHEAT                   ,    FR_IDVU_TER-SPACEHEAT                   )   
-LT                                        .(   LT_IDVU_RES-HOTWTR                   ,    LT_IDVU_TER-HOTWTR                   ,    LT_IDVU_RES-SPACEHEAT                   ,    LT_IDVU_TER-SPACEHEAT                   )   
-LV                                        .(   LV_IDVU_RES-HOTWTR                   ,    LV_IDVU_TER-HOTWTR                   ,    LV_IDVU_RES-SPACEHEAT                   ,    LV_IDVU_TER-SPACEHEAT                   )   
-NL                                        .(   NL_IDVU_RES-HOTWTR                   ,    NL_IDVU_TER-HOTWTR                   ,    NL_IDVU_RES-SPACEHEAT                   ,    NL_IDVU_TER-SPACEHEAT                   )   
-NO1                                       .(   NO1_IDVU_RES-HOTWTR                  ,    NO1_IDVU_TER-HOTWTR                  ,    NO1_IDVU_RES-SPACEHEAT                  ,    NO1_IDVU_TER-SPACEHEAT                  )   
-NO2                                       .(   NO2_IDVU_RES-HOTWTR                  ,    NO2_IDVU_TER-HOTWTR                  ,    NO2_IDVU_RES-SPACEHEAT                  ,    NO2_IDVU_TER-SPACEHEAT                  )   
-NO3                                       .(   NO3_IDVU_RES-HOTWTR                  ,    NO3_IDVU_TER-HOTWTR                  ,    NO3_IDVU_RES-SPACEHEAT                  ,    NO3_IDVU_TER-SPACEHEAT                  )   
-NO4                                       .(   NO4_IDVU_RES-HOTWTR                  ,    NO4_IDVU_TER-HOTWTR                  ,    NO4_IDVU_RES-SPACEHEAT                  ,    NO4_IDVU_TER-SPACEHEAT                  )   
-NO5                                       .(   NO5_IDVU_RES-HOTWTR                  ,    NO5_IDVU_TER-HOTWTR                  ,    NO5_IDVU_RES-SPACEHEAT                  ,    NO5_IDVU_TER-SPACEHEAT                  )   
-PL                                        .(   PL_IDVU_RES-HOTWTR                   ,    PL_IDVU_TER-HOTWTR                   ,    PL_IDVU_RES-SPACEHEAT                   ,    PL_IDVU_TER-SPACEHEAT                   )   
-SE1                                       .(   SE1_IDVU_RES-HOTWTR                  ,    SE1_IDVU_TER-HOTWTR                  ,    SE1_IDVU_RES-SPACEHEAT                  ,    SE1_IDVU_TER-SPACEHEAT                  )   
-SE2                                       .(   SE2_IDVU_RES-HOTWTR                  ,    SE2_IDVU_TER-HOTWTR                  ,    SE2_IDVU_RES-SPACEHEAT                  ,    SE2_IDVU_TER-SPACEHEAT                  )   
-SE3                                       .(   SE3_IDVU_RES-HOTWTR                  ,    SE3_IDVU_TER-HOTWTR                  ,    SE3_IDVU_RES-SPACEHEAT                  ,    SE3_IDVU_TER-SPACEHEAT                  )   
-SE4                                       .(   SE4_IDVU_RES-HOTWTR                  ,    SE4_IDVU_TER-HOTWTR                  ,    SE4_IDVU_RES-SPACEHEAT                  ,    SE4_IDVU_TER-SPACEHEAT                  )   
-UK                                        .(   UK_IDVU_RES-HOTWTR                   ,    UK_IDVU_TER-HOTWTR                   ,    UK_IDVU_RES-SPACEHEAT                   ,    UK_IDVU_TER-SPACEHEAT                   )   
-                                                                                                                                                                                                                            
-BE                                        .(   BE_IDVU_RES-DH-HOTWTR                ,    BE_IDVU_TER-DH-HOTWTR                ,    BE_IDVU_RES-DH-SPACEHEAT                ,    BE_IDVU_TER-DH-SPACEHEAT                )   
-DE4-E                                     .(   DE4-E_IDVU_RES-DH-HOTWTR             ,    DE4-E_IDVU_TER-DH-HOTWTR             ,    DE4-E_IDVU_RES-DH-SPACEHEAT             ,    DE4-E_IDVU_TER-DH-SPACEHEAT             )   
-DE4-N                                     .(   DE4-N_IDVU_RES-DH-HOTWTR             ,    DE4-N_IDVU_TER-DH-HOTWTR             ,    DE4-N_IDVU_RES-DH-SPACEHEAT             ,    DE4-N_IDVU_TER-DH-SPACEHEAT             )   
-DE4-S                                     .(   DE4-S_IDVU_RES-DH-HOTWTR             ,    DE4-S_IDVU_TER-DH-HOTWTR             ,    DE4-S_IDVU_RES-DH-SPACEHEAT             ,    DE4-S_IDVU_TER-DH-SPACEHEAT             )   
-DE4-W                                     .(   DE4-W_IDVU_RES-DH-HOTWTR             ,    DE4-W_IDVU_TER-DH-HOTWTR             ,    DE4-W_IDVU_RES-DH-SPACEHEAT             ,    DE4-W_IDVU_TER-DH-SPACEHEAT             )   
-DK1                                       .(   DK1_IDVU_RES-DH-HOTWTR               ,    DK1_IDVU_TER-DH-HOTWTR               ,    DK1_IDVU_RES-DH-SPACEHEAT               ,    DK1_IDVU_TER-DH-SPACEHEAT               )   
-DK2                                       .(   DK2_IDVU_RES-DH-HOTWTR               ,    DK2_IDVU_TER-DH-HOTWTR               ,    DK2_IDVU_RES-DH-SPACEHEAT               ,    DK2_IDVU_TER-DH-SPACEHEAT               )   
-EE                                        .(   EE_IDVU_RES-DH-HOTWTR                ,    EE_IDVU_TER-DH-HOTWTR                ,    EE_IDVU_RES-DH-SPACEHEAT                ,    EE_IDVU_TER-DH-SPACEHEAT                )   
-FIN                                       .(   FIN_IDVU_RES-DH-HOTWTR               ,    FIN_IDVU_TER-DH-HOTWTR               ,    FIN_IDVU_RES-DH-SPACEHEAT               ,    FIN_IDVU_TER-DH-SPACEHEAT               )   
-FR                                        .(   FR_IDVU_RES-DH-HOTWTR                ,    FR_IDVU_TER-DH-HOTWTR                ,    FR_IDVU_RES-DH-SPACEHEAT                ,    FR_IDVU_TER-DH-SPACEHEAT                )   
-LT                                        .(   LT_IDVU_RES-DH-HOTWTR                ,    LT_IDVU_TER-DH-HOTWTR                ,    LT_IDVU_RES-DH-SPACEHEAT                ,    LT_IDVU_TER-DH-SPACEHEAT                )   
-LV                                        .(   LV_IDVU_RES-DH-HOTWTR                ,    LV_IDVU_TER-DH-HOTWTR                ,    LV_IDVU_RES-DH-SPACEHEAT                ,    LV_IDVU_TER-DH-SPACEHEAT                )   
-NL                                        .(   NL_IDVU_RES-DH-HOTWTR                ,    NL_IDVU_TER-DH-HOTWTR                ,    NL_IDVU_RES-DH-SPACEHEAT                ,    NL_IDVU_TER-DH-SPACEHEAT                )   
-NO1                                       .(   NO1_IDVU_RES-DH-HOTWTR               ,    NO1_IDVU_TER-DH-HOTWTR               ,    NO1_IDVU_RES-DH-SPACEHEAT               ,    NO1_IDVU_TER-DH-SPACEHEAT               )   
-NO2                                       .(   NO2_IDVU_RES-DH-HOTWTR               ,    NO2_IDVU_TER-DH-HOTWTR               ,    NO2_IDVU_RES-DH-SPACEHEAT               ,    NO2_IDVU_TER-DH-SPACEHEAT               )   
-NO3                                       .(   NO3_IDVU_RES-DH-HOTWTR               ,    NO3_IDVU_TER-DH-HOTWTR               ,    NO3_IDVU_RES-DH-SPACEHEAT               ,    NO3_IDVU_TER-DH-SPACEHEAT               )   
-NO4                                       .(   NO4_IDVU_RES-DH-HOTWTR               ,    NO4_IDVU_TER-DH-HOTWTR               ,    NO4_IDVU_RES-DH-SPACEHEAT               ,    NO4_IDVU_TER-DH-SPACEHEAT               )   
-NO5                                       .(   NO5_IDVU_RES-DH-HOTWTR               ,    NO5_IDVU_TER-DH-HOTWTR               ,    NO5_IDVU_RES-DH-SPACEHEAT               ,    NO5_IDVU_TER-DH-SPACEHEAT               )   
-PL                                        .(   PL_IDVU_RES-DH-HOTWTR                ,    PL_IDVU_TER-DH-HOTWTR                ,    PL_IDVU_RES-DH-SPACEHEAT                ,    PL_IDVU_TER-DH-SPACEHEAT                )   
-SE1                                       .(   SE1_IDVU_RES-DH-HOTWTR               ,    SE1_IDVU_TER-DH-HOTWTR               ,    SE1_IDVU_RES-DH-SPACEHEAT               ,    SE1_IDVU_TER-DH-SPACEHEAT               )   
-SE2                                       .(   SE2_IDVU_RES-DH-HOTWTR               ,    SE2_IDVU_TER-DH-HOTWTR               ,    SE2_IDVU_RES-DH-SPACEHEAT               ,    SE2_IDVU_TER-DH-SPACEHEAT               )   
-SE3                                       .(   SE3_IDVU_RES-DH-HOTWTR               ,    SE3_IDVU_TER-DH-HOTWTR               ,    SE3_IDVU_RES-DH-SPACEHEAT               ,    SE3_IDVU_TER-DH-SPACEHEAT               )   
-SE4                                       .(   SE4_IDVU_RES-DH-HOTWTR               ,    SE4_IDVU_TER-DH-HOTWTR               ,    SE4_IDVU_RES-DH-SPACEHEAT               ,    SE4_IDVU_TER-DH-SPACEHEAT               )   
-UK                                        .(   UK_IDVU_RES-DH-HOTWTR                ,    UK_IDVU_TER-DH-HOTWTR                ,    UK_IDVU_RES-DH-SPACEHEAT                ,    UK_IDVU_TER-DH-SPACEHEAT                )   
-                                                                                                                                                                                                                            
-$label    NO_INDIVUSERS_AAA                                                                                                                                                                                                 
-/;                                                                                                                                                                                                                          
-$offembedded                                                                                                                                                                                                                
+SET RRRAAA(RRR,AAA) "Areas in regions"                                                                  
+/
+Aabenraa . Aabenraa_IDVU-SPACEHEAT
+Aalborg . Aalborg_IDVU-SPACEHEAT
+Aarhus . Aarhus_IDVU-SPACEHEAT
+Aeroe . Aeroe_IDVU-SPACEHEAT
+Albertslund . Albertslund_IDVU-SPACEHEAT
+Alleroed . Alleroed_IDVU-SPACEHEAT
+Assens . Assens_IDVU-SPACEHEAT
+Ballerup . Ballerup_IDVU-SPACEHEAT
+Billund . Billund_IDVU-SPACEHEAT
+Bornholm . Bornholm_IDVU-SPACEHEAT
+Broendby . Broendby_IDVU-SPACEHEAT
+Broenderslev . Broenderslev_IDVU-SPACEHEAT
+Christiansoe . Christiansoe_IDVU-SPACEHEAT
+Dragoer . Dragoer_IDVU-SPACEHEAT
+Egedal . Egedal_IDVU-SPACEHEAT
+Esbjerg . Esbjerg_IDVU-SPACEHEAT
+Faaborg-Midtfyn . Faaborg-Midtfyn_IDVU-SPACEHEAT
+Fanoe . Fanoe_IDVU-SPACEHEAT
+Favrskov . Favrskov_IDVU-SPACEHEAT
+Faxe . Faxe_IDVU-SPACEHEAT
+Fredensborg . Fredensborg_IDVU-SPACEHEAT
+Fredericia . Fredericia_IDVU-SPACEHEAT
+Frederiksberg . Frederiksberg_IDVU-SPACEHEAT
+Frederikshavn . Frederikshavn_IDVU-SPACEHEAT
+Frederikssund . Frederikssund_IDVU-SPACEHEAT
+Furesoe . Furesoe_IDVU-SPACEHEAT
+Gentofte . Gentofte_IDVU-SPACEHEAT
+Gladsaxe . Gladsaxe_IDVU-SPACEHEAT
+Glostrup . Glostrup_IDVU-SPACEHEAT
+Greve . Greve_IDVU-SPACEHEAT
+Gribskov . Gribskov_IDVU-SPACEHEAT
+Guldborgsund . Guldborgsund_IDVU-SPACEHEAT
+Haderslev . Haderslev_IDVU-SPACEHEAT
+Halsnaes . Halsnaes_IDVU-SPACEHEAT
+Hedensted . Hedensted_IDVU-SPACEHEAT
+Helsingoer . Helsingoer_IDVU-SPACEHEAT
+Herlev . Herlev_IDVU-SPACEHEAT
+Herning . Herning_IDVU-SPACEHEAT
+Hilleroed . Hilleroed_IDVU-SPACEHEAT
+Hjoerring . Hjoerring_IDVU-SPACEHEAT
+Hoeje-Taastrup . Hoeje-Taastrup_IDVU-SPACEHEAT
+Hoersholm . Hoersholm_IDVU-SPACEHEAT
+Holbaek . Holbaek_IDVU-SPACEHEAT
+Holstebro . Holstebro_IDVU-SPACEHEAT
+Horsens . Horsens_IDVU-SPACEHEAT
+Hvidovre . Hvidovre_IDVU-SPACEHEAT
+Ikast-Brande . Ikast-Brande_IDVU-SPACEHEAT
+Ishoej . Ishoej_IDVU-SPACEHEAT
+Jammerbugt . Jammerbugt_IDVU-SPACEHEAT
+Kalundborg . Kalundborg_IDVU-SPACEHEAT
+Kerteminde . Kerteminde_IDVU-SPACEHEAT
+Koebenhavn . Koebenhavn_IDVU-SPACEHEAT
+Koege . Koege_IDVU-SPACEHEAT
+Kolding . Kolding_IDVU-SPACEHEAT
+Laesoe . Laesoe_IDVU-SPACEHEAT
+Langeland . Langeland_IDVU-SPACEHEAT
+Lejre . Lejre_IDVU-SPACEHEAT
+Lemvig . Lemvig_IDVU-SPACEHEAT
+Lolland . Lolland_IDVU-SPACEHEAT
+Lyngby-Taarbaek . Lyngby-Taarbaek_IDVU-SPACEHEAT
+Mariagerfjord . Mariagerfjord_IDVU-SPACEHEAT
+Middelfart . Middelfart_IDVU-SPACEHEAT
+Morsoe . Morsoe_IDVU-SPACEHEAT
+Naestved . Naestved_IDVU-SPACEHEAT
+Norddjurs . Norddjurs_IDVU-SPACEHEAT
+Nordfyns . Nordfyns_IDVU-SPACEHEAT
+Nyborg . Nyborg_IDVU-SPACEHEAT
+Odder . Odder_IDVU-SPACEHEAT
+Odense . Odense_IDVU-SPACEHEAT
+Odsherred . Odsherred_IDVU-SPACEHEAT
+Randers . Randers_IDVU-SPACEHEAT
+Rebild . Rebild_IDVU-SPACEHEAT
+Ringkoebing-Skjern . Ringkoebing-Skjern_IDVU-SPACEHEAT
+Ringsted . Ringsted_IDVU-SPACEHEAT
+Roedovre . Roedovre_IDVU-SPACEHEAT
+Roskilde . Roskilde_IDVU-SPACEHEAT
+Rudersdal . Rudersdal_IDVU-SPACEHEAT
+Samsoe . Samsoe_IDVU-SPACEHEAT
+Silkeborg . Silkeborg_IDVU-SPACEHEAT
+Skanderborg . Skanderborg_IDVU-SPACEHEAT
+Skive . Skive_IDVU-SPACEHEAT
+Slagelse . Slagelse_IDVU-SPACEHEAT
+Soenderborg . Soenderborg_IDVU-SPACEHEAT
+Solroed . Solroed_IDVU-SPACEHEAT
+Soroe . Soroe_IDVU-SPACEHEAT
+Stevns . Stevns_IDVU-SPACEHEAT
+Struer . Struer_IDVU-SPACEHEAT
+Svendborg . Svendborg_IDVU-SPACEHEAT
+Syddjurs . Syddjurs_IDVU-SPACEHEAT
+Taarnby . Taarnby_IDVU-SPACEHEAT
+Thisted . Thisted_IDVU-SPACEHEAT
+Toender . Toender_IDVU-SPACEHEAT
+Vallensbaek . Vallensbaek_IDVU-SPACEHEAT
+Varde . Varde_IDVU-SPACEHEAT
+Vejen . Vejen_IDVU-SPACEHEAT
+Vejle . Vejle_IDVU-SPACEHEAT
+Vesthimmerlands . Vesthimmerlands_IDVU-SPACEHEAT
+Viborg . Viborg_IDVU-SPACEHEAT
+Vordingborg . Vordingborg_IDVU-SPACEHEAT
+/;
