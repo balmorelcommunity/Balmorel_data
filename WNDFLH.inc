@@ -103,5 +103,6 @@ Vordingborg_A         3539.583606
 /
 ;
 $onmulti
-$include '../data/OFFSHORE_WNDFLH.inc'
+$if     EXIST '../data/OFFSHORE_WNDFLH.inc'    $INCLUDE '../data/OFFSHORE_WNDFLH.inc';
+$if not EXIST '../data/OFFSHORE_WNDFLH.inc' $INCLUDE '../../base/data/OFFSHORE_WNDFLH.inc';
 $offmulti

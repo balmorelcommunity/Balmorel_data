@@ -168,5 +168,6 @@ AGKN('Vesthimmerlands_A',GGG) = BASE_INV_OPTIONS(GGG);
 AGKN('Viborg_A',GGG) = BASE_INV_OPTIONS(GGG);
 AGKN('Vordingborg_A',GGG) = BASE_INV_OPTIONS(GGG);
 $onmulti
-$include '../data/OFFSHORE_AGKN.inc'
+$if     EXIST '../data/OFFSHORE_AGKN.inc'    $INCLUDE '../data/OFFSHORE_AGKN.inc';
+$if not EXIST '../data/OFFSHORE_AGKN.inc'    $INCLUDE '../../base/data/OFFSHORE_AGKN.inc';
 $offmulti

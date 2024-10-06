@@ -101,5 +101,6 @@ Viborg . Viborg_A
 Vordingborg . Vordingborg_A
 /;
 $onmulti
-$include "../data/OFFSHORE_RRRAAA.inc"
+$if     EXIST '../data/OFFSHORE_RRRAAA.inc' $INCLUDE '../data/OFFSHORE_RRRAAA.inc';
+$if not EXIST '../data/OFFSHORE_RRRAAA.inc' $INCLUDE '../../base/data/OFFSHORE_RRRAAA.inc';
 $offmulti

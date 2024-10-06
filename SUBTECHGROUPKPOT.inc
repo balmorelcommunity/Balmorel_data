@@ -2082,5 +2082,6 @@ Vordingborg_A . WINDTURBINE_OFFSHORE               EPS        EPS    EPS     EPS
 Vordingborg_A . WINDTURBINE_ONSHORE                                                96.883994                                               EPS                                               EPS                                             
 ;
 $onmulti
-$include '../data/OFFSHORE_SUBTECHGROUPKPOT.inc'
+$if     EXIST '../data/OFFSHORE_SUBTECHGROUPKPOT.inc'    $INCLUDE '../data/OFFSHORE_SUBTECHGROUPKPOT.inc';
+$if not EXIST '../data/OFFSHORE_SUBTECHGROUPKPOT.inc' $INCLUDE '../../base/data/OFFSHORE_SUBTECHGROUPKPOT.inc';
 $offmulti
