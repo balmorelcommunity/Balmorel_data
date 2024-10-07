@@ -300,6 +300,11 @@ METHANOLFLOW_CH4
                                                                                                                    
                                                                                                                    
                                                                                                                    
-NATGAS_FLOW                                                                                                        
-                                                                                                                   
+NATGAS_FLOW
+
+CO2_SOURCE_FLOW_CHP
+CO2_STO_FLOW_ON                                                                                                      
+CO2_STO_FLOW_OFF
+
+                                                                                                  
 /;                                                                                                                 

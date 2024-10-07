@@ -699,6 +699,31 @@ NorthSeaGas
                                                                                                                          
                                                                                                                          
                                                                                                                          
-                                                                                                                         
-                                                                                                                         
-/;                                                                                                                       
+CO2_CHP_20                                                                                                                         
+CO2_CHP_25                                                                                                                         
+CO2_CHP_30                                                                                                                       
+CO2_CHP_35
+CO2_CHP_40
+CO2_CHP_45
+CO2_CHP_50
+
+
+CO2_Storage_Onshore_20     
+CO2_Storage_Onshore_25     
+CO2_Storage_Onshore_30     
+CO2_Storage_Onshore_35     
+CO2_Storage_Onshore_40     
+CO2_Storage_Onshore_45     
+CO2_Storage_Onshore_50     
+                         
+CO2_Storage_Offshore_20  
+CO2_Storage_Offshore_25  
+CO2_Storage_Offshore_30  
+CO2_Storage_Offshore_35  
+CO2_Storage_Offshore_40  
+CO2_Storage_Offshore_45  
+CO2_Storage_Offshore_50
+
+CO2_Source_CHP
+
+/;
