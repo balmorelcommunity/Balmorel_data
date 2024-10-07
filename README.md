@@ -1,6 +1,6 @@
 # README #
 
-Data for the master branch of the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel). Clone this repository into base/ for easy version control of both framework code and base data. Remember to rename the cloned folder from "Balmorel_data" to "data" for proper functioning. 
+Data for the spatial_study branch of the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel_data/tree/mberos-spatialaggregation). Clone this repository into base/ for easy version control of both framework code and base data. Remember to rename the cloned folder from "Balmorel_data" to "data" for proper functioning. 
 
 ## Generating .inc files from Excel
 * An excel file exist that can be used to generate .inc-files in this repository
