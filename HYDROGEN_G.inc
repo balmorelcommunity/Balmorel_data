@@ -287,4 +287,9 @@ GNR_BIOGASMETHANATION_E-168_Y-2050
 *BACKUP                                            
 GNR_BACKUP_HYDROGEN                                
 GNR_BACKUP_BIOMETHANE                              
+
+* Synfuel
+GNR_TG-MeOH-2050 
+GNR_TG-MeOH-2050_H2
+GNR_eNH3-2050
 /;                                                 
