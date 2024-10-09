@@ -1,4 +1,4 @@
-SET AAA(CCCRRRAAA) 'Offshore areas'
+SET AAA 'Offshore areas'
 /
 Esbjerg_OFF
 Haderslev_OFF
