@@ -1,31 +1,31 @@
-PARAMETER WNDFLH(AAA)  'Full load hours for wind power'
+Parameter WNDFLH(AAA)            "Full load hours for wind power (hours)"
 /
-Aarhus_OFF                4801.556168
-Bornholm_OFF1             5387.091609
-Bornholm_OFF2             5292.983073
-Bornholm_OFF3             5141.414454
-Esbjerg_OFF               5569.097673
-Esbjerg_OFF5              5868.201567
-Frederikshavn_OFF         5244.648974
-Haderslev_OFF             4254.977460
-Halsnaes_OFF              5309.769899
-Kalundborg_OFF            4884.213761
-Lemvig_OFF                5623.341704
-Lolland_OFF               5308.590649
-Lolland_OFF2              5027.560448
-Lolland_OFF3              4910.678812
-Norddjurs_OFF             5185.003155
-Norddjurs_OFF2            5295.118649
-Norddjurs_OFF3            5311.506759
-Ringkoebing-Skjern_OFF    5658.870250
-Samsoe_OFF                5223.153366
-Soenderborg_OFF           4137.342983
-Stevns_OFF                4940.136871
-Stevns_OFF2               4436.329493
-Varde_OFF                 5671.074374
-Vordingborg_OFF1          5199.379287
-Vordingborg_OFF2          5252.310382
-Vordingborg_OFF3          5329.838663
-Vordingborg_OFF4          5253.946104
+Esbjerg_OFF               4025.383119
+Haderslev_OFF             2396.865340
+Soenderborg_OFF           2230.340601
+Ringkoebing-Skjern_OFF    4172.155755
+Varde_OFF                 4133.320240
+Lemvig_OFF                4041.489467
+Frederikshavn_OFF         3862.171573
+Norddjurs_OFF             3677.214749
+Norddjurs_OFF2            3806.580531
+Norddjurs_OFF3            3775.541357
+Halsnaes_OFF              3838.656991
+Aarhus_OFF                2921.784025
+Samsoe_OFF                3454.031174
+Kalundborg_OFF            3167.427391
+Lolland_OFF               3720.999954
+Lolland_OFF2              3453.333527
+Lolland_OFF3              3114.620817
+Vordingborg_OFF1          3670.931403
+Vordingborg_OFF2          3727.377076
+Vordingborg_OFF3          3802.249382
+Vordingborg_OFF4          3677.581512
+Stevns_OFF                3205.250104
+Stevns_OFF2               2750.764397
+Bornholm_OFF1             3874.782998
+Bornholm_OFF2             3797.203875
+Bornholm_OFF3             3655.979871
+Esbjerg_OFF5              4360.988905
 /
 ;
