@@ -102,14 +102,14 @@ TABLE GMAXF(YYY, CCCRRRAAA, FFF) 'Maximum fuel use (GJ) per year'
 2050 . Viborg                          121981.0  59964.0                       EPS           
 2050 . Vordingborg                     148038.0  39420.0                       EPS           
 ;
-GMAXF('2050', 'DENMARK', 'BIOGAS') = 43300000.00;
+GMAXF('2050', 'DENMARK', 'BIOGAS') = 10560000.00;
 GMAXF('2050', 'DENMARK', 'WOODCHIPS') = EPS;
 GMAXF('2050', 'DENMARK', 'WOODWASTE') = EPS;
 GMAXF('2050', 'DENMARK', 'STRAW') = 7327069.00;
 GMAXF('2050', 'DENMARK', 'WOOD') = 2469133.00;
 * Use existing potentials as distribution key for input potentials for straw and wood, defined below
-GMAXF('2050', CCCRRRAAA, 'STRAW') = GMAXF('2050', CCCRRRAAA, 'STRAW') / GMAXF('2050', 'DENMARK', 'STRAW') * 22000000.00;
-GMAXF('2050', CCCRRRAAA, 'WOOD') = GMAXF('2050', CCCRRRAAA, 'WOOD') / GMAXF('2050', 'DENMARK', 'WOOD') * 7300000.00;
+GMAXF('2050', CCCRRRAAA, 'STRAW') = GMAXF('2050', CCCRRRAAA, 'STRAW') / GMAXF('2050', 'DENMARK', 'STRAW') * 54000000.00;
+GMAXF('2050', CCCRRRAAA, 'WOOD') = GMAXF('2050', CCCRRRAAA, 'WOOD') / GMAXF('2050', 'DENMARK', 'WOOD') * 40000000.00;
 * Disallow import of woodpellets
 GMAXF('2050', 'DENMARK', 'WOODPELLETS') = EPS;
 GMAXF(Y,'DENMARK','MUNIWASTE') = 763308;
