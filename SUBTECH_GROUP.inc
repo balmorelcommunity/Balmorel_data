@@ -22,4 +22,5 @@ HUB_OFF
 AIR                                                 
 EXCESSHEAT                                          
 GROUND                                              
+PTES
 /;                                                  
