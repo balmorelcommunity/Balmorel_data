@@ -56,4 +56,4 @@ FUELPRICE('2015',AAA,FFF)$(FUELPRICE('2015',AAA,FFF) EQ                      0)=
 FUELPRICE(YYY,AAA,FFF)$((YYY.val                     >                       2014)                                 and                                       (FUELPRICE(YYY,AAA,FFF) EQ       0))=FUELPRICE(YYY,'DK1_large',FFF);                                                                                                     
 
 *IK Sensitivity
-FUELPRICE(YYY,AAA,FFF) = 0.7*FUELPRICE(YYY,AAA,FFF);
+*FUELPRICE(YYY,AAA,FFF) = 0.7*FUELPRICE(YYY,AAA,FFF);
