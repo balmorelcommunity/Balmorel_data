@@ -6,6 +6,7 @@ Bornholm_OFF2             3797.203875
 Bornholm_OFF3             3655.979871
 Esbjerg_OFF               4025.383119
 Esbjerg_OFF5              4360.988905
+Ringkoebing-Skjern_OFF5   4360.988905
 Frederikshavn_OFF         3862.171573
 Haderslev_OFF             2396.865340
 Halsnaes_OFF              3838.656991
