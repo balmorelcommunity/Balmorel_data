@@ -27,4 +27,5 @@ Bornholm . Bornholm_OFF1
 Bornholm . Bornholm_OFF2
 Bornholm . Bornholm_OFF3
 Esbjerg . Esbjerg_OFF5
+Holstebro . Holstebro_OFF5
 /;
