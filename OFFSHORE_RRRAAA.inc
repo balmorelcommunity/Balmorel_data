@@ -4,7 +4,6 @@ Esbjerg . Esbjerg_OFF
 Haderslev . Haderslev_OFF
 Soenderborg . Soenderborg_OFF
 Ringkoebing-Skjern . Ringkoebing-Skjern_OFF
-Ringkoebing-Skjern . Ringkoebing-Skjern_OFF5
 Varde . Varde_OFF
 Lemvig . Lemvig_OFF
 Frederikshavn . Frederikshavn_OFF
@@ -28,4 +27,5 @@ Bornholm . Bornholm_OFF1
 Bornholm . Bornholm_OFF2
 Bornholm . Bornholm_OFF3
 Esbjerg . Esbjerg_OFF5
+Holstebro . Holstebro_OFF5
 /;
