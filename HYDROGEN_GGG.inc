@@ -289,4 +289,8 @@ GNR_BACKUP_BIOMETHANE
 GNR_TG-MeOH-2050
 GNR_TG-MeOH-2050_H2
 GNR_eNH3-2050
-/;                                                 
+
+GNR_BACKUP_TG-MeOH-2050_H2  
+GNR_BACKUP_TG-MeOH-2050                                                      
+GNR_BACKUP_eNH3-2050
+/;
