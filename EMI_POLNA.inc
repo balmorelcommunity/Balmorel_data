@@ -5,3 +5,6 @@ TABLE EMI_POLNA(YYY,GROUP,EMIPOLSET)  "Emission policy data; default for the 'LI
 *2012                                                                                                                                                                                                                                        
 ;                                                                                                                                                                                                                                            
 EMI_POLNA(YYY,GROUP,EMIPOLSET)=0;                                                                                                                                                                                                            
+                                                                                                                                                                                                                                            
+* Zero carbon target
+EMI_POLNA('2050','ALL_SECTORS','LIM_CO2')=EPS;
