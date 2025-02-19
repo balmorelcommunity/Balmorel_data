@@ -89,10 +89,8 @@ SK                                                                  .    SK_A
 HU                                                                  .    HU_A                               
 SI                                                                  .    SI_A                                
 HR                                                                  .    HR_A                              
-RO                                                                  .    RO_A                           
-RO                                                                  .    RO_Offshore                        
-BG                                                                  .    BG_A                           
-BG                                                                  .    BG_Offshore                        
+RO                                                                  .    RO_A                      
+BG                                                                  .    BG_A                        
 GR                                                                  .    GR_A                                
 IE                                                                  .    IE_A                             
 LU                                                                  .    LU_A                               

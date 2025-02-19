@@ -67,7 +67,7 @@ BA_A                                                              2
 RS_A                                                              2   
 TR_A                                                              2   
 MT_A                                                              2   
-CY_A                                                              2                                                                       
-          
-$include DISCOST_H_renewable.inc;                                                            
+CY_A                                                              2                                                                                                                              
 /;                                                                    
+
+$if   EXIST '../data/DISCOST_H_renewable.inc ' $INCLUDE      '../data/DISCOST_H_renewable.inc'; 

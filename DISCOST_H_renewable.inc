@@ -78,9 +78,9 @@ HR_OFF_OFF_Existing_RG3     2
 PL_OFF_OFF_Existing_RG1     2
 PL_OFF_OFF_Existing_RG2     2
 PL_OFF_OFF_Existing_RG3     2
-DK3_OFF_OFF_Existing_RG1    2
-DK3_OFF_OFF_Existing_RG2    2
-DK3_OFF_OFF_Existing_RG3    2
+*DK3_OFF_OFF_Existing_RG1    2
+*DK3_OFF_OFF_Existing_RG2    2
+*DK3_OFF_OFF_Existing_RG3    2
 SE3_OFF1_OFF_Existing_RG1   2
 SE3_OFF1_OFF_Existing_RG2   2
 SE3_OFF1_OFF_Existing_RG3   2
