@@ -1,8 +1,7 @@
 SET C(CCC)  'Countries in the simulation'    
 /                                            
-*NORWAY                                       
+NORWAY                                       
 DENMARK                                      
-$ontext
 FINLAND                                      
 GERMANY                                      
 NETHERLANDS                                  
@@ -37,5 +36,5 @@ SERBIA
 *TURKEY                                       
 MALTA                                        
 CYPRUS
-$offtext                                 
+                                
 /;                                           
