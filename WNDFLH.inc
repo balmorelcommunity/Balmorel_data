@@ -1127,6 +1127,10 @@ SI_ONS_Existing_RG1                             1616.326311
 SK_ONS_Existing_RG1                             1505.665482
 TR_ONS_Existing_RG1                             2592.754905
 UK_ONS_Existing_RG1                             2453.157420
+
+*Albanian existing onshore added arbitrarily because isn't output from DTU Wind program
+AL_ONS_Existing_RG1                             2412.701486
+
 BE_OFF_OFF_Existing_RG2                         3656.181119
 DE4-W_OFF_OFF_Existing_RG2                      4133.304051
 DE4-E_OFF_OFF_Existing_RG2                      4142.733329
