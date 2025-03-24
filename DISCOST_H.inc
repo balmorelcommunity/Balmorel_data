@@ -70,4 +70,5 @@ MT_A                                                              2
 CY_A                                                              2                                                                                                                              
 /;                                                                    
 
-$if   EXIST '../data/DISCOST_H_renewable.inc ' $INCLUDE      '../data/DISCOST_H_renewable.inc'; 
+$if     EXIST '../data/DISCOST_H_renewable.inc ' $INCLUDE      '../data/DISCOST_H_renewable.inc'; 
+$if not EXIST '../data/DISCOST_H_renewable.inc ' $INCLUDE      '../../base/data/DISCOST_H_renewable.inc'; 
