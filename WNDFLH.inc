@@ -1133,15 +1133,18 @@ AL_ONS_Existing_RG1                             2412.701486
 
 BE_OFF_OFF_Existing_RG2                         3656.181119
 DE4-W_OFF_OFF_Existing_RG2                      4133.304051
+DE4-N_OFF_OFF_Existing_RG2                      4133.304051
 DE4-E_OFF_OFF_Existing_RG2                      4142.733329
 DK2_OFF_OFF_Existing_RG2                        3112.182549
 DK1_OFF_OFF_Existing_RG2                        3915.478650
 ES_OFF2_OFF_Existing_RG2                        2660.157769
 FIN_OFF_OFF_Existing_RG2                        3895.864787
 FR_OFF1_OFF_Existing_RG2                        3273.129621
+IT_OFF1_OFF_Existing_RG2                        2660.157769
 IE_OFF_OFF_Existing_RG2                         3691.520444
 NL_OFF_OFF_Existing_RG2                         4042.536219
 NO2_OFF_OFF_Existing_RG2                        3322.222340
+NO3_OFF_OFF_Existing_RG2                        3322.222340
 PT_OFF_OFF_Existing_RG2                         2919.652096
 SE4_OFF_OFF_Existing_RG2                        3210.024284
 UK_OFF_OFF_Existing_RG2                         3718.902304

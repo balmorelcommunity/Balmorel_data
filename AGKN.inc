@@ -573,7 +573,7 @@ ALLOWEDINV('EE_Urban',G)=ALLOWEDINV('EE_Enefit',G);
 $onMulti
 SET ALLOWEDINV(AAA,GGG) 
 / 
-$ontext
+
 IE_VRE-ONS_SP199-HH150_RG1.( 
 GNR_WT-SP199-HH150_ONS_RG1_Y-2020
  GNR_WT-SP199-HH150_ONS_RG1_Y-2030
@@ -594,7 +594,7 @@ GNR_WT-SP199-HH150_ONS_RG3_Y-2020
  GNR_WT-SP199-HH150_ONS_RG3_Y-2040
  GNR_WT-SP199-HH150_ONS_RG3_Y-2050
  ) 
-$offtext
+
 
 IE_VRE-ONS_SP277-HH150_RG1.( 
 GNR_WT-SP277-HH150_ONS_RG1_Y-2020
@@ -679,7 +679,7 @@ GNR_WT-SP335-HH100_ONS_RG3_Y-2020
  GNR_WT-SP335-HH100_ONS_RG3_Y-2040
  GNR_WT-SP335-HH100_ONS_RG3_Y-2050
  ) 
-$ontext
+
 IE_VRE-ONS_SP199-HH100_RG1.( 
 GNR_WT-SP199-HH100_ONS_RG1_Y-2020
  GNR_WT-SP199-HH100_ONS_RG1_Y-2030
@@ -700,7 +700,7 @@ GNR_WT-SP199-HH100_ONS_RG3_Y-2020
  GNR_WT-SP199-HH100_ONS_RG3_Y-2040
  GNR_WT-SP199-HH100_ONS_RG3_Y-2050
  ) 
-$offtext
+
 IE_OFF_VRE-OFF_bottom_fixed_SP316-HH155_RG1.( 
 GNR_WT-SP316-HH155_OFF_bottom_fixed_RG1_Y-2020
  GNR_WT-SP316-HH155_OFF_bottom_fixed_RG1_Y-2030
@@ -799,11 +799,9 @@ ALLOWEDINV(AAA,G)$((INVDATA(AAA,'COND')=1)  and ALLOWEDINV('DK2_NoDH',G))       
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'LDH')=1)   and ALLOWEDINV('DK2_Large',G))         = yes ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'MDH')=1)  and ALLOWEDINV('DK2_MedSmall',G))         = yes ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'SDH')=1)  and ALLOWEDINV('DK2_Small',G))         = yes ;
-$ontext
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH150_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH150_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH150_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH150_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH150_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH150_RG3',G))         = yes ; 
-$offtext
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH150_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH150_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH150_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH150_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH150_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH150_RG3',G))         = yes ; 
@@ -816,11 +814,9 @@ ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH100_RG3')=1)  and ALLOWEDINV('I
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH100_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH100_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH100_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH100_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH100_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH100_RG3',G))         = yes ; 
-$ontext
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH100_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH100_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH100_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH100_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH100_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH100_RG3',G))         = yes ; 
-$offtext
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP316-HH155_RG1')=1)  and ALLOWEDINV('IE_OFF_VRE-OFF_bottom_fixed_SP316-HH155_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP316-HH155_RG2')=1)  and ALLOWEDINV('IE_OFF_VRE-OFF_bottom_fixed_SP316-HH155_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP316-HH155_RG3')=1)  and ALLOWEDINV('IE_OFF_VRE-OFF_bottom_fixed_SP316-HH155_RG3',G))         = yes ;
