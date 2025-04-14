@@ -12,18 +12,9 @@ ONS_Existing_RG3
 VRE-ONS_SP199-HH150_RG1
 VRE-ONS_SP199-HH150_RG2
 VRE-ONS_SP199-HH150_RG3
-VRE-ONS_SP277-HH150_RG1
-VRE-ONS_SP277-HH150_RG2
-VRE-ONS_SP277-HH150_RG3
-VRE-ONS_SP335-HH150_RG1
-VRE-ONS_SP335-HH150_RG2
-VRE-ONS_SP335-HH150_RG3
 VRE-ONS_SP277-HH100_RG1
 VRE-ONS_SP277-HH100_RG2
 VRE-ONS_SP277-HH100_RG3
-VRE-ONS_SP335-HH100_RG1
-VRE-ONS_SP335-HH100_RG2
-VRE-ONS_SP335-HH100_RG3
 VRE-ONS_SP199-HH100_RG1
 VRE-ONS_SP199-HH100_RG2
 VRE-ONS_SP199-HH100_RG3
@@ -33,10 +24,12 @@ VRE-OFF_bottom_fixed_SP316-HH155_RG3
 VRE-OFF_bottom_fixed_SP370-HH155_RG1
 VRE-OFF_bottom_fixed_SP370-HH155_RG2
 VRE-OFF_bottom_fixed_SP370-HH155_RG3
-PV_Utility_scale_tracking_RG1
-PV_Utility_scale_tracking_RG2
-PV_Utility_scale_tracking_RG3
 PV_Utility_scale_no_tracking_RG1
 PV_Utility_scale_no_tracking_RG2
 PV_Utility_scale_no_tracking_RG3
+
+* PV Tracking is commented in AGKN to take out investment possibility in the model
+PV_Utility_scale_tracking_RG1
+PV_Utility_scale_tracking_RG2
+PV_Utility_scale_tracking_RG3
 / ;

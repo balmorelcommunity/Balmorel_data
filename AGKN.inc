@@ -15,18 +15,9 @@ ONS_Existing_RG3
 VRE-ONS_SP199-HH150_RG1
 VRE-ONS_SP199-HH150_RG2
 VRE-ONS_SP199-HH150_RG3
-VRE-ONS_SP277-HH150_RG1
-VRE-ONS_SP277-HH150_RG2
-VRE-ONS_SP277-HH150_RG3
-VRE-ONS_SP335-HH150_RG1
-VRE-ONS_SP335-HH150_RG2
-VRE-ONS_SP335-HH150_RG3
 VRE-ONS_SP277-HH100_RG1
 VRE-ONS_SP277-HH100_RG2
 VRE-ONS_SP277-HH100_RG3
-VRE-ONS_SP335-HH100_RG1
-VRE-ONS_SP335-HH100_RG2
-VRE-ONS_SP335-HH100_RG3
 VRE-ONS_SP199-HH100_RG1
 VRE-ONS_SP199-HH100_RG2
 VRE-ONS_SP199-HH100_RG3
@@ -36,12 +27,15 @@ VRE-OFF_bottom_fixed_SP316-HH155_RG3
 VRE-OFF_bottom_fixed_SP370-HH155_RG1
 VRE-OFF_bottom_fixed_SP370-HH155_RG2
 VRE-OFF_bottom_fixed_SP370-HH155_RG3
+PV_Utility_scale_no_tracking_RG1
+PV_Utility_scale_no_tracking_RG2
+PV_Utility_scale_no_tracking_RG3
+
+* PV Tracking is commented in AGKN to take out investment possibility in the model
 PV_Utility_scale_tracking_RG1
 PV_Utility_scale_tracking_RG2
 PV_Utility_scale_tracking_RG3
-PV_Utility_scale_no_tracking_RG1
-PV_Utility_scale_no_tracking_RG2
-PV_Utility_scale_no_tracking_RG3                                                                                                                            'small dh areas'                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 /;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
@@ -594,49 +588,6 @@ GNR_WT-SP199-HH150_ONS_RG3_Y-2020
  GNR_WT-SP199-HH150_ONS_RG3_Y-2040
  GNR_WT-SP199-HH150_ONS_RG3_Y-2050
  ) 
-
-
-IE_VRE-ONS_SP277-HH150_RG1.( 
-GNR_WT-SP277-HH150_ONS_RG1_Y-2020
- GNR_WT-SP277-HH150_ONS_RG1_Y-2030
- GNR_WT-SP277-HH150_ONS_RG1_Y-2040
- GNR_WT-SP277-HH150_ONS_RG1_Y-2050
- ) 
- 
-IE_VRE-ONS_SP277-HH150_RG2.( 
-GNR_WT-SP277-HH150_ONS_RG2_Y-2020
- GNR_WT-SP277-HH150_ONS_RG2_Y-2030
- GNR_WT-SP277-HH150_ONS_RG2_Y-2040
- GNR_WT-SP277-HH150_ONS_RG2_Y-2050
- ) 
- 
-IE_VRE-ONS_SP277-HH150_RG3.( 
-GNR_WT-SP277-HH150_ONS_RG3_Y-2020
- GNR_WT-SP277-HH150_ONS_RG3_Y-2030
- GNR_WT-SP277-HH150_ONS_RG3_Y-2040
- GNR_WT-SP277-HH150_ONS_RG3_Y-2050
- ) 
- 
-IE_VRE-ONS_SP335-HH150_RG1.( 
-GNR_WT-SP335-HH150_ONS_RG1_Y-2020
- GNR_WT-SP335-HH150_ONS_RG1_Y-2030
- GNR_WT-SP335-HH150_ONS_RG1_Y-2040
- GNR_WT-SP335-HH150_ONS_RG1_Y-2050
- ) 
- 
-IE_VRE-ONS_SP335-HH150_RG2.( 
-GNR_WT-SP335-HH150_ONS_RG2_Y-2020
- GNR_WT-SP335-HH150_ONS_RG2_Y-2030
- GNR_WT-SP335-HH150_ONS_RG2_Y-2040
- GNR_WT-SP335-HH150_ONS_RG2_Y-2050
- ) 
- 
-IE_VRE-ONS_SP335-HH150_RG3.( 
-GNR_WT-SP335-HH150_ONS_RG3_Y-2020
- GNR_WT-SP335-HH150_ONS_RG3_Y-2030
- GNR_WT-SP335-HH150_ONS_RG3_Y-2040
- GNR_WT-SP335-HH150_ONS_RG3_Y-2050
- ) 
  
 IE_VRE-ONS_SP277-HH100_RG1.( 
 GNR_WT-SP277-HH100_ONS_RG1_Y-2020
@@ -657,27 +608,6 @@ GNR_WT-SP277-HH100_ONS_RG3_Y-2020
  GNR_WT-SP277-HH100_ONS_RG3_Y-2030
  GNR_WT-SP277-HH100_ONS_RG3_Y-2040
  GNR_WT-SP277-HH100_ONS_RG3_Y-2050
- ) 
- 
-IE_VRE-ONS_SP335-HH100_RG1.( 
-GNR_WT-SP335-HH100_ONS_RG1_Y-2020
- GNR_WT-SP335-HH100_ONS_RG1_Y-2030
- GNR_WT-SP335-HH100_ONS_RG1_Y-2040
- GNR_WT-SP335-HH100_ONS_RG1_Y-2050
- ) 
- 
-IE_VRE-ONS_SP335-HH100_RG2.( 
-GNR_WT-SP335-HH100_ONS_RG2_Y-2020
- GNR_WT-SP335-HH100_ONS_RG2_Y-2030
- GNR_WT-SP335-HH100_ONS_RG2_Y-2040
- GNR_WT-SP335-HH100_ONS_RG2_Y-2050
- ) 
- 
-IE_VRE-ONS_SP335-HH100_RG3.( 
-GNR_WT-SP335-HH100_ONS_RG3_Y-2020
- GNR_WT-SP335-HH100_ONS_RG3_Y-2030
- GNR_WT-SP335-HH100_ONS_RG3_Y-2040
- GNR_WT-SP335-HH100_ONS_RG3_Y-2050
  ) 
 
 IE_VRE-ONS_SP199-HH100_RG1.( 
@@ -743,6 +673,31 @@ GNR_WT-SP370-HH155_OFF_bottom_fixed_RG3_Y-2020
  GNR_WT-SP370-HH155_OFF_bottom_fixed_RG3_Y-2050
  ) 
  
+IE_VRE-PV_Utility_scale_no_tracking_RG1.( 
+GNR_PV-Utility_scale_no_tracking_RG1_Y-2020
+ GNR_PV-Utility_scale_no_tracking_RG1_Y-2030
+ GNR_PV-Utility_scale_no_tracking_RG1_Y-2040
+ GNR_PV-Utility_scale_no_tracking_RG1_Y-2050
+ GNR_PV-Utility_scale_no_tracking_RG1_Existing
+ ) 
+ 
+IE_VRE-PV_Utility_scale_no_tracking_RG2.( 
+GNR_PV-Utility_scale_no_tracking_RG2_Y-2020
+ GNR_PV-Utility_scale_no_tracking_RG2_Y-2030
+ GNR_PV-Utility_scale_no_tracking_RG2_Y-2040
+ GNR_PV-Utility_scale_no_tracking_RG2_Y-2050
+ GNR_PV-Utility_scale_no_tracking_RG2_Existing
+ ) 
+ 
+IE_VRE-PV_Utility_scale_no_tracking_RG3.( 
+GNR_PV-Utility_scale_no_tracking_RG3_Y-2020
+ GNR_PV-Utility_scale_no_tracking_RG3_Y-2030
+ GNR_PV-Utility_scale_no_tracking_RG3_Y-2040
+ GNR_PV-Utility_scale_no_tracking_RG3_Y-2050
+ GNR_PV-Utility_scale_no_tracking_RG3_Existing
+ ) 
+
+* PV Tracking is commented in AGKN to take out investment possibility in the model
 $ontext
 IE_VRE-PV_Utility_scale_tracking_RG1.( 
 GNR_PV-Utility_scale_tracking_RG1_Y-2020
@@ -768,29 +723,6 @@ GNR_PV-Utility_scale_tracking_RG3_Y-2020
  GNR_PV-Utility_scale_tracking_RG3_Existing
  ) 
 $offtext 
-IE_VRE-PV_Utility_scale_no_tracking_RG1.( 
-GNR_PV-Utility_scale_no_tracking_RG1_Y-2020
- GNR_PV-Utility_scale_no_tracking_RG1_Y-2030
- GNR_PV-Utility_scale_no_tracking_RG1_Y-2040
- GNR_PV-Utility_scale_no_tracking_RG1_Y-2050
- GNR_PV-Utility_scale_no_tracking_RG1_Existing
- ) 
- 
-IE_VRE-PV_Utility_scale_no_tracking_RG2.( 
-GNR_PV-Utility_scale_no_tracking_RG2_Y-2020
- GNR_PV-Utility_scale_no_tracking_RG2_Y-2030
- GNR_PV-Utility_scale_no_tracking_RG2_Y-2040
- GNR_PV-Utility_scale_no_tracking_RG2_Y-2050
- GNR_PV-Utility_scale_no_tracking_RG2_Existing
- ) 
- 
-IE_VRE-PV_Utility_scale_no_tracking_RG3.( 
-GNR_PV-Utility_scale_no_tracking_RG3_Y-2020
- GNR_PV-Utility_scale_no_tracking_RG3_Y-2030
- GNR_PV-Utility_scale_no_tracking_RG3_Y-2040
- GNR_PV-Utility_scale_no_tracking_RG3_Y-2050
- GNR_PV-Utility_scale_no_tracking_RG3_Existing
- ) 
  
 / ;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
@@ -801,19 +733,10 @@ ALLOWEDINV(AAA,G)$((INVDATA(AAA,'MDH')=1)  and ALLOWEDINV('DK2_MedSmall',G))    
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'SDH')=1)  and ALLOWEDINV('DK2_Small',G))         = yes ;
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH150_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH150_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH150_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH150_RG2',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH150_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH150_RG3',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH150_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH150_RG1',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH150_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH150_RG2',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH150_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH150_RG3',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH150_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH150_RG1',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH150_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH150_RG2',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH150_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH150_RG3',G))         = yes ; 
+ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH150_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH150_RG3',G))         = yes ;  
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH100_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH100_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH100_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH100_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP277-HH100_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP277-HH100_RG3',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH100_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH100_RG1',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH100_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH100_RG2',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP335-HH100_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP335-HH100_RG3',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH100_RG1')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH100_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH100_RG2')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH100_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-ONS_SP199-HH100_RG3')=1)  and ALLOWEDINV('IE_VRE-ONS_SP199-HH100_RG3',G))         = yes ; 
@@ -823,14 +746,16 @@ ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP316-HH155_RG3')=1)  and 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP370-HH155_RG1')=1)  and ALLOWEDINV('IE_OFF_VRE-OFF_bottom_fixed_SP370-HH155_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP370-HH155_RG2')=1)  and ALLOWEDINV('IE_OFF_VRE-OFF_bottom_fixed_SP370-HH155_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP370-HH155_RG3')=1)  and ALLOWEDINV('IE_OFF_VRE-OFF_bottom_fixed_SP370-HH155_RG3',G))         = yes ;
+ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG1')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG1',G))         = yes ; 
+ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG2')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG2',G))         = yes ; 
+ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG3')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG3',G))         = yes ;
+
+* PV Tracking is commented in AGKN to take out investment possibility in the model
 $ontext 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_tracking_RG1')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_tracking_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_tracking_RG2')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_tracking_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_tracking_RG3')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_tracking_RG3',G))         = yes ; 
 $offtext
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG1')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG1',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG2')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG2',G))         = yes ; 
-ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG3')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG3',G))         = yes ;
 
 
 AGKN(AAA,G)=YES$ALLOWEDINV(AAA,G);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

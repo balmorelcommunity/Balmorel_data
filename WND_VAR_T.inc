@@ -7,9 +7,6 @@ $if not EXIST '../data/WND_VAR_T_ON1.inc'    $INCLUDE '../../base/data/WND_VAR_T
 $if     EXIST '../data/WND_VAR_T_ON2.inc' $INCLUDE      '../data/WND_VAR_T_ON2.inc';                       
 $if not EXIST '../data/WND_VAR_T_ON2.inc'    $INCLUDE '../../base/data/WND_VAR_T_ON2.inc';
 
-$if     EXIST '../data/WND_VAR_T_ON3.inc' $INCLUDE      '../data/WND_VAR_T_ON3.inc';                    
-$if not EXIST '../data/WND_VAR_T_ON3.inc'    $INCLUDE '../../base/data/WND_VAR_T_ON3.inc';
-
 $if     EXIST '../data/WND_VAR_T_Existing.inc' $INCLUDE      '../data/WND_VAR_T_Existing.inc';                  
 $if not EXIST '../data/WND_VAR_T_Existing.inc'    $INCLUDE '../../base/data/WND_VAR_T_Existing.inc';
 
