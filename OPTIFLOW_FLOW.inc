@@ -103,7 +103,6 @@ OPERATIONCOST
 ROADFLOW                                                                                                           
 SEAFLOW                                                                                                            
 SNG_FLOW                                                                                                           
-SNG_FLOW_FOR_USE                                                                                                   
 STRAW_FLOW_BIOGAS                                                                                                  
 STRAW_GEN_FLOW                                                                                                     
 TARFLOW                                                                                                            

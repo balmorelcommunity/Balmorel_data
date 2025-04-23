@@ -46,11 +46,6 @@ GMAXF(Y,CCCRRRAAA,'COAL')=GMAXF('2016',CCCRRRAAA,'COAL');
 GMAXF(Y,CCCRRRAAA,'WOODCHIPS')=GMAXF('2016',CCCRRRAAA,'WOODCHIPS');                                                                                                            
 GMAXF(Y,CCCRRRAAA,'WOODPELLETS')=GMAXF('2016',CCCRRRAAA,'WOODPELLETS');                                                                                                        
 
-*Reduce BM potential by the share of maritime transport demand in total transport
-GMAXF(YYY,'DENMARK',FFF)=GMAXF(YYY,'DENMARK',FFF)*0.53;
-GMAXF(YYY,'SWEDEN',FFF)=GMAXF(YYY,'SWEDEN',FFF)*0.67;
-GMAXF(YYY,'GERMANY',FFF)=GMAXF(YYY,'GERMANY',FFF)*0.23;
-
 *Removing not needed data if stepwiseprice addon is activated                                                                                                                  
 $ifi %STEPWISEPRICE%==yes GMAXF(Y,CCCRRRAAA,STEPWISEPRICE_FFF)=0;                                                                                                              
                                                                                                                                                                                

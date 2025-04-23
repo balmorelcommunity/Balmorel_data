@@ -71,12 +71,12 @@ $ifi not %baloptgasbridge%==yes $goto NO_BIOGAS
 2045                                                                                                               .    DK1_A .    Biogas_Upgrading_45     
 2050                                                                                                               .    DK1_A .    Biogas_Upgrading_50     
                                                                                                                                                            
-**2025                                                                                                             .    DK1_A .    Pyrolysis_Straw_25      
-**2030                                                                                                             .    DK1_A .    Pyrolysis_Straw_30      
-**2035                                                                                                             .    DK1_A .    Pyrolysis_Straw_35      
-**2040                                                                                                             .    DK1_A .    Pyrolysis_Straw_40      
-**2045                                                                                                             .    DK1_A .    Pyrolysis_Straw_45      
-**2050                                                                                                             .    DK1_A .    Pyrolysis_Straw_50      
+2025                                                                                                               .    DK1_A .    Pyrolysis_Straw_25      
+2030                                                                                                               .    DK1_A .    Pyrolysis_Straw_30      
+2035                                                                                                               .    DK1_A .    Pyrolysis_Straw_35      
+2040                                                                                                               .    DK1_A .    Pyrolysis_Straw_40      
+2045                                                                                                               .    DK1_A .    Pyrolysis_Straw_45      
+2050                                                                                                               .    DK1_A .    Pyrolysis_Straw_50      
 $label NO_BIOGAS                                                                                                                                           
                                                                                                                                                            
 ***TG                                                                                                                                                      
