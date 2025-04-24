@@ -9,8 +9,10 @@ BIO_ME_FLOW
 BIO_TG_FLOW                                                                                                        
 BIOGAS_FLOW                                                                                                        
 BIOGAS_FLOW_DRY                                                                                                    
+BIOGAS_FLOW_DRY_GRID                                                                                               
 BIOGAS_FLOW_STO                                                                                                    
 BIOGAS_FLOW_WET                                                                                                    
+BIOGAS_FLOW_WET_GRID                                                                                               
 BIOGASOLINEFLOW                                                                                                    
 BIOGASOLINEFLOW_BJ_H2                                                                                              
 BIOGASOLINEFLOW_BJ_TG                                                                                              
@@ -21,7 +23,8 @@ BIOJETFLOW_H2
 BIOJETFLOW_TG                                                                                                      
 BIOMASS_BJ                                                                                                         
 BIOMASS_BJ_H2                                                                                                      
-BIOMASS_FLOW_DRY                                                                                                   
+BIOMASS_FLOW_DRY_BIOGAS                                                                                            
+BIOMASS_FLOW_DRY_PY                                                                                                
 BIOMASS_FLOW_SOLID                                                                                                 
 BIOMASS_FLOW_WET                                                                                                   
 BIOMASS_TG                                                                                                         
@@ -103,11 +106,10 @@ OPERATIONCOST
 ROADFLOW                                                                                                           
 SEAFLOW                                                                                                            
 SNG_FLOW                                                                                                           
-STRAW_FLOW_BIOGAS                                                                                                  
 STRAW_GEN_FLOW                                                                                                     
+STRAW_GEN_FLOW_BIOGAS                                                                                              
 TARFLOW                                                                                                            
 WOOD_GEN_FLOW                                                                                                      
-WOOD_PELLETS_GEN_FLOW                                                                                              
 GHGEMISSION_nonbio                                                                                                 
 GHGEMISSION_bio                                                                                                    
 /;                                                                                                                 

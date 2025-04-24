@@ -17,6 +17,7 @@ AmmoniaBuffer
 AmmoniaBuffer_Exp                                                                                                  
 Bio_TG_Grid_IN                                                                                                     
 Bio_TG_Grid_OUT                                                                                                    
+Biogas_Dry_Sum                                                                                                     
 Biogas_Grid_After_Sto                                                                                              
 Biogas_Grid_In                                                                                                     
 Biogas_Grid_Out                                                                                                    
@@ -29,6 +30,7 @@ Biogas_Upgrading_35
 Biogas_Upgrading_40                                                                                                
 Biogas_Upgrading_45                                                                                                
 Biogas_Upgrading_50                                                                                                
+Biogas_Wet_Sum                                                                                                     
 BioGasoline_Eff                                                                                                    
 BioGasoline_SUM                                                                                                    
 BioGasolineBuffer                                                                                                  
@@ -174,7 +176,6 @@ Hydrogen_Use
 HydrogenBuffer_MWh                                                                                                 
 HydrogenSource_MWh                                                                                                 
 KeroseneSource                                                                                                     
-Linkstorage_Res                                                                                                    
 Manure_Gen                                                                                                         
 Manure_Tank_20                                                                                                     
 Manure_Tank_25                                                                                                     
@@ -219,6 +220,7 @@ SeaBuffer
 SNG_Total                                                                                                          
 Solid_Biomass                                                                                                      
 Straw_Gen                                                                                                          
+Straw_Split                                                                                                        
 Straw_Tank_20                                                                                                      
 Straw_Tank_25                                                                                                      
 Straw_Tank_30                                                                                                      
@@ -237,7 +239,6 @@ TG_50
 Wet_Biomass                                                                                                        
 Wet_Biomass_Biogas                                                                                                 
 Wood_Gen                                                                                                           
-Wood_Pellets_Gen                                                                                                   
 GHG_Buffer                                                                                                         
 GHGbio_Buffer                                                                                                      
 /;                                                                                                                 

@@ -9,6 +9,5 @@ KeroseneSource
 MDOSource                                            
 Straw_Gen                                            
 Wood_Gen                                             
-Wood_Pellets_Gen                                     
 Manure_Gen                                           
 /;                                                   

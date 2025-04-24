@@ -1,106 +1,104 @@
 PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitations (U/year)"                                                                        
 /                                                                                                                                                                  
 2050                                                                                          .    AUSTRIA        .    SeaBuffer  .    SEAFLOW  1161965.64626224   
-*2050                                                                                         .    AUSTRIA        .    RoadBuffer .    ROADFLOW 16200520.0256962   
-*2050                                                                                         .    AUSTRIA        .    AirBuffer  .    AIRFLOW  38194033.6593325   
+2050                                                                                          .    AUSTRIA        .    RoadBuffer .    ROADFLOW 16200520.0256962   
+2050                                                                                          .    AUSTRIA        .    AirBuffer  .    AIRFLOW  38194033.6593325   
                                                                                                                                                                    
 2050                                                                                          .    BELGIUM        .    SeaBuffer  .    SEAFLOW  403693046.717074   
-*2050                                                                                         .    BELGIUM        .    RoadBuffer .    ROADFLOW 7194480.94768338   
-*2050                                                                                         .    BELGIUM        .    AirBuffer  .    AIRFLOW  69529284.7091366   
+2050                                                                                          .    BELGIUM        .    RoadBuffer .    ROADFLOW 7194480.94768338   
+2050                                                                                          .    BELGIUM        .    AirBuffer  .    AIRFLOW  69529284.7091366   
                                                                                                                                                                    
 2050                                                                                          .    BULGARIA       .    SeaBuffer  .    SEAFLOW  7695555.79741327   
-*2050                                                                                         .    BULGARIA       .    RoadBuffer .    ROADFLOW 7772962.05123373   
-*2050                                                                                         .    BULGARIA       .    AirBuffer  .    AIRFLOW  12987685.0174628   
+2050                                                                                          .    BULGARIA       .    RoadBuffer .    ROADFLOW 7772962.05123373   
+2050                                                                                          .    BULGARIA       .    AirBuffer  .    AIRFLOW  12987685.0174628   
                                                                                                                                                                    
 2050                                                                                          .    CROATIA        .    SeaBuffer  .    SEAFLOW  2565309.29416292   
-*2050                                                                                         .    CROATIA        .    RoadBuffer .    ROADFLOW 4468781.57892274   
-*2050                                                                                         .    CROATIA        .    AirBuffer  .    AIRFLOW  8654844.28320139   
+2050                                                                                          .    CROATIA        .    RoadBuffer .    ROADFLOW 4468781.57892274   
+2050                                                                                          .    CROATIA        .    AirBuffer  .    AIRFLOW  8654844.28320139   
                                                                                                                                                                    
 2050                                                                                          .    CZECH_REPUBLIC .    SeaBuffer  .    SEAFLOW  261062.506795575   
-*2050                                                                                         .    CZECH_REPUBLIC .    RoadBuffer .    ROADFLOW 23165548.4628941   
-*2050                                                                                         .    CZECH_REPUBLIC .    AirBuffer  .    AIRFLOW  20801265.2815119   
+2050                                                                                          .    CZECH_REPUBLIC .    RoadBuffer .    ROADFLOW 23165548.4628941   
+2050                                                                                          .    CZECH_REPUBLIC .    AirBuffer  .    AIRFLOW  20801265.2815119   
                                                                                                                                                                    
 2050                                                                                          .    DENMARK        .    SeaBuffer  .    SEAFLOW  60467776.2097916   
-*2050                                                                                         .    DENMARK        .    RoadBuffer .    ROADFLOW 6770222.90246891   
-*2050                                                                                         .    DENMARK        .    AirBuffer  .    AIRFLOW  46674831.0549629   
+2050                                                                                          .    DENMARK        .    RoadBuffer .    ROADFLOW 6770222.90246891   
+2050                                                                                          .    DENMARK        .    AirBuffer  .    AIRFLOW  46674831.0549629   
                                                                                                                                                                    
 2050                                                                                          .    ESTONIA        .    SeaBuffer  .    SEAFLOW  17574763.9601884   
-*2050                                                                                         .    ESTONIA        .    RoadBuffer .    ROADFLOW 1582119.40678019   
-*2050                                                                                         .    ESTONIA        .    AirBuffer  .    AIRFLOW  3108266.39777427   
+2050                                                                                          .    ESTONIA        .    RoadBuffer .    ROADFLOW 1582119.40678019   
+2050                                                                                          .    ESTONIA        .    AirBuffer  .    AIRFLOW  3108266.39777427   
                                                                                                                                                                    
 2050                                                                                          .    FINLAND        .    SeaBuffer  .    SEAFLOW  21344838.5765637   
-*2050                                                                                         .    FINLAND        .    RoadBuffer .    ROADFLOW 15200874.9857693   
-*2050                                                                                         .    FINLAND        .    AirBuffer  .    AIRFLOW  30027412.7163086   
+2050                                                                                          .    FINLAND        .    RoadBuffer .    ROADFLOW 15200874.9857693   
+2050                                                                                          .    FINLAND        .    AirBuffer  .    AIRFLOW  30027412.7163086   
                                                                                                                                                                    
 2050                                                                                          .    FRANCE         .    SeaBuffer  .    SEAFLOW  103144644.788939   
-*2050                                                                                         .    FRANCE         .    RoadBuffer .    ROADFLOW 76363789.450954    
-*2050                                                                                         .    FRANCE         .    AirBuffer  .    AIRFLOW  293726731.592587   
+2050                                                                                          .    FRANCE         .    RoadBuffer .    ROADFLOW 76363789.450954    
+2050                                                                                          .    FRANCE         .    AirBuffer  .    AIRFLOW  293726731.592587   
                                                                                                                                                                    
 2050                                                                                          .    GERMANY        .    SeaBuffer  .    SEAFLOW  164083878.91061    
-*2050                                                                                         .    GERMANY        .    RoadBuffer .    ROADFLOW 85041814.663988    
-*2050                                                                                         .    GERMANY        .    AirBuffer  .    AIRFLOW  455105561.637073   
+2050                                                                                          .    GERMANY        .    RoadBuffer .    ROADFLOW 85041814.663988    
+2050                                                                                          .    GERMANY        .    AirBuffer  .    AIRFLOW  455105561.637073   
                                                                                                                                                                    
 2050                                                                                          .    GREECE         .    SeaBuffer  .    SEAFLOW  131804427.743613   
 *2050                                                                                         .    GREECE         .    RoadBuffer .    ROADFLOW 7908926.79995873   
 *2050                                                                                         .    GREECE         .    AirBuffer  .    AIRFLOW  72183741.5610726   
                                                                                                                                                                    
 2050                                                                                          .    HUNGARY        .    SeaBuffer  .    SEAFLOW  282581.629917195   
-*2050                                                                                         .    HUNGARY        .    RoadBuffer .    ROADFLOW 16235937.9981254   
-*2050                                                                                         .    HUNGARY        .    AirBuffer  .    AIRFLOW  12969512.3395677   
+2050                                                                                          .    HUNGARY        .    RoadBuffer .    ROADFLOW 16235937.9981254   
+2050                                                                                          .    HUNGARY        .    AirBuffer  .    AIRFLOW  12969512.3395677   
                                                                                                                                                                    
 2050                                                                                          .    IRELAND        .    SeaBuffer  .    SEAFLOW  13918922.5972954   
-*2050                                                                                         .    IRELAND        .    RoadBuffer .    ROADFLOW 4371282.95193009   
-*2050                                                                                         .    IRELAND        .    AirBuffer  .    AIRFLOW  49259536.9693802   
+2050                                                                                          .    IRELAND        .    RoadBuffer .    ROADFLOW 4371282.95193009   
+2050                                                                                          .    IRELAND        .    AirBuffer  .    AIRFLOW  49259536.9693802   
                                                                                                                                                                    
 2050                                                                                          .    ITALY          .    SeaBuffer  .    SEAFLOW  149102615.198544   
-*2050                                                                                         .    ITALY          .    RoadBuffer .    ROADFLOW 73234437.4232386   
-*2050                                                                                         .    ITALY          .    AirBuffer  .    AIRFLOW  228982378.716077   
+2050                                                                                          .    ITALY          .    RoadBuffer .    ROADFLOW 73234437.4232386   
+2050                                                                                          .    ITALY          .    AirBuffer  .    AIRFLOW  228982378.716077   
                                                                                                                                                                    
 2050                                                                                          .    LATVIA         .    SeaBuffer  .    SEAFLOW  15241304.0904992   
-*2050                                                                                         .    LATVIA         .    RoadBuffer .    ROADFLOW 1690220.63165466   
-*2050                                                                                         .    LATVIA         .    AirBuffer  .    AIRFLOW  5342510.15305681   
+2050                                                                                          .    LATVIA         .    RoadBuffer .    ROADFLOW 1690220.63165466   
+2050                                                                                          .    LATVIA         .    AirBuffer  .    AIRFLOW  5342510.15305681   
                                                                                                                                                                    
 2050                                                                                          .    LITHUANIA      .    SeaBuffer  .    SEAFLOW  8732249.86737807   
-*2050                                                                                         .    LITHUANIA      .    RoadBuffer .    ROADFLOW 4008341.85597044   
-*2050                                                                                         .    LITHUANIA      .    AirBuffer  .    AIRFLOW  4379090.78394137   
+2050                                                                                          .    LITHUANIA      .    RoadBuffer .    ROADFLOW 4008341.85597044   
+2050                                                                                          .    LITHUANIA      .    AirBuffer  .    AIRFLOW  4379090.78394137   
                                                                                                                                                                    
 2050                                                                                          .    LUXEMBOURG     .    SeaBuffer  .    SEAFLOW  97971.9821625943   
-*2050                                                                                         .    LUXEMBOURG     .    RoadBuffer .    ROADFLOW 3394961.95901757   
-*2050                                                                                         .    LUXEMBOURG     .    AirBuffer  .    AIRFLOW  23257560.4629891   
+2050                                                                                          .    LUXEMBOURG     .    RoadBuffer .    ROADFLOW 3394961.95901757   
+2050                                                                                          .    LUXEMBOURG     .    AirBuffer  .    AIRFLOW  23257560.4629891   
                                                                                                                                                                    
 2050                                                                                          .    NETHERLANDS    .    SeaBuffer  .    SEAFLOW  687605400.016646   
-*2050                                                                                         .    NETHERLANDS    .    RoadBuffer .    ROADFLOW 2904859.26967364   
-*2050                                                                                         .    NETHERLANDS    .    AirBuffer  .    AIRFLOW  174869163.950437   
+2050                                                                                          .    NETHERLANDS    .    RoadBuffer .    ROADFLOW 2904859.26967364   
+2050                                                                                          .    NETHERLANDS    .    AirBuffer  .    AIRFLOW  174869163.950437   
                                                                                                                                                                    
 2050                                                                                          .    POLAND         .    SeaBuffer  .    SEAFLOW  18399115.1845079   
-*2050                                                                                         .    POLAND         .    RoadBuffer .    ROADFLOW 57663606.5129286   
-*2050                                                                                         .    POLAND         .    AirBuffer  .    AIRFLOW  42939118.6472547   
+2050                                                                                          .    POLAND         .    RoadBuffer .    ROADFLOW 57663606.5129286   
+2050                                                                                          .    POLAND         .    AirBuffer  .    AIRFLOW  42939118.6472547   
                                                                                                                                                                    
 2050                                                                                          .    PORTUGAL       .    SeaBuffer  .    SEAFLOW  40257273.4425784   
-*2050                                                                                         .    PORTUGAL       .    RoadBuffer .    ROADFLOW 7850217.8119943    
-*2050                                                                                         .    PORTUGAL       .    AirBuffer  .    AIRFLOW  65047536.4230656   
+2050                                                                                          .    PORTUGAL       .    RoadBuffer .    ROADFLOW 7850217.8119943    
+2050                                                                                          .    PORTUGAL       .    AirBuffer  .    AIRFLOW  65047536.4230656   
                                                                                                                                                                    
 2050                                                                                          .    ROMANIA        .    SeaBuffer  .    SEAFLOW  5207230.73946916   
-*2050                                                                                         .    ROMANIA        .    RoadBuffer .    ROADFLOW 18759013.8226068   
-*2050                                                                                         .    ROMANIA        .    AirBuffer  .    AIRFLOW  21888750.0518473   
+2050                                                                                          .    ROMANIA        .    RoadBuffer .    ROADFLOW 18759013.8226068   
+2050                                                                                          .    ROMANIA        .    AirBuffer  .    AIRFLOW  21888750.0518473   
                                                                                                                                                                    
 2050                                                                                          .    SLOVAKIA       .    SeaBuffer  .    SEAFLOW  371620.54077855    
-*2050                                                                                         .    SLOVAKIA       .    RoadBuffer .    ROADFLOW 8808532.71867389   
-*2050                                                                                         .    SLOVAKIA       .    AirBuffer  .    AIRFLOW  1988831.95480255   
+2050                                                                                          .    SLOVAKIA       .    RoadBuffer .    ROADFLOW 8808532.71867389   
+2050                                                                                          .    SLOVAKIA       .    AirBuffer  .    AIRFLOW  1988831.95480255   
                                                                                                                                                                    
 2050                                                                                          .    SLOVENIA       .    SeaBuffer  .    SEAFLOW  7653074.15695363   
-*2050                                                                                         .    SLOVENIA       .    RoadBuffer .    ROADFLOW 4681098.01211525   
-*2050                                                                                         .    SLOVENIA       .    AirBuffer  .    AIRFLOW  1278301.59794182   
+2050                                                                                          .    SLOVENIA       .    RoadBuffer .    ROADFLOW 4681098.01211525   
+2050                                                                                          .    SLOVENIA       .    AirBuffer  .    AIRFLOW  1278301.59794182   
                                                                                                                                                                    
 2050                                                                                          .    SPAIN          .    SeaBuffer  .    SEAFLOW  388213994.403716   
-*2050                                                                                         .    SPAIN          .    RoadBuffer .    ROADFLOW 48106153.6563362   
-*2050                                                                                         .    SPAIN          .    AirBuffer  .    AIRFLOW  317951766.842202   
+2050                                                                                          .    SPAIN          .    RoadBuffer .    ROADFLOW 48106153.6563362   
+2050                                                                                          .    SPAIN          .    AirBuffer  .    AIRFLOW  317951766.842202   
                                                                                                                                                                    
 2050                                                                                          .    SWEDEN         .    SeaBuffer  .    SEAFLOW  150114836.293094   
-*2050                                                                                         .    SWEDEN         .    RoadBuffer .    ROADFLOW 30113244.3227207   
-*2050                                                                                         .    SWEDEN         .    AirBuffer  .    AIRFLOW  44843835.0187902   
-                                                                                                                                                                   
-                                                                                                                                                                   
+2050                                                                                          .    SWEDEN         .    RoadBuffer .    ROADFLOW 30113244.3227207   
+2050                                                                                          .    SWEDEN         .    AirBuffer  .    AIRFLOW  44843835.0187902   
 /;                                                                                                                                                                 
                                                                                                                                                                    
 MINFLOW('2030',C,PROC,FLOW)$(MINFLOW('2050',C,PROC,FLOW)) = 0.1*MINFLOW('2050',C,PROC,FLOW);                                                                       

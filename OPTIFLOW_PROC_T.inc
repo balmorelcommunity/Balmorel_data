@@ -147,7 +147,7 @@ Hydrogen_Use
 HydrogenBuffer_MWh                                            
 HydrogenSource_MWh                                            
 KeroseneSource                                                
-Linkstorage_Res                                               
+*Linkstorage_Res                                              
 MDOSource                                                     
 Methanol_Eff                                                  
 Methanol_Sum                                                  
@@ -182,7 +182,7 @@ GHGbio_Buffer
 Biomass_for_use                                               
 Wood_Gen                                                      
 Straw_Gen                                                     
-Wood_Pellets_Gen                                              
+Straw_Split                                                   
 Manure_Gen                                                    
 Wet_Biomass                                                   
 Dry_Biomass                                                   
@@ -203,6 +203,8 @@ Straw_Tank_35
 Straw_Tank_40                                                 
 Straw_Tank_45                                                 
 Straw_Tank_50                                                 
+Biogas_Wet_Sum                                                
+Biogas_Dry_Sum                                                
 Biogas_Grid_In                                                
 Biogas_Grid_Out                                               
 Biogas_Grid_Sto                                               
