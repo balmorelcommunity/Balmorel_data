@@ -185,7 +185,7 @@ Straw_Gen
 Straw_Split                                                   
 Manure_Gen                                                    
 Wet_Biomass                                                   
-Dry_Biomass                                                   
+*Dry_Biomass                                                  
 Wet_Biomass_Biogas                                            
 Dry_Biomass_Biogas                                            
 Biogas_Prod_Mix                                               

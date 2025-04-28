@@ -91,7 +91,6 @@ CO2_Source_Biogen
 CO2_Source_DAC                                                                                                     
 CO2_Source_Fossil                                                                                                  
 DieselSource                                                                                                       
-Dry_Biomass                                                                                                        
 Dry_Biomass_Biogas                                                                                                 
 Dry_Biomass_Pyrolysis                                                                                              
 E_FT_20                                                                                                            

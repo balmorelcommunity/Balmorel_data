@@ -108,6 +108,7 @@ SEAFLOW
 SNG_FLOW                                                                                                           
 STRAW_GEN_FLOW                                                                                                     
 STRAW_GEN_FLOW_BIOGAS                                                                                              
+STRAW_GEN_FLOW_PY                                                                                                  
 TARFLOW                                                                                                            
 WOOD_GEN_FLOW                                                                                                      
 GHGEMISSION_nonbio                                                                                                 
