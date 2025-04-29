@@ -1,8 +1,6 @@
 SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative to FLOW and in/out direction ()"                                                                                   
 /                                                                                                                                                                                                 
                                                                                                                                                                                                   
-                                                                                                                                                                                                  
-                                                                                                                                                                                                  
 ***CO2                                                                                                                                                                                            
 2020                                                                                                            .    CO2_DAC_20               .    CO2_FLOW_DAC            .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_DAC_25               .    CO2_FLOW_DAC            .    IFLOWINOUT_OUT    
