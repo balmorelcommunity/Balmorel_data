@@ -237,4 +237,6 @@ LNG_Eff
 MDO_Eff                                                       
 Elec_Eff                                                      
 Hydrogen_Eff                                                  
+                                                              
+Methanol_Chile_Shipped                                        
 /;                                                            

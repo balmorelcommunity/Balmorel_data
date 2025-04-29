@@ -186,6 +186,7 @@ Methanation_35
 Methanation_40                                                                                                     
 Methanation_45                                                                                                     
 Methanation_50                                                                                                     
+Methanol_Chile_Shipped                                                                                             
 Methanol_Eff                                                                                                       
 Methanol_Sum                                                                                                       
 Methanol_synthesis_TG_20                                                                                           

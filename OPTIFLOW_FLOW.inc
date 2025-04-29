@@ -93,6 +93,7 @@ LNG_FLOW
 MANURE_GEN_FLOW                                                                                                    
 MDO_FLOW                                                                                                           
 METHANOLFLOW                                                                                                       
+METHANOLFLOW_IMPORT                                                                                                
 NITROGEN_FLOW                                                                                                      
 OPERATIONCOST                                                                                                      
 ROADFLOW                                                                                                           
