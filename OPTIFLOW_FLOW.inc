@@ -4,6 +4,7 @@ SET FLOW "Flows of the network"
                                                                                                                    
 AIRFLOW                                                                                                            
 AMMONIA_FLOW                                                                                                       
+AMMONIAFLOW_IMPORT                                                                                                 
 BIO_ME_FLOW                                                                                                        
 BIO_TG_FLOW                                                                                                        
 BIOGAS_FLOW                                                                                                        

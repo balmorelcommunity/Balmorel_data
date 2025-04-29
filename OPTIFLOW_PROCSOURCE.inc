@@ -12,4 +12,5 @@ Straw_Gen
 Wood_Gen                                             
 Manure_Gen                                           
 Methanol_Chile_Shipped                               
+Ammonia_Chile_Shipped                                
 /;                                                   

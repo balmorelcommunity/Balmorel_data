@@ -5,6 +5,7 @@ SET PROC "All 'transformations' that we use"
 Air_fuels_sum                                                                                                      
 Air_Separation                                                                                                     
 AirBuffer                                                                                                          
+Ammonia_Chile_Shipped                                                                                              
 Ammonia_Eff                                                                                                        
 Ammonia_Synthesis_20                                                                                               
 Ammonia_Synthesis_25                                                                                               
