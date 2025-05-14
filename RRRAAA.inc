@@ -35,7 +35,8 @@ LV                                                                  .    LV_Rura
 NL                                                                  .    NL_A                           
 PL                                                                  .    PL_A                           
 PL                                                                  .    PL_Rural                       
-UK                                                                  .    UK_A                           
+UK                                                                  .    UK_A
+ES                                                                  .    ES_A
                                                                                                         
 FIN                                                                 .    FI_large                       
 FIN                                                                 .    FI_large_gas                   
