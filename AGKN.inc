@@ -538,11 +538,70 @@ AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG3_Y-2050')=0;
 $offtext                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 
 * Allow investments in biogas backpressure and condensing plants:
-AGKN(AAA, 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
-AGKN(AAA, 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
-AGKN(AAA, 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
-AGKN(AAA, 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
-AGKN(AAA, 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
-AGKN(AAA, 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
-AGKN(AAA, 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
-AGKN(AAA, 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
+AGKN('DK1_Large', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
+
+AGKN('DK2_Large', 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
+AGKN('DK2_Large', 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
+AGKN('DK2_Large', 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
+AGKN('DK2_Large', 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
+AGKN('DK2_Large', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
+AGKN('DK2_Large', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
+AGKN('DK2_Large', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
+AGKN('DK2_Large', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
+
+
+AGKN('NO1_A3', 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
+AGKN('NO1_A3', 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
+AGKN('NO1_A3', 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
+AGKN('NO1_A3', 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
+AGKN('NO1_A3', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
+AGKN('NO1_A3', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
+AGKN('NO1_A3', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
+AGKN('NO1_A3', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
+
+
+AGKN('NO2_A2', 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
+AGKN('NO2_A2', 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
+AGKN('NO2_A2', 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
+AGKN('NO2_A2', 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
+AGKN('NO2_A2', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
+AGKN('NO2_A2', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
+AGKN('NO2_A2', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
+AGKN('NO2_A2', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
+
+
+AGKN('NO3_A3', 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
+AGKN('NO3_A3', 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
+AGKN('NO3_A3', 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
+AGKN('NO3_A3', 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
+AGKN('NO3_A3', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
+AGKN('NO3_A3', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
+AGKN('NO3_A3', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
+AGKN('NO3_A3', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
+
+
+AGKN('NO4_A2', 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
+AGKN('NO4_A2', 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
+AGKN('NO4_A2', 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
+AGKN('NO4_A2', 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
+AGKN('NO4_A2', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
+AGKN('NO4_A2', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
+AGKN('NO4_A2', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
+AGKN('NO4_A2', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
+
+
+AGKN('NO5_A2', 'GNR_ENG_BGAS_BP_E-43_Y-2020') = YES;
+AGKN('NO5_A2', 'GNR_ENG_BGAS_BP_E-45_Y-2030') = YES;
+AGKN('NO5_A2', 'GNR_ENG_BGAS_BP_E-46_Y-2040') = YES;
+AGKN('NO5_A2', 'GNR_ENG_BGAS_BP_E-47_Y-2050') = YES;
+AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
+AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;
+AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;
+AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;
