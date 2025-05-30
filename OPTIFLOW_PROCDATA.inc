@@ -1,10 +1,10 @@
 TABLE PROCDATA(PROC,PROCDATASET)    "Process data"                                                                                          
                                                                                                                                             
-*                                                          MEuro/unit/h                                                  Euro/GJ/h          
+*                                                          MEuro/unit/h                                                  Euro/unit/h        
                                                            PROCINVCOST         PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST        
                                                                                                                                             
 * OBS FF                                                                                                                                    
-CO2_Pipeline                                               0.0023              1               2020         30           20                 
+ProcExim_Pipeline_CO2                                      0.143               1               2020         50           20                 
                                                                                                                                             
 ***CO2 DAC                                                                                                                                  
 CO2_DAC_20                                                 5.8                 1               2020         30           210000             
@@ -124,6 +124,8 @@ EMethanol_Upgrade_40                                       0.08458452          1
 EMethanol_Upgrade_45                                       0.082926            1               2045         30           3252               
 EMethanol_Upgrade_50                                       0.0813              1               2050         30           3252               
                                                                                                                                             
+Methanol_Storage                                           1.539E-005          1               2020         30           0.4617             
+                                                                                                                                            
 ***Ammonia                                                                                                                                  
 Ammonia_Synthesis_20                                       0.2605145925375     1               2020         30           5716.80963339062   
 Ammonia_Synthesis_25                                       0.24810913575       1               2025         30           6017.6943509375    
@@ -132,6 +134,7 @@ Ammonia_Synthesis_35                                       0.2250423           1
 Ammonia_Synthesis_40                                       0.214326            1               2040         30           7018.7425          
 Ammonia_Synthesis_45                                       0.20412             1               2045         30           7388.15            
 Ammonia_Synthesis_50                                       0.1944              1               2050         30           7777               
+Ammonia_Storage                                            3.632458064516E-005 1               2020         30           1.81622903225806   
                                                                                                                                             
 ***Jet and oil products                                                                                                                     
 BioJet_20                                                  0.351               1               2020         30           10483              

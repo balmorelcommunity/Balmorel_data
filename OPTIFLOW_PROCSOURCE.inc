@@ -11,6 +11,6 @@ MDO_Source
 Straw_Gen                                            
 Wood_Gen                                             
 Manure_Gen                                           
-Methanol_Chile_Shipped                               
-Ammonia_Chile_Shipped                                
+Methanol_Import_Chile                                
+Ammonia_Import_Chile                                 
 /;                                                   

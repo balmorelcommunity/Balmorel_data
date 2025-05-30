@@ -11,10 +11,10 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    CO2_DAC_50               .    CO2_FLOW_DAC            .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_Accumulator          .    CO2_FLOW_STO            .    IFLOWINOUT_IN     
 ***OBS FF                                                                                                                                                                                         
-2020                                                                                                            .    CO2_Pipeline             .    CO2_FLOW_DAC            .    IFLOWINOUT_SYM_INV
-2020                                                                                                            .    CO2_Pipeline             .    CO2_FLOW_BIOGEN         .    IFLOWINOUT_SYM_INV
-2020                                                                                                            .    CO2_Pipeline             .    CO2_FLOW_FOSSIL         .    IFLOWINOUT_SYM_INV
-2020                                                                                                            .    CO2_Pipeline             .    CO2_FLOW_BIOGAS         .    IFLOWINOUT_SYM_INV
+2020                                                                                                            .    ProcExim_Pipeline_CO2    .    CO2_FLOW_DAC            .    IFLOWINOUT_SYM_INV
+2020                                                                                                            .    ProcExim_Pipeline_CO2    .    CO2_FLOW_BIOGEN         .    IFLOWINOUT_SYM_INV
+2020                                                                                                            .    ProcExim_Pipeline_CO2    .    CO2_FLOW_FOSSIL         .    IFLOWINOUT_SYM_INV
+2020                                                                                                            .    ProcExim_Pipeline_CO2    .    CO2_FLOW_BIOGAS         .    IFLOWINOUT_SYM_INV
                                                                                                                                                                                                   
                                                                                                                                                                                                   
 *------------------Sequestration------------------(OBS)                                                                                                                                           
@@ -105,6 +105,7 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    Methanol_synthesis_TG_40 .    BIO_ME_FLOW             .    IFLOWINOUT_IN     
 2020                                                                                                            .    Methanol_synthesis_TG_45 .    BIO_ME_FLOW             .    IFLOWINOUT_IN     
 2020                                                                                                            .    Methanol_synthesis_TG_50 .    BIO_ME_FLOW             .    IFLOWINOUT_IN     
+2020                                                                                                            .    Methanol_Storage         .    METHANOLFLOW_STO        .    IFLOWINOUT_IN     
                                                                                                                                                                                                   
 2020                                                                                                            .    EMethanol_synthesis_20   .    EMETHANOLFLOW           .    IFLOWINOUT_OUT    
 2020                                                                                                            .    EMethanol_synthesis_25   .    EMETHANOLFLOW           .    IFLOWINOUT_OUT    
@@ -121,6 +122,8 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    EMethanol_Upgrade_40     .    EME_DROPIN_FLOW         .    IFLOWINOUT_OUT    
 2020                                                                                                            .    EMethanol_Upgrade_45     .    EME_DROPIN_FLOW         .    IFLOWINOUT_OUT    
 2020                                                                                                            .    EMethanol_Upgrade_50     .    EME_DROPIN_FLOW         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    EMethanol_Storage        .    EMETHANOLFLOW_STO       .    IFLOWINOUT_IN     
+                                                                                                                                                                                                  
                                                                                                                                                                                                   
 ***Ammonia                                                                                                                                                                                        
 2020                                                                                                            .    Ammonia_Synthesis_20     .    AMMONIA_FLOW            .    IFLOWINOUT_OUT    
@@ -130,6 +133,7 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    Ammonia_Synthesis_40     .    AMMONIA_FLOW            .    IFLOWINOUT_OUT    
 2020                                                                                                            .    Ammonia_Synthesis_45     .    AMMONIA_FLOW            .    IFLOWINOUT_OUT    
 2020                                                                                                            .    Ammonia_Synthesis_50     .    AMMONIA_FLOW            .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Ammonia_Storage          .    AMMONIA_FLOW_STO        .    IFLOWINOUT_IN     
                                                                                                                                                                                                   
 ***Jet and oil products                                                                                                                                                                           
 2020                                                                                                            .    BioJet_20                .    BIOMASS_BJ              .    IFLOWINOUT_IN     

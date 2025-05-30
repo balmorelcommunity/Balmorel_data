@@ -3,7 +3,7 @@ SET TECH_GROUP "Technology Groups"
 /                                 
 CO2_DAC                           
 CO2_Accumulator                   
-CO2_Pipeline                      
+ProcExim_Pipeline_CO2             
 CO2_Seq                           
 Manure_Tank                       
 Straw_Tank                        
@@ -15,9 +15,12 @@ Hydrogen_STO_Large
 Hydrogen_STO_Small                
 TG                                
 Methanol_synthesis_TG             
+Methanol_Storage                  
 EMethanol_synthesis               
 EMethanol_Upgrade                 
+EMethanol_Storage                 
 Ammonia_Synthesis                 
+Ammonia_Storage                   
 BioJet                            
 BioJet_H2                         
 E_FT                              

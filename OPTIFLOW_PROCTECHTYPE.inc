@@ -9,7 +9,7 @@ CO2_DAC_40                        .    CO2_DAC
 CO2_DAC_45                        .    CO2_DAC              
 CO2_DAC_50                        .    CO2_DAC              
 CO2_Accumulator                   .    CO2_Accumulator      
-CO2_Pipeline                      .    CO2_Pipeline         
+ProcExim_Pipeline_CO2             .    ProcExim_Pipeline_CO2
 CO2_Seq_20                        .    CO2_Seq              
 CO2_Seq_25                        .    CO2_Seq              
 CO2_Seq_30                        .    CO2_Seq              
@@ -80,6 +80,7 @@ Methanol_synthesis_TG_35          .    Methanol_synthesis_TG
 Methanol_synthesis_TG_40          .    Methanol_synthesis_TG
 Methanol_synthesis_TG_45          .    Methanol_synthesis_TG
 Methanol_synthesis_TG_50          .    Methanol_synthesis_TG
+Methanol_Storage                  .    Methanol_Storage     
 EMethanol_synthesis_20            .    EMethanol_synthesis  
 EMethanol_synthesis_25            .    EMethanol_synthesis  
 EMethanol_synthesis_30            .    EMethanol_synthesis  
@@ -94,6 +95,7 @@ EMethanol_Upgrade_35              .    EMethanol_Upgrade
 EMethanol_Upgrade_40              .    EMethanol_Upgrade    
 EMethanol_Upgrade_45              .    EMethanol_Upgrade    
 EMethanol_Upgrade_50              .    EMethanol_Upgrade    
+EMethanol_Storage                 .    EMethanol_Storage    
 Ammonia_Synthesis_20              .    Ammonia_Synthesis    
 Ammonia_Synthesis_25              .    Ammonia_Synthesis    
 Ammonia_Synthesis_30              .    Ammonia_Synthesis    
@@ -101,6 +103,7 @@ Ammonia_Synthesis_35              .    Ammonia_Synthesis
 Ammonia_Synthesis_40              .    Ammonia_Synthesis    
 Ammonia_Synthesis_45              .    Ammonia_Synthesis    
 Ammonia_Synthesis_50              .    Ammonia_Synthesis    
+Ammonia_Storage                   .    Ammonia_Storage      
 BioJet_20                         .    BioJet               
 BioJet_25                         .    BioJet               
 BioJet_30                         .    BioJet               
