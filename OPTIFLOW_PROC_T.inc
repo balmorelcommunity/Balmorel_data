@@ -80,8 +80,8 @@ EL_grid_tariff
 EL_Opti_to_Bal_Conv                                           
 ElecBuffer                                                    
 ElecBuffer_GJ                                                 
-Electro                                                       
-ElectroBuffer                                                 
+*Electro                                                      
+*ElectroBuffer                                                
 EME_Gasoline_Eff                                              
 EME_GasolineBuffer                                            
 EME_Jet_Eff                                                   

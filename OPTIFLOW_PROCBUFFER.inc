@@ -8,7 +8,7 @@ CO2_Seq_Buffer
 *E_FT_DieselBuffer                                                     
 *E_FT_JetBuffer                                                        
 ElecBuffer                                                             
-ElectroBuffer                                                          
+*ElectroBuffer                                                         
 *EME_GasolineBuffer                                                    
 *EME_JetBuffer                                                         
 *EME_LPGBuffer                                                         
