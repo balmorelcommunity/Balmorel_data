@@ -271,4 +271,9 @@ EMethanol_Ship_Split
 Methanol_Ship_Split                                           
 EMethanol_Import_Eff                                          
 Ammonia_Import_Eff                                            
+Shipping_Long_RCC                                             
+Shipping_Medium_RCC                                           
+Shipping_Oil_RCC                                              
+Shipping_Tanker_RCC                                           
+Shipping_Short_RCC                                            
 /;                                                            
