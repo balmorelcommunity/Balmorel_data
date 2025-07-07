@@ -697,8 +697,6 @@ GNR_PV-Utility_scale_no_tracking_RG3_Y-2020
  GNR_PV-Utility_scale_no_tracking_RG3_Existing
  ) 
 
-* PV Tracking is commented in AGKN to take out investment possibility in the model
-$ontext
 IE_VRE-PV_Utility_scale_tracking_RG1.( 
 GNR_PV-Utility_scale_tracking_RG1_Y-2020
  GNR_PV-Utility_scale_tracking_RG1_Y-2030
@@ -722,7 +720,6 @@ GNR_PV-Utility_scale_tracking_RG3_Y-2020
  GNR_PV-Utility_scale_tracking_RG3_Y-2050
  GNR_PV-Utility_scale_tracking_RG3_Existing
  ) 
-$offtext 
  
 / ;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
@@ -749,13 +746,10 @@ ALLOWEDINV(AAA,G)$((INVDATA(AAA,'VRE-OFF_bottom_fixed_SP370-HH155_RG3')=1)  and 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG1')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG2')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_no_tracking_RG3')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_no_tracking_RG3',G))         = yes ;
-
-* PV Tracking is commented in AGKN to take out investment possibility in the model
-$ontext 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_tracking_RG1')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_tracking_RG1',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_tracking_RG2')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_tracking_RG2',G))         = yes ; 
 ALLOWEDINV(AAA,G)$((INVDATA(AAA,'PV_Utility_scale_tracking_RG3')=1)  and ALLOWEDINV('IE_VRE-PV_Utility_scale_tracking_RG3',G))         = yes ; 
-$offtext
+
 
 
 AGKN(AAA,G)=YES$ALLOWEDINV(AAA,G);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
