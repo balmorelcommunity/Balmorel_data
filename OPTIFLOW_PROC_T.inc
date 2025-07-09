@@ -80,8 +80,6 @@ EL_grid_tariff
 EL_Opti_to_Bal_Conv                                           
 ElecBuffer                                                    
 ElecBuffer_GJ                                                 
-*Electro                                                      
-*ElectroBuffer                                                
 EME_Gasoline_Eff                                              
 EME_GasolineBuffer                                            
 EME_Jet_Eff                                                   
@@ -150,8 +148,6 @@ MethanolBuffer
 MethanolTotal                                                 
 Money_buffer_T                                                
 Air_Separation                                                
-ProcExim_Ship_Fuel                                            
-ProcExim_Truck_Fuel                                           
 Road_fuels_sum                                                
 RoadBuffer                                                    
 Tar                                                           
@@ -221,9 +217,6 @@ Biooil_Buffer
 CO2_Biochar_Sum                                               
 CO2_Biochar_Buffer                                            
 Biooil_Eff                                                    
-ProcExim_Pipeline_CO2                                         
-ProcExim_Truck_CO2                                            
-ProcExim_Ship_CO2                                             
 Shipping_Long_Dist                                            
 Shipping_Medium_Dist                                          
 Shipping_Oil_Only                                             
@@ -276,4 +269,15 @@ Shipping_Medium_RCC
 Shipping_Oil_RCC                                              
 Shipping_Tanker_RCC                                           
 Shipping_Short_RCC                                            
+ProcExim_Truck_Oil                                            
+ProcExim_Ship_Oil                                             
+ProcExim_Truck_Methanol                                       
+ProcExim_Ship_Methanol                                        
+ProcExim_Truck_Ammonia                                        
+ProcExim_Ship_Ammonia                                         
+ProcExim_Truck_Hydrogen                                       
+ProcExim_Ship_Hydrogen                                        
+ProcExim_Truck_CO2                                            
+ProcExim_Ship_CO2                                             
+ProcExim_Pipeline_CO2                                         
 /;                                                            

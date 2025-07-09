@@ -1,26 +1,14 @@
 SET PROCBUFFER(PROC) "Buffer processes (trace entering and/or leaving)"
 /                                                                      
 AirBuffer                                                              
-*AmmoniaBuffer                                                         
-*BioGasolineBuffer                                                     
-*BioJetBuffer                                                          
 CO2_Seq_Buffer                                                         
-*E_FT_DieselBuffer                                                     
-*E_FT_JetBuffer                                                        
 ElecBuffer                                                             
-*ElectroBuffer                                                         
-*EME_GasolineBuffer                                                    
-*EME_JetBuffer                                                         
-*EME_LPGBuffer                                                         
-*EMethanolBuffer                                                       
 HeatBuffer                                                             
-*MethanolBuffer                                                        
 Money_buffer_T                                                         
 RoadBuffer                                                             
 GHG_Buffer                                                             
 GHGbio_Buffer                                                          
 Gas_Buffer                                                             
-*Biooil_Buffer                                                         
 CO2_Biochar_Buffer                                                     
 Shipping_Long_Dist_Buffer                                              
 Shipping_Medium_Dist_Buffer                                            
