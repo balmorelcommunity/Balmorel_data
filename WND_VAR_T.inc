@@ -11,5 +11,5 @@ $if     EXIST '../data/WND_VAR_T_Existing.inc' $INCLUDE      '../data/WND_VAR_T_
 $if not EXIST '../data/WND_VAR_T_Existing.inc'    $INCLUDE '../../base/data/WND_VAR_T_Existing.inc';
 
 WND_VAR_T(AAA,SSS,TTT) = WND_VAR_T1(SSS,TTT,AAA);  
-WND_VAR_T(IA,SSS,TTT)$((NOT SUM((S,T), WND_VAR_T(IA,S,T))) AND WNDFLH(IA)) = WND_VAR_T('FR_ONS_Existing_RG1',SSS,TTT) ; 
+WND_VAR_T(IA,SSS,TTT)$((NOT SUM((S,T), WND_VAR_T(IA,S,T))) AND WNDFLH(IA)) = WND_VAR_T('DK1_OFF_OFF_Existing_RG2',SSS,TTT) ; 
 WND_VAR_T1(SSS,TTT,AAA)=0;
