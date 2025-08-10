@@ -4,10 +4,12 @@ ProcExim_Pipeline_CO2        .    CO2_FLOW_BIOGAS
 ProcExim_Pipeline_CO2        .    CO2_FLOW_BIOGEN 
 ProcExim_Pipeline_CO2        .    CO2_FLOW_DAC    
 ProcExim_Pipeline_CO2        .    CO2_FLOW_FOSSIL 
+ProcExim_Pipeline_CO2        .    CO2_OCC_OFF_PIPE
 ProcExim_Ship_CO2            .    CO2_FLOW_BIOGAS 
 ProcExim_Ship_CO2            .    CO2_FLOW_BIOGEN 
 ProcExim_Ship_CO2            .    CO2_FLOW_DAC    
 ProcExim_Ship_CO2            .    CO2_FLOW_FOSSIL 
+ProcExim_Ship_CO2            .    CO2_OCC_OFF_SHIP
 ProcExim_Truck_CO2           .    CO2_FLOW_BIOGAS 
 ProcExim_Truck_CO2           .    CO2_FLOW_BIOGEN 
 ProcExim_Truck_CO2           .    CO2_FLOW_DAC    

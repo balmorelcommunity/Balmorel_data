@@ -18,13 +18,21 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
                                                                                                                                                                                                   
                                                                                                                                                                                                   
 *------------------Sequestration------------------(OBS)                                                                                                                                           
-2020                                                                                                            .    CO2_Seq_20               .    CO2_FLOW_SEQ_SUM        .    IFLOWINOUT_OUT    
-2020                                                                                                            .    CO2_Seq_25               .    CO2_FLOW_SEQ_SUM        .    IFLOWINOUT_OUT    
-2020                                                                                                            .    CO2_Seq_30               .    CO2_FLOW_SEQ_SUM        .    IFLOWINOUT_OUT    
-2020                                                                                                            .    CO2_Seq_35               .    CO2_FLOW_SEQ_SUM        .    IFLOWINOUT_OUT    
-2020                                                                                                            .    CO2_Seq_40               .    CO2_FLOW_SEQ_SUM        .    IFLOWINOUT_OUT    
-2020                                                                                                            .    CO2_Seq_45               .    CO2_FLOW_SEQ_SUM        .    IFLOWINOUT_OUT    
-2020                                                                                                            .    CO2_Seq_50               .    CO2_FLOW_SEQ_SUM        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_On_20            .    CO2_FLOW_SEQ_ON         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_On_25            .    CO2_FLOW_SEQ_ON         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_On_30            .    CO2_FLOW_SEQ_ON         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_On_35            .    CO2_FLOW_SEQ_ON         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_On_40            .    CO2_FLOW_SEQ_ON         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_On_45            .    CO2_FLOW_SEQ_ON         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_On_50            .    CO2_FLOW_SEQ_ON         .    IFLOWINOUT_OUT    
+                                                                                                                                                                                                  
+2020                                                                                                            .    CO2_Seq_Off_20           .    CO2_FLOW_SEQ_OFF        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_Off_25           .    CO2_FLOW_SEQ_OFF        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_Off_30           .    CO2_FLOW_SEQ_OFF        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_Off_35           .    CO2_FLOW_SEQ_OFF        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_Off_40           .    CO2_FLOW_SEQ_OFF        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_Off_45           .    CO2_FLOW_SEQ_OFF        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Seq_Off_50           .    CO2_FLOW_SEQ_OFF        .    IFLOWINOUT_OUT    
                                                                                                                                                                                                   
 ***Biogas supply                                                                                                                                                                                  
 2020                                                                                                            .    Manure_Tank_20           .    BIOMASS_FLOW_WET        .    IFLOWINOUT_IN     

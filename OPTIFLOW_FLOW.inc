@@ -65,10 +65,13 @@ CO2_FLOW_FOSSIL_SEQ
 CO2_FLOW_FOSSIL_STO                                                                                                
 CO2_FLOW_FT                                                                                                        
 CO2_FLOW_SEQ                                                                                                       
-CO2_FLOW_SEQ_SUM                                                                                                   
+CO2_FLOW_SEQ_OFF                                                                                                   
+CO2_FLOW_SEQ_ON                                                                                                    
 CO2_FLOW_STO                                                                                                       
 CO2_FLOW_STO_CU                                                                                                    
 CO2_FLOW_STO_SEQ                                                                                                   
+CO2_OCC_OFF_PIPE                                                                                                   
+CO2_OCC_OFF_SHIP                                                                                                   
 CO2_OCC_SEQ                                                                                                        
 CO2_SOURCE_FLOW_BIOGEN                                                                                             
 CO2_SOURCE_FLOW_DAC                                                                                                

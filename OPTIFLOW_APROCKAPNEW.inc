@@ -20,13 +20,13 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2050                                                                                                               .    DK011_A .    CO2_Accumulator         
 * OBS FF                                                                                                                                                     
 $ifi not %baloptCCS%==yes $goto NO_CCS                                                                                                                       
-2020                                                                                                               .    DK011_A .    CO2_Seq_20              
-2025                                                                                                               .    DK011_A .    CO2_Seq_25              
-2030                                                                                                               .    DK011_A .    CO2_Seq_30              
-2035                                                                                                               .    DK011_A .    CO2_Seq_35              
-2040                                                                                                               .    DK011_A .    CO2_Seq_40              
-2045                                                                                                               .    DK011_A .    CO2_Seq_45              
-2050                                                                                                               .    DK011_A .    CO2_Seq_50              
+2020                                                                                                               .    DK011_A .    CO2_Seq_On_20           
+2025                                                                                                               .    DK011_A .    CO2_Seq_On_25           
+2030                                                                                                               .    DK011_A .    CO2_Seq_On_30           
+2035                                                                                                               .    DK011_A .    CO2_Seq_On_35           
+2040                                                                                                               .    DK011_A .    CO2_Seq_On_40           
+2045                                                                                                               .    DK011_A .    CO2_Seq_On_45           
+2050                                                                                                               .    DK011_A .    CO2_Seq_On_50           
 $label NO_CCS                                                                                                                                                
                                                                                                                                                              
 *OBS FF                                                                                                                                                      
@@ -163,4 +163,13 @@ $label NO_BIOGAS
 2050                                                                                                               .    DK011_A .    E_FT_50                 
 /                                                                                                                                                            
 ;                                                                                                                                                            
-APROCKAPNEW(Y,AAA,PROC)$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'DK011_A',PROC);                                                                                      
+APROCKAPNEW(Y,AAA,PROC)$((AAAOPTIFLOW(AAA) AND NOT AAAOPTIFLOW_OFF(AAA))) = APROCKAPNEW(Y,'DK011_A',PROC);                                                   
+                                                                                                                                                             
+*Offshore sequestration only in offshore areas                                                                                                               
+APROCKAPNEW('2020',AAAOPTIFLOW_OFF,'CO2_Seq_Off_20') = yes;                                                                                                  
+APROCKAPNEW('2025',AAAOPTIFLOW_OFF,'CO2_Seq_Off_25') = yes;                                                                                                  
+APROCKAPNEW('2030',AAAOPTIFLOW_OFF,'CO2_Seq_Off_30') = yes;                                                                                                  
+APROCKAPNEW('2035',AAAOPTIFLOW_OFF,'CO2_Seq_Off_35') = yes;                                                                                                  
+APROCKAPNEW('2040',AAAOPTIFLOW_OFF,'CO2_Seq_Off_40') = yes;                                                                                                  
+APROCKAPNEW('2045',AAAOPTIFLOW_OFF,'CO2_Seq_Off_45') = yes;                                                                                                  
+APROCKAPNEW('2050',AAAOPTIFLOW_OFF,'CO2_Seq_Off_50') = yes;                                                                                                  

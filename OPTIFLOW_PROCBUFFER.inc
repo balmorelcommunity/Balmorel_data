@@ -1,7 +1,8 @@
 SET PROCBUFFER(PROC) "Buffer processes (trace entering and/or leaving)"
 /                                                                      
 AirBuffer                                                              
-CO2_Seq_Buffer                                                         
+CO2_Seq_On_Buffer                                                      
+CO2_Seq_Off_Buffer                                                     
 ElecBuffer                                                             
 HeatBuffer                                                             
 Money_buffer_T                                                         

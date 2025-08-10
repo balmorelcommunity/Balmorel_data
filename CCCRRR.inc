@@ -39,7 +39,6 @@ FINLAND                . FI1D5
 FINLAND                . FI1D6
 FINLAND                . FI1D7
 FINLAND                . FI200
-FINLAND                . NO020
 FRANCE                 . FR
 GERMANY                . DE4-E
 GERMANY                . DE4-N
@@ -60,6 +59,7 @@ MALTA                  . MT
 MONTENEGRO             . ME
 NETHERLANDS            . NL
 NORTH_MACEDONIA        . MK
+NORWAY                 . NO020
 NORWAY                 . NO060
 NORWAY                 . NO083
 NORWAY                 . NO085
