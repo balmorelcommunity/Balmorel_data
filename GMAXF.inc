@@ -37,6 +37,7 @@ TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'
 2016.TURKEY                                                             eps                      eps                                                      eps       eps        
 2016.UNITED_KINGDOM                                                     71334410                 208572176.7846                                           21677940  21677940   
 ;                                                                                                                                                                              
+                                                                                                                                                                               
 GMAXF(Y,CCCRRRAAA,'STRAW')=GMAXF('2016',CCCRRRAAA,'STRAW');                                                                                                                    
 GMAXF(Y,CCCRRRAAA,'WOOD')=GMAXF('2016',CCCRRRAAA,'WOOD');                                                                                                                      
 GMAXF(Y,CCCRRRAAA,'WOODWASTE')=GMAXF('2016',CCCRRRAAA,'WOODWASTE');                                                                                                            
@@ -45,12 +46,8 @@ GMAXF(Y,CCCRRRAAA,'OTHERGAS')=GMAXF('2016',CCCRRRAAA,'OTHERGAS');
 GMAXF(Y,CCCRRRAAA,'COAL')=GMAXF('2016',CCCRRRAAA,'COAL');                                                                                                                      
 GMAXF(Y,CCCRRRAAA,'WOODCHIPS')=GMAXF('2016',CCCRRRAAA,'WOODCHIPS');                                                                                                            
 GMAXF(Y,CCCRRRAAA,'WOODPELLETS')=GMAXF('2016',CCCRRRAAA,'WOODPELLETS');                                                                                                        
-
+                                                                                                                                                                               
 *Removing not needed data if stepwiseprice addon is activated                                                                                                                  
 $ifi %STEPWISEPRICE%==yes GMAXF(Y,CCCRRRAAA,STEPWISEPRICE_FFF)=0;                                                                                                              
                                                                                                                                                                                
 $ifi %baloptgasbridge%==yes GMAXF(Y,CCCRRRAAA,'BIOGAS')=EPS;                                                                                                                   
-                                                                                                                                                                               
-                                                                                                                                                                               
-                                                                                                                                                                               
-                                                                                                                                                                               

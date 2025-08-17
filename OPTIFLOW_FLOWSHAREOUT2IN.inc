@@ -1,6 +1,7 @@
 TABLE FLOWSHAREOUT2IN(YYY,AAA,IPROCFROM,IPROCTO,FLOW/*,SSS,TTT*/,ILOUPFXSET) "Bounds on shares of split outflow to PROC ()"                                                                                                  
                                                                                                                                                                                                                              
                                                                                                                                                                                              ILOUPFX_LO ILOUPFX_UP ILOUPFX_FX
+                                                                                                                                                                                                                             
 ;                                                                                                                                                                                                                            
                                                                                                                                                                                                                              
 FLOWSHAREOUT2IN(Y,AAA,IPROCFROM,IPROCTO,FLOW,ILOUPFXSET)$( FLOWSHAREOUT2IN(Y,AAA,IPROCFROM,IPROCTO,FLOW,ILOUPFXSET)EQ 0) = FLOWSHAREOUT2IN(Y,AAA,IPROCFROM,IPROCTO,FLOW,ILOUPFXSET);                                         

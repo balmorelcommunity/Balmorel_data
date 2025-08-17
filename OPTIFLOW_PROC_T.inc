@@ -42,6 +42,7 @@ CO2_Biogen
 CO2_CU                                                        
 CO2_CU_Split                                                  
 CO2_DAC                                                       
+CO2_DAC_20                                                    
 CO2_DAC_25                                                    
 CO2_DAC_30                                                    
 CO2_DAC_35                                                    
@@ -53,13 +54,21 @@ CO2_Grid_In
 CO2_Grid                                                      
 CO2_Grid_Out                                                  
 CO2_Seq                                                       
-CO2_Seq_20                                                    
-CO2_Seq_25                                                    
-CO2_Seq_30                                                    
-CO2_Seq_35                                                    
-CO2_Seq_40                                                    
-CO2_Seq_45                                                    
-CO2_Seq_50                                                    
+CO2_Seq_Split                                                 
+CO2_Seq_On_20                                                 
+CO2_Seq_On_25                                                 
+CO2_Seq_On_30                                                 
+CO2_Seq_On_35                                                 
+CO2_Seq_On_40                                                 
+CO2_Seq_On_45                                                 
+CO2_Seq_On_50                                                 
+CO2_Seq_Off_20                                                
+CO2_Seq_Off_25                                                
+CO2_Seq_Off_30                                                
+CO2_Seq_Off_35                                                
+CO2_Seq_Off_40                                                
+CO2_Seq_Off_45                                                
+CO2_Seq_Off_50                                                
 CO2_Seq_Buffer                                                
 CO2_Seq_Sum                                                   
 CO2_Source_Biogen                                             
@@ -147,7 +156,6 @@ Hydrogen_Use
 HydrogenBuffer_MWh                                            
 HydrogenSource_MWh                                            
 KeroseneSource                                                
-*Linkstorage_Res                                              
 MDOSource                                                     
 Methanol_Eff                                                  
 Methanol_Sum                                                  
@@ -165,6 +173,8 @@ Money_buffer_T
 Air_Separation                                                
 ProcEximShip                                                  
 ProcEximTruck                                                 
+ProcEximTruck_CO2                                             
+ProcEximShip_CO2                                              
 Road_fuels_sum                                                
 RoadBuffer                                                    
 Sea_fuels_sum                                                 
@@ -185,7 +195,6 @@ Straw_Gen
 Straw_Split                                                   
 Manure_Gen                                                    
 Wet_Biomass                                                   
-*Dry_Biomass                                                  
 Wet_Biomass_Biogas                                            
 Dry_Biomass_Biogas                                            
 Biogas_Prod_Mix                                               
@@ -238,4 +247,5 @@ CO2_Biochar_Sum
 CO2_Biochar_Buffer                                            
 Biooil_Eff                                                    
 CO2_Pipeline                                                  
+Solid_Biomass                                                 
 /;                                                            

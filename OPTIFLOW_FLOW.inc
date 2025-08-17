@@ -54,6 +54,10 @@ CO2_FLOW_FOSSIL_SEQ
 CO2_FLOW_FOSSIL_STO                                                                                                
 CO2_FLOW_FT                                                                                                        
 CO2_FLOW_SEQ                                                                                                       
+CO2_FLOW_SEQ_OFF                                                                                                   
+CO2_FLOW_SEQ_OFF_SUM                                                                                               
+CO2_FLOW_SEQ_ON                                                                                                    
+CO2_FLOW_SEQ_ON_SUM                                                                                                
 CO2_FLOW_SEQ_SUM                                                                                                   
 CO2_FLOW_STO                                                                                                       
 CO2_FLOW_STO_CU                                                                                                    

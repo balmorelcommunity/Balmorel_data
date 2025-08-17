@@ -1,6 +1,6 @@
-SET T(TTT)  'Time periods within a season in the simulation'                                                                                                                                                                                                                                                                                      
-/                                                                                                                                                                                                                                                                                                                                                 
-*T001, T004, T007, T010, T013, T016, T019, T022, T121, T124, T127, T130, T133, T136, T139, T142    
-T001, T002, T003, T004, T005, T006, T007, T008, T009, T010, T011, T012, T013, T014, T015, T016, T017, T018, T019, T020, T021, T022, T023, T024,T121, T122, T123, T124, T125, T126, T127, T128, T129, T130, T131, T132, T133, T134, T135, T136, T137, T138, T139, T140, T141, T142, T143, T144                                                                                                                                                                                                                                                                                              
-*T001, T014
-/;                                                                                                                                                                                                                                                                                                                                                
+SET T(TTT)  'Time periods within a season in the simulation'                                                           
+/                                                                                                                      
+*T001, T004                                                                                                            
+T001,T004,T007,T010,T013,T016,T019,T022,T097,T100,T103,T106,T109,T112,T115,T118,T121,T124,T127,T130,T133,T136,T139,T142
+/;                                                                                                                     
+                                                                                                                       

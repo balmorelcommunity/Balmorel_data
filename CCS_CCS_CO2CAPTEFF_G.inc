@@ -77,6 +77,34 @@ GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2020                       0.9
 GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2030                       0.9 
 GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2040                       0.9 
 GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2050                       0.9 
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2020                               0.9 
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2030                               0.9 
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2040                               0.9 
+GNR_BO_MSWCCS_E-106_LS-35-MW-FEED_Y-2050                               0.9 
+GNR_ST_MSWCCS_BP_E-23_LS-220-MW-FEED_Y-2020                            0.9 
+GNR_ST_MSWCCS_BP_E-23_MS-80-MW-FEED_Y-2020                             0.9 
+GNR_ST_MSWCCS_BP_E-23_SS-35-MW-FEED_Y-2020                             0.9 
+GNR_ST_MSWCCS_BP_E-24_LS-220-MW-FEED_Y-2030                            0.9 
+GNR_ST_MSWCCS_BP_E-24_MS-80-MW-FEED_Y-2030                             0.9 
+GNR_ST_MSWCCS_BP_E-24_MS-80-MW-FEED_Y-2040                             0.9 
+GNR_ST_MSWCCS_BP_E-24_MS-80-MW-FEED_Y-2050                             0.9 
+GNR_ST_MSWCCS_BP_E-24_SS-35-MW-FEED_Y-2030                             0.9 
+GNR_ST_MSWCCS_BP_E-24_SS-35-MW-FEED_Y-2040                             0.9 
+GNR_ST_MSWCCS_BP_E-24_SS-35-MW-FEED_Y-2050                             0.9 
+GNR_ST_MSWCCS_BP_E-25_LS-220-MW-FEED_Y-2040                            0.9 
+GNR_ST_MSWCCS_BP_E-25_LS-220-MW-FEED_Y-2050                            0.9 
+GNR_ST_MSWCCS_CND_E-23_LS-220-MW-FEED_Y-2020                           0.9 
+GNR_ST_MSWCCS_CND_E-23_MS-80-MW-FEED_Y-2020                            0.9 
+GNR_ST_MSWCCS_CND_E-23_SS-35-MW-FEED_Y-2020                            0.9 
+GNR_ST_MSWCCS_CND_E-24_LS-220-MW-FEED_Y-2030                           0.9 
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2030                            0.9 
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2040                            0.9 
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2050                            0.9 
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2030                            0.9 
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2040                            0.9 
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2050                            0.9 
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2040                           0.9 
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2050                           0.9 
 /;                                                                         
                                                                            
 CCS_CO2CAPTEFF_G(G)$(CCS_G(G)) = 0.9;                                      
