@@ -22,8 +22,7 @@ EME_LPGBuffer
 EME_LPGBuffer_Exp                                                      
 EMethanolBuffer                                                        
 EMethanolBuffer_Exp                                                    
-HeatBuffer                                                             
-HydrogenBuffer_MWh                                                     
+HeatBuffer                                                                                                                
 MethanolBuffer                                                         
 MethanolBuffer_Exp                                                     
 Money_buffer_T                                                         
