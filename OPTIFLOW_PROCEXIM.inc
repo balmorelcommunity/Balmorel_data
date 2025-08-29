@@ -21,4 +21,8 @@ ProcExim_Ship_Hydrogen
 ProcExim_Truck_CO2                                                  
 ProcExim_Ship_CO2                                                   
 ProcExim_Pipeline_CO2                                               
+                                                                    
+*Biomass                                                            
+ProcExim_Truck_Wood                                                 
+ProcExim_Truck_Straw                                                
 /;                                                                  

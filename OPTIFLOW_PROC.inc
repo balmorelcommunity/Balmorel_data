@@ -249,6 +249,8 @@ ProcExim_Truck_CO2
 ProcExim_Truck_Hydrogen                                                                                            
 ProcExim_Truck_Methanol                                                                                            
 ProcExim_Truck_Oil                                                                                                 
+ProcExim_Truck_Straw                                                                                               
+ProcExim_Truck_Wood                                                                                                
 Pyrolysis_Straw_25                                                                                                 
 Pyrolysis_Straw_30                                                                                                 
 Pyrolysis_Straw_35                                                                                                 
@@ -294,6 +296,7 @@ TG_50
 Wet_Biomass                                                                                                        
 Wet_Biomass_Biogas                                                                                                 
 Wood_Gen                                                                                                           
+Wood_Split                                                                                                         
 GHG_Buffer                                                                                                         
 GHGbio_Buffer                                                                                                      
 /;                                                                                                                 

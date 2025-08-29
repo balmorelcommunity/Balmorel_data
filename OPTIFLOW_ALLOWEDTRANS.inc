@@ -26,4 +26,7 @@ ProcExim_Ship_Methanol       .    METHANOLFLOW
 ProcExim_Ship_Methanol       .    EMETHANOLFLOW   
 ProcExim_Ship_Ammonia        .    AMMONIA_FLOW    
 ProcExim_Ship_Hydrogen       .    HYDROGEN_FLOW   
+                                                  
+ProcExim_Truck_Wood          .    WOOD_GEN_FLOW   
+ProcExim_Truck_Straw         .    STRAW_GEN_FLOW  
 /;                                                

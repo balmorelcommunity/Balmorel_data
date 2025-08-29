@@ -171,7 +171,10 @@ GHG_Buffer
 GHGbio_Buffer                                                 
 Biomass_for_use                                               
 Wood_Gen                                                      
+ProcExim_Truck_Wood                                           
+Wood_Split                                                    
 Straw_Gen                                                     
+ProcExim_Truck_Straw                                          
 Straw_Split                                                   
 Manure_Gen                                                    
 Wet_Biomass                                                   
