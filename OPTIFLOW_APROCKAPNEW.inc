@@ -121,13 +121,13 @@ $label NO_BIOGAS
 2045                                                                                                               .    DK1_A .    EMethanol_Upgrade_45     
 2050                                                                                                               .    DK1_A .    EMethanol_Upgrade_50     
 ***Ammonia                                                                                                                                                  
-2020                                                                                                               .    DK1_A .    Ammonia_Synthesis_20     
-2025                                                                                                               .    DK1_A .    Ammonia_Synthesis_25     
-2030                                                                                                               .    DK1_A .    Ammonia_Synthesis_30     
-2035                                                                                                               .    DK1_A .    Ammonia_Synthesis_35     
-2040                                                                                                               .    DK1_A .    Ammonia_Synthesis_40     
-2045                                                                                                               .    DK1_A .    Ammonia_Synthesis_45     
-2050                                                                                                               .    DK1_A .    Ammonia_Synthesis_50     
+*2020                                                                                                              .    DK1_A .    Ammonia_Synthesis_20     
+*2025                                                                                                              .    DK1_A .    Ammonia_Synthesis_25     
+*2030                                                                                                              .    DK1_A .    Ammonia_Synthesis_30     
+*2035                                                                                                              .    DK1_A .    Ammonia_Synthesis_35     
+*2040                                                                                                              .    DK1_A .    Ammonia_Synthesis_40     
+*2045                                                                                                              .    DK1_A .    Ammonia_Synthesis_45     
+*2050                                                                                                              .    DK1_A .    Ammonia_Synthesis_50     
 ***Jet and oil products                                                                                                                                     
 2020                                                                                                               .    DK1_A .    BioJet_20                
 2025                                                                                                               .    DK1_A .    BioJet_25                
