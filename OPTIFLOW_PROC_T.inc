@@ -173,9 +173,13 @@ Biomass_for_use
 Wood_Gen                                                      
 ProcExim_Truck_Wood                                           
 Wood_Split                                                    
+Wood_Transport                                                
+Wood_Buffer                                                   
+Wood_Balmorel                                                 
 Straw_Gen                                                     
 ProcExim_Truck_Straw                                          
 Straw_Split                                                   
+Straw_Transport                                               
 Manure_Gen                                                    
 Wet_Biomass                                                   
 Wet_Biomass_Biogas                                            

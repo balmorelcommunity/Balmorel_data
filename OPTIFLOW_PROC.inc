@@ -285,6 +285,7 @@ Straw_Tank_35
 Straw_Tank_40                                                                                                      
 Straw_Tank_45                                                                                                      
 Straw_Tank_50                                                                                                      
+Straw_Transport                                                                                                    
 Tar                                                                                                                
 TG_20                                                                                                              
 TG_25                                                                                                              
@@ -295,8 +296,11 @@ TG_45
 TG_50                                                                                                              
 Wet_Biomass                                                                                                        
 Wet_Biomass_Biogas                                                                                                 
+Wood_Balmorel                                                                                                      
+Wood_Buffer                                                                                                        
 Wood_Gen                                                                                                           
 Wood_Split                                                                                                         
+Wood_Transport                                                                                                     
 GHG_Buffer                                                                                                         
 GHGbio_Buffer                                                                                                      
 /;                                                                                                                 

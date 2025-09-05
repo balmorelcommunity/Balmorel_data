@@ -17,4 +17,5 @@ Shipping_Oil_Only_Buffer
 Shipping_Tanker_Buffer                                                 
 Shipping_Short_Dist_Buffer                                             
 CO2_Emi_Sink                                                           
+Wood_Buffer                                                            
 /;                                                                     
