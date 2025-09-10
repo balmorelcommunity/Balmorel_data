@@ -640,3 +640,6 @@ TABLE   FUELPRICE(YYY,AAA,FFF)   'Fuel prices (Money/GJ)'
 ;
 FUELPRICE(Y,AAA,FFF) = FUELPRICE('2016',AAA,FFF) $ FUELPRICE('2016',AAA,FFF);
 ;
+$ifi not %baloptgasbridge%==yes $goto NO_BIOGAS 
+FUELPRICE(YYY,AAA,'BIOGAS')=0;
+$label NO_BIOGAS
