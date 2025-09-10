@@ -174,8 +174,6 @@ Wood_Gen
 ProcExim_Truck_Wood                                           
 Wood_Split                                                    
 Wood_Transport                                                
-Wood_Buffer                                                   
-Wood_Balmorel                                                 
 Straw_Gen                                                     
 ProcExim_Truck_Straw                                          
 Straw_Split                                                   

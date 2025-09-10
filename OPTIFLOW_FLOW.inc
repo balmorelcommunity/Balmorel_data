@@ -174,7 +174,6 @@ STRAW_GEN_FLOW_PY
 STRAW_GEN_FLOW_TRANS                                                                                               
 TARFLOW                                                                                                            
 WOOD_GEN_FLOW                                                                                                      
-WOOD_GEN_FLOW_BUFFER                                                                                               
 WOOD_GEN_FLOW_TRANS                                                                                                
 GHGEMISSION_nonbio                                                                                                 
 GHGEMISSION_bio                                                                                                    

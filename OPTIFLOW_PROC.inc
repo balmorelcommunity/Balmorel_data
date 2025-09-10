@@ -296,8 +296,6 @@ TG_45
 TG_50                                                                                                              
 Wet_Biomass                                                                                                        
 Wet_Biomass_Biogas                                                                                                 
-Wood_Balmorel                                                                                                      
-Wood_Buffer                                                                                                        
 Wood_Gen                                                                                                           
 Wood_Split                                                                                                         
 Wood_Transport                                                                                                     
