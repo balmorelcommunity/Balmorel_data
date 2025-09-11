@@ -29,6 +29,13 @@ Biogas_Grid_After_Sto
 Biogas_Grid_In                                                                                                     
 Biogas_Grid_Out                                                                                                    
 Biogas_Grid_Sto                                                                                                    
+Biogas_Liquefaction_20                                                                                             
+Biogas_Liquefaction_25                                                                                             
+Biogas_Liquefaction_30                                                                                             
+Biogas_Liquefaction_35                                                                                             
+Biogas_Liquefaction_40                                                                                             
+Biogas_Liquefaction_45                                                                                             
+Biogas_Liquefaction_50                                                                                             
 Biogas_Prod_Mix                                                                                                    
 Biogas_Upgrading_20                                                                                                
 Biogas_Upgrading_25                                                                                                
@@ -196,6 +203,9 @@ Hydrogen_STO_Small_50
 Hydrogen_Use                                                                                                       
 HydrogenSource_MWh                                                                                                 
 Kerosene_Source                                                                                                    
+LBG_Buffer                                                                                                         
+LBG_Eff                                                                                                            
+LBG_Ship_Split                                                                                                     
 LNG_Eff                                                                                                            
 LNG_Eff_OCC                                                                                                        
 LNG_OCC_Ship_Split                                                                                                 

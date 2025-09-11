@@ -53,6 +53,13 @@ Biogas_Upgrading_35               .    Biogas_Upgrading
 Biogas_Upgrading_40               .    Biogas_Upgrading     
 Biogas_Upgrading_45               .    Biogas_Upgrading     
 Biogas_Upgrading_50               .    Biogas_Upgrading     
+Biogas_Liquefaction_20            .    Biogas_Liquefaction  
+Biogas_Liquefaction_25            .    Biogas_Liquefaction  
+Biogas_Liquefaction_30            .    Biogas_Liquefaction  
+Biogas_Liquefaction_35            .    Biogas_Liquefaction  
+Biogas_Liquefaction_40            .    Biogas_Liquefaction  
+Biogas_Liquefaction_45            .    Biogas_Liquefaction  
+Biogas_Liquefaction_50            .    Biogas_Liquefaction  
 Pyrolysis_Straw_25                .    Pyrolysis_Straw      
 Pyrolysis_Straw_30                .    Pyrolysis_Straw      
 Pyrolysis_Straw_35                .    Pyrolysis_Straw      

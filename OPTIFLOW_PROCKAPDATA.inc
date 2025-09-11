@@ -71,6 +71,14 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    Biogas_Upgrading_45      .    SNG_FLOW                .    IFLOWINOUT_OUT    
 2020                                                                                                            .    Biogas_Upgrading_50      .    SNG_FLOW                .    IFLOWINOUT_OUT    
                                                                                                                                                                                                   
+2020                                                                                                            .    Biogas_Liquefaction_20   .    LBG_FLOW                .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Biogas_Liquefaction_25   .    LBG_FLOW                .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Biogas_Liquefaction_30   .    LBG_FLOW                .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Biogas_Liquefaction_35   .    LBG_FLOW                .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Biogas_Liquefaction_40   .    LBG_FLOW                .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Biogas_Liquefaction_45   .    LBG_FLOW                .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Biogas_Liquefaction_50   .    LBG_FLOW                .    IFLOWINOUT_OUT    
+                                                                                                                                                                                                  
 ***Pyrolysis Straw                                                                                                                                                                                
 2020                                                                                                            .    Pyrolysis_Straw_25       .    BIOMASS_FLOW_DRY_PY     .    IFLOWINOUT_IN     
 2020                                                                                                            .    Pyrolysis_Straw_30       .    BIOMASS_FLOW_DRY_PY     .    IFLOWINOUT_IN     

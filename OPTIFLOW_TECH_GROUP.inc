@@ -11,6 +11,7 @@ Straw_Tank
 Biogas_Grid_Sto                   
 Methanation                       
 Biogas_Upgrading                  
+Biogas_Liquefaction               
 Pyrolysis_Straw                   
 Hydrogen_STO_Large                
 Hydrogen_STO_Small                

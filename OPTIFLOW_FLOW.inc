@@ -126,6 +126,11 @@ HYDROGEN_FLOW_ST_Small
 HYDROGEN_FLOW_USE                                                                                                  
 HYDROGENFLOW_MWh                                                                                                   
 KEROSENE_FLOW                                                                                                      
+LBG_FLOW                                                                                                           
+LBG_FLOW_LONG                                                                                                      
+LBG_FLOW_MEDIUM                                                                                                    
+LBG_FLOW_SHORT                                                                                                     
+LBG_FLOW_TANKER                                                                                                    
 LNG_FLOW                                                                                                           
 LNG_FLOW_LONG                                                                                                      
 LNG_FLOW_MEDIUM                                                                                                    

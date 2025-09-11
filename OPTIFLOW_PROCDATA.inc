@@ -72,6 +72,14 @@ Biogas_Upgrading_40                                        0.0651164170945975  1
 Biogas_Upgrading_45                                        0.064804653207653   1               2045         20           1774.18610634378    
 Biogas_Upgrading_50                                        0.0644928893207086  1               2050         20           1658.62609175433    
                                                                                                                                              
+Biogas_Liquefaction_20                                     0.1347              1               2020         30           4715                
+Biogas_Liquefaction_25                                     0.13099575          1               2025         30           4585                
+Biogas_Liquefaction_30                                     0.127965            1               2030         30           4480                
+Biogas_Liquefaction_35                                     0.12123             1               2035         30           4245                
+Biogas_Liquefaction_40                                     0.1111275           1               2040         30           3890                
+Biogas_Liquefaction_45                                     0.1043925           1               2045         30           3655                
+Biogas_Liquefaction_50                                     0.09429             1               2050         30           3300                
+                                                                                                                                             
 ***Pyrolysis Straw                                                                                                                           
 Pyrolysis_Straw_25                                         0.343693361111111   1               2025         25           16026.525           
 Pyrolysis_Straw_30                                         0.319176083333333   1               2030         25           15045.8338888889    

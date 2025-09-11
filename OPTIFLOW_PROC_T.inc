@@ -294,4 +294,14 @@ ProcExim_Ship_Hydrogen
 ProcExim_Truck_CO2                                            
 ProcExim_Ship_CO2                                             
 ProcExim_Pipeline_CO2                                         
+LBG_Buffer                                                    
+LBG_Eff                                                       
+LBG_Ship_Split                                                
+Biogas_Liquefaction_20                                        
+Biogas_Liquefaction_25                                        
+Biogas_Liquefaction_30                                        
+Biogas_Liquefaction_35                                        
+Biogas_Liquefaction_40                                        
+Biogas_Liquefaction_45                                        
+Biogas_Liquefaction_50                                        
 /;                                                            

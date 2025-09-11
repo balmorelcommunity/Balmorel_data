@@ -77,6 +77,15 @@ $ifi not %baloptgasbridge%==yes $goto NO_BIOGAS
 2040                                                                                                               .    DK011_A .    Pyrolysis_Straw_40      
 2045                                                                                                               .    DK011_A .    Pyrolysis_Straw_45      
 2050                                                                                                               .    DK011_A .    Pyrolysis_Straw_50      
+                                                                                                                                                             
+2020                                                                                                               .    DK011_A .    Biogas_Liquefaction_20  
+2025                                                                                                               .    DK011_A .    Biogas_Liquefaction_25  
+2030                                                                                                               .    DK011_A .    Biogas_Liquefaction_30  
+2035                                                                                                               .    DK011_A .    Biogas_Liquefaction_35  
+2040                                                                                                               .    DK011_A .    Biogas_Liquefaction_40  
+2045                                                                                                               .    DK011_A .    Biogas_Liquefaction_45  
+2050                                                                                                               .    DK011_A .    Biogas_Liquefaction_50  
+                                                                                                                                                             
 $label NO_BIOGAS                                                                                                                                             
                                                                                                                                                              
 ***TG                                                                                                                                                        
