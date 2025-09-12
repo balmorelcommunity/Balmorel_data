@@ -124,13 +124,21 @@ Methanol_synthesis_TG_40                                   0.0541164658634538  1
 Methanol_synthesis_TG_45                                   0.0515394912985274  1               2045         30           1546.18473895582    
 Methanol_synthesis_TG_50                                   0.0490852298081214  1               2050         30           1472.55689424364    
                                                                                                                                              
-EMethanol_synthesis_20                                     0.235               1               2020         30           9402                
-EMethanol_synthesis_25                                     0.188               1               2025         30           7521                
-EMethanol_synthesis_30                                     0.141               1               2030         30           5641                
-EMethanol_synthesis_35                                     0.141               1               2035         30           5641                
-EMethanol_synthesis_40                                     0.141               1               2040         30           5641                
-EMethanol_synthesis_45                                     0.141               1               2045         30           5641                
-EMethanol_synthesis_50                                     0.141               1               2050         30           5641                
+Methanol_synthesis_biogas_20                               0.79587925556638    1               2020         25           31835               
+Methanol_synthesis_biogas_25                               0.79587925556638    1               2025         25           31835               
+Methanol_synthesis_biogas_30                               0.636703404453104   1               2030         25           25470               
+Methanol_synthesis_biogas_35                               0.622775517480692   1               2035         25           24910               
+Methanol_synthesis_biogas_40                               0.60884763050828    1               2040         25           24355               
+Methanol_synthesis_biogas_45                               0.60884763050828    1               2045         25           24355               
+Methanol_synthesis_biogas_50                               0.60884763050828    1               2050         25           24355               
+                                                                                                                                             
+EMethanol_synthesis_20                                     0.373869346733668   1               2020         30           11215               
+EMethanol_synthesis_25                                     0.373869346733668   1               2025         30           11215               
+EMethanol_synthesis_30                                     0.301507537688442   1               2030         30           9045                
+EMethanol_synthesis_35                                     0.283417085427136   1               2035         30           8505                
+EMethanol_synthesis_40                                     0.265326633165829   1               2040         30           7960                
+EMethanol_synthesis_45                                     0.253266331658291   1               2045         30           7600                
+EMethanol_synthesis_50                                     0.241206030150754   1               2050         30           7235                
                                                                                                                                              
 EMethanol_Upgrade_20                                       0.0915570046861632  1               2020         30           3252                
 EMethanol_Upgrade_25                                       0.08976176930016    1               2025         30           3252                

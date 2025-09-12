@@ -304,4 +304,11 @@ Biogas_Liquefaction_35
 Biogas_Liquefaction_40                                        
 Biogas_Liquefaction_45                                        
 Biogas_Liquefaction_50                                        
+Methanol_synthesis_biogas_20                                  
+Methanol_synthesis_biogas_25                                  
+Methanol_synthesis_biogas_30                                  
+Methanol_synthesis_biogas_35                                  
+Methanol_synthesis_biogas_40                                  
+Methanol_synthesis_biogas_45                                  
+Methanol_synthesis_biogas_50                                  
 /;                                                            

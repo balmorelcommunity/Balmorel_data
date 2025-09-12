@@ -17,6 +17,7 @@ Hydrogen_STO_Large
 Hydrogen_STO_Small                
 TG                                
 Methanol_synthesis_TG             
+Methanol_synthesis_biogas         
 Methanol_Storage                  
 EMethanol_synthesis               
 EMethanol_Upgrade                 
