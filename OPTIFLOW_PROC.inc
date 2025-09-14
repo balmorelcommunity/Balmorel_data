@@ -175,6 +175,13 @@ Heat_grid_tariff
 Heat_Opti_to_Bal_Conv                                                                                              
 HeatBuffer                                                                                                         
 HeatBuffer_GJ                                                                                                      
+HTL_Wet_20                                                                                                         
+HTL_Wet_25                                                                                                         
+HTL_Wet_30                                                                                                         
+HTL_Wet_35                                                                                                         
+HTL_Wet_40                                                                                                         
+HTL_Wet_45                                                                                                         
+HTL_Wet_50                                                                                                         
 Hydrogen                                                                                                           
 Hydrogen_After_STO_Large                                                                                           
 Hydrogen_After_STO_Small                                                                                           

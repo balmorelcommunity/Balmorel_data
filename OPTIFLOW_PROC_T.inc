@@ -311,4 +311,11 @@ Methanol_synthesis_biogas_35
 Methanol_synthesis_biogas_40                                  
 Methanol_synthesis_biogas_45                                  
 Methanol_synthesis_biogas_50                                  
+HTL_Wet_20                                                    
+HTL_Wet_25                                                    
+HTL_Wet_30                                                    
+HTL_Wet_35                                                    
+HTL_Wet_40                                                    
+HTL_Wet_45                                                    
+HTL_Wet_50                                                    
 /;                                                            

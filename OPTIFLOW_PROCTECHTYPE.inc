@@ -60,6 +60,13 @@ Biogas_Liquefaction_35            .    Biogas_Liquefaction
 Biogas_Liquefaction_40            .    Biogas_Liquefaction      
 Biogas_Liquefaction_45            .    Biogas_Liquefaction      
 Biogas_Liquefaction_50            .    Biogas_Liquefaction      
+HTL_Wet_20                        .    HTL_Wet                  
+HTL_Wet_25                        .    HTL_Wet                  
+HTL_Wet_30                        .    HTL_Wet                  
+HTL_Wet_35                        .    HTL_Wet                  
+HTL_Wet_40                        .    HTL_Wet                  
+HTL_Wet_45                        .    HTL_Wet                  
+HTL_Wet_50                        .    HTL_Wet                  
 Pyrolysis_Straw_25                .    Pyrolysis_Straw          
 Pyrolysis_Straw_30                .    Pyrolysis_Straw          
 Pyrolysis_Straw_35                .    Pyrolysis_Straw          
