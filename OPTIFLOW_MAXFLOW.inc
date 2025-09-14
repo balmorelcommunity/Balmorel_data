@@ -1,15 +1,7 @@
-PARAMETER MAXFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitations (U/year)"                                                                                                                                           
-/                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                      
-*OBS FF - Example: No fossil CO2 from 2040                                                                                                                                                                                            
-*Fossil CO2 flow                                                                                                                                                                                                                      
-*2040                                                                                                                                                                    .    DENMARK .    CO2_Fossil .    CO2_FLOW_FOSSIL EPS        
-*2050                                                                                                                                                                    .    DENMARK .    CO2_Fossil .    CO2_FLOW_FOSSIL EPS        
-                                                                                                                                                                                                                                      
-/;                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                      
-*Limit on fossil CO2 in fuel production                                                                                                                                                                                               
-*MAXFLOW('2040',C,'CO2_FOSSIL','CO2_FLOW_FOSSIL')$(MAXFLOW('2040','DENMARK','CO2_FOSSIL','CO2_FLOW_FOSSIL')) = MAXFLOW('2040','DENMARK','CO2_FOSSIL','CO2_FLOW_FOSSIL');                                                              
-*MAXFLOW('2050',C,'CO2_FOSSIL','CO2_FLOW_FOSSIL')$(MAXFLOW('2050','DENMARK','CO2_FOSSIL','CO2_FLOW_FOSSIL')) = MAXFLOW('2050','DENMARK','CO2_FOSSIL','CO2_FLOW_FOSSIL');                                                              
-                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                      
+PARAMETER MAXFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitations (U/year)"
+/                                                                                          
+/;                                                                                         
+                                                                                           
+*Limit on fossil CO2 in fuel production                                                    
+                                                                                           
+                                                                                           

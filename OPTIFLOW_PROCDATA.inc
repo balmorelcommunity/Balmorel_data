@@ -72,6 +72,14 @@ Biogas_Upgrading_40                                        0.0651164170945975  1
 Biogas_Upgrading_45                                        0.064804653207653   1               2045         20           1774.18610634378    
 Biogas_Upgrading_50                                        0.0644928893207086  1               2050         20           1658.62609175433    
                                                                                                                                              
+Biogas_Liquefaction_20                                     0.1347              1               2020         30           4715                
+Biogas_Liquefaction_25                                     0.13099575          1               2025         30           4585                
+Biogas_Liquefaction_30                                     0.127965            1               2030         30           4480                
+Biogas_Liquefaction_35                                     0.12123             1               2035         30           4245                
+Biogas_Liquefaction_40                                     0.1111275           1               2040         30           3890                
+Biogas_Liquefaction_45                                     0.1043925           1               2045         30           3655                
+Biogas_Liquefaction_50                                     0.09429             1               2050         30           3300                
+                                                                                                                                             
 ***Pyrolysis Straw                                                                                                                           
 Pyrolysis_Straw_25                                         0.343693361111111   1               2025         25           16026.525           
 Pyrolysis_Straw_30                                         0.319176083333333   1               2030         25           15045.8338888889    
@@ -108,21 +116,37 @@ TG_50                                                      0.175               1
                                                                                                                                              
                                                                                                                                              
 ***Methanol                                                                                                                                  
-Methanol_synthesis_TG_20                                   0.0657789024849398  1               2020         30           1973.36707454819    
-Methanol_synthesis_TG_25                                   0.0626465737951807  1               2025         30           1879.39721385542    
-Methanol_synthesis_TG_30                                   0.0596634036144578  1               2030         30           1789.90210843374    
-Methanol_synthesis_TG_35                                   0.0568222891566265  1               2035         30           1704.6686746988     
-Methanol_synthesis_TG_40                                   0.0541164658634538  1               2040         30           1623.49397590361    
-Methanol_synthesis_TG_45                                   0.0515394912985274  1               2045         30           1546.18473895582    
-Methanol_synthesis_TG_50                                   0.0490852298081214  1               2050         30           1472.55689424364    
+Methanol_synthesis_TG_20                                   1.55316455696203    1               2020         30           17257.3839662447    
+Methanol_synthesis_TG_25                                   1.55316455696203    1               2025         30           17257.3839662447    
+Methanol_synthesis_TG_30                                   0.862869198312236   1               2030         30           11504.9226441632    
+Methanol_synthesis_TG_35                                   0.744725844947364   1               2035         30           11417.7641392831    
+Methanol_synthesis_TG_40                                   0.626582491582491   1               2040         30           11330.6056344031    
+Methanol_synthesis_TG_45                                   0.529008545369305   1               2045         30           11417.7641392831    
+Methanol_synthesis_TG_50                                   0.431434599156118   1               2050         30           11504.9226441631    
                                                                                                                                              
-EMethanol_synthesis_20                                     0.235               1               2020         30           9402                
-EMethanol_synthesis_25                                     0.188               1               2025         30           7521                
-EMethanol_synthesis_30                                     0.141               1               2030         30           5641                
-EMethanol_synthesis_35                                     0.141               1               2035         30           5641                
-EMethanol_synthesis_40                                     0.141               1               2040         30           5641                
-EMethanol_synthesis_45                                     0.141               1               2045         30           5641                
-EMethanol_synthesis_50                                     0.141               1               2050         30           5641                
+Methanol_synthesis_biogas_20                               0.79587925556638    1               2020         25           31835               
+Methanol_synthesis_biogas_25                               0.79587925556638    1               2025         25           31835               
+Methanol_synthesis_biogas_30                               0.636703404453104   1               2030         25           25470               
+Methanol_synthesis_biogas_35                               0.622775517480692   1               2035         25           24910               
+Methanol_synthesis_biogas_40                               0.60884763050828    1               2040         25           24355               
+Methanol_synthesis_biogas_45                               0.60884763050828    1               2045         25           24355               
+Methanol_synthesis_biogas_50                               0.60884763050828    1               2050         25           24355               
+                                                                                                                                             
+EMethanol_synthesis_20                                     0.373869346733668   1               2020         30           11215               
+EMethanol_synthesis_25                                     0.373869346733668   1               2025         30           11215               
+EMethanol_synthesis_30                                     0.301507537688442   1               2030         30           9045                
+EMethanol_synthesis_35                                     0.283417085427136   1               2035         30           8505                
+EMethanol_synthesis_40                                     0.265326633165829   1               2040         30           7960                
+EMethanol_synthesis_45                                     0.253266331658291   1               2045         30           7600                
+EMethanol_synthesis_50                                     0.241206030150754   1               2050         30           7235                
+                                                                                                                                             
+HTL_Wet_20                                                 0.805703005018865   1               2020         20           33740.8602150538    
+HTL_Wet_25                                                 0.715263270746827   1               2025         20           30836.2365591398    
+HTL_Wet_30                                                 0.622898967152952   1               2030         20           27686.9892473118    
+HTL_Wet_35                                                 0.552595402394207   1               2035         20           25196.0215053763    
+HTL_Wet_40                                                 0.48253076450772    1               2040         20           22730.0537634409    
+HTL_Wet_45                                                 0.456312341091804   1               2045         20           21541.3978494624    
+HTL_Wet_50                                                 0.430309998856395   1               2050         20           20382.7419354839    
                                                                                                                                              
 EMethanol_Upgrade_20                                       0.0915570046861632  1               2020         30           3252                
 EMethanol_Upgrade_25                                       0.08976176930016    1               2025         30           3252                
@@ -135,13 +159,14 @@ EMethanol_Upgrade_50                                       0.0813              1
 Methanol_Storage                                           1.539E-005          1               2020         30           0.4617              
                                                                                                                                              
 ***Ammonia                                                                                                                                   
-Ammonia_Synthesis_20                                       0.2605145925375     1               2020         30           5716.80963339062    
-Ammonia_Synthesis_25                                       0.24810913575       1               2025         30           6017.6943509375     
-Ammonia_Synthesis_30                                       0.236294415         1               2030         30           6334.41510625       
-Ammonia_Synthesis_35                                       0.2250423           1               2035         30           6667.805375         
-Ammonia_Synthesis_40                                       0.214326            1               2040         30           7018.7425           
-Ammonia_Synthesis_45                                       0.20412             1               2045         30           7388.15             
-Ammonia_Synthesis_50                                       0.1944              1               2050         30           7777                
+Ammonia_Synthesis_20                                       0.468572107626325   1               2020         30           14055               
+Ammonia_Synthesis_25                                       0.425909099518328   1               2025         30           12775               
+Ammonia_Synthesis_30                                       0.38324609141033    1               2030         30           11495               
+Ammonia_Synthesis_35                                       0.348351929254531   1               2035         30           10450               
+Ammonia_Synthesis_40                                       0.313457767098732   1               2040         30           9405                
+Ammonia_Synthesis_45                                       0.27688515335786    1               2045         30           8305                
+Ammonia_Synthesis_50                                       0.240312539616988   1               2050         30           7210                
+                                                                                                                                             
 Ammonia_Storage                                            3.632458064516E-005 1               2020         30           1.81622903225806    
                                                                                                                                              
 ***Jet and oil products                                                                                                                      
@@ -161,13 +186,13 @@ BioJet_H2_40                                               0.3146              1
 BioJet_H2_45                                               0.2992              1               2045         30           8923.2              
 BioJet_H2_50                                               0.2838              1               2050         30           8476.6              
                                                                                                                                              
-E_FT_20                                                    0.214               1               2020         30           8547                
-E_FT_25                                                    0.175               1               2025         30           7007                
-E_FT_30                                                    0.137               1               2030         30           5467                
-E_FT_35                                                    0.137               1               2035         30           5467                
-E_FT_40                                                    0.137               1               2040         30           5467                
-E_FT_45                                                    0.137               1               2045         30           5467                
-E_FT_50                                                    0.137               1               2050         30           5467                
+E_FT_20                                                    0.620316666666667   1               2020         30           31015               
+E_FT_25                                                    0.546469444444444   1               2025         30           27325               
+E_FT_30                                                    0.472622222222222   1               2030         30           23630               
+E_FT_35                                                    0.398775            1               2035         30           19940               
+E_FT_40                                                    0.324927777777778   1               2040         30           16245               
+E_FT_45                                                    0.295388888888889   1               2045         30           14770               
+E_FT_50                                                    0.26585             1               2050         30           13295               
 ;                                                                                                                                            
                                                                                                                                              
 PROCDATA(PROC,'PROCINVCOST')=PROCDATA(PROC,'PROCINVCOST');                                                                                   
