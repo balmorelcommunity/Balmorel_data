@@ -136,8 +136,6 @@ Elec_Eff
 Elec_Ship_Split                                                                                                    
 ElecBuffer                                                                                                         
 ElecBuffer_GJ                                                                                                      
-Electro                                                                                                            
-ElectroBuffer                                                                                                      
 EME_Gasoline_Eff                                                                                                   
 EME_GasolineBuffer                                                                                                 
 EME_Jet_Eff                                                                                                        

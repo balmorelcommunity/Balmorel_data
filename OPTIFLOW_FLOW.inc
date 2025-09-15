@@ -87,7 +87,6 @@ E_FT_DIESEL_FLOW_SHORT
 E_FT_DIESEL_FLOW_TANKER                                                                                            
 E_FT_JET_FLOW                                                                                                      
 E_FT_SUM_FLOW                                                                                                      
-ELCOST_FLOW                                                                                                        
 ELECFLOW                                                                                                           
 ELECFLOW_GJ                                                                                                        
 ELECFLOW_GJ_SHORT                                                                                                  
