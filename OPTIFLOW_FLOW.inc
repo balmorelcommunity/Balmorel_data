@@ -4,9 +4,13 @@ SET FLOW "Flows of the network"
                                                                                                                    
 AIRFLOW                                                                                                            
 AMMONIA_FLOW                                                                                                       
+AMMONIA_FLOW_FC                                                                                                    
 AMMONIA_FLOW_LONG                                                                                                  
+AMMONIA_FLOW_LONG_FC                                                                                               
 AMMONIA_FLOW_MEDIUM                                                                                                
+AMMONIA_FLOW_MEDIUM_FC                                                                                             
 AMMONIA_FLOW_SHORT                                                                                                 
+AMMONIA_FLOW_SHORT_FC                                                                                              
 AMMONIA_FLOW_STO                                                                                                   
 AMMONIA_FLOW_STO_OUT                                                                                               
 AMMONIAFLOW_IMPORT                                                                                                 
@@ -99,9 +103,13 @@ EME_LPG_FLOW_MEDIUM
 EME_LPG_FLOW_SHORT                                                                                                 
 EME_LPG_FLOW_TANKER                                                                                                
 EMETHANOLFLOW                                                                                                      
+EMETHANOLFLOW_FC                                                                                                   
 EMETHANOLFLOW_LONG                                                                                                 
+EMETHANOLFLOW_LONG_FC                                                                                              
 EMETHANOLFLOW_MEDIUM                                                                                               
+EMETHANOLFLOW_MEDIUM_FC                                                                                            
 EMETHANOLFLOW_SHORT                                                                                                
+EMETHANOLFLOW_SHORT_FC                                                                                             
 EMETHANOLFLOW_STO                                                                                                  
 EMETHANOLFLOW_STO_OUT                                                                                              
 EMETHANOLFLOW_UPGRADE                                                                                              
@@ -117,8 +125,11 @@ HYDROGEN_FLOW_NoST
 HYDROGEN_FLOW_OUT                                                                                                  
 HYDROGEN_FLOW_PY                                                                                                   
 HYDROGEN_FLOW_SHIPPING                                                                                             
+HYDROGEN_FLOW_SHIPPING_FC                                                                                          
 HYDROGEN_FLOW_SHIPPING_MEDIUM                                                                                      
+HYDROGEN_FLOW_SHIPPING_MEDIUM_FC                                                                                   
 HYDROGEN_FLOW_SHIPPING_SHORT                                                                                       
+HYDROGEN_FLOW_SHIPPING_SHORT_FC                                                                                    
 HYDROGEN_FLOW_SNG                                                                                                  
 HYDROGEN_FLOW_ST_Large                                                                                             
 HYDROGEN_FLOW_ST_Small                                                                                             
@@ -154,13 +165,17 @@ MDO_FLOW_OIL
 MDO_FLOW_SHORT                                                                                                     
 MDO_FLOW_TANKER                                                                                                    
 METHANOLFLOW                                                                                                       
+METHANOLFLOW_FC                                                                                                    
 METHANOLFLOW_IMPORT                                                                                                
 METHANOLFLOW_IMPORT_LONG                                                                                           
 METHANOLFLOW_IMPORT_MEDIUM                                                                                         
 METHANOLFLOW_IMPORT_SHORT                                                                                          
 METHANOLFLOW_LONG                                                                                                  
+METHANOLFLOW_LONG_FC                                                                                               
 METHANOLFLOW_MEDIUM                                                                                                
+METHANOLFLOW_MEDIUM_FC                                                                                             
 METHANOLFLOW_SHORT                                                                                                 
+METHANOLFLOW_SHORT_FC                                                                                              
 METHANOLFLOW_STO                                                                                                   
 METHANOLFLOW_STO_OUT                                                                                               
 NITROGEN_FLOW                                                                                                      

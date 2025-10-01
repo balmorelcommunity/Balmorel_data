@@ -318,4 +318,12 @@ HTL_Wet_35
 HTL_Wet_40                                                    
 HTL_Wet_45                                                    
 HTL_Wet_50                                                    
+Hydrogen_FC_Eff                                               
+Hydrogen_Ship_Split_FC                                        
+Methanol_FC_Eff                                               
+Methanol_Ship_Split_FC                                        
+Emethanol_FC_Eff                                              
+EMethanol_Ship_Split_FC                                       
+Ammonia_FC_Eff                                                
+Ammonia_Ship_Split_FC                                         
 /;                                                            
