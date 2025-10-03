@@ -9,6 +9,7 @@ AMMONIA_FLOW_LONG
 AMMONIA_FLOW_LONG_FC                                                                                               
 AMMONIA_FLOW_MEDIUM                                                                                                
 AMMONIA_FLOW_MEDIUM_FC                                                                                             
+AMMONIA_FLOW_OIL_RETRO                                                                                             
 AMMONIA_FLOW_SHORT                                                                                                 
 AMMONIA_FLOW_SHORT_FC                                                                                              
 AMMONIA_FLOW_STO                                                                                                   
@@ -108,6 +109,7 @@ EMETHANOLFLOW_LONG
 EMETHANOLFLOW_LONG_FC                                                                                              
 EMETHANOLFLOW_MEDIUM                                                                                               
 EMETHANOLFLOW_MEDIUM_FC                                                                                            
+EMETHANOLFLOW_OIL_RETRO                                                                                            
 EMETHANOLFLOW_SHORT                                                                                                
 EMETHANOLFLOW_SHORT_FC                                                                                             
 EMETHANOLFLOW_STO                                                                                                  
@@ -174,6 +176,7 @@ METHANOLFLOW_LONG
 METHANOLFLOW_LONG_FC                                                                                               
 METHANOLFLOW_MEDIUM                                                                                                
 METHANOLFLOW_MEDIUM_FC                                                                                             
+METHANOLFLOW_OIL_RETRO                                                                                             
 METHANOLFLOW_SHORT                                                                                                 
 METHANOLFLOW_SHORT_FC                                                                                              
 METHANOLFLOW_STO                                                                                                   
