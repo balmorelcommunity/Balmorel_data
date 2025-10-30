@@ -193,6 +193,51 @@ E_FT_35                                                    0.398775            1
 E_FT_40                                                    0.324927777777778   1               2040         30           16245               
 E_FT_45                                                    0.295388888888889   1               2045         30           14770               
 E_FT_50                                                    0.26585             1               2050         30           13295               
+                                                                                                                                             
+***Ship capacities                                                                                                                           
+Cap_Oil_ICE_Old                                            0.242227319151372   1               2020         25           0                   
+Cap_Oil_ICE_Tanker                                         0.232797095919273   1               2020         25           0                   
+Cap_Oil_ICE_Long                                           0.244195252077578   1               2020         25           0                   
+Cap_Oil_ICE_Medium                                         0.232701166169521   1               2020         25           0                   
+Cap_Oil_ICE_Short                                          0.256019061626671   1               2020         25           0                   
+Cap_Oil_OCC_Old                                            0.242227319151372   1               2020         25           0                   
+Cap_Oil_OCC_Tanker                                         0.232797095919273   1               2020         25           0                   
+Cap_Oil_OCC_Long                                           0.244195252077578   1               2020         25           0                   
+Cap_Oil_OCC_Medium                                         0.232701166169521   1               2020         25           0                   
+Cap_Oil_OCC_Short                                          0.256019061626671   1               2020         25           0                   
+Cap_LNG_ICE_Tanker                                         0.407206302325914   1               2020         25           0                   
+Cap_LNG_ICE_Long                                           0.524444479954197   1               2020         25           0                   
+Cap_LNG_ICE_Medium                                         0.372617809790888   1               2020         25           0                   
+Cap_LNG_ICE_Short                                          0.397216413142213   1               2020         25           0                   
+Cap_LNG_OCC_Tanker                                         0.407206302325914   1               2020         25           0                   
+Cap_LNG_OCC_Long                                           0.524444479954197   1               2020         25           0                   
+Cap_LNG_OCC_Medium                                         0.372617809790888   1               2020         25           0                   
+Cap_LNG_OCC_Short                                          0.397216413142213   1               2020         25           0                   
+Cap_Methanol_ICE_Long                                      0.278377624693337   1               2020         25           0                   
+Cap_Methanol_ICE_Medium                                    0.256302189353258   1               2020         25           0                   
+Cap_Methanol_ICE_Short                                     0.281080145743276   1               2020         25           0                   
+Cap_Methanol_FC_Long                                       0.774411032934945   1               2020         15           0                   
+Cap_Methanol_FC_Medium                                     0.760722752161467   1               2020         15           0                   
+Cap_Methanol_FC_Short                                      0.839227577967466   1               2020         15           0                   
+Cap_Methanol_Retro_Old                                     0.201048674895639   1               2020         25           0                   
+Cap_Methanol_Retro_Tanker                                  0.193221589612996   1               2020         25           0                   
+Cap_Ammonia_ICE_Long                                       0.357173104358405   1               2020         25           0                   
+Cap_Ammonia_ICE_Medium                                     0.311879473620882   1               2020         25           0                   
+Cap_Ammonia_ICE_Short                                      0.340274153422451   1               2020         25           0                   
+Cap_Ammonia_FC_Long                                        0.879826790295569   1               2020         15           0                   
+Cap_Ammonia_FC_Medium                                      0.843370421677744   1               2020         15           0                   
+Cap_Ammonia_FC_Short                                       0.928375293187308   1               2020         15           0                   
+Cap_Ammonia_Retro_Tanker                                   0.193221589612996   1               2020         25           0                   
+Cap_Hydrogen_ICE_Medium                                    0.383670876114696   1               2020         25           0                   
+Cap_Hydrogen_ICE_Short                                     0.397510635239169   1               2020         25           0                   
+Cap_Hydrogen_FC_Medium                                     0.578228202280335   1               2020         15           0                   
+Cap_Hydrogen_FC_Short                                      0.612790661523594   1               2020         15           0                   
+Cap_Electricity_Short                                      0.273456768930402   1               2020         25           0                   
+                                                                                                                                             
 ;                                                                                                                                            
                                                                                                                                              
 PROCDATA(PROC,'PROCINVCOST')=PROCDATA(PROC,'PROCINVCOST');                                                                                   
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
