@@ -2,6 +2,7 @@ TABLE EMI_POLNA_MARITIME(YYY,EMIPOLSET) 'Sectoral carbon budget for maritime sec
 
               LIM_CO2
                      
+2025  61674645.613074
 2030    56200564.6415
 2035  36128934.412393
 2040  16057304.183286

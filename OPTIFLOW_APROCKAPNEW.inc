@@ -226,8 +226,8 @@ $label NO_BIOGAS
 2030                                                                                                                      .    DK011_A .    Cap_Hydrogen_FC_Medium          
 2030                                                                                                                      .    DK011_A .    Cap_Hydrogen_FC_Short           
 2030                                                                                                                      .    DK011_A .    Cap_Electricity_Short           
-/;                                                                                                                                                                          
                                                                                                                                                                             
+/;                                                                                                                                                                          
 *Offshore sequestration only in offshore areas                                                                                                                              
 APROCKAPNEW('2020',AAAOPTIFLOW_OFF,'CO2_Seq_Off_20') = yes;                                                                                                                 
 APROCKAPNEW('2025',AAAOPTIFLOW_OFF,'CO2_Seq_Off_25') = yes;                                                                                                                 

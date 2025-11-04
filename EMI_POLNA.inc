@@ -2,6 +2,7 @@ TABLE EMI_POLNA(YYY,GROUP,EMIPOLSET) 'Emission policy data; default for the LIM_
 
      ALL_SECTORS . LIM_CO2
                           
+2025      924037647.213887
 2030      804274493.740999
 2035      493285224.417643
 2040      182295955.094286
