@@ -31,22 +31,22 @@ LITHUANIA
 POLAND                                                                                                                                      
                                                                                                                                             
 +                                                                                           WIND            SUN                             
-DK1_NoDH                                                                                                                                    
-DK2_NoDH                                                                                                                                    
-SE1A                                                                                                                                        
-SE2A                                                                                                                                        
-SE3A                                                                                                                                        
-SE4A                                                                                                                                        
-NO1_A1                                                                                                                                      
-NO2_A1                                                                                                                                      
-NO3_A1                                                                                                                                      
-NO4_A1                                                                                                                                      
-NO5_A1                                                                                                                                      
+DK1_A                                                                                                                                    
+DK2_A                                                                                                                                    
+SE1_A                                                                                                                                        
+SE2_A                                                                                                                                        
+SE3_A                                                                                                                                        
+SE4_A                                                                                                                                        
+NO1_A                                                                                                                                      
+NO2_A                                                                                                                                      
+NO3_A                                                                                                                                      
+NO4_A                                                                                                                                      
+NO5_A                                                                                                                                      
 DE4-W_A                                                                                                                                     
 DE4-N_A                                                                                                                                     
 DE4-E_A                                                                                                                                     
 DE4-S_A                                                                                                                                     
-FinA                                                                                                                                        
+FIN_A                                                                                                                                        
 UK_A                                                                                                                                        
 NL_A                                                                                                                                        
 EE_A                                                                                                                                        
