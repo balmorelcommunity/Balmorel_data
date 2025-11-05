@@ -361,4 +361,7 @@ Methanol_All
 Methanol_FC_All                                               
 Ammonia_All                                                   
 Ammonia_FC_All                                                
+Cap_Oil_Old_Existing                                          
+Cap_Oil_Tanker_Existing                                       
+Cap_LNG_Tanker_Existing                                       
 /;                                                            

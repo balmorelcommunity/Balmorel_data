@@ -195,6 +195,13 @@ E_FT_45                                                    0.295388888888889   1
 E_FT_50                                                    0.26585             1               2050         30           13295               
                                                                                                                                              
 ***Ship capacities                                                                                                                           
+                                                                                                                                             
+*Existing capacities                                                                                                                         
+Cap_Oil_Old_Existing                                       0.125763057648917   1               2020         10           0                   
+Cap_Oil_Tanker_Existing                                    0.120866938944653   1               2020         10           0                   
+Cap_LNG_Tanker_Existing                                    0.211419215032525   1               2020         10           0                   
+                                                                                                                                             
+*New capacities                                                                                                                              
 Cap_Oil_ICE_Old                                            0.242227319151372   1               2020         25           0                   
 Cap_Oil_ICE_Tanker                                         0.232797095919273   1               2020         25           0                   
 Cap_Oil_ICE_Long                                           0.244195252077578   1               2020         25           0                   
