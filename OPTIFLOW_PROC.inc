@@ -91,6 +91,7 @@ Cap_LNG_OCC_Long
 Cap_LNG_OCC_Medium                                                                                                 
 Cap_LNG_OCC_Short                                                                                                  
 Cap_LNG_OCC_Tanker                                                                                                 
+Cap_LNG_Tanker_Existing                                                                                            
 Cap_Methanol_FC_Long                                                                                               
 Cap_Methanol_FC_Medium                                                                                             
 Cap_Methanol_FC_Short                                                                                              
@@ -109,6 +110,8 @@ Cap_Oil_OCC_Medium
 Cap_Oil_OCC_Old                                                                                                    
 Cap_Oil_OCC_Short                                                                                                  
 Cap_Oil_OCC_Tanker                                                                                                 
+Cap_Oil_Old_Existing                                                                                               
+Cap_Oil_Tanker_Existing                                                                                            
 CO2_Accumulator                                                                                                    
 CO2_Before_Accumulator                                                                                             
 CO2_Biochar_Buffer                                                                                                 

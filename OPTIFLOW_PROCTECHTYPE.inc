@@ -153,6 +153,9 @@ E_FT_35                           .    E_FT
 E_FT_40                           .    E_FT                     
 E_FT_45                           .    E_FT                     
 E_FT_50                           .    E_FT                     
+Cap_Oil_Old_Existing              .    Cap_Oil_Old_Existing     
+Cap_Oil_Tanker_Existing           .    Cap_Oil_Tanker_Existing  
+Cap_LNG_Tanker_Existing           .    Cap_LNG_Tanker_Existing  
 Cap_Oil_ICE_Old                   .    Cap_Oil_ICE_Old          
 Cap_Oil_ICE_Tanker                .    Cap_Oil_ICE_Tanker       
 Cap_Oil_ICE_Long                  .    Cap_Oil_ICE_Long         

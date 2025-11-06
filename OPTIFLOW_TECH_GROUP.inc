@@ -28,6 +28,9 @@ Ammonia_Storage
 BioJet                            
 BioJet_H2                         
 E_FT                              
+Cap_Oil_Old_Existing              
+Cap_Oil_Tanker_Existing           
+Cap_LNG_Tanker_Existing           
 Cap_Oil_ICE_Old                   
 Cap_Oil_ICE_Tanker                
 Cap_Oil_ICE_Long                  

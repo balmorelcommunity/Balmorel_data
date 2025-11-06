@@ -1,42 +1,129 @@
-Range:       C8:D37                                             H   
-GAMS path:   C:\GAMS\46\                                            
-Export to:   data_industry                                          
-xls2gms opt: M                                                      
-                                                                    
-                                                                    
-                           INDUSTRY_XHCOST       10!                
-                           INDUSTRY_XHINVCOST    9!                 
-                           INDUSTRY_XHKFX        7!                 
-                           INDUSTRY_XHLOSS       8!                 
-                           INDUSTRY_CCCRRRAAA    01!A3:A150         
-                           INDUSTRY_RRRAAA       01!A303:D447       
-                           INDUSTRY_AAA          01!A154:D298       
-                           INDUSTRY_INDUSTRY_AAA 01!A449:D736       
-                           INDUSTRY_AGKN         13!                
-                           INDUSTRY_DE           33!                
-                           INDUSTRY_DH           34!                
-                           INDUSTRY_DH_VAR_T     52!                
-                           INDUSTRY_GKFX         15!                
-                           INDUSTRY_COP_VAR_T    12!                
-                           INDUSTRY_COP          20!                
-                           INDUSTRY_XHMAXK       11!                
-                           INDUSTRY_GGCOMB       21!                
-                           INDUSTRY_G            22!                
-                           INDUSTRY_DISLOSS_E_AG 24!                
-                           INDUSTRY_GGG          23!                
-                           INDUSTRY_SOLHFLH      25!                
-                           INDUSTRY_SOLH_VAR_T   26!                
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
-                                                                    
+Range:                 C8:D91                                                                                                                                                                           H                                
+GAMS path:             C:\GAMS\46\                                                                                                                                                                                                       
+Export to:             data_optiflow                                                                                                                                                                                                     
+xls2gms opt:           M                                                                                                                                                                                                                 
+Path to data_optiflow: C:\Users\frefri\OneDrive - Danmarks Tekniske Universitet\Documents\Studies\Renewable Fuel Infrastructure for Nordic Maritime Transport\                                                                           
+                                                                                                                                                                                                                                         
+                                                                                                                                                               OPTIFLOW_AAAIMPORT            01!                                         
+                                                                                                                                                               OPTIFLOW_AAAOPTIFLOW          02!                                         
+                                                                                                                                                               OPTIFLOW_AAAOPTIFLOW_OFF      02_A!                                       
+                                                                                                                                                               OPTIFLOW_AAASOURCE            03!                                         
+                                                                                                                                                               OPTIFLOW_AAATRANSIT           04!                                         
+                                                                                                                                                               OPTIFLOW_APKNDISC_AP          05!                                         
+                                                                                                                                                               OPTIFLOW_APKNDISCDATA         06!                                         
+                                                                                                                                                               OPTIFLOW_APKNDISCDATASET      07!                                         
+                                                                                                                                                               OPTIFLOW_APKNDISCPATA         08!                                         
+                                                                                                                                                               OPTIFLOW_APKNDISCSIZESET      09!                                         
+                                                                                                                                                               OPTIFLOW_APROCKAPNEW          10!                 Frequently used sheets  
+                                                                                                                                                               OPTIFLOW_APROCEXIMKAPNEW      10_exim!            Useful sheets           
+                                                                                                                                                               OPTIFLOW_EQFLOW               11!                 Automated sheets        
+                                                                                                                                                               OPTIFLOW_EQFLOW_VAR_S         12!                 Unused sheets           
+                                                                                                                                                               OPTIFLOW_FLOW                 13!                                         
+                                                                                                                                                               OPTIFLOW_FLOWFROMTOPROC       14!                                         
+                                                                                                                                                               OPTIFLOW_FLOWFROMTOPROC_Y     15!                                         
+                                                                                                                                                               OPTIFLOW_FLOWINDIC            16!                                         
+                                                                                                                                                               OPTIFLOW_FLOWSHAREIN2IN       17!                                         
+                                                                                                                                                               OPTIFLOW_FLOWSHAREOUT2IN      18!                                         
+                                                                                                                                                               OPTIFLOW_FLOWSHAREOUT2OUT     19!                                         
+                                                                                                                                                               OPTIFLOW_INCIN_OUTPUTDATA     20!                                         
+                                                                                                                                                               OPTIFLOW_INDICLIMGOAL         21!                                         
+                                                                                                                                                               OPTIFLOW_M_EconomyScale       22!                                         
+                                                                                                                                                               OPTIFLOW_MAXFLOW              23!                                         
+                                                                                                                                                               OPTIFLOW_MINFLOW              24!                                         
+                                                                                                                                                               OPTIFLOW_MSWTECHTYPE          25!                                         
+                                                                                                                                                               OPTIFLOW_PROC                 26!                                         
+                                                                                                                                                               OPTIFLOW_PROC_T               27!                                         
+                                                                                                                                                               OPTIFLOW_PROCBUFFER           28!                                         
+                                                                                                                                                               OPTIFLOW_PROCDATA             29!                                         
+                                                                                                                                                               OPTIFLOW_PROCDATASET          30!                                         
+                                                                                                                                                               OPTIFLOW_PROCEXIM             31!                                         
+                                                                                                                                                               OPTIFLOW_PROCFLOWWASTETR      32!                                         
+                                                                                                                                                               OPTIFLOW_PROCINDIC            33!                                         
+                                                                                                                                                               OPTIFLOW_PROCINOUTFLOW        34!                                         
+                                                                                                                                                               OPTIFLOW_PROCINOUTFLOW_Y      35!                                         
+                                                                                                                                                               OPTIFLOW_PROCINOUTFLOW_Y_A    36!                                         
+                                                                                                                                                               OPTIFLOW_PROCKAPDATA          37!                                         
+                                                                                                                                                               OPTIFLOW_PROCKAPDECOM         38!                                         
+                                                                                                                                                               OPTIFLOW_PROCKAPFX            39!                                         
+                                                                                                                                                               OPTIFLOW_PROCEXIMKAPFX        39_exim!                                    
+                                                                                                                                                               OPTIFLOW_PROCKAPFXINV         40!                                         
+                                                                                                                                                               OPTIFLOW_PROCKAPNEWSCALE      41!                                         
+                                                                                                                                                               OPTIFLOW_PROCRAMPDOWN         42!                                         
+                                                                                                                                                               OPTIFLOW_PROCRAMPUP           43!                                         
+                                                                                                                                                               OPTIFLOW_PROCSINK             44!                                         
+                                                                                                                                                               OPTIFLOW_PROCSOLAR            45!                                         
+                                                                                                                                                               OPTIFLOW_PROCSOURCE           46!                                         
+                                                                                                                                                               OPTIFLOW_PROCSTORAGE          47!                                         
+                                                                                                                                                               OPTIFLOW_PROCSTORAGE_Y        48!                                         
+                                                                                                                                                               OPTIFLOW_PROCSTORAGE_YT       49!                                         
+                                                                                                                                                               OPTIFLOW_PROCSTORAGEBOUND     50!                                         
+                                                                                                                                                               OPTIFLOW_PROCTECHTYPE         51!                                         
+                                                                                                                                                               OPTIFLOW_PROCTIMELINK         52!                                         
+                                                                                                                                                               OPTIFLOW_PROCTYPEFLOW         53!                                         
+                                                                                                                                                               OPTIFLOW_PROCWASTEINV         54!                                         
+                                                                                                                                                               OPTIFLOW_RateOfReturn         55!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBU2INDIC         56!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBU2INDIC_A       57!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBU2INDIC_AS      58!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBU2INDIC_AST     59!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBU2INDIC_RST     60!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBUBOUND          61!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBUBOUND_AS       62!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBUBOUND_AST      63!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBUBOUND_output   64!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBUBOUND_Y        65!                                         
+                                                                                                                                                               OPTIFLOW_SOSIBUFLOW_VAR_T_old 66!                                         
+                                                                                                                                                               OPTIFLOW_TRANSCOST            67!                                         
+                                                                                                                                                               OPTIFLOW_TRANSCOSTDATASET     68!                                         
+                                                                                                                                                               OPTIFLOW_TRANSDIST_OLD        69!                                         
+                                                                                                                                                               OPTIFLOW_TRANSFLOWMAX         70!                                         
+                                                                                                                                                               OPTIFLOW_WASTETREATMENT       71!                                         
+                                                                                                                                                               OPTIFLOW_WEIGHT_S             72!                                         
+                                                                                                                                                               OPTIFLOW_WEIGHT_T             73!                                         
+                                                                                                                                                               OPTIFLOW_TIMELENGHT           74!                                         
+                                                                                                                                                               OPTIFLOW_TECH_GROUP           75!                                         
+                                                                                                                                                               OPTIFLOW_UNDERWATER_REL_INCR  76!                                         
+                                                                                                                                                               OPTIFLOW_ALLOWEDTRANS         77!                                         
+                                                                                                                                                               OPTIFLOW_PROCEXIM_ENDO_FUEL   78!                                         
+                                                                                                                                                               OPTIFLOW_MOUNTAIN_REL_INCR    79!                                         
+                                                                                                                                                               OPTIFLOW_PROCKAP_RETRO        80!                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         
