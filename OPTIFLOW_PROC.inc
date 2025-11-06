@@ -249,6 +249,7 @@ Hydrogen_STO_Small_45
 Hydrogen_STO_Small_50                                                                                              
 Hydrogen_Use                                                                                                       
 HydrogenSource_MWh                                                                                                 
+IFUELPRICE_BUFFER                                                                                                  
 Kerosene_Source                                                                                                    
 LBG_Buffer                                                                                                         
 LBG_Eff                                                                                                            

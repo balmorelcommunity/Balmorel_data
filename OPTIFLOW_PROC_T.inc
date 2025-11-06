@@ -364,4 +364,5 @@ Ammonia_FC_All
 Cap_Oil_Old_Existing                                          
 Cap_Oil_Tanker_Existing                                       
 Cap_LNG_Tanker_Existing                                       
+IFUELPRICE_BUFFER                                             
 /;                                                            
