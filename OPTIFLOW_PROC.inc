@@ -307,6 +307,7 @@ MethanolJoin
 MethanolSplit                                                                                                      
 MethanolTotal                                                                                                      
 Money_buffer_T                                                                                                     
+OCC_BUFFER                                                                                                         
 ProcExim_Pipeline_CO2                                                                                              
 ProcExim_Ship_Ammonia                                                                                              
 ProcExim_Ship_CO2                                                                                                  
@@ -326,6 +327,7 @@ Pyrolysis_Straw_35
 Pyrolysis_Straw_40                                                                                                 
 Pyrolysis_Straw_45                                                                                                 
 Pyrolysis_Straw_50                                                                                                 
+RETRO_BUFFER                                                                                                       
 Road_fuels_sum                                                                                                     
 RoadBuffer                                                                                                         
 Shipping_Long_CCP                                                                                                  

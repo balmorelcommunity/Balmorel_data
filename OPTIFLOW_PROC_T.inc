@@ -365,4 +365,6 @@ Cap_Oil_Old_Existing
 Cap_Oil_Tanker_Existing                                       
 Cap_LNG_Tanker_Existing                                       
 IFUELPRICE_BUFFER                                             
+RETRO_BUFFER                                                  
+OCC_BUFFER                                                    
 /;                                                            

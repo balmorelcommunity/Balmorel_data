@@ -22,4 +22,6 @@ Shipping_Oil_Only_Buffer
 Shipping_Tanker_Buffer                                                 
 Shipping_Short_Dist_Buffer                                             
 IFUELPRICE_BUFFER                                                      
+RETRO_BUFFER                                                           
+OCC_BUFFER                                                             
 /;                                                                     

@@ -187,6 +187,8 @@ STRAW_GEN_FLOW_BIOGAS
 STRAW_GEN_FLOW_PY                                                                                                  
 STRAW_GEN_FLOW_TRANS                                                                                               
 TARFLOW                                                                                                            
+VIRTUALFLOW_OCC                                                                                                    
+VIRTUALFLOW_RETRO                                                                                                  
 WOOD_GEN_FLOW                                                                                                      
 WOOD_GEN_FLOW_TRANS                                                                                                
 GHGEMISSION_nonbio                                                                                                 
