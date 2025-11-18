@@ -11,11 +11,11 @@ GHG_Buffer
 GHGbio_Buffer                                                          
 Gas_Buffer                                                             
 CO2_Biochar_Buffer                                                     
-Shipping_Long_Dist                                                     
-Shipping_Medium_Dist                                                   
-Shipping_Oil_Only                                                      
-Shipping_Tanker                                                        
-Shipping_Short_Dist                                                    
+*Shipping_Long_Dist                                                    
+*Shipping_Medium_Dist                                                  
+*Shipping_Oil_Only                                                     
+*Shipping_Tanker                                                       
+*Shipping_Short_Dist                                                   
 Shipping_Long_Dist_Buffer                                              
 Shipping_Medium_Dist_Buffer                                            
 Shipping_Oil_Only_Buffer                                               
