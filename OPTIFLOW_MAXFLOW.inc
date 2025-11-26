@@ -109,8 +109,8 @@ PARAMETER MAXFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitation
 /;                                                                                                                                                                   
                                                                                                                                                                      
 *Limit on fossil CO2 in fuel production                                                                                                                              
-MAXFLOW('2040',AAAOPTIFLOW,'CO2_Grid_Out','CO2_FLOW_FOSSIL_CU')=EPS;                                                                                                 
-MAXFLOW('2050',AAAOPTIFLOW,'CO2_Grid_Out','CO2_FLOW_FOSSIL_CU')=EPS;                                                                                                 
+MAXFLOW('2040',AAAOPTIFLOW,'CO2_Grid_Out','CO2_FLOW_FOSSIL_CU')=0;                                                                                                   
+MAXFLOW('2050',AAAOPTIFLOW,'CO2_Grid_Out','CO2_FLOW_FOSSIL_CU')=0;                                                                                                   
                                                                                                                                                                      
 *Manure limit                                                                                                                                                        
 MAXFLOW('2035',AAA,'Manure_Gen','MANURE_GEN_FLOW') = MAXFLOW('2030',AAA,'Manure_Gen','MANURE_GEN_FLOW');                                                             
