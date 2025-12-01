@@ -7,5 +7,5 @@ TABLE EMI_POLNA_MARITIME(YYY,EMIPOLSET) 'Sectoral carbon budget for maritime sec
 2035  56865200.0
 2040  31017400.0
 2045  15508700.0
-2050         EPS
+2050     10000.0
 ;
