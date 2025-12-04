@@ -19,4 +19,5 @@ Shipping_Short_Dist_Buffer
 IFUELPRICE_BUFFER                                                      
 RETRO_BUFFER                                                           
 OCC_BUFFER                                                             
+FUEL_RAMP_BUFFER                                                       
 /;                                                                     

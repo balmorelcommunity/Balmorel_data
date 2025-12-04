@@ -207,6 +207,7 @@ EMethanolBuffer
 EMethanolJoin                                                                                                      
 EMethanolSplit                                                                                                     
 EMethanolTotal                                                                                                     
+FUEL_RAMP_BUFFER                                                                                                   
 Gas_Buffer                                                                                                         
 Heat_Bal_to_Opti_Conv                                                                                              
 Heat_grid_tariff                                                                                                   

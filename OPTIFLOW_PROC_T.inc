@@ -367,4 +367,5 @@ Cap_LNG_Tanker_Existing
 IFUELPRICE_BUFFER                                             
 RETRO_BUFFER                                                  
 OCC_BUFFER                                                    
+FUEL_RAMP_BUFFER                                              
 /;                                                            
