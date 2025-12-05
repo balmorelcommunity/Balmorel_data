@@ -197,9 +197,9 @@ E_FT_50                                                    0.26585             1
 ***Ship capacities                                                                                                                           
                                                                                                                                              
 *Existing capacities                                                                                                                         
-Cap_Oil_Old_Existing                                       0.106514956429841   1               2020         15           0                   
-Cap_Oil_Tanker_Existing                                    0.104843629620043   1               2020         15           0                   
-Cap_LNG_Tanker_Existing                                    0.1753609105406     1               2020         15           0                   
+Cap_Oil_Old_Existing                                       0                   1               2020         10           4200                
+Cap_Oil_Tanker_Existing                                    0                   1               2020         13           4100                
+Cap_LNG_Tanker_Existing                                    0                   1               2020         15           12200               
                                                                                                                                              
 *New capacities                                                                                                                              
 Cap_Oil_ICE_Old                                            0.165658930743382   1               2020         30           4200                
@@ -240,7 +240,6 @@ Cap_Hydrogen_ICE_Short                                     0.276835252858753   1
 Cap_Hydrogen_FC_Medium                                     0.388000074318983   1               2020         15           23000               
 Cap_Hydrogen_FC_Short                                      0.419895971170881   1               2020         15           25100               
 Cap_Electricity_Short                                      0.245933953400977   1               2020         15           7600                
-                                                                                                                                             
 ;                                                                                                                                            
                                                                                                                                              
 PROCDATA(PROC,'PROCINVCOST')=PROCDATA(PROC,'PROCINVCOST');                                                                                   
