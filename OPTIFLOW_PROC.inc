@@ -70,6 +70,8 @@ BioJetBuffer
 Biomass_for_use                                                                                                    
 Biooil_Buffer                                                                                                      
 Biooil_Eff                                                                                                         
+Biooil_Eff_OCC                                                                                                     
+Biooil_OCC_Ship_Split                                                                                              
 Biooil_Ship_Split                                                                                                  
 Cap_Ammonia_FC_Long                                                                                                
 Cap_Ammonia_FC_Medium                                                                                              
@@ -133,6 +135,7 @@ CO2_Fossil
 CO2_Grid                                                                                                           
 CO2_Grid_In                                                                                                        
 CO2_Grid_Out                                                                                                       
+CO2_Neg_Sink                                                                                                       
 CO2_Port_Handling                                                                                                  
 CO2_Seq                                                                                                            
 CO2_Seq_Off_20                                                                                                     
@@ -169,8 +172,10 @@ E_FT_50
 E_FT_Diesel_Eff                                                                                                    
 E_FT_Diesel_Ship_Split                                                                                             
 E_FT_DieselBuffer                                                                                                  
+E_FT_Eff_OCC                                                                                                       
 E_FT_Jet_Eff                                                                                                       
 E_FT_JetBuffer                                                                                                     
+E_FT_OCC_Ship_Split                                                                                                
 E_FT_Sum                                                                                                           
 EL_Bal_to_Opti_Conv                                                                                                
 EL_grid_tariff                                                                                                     
@@ -254,6 +259,8 @@ IFUELPRICE_BUFFER
 Kerosene_Source                                                                                                    
 LBG_Buffer                                                                                                         
 LBG_Eff                                                                                                            
+LBG_Eff_OCC                                                                                                        
+LBG_OCC_Ship_Split                                                                                                 
 LBG_Ship_Split                                                                                                     
 LNG_Eff                                                                                                            
 LNG_Eff_OCC                                                                                                        

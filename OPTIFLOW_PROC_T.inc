@@ -368,4 +368,11 @@ IFUELPRICE_BUFFER
 RETRO_BUFFER                                                  
 OCC_BUFFER                                                    
 FUEL_RAMP_BUFFER                                              
+Biooil_Eff_OCC                                                
+E_FT_Eff_OCC                                                  
+Biooil_OCC_Ship_Split                                         
+E_FT_OCC_Ship_Split                                           
+LBG_Eff_OCC                                                   
+LBG_OCC_Ship_Split                                            
+CO2_Neg_Sink                                                  
 /;                                                            

@@ -39,6 +39,12 @@ BIOMASS_TG
 BIOOIL_FLOW                                                                                                        
 BIOOIL_FLOW_LONG                                                                                                   
 BIOOIL_FLOW_MEDIUM                                                                                                 
+BIOOIL_FLOW_OCC                                                                                                    
+BIOOIL_FLOW_OCC_LONG                                                                                               
+BIOOIL_FLOW_OCC_MEDIUM                                                                                             
+BIOOIL_FLOW_OCC_OIL                                                                                                
+BIOOIL_FLOW_OCC_SHORT                                                                                              
+BIOOIL_FLOW_OCC_TANKER                                                                                             
 BIOOIL_FLOW_OIL                                                                                                    
 BIOOIL_FLOW_SHORT                                                                                                  
 BIOOIL_FLOW_TANKER                                                                                                 
@@ -72,6 +78,7 @@ CO2_FLOW_SEQ_ON
 CO2_FLOW_STO                                                                                                       
 CO2_FLOW_STO_CU                                                                                                    
 CO2_FLOW_STO_SEQ                                                                                                   
+CO2_OCC_NEG                                                                                                        
 CO2_OCC_OFF_PIPE                                                                                                   
 CO2_OCC_OFF_SHIP                                                                                                   
 CO2_OCC_SEQ                                                                                                        
@@ -84,6 +91,12 @@ DIESEL_FLOW
 E_FT_DIESEL_FLOW                                                                                                   
 E_FT_DIESEL_FLOW_LONG                                                                                              
 E_FT_DIESEL_FLOW_MEDIUM                                                                                            
+E_FT_DIESEL_FLOW_OCC                                                                                               
+E_FT_DIESEL_FLOW_OCC_LONG                                                                                          
+E_FT_DIESEL_FLOW_OCC_MEDIUM                                                                                        
+E_FT_DIESEL_FLOW_OCC_OIL                                                                                           
+E_FT_DIESEL_FLOW_OCC_SHORT                                                                                         
+E_FT_DIESEL_FLOW_OCC_TANKER                                                                                        
 E_FT_DIESEL_FLOW_OIL                                                                                               
 E_FT_DIESEL_FLOW_SHORT                                                                                             
 E_FT_DIESEL_FLOW_TANKER                                                                                            
@@ -130,6 +143,11 @@ KEROSENE_FLOW
 LBG_FLOW                                                                                                           
 LBG_FLOW_LONG                                                                                                      
 LBG_FLOW_MEDIUM                                                                                                    
+LBG_FLOW_OCC                                                                                                       
+LBG_FLOW_OCC_LONG                                                                                                  
+LBG_FLOW_OCC_MEDIUM                                                                                                
+LBG_FLOW_OCC_SHORT                                                                                                 
+LBG_FLOW_OCC_TANKER                                                                                                
 LBG_FLOW_SHORT                                                                                                     
 LBG_FLOW_TANKER                                                                                                    
 LNG_FLOW                                                                                                           
