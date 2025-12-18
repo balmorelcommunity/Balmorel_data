@@ -1,23 +1,8 @@
 SET PROCBUFFER(PROC) "Buffer processes (trace entering and/or leaving)"
 /                                                                      
-AirBuffer                                                              
-CO2_Seq_On_Buffer                                                      
-CO2_Seq_Off_Buffer                                                     
 ElecBuffer                                                             
 HeatBuffer                                                             
-Money_buffer_T                                                         
-RoadBuffer                                                             
 GHG_Buffer                                                             
 GHGbio_Buffer                                                          
 Gas_Buffer                                                             
-CO2_Biochar_Buffer                                                     
-Shipping_Long_Dist_Buffer                                              
-Shipping_Medium_Dist_Buffer                                            
-Shipping_Oil_Only_Buffer                                               
-Shipping_Tanker_Buffer                                                 
-Shipping_Short_Dist_Buffer                                             
-IFUELPRICE_BUFFER                                                      
-RETRO_BUFFER                                                           
-OCC_BUFFER                                                             
-FUEL_RAMP_BUFFER                                                       
 /;                                                                     
