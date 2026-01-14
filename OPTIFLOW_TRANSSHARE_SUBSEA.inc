@@ -1,5 +1,5 @@
 *Underwater-length share matrix for CO2 pipelines
-TABLE   TRANSSHARE(PROC,IAAAE,IAAAI)
+TABLE   OPTIFLOW_TRANSSHARE_SUBSEA(PROC,IAAAE,IAAAI)
                                      BE_A   DE4-E_A   DE4-N_A  DE4-S_A  DE4-W_A   DK011_A   DK012_A  DK013_A   DK014_A   DK021_A   DK022_A   DK031_A   DK032_A   DK041_A   DK042_A   DK050_A      EE_A  FI193_A  FI194_A  FI195_A   FI196_A  FI197_A   FI1B1_A   FI1C1_A  FI1C2_A  FI1C3_A  FI1C4_A  FI1C5_A  FI1D1_A  FI1D2_A  FI1D3_A  FI1D4_A   FI1D5_A   FI1D6_A  FI1D7_A   FI200_A      LT_A     LV_A      NL_A  NO020_A  NO060_A   NO071_A   NO072_A  NO073_A  NO081_A  NO083_A  NO084_A  NO085_A   NO092_A  NO093_A  NO094_A   NO0A1_A   NO0A2_A   NO0A3_A      PL_A   SE110_A   SE121_A   SE122_A   SE123_A  SE124_A  SE125_A   SE211_A  SE212_A   SE213_A   SE214_A  SE221_A   SE224_A   SE231_A  SE232_A  SE311_A  SE312_A   SE313_A  SE321_A  SE322_A   SE331_A   SE332_A   UK_GB_A   UK_NI_A
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 ProcExim_Pipeline_CO2 . BE_A     0.000000  0.000000  0.000000      0.0      0.0  0.000000  0.000000      0.0  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000      0.0      0.0  0.00000  0.000000      0.0  0.000000  0.000000      0.0      0.0  0.00000      0.0      0.0      0.0      0.0      0.0  0.000000  0.000000      0.0  0.000000  0.000000  0.00000  0.000000  0.00000  0.00000  0.000000  0.000000      0.0      0.0  0.00000      0.0  0.00000  0.000000  0.00000      0.0  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000      0.0      0.0  0.000000      0.0  0.000000  0.000000  0.00000  0.000000  0.000000  0.00000      0.0      0.0  0.000000  0.00000      0.0  0.000000  0.000000  0.283952  0.000000
@@ -82,15 +82,15 @@ ProcExim_Pipeline_CO2 . UK_GB_A  0.283952  0.000000  0.000000      0.0      0.0 
 ProcExim_Pipeline_CO2 . UK_NI_A  0.000000  0.000000  0.000000      0.0      0.0  0.000000  0.000000      0.0  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000      0.0      0.0  0.00000  0.000000      0.0  0.000000  0.000000      0.0      0.0  0.00000      0.0      0.0      0.0      0.0      0.0  0.000000  0.000000      0.0  0.000000  0.000000  0.00000  0.000000  0.00000  0.00000  0.000000  0.000000      0.0      0.0  0.00000      0.0  0.00000  0.000000  0.00000      0.0  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000      0.0      0.0  0.000000      0.0  0.000000  0.000000  0.00000  0.000000  0.000000  0.00000      0.0      0.0  0.000000  0.00000      0.0  0.000000  0.000000  0.600978  0.000000
 ;
 
-TRANSSHARE('ProcExim_Pipeline_CO2', 'GR_A', 'GR_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'HR_A', 'HR_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'IE_A', 'IE_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'ITF_A', 'ITF_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'ITH_A', 'ITH_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'LT_A', 'LT_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'NO092_A', 'NO092_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'NO0A1_A', 'NO0A1_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'NO0A2_A', 'NO0A2_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'PT_A', 'PT_OFF_A') = 1;
-TRANSSHARE('ProcExim_Pipeline_CO2', 'UK_GB_A', 'UK_GB_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'GR_A', 'GR_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'HR_A', 'HR_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'IE_A', 'IE_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'ITF_A', 'ITF_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'ITH_A', 'ITH_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'LT_A', 'LT_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'NO092_A', 'NO092_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'NO0A1_A', 'NO0A1_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'NO0A2_A', 'NO0A2_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'PT_A', 'PT_OFF_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('ProcExim_Pipeline_CO2', 'UK_GB_A', 'UK_GB_OFF_A') = 1;
 
