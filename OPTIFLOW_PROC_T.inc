@@ -375,4 +375,5 @@ E_FT_OCC_Ship_Split
 LBG_Eff_OCC                                                   
 LBG_OCC_Ship_Split                                            
 CO2_Neg_Sink                                                  
+Kerosene_Eff                                                  
 /;                                                            

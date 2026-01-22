@@ -2,6 +2,7 @@ SET FLOW "Flows of the network"
 /                                                                                                                  
 * NB: for debugging, print and ailing memory nice to have FLOW elements in UPPERCASE og Proc elements in CamelCase.
                                                                                                                    
+*EME_JET_FLOW                                                                                                      
 AIRFLOW                                                                                                            
 AMMONIA_FLOW                                                                                                       
 AMMONIA_FLOW_FC                                                                                                    

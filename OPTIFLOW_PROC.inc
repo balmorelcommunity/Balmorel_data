@@ -2,6 +2,8 @@ SET PROC "All 'transformations' that we use"
 /                                                                                                                  
 * NB: for debugging, print and ailing memory nice to have FLOW elements in UPPERCASE og Proc elements in CamelCase.
                                                                                                                    
+*Air_fuels_sum                                                                                                     
+*EME_Jet_Eff                                                                                                       
 Air_fuels_sum                                                                                                      
 Air_Separation                                                                                                     
 AirBuffer                                                                                                          
@@ -256,6 +258,7 @@ Hydrogen_STO_Small_50
 Hydrogen_Use                                                                                                       
 HydrogenSource_MWh                                                                                                 
 IFUELPRICE_BUFFER                                                                                                  
+Kerosene_Eff                                                                                                       
 Kerosene_Source                                                                                                    
 LBG_Buffer                                                                                                         
 LBG_Eff                                                                                                            
