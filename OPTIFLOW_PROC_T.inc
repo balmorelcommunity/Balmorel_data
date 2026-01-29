@@ -132,11 +132,12 @@ HeatBuffer_GJ
 Hydrogen                                                      
 Hydrogen_After_STO_Large                                      
 Hydrogen_After_STO_Small                                      
-Hydrogen_Bal_to_Opti_Conv                                     
+*Hydrogen_Bal_to_Opti_Conv                                    
 Hydrogen_Before_Use                                           
 Hydrogen_Grid_IN                                              
 Hydrogen_Grid_OUT                                             
-Hydrogen_grid_tariff                                                                          
+Hydrogen_grid_tariff                                          
+*Hydrogen_Opti_to_Bal_Conv                                    
 Hydrogen_STO_Large_20                                         
 Hydrogen_STO_Large_25                                         
 Hydrogen_STO_Large_30                                         
@@ -151,7 +152,8 @@ Hydrogen_STO_Small_35
 Hydrogen_STO_Small_40                                         
 Hydrogen_STO_Small_45                                         
 Hydrogen_STO_Small_50                                         
-Hydrogen_Use                                                                                          
+Hydrogen_Use                                                  
+*HydrogenBuffer_MWh                                           
 HydrogenSource_MWh                                            
 KeroseneSource                                                
 MDOSource                                                     
@@ -246,4 +248,10 @@ CO2_Biochar_Buffer
 Biooil_Eff                                                    
 CO2_Pipeline                                                  
 Solid_Biomass                                                 
+OCC                                                           
+OCC_30                                                        
+OCC_35                                                        
+OCC_40                                                        
+OCC_45                                                        
+OCC_50                                                        
 /;                                                            

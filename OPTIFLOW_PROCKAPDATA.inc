@@ -18,6 +18,17 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    CO2_Pipeline             .    CO2_FLOW_FOSSIL         .    IFLOWINOUT_SYM_INV
 2020                                                                                                            .    CO2_Pipeline             .    CO2_FLOW_BIOGAS         .    IFLOWINOUT_SYM_INV
                                                                                                                                                                                                   
+$ifi not %optiOCC%==yes $goto NO_OCC_MDO                                                                                                                                                          
+2020                                                                                                            .    OCC_30                   .    OCC_FLOW                .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_35                   .    OCC_FLOW                .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_40                   .    OCC_FLOW                .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_45                   .    OCC_FLOW                .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_50                   .    OCC_FLOW                .    IFLOWINOUT_IN     
+                                                                                                                                                                                                  
+2020                                                                                                            .    CO2_Pipeline             .    CO2_FLOW_OCC            .    IFLOWINOUT_SYM_INV
+                                                                                                                                                                                                  
+$label NO_OCC_MDO                                                                                                                                                                                 
+                                                                                                                                                                                                  
                                                                                                                                                                                                   
 *------------------Sequestration------------------(OBS)                                                                                                                                           
 2020                                                                                                            .    CO2_Seq_On_20            .    CO2_FLOW_SEQ_ON_SUM     .    IFLOWINOUT_OUT    

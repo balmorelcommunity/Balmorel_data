@@ -53,6 +53,11 @@ CO2_FLOW_FOSSIL_DIR
 CO2_FLOW_FOSSIL_SEQ                                                                                                
 CO2_FLOW_FOSSIL_STO                                                                                                
 CO2_FLOW_FT                                                                                                        
+CO2_FLOW_OCC                                                                                                       
+CO2_FLOW_OCC_CU                                                                                                    
+CO2_FLOW_OCC_DIR                                                                                                   
+CO2_FLOW_OCC_SEQ                                                                                                   
+CO2_FLOW_OCC_STO                                                                                                   
 CO2_FLOW_SEQ                                                                                                       
 CO2_FLOW_SEQ_OFF                                                                                                   
 CO2_FLOW_SEQ_OFF_SUM                                                                                               
@@ -106,6 +111,7 @@ MDOFLOW
 METHANOLFLOW                                                                                                       
 METHANOLFLOW_EXP                                                                                                   
 NITROGEN_FLOW                                                                                                      
+OCC_FLOW                                                                                                           
 OPERATIONCOST                                                                                                      
 ROADFLOW                                                                                                           
 SEAFLOW                                                                                                            

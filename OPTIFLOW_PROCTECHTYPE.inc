@@ -10,6 +10,11 @@ CO2_DAC_45                        .    CO2_DAC
 CO2_DAC_50                        .    CO2_DAC              
 CO2_Accumulator                   .    CO2_Accumulator      
 CO2_Pipeline                      .    CO2_Pipeline         
+OCC_30                            .    OCC                  
+OCC_35                            .    OCC                  
+OCC_40                            .    OCC                  
+OCC_45                            .    OCC                  
+OCC_50                            .    OCC                  
 CO2_Seq_On_20                     .    CO2_Seq_On           
 CO2_Seq_On_25                     .    CO2_Seq_On           
 CO2_Seq_On_30                     .    CO2_Seq_On           

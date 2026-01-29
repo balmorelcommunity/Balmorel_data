@@ -4,6 +4,7 @@ SET TECH_GROUP "Technology Groups"
 CO2_DAC                           
 CO2_Accumulator                   
 CO2_Pipeline                      
+OCC                               
 CO2_Seq_On                        
 CO2_Seq_Off                       
 Manure_Tank                       
