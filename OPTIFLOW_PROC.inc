@@ -216,10 +216,16 @@ OCC_35
 OCC_40                                                                                                             
 OCC_45                                                                                                             
 OCC_50                                                                                                             
-ProcEximShip                                                                                                       
-ProcEximShip_CO2                                                                                                   
-ProcEximTruck                                                                                                      
-ProcEximTruck_CO2                                                                                                  
+ProcExim_Ship_Ammonia                                                                                              
+ProcExim_Ship_CO2                                                                                                  
+ProcExim_Ship_LHC                                                                                                  
+ProcExim_Ship_Methanol                                                                                             
+ProcExim_Truck_Ammonia                                                                                             
+ProcExim_Truck_CO2                                                                                                 
+ProcExim_Truck_LHC                                                                                                 
+ProcExim_Truck_Methanol                                                                                            
+ProcExim_Truck_Straw                                                                                               
+ProcExim_Truck_Wood                                                                                                
 Pyrolysis_Straw_25                                                                                                 
 Pyrolysis_Straw_30                                                                                                 
 Pyrolysis_Straw_35                                                                                                 
@@ -241,6 +247,7 @@ Straw_Tank_35
 Straw_Tank_40                                                                                                      
 Straw_Tank_45                                                                                                      
 Straw_Tank_50                                                                                                      
+Straw_Transport                                                                                                    
 Tar                                                                                                                
 TG_20                                                                                                              
 TG_25                                                                                                              
@@ -252,6 +259,8 @@ TG_50
 Wet_Biomass                                                                                                        
 Wet_Biomass_Biogas                                                                                                 
 Wood_Gen                                                                                                           
+Wood_Split                                                                                                         
+Wood_Transport                                                                                                     
 GHG_Buffer                                                                                                         
 GHGbio_Buffer                                                                                                      
 /;                                                                                                                 

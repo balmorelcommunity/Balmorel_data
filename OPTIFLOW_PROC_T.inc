@@ -171,10 +171,10 @@ MethanolBuffer_Exp
 MethanolTotal                                                 
 Money_buffer_T                                                
 Air_Separation                                                
-ProcEximShip                                                  
-ProcEximTruck                                                 
-ProcEximTruck_CO2                                             
-ProcEximShip_CO2                                              
+ProcExim_Ship_LHC                                             
+ProcExim_Truck_LHC                                            
+ProcExim_Truck_CO2                                            
+ProcExim_Ship_CO2                                             
 Road_fuels_sum                                                
 RoadBuffer                                                    
 Sea_fuels_sum                                                 
@@ -254,4 +254,12 @@ OCC_35
 OCC_40                                                        
 OCC_45                                                        
 OCC_50                                                        
+ProcExim_Truck_Straw                                          
+Straw_Transport                                               
+ProcExim_Truck_Wood                                           
+Wood_Transport                                                
+ProcExim_Truck_Ammonia                                        
+ProcExim_Ship_Ammonia                                         
+ProcExim_Truck_Methanol                                       
+ProcExim_Ship_Methanol                                        
 /;                                                            
