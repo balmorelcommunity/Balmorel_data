@@ -7,6 +7,7 @@ DieselSource
 HydrogenSource_MWh                                   
 KeroseneSource                                       
 MDOSource                                            
+LNGSource                                            
 Straw_Gen                                            
 Wood_Gen                                             
 Manure_Gen                                           

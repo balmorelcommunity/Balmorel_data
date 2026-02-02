@@ -262,4 +262,12 @@ ProcExim_Truck_Ammonia
 ProcExim_Ship_Ammonia                                         
 ProcExim_Truck_Methanol                                       
 ProcExim_Ship_Methanol                                        
+LNGSource                                                     
+Methanol_synthesis_biogas_20                                  
+Methanol_synthesis_biogas_25                                  
+Methanol_synthesis_biogas_30                                  
+Methanol_synthesis_biogas_35                                  
+Methanol_synthesis_biogas_40                                  
+Methanol_synthesis_biogas_45                                  
+Methanol_synthesis_biogas_50                                  
 /;                                                            

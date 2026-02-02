@@ -106,6 +106,7 @@ HYDROGEN_FLOW_ST_Small
 HYDROGEN_FLOW_USE                                                                                                  
 HYDROGENFLOW_MWh                                                                                                   
 KEROSENEFLOW                                                                                                       
+LNGFLOW                                                                                                            
 MANURE_GEN_FLOW                                                                                                    
 MDOFLOW                                                                                                            
 METHANOLFLOW                                                                                                       

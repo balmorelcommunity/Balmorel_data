@@ -181,6 +181,7 @@ Hydrogen_STO_Small_50
 Hydrogen_Use                                                                                                       
 HydrogenSource_MWh                                                                                                 
 KeroseneSource                                                                                                     
+LNGSource                                                                                                          
 Manure_Gen                                                                                                         
 Manure_Tank_20                                                                                                     
 Manure_Tank_25                                                                                                     
@@ -199,6 +200,13 @@ Methanation_45
 Methanation_50                                                                                                     
 Methanol_Eff                                                                                                       
 Methanol_Sum                                                                                                       
+Methanol_synthesis_biogas_20                                                                                       
+Methanol_synthesis_biogas_25                                                                                       
+Methanol_synthesis_biogas_30                                                                                       
+Methanol_synthesis_biogas_35                                                                                       
+Methanol_synthesis_biogas_40                                                                                       
+Methanol_synthesis_biogas_45                                                                                       
+Methanol_synthesis_biogas_50                                                                                       
 Methanol_synthesis_TG_20                                                                                           
 Methanol_synthesis_TG_25                                                                                           
 Methanol_synthesis_TG_30                                                                                           

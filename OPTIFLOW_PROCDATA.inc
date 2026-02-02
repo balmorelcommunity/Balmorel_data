@@ -7,21 +7,21 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
 CO2_Pipeline                                               0.143               1               2020         50           20                 
                                                                                                                                             
 ***CO2 DAC                                                                                                                                  
-CO2_DAC_20                                                 5.26                1               2020         30           298000             
-CO2_DAC_25                                                 5.26                1               2025         30           298000             
-CO2_DAC_30                                                 5.26                1               2030         30           298000             
-CO2_DAC_35                                                 5.26                1               2035         30           298000             
-CO2_DAC_40                                                 5.26                1               2040         30           298000             
-CO2_DAC_45                                                 5.26                1               2045         30           298000             
-CO2_DAC_50                                                 5.26                1               2050         30           298000             
+CO2_DAC_20                                                 5.26                1               2020         30           210400             
+CO2_DAC_25                                                 5.26                1               2025         30           210400             
+CO2_DAC_30                                                 5.26                1               2030         30           210400             
+CO2_DAC_35                                                 5.26                1               2035         30           210400             
+CO2_DAC_40                                                 5.26                1               2040         30           210400             
+CO2_DAC_45                                                 5.26                1               2045         30           210400             
+CO2_DAC_50                                                 5.26                1               2050         30           210400             
                                                                                                                                             
 ***OCC                                                                                                                                      
 $ifi not %optiOCC%==yes $goto NO_OCC_MDO                                                                                                    
-OCC_30                                                     0.0675              1               2030         25           2430               
-OCC_35                                                     0.0675              1               2035         25           2430               
-OCC_40                                                     0.0675              1               2040         25           2430               
-OCC_45                                                     0.0675              1               2045         25           2430               
-OCC_50                                                     0.0675              1               2050         25           2430               
+OCC_30                                                     0.0605              1               2030         25           2420               
+OCC_35                                                     0.0605              1               2035         25           2420               
+OCC_40                                                     0.0605              1               2040         25           2420               
+OCC_45                                                     0.0605              1               2045         25           2420               
+OCC_50                                                     0.0605              1               2050         25           2420               
 $label NO_OCC_MDO                                                                                                                           
                                                                                                                                             
 ***CO2 Sequestration Onshore                                                                                                                
@@ -124,6 +124,14 @@ Methanol_synthesis_TG_35                                   0.744725844947364   1
 Methanol_synthesis_TG_40                                   0.626582491582491   1               2040         30           11330.6056344031   
 Methanol_synthesis_TG_45                                   0.529008545369305   1               2045         30           11417.7641392831   
 Methanol_synthesis_TG_50                                   0.431434599156118   1               2050         30           11504.9226441631   
+                                                                                                                                            
+Methanol_synthesis_biogas_20                               0.79587925556638    1               2020         30           31835              
+Methanol_synthesis_biogas_25                               0.79587925556638    1               2025         30           31835              
+Methanol_synthesis_biogas_30                               0.636703404453104   1               2030         30           25470              
+Methanol_synthesis_biogas_35                               0.622775517480692   1               2035         30           24910              
+Methanol_synthesis_biogas_40                               0.60884763050828    1               2040         30           24355              
+Methanol_synthesis_biogas_45                               0.60884763050828    1               2045         30           24355              
+Methanol_synthesis_biogas_50                               0.60884763050828    1               2050         30           24355              
                                                                                                                                             
 EMethanol_synthesis_20                                     0.373869346733668   1               2020         30           11215              
 EMethanol_synthesis_25                                     0.373869346733668   1               2025         30           11215              
