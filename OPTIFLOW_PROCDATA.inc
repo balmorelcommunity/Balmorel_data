@@ -7,13 +7,13 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
 ProcExim_Pipeline_CO2                                      0.143               1               2020         50           20                  
                                                                                                                                              
 ***CO2 DAC                                                                                                                                   
-CO2_DAC_20                                                 6.5                 1               2020         30           260000              
-CO2_DAC_25                                                 4.8                 1               2025         30           192000              
-CO2_DAC_30                                                 3                   1               2030         30           120000              
-CO2_DAC_35                                                 2.85                1               2035         30           114000              
-CO2_DAC_40                                                 2.69                1               2040         30           107600              
-CO2_DAC_45                                                 2.55                1               2045         30           102000              
-CO2_DAC_50                                                 2.41                1               2050         30           96400               
+CO2_DAC_20                                                 5.84                1               2020         30           233600              
+CO2_DAC_25                                                 4.4525              1               2025         30           178100              
+CO2_DAC_30                                                 3.065               1               2030         30           122600              
+CO2_DAC_35                                                 2.881               1               2035         30           115240              
+CO2_DAC_40                                                 2.697               1               2040         30           107880              
+CO2_DAC_45                                                 2.5975              1               2045         30           103900              
+CO2_DAC_50                                                 2.498               1               2050         30           99920               
                                                                                                                                              
                                                                                                                                              
 ***CO2 Sequestration                                                                                                                         
@@ -207,19 +207,19 @@ Cap_Oil_ICE_Tanker                                         0.163059575483671   1
 Cap_Oil_ICE_Long                                           0.169119942150338   1               2020         30           4200                
 Cap_Oil_ICE_Medium                                         0.164               1               2020         30           4100                
 Cap_Oil_ICE_Short                                          0.18                1               2020         30           4500                
-Cap_Oil_OCC_Old                                            0.191098324682776   1               2020         30           14400               
-Cap_Oil_OCC_Tanker                                         0.188498969423065   1               2020         30           14300               
-Cap_Oil_OCC_Long                                           0.194559336089731   1               2020         30           14400               
-Cap_Oil_OCC_Medium                                         0.189439393939394   1               2020         30           14300               
-Cap_Oil_OCC_Short                                          0.205439393939394   1               2020         30           14700               
+Cap_Oil_OCC_Old                                            0.233145571613108   1               2020         30           6600                
+Cap_Oil_OCC_Tanker                                         0.230546216353396   1               2020         30           6500                
+Cap_Oil_OCC_Long                                           0.236606583020063   1               2020         30           6600                
+Cap_Oil_OCC_Medium                                         0.231486640869725   1               2020         30           6500                
+Cap_Oil_OCC_Short                                          0.247486640869725   1               2020         30           6900                
 Cap_LNG_ICE_Tanker                                         0.272732599327274   1               2020         30           12200               
 Cap_LNG_ICE_Long                                           0.335067799327274   1               2020         30           15000               
 Cap_LNG_ICE_Medium                                         0.254017264866837   1               2020         30           11300               
 Cap_LNG_ICE_Short                                          0.275680252858753   1               2020         30           12400               
-Cap_LNG_OCC_Tanker                                         0.298171993266668   1               2020         30           22400               
-Cap_LNG_OCC_Long                                           0.360507193266668   1               2020         30           25200               
-Cap_LNG_OCC_Medium                                         0.279456658806231   1               2020         30           21500               
-Cap_LNG_OCC_Short                                          0.301119646798147   1               2020         30           22600               
+Cap_LNG_OCC_Tanker                                         0.333280553998363   1               2020         30           14600               
+Cap_LNG_OCC_Long                                           0.395615753998363   1               2020         30           17400               
+Cap_LNG_OCC_Medium                                         0.314565219537926   1               2020         30           13700               
+Cap_LNG_OCC_Short                                          0.336228207529842   1               2020         30           14800               
 Cap_Methanol_ICE_Long                                      0.191134692621484   1               2020         30           4800                
 Cap_Methanol_ICE_Medium                                    0.18                1               2020         30           4500                
 Cap_Methanol_ICE_Short                                     0.198               1               2020         30           4900                
