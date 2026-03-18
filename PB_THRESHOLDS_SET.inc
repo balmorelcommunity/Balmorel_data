@@ -9,5 +9,5 @@ SOS_ECOTOXICITY_FRESHWATER_sector 'Safe operating space for the carrying capacit
 SOS_PM_sector 'Safe operating space for the carrying capacity particulate matter for the sector in balmorel'
 *SOS_RADIATION_sector 'Safe operating space for the carrying capacity ionising radiation for the sector in balmorel'
 SOS_ACIDIFICATION_sector 'Safe operating space for the carrying capacity acidification for the sector in balmorel'
-*SOS_RESOURCE_sector 'Safe operating space for the carrying capacity resource use, minerals and metals for the sector in balmorel'
+SOS_RESOURCE_sector 'Safe operating space for the carrying capacity resource use, minerals and metals for the sector in balmorel'
 /;

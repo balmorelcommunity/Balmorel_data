@@ -23,7 +23,6 @@ LCA_Eutrophication_freshwater_constr  'Impact on eutrophication freshwater in kg
 LCA_Eutrophication_freshwater_prod_elec  'Impact on eutrophication freshwater in kg P equivalent  for the production of 1 kWh by the generator (kg/kWh)' 
 LCA_Eutrophication_freshwater_prod_heat  'Impact on eutrophication freshwater in kg P equivalent  for the production of 1 MJ by the generator (kg/MJ)'
 
-
 LCA_Ecotoxicity_freshwater_constr  'Impact on Ecotoxicity freshwater in CTU equivalent for the construction of the generator (kg/MW)'      
 LCA_Ecotoxicity_freshwater_prod_elec  'Impact on Ecotoxicity freshwater in CTU equivalent  for the production of 1 kWh by the generator (kg/kWh)' 
 LCA_Ecotoxicity_freshwater_prod_heat  'Impact on Ecotoxicity freshwater in CTU equivalent  for the production of 1 MJ by the generator (kg/MJ)'
