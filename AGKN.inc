@@ -763,3 +763,113 @@ AGKN(AAA,G)=YES$ALLOWEDINV(AAA,G);
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 *By default low wind turbines are not allowed for investments (uncertain cost)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 *By default high hub height wind turbines are not allowed for investments (uncertain acceptance)                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG1_Y-2020')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG1_Y-2030')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG1_Y-2040')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG1_Y-2050')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG2_Y-2020')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG2_Y-2030')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG2_Y-2040')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG2_Y-2050')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG3_Y-2020')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG3_Y-2030')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG3_Y-2040')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+AGKN(AAA,'GNR_WT-SP198-HH150_ONS_LS_L-RG3_Y-2050')=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+
+* EDIT PB_Theo_Balanza_MT_2024
+*Biomass condensing plants : investement not allowed
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-16_SS-20-MW-FEED_Y-2050')=0;
+
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_LS-600-MW-FEED_Y-2050')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_WOODCHI_CND_E-29_MS-80-MW-FEED_Y-2050')=0;
+
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-17_SS-20-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-17_SS-20-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-17_SS-20-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-17_SS-20-MW-FEED_Y-2050')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-30')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-30_MS-80-MW-FEED_Y-2050')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_WOODPEL_CND_E-33_LS-800-MW-FEED_Y-2050')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-17_SS-20-MW-FEED_Y-2050')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-25')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-25_MS-80-MW-FEED_Y-2050')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2020')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2030')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2040')=0;
+*AGKN(AAA, 'GNR_ST_STRW_CND_E-31_LS-132-MW-FEED_Y-2050')=0;
+
+
+*Pit Thermal energy storage : investement not allowed
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-CEN_E-70')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-CEN_E-70_Y-2020')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-CEN_E-70_Y-2030')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-CEN_E-70_Y-2040')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-CEN_E-70_Y-2050')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-DEC_E-70_Y-2020')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-DEC_E-70_Y-2030')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-DEC_E-70_Y-2040')=0;
+AGKN(AAA, 'GNR_HS_HEAT_PIT_L-DEC_E-70_Y-2050')=0;
+
+
+
+*Peat and shale : investement not allowed
+AGKN(AAA,'GNR_ST_PEAT_BP_CB-10 ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_CB-120')=0 ;
+AGKN(AAA,'GNR_ST_PEAT_BP_CB-20 ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_CB-30 ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_CB-40 ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_CB-50  ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2020')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2030 ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2040')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_E-16_SS-20-MW-FEED_Y-2050 ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_E-29_MS-80-MW-FEED_Y-2020')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_E-29_MS-80-MW-FEED_Y-2040 ')=0;
+AGKN(AAA,'GNR_ST_PEAT_BP_E-29_MS-80-MW-FEED_Y-2050 ')=0;
+AGKN(AAA,'GNR_ST_SHALE ')=0;
+
+
+AGKN('FR_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('SE3A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('BG_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('CZ_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('FinA','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('HU_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('PL_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('RO_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('SK_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('SI_A','GNR_ST_NUCL_CND_E-33') = YES;
+AGKN('UK_A','GNR_ST_NUCL_CND_E-33') = YES;
+
+AGKN(AAA,'GNR_RES_WTR_PMP_E-80_Y-2020')=0;
+AGKN(AAA,'GNR_RES_WTR_PMP_MC-01')=0;
+
+
+
+*CCS Municipal waste Théo
+$ifi %CCS%==yes AGKN(AAA,'GNR_ST_MSWCCS_CND_E-23_LS-220-MW-FEED_Y-2020') = YES;                                                                                                                                                                                                                                                                                                  
+$ifi %CCS%==yes AGKN(AAA,'GNR_ST_MSWCCS_CND_E-24_LS-220-MW-FEED_Y-2030') = YES;                                                                                                                                                                                                                                                                                                    
+$ifi %CCS%==yes AGKN(AAA,'GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2040') = YES;                                                                                                                                                                                                                                                                                                    
+$ifi %CCS%==yes AGKN(AAA,'GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2050') = YES;

@@ -53,7 +53,19 @@ GNR_IND-BO_NGASCCS_E-96_MS-20-MW_Y-2050                                         
 GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020                                                                                                                                          0.371  
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020                                                                                                                                          0.371  
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020                                                                                                                                             0.371  
-$ifi %HYDROGEN%==yes GNR_STEAM-REFORMING-CCS_E-70_Y-2020                                                                                                                          0.371  
+GNR_ST_MSWCCS_CND_E-23_LS-220-MW-FEED_Y-2020                                                                                                                                      0.371
+GNR_ST_MSWCCS_CND_E-23_MS-80-MW-FEED_Y-2020                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-23_SS-35-MW-FEED_Y-2020                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-24_LS-220-MW-FEED_Y-2030                                                                                                                                      0.371
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2030                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2040                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2050                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2030                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2040                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2050                                                                                                                                       0.371
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2040                                                                                                                                      0.371
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2050                                                                                                                                      0.371  
+$ifi %HYDROGEN%==yes GNR_STEAM-REFORMING-CCS_E-70_Y-2020                                                                                                                          0.371                                                                                                                         0.371  
 GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2020                                                                                                                                      0.371  
 GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2030                                                                                                                                      0.371  
 GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2040                                                                                                                                      0.371  

@@ -24,4 +24,6 @@ WINDTURBINE_OFFSHORE
 BACKUP_ELECTRICITY                            
 BACKUP_HEAT                                   
 /;                                            
-                                              
+
+$if     EXIST '../data/HYDROGEN_TECH_GROUP.inc ' $INCLUDE      '../data/HYDROGEN_TECH_GROUP.inc ';
+$if not EXIST '../data/HYDROGEN_TECH_GROUP.inc ' $INCLUDE      '../../base/data/HYDROGEN_TECH_GROUP.inc ';

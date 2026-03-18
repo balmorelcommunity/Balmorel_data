@@ -994,7 +994,20 @@ ZERA-8_ST_COAL_EXT
 ZIEL-1_ST_NGAS_BP                             
 ZIEL-2_ST_COAL_BP                             
 ZIEL-3_ST_NGAS_BP                             
-ZIEL-4_ST_COAL_BP                             
+ZIEL-4_ST_COAL_BP
+GNR_ST_MSWCCS_CND_E-23_LS-220-MW-FEED_Y-2020        
+GNR_ST_MSWCCS_CND_E-23_MS-80-MW-FEED_Y-2020         
+GNR_ST_MSWCCS_CND_E-23_SS-35-MW-FEED_Y-2020         
+GNR_ST_MSWCCS_CND_E-24_LS-220-MW-FEED_Y-2030        
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2030         
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2040         
+GNR_ST_MSWCCS_CND_E-24_MS-80-MW-FEED_Y-2050         
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2030         
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2040         
+GNR_ST_MSWCCS_CND_E-24_SS-35-MW-FEED_Y-2050         
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2040        
+GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2050                             
+                                                                
 
 * Solar and wind onshore and offshore 
 GNR_WT_WIND_ONS_Existing_RG1
