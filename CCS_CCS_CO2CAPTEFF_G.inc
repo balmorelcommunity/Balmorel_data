@@ -66,8 +66,40 @@ GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2040                           0.9
 GNR_ST_MSWCCS_CND_E-25_LS-220-MW-FEED_Y-2050                           0.9                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 $ifi %HYDROGEN%==yes GNR_STEAM-REFORMING-CCS_E-70_Y-2020               0.9  
 
-
-
+GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2020                           0.9            
+GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2030                           0.9            
+GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2040                           0.9
+GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2050                           0.9
+GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2020                          0.9
+GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2030                          0.9           
+GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2040                          0.9           
+GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2050                          0.9           
+GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2020                        0.9         
+GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2030                        0.9         
+GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2040                        0.9         
+GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2050                        0.9         
+GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2020                       0.9        
+GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2030                       0.9        
+GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2040                       0.9        
+GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2050                       0.9        
+GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2020                        0.9         
+GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2030                        0.9         
+GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2040                        0.9         
+GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2050                        0.9         
+GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2020                       0.9        
+GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2030                       0.9        
+GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2040                       0.9        
+GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2050                       0.9        
+GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2020                             0.9              
+GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2030                             0.9              
+GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2040                             0.9              
+GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2050                             0.9              
+GNR_IND-BO_BGASCCS_E-93_MS-20-MW_Y-2020                                0.9                 
+GNR_IND-BO_BGASCCS_E-94_MS-20-MW_Y-2030                                0.9                 
+GNR_IND-BO_BGASCCS_E-95_MS-20-MW_Y-2040                                0.9                 
+GNR_IND-BO_BGASCCS_E-96_MS-20-MW_Y-2050                                0.9                 
+GNR_IND-DF_WOODCHICCS_E-100_MS-10-MW_Y-2020                            0.9             
+GNR_IND-DF_BGASCCS_E-100_MS-3-MW_Y-2020                                0.9                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 /;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

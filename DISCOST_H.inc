@@ -13,16 +13,11 @@ DK1_MedSmall                                                      2
 DK2_Small                                                         2   
 DK2_NoDH                                                          2   
 DK1_NoDH                                                          2   
-DK2_Offshore                                                      2   
-DK1_Offshore                                                      2   
 FinA                                                              2   
 DE4-E_A                                                           2   
-DE4-E_Offshore                                                    2   
 DE4-N_A                                                           2   
-DE4-N_Offshore                                                    2   
 DE4-S_A                                                           2   
 DE4-W_A                                                           2   
-DE4-W_Offshore                                                    2   
 EE_Enefit                                                         2   
 EE_Kohtla_Jarve                                                   2   
 EE_Narva                                                          2   
@@ -46,7 +41,6 @@ NL_A                                                              2
 PL_A                                                              2   
 PL_Rural                                                          2   
 UK_A                                                              2   
-UK_Offshore                                                       2   
 SE1A                                                              2   
 SE2A                                                              2   
 SE3A                                                              2   
@@ -55,38 +49,26 @@ IT_A                                                              2
 CH_A                                                              2   
 AT_A                                                              2   
 CZ_A                                                              2   
-IT_Offshore                                                       2   
 ES_A                                                              2   
 PT_A                                                              2   
-ES_Offshore                                                       2   
-PT_Offshore                                                       2   
 SK_A                                                              2   
 HU_A                                                              2   
 SI_A                                                              2   
 HR_A                                                              2   
-HR_Offshore                                                       2   
 RO_A                                                              2   
-RO_Offshore                                                       2   
 BG_A                                                              2   
-BG_Offshore                                                       2   
 GR_A                                                              2   
-GR_Offshore                                                       2   
 IE_A                                                              2   
-IE_Offshore                                                       2   
 LU_A                                                              2   
 AL_A                                                              2   
-AL_Offshore                                                       2   
 ME_A                                                              2   
-ME_Offshore                                                       2   
 MK_A                                                              2   
 BA_A                                                              2   
 RS_A                                                              2   
 TR_A                                                              2   
 MT_A                                                              2   
-CY_A                                                              2   
-TR_Offshore                                                       2   
-MT_Offshore                                                       2   
-CY_Offshore                                                       2   
-                                                                      
-                                                                      
+CY_A                                                              2                                                                                                                              
 /;                                                                    
+
+$if     EXIST '../data/DISCOST_H_renewable.inc ' $INCLUDE      '../data/DISCOST_H_renewable.inc'; 
+$if not EXIST '../data/DISCOST_H_renewable.inc ' $INCLUDE      '../../base/data/DISCOST_H_renewable.inc'; 

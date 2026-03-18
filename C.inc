@@ -35,5 +35,6 @@ BOSNIA_AND_HERZEGOVINA
 SERBIA                                       
 *TURKEY                                       
 MALTA                                        
-CYPRUS                                       
+CYPRUS
+                                
 /;                                           
