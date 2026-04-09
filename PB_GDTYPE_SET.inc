@@ -26,4 +26,9 @@ GBPR
 GEXT
 GHSTO
 GHYRR
+
+*$ifi not %EV%==yes $goto Not_EV
+CAR_EV_ONLY_BATTERY
+CAR_EV_WITHOUT_BATTERY
+*$label Not_EV
 /;
