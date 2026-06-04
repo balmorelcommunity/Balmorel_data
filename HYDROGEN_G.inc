@@ -1,6 +1,11 @@
-SET G(GGG)  'All combination technologies'         
-/                                                  
-ACHEMA1_ST_NGAS_EXT_CT-BIOMETH                     
+SET G(GGG)  'All combination technologies'
+/
+* --- _CT-BIOMETH variants gated by %COMBTECH% flag (2026-05-27 cleanup) ---
+* These are NGAS-plant biomethane retrofit variants used by the COMBTECH
+* concept. Skipped when COMBTECH is not active to avoid ~235 dead generators
+* in the LP universe. To re-enable, set $setglobal COMBTECH yes in balopt.opt.
+$ifi not %COMBTECH%==yes $goto SKIP_CT_BIOMETH_G
+ACHEMA1_ST_NGAS_EXT_CT-BIOMETH
 ACHEMA2_ST_NGAS_EXT_CT-BIOMETH                     
 ALYTUS_ENG_NGAS_BP_CT-BIOMETH                      
 GNR_BO_NGAS_E-100_CT-BIOMETH                       
@@ -236,8 +241,9 @@ GNR_IND-BO_NGASCCS_E-96_MS-20-MW_Y-2050_CT-BIOMETH
 GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020_CT-BIOMETH
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020_CT-BIOMETH
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH   
-$label NO_CCS                                      
-*ELECTROLYZER                                      
+$label NO_CCS
+$label SKIP_CT_BIOMETH_G
+*ELECTROLYZER
 GNR_ELYS_ELEC_AEC                                  
 GNR_ELYS_ELEC_AEC_Y-2020                           
 GNR_ELYS_ELEC_AEC_Y-2030                           

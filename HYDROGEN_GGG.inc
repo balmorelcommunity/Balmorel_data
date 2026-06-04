@@ -1,6 +1,8 @@
-SET GGG  'All combination technologies'            
-/                                                  
-ACHEMA1_ST_NGAS_EXT_CT-BIOMETH                     
+SET GGG  'All combination technologies'
+/
+* --- _CT-BIOMETH variants gated by %COMBTECH% (2026-05-27 cleanup) ---
+$ifi not %COMBTECH%==yes $goto SKIP_CT_BIOMETH_GGG
+ACHEMA1_ST_NGAS_EXT_CT-BIOMETH
 ACHEMA2_ST_NGAS_EXT_CT-BIOMETH                     
 ALYTUS_ENG_NGAS_BP_CT-BIOMETH                      
 GNR_BO_NGAS_E-100_CT-BIOMETH                       
@@ -236,9 +238,10 @@ GNR_IND-BO_NGASCCS_E-96_MS-20-MW_Y-2050_CT-BIOMETH
 GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020_CT-BIOMETH
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020_CT-BIOMETH
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH   
-$label NO_CCS                                      
-*ELECTROLYZER                                      
-GNR_ELYS_ELEC_AEC                                  
+$label NO_CCS
+$label SKIP_CT_BIOMETH_GGG
+*ELECTROLYZER
+GNR_ELYS_ELEC_AEC
 GNR_ELYS_ELEC_AEC_Y-2020                           
 GNR_ELYS_ELEC_AEC_Y-2030                           
 GNR_ELYS_ELEC_AEC_Y-2040                           

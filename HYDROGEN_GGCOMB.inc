@@ -1,6 +1,8 @@
-SET GGCOMB(GGG,IGGGALIAS) 'Pair of combination technologies'                                                            
-/                                                                                                                       
-ACHEMA1_ST_NGAS_EXT                                          .    ACHEMA1_ST_NGAS_EXT_CT-BIOMETH                        
+SET GGCOMB(GGG,IGGGALIAS) 'Pair of combination technologies'
+/
+* --- _CT-BIOMETH pairings gated by %COMBTECH% (2026-05-27 cleanup) ---
+$ifi not %COMBTECH%==yes $goto SKIP_CT_BIOMETH_GGCOMB
+ACHEMA1_ST_NGAS_EXT                                          .    ACHEMA1_ST_NGAS_EXT_CT-BIOMETH
 ACHEMA2_ST_NGAS_EXT                                          .    ACHEMA2_ST_NGAS_EXT_CT-BIOMETH                        
 ALYTUS_ENG_NGAS_BP                                           .    ALYTUS_ENG_NGAS_BP_CT-BIOMETH                         
 GNR_BO_NGAS_E-100                                            .    GNR_BO_NGAS_E-100_CT-BIOMETH                          
@@ -237,6 +239,7 @@ GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020                     .    GNR_ST_NGASCCS
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020                     .    GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020_CT-BIOMETH   
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020                        .    GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH      
                                                                                                                         
-$label NO_CCS                                                                                                           
-                                                                                                                        
-/;                                                                                                                      
+$label NO_CCS
+$label SKIP_CT_BIOMETH_GGCOMB
+
+/;

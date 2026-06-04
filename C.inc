@@ -1,6 +1,8 @@
 SET C(CCC)  'Countries in the simulation'    
 /                                            
-NORWAY                                       
+
+
+NORWAY                                    
 DENMARK                                      
 FINLAND                                      
 GERMANY                                      
@@ -35,6 +37,6 @@ BOSNIA_AND_HERZEGOVINA
 SERBIA                                       
 *TURKEY                                       
 MALTA                                        
-CYPRUS
-                                
+CYPRUS                             
+
 /;                                           
