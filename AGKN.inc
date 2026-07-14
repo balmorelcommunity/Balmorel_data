@@ -184,7 +184,41 @@ GNR_CC_NGAS_CND_E-63_LS-100-MW_Y-2050
 $ifi %CCS%==yes GNR_CC_NGASCCS_CND_E-59_LS-100-MW_Y-2020                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 $ifi %CCS%==yes GNR_CC_NGASCCS_CND_E-61_LS-100-MW_Y-2030                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 $ifi %CCS%==yes GNR_CC_NGASCCS_CND_E-62_LS-100-MW_Y-2040                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-$ifi %CCS%==yes GNR_CC_NGASCCS_CND_E-63_LS-100-MW_Y-2050                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+$ifi %CCS%==yes GNR_CC_NGASCCS_CND_E-63_LS-100-MW_Y-2050   
+$ifi %CCS%==yes GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2020            
+$ifi %CCS%==yes GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2030            
+$ifi %CCS%==yes GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2040            
+$ifi %CCS%==yes GNR_ST_STRWCCS_BP_E-31_LS-132-MW-FEED_Y-2050            
+$ifi %CCS%==yes GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2020           
+$ifi %CCS%==yes GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2030           
+$ifi %CCS%==yes GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2040           
+$ifi %CCS%==yes GNR_ST_STRWCCS_CND_E-31_LS-132-MW-FEED_Y-2050           
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2020         
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2030         
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2040         
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_BP_E-29_LS-600-MW-FEED_Y-2050         
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2020        
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2030        
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2040        
+$ifi %CCS%==yes GNR_ST_WOODCHICCS_CND_E-29_LS-600-MW-FEED_Y-2050        
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2020         
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2030         
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2040         
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_BP_E-33_LS-800-MW-FEED_Y-2050         
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2020        
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2030        
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2040        
+$ifi %CCS%==yes GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2050        
+$ifi %CCS%==yes GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2020              
+$ifi %CCS%==yes GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2030              
+$ifi %CCS%==yes GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2040              
+$ifi %CCS%==yes GNR_IND-BO_WOODCHICCS_E-90_MS-20-MW_Y-2050              
+$ifi %CCS%==yes GNR_IND-BO_BGASCCS_E-93_MS-20-MW_Y-2020                 
+$ifi %CCS%==yes GNR_IND-BO_BGASCCS_E-94_MS-20-MW_Y-2030                 
+$ifi %CCS%==yes GNR_IND-BO_BGASCCS_E-95_MS-20-MW_Y-2040                 
+$ifi %CCS%==yes GNR_IND-BO_BGASCCS_E-96_MS-20-MW_Y-2050                 
+$ifi %CCS%==yes GNR_IND-DF_WOODCHICCS_E-100_MS-10-MW_Y-2020             
+$ifi %CCS%==yes GNR_IND-DF_BGASCCS_E-100_MS-3-MW_Y-2020                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 GNR_ENG_NGAS_CND_E-47_Y-2020                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 GNR_ENG_NGAS_CND_E-48_Y-2030                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
