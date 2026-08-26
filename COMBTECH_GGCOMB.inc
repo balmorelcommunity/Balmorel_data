@@ -1,5 +1,6 @@
 SET GGCOMB(GGG,IGGGALIAS) 'Pair of combination technologies'                                                      
-/                                                                                                                 
+/  
+$ontext                                                                                                               
 ACHEMA1_ST_NGAS_EXT                                          .    ACHEMA1_ST_NGAS_EXT_CT-BGAS                     
 ACHEMA2_ST_NGAS_EXT                                          .    ACHEMA2_ST_NGAS_EXT_CT-BGAS                     
 ALYTUS_ENG_NGAS_BP                                           .    ALYTUS_ENG_NGAS_BP_CT-BGAS                      
@@ -236,5 +237,6 @@ GNR_IND-BO_NGASCCS_E-96_MS-20-MW_Y-2050                      .    GNR_IND-BO_NGA
 GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020                     .    GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020_CT-BGAS
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020                     .    GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020_CT-BGAS
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020                        .    GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020_CT-BGAS   
-$label NO_CCS                                                                                                     
+$label NO_CCS    
+$offtext                                                                                                  
 /;                                                                                                                

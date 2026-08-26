@@ -182,7 +182,8 @@ RZES-2_ST_NGAS_BP                                            .    RZES-2_ST_NGAS
 VUOSAARIB_CC_NGAS_EXT                                        .    VUOSAARIB_CC_NGAS_EXT_CT-BIOMETH                      
 ZIEL-1_ST_NGAS_BP                                            .    ZIEL-1_ST_NGAS_BP_CT-BIOMETH                          
 ZIEL-3_ST_NGAS_BP                                            .    ZIEL-3_ST_NGAS_BP_CT-BIOMETH                          
-GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020                           .    GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH         
+GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020                           .    GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH  
+GNR_BACKUP_ELECTRICITY                                       .    GNR_BACKUP_ELECTRICITY_CT-BIOMETH        
 $ifi not %CCS%==yes $goto NO_CCS                                                                                        
 GNR_BO_NGASCCS_E-105_MS-5-MW_Y-2020                          .    GNR_BO_NGASCCS_E-105_MS-5-MW_Y-2020_CT-BIOMETH        
 GNR_BO_NGASCCS_E-106_MS-5-MW_Y-2030                          .    GNR_BO_NGASCCS_E-106_MS-5-MW_Y-2030_CT-BIOMETH        
@@ -236,7 +237,7 @@ GNR_IND-BO_NGASCCS_E-96_MS-20-MW_Y-2050                      .    GNR_IND-BO_NGA
 GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020                     .    GNR_ST_NGASCCS_CND_E-47_LS-400-MW_Y-2020_CT-BIOMETH   
 GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020                     .    GNR_ST_NGASCCS_EXT_E-47_LS-400-MW_Y-2020_CT-BIOMETH   
 GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020                        .    GNR_ST_NGASCCS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH      
-                                                                                                                        
+                                                                                                                       
 $label NO_CCS                                                                                                           
                                                                                                                         
 /;                                                                                                                      

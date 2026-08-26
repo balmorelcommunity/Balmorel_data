@@ -1,9 +1,9 @@
 TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'                                                                                                                                               
                                                                         STRAW           WOOD      WOODWASTE BIOGAS         OTHERGAS   RETORTGAS SHALE    COAL PEAT     NATGAS WOODCHIPS        WOODPELLETS     
 2016.DENMARK                                                            93804303.9755   211677970 5588136   40193869.5249                                                     2893492767.2     731390134.831333
-2016.GERMANY                                                            1020938761.4351 513307043 148002229 257187105.5387                                                    12606502422.85   2226187445.976  
+2016.GERMANY                                                            1020938761.4351 513307043 148002229 324189000.0000                                                    12606502422.85   2226187445.976  
 2016.ESTONIA                                                            46954053.2735   39572110  7509921   4722004.5785                        92988000 eps  4550000         930616790.6      158493810.356334
-2016.LATVIA                                                             94651710.0556   69203999  1077317   7373506.1176                                                      1346464828.45    236590336.761334
+2016.LATVIA                                                             94651710.0556   69203999  1077317   7973506.1176                                                      1346464828.45    236590336.761334
 2016.LITHUANIA                                                          129089272.7883  46599840  1706717   13396211.4011                                                     1248805983.6     162615973.047666
 2016.NETHERLANDS                                                        178178229.4143  6984583   33964401  107306169.0948                                                    1252542108.65    137847929.805333
 2016.POLAND                                                             408774145.8347  251337100 52638061  106633628.2096                                                    6857966811.15    1023281716.97967
@@ -175,7 +175,7 @@ TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'
 2048.ESTONIA                                                                                                                                    25788000 eps  10740000                                         
 2049.ESTONIA                                                                                                                                    25788000 eps  11100000                                         
 2050.ESTONIA                                                                                                                                    25788000 eps  11460000                                         
-;                                                                                                                                                                                                              
+;                                                                                                                                                                                                                  
 GMAXF(Y,CCCRRRAAA,'STRAW')=GMAXF('2016',CCCRRRAAA,'STRAW');                                                                                                                                                    
 GMAXF(Y,CCCRRRAAA,'WOOD')=GMAXF('2016',CCCRRRAAA,'WOOD');                                                                                                                                                      
 GMAXF(Y,CCCRRRAAA,'WOODWASTE')=GMAXF('2016',CCCRRRAAA,'WOODWASTE');                                                                                                                                            
@@ -184,8 +184,8 @@ GMAXF(Y,CCCRRRAAA,'OTHERGAS')=GMAXF('2016',CCCRRRAAA,'OTHERGAS');
 GMAXF(Y,CCCRRRAAA,'COAL')=GMAXF('2016',CCCRRRAAA,'COAL');                                                                                                                                                      
 GMAXF(Y,CCCRRRAAA,'WOODCHIPS')=GMAXF('2016',CCCRRRAAA,'WOODCHIPS');                                                                                                                                            
 GMAXF(Y,CCCRRRAAA,'WOODPELLETS')=GMAXF('2016',CCCRRRAAA,'WOODPELLETS');   
-
-
+  
+GMAXF('2050', CCCRRRAAA, 'COAL')=EPS;
 $ifi not %hydrogen%==yes $goto no_hydrogen_addon
 *IK add on limiting on three countries import of hydrogen
 *Import from Tunisia 2030 2040 2050, 70, 150, 375 TWh
@@ -219,7 +219,7 @@ $label no_hydrogen_addon
 *Removing not needed data if stepwiseprice addon is activated                                                                                                                                                  
 $ifi %STEPWISEPRICE%==yes GMAXF(Y,CCCRRRAAA,STEPWISEPRICE_FFF)=0;                                                                                                                                              
                                                                                                                                                                                                                
-                                                                                                                                                                                                               
+                                                                                                                                                                                                         
                                                                                                                                                                                                                
                                                                                                                                                                                                                
                                                                                                                                                                                                                

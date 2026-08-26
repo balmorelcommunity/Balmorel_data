@@ -286,5 +286,6 @@ GNR_BIOGASMETHANATION_E-168_Y-2050
 GNR_IMPORT_H2                                      
 *BACKUP                                            
 GNR_BACKUP_HYDROGEN                                
-GNR_BACKUP_BIOMETHANE                              
+GNR_BACKUP_BIOMETHANE  
+GNR_BACKUP_ELECTRICITY_CT-BIOMETH                             
 /;                                                 
