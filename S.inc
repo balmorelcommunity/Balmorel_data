@@ -1,4 +1,5 @@
 SET S(SSS)  'Seasons in the simulation'
-/                                      
-S3,S15,S27,S42                         
-/;                                     
+/                                                                                       
+S02, S11, S20, S29, S38, S47    
+*S03, S15, S27, S42                                                     
+/;   

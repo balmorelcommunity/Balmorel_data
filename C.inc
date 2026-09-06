@@ -1,7 +1,7 @@
 SET C(CCC)  'Countries in the simulation' 
 /                                         
 *ALBANIA                                  
-*AUSTRIA                                  
+AUSTRIA                                  
 BELGIUM                                   
 *BOSNIA_AND_HERZEGOVINA                   
 *BULGARIA                                 
@@ -11,12 +11,12 @@ BELGIUM
 DENMARK                                   
 ESTONIA                                   
 FINLAND                                   
-*FRANCE                                   
+FRANCE                                   
 GERMANY                                   
 *GREECE                                   
 *HUNGARY                                  
-*IRELAND                                  
-*ITALY                                    
+IRELAND                                  
+ITALY                                    
 LATVIA                                    
 LITHUANIA                                 
 *LUXEMBOURG                               
@@ -26,14 +26,14 @@ NETHERLANDS
 *NORTH_MACEDONIA                          
 NORWAY                                    
 POLAND                                    
-*PORTUGAL                                 
+PORTUGAL                                 
 *ROMANIA                                  
 *SERBIA                                   
 *SLOVAKIA                                 
 *SLOVENIA                                 
-*SPAIN                                    
+SPAIN                                    
 SWEDEN                                    
-*SWITZERLAND                              
+SWITZERLAND                              
 *TURKEY                                   
 UNITED_KINGDOM                            
 /;                                        
