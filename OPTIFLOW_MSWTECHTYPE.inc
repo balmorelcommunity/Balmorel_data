@@ -1,7 +1,0 @@
-SET MSWTECHTYPE(PROC,TECHTYPE)
-                              
-/                             
-                              
-                              
-                              
-/;                            

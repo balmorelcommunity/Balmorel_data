@@ -23,22 +23,5 @@ AUSTRIA                                                                      0.0
 CZECH_REPUBLIC                                                               0.094 
 SPAIN                                                                        0.094 
 PORTUGAL                                                                     0.094 
-SLOVAKIA                                                                     0.094 
-HUNGARY                                                                      0.094 
-SLOVENIA                                                                     0.094 
-CROATIA                                                                      0.094 
-ROMANIA                                                                      0.094 
-BULGARIA                                                                     0.094 
-GREECE                                                                       0.094 
-IRELAND                                                                      0.094 
-LUXEMBOURG                                                                   0.094 
-ALBANIA                                                                      0.094 
-MONTENEGRO                                                                   0.094 
-NORTH_MACEDONIA                                                              0.094 
-BOSNIA_AND_HERZEGOVINA                                                       0.094 
-SERBIA                                                                       0.094 
-TURKEY                                                                       0.094 
-MALTA                                                                        0.094 
-CYPRUS                                                                       0.094 
                                                                                    
 /;                                                                                 

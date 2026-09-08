@@ -1,0 +1,6 @@
+* DATACENTERS ANNUITYCG(CCC,GGG) ADDITIONS                  
+                                                            
+ANNUITYCG(CCC,'G_DC_ABS_CHILLER')          = 0.106552172686;
+ANNUITYCG(CCC,'G_DC_ELE_CHILLER')          = 0.106552172686;
+ANNUITYCG(CCC,'G_DC_COOL_STORAGE')         = 0.050523489324;
+ANNUITYCG(CCC,'G_DC_HEATPUMP')             = 0.106552172686;

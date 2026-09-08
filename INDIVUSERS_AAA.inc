@@ -63,40 +63,6 @@ ES_IDVU-HOTWTR
 ES_IDVU-SPACEHEAT                                                                                                                                                          
 PT_IDVU-HOTWTR                                                                                                                                                             
 PT_IDVU-SPACEHEAT                                                                                                                                                          
-SK_IDVU-HOTWTR                                                                                                                                                             
-SK_IDVU-SPACEHEAT                                                                                                                                                          
-HU_IDVU-HOTWTR                                                                                                                                                             
-HU_IDVU-SPACEHEAT                                                                                                                                                          
-SI_IDVU-HOTWTR                                                                                                                                                             
-SI_IDVU-SPACEHEAT                                                                                                                                                          
-HR_IDVU-HOTWTR                                                                                                                                                             
-HR_IDVU-SPACEHEAT                                                                                                                                                          
-RO_IDVU-HOTWTR                                                                                                                                                             
-RO_IDVU-SPACEHEAT                                                                                                                                                          
-BG_IDVU-HOTWTR                                                                                                                                                             
-BG_IDVU-SPACEHEAT                                                                                                                                                          
-GR_IDVU-HOTWTR                                                                                                                                                             
-GR_IDVU-SPACEHEAT                                                                                                                                                          
-IE_IDVU-HOTWTR                                                                                                                                                             
-IE_IDVU-SPACEHEAT                                                                                                                                                          
-LU_IDVU-HOTWTR                                                                                                                                                             
-LU_IDVU-SPACEHEAT                                                                                                                                                          
-AL_IDVU-HOTWTR                                                                                                                                                             
-AL_IDVU-SPACEHEAT                                                                                                                                                          
-ME_IDVU-HOTWTR                                                                                                                                                             
-ME_IDVU-SPACEHEAT                                                                                                                                                          
-MK_IDVU-HOTWTR                                                                                                                                                             
-MK_IDVU-SPACEHEAT                                                                                                                                                          
-BA_IDVU-HOTWTR                                                                                                                                                             
-BA_IDVU-SPACEHEAT                                                                                                                                                          
-RS_IDVU-HOTWTR                                                                                                                                                             
-RS_IDVU-SPACEHEAT                                                                                                                                                          
-TR_IDVU-HOTWTR                                                                                                                                                             
-TR_IDVU-SPACEHEAT                                                                                                                                                          
-MT_IDVU-HOTWTR                                                                                                                                                             
-MT_IDVU-SPACEHEAT                                                                                                                                                          
-CY_IDVU-HOTWTR                                                                                                                                                             
-CY_IDVU-SPACEHEAT                                                                                                                                                          
                                                                                                                                                                            
 $ifi not %GROUP_DEMAND_SHIFT%==yes        $goto NO_INDIVUSERS_AAA                                                                                                          
 BE_IDVU_RES_BO_BIO-HOTWTR            ,    BE_IDVU_TER_BO_BIO-HOTWTR            ,    BE_IDVU_RES_BO_BIO-SPACEHEAT            ,    BE_IDVU_TER_BO_BIO-SPACEHEAT              

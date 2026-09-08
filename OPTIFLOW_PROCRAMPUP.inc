@@ -1,7 +1,0 @@
-PARAMETER PROCRAMPUP(PROC)
-/                         
-                          
-                          
-                          
-                          
-/;                        

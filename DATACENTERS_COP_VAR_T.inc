@@ -1,0 +1,5 @@
+*COP_VAR_T                                                                                                                                                                 
+                                                                                                                                                                           
+COP_VAR_T(IA,G,SSS,TTT)$((SUM(YYY,GKFX(YYY,IA,G)) OR AGKN(IA,G)) AND  GDATA(G,'GDTECHGROUP') EQ HEATPUMP AND GDATA(G,'GDSUBTECHGROUP') EQ DC_ABSCHILLER )=GDATA(G,'GDFE'); 
+COP_VAR_T(IA,G,SSS,TTT)$((SUM(YYY,GKFX(YYY,IA,G)) OR AGKN(IA,G)) AND  GDATA(G,'GDTECHGROUP') EQ HEATPUMP AND GDATA(G,'GDSUBTECHGROUP') EQ DC_ELECCHILLER )=GDATA(G,'GDFE');
+COP_VAR_T(IA,G,SSS,TTT)$((SUM(YYY,GKFX(YYY,IA,G)) OR AGKN(IA,G)) AND  GDATA(G,'GDTECHGROUP') EQ HEATPUMP AND GDATA(G,'GDSUBTECHGROUP') EQ DC_HEATPUMP)=GDATA(G,'GDFE');    

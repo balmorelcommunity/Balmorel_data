@@ -1,5 +1,0 @@
-PARAMETER PROCRAMPDOWN(PROC)
-/                           
-                            
-                            
-/;                          

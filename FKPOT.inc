@@ -53,4 +53,15 @@ EE_A
 LV_A                                                                                                                                        
 LT_A                                                                                                                                        
 PL_A                                                                                                                                        
+                                                                                                                                            
+*                                                                                                                                           
+DK1_Offshore                                                                                                                                
+DK2_Offshore                                                                                                                                
+                                                                                                                                            
+                                                                                                                                            
+                                                                                                                                            
+                                                                                                                                            
+                                                                                                                                            
 ;                                                                                                                                           
+                                                                                                                                            
+                                                                                                                                            

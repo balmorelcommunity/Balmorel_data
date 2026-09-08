@@ -1,5 +1,6 @@
 *Additions XLOSS from offshore grid                                                                      
-*Country to country                                                                                      
+*Country to country           
+$offdigit                                                                           
 XLOSS('BE','DE4-W')=0.012572104;                                                                         
 XLOSS('BE','DK1')=0.020003024;                                                                           
 XLOSS('BE','NL')=0.005201848;                                                                            
