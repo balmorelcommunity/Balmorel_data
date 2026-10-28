@@ -17604,3 +17604,7 @@ ANNUITYCG('CYPRUS','GNR_BIOGASMETHANATION_E-168_Y-2040')=0.064011962786;
 ANNUITYCG('CYPRUS','GNR_BIOGASMETHANATION_E-168_Y-2050')=0.064011962786;
 ANNUITYCG('CYPRUS','GNR_BACKUP_HYDROGEN')=0.064011962786;
 ANNUITYCG('CYPRUS','GNR_BACKUP_BIOMETHANE')=0.064011962786;
+
+* VRE annuities from the technologies' own lifetimes. Included last, so it overrides the 30-year values above.
+$if     EXIST '../data/ANNUITYCG_renewables.inc' $INCLUDE         '../data/ANNUITYCG_renewables.inc';
+$if not EXIST '../data/ANNUITYCG_renewables.inc' $INCLUDE '../../base/data/ANNUITYCG_renewables.inc';
