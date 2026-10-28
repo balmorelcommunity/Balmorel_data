@@ -1,3 +1,4 @@
+* Money: EUR2012, not converted: only used by the DFLEXQUANT addon. Multiply by 1.022 (EU HICP 2016/2012) before use, inputs are EUR2016.
 PARAMETER DEFP_BASE(RRR)  'Nominal annual average consumer electricity price (including taxes) in the base year (Money/MWh)'         
 /                                                                                                                                    
 DK1                                                                                                                          40      

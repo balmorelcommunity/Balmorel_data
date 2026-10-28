@@ -1,3 +1,4 @@
+* Money: EUR2012, not converted: offshore areas, which have no heat demand; pybalmorel writes it. Multiply by 1.022 (EU HICP 2016/2012) before use, inputs are EUR2016.
 $onMulti 
  PARAMETER DISCOST_H(AAA)  'Cost of heat distribution (Money/MWh)'   
 /
