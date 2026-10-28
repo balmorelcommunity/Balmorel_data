@@ -183,6 +183,7 @@ VUOSAARIB_CC_NGAS_EXT                                        .    VUOSAARIB_CC_N
 ZIEL-1_ST_NGAS_BP                                            .    ZIEL-1_ST_NGAS_BP_CT-BIOMETH                          
 ZIEL-3_ST_NGAS_BP                                            .    ZIEL-3_ST_NGAS_BP_CT-BIOMETH                          
 GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020                           .    GNR_ST_NGAS_BP_E-7_MS-15-MW_Y-2020_CT-BIOMETH         
+GNR_BACKUP_ELECTRICITY                                       .    GNR_BACKUP_ELECTRICITY_CT-BIOMETH
 $ifi not %CCS%==yes $goto NO_CCS                                                                                        
 GNR_BO_NGASCCS_E-105_MS-5-MW_Y-2020                          .    GNR_BO_NGASCCS_E-105_MS-5-MW_Y-2020_CT-BIOMETH        
 GNR_BO_NGASCCS_E-106_MS-5-MW_Y-2030                          .    GNR_BO_NGASCCS_E-106_MS-5-MW_Y-2030_CT-BIOMETH        
