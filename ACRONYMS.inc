@@ -11,6 +11,6 @@ BACKUP_ELECTRICITY,BACKUP_HEAT;
 * They can be used for multiple purposes                                                                                                                                                                                               
 * They should generally not be changed.                                                                                                                                                                                                
 * New technology types may be added only if also code specifying their properties are added.                                                                                                                                           
-ACRONYMS RG1,RG2,RG3,AIR,AIR_AIR,AIR_WTR, EXCESSHEAT_WTR, GROUND_WTR, EXCESSHEAT,GROUND;
+ACRONYMS RG1, RG2, RG3, AIR, AIR_AIR, AIR_WTR, EXCESSHEAT_WTR, GROUND_WTR, EXCESSHEAT, GROUND, HUB_OFF;
                                                                                                                                                                                                                                        
                                                                                                                                                                                                                                        
