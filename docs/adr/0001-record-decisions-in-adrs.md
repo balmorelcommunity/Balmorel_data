@@ -1,0 +1,5 @@
+# Record base data decisions in ADRs
+
+We record important decisions about base data as short ADRs in `docs/adr/`, following the framework's [ADR 0001](https://github.com/balmorelcommunity/Balmorel/blob/master/docs/adr/0001-record-decisions-in-adrs.md), which also explains when to write one and how to use `grill-with-docs`. ADRs here cover data content: sources, assumptions, aggregation and coverage. Decisions about data structure, such as new sets or the files an addon reads, are recorded in the framework, because the model code depends on them. A change that spans both repositories gets one ADR where the main change merges, and a link from the other. Terms are defined in the framework's [GLOSSARY.md](https://github.com/balmorelcommunity/Balmorel/blob/master/GLOSSARY.md) (`../../GLOSSARY.md` when this repository is cloned into `base/data`), and this repository has no glossary of its own.
+
+ADRs are numbered in order on the branch where they are written, and renumbered to the next free number when merged to master. ADRs on project branches that are never merged stay on that branch with the data they explain. We do not backfill ADRs for existing branches.

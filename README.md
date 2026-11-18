@@ -1,18 +1,20 @@
-# README #
+# Balmorel_data
 
-Data for the master branch of the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel). Clone this repository into base/ for easy version control of both framework code and base data. Remember to rename the cloned folder from "Balmorel_data" to "data" for proper functioning. 
+Base data for the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel): the .inc files that every scenario falls back on. Clone this repository into `Balmorel/base` and rename the folder from `Balmorel_data` to `data`, so the framework can find it.
 
-## Generating .inc files from Excel
-* An excel file exist that can be used to generate .inc-files in this repository
-* Store the file in a directory outside of OneDrive synchronisation
-* In the same diretory/On the same level create a new folder for the .inc files (e.g. data)
-* Open the sheet 'Settings' of the dataset
-* Enable Editing
-* Edit the GAMS path e.g. like: C:\Users\some_user\games_folder\
-* Edit the Export diretory - only the name of the folder created in step 2: data\
-* Press the 'Export All' button
+## Preprocessing
+
+This repository holds only .inc files. The preprocessing tools that produce them live elsewhere and should be listed on the framework's [pre-processing page](https://balmorelcommunity.github.io/Balmorel/pre_processing.html). See [ADR 0002](docs/adr/0002-preprocessing-tools-live-outside-this-repository.md).
 
 ## Making changes to the master branch
-* Changes to the master branch are only possible through a pull request.
-* A pull request must only be approved if the resulting dataset corresponds to the latest major version of the xlsm file.
 
+* Changes to the master branch are only possible through a pull request.
+* The pull request description must state:
+  1. how the data was generated: the preprocessing tool, with a link and the version or commit used, or that the files were edited by hand
+  2. the raw data source
+* Commit only the .inc files your change is about, and discard any other files your preprocessing tool wrote.
+* If the change involves a data decision, add an ADR in the same pull request. See [ADR 0001](docs/adr/0001-record-decisions-in-adrs.md).
+
+## Decisions and terms
+
+Decisions about base data are recorded in [docs/adr](docs/adr). Terms are defined in the framework's [GLOSSARY.md](https://github.com/balmorelcommunity/Balmorel/blob/master/GLOSSARY.md) (`../../GLOSSARY.md` when cloned into `base/data`).

@@ -1,0 +1,3 @@
+# Preprocessing tools live outside this repository
+
+This repository holds only the .inc files that Balmorel reads. They can be produced by different preprocessing tools, such as an Excel workbook, a Snakemake pipeline or a Python script, or edited by hand, and each tool lives in its own location. Keeping the tools out lets several of them contribute to the same base data without this repository depending on any one of them, so changes are reviewed on the .inc files themselves, whichever tool produced them. This replaces the earlier rule that master must match the latest major version of an xlsm workbook.
