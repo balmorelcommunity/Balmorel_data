@@ -1,6 +1,6 @@
 # Balmorel_data
 
-Base data for the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel): the .inc files that every scenario falls back on. Clone this repository into `Balmorel/base` and rename the folder from `Balmorel_data` to `data`, so the framework can find it.
+Base data for the master branch of the [Balmorel framework](https://github.com/balmorelcommunity/Balmorel): the .inc files that every scenario falls back on. Clone this repository into `Balmorel/base` and rename the folder from `Balmorel_data` to `data`, so the framework can find it. It can also be added as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to the framework, to ensure that framework and data branches are git tracked together.
 
 ## Preprocessing
 
